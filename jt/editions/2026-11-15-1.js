@@ -6,6 +6,7 @@ window.EDITION = {
   date: "DIMANCHE 15 NOVEMBRE 2026",
   file: "ecodujour-2026-11-15-1",
   voice: "fr_FR-tom-medium",
+  voiceEngine: "clone", // "clone" = voix de l'utilisateur (Chatterbox), sinon Piper
   hook: ["Un message qui met", "*un jour entier* à arriver !"],
   hookSay: "Un message qui met|un jour entier à arriver !",
   hookIllustration: "probe",
