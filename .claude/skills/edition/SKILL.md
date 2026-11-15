@@ -25,10 +25,11 @@ Suis `jt/QUOTIDIEN.md` étape par étape. Rappels essentiels :
 
 1. `git fetch origin jt && git checkout jt && git pull origin jt`. Vérifie que `/root/venvs/cb/bin/python` existe, sinon installe comme indiqué dans QUOTIDIEN.md.
 2. **Sujets** : actus des dernières 24 h, ouvre les articles, **deux sources sérieuses** par sujet. Pas de drame traité légèrement, neutralité politique, insolite vrai, aucun visage réel ni logo.
-3. **Édition** : 4 sous-titres par rubrique, **24 caractères maximum par ligne**, `say` avec nombres en toutes lettres, `phonetic` pour les noms difficiles, `caption` avec question et hashtags.
-4. **Illustration** : si aucune de `pay, stage, mic, globe, boat, rocket, probe` ne convient, ajoute-en une dans `jt/scene.html` (même style sépia) et vérifie-la avec `node render.js ED --preview 8,12`.
-5. **Fabrication** : `jt/tools/daily.sh ED`. Contrôle les lignes `qc` (≥ 0,75, sinon reformule la réplique et relance) et la durée (≥ 60 s). Regarde quelques images avec `--preview`.
-6. **Livraison** : envoie `jt/out/ecodujour-ED.mp4`, `jt/out/story-ED.jpg` et `jt/out/publication-ED.txt` avec l'outil d'envoi de fichiers. Message court : les 3 sujets, le texte de publication prêt à copier, les sources, les réserves.
-7. **Sauvegarde** : commite l'édition, la story, le texte, `out/timeline-ED.js`, `out/voice-ED.js` et toute nouvelle illustration sur `jt` (jamais de `.mp4`), puis `git push origin jt`.
+3. **Édition** : 4 sous-titres par rubrique, **26 caractères maximum par ligne**, `say` avec nombres en toutes lettres, `phonetic` pour les noms difficiles, `caption` avec question et hashtags.
+4. **Vérification** : lance le sous-agent `verificateur` avec le chemin de l'édition et les liens des sources ; applique ses corrections jusqu'à **VALIDÉ** avant tout rendu.
+5. **Illustration** : si aucune de `pay, stage, mic, globe, boat, rocket, probe` ne convient, ajoute-en une dans `jt/scene.html` (même style sépia) et vérifie-la avec `node render.js ED --preview 8,12`.
+6. **Fabrication** : `jt/tools/daily.sh ED`. Contrôle les lignes `qc` (≥ 0,75, sinon reformule la réplique et relance) et la durée (≥ 60 s). Regarde quelques images avec `--preview`.
+7. **Livraison** : envoie `jt/out/ecodujour-ED.mp4`, `jt/out/story-ED.jpg` et `jt/out/publication-ED.txt` avec l'outil d'envoi de fichiers. Message court : les 3 sujets, le texte de publication prêt à copier, les sources, les réserves.
+8. **Sauvegarde** : commite l'édition, la story, le texte, `out/timeline-ED.js`, `out/voice-ED.js` et toute nouvelle illustration sur `jt` (jamais de `.mp4`), puis `git push origin jt`.
 
 Si la consigne contredit une règle éditoriale, applique la règle et explique pourquoi.

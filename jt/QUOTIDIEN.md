@@ -42,7 +42,7 @@ Copier `editions/2026-11-15-1.js` en `editions/AAAA-MM-JJ-1.js` et tout remplace
 - `date` : « JOUR JJ MOIS AAAA » en majuscules.
 - `hook` / `hookSay` : une phrase-choc sur l'insolite (2 lignes courtes).
 - Par rubrique : `category`, `title` (≤ 40 caractères), `illustration`, **4** `subs` et 4 `say`.
-  - `subs` : 2 lignes de **24 caractères maximum** chacune, mot clé entre `*astérisques*`.
+  - `subs` : 2 lignes de **26 caractères maximum** chacune, mot clé entre `*astérisques*`.
   - `say` : ce que dit Maurice, nombres et sigles **en toutes lettres**, `|` entre deux phrases.
 - `question` / `questionSay` : une question qui fait commenter, liée à un sujet.
 - `phonetic` : orthographe phonétique des noms propres difficiles (pour la voix seulement).
@@ -51,6 +51,12 @@ Copier `editions/2026-11-15-1.js` en `editions/AAAA-MM-JJ-1.js` et tout remplace
 
 Illustrations disponibles : `pay`, `stage`, `mic`, `globe`, `boat`, `rocket`, `probe`.
 Si aucune ne convient, en ajouter une dans `scene.html` (fonction `buildXxx` + branche dans `updateIll` + nom dans la liste), dans le même style sépia, puis vérifier avec `node render.js ED --preview 8,12`.
+
+## 3 bis. Faire vérifier
+
+Avant tout rendu, lance le sous-agent **`verificateur`** (`.claude/agents/verificateur.md`) avec le chemin de l'édition et les liens des sources trouvées.
+S'il répond **À CORRIGER**, applique ses corrections dans l'édition, puis relance-le jusqu'à **VALIDÉ** (2 allers-retours maximum ; s'il reste un doute sur un sujet, remplace ce sujet).
+Si le sous-agent n'est pas disponible, fais toi-même ses contrôles en suivant ce fichier.
 
 ## 4. Fabriquer
 
