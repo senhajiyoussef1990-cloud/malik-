@@ -41,7 +41,16 @@ function qc(list) {
   return JSON.parse(fs.readFileSync(job.replace(".json", ".qc.json")));
 }
 if (clone) {
-  let todo = clips, seed = 1930;
+  // cache : une réplique déjà réussie n'est pas régénérée
+  const cache = path.join(out, "voice-cache");
+  fs.mkdirSync(cache, { recursive: true });
+  const key = (c) => require("crypto").createHash("sha1").update(c.text + "|clone|ref-maurice|0.55|0.5").digest("hex").slice(0, 16);
+  for (const c of clips) {
+    const k = path.join(cache, key(c));
+    if (fs.existsSync(k + ".wav") && fs.existsSync(k + ".json")) { fs.copyFileSync(k + ".wav", c.raw); c.qc = JSON.parse(fs.readFileSync(k + ".json")); c.cached = true; }
+  }
+  let todo = clips.filter((c) => !c.cached || c.qc.score < 0.85), seed = c0seed(clips);
+  function c0seed() { return 1930 + (process.env.SEED_SHIFT ? +process.env.SEED_SHIFT : 0); }
   // plusieurs essais par réplique ; on garde celui que Whisper comprend le mieux
   for (let pass = 0; pass < 4 && todo.length; pass++, seed += 7) {
     synthClone(todo, seed);
@@ -52,7 +61,11 @@ if (clone) {
     todo = todo.filter((c) => c.qc.score < 0.85);
     todo.forEach((c) => console.log(`  essai ${pass + 1}, meilleur ${c.qc.score} : « ${c.qc.heard} »`));
   }
-  clips.forEach((c) => console.log(`  qc ${c.qc.score.toFixed(2)}  « ${c.qc.heard} »`));
+  clips.forEach((c) => {
+    console.log(`  qc ${c.qc.score.toFixed(2)}${c.cached ? " (cache)" : ""}  « ${c.qc.heard} »`);
+    const k = path.join(cache, key(c));
+    fs.copyFileSync(c.raw, k + ".wav"); fs.writeFileSync(k + ".json", JSON.stringify(c.qc));
+  });
   for (const c of clips) {
     // coupe ce qui suit le dernier mot (bruits parasites de fin de génération)
     const end = c.qc && c.qc.end > 0.5 ? c.qc.end + 0.18 : dur(c.raw);

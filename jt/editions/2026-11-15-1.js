@@ -23,7 +23,7 @@ window.EDITION = {
         ["Le 2e arrive", "*27 minutes* après !"],
       ],
       say: [
-        "Route du Rhum : Achille Nebout|gagne en Class quarante !",
+        "Victoire sur la Route du Rhum !|Achille Nebout gagne en Class quarante !",
         "Arrivé ce dimanche en Guadeloupe,|après quatorze jours de mer !",
         "Un record !|Deux heures de mieux que l'ancien chrono !",
         "Le deuxième arrive vingt-sept minutes après.|Un final au coude-à-coude !",
@@ -66,7 +66,7 @@ window.EDITION = {
     },
   ],
   question: ["Et toi, quel message", "*enverrais-tu* à Voyager ?"],
-  questionSay: "Et toi, quel message|enverrais-tu à Voyager ?",
+  questionSay: "Et toi,|quel message tu enverrais à Voyager ?",
   subscribe: ["Abonne-toi pour", "l'*édition de demain*."],
   subscribeSay: "Abonne-toi|pour l'édition de demain !",
 };

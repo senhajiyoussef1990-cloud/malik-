@@ -6,3 +6,4 @@ out/preview-*
 voices/*.onnx
 voices/*.onnx.json
 out/voice-tmp/
+out/voice-cache/
