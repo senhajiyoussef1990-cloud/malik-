@@ -4,13 +4,15 @@ Jingle cuivres + piano (opening), musique légère façon ragtime sous les rubri
 télégraphe à chaque bandeau, tapotement des feuilles, crépitement de projecteur.
 Usage : python3 -I tools/audio.py out/audio.wav
 """
-import sys, wave
+import sys, wave, json, os
 import numpy as np
 
 SR = 44100
-T_OPEN, T_RUB, RUB, = 3.0, 4.5, 13.0
+TL = json.loads(open(os.path.join(os.path.dirname(__file__), "..", "timeline.js")).read().split("=", 1)[1].strip().rstrip(";"))
+T_OPEN, T_RUB, RUB = TL["open"], TL["rub"], TL["rubLen"]
 T_OUTRO = T_RUB + 3 * RUB
-DUR = T_OUTRO + 3.5
+DUR = T_OUTRO + TL["outroLen"]
+O_RIGHT, O_SALUTE = TL["outroRight"], TL["outroSalute"]
 N = int(DUR * SR)
 mix = np.zeros(N)
 rs = np.random.default_rng(1930)
@@ -94,7 +96,7 @@ prog = [("C3", "G2", ["E4", "G4", "C5"]), ("A2", "E2", ["C#4", "G4", "A4"]),
         ("D3", "A2", ["F4", "A4", "D5"]), ("G2", "D3", ["F4", "B4", "D5"])]
 mel = ["E5", "G5", "A5", "G5", "E5", "D5", "C5", "D5", "C#5", "E5", "A5", "G5", "F5", "E5", "D5", "A4",
        "F5", "A5", "D6", "A5", "F5", "E5", "D5", "C5", "B4", "D5", "G5", "F5", "D5", "B4", "G4", "B4"]
-t0, end = T_RUB, T_OUTRO + 1.4
+t0, end = T_RUB, T_OUTRO + O_RIGHT
 b = 0
 while t0 + b * beat < end:
     bar = (b // 4) % 4
@@ -127,11 +129,11 @@ for i in range(3):
 # --- outro : petite cadence, « ta-da » au salut, iris
 O = T_OUTRO
 for k, n in enumerate(["G4", "A4", "B4"]):
-    add(piano(hz(n), 0.4), O + 1.4 + k * 0.18, 0.25)
-add(brass(hz("C5"), 0.15), O + 2.5, 0.5)
-add(brass(hz("G5"), 0.6), O + 2.68, 0.5)
+    add(piano(hz(n), 0.4), O + O_RIGHT + k * 0.18, 0.25)
+add(brass(hz("C5"), 0.15), O + O_SALUTE - 0.18, 0.5)
+add(brass(hz("G5"), 0.6), O + O_SALUTE, 0.5)
 for n in ["C3", "G3", "E4", "C5"]:
-    add(piano(hz(n), 1.2), O + 2.68, 0.3)
+    add(piano(hz(n), 1.2), O + O_SALUTE, 0.3)
 
 # --- finalisation
 fade = np.ones(N)

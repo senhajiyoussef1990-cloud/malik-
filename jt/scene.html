@@ -14,7 +14,9 @@
 <script>
   // Charge l'édition passée en paramètre : scene.html?ed=2026-11-15-1
   const ed = new URLSearchParams(location.search).get("ed") || "2026-11-15-1";
+  document.write('<script src="timeline.js"><\/script>');
   document.write('<script src="editions/' + ed + '.js"><\/script>');
+  document.write('<script src="out/voice-' + ed + '.js"><\/script>');
 </script>
 </head>
 <body>
@@ -242,8 +244,9 @@
 <script>
 const NS = "http://www.w3.org/2000/svg";
 const E = window.EDITION;
-const FPS = 24;
-const T_OPEN = 3.0, T_RUB = 4.5, RUB_LEN = 13.0, T_OUTRO = T_RUB + 3 * RUB_LEN, DUR = T_OUTRO + 3.5;
+const TL = window.TL, FPS = TL.fps;
+const T_OPEN = TL.open, T_RUB = TL.rub, RUB_LEN = TL.rubLen, T_OUTRO = T_RUB + 3 * RUB_LEN, DUR = T_OUTRO + TL.outroLen;
+const VENV = window.VOICE_ENV || null;
 window.DURATION = DUR; window.FPS = FPS;
 
 const $ = (id) => document.getElementById(id);
@@ -464,7 +467,7 @@ function poseTrack(t) {
     const S = T_RUB + i * RUB_LEN, ins = E.rubriques[i].insolite;
     tr.push([S, "tap"], [S + 0.9, "window"], [S + 2.7, ins ? "brow" : "talk"], [S + 6.2, "read"], [S + 7.3, ins ? "brow" : "talk"]);
   }
-  tr.push([T_OUTRO, "talk"], [T_OUTRO + 1.4, "right"], [T_OUTRO + 2.6, "salute"]);
+  tr.push([T_OUTRO, "talk"], [T_OUTRO + TL.outroRight, "right"], [T_OUTRO + TL.outroSalute, "salute"]);
   let i = 0; while (i + 1 < tr.length && tr[i + 1][0] <= t) i++;
   const cur = POSES[tr[i][1]], prev = POSES[(tr[i - 1] || tr[i])[1]];
   const k = ease(clamp((t - tr[i][0]) / 0.28));
@@ -588,12 +591,12 @@ window.renderFrame = function (f) {
   const win = (a, b, x) => { if (x >= a && x < b) { alpha = clamp(Math.min((x - a) / 0.15, (b - x) / 0.12)); pop = (x - a) / 0.25; return true; } return false; };
   if (seg === "hook") { if (win(0.35, 2.95, t)) lines = E.hook; }
   if (seg === "rub") {
-    const W = [[1.0, 4.9], [4.9, 8.8], [8.8, 12.75]];
+    const W = TL.rubSubs;
     W.forEach(([a, b], i) => { if (win(a, b, lt)) lines = rub.subs[i]; });
   }
   if (seg === "outro") {
-    if (win(0.1, 1.4, lt)) lines = E.question;
-    else if (win(1.4, 3.0, lt)) lines = E.subscribe;
+    if (win(TL.outroSubs[0][0], TL.outroSubs[0][1], lt)) lines = E.question;
+    else if (win(TL.outroSubs[1][0], TL.outroSubs[1][1], lt)) lines = E.subscribe;
   }
   setSub(lines, alpha, pop);
   const talking = !!lines;
@@ -635,7 +638,8 @@ window.renderFrame = function (f) {
   $("browL").setAttribute("transform", `translate(0,${-14 * p.browL}) rotate(${8 * p.browL} -40 750)`);
   $("nose").setAttribute("cx", p.lookX * 0.6);
   let mo = 0;
-  if (talking) mo = clamp((0.5 + 0.5 * Math.sin(t * Math.PI * 2 * 4.7)) * (0.55 + 0.45 * Math.sin(t * Math.PI * 2 * 1.3 + 1)));
+  if (VENV) mo = clamp(((VENV[f] || 0) - 0.08) * 1.4);
+  else if (talking) mo = clamp((0.5 + 0.5 * Math.sin(t * Math.PI * 2 * 4.7)) * (0.55 + 0.45 * Math.sin(t * Math.PI * 2 * 1.3 + 1)));
   if (seg === "open") mo = 0;
   $("mouthC").setAttribute("display", mo < 0.12 ? "inline" : "none");
   $("mouthO").setAttribute("display", mo >= 0.12 ? "inline" : "none");
