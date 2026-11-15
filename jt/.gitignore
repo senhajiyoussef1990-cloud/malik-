@@ -3,3 +3,5 @@ out/*.wav
 out/c*.jpg
 out/check.jpg
 out/preview-*
+voices/*.onnx
+voices/*.onnx.json
