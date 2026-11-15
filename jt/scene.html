@@ -16,6 +16,7 @@
   const ed = new URLSearchParams(location.search).get("ed") || "2026-11-15-1";
   document.write('<script src="timeline.js"><\/script>');
   document.write('<script src="editions/' + ed + '.js"><\/script>');
+  document.write('<script src="out/timeline-' + ed + '.js"><\/script>');
   document.write('<script src="out/voice-' + ed + '.js"><\/script>');
 </script>
 </head>
@@ -248,7 +249,10 @@
 const NS = "http://www.w3.org/2000/svg";
 const E = window.EDITION;
 const TL = window.TL, FPS = TL.fps;
-const T_OPEN = TL.open, T_RUB = TL.rub, RUB_LEN = TL.rubLen, T_OUTRO = T_RUB + 3 * RUB_LEN, DUR = T_OUTRO + TL.outroLen;
+const T_OPEN = TL.open, T_RUB = TL.rub, RUB_LEN = TL.rubLen;
+const RS = TL.rubStarts || [0, 1, 2].map((i) => T_RUB + i * RUB_LEN);
+const T_OUTRO = TL.outro || T_RUB + 3 * RUB_LEN, DUR = T_OUTRO + TL.outroLen;
+const HOOK_SUB = TL.hookSub || [0.35, 2.95];
 const VENV = window.VOICE_ENV || null;
 window.DURATION = DUR; window.FPS = FPS;
 
@@ -551,7 +555,7 @@ function poseTrack(t) {
   const tr = [[0, "brow"]];
   tr.push([T_OPEN, "talk"]);
   for (let i = 0; i < 3; i++) {
-    const S = T_RUB + i * RUB_LEN, ins = E.rubriques[i].insolite;
+    const S = RS[i], ins = E.rubriques[i].insolite;
     tr.push([S, "tap"], [S + 0.9, "window"], [S + 2.7, ins ? "brow" : "talk"], [S + 6.2, "read"], [S + 7.3, ins ? "brow" : "talk"]);
   }
   tr.push([T_OUTRO, "talk"], [T_OUTRO + TL.outroRight, "right"], [T_OUTRO + TL.outroSalute, "salute"]);
@@ -619,7 +623,7 @@ window.renderFrame = function (f) {
   // segment courant
   let seg = "hook", rub = null, lt = t, ri = -1;
   if (t >= T_OPEN && t < T_RUB) { seg = "open"; lt = t - T_OPEN; }
-  else if (t >= T_RUB && t < T_OUTRO) { seg = "rub"; ri = Math.floor((t - T_RUB) / RUB_LEN); rub = E.rubriques[ri]; lt = t - T_RUB - ri * RUB_LEN; }
+  else if (t >= T_RUB && t < T_OUTRO) { seg = "rub"; ri = 0; while (ri < 2 && t >= RS[ri + 1]) ri++; rub = E.rubriques[ri]; lt = t - RS[ri]; }
   else if (t >= T_OUTRO) { seg = "outro"; lt = t - T_OUTRO; }
 
   // horloge, globe
@@ -676,9 +680,9 @@ window.renderFrame = function (f) {
   // sous-titres
   let lines = null, alpha = 0, pop = 1;
   const win = (a, b, x) => { if (x >= a && x < b) { alpha = clamp(Math.min((x - a) / 0.15, (b - x) / 0.12)); pop = (x - a) / 0.25; return true; } return false; };
-  if (seg === "hook") { if (win(0.35, 2.95, t)) lines = E.hook; }
+  if (seg === "hook") { if (win(HOOK_SUB[0], HOOK_SUB[1], t)) lines = E.hook; }
   if (seg === "rub") {
-    const W = TL.rubSubs;
+    const W = TL.rubSubsList ? TL.rubSubsList[ri] : TL.rubSubs;
     W.forEach(([a, b], i) => { if (win(a, b, lt)) lines = rub.subs[i]; });
   }
   if (seg === "outro") {
@@ -747,7 +751,7 @@ window.renderFrame = function (f) {
   const wx = (R() - 0.5) * 3, wy = (R() - 0.5) * 4;
   // collure entre les parties
   let fl = 0, jump = 0;
-  for (const b of [T_OPEN, T_RUB, T_RUB + RUB_LEN, T_RUB + 2 * RUB_LEN, T_OUTRO]) {
+  for (const b of [T_OPEN, ...RS, T_OUTRO]) {
     const d = t - b;
     if (d >= 0 && d < 0.09) { fl = 0.75 * (1 - d / 0.09); jump = 40 * (1 - d / 0.09); }
   }

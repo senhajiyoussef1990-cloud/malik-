@@ -8,9 +8,11 @@ import sys, wave, json, os
 import numpy as np
 
 SR = 44100
-TL = json.loads(open(os.path.join(os.path.dirname(__file__), "..", "timeline.js")).read().split("=", 1)[1].strip().rstrip(";"))
+TLF = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), "..", "timeline.js")
+TL = json.loads(open(TLF).read().split("window.TL =", 1)[1].strip().rstrip(";"))
 T_OPEN, T_RUB, RUB = TL["open"], TL["rub"], TL["rubLen"]
-T_OUTRO = T_RUB + 3 * RUB
+RS = TL.get("rubStarts") or [T_RUB + i * RUB for i in range(3)]
+T_OUTRO = TL.get("outro") or T_RUB + 3 * RUB
 DUR = T_OUTRO + TL["outroLen"]
 O_RIGHT, O_SALUTE = TL["outroRight"], TL["outroSalute"]
 N = int(DUR * SR)
@@ -115,7 +117,7 @@ while t0 + b * beat < end:
 
 # --- par rubrique : tapotement des feuilles + télégraphe + collure
 for i in range(3):
-    S = T_RUB + i * RUB
+    S = RS[i]
     for k in (0.1, 0.38, 0.66):
         add(thump(), S + k, 0.5)
     tm = S + 0.2

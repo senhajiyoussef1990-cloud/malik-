@@ -17,10 +17,10 @@ from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 root = os.path.join(os.path.dirname(__file__), "..")
 ref = os.path.join(root, "voices", "ref-maurice.wav")
 clips = json.load(open(sys.argv[1]))
-torch.manual_seed(1930)
 model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
 for c in clips:
     t0 = time.time()
+    torch.manual_seed(c.get("seed", 1930))
     text = c["text"].replace("|", " ")
     wav = model.generate(text, language_id="fr", audio_prompt_path=ref,
                          exaggeration=c.get("exaggeration", 0.65), cfg_weight=c.get("cfg", 0.45),
