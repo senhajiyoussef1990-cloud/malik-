@@ -1,6 +1,6 @@
 # L'Écho du Jour — édition quotidienne
 
-Instructions pour la session programmée tous les jours à 11 h 55 (heure de Paris).
+Instructions pour la session programmée tous les jours à 11 h 25 (heure de Paris).
 But : livrer avant 12 h 30 la vidéo, le texte de publication et l'image de story.
 
 ## 1. Préparer
