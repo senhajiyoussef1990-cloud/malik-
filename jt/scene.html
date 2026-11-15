@@ -96,6 +96,9 @@
       <g id="ill-stage"></g>
       <g id="ill-mic"></g>
       <g id="ill-globe"></g>
+      <g id="ill-boat"></g>
+      <g id="ill-rocket"></g>
+      <g id="ill-probe"></g>
       <ellipse id="ovalFlash" rx="210" ry="170" fill="#fff8e6" opacity="0"/>
     </g>
   </g>
@@ -380,8 +383,70 @@ const ill = {};
   ill.q.textContent = "?";
 })();
 
+(function buildBoat() {
+  const g = $("ill-boat");
+  el("rect", { x: -220, y: -180, width: 440, height: 360, fill: "#E6D6B2" }, g);
+  el("circle", { cx: 120, cy: -90, r: 42, fill: "#E9B54C", stroke: "#2A1E14", "stroke-width": 4 }, g);
+  for (let i = 0; i < 3; i++) el("path", { d: `M${-200 + i * 120} ${-120 + i * 18} q20 -14 40 0 q20 -14 40 0`, stroke: "#5C4630", "stroke-width": 4, fill: "none" }, g);
+  const buoy = el("g", { transform: "translate(150,40)" }, g);
+  el("line", { x1: 0, y1: 0, x2: 0, y2: -110, stroke: "#2A1E14", "stroke-width": 6 }, buoy);
+  ill.flag = el("g", { transform: "" }, buoy);
+  for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) el("rect", { x: c * 14, y: -110 + r * 14, width: 14, height: 14, fill: (r + c) % 2 ? "#F1E6CC" : "#2A1E14" }, ill.flag);
+  el("path", { d: "M-24 0 Q0 -26 24 0 Z", fill: "#B5482F", stroke: "#2A1E14", "stroke-width": 4 }, buoy);
+  ill.boat = el("g", {}, g);
+  el("path", { d: "M-95 40 L95 40 L70 72 L-80 72 Z", fill: "#2A1E14" }, ill.boat);
+  el("rect", { x: -82, y: 52, width: 150, height: 8, fill: "#B5482F" }, ill.boat);
+  el("line", { x1: -5, y1: 40, x2: -5, y2: -150, stroke: "#2A1E14", "stroke-width": 7 }, ill.boat);
+  el("path", { d: "M-10 -145 Q-95 -40 -85 32 L-10 32 Z", fill: "#FBF5E6", stroke: "#2A1E14", "stroke-width": 5 }, ill.boat);
+  el("path", { d: "M0 -140 Q60 -50 80 32 L0 32 Z", fill: "#EFE3C8", stroke: "#2A1E14", "stroke-width": 5 }, ill.boat);
+  const n40 = el("text", { x: -50, y: -10, "text-anchor": "middle", class: "lime", "font-size": 34, fill: "#B5482F" }, ill.boat); n40.textContent = "40";
+  ill.waves = [];
+  for (let i = 0; i < 3; i++) {
+    let d = `M-300 ${70 + i * 34}`;
+    for (let x = -300; x < 320; x += 40) d += ` q20 -16 40 0`;
+    d += ` V200 H-300 Z`;
+    ill.waves.push(el("path", { d, fill: ["#8C6A30", "#6B4A2E", "#4F3520"][i], stroke: "#2A1E14", "stroke-width": 4 }, g));
+  }
+})();
+(function buildRocket() {
+  const g = $("ill-rocket");
+  el("rect", { x: -220, y: -180, width: 440, height: 360, fill: "#E6D6B2" }, g);
+  for (let i = 0; i < 4; i++) el("path", { d: `M${-200 + i * 110} ${-140 + (i % 2) * 30} q25 -16 50 0 q25 -16 50 0`, stroke: "#A88B63", "stroke-width": 5, fill: "none" }, g);
+  el("rect", { x: -220, y: 130, width: 440, height: 60, fill: "#8C6A30", stroke: "#2A1E14", "stroke-width": 4 }, g);
+  const tw = el("g", {}, g);
+  el("rect", { x: -150, y: -175, width: 56, height: 310, fill: "none", stroke: "#2A1E14", "stroke-width": 6 }, tw);
+  for (let y = -175; y < 130; y += 40) el("path", { d: `M-150 ${y} L-94 ${y + 40} M-94 ${y} L-150 ${y + 40}`, stroke: "#2A1E14", "stroke-width": 3 }, tw);
+  ill.armL = el("g", {}, g); ill.armR = el("g", {}, g);
+  el("rect", { x: -94, y: 6, width: 104, height: 16, fill: "#5C4630", stroke: "#2A1E14", "stroke-width": 4 }, ill.armL);
+  el("rect", { x: -94, y: 46, width: 104, height: 16, fill: "#5C4630", stroke: "#2A1E14", "stroke-width": 4 }, ill.armR);
+  ill.ship = el("g", {}, g);
+  ill.flame = el("path", { d: "M-22 100 Q0 170 22 100 Z", fill: "#E9B54C", stroke: "#B5482F", "stroke-width": 4 }, ill.ship);
+  el("path", { d: "M-30 -110 Q0 -175 30 -110 L30 100 L-30 100 Z", fill: "#D9C7A3", stroke: "#2A1E14", "stroke-width": 5 }, ill.ship);
+  el("path", { d: "M-30 -100 L-52 -70 L-30 -60 Z M30 -100 L52 -70 L30 -60 Z M-30 60 L-56 100 L-30 100 Z M30 60 L56 100 L30 100 Z", fill: "#5C4630", stroke: "#2A1E14", "stroke-width": 4 }, ill.ship);
+  for (const y of [-60, -20, 20]) el("line", { x1: -30, y1: y, x2: 30, y2: y, stroke: "#A88B63", "stroke-width": 3 }, ill.ship);
+})();
+(function buildProbe() {
+  const g = $("ill-probe");
+  el("rect", { x: -220, y: -180, width: 440, height: 360, fill: "#1E1610" }, g);
+  ill.stars = [];
+  const r = rng(11);
+  for (let i = 0; i < 40; i++) ill.stars.push(el("circle", { cx: -210 + r() * 420, cy: -170 + r() * 340, r: 1.5 + r() * 2.5, fill: "#F1E6CC" }, g));
+  el("circle", { cx: -150, cy: 110, r: 26, fill: "#8C6A30", stroke: "#E6D6B2", "stroke-width": 3 }, g);
+  const tt = el("text", { x: -150, y: 158, "text-anchor": "middle", class: "lime", "font-size": 22, fill: "#E6D6B2", "letter-spacing": 2 }, g); tt.textContent = "TERRE";
+  el("path", { d: "M-150 110 L95 -40", stroke: "#E9B54C", "stroke-width": 3, "stroke-dasharray": "8 10", fill: "none", opacity: 0.7 }, g);
+  ill.pulse = el("circle", { r: 9, fill: "#E9B54C" }, g);
+  ill.probe = el("g", {}, g);
+  el("line", { x1: 0, y1: 0, x2: 95, y2: 40, stroke: "#C9BFA8", "stroke-width": 4 }, ill.probe);
+  el("line", { x1: 0, y1: 0, x2: -40, y2: 90, stroke: "#C9BFA8", "stroke-width": 4 }, ill.probe);
+  el("circle", { cx: 95, cy: 40, r: 9, fill: "#C9BFA8" }, ill.probe);
+  el("rect", { x: -24, y: 0, width: 48, height: 34, fill: "#8C6A30", stroke: "#F1E6CC", "stroke-width": 3 }, ill.probe);
+  el("ellipse", { cx: 0, cy: -8, rx: 66, ry: 22, fill: "#E6D6B2", stroke: "#F1E6CC", "stroke-width": 3 }, ill.probe);
+  el("ellipse", { cx: 0, cy: -12, rx: 50, ry: 13, fill: "#C9BFA8" }, ill.probe);
+  el("line", { x1: 0, y1: -12, x2: 0, y2: -48, stroke: "#F1E6CC", "stroke-width": 4 }, ill.probe);
+})();
+
 function updateIll(name, lt, t) {
-  for (const n of ["pay", "stage", "mic", "globe"]) $("ill-" + n).setAttribute("display", n === name ? "inline" : "none");
+  for (const n of ["pay", "stage", "mic", "globe", "boat", "rocket", "probe"]) $("ill-" + n).setAttribute("display", n === name ? "inline" : "none");
   if (name === "pay") {
     const k = ease(clamp((lt - 0.3) / 1.4));
     const len = 460;
@@ -417,6 +482,28 @@ function updateIll(name, lt, t) {
     });
   } else if (name === "globe") {
     updateGlobe(globeO, t * 1.2);
+  } else if (name === "boat") {
+    ill.waves.forEach((w, i) => w.setAttribute("transform", `translate(${((t * (30 + i * 15)) % 80) - 80},0)`));
+    const sx = lerp(-120, 40, ease(clamp(lt / 9)));
+    ill.boat.setAttribute("transform", `translate(${sx},${Math.sin(t * 3) * 6}) rotate(${Math.sin(t * 2.4) * 4})`);
+    ill.flag.setAttribute("transform", `skewY(${Math.sin(t * 8) * 8})`);
+  } else if (name === "rocket") {
+    const d = ease(clamp((lt - 0.3) / 3.2));
+    const caught = lt > 3.6;
+    const ry = lerp(-330, -40, d) + (caught ? Math.sin((lt - 3.6) * 10) * 6 * Math.exp(-(lt - 3.6) * 2) : 0);
+    ill.ship.setAttribute("transform", `translate(40,${ry})`);
+    ill.flame.setAttribute("display", lt > 0.3 && lt < 3.5 ? "inline" : "none");
+    ill.flame.setAttribute("transform", `scale(1,${0.8 + Math.sin(t * 40) * 0.25})`);
+    const a = caught ? 0 : 1;
+    const k = clamp((lt - 3.3) / 0.35);
+    ill.armL.setAttribute("transform", `translate(${lerp(-28, 0, k)},0)`);
+    ill.armR.setAttribute("transform", `translate(${lerp(28, 0, k)},0)`);
+  } else if (name === "probe") {
+    ill.stars.forEach((s, i) => s.setAttribute("opacity", 0.4 + 0.6 * Math.abs(Math.sin(t * 2 + i))));
+    const q = (t * 0.35) % 1;
+    ill.pulse.setAttribute("cx", lerp(-150, 95, q)); ill.pulse.setAttribute("cy", lerp(110, -40, q));
+    ill.pulse.setAttribute("opacity", Math.sin(q * Math.PI));
+    ill.probe.setAttribute("transform", `translate(110,-50) rotate(${-15 + Math.sin(t * 0.8) * 5})`);
   }
 }
 
