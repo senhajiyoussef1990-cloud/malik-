@@ -18,21 +18,35 @@ E.rubriques.forEach((r, i) => TL.rubVoice.forEach(([a, m], k) =>
 clips.push({ t: T_OUTRO + TL.outroVoice[0][0], max: TL.outroVoice[0][1], text: E.questionSay || strip(E.question) });
 clips.push({ t: T_OUTRO + TL.outroVoice[1][0], max: TL.outroVoice[1][1], text: E.subscribeSay || strip(E.subscribe) });
 
+const clone = E.voiceEngine === "clone";
+if (clone) {
+  // une seule passe Python pour toutes les répliques (le modèle est long à charger)
+  const job = clips.map((c, i) => ({ text: c.text, out: path.join(tmp, `g${i}.wav`) }));
+  fs.writeFileSync(path.join(tmp, "clips.json"), JSON.stringify(job));
+  execFileSync("/root/venvs/cb/bin/python", [path.join(__dirname, "clone.py"), path.join(tmp, "clips.json")], { stdio: "inherit" });
+}
 const dur = (f) => parseFloat(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString());
 const inputs = [], filters = [];
 clips.forEach((c, i) => {
   const raw = path.join(tmp, `c${i}.wav`), fit = path.join(tmp, `f${i}.wav`);
-  execFileSync(path.join(__dirname, "reclame.sh"), [E.voice || "fr_FR-tom-medium", raw, c.text]);
+  if (clone) {
+    // voix clonée : on garde son timbre, juste une couleur « film d'époque » légère
+    execFileSync("ffmpeg", ["-nostdin", "-y", "-loglevel", "error", "-i", path.join(tmp, `g${i}.wav`), "-af",
+      "highpass=f=140,lowpass=f=6500,equalizer=f=2000:t=q:w=1:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-16:TP=-1.5",
+      "-ar", "44100", "-ac", "1", raw]);
+  } else {
+    execFileSync(path.join(__dirname, "reclame.sh"), [E.voice || "fr_FR-tom-medium", raw, c.text]);
+  }
   // retire le silence de fin, puis accélère si la réplique dépasse sa fenêtre
-  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", raw, "-af", "areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse", fit]);
+  execFileSync("ffmpeg", ["-nostdin", "-y", "-loglevel", "error", "-i", raw, "-af", "areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse", fit]);
   let d = dur(fit), k = 1;
-  if (d > c.max) { k = Math.min(1.35, d / c.max); execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", fit, "-af", `atempo=${k.toFixed(3)}`, raw]); fs.renameSync(raw, fit); }
+  if (d > c.max) { k = Math.min(1.35, d / c.max); execFileSync("ffmpeg", ["-nostdin", "-y", "-loglevel", "error", "-i", fit, "-af", `atempo=${k.toFixed(3)}`, raw]); fs.renameSync(raw, fit); }
   console.log(`${c.t.toFixed(2)}s  ${d.toFixed(2)}s${k > 1 ? " x" + k.toFixed(2) : ""}${d / k > c.max + 0.05 ? "  (déborde)" : ""}  ${c.text}`);
   inputs.push("-i", fit);
   filters.push(`[${i}]adelay=${Math.round(c.t * 1000)}:all=1[d${i}]`);
 });
 const wav = path.join(out, `voice-${ed}.wav`);
-execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...inputs, "-filter_complex",
+execFileSync("ffmpeg", ["-nostdin", "-y", "-loglevel", "error", ...inputs, "-filter_complex",
   filters.join(";") + ";" + clips.map((_, i) => `[d${i}]`).join("") + `amix=inputs=${clips.length}:normalize=0,apad,atrim=0:${DUR}`, "-ar", "44100", "-ac", "1", wav]);
 
 // enveloppe par image (0..1) pour la bouche
