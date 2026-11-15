@@ -19,6 +19,14 @@ fs.mkdirSync(frames, { recursive: true });
     await page.evaluate(() => window.ready);
     return page;
   };
+  if (process.argv.includes("--story")) {
+    const page = await open();
+    await page.evaluate(() => window.renderStory());
+    await page.screenshot({ path: path.join(out, `story-${ed}.jpg`), type: "jpeg", quality: 92 });
+    await browser.close();
+    console.log("story ok");
+    return;
+  }
   if (preview) {
     const page = await open();
     for (const t of preview) {

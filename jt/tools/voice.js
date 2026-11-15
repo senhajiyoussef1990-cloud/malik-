@@ -49,7 +49,7 @@ if (clone) {
     const k = path.join(cache, key(c));
     if (fs.existsSync(k + ".wav") && fs.existsSync(k + ".json")) { fs.copyFileSync(k + ".wav", c.raw); c.qc = JSON.parse(fs.readFileSync(k + ".json")); c.cached = true; }
   }
-  let todo = clips.filter((c) => !c.cached || c.qc.score < 0.85), seed = c0seed(clips);
+  let todo = clips.filter((c) => !c.cached), seed = c0seed(clips);
   function c0seed() { return 1930 + (process.env.SEED_SHIFT ? +process.env.SEED_SHIFT : 0); }
   // plusieurs essais par réplique ; on garde celui que Whisper comprend le mieux
   for (let pass = 0; pass < 4 && todo.length; pass++, seed += 7) {

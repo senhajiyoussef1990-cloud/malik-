@@ -215,6 +215,9 @@
   </g>
 </g>
 
+<!-- ===================== STORY (image fixe) ===================== -->
+<g id="story" display="none"></g>
+
 <!-- ===================== HABILLAGE ===================== -->
 <g id="banner" display="none">
   <path d="M60 215 H1020 L990 270 L1020 325 H60 L90 270 Z" fill="#B5482F" stroke="#120c08" stroke-width="6"/>
@@ -766,6 +769,30 @@ window.renderFrame = function (f) {
   $("irisHole").setAttribute("r", Math.max(0, ir));
   $("irisHole").setAttribute("cy", t >= tc ? 860 : 900);
   $("irisHole").setAttribute("cx", t >= tc ? 500 : 540);
+};
+// ---------- image de story ----------
+window.renderStory = function () {
+  // fond : la carte titre de l'opening, globe et titre remontés
+  window.renderFrame(Math.round((T_OPEN + 1.45) * FPS));
+  $("irisHole").setAttribute("r", 1300);
+  $("flash").setAttribute("opacity", 0);
+  $("weave").setAttribute("transform", "");
+  $("titleZoom").setAttribute("transform", "translate(540 600) scale(0.62) translate(-540 -1050)");
+  const g = $("story"); g.innerHTML = ""; g.setAttribute("display", "inline");
+  E.rubriques.forEach((r, i) => {
+    const y = 930 + i * 215;
+    el("rect", { x: 70, y: y, width: 940, height: 180, rx: 14, fill: "#F1E6CC", stroke: "#120c08", "stroke-width": 6 }, g);
+    el("path", { d: `M50 ${y - 26} H560 L535 ${y + 6} L560 ${y + 38} H50 L75 ${y + 6} Z`, fill: "#B5482F", stroke: "#120c08", "stroke-width": 5 }, g);
+    const c = el("text", { x: 305, y: y + 22, "text-anchor": "middle", class: "lime", "font-size": 44, fill: "#F1E6CC", "letter-spacing": 4 }, g);
+    c.textContent = r.category;
+    const t = el("text", { x: 540, y: y + 125, "text-anchor": "middle", class: "play", "font-size": 50, fill: "#2A1E14", "font-style": "italic" }, g);
+    t.textContent = r.title;
+    const w = t.getBBox().width; if (w > 860) t.setAttribute("font-size", Math.floor(50 * 860 / w));
+  });
+  const y = 1600;
+  el("path", { d: `M90 ${y - 55} H990 L1030 ${y} L990 ${y + 55} H90 L50 ${y} Z`, fill: "#2A1E14", stroke: "#E9B54C", "stroke-width": 5 }, g);
+  const b = el("text", { x: 540, y: y + 18, "text-anchor": "middle", class: "lime", "font-size": 50, fill: "#E9B54C", "letter-spacing": 3 }, g);
+  b.textContent = E.storyCta || "LE JT EST EN LIGNE !";
 };
 window.ready = document.fonts.ready.then(() => { window.renderFrame(0); return true; });
 </script>

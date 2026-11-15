@@ -4,6 +4,9 @@
 // Illustrations : pay, stage, mic, globe, boat, rocket, probe.
 window.EDITION = {
   date: "DIMANCHE 15 NOVEMBRE 2026",
+  // Texte de publication TikTok (légende) et bandeau de la story
+  caption: "📰 L'Écho du Jour du 15 novembre : record sur la Route du Rhum, une fusée rattrapée au vol par sa tour, et Voyager 1 bientôt à un jour-lumière de la Terre. Et toi, quel message enverrais-tu à Voyager ? 👇\n\n#actu #info #journal #ecodujour #routedurhum #espace #voyager1",
+  storyCta: "LE JT EST EN LIGNE !",
   file: "ecodujour-2026-11-15-1",
   voice: "fr_FR-tom-medium",
   voiceEngine: "clone",

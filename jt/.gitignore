@@ -7,3 +7,5 @@ voices/*.onnx
 voices/*.onnx.json
 out/voice-tmp/
 out/voice-cache/
+out/*.mp4
+out/frames-*/
