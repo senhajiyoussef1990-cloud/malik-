@@ -23,7 +23,7 @@ for c in clips:
     torch.manual_seed(c.get("seed", 1930))
     text = c["text"].replace("|", " ")
     wav = model.generate(text, language_id="fr", audio_prompt_path=ref,
-                         exaggeration=c.get("exaggeration", 0.65), cfg_weight=c.get("cfg", 0.45),
+                         exaggeration=c.get("exaggeration", 0.55), cfg_weight=c.get("cfg", 0.5),
                          temperature=0.7)
     torchaudio.save(c["out"], wav, model.sr)
     print(f"{time.time() - t0:5.1f}s  {text}", flush=True)

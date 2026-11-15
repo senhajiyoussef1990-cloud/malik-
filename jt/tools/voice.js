@@ -17,35 +17,42 @@ const dur = (f) => parseFloat(sh("ffprobe", ["-v", "error", "-show_entries", "fo
 
 // ---------- 1. les répliques ----------
 const clips = [{ id: "hook", text: E.hookSay || strip(E.hook) }];
+// orthographe phonétique pour la synthèse uniquement (les sous-titres gardent la vraie)
+const PHON = Object.assign({}, E.phonetic || {});
+const phon = (t) => Object.entries(PHON).reduce((s, [a, b]) => s.split(a).join(b), t);
 E.rubriques.forEach((r, i) => r.subs.forEach((s, k) => clips.push({ id: `r${i}s${k}`, text: (r.say && r.say[k]) || strip(s) })));
 clips.push({ id: "question", text: E.questionSay || strip(E.question) });
 clips.push({ id: "subscribe", text: E.subscribeSay || strip(E.subscribe) });
-clips.forEach((c, i) => { c.raw = path.join(tmp, `g${i}.wav`); c.fit = path.join(tmp, `f${i}.wav`); });
+clips.forEach((c, i) => { c.text = phon(c.text); c.raw = path.join(tmp, `g${i}.wav`); c.fit = path.join(tmp, `f${i}.wav`); });
 
 // ---------- 2. synthèse ----------
 const clone = E.voiceEngine === "clone";
 const VINTAGE = "highpass=f=140,lowpass=f=6500,equalizer=f=2000:t=q:w=1:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-16:TP=-1.5";
 function synthClone(list, seed) {
   const job = path.join(tmp, `clone-${seed}.json`);
-  fs.writeFileSync(job, JSON.stringify(list.map((c) => ({ text: c.text, out: c.raw, seed }))));
+  list.forEach((c) => { c.cand = path.join(tmp, `${c.id}-${seed}.wav`); });
+  fs.writeFileSync(job, JSON.stringify(list.map((c) => ({ text: c.text, out: c.cand, seed }))));
   sh("/root/venvs/cb/bin/python", [path.join(__dirname, "clone.py"), job], { stdio: ["ignore", "inherit", "ignore"] });
 }
 function qc(list) {
   const job = path.join(tmp, `qc.json`);
-  fs.writeFileSync(job, JSON.stringify(list.map((c) => ({ wav: c.raw, text: c.text }))));
+  fs.writeFileSync(job, JSON.stringify(list.map((c) => ({ wav: c.cand, text: c.text }))));
   sh("python3", [path.join(__dirname, "qc.py"), job], { stdio: ["ignore", "inherit", "ignore"] });
   return JSON.parse(fs.readFileSync(job.replace(".json", ".qc.json")));
 }
 if (clone) {
   let todo = clips, seed = 1930;
-  for (let pass = 0; pass < 3 && todo.length; pass++, seed += 7) {
+  // plusieurs essais par réplique ; on garde celui que Whisper comprend le mieux
+  for (let pass = 0; pass < 4 && todo.length; pass++, seed += 7) {
     synthClone(todo, seed);
     const r = qc(todo);
-    todo.forEach((c, i) => { c.qc = r[i]; });
-    const bad = todo.filter((c) => c.qc.score < 0.8);
-    bad.forEach((c) => console.log(`  à refaire (${c.qc.score}) : « ${c.qc.heard} »`));
-    if (pass < 2) todo = bad;
+    todo.forEach((c, i) => {
+      if (!c.qc || r[i].score > c.qc.score) { c.qc = r[i]; fs.copyFileSync(c.cand, c.raw); }
+    });
+    todo = todo.filter((c) => c.qc.score < 0.85);
+    todo.forEach((c) => console.log(`  essai ${pass + 1}, meilleur ${c.qc.score} : « ${c.qc.heard} »`));
   }
+  clips.forEach((c) => console.log(`  qc ${c.qc.score.toFixed(2)}  « ${c.qc.heard} »`));
   for (const c of clips) {
     // coupe ce qui suit le dernier mot (bruits parasites de fin de génération)
     const end = c.qc && c.qc.end > 0.5 ? c.qc.end + 0.18 : dur(c.raw);

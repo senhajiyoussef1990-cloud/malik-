@@ -9,10 +9,13 @@ import numpy as np
 
 os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
 from faster_whisper import WhisperModel
+from num2words import num2words
 
 
 def norm(s):
-    s = s.lower().replace("’", "'")
+    s = s.lower().replace("’", "'").replace("-", " ")
+    s = re.sub(r"(\d+),(\d+)", lambda m: num2words(int(m[1]), lang="fr") + " virgule " + num2words(int(m[2]), lang="fr"), s)
+    s = re.sub(r"\d+", lambda m: num2words(int(m[0]), lang="fr"), s).replace("-", " ")
     return re.sub(r"[^a-zàâçéèêëîïôûùüÿœ' -]", " ", s).split()
 
 
