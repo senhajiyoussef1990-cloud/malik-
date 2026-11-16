@@ -6,7 +6,6 @@ Usage : python3 build.py            -> sortie/video.mp4
 Entrées (toutes optionnelles sauf img/) :
   audio/<id>.mp3 (+ <id>.json)  voix générées par tts.py ; sinon silence à durée estimée
   clips/<id>.mp4                 clip années 30 pour chaque réplique narrateur (n01..n15)
-  img/renard_telephone.png       renard qui tend le smartphone (sinon placeholder)
 """
 import json, os, subprocess, shutil, textwrap
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -16,7 +15,7 @@ P = lambda *a: os.path.join(ROOT, *a)
 W, H, FPS = 1080, 1920, 30
 TITLE, SUBTITLE = "T'AS FAIT UNE AFFAIRE ?", "(oui… lui)"
 HANDLE = "@ne.suit.pas.lesmoutons"
-BAND_Y, BAND_H = 560, 608          # bande 16:9 de la partie smartphone
+BAND_Y, BAND_H = 560, 608          # bande 16:9 de la partie téléviseur
 GAP = 0.25                         # silence entre répliques
 F_TITLE = P("fonts/oswald-latin-700-normal.ttf")
 F_SUB = P("fonts/roboto-latin-500-italic.ttf")
@@ -89,42 +88,49 @@ def placeholder_card(sid, path):
     centered(d, y + 20, f"déposer : clips/{sid}.mp4", font(F_CAP, 30), fill=(150, 150, 150))
     im.save(path)
 
-def phone_placeholder(path):
-    """renard_face + patte qui tend un smartphone ; l'écran montre le 1er plan du clip n01"""
+def first_frame(path_out):
+    """1re image du dessin animé (clip n01 : .png ou .mp4) pour l'écran du téléviseur"""
+    for ext in ("png", "mp4"):
+        src = P("clips", "n01." + ext)
+        if os.path.exists(src):
+            run(["ffmpeg", "-y", "-v", "error", "-ss", "0" if ext == "png" else "0.5", "-i", src, "-frames:v", "1", path_out])
+            return Image.open(path_out).convert("L").convert("RGB")
+    return Image.new("RGB", (640, 360), (40, 40, 40))
+
+def tv_image(path):
+    """renard_face + téléviseur en bois années 30 posé sur le comptoir ; l'écran montre le dessin animé"""
     base = Image.open(P("img/renard_face.png")).convert("RGBA").resize((W, H))
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
-    fur, fur2, ol = (190, 96, 44), (225, 160, 110), (55, 26, 10)
-    X, Y, PW, PH = 600, 1020, 380, 700                       # téléphone
-    # manche + paume (derrière le téléphone)
-    d.polygon([(250, H), (520, H), (800, 1760), (700, 1640)], fill=(36, 28, 24), outline=(12, 10, 8))
-    d.polygon([(690, 1650), (735, 1615), (820, 1735), (785, 1775)], fill=(238, 230, 212), outline=(12, 10, 8))
-    d.ellipse([700, 1600, 920, 1790], fill=fur, outline=ol, width=5)
-    # téléphone
-    ph = Image.new("RGBA", (PW, PH), (0, 0, 0, 0)); pd = ImageDraw.Draw(ph)
-    pd.rounded_rectangle([0, 0, PW - 1, PH - 1], 50, fill=(16, 16, 16), outline=(90, 90, 90), width=5)
-    sw, sh = PW - 36, PH - 90
-    scr = Image.new("RGB", (sw, sh), (20, 20, 20))
-    clip = P("clips", "n01.mp4")
-    if os.path.exists(clip):
-        run(["ffmpeg", "-y", "-v", "error", "-ss", "0.5", "-i", clip, "-frames:v", "1", P(TMP, "phone_frame.png")])
-        fr = Image.open(P(TMP, "phone_frame.png")).convert("RGB")
-        fr = fr.resize((sw, int(fr.height * sw / fr.width)))
-        scr.paste(fr, (0, (sh - fr.height) // 2))
-    m = Image.new("L", (sw, sh), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, sw - 1, sh - 1], 32, fill=255)
-    ph.paste(scr, (18, 48), m)
-    pd.rounded_rectangle([PW // 2 - 50, 18, PW // 2 + 50, 32], 7, fill=(45, 45, 45))
-    lay.alpha_composite(ph, (X, Y))
+    X, Y, TW, TH = 545, 1080, 500, 600                      # meuble
+    wood, wood2, dark, brass = (112, 66, 34), (140, 86, 46), (40, 22, 10), (196, 158, 82)
+    d.ellipse([X - 20, Y + TH - 10, X + TW + 20, Y + TH + 50], fill=(0, 0, 0, 110))                 # ombre
+    d.rounded_rectangle([X, Y, X + TW, Y + TH], 46, fill=wood, outline=dark, width=7)
+    for k in range(9):                                                                              # veinage
+        yy = Y + 30 + k * 64
+        d.arc([X + 20, yy - 30, X + TW - 20, yy + 30], 190, 350, fill=wood2, width=3)
+    d.rounded_rectangle([X + 26, Y + 26, X + TW - 26, Y + 360], 36, fill=dark)                      # cadre écran
+    sx0, sy0, sx1, sy1 = X + 50, Y + 50, X + TW - 50, Y + 336
+    fr = first_frame(P(TMP, "tv_frame.png")).resize((sx1 - sx0, int((sx1 - sx0) * 9 / 16)))
+    scr = Image.new("RGB", (sx1 - sx0, sy1 - sy0), (25, 25, 25))
+    scr.paste(fr, (0, (sy1 - sy0 - fr.height) // 2))
+    m = Image.new("L", scr.size, 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, scr.width - 1, scr.height - 1], 40, fill=255)
+    lay.paste(scr, (sx0, sy0), m)
+    glow = Image.new("RGBA", scr.size, (0, 0, 0, 0)); gd = ImageDraw.Draw(glow)               # écran bombé
+    gd.ellipse([20, 10, scr.width * 0.55, scr.height * 0.45], fill=(255, 255, 255, 38))
+    lay.alpha_composite(glow, (sx0, sy0))
     d = ImageDraw.Draw(lay)
-    # pouce sur le bord gauche, bouts des doigts sur le bord droit
-    d.rounded_rectangle([X - 30, Y + 520, X + 26, Y + 660], 26, fill=fur, outline=ol, width=5)
-    d.ellipse([X - 18, Y + 535, X + 14, Y + 565], fill=fur2)
-    for k in range(3):
-        y = Y + 470 + k * 62
-        d.rounded_rectangle([X + PW - 26, y, X + PW + 34, y + 54], 26, fill=fur, outline=ol, width=5)
-    d.rounded_rectangle([X + 60, Y + PH - 14, X + 300, Y + PH + 40], 26, fill=fur, outline=ol, width=5)
+    d.rounded_rectangle([X + 60, Y + 390, X + 320, Y + 560], 16, fill=(70, 42, 22), outline=dark, width=5)  # grille
+    for k in range(11): d.line([(X + 78 + k * 22, Y + 402), (X + 78 + k * 22, Y + 548)], fill=(150, 110, 60), width=6)
+    for k in range(2):                                                                              # boutons
+        cx, cy = X + 400, Y + 430 + k * 90
+        d.ellipse([cx - 34, cy - 34, cx + 34, cy + 34], fill=brass, outline=dark, width=5)
+        d.line([(cx, cy), (cx + 20, cy - 20)], fill=dark, width=6)
+    for k in (0, 1):                                                                                # pieds
+        lx = X + 50 + k * (TW - 130)
+        d.rectangle([lx, Y + TH - 4, lx + 30, Y + TH + 30], fill=dark)
     base.alpha_composite(lay)
     base.convert("RGB").save(path)
-    return (X + PW / 2, Y + PH / 2)  # centre de l'écran du téléphone
+    return ((sx0 + sx1) / 2, (sy0 + sy1) / 2)  # centre de l'écran du téléviseur
 
 # ---------- durées & sous-titres ----------
 def seg_timing(L):
@@ -174,7 +180,7 @@ ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv4
 
 def render_still(img, d, out, zoom_to=1.08, focus=None, punch=0.0):
     n = int(round(d * FPS)); fx, fy = focus or (W / 2, H / 2)
-    # zoom lent ; « punch » = zoom rapide final (entrée dans le téléphone)
+    # zoom lent ; « punch » = zoom rapide final (entrée dans le téléviseur)
     if punch:
         pn = int(punch * FPS)
         z = f"if(lt(on,{n - pn}),1+{zoom_to - 1}*on/{n},{zoom_to}+3*pow((on-{n - pn})/{pn},2))"
@@ -210,9 +216,7 @@ def main():
     shutil.rmtree(TMP, ignore_errors=True); os.makedirs(TMP); os.makedirs(OUT, exist_ok=True)
     make_overlays()
     lines = json.load(open(P("lines.json")))
-    phone_img = P("img/renard_telephone.png"); phone_focus = (W / 2, H * 0.62)
-    if not os.path.exists(phone_img):
-        phone_img = P(TMP, "phone_placeholder.png"); phone_focus = phone_placeholder(phone_img)
+    phone_img = P(TMP, "tv.png"); phone_focus = tv_image(phone_img)
 
     vids, auds, ass_ev, t0, first_band = [], [], [], 0.0, True
     for k, L in enumerate(lines):

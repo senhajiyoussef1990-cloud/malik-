@@ -1,31 +1,39 @@
-"""Images « dessin animé années 30 » générées localement (Stable Diffusion 1.5, CPU ~2 min/image).
+"""Images « dessin animé années 30 » générées localement sur CPU.
 
-Usage : /root/venvs/sd/bin/python images.py [n01 ...]      -> clips/<id>.png (1024x576)
-Modèle : CalypsoCrunchies99/1930sCartoonRichstyle_ocds_vaefix (Hugging Face) via huggingface/diffusers
+Moteur : leejet/stable-diffusion.cpp (sd-cli) + FLUX.1-schnell (GGUF Q4_0)
+Style  : LoRA « Wizard's Vintage Rubber Hose Animation Style » (OpenRAIL++)
+
+Usage : python3 images.py [n01 ...] [--seed N]    -> clips/<id>.png
 """
-import json, os, sys, time
-import torch
-from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
+import json, os, subprocess, sys, time
 
 P = os.path.dirname(os.path.abspath(__file__))
-MODEL = "/root/models/sd1930"
-STYLE = "ocds style, monochrome, black and white 1930s rubber hose cartoon, grayscale, old film still, "
-NEG = "color, colorful, yellow, green, purple, photo, realistic, 3d, text, watermark, blurry, deformed"
-SCENES = json.load(open(f"{P}/scenes.json"))
+SD = os.environ.get("SD_CLI", "/root/sdcpp/build/bin/sd-cli")
+M = os.environ.get("FLUX_DIR", "/root/models/flux")
+SC = json.load(open(f"{P}/scenes.json"))
+LORA = "wizards-vintage-rubber-hose-animation-style"
 
-torch.set_num_threads(os.cpu_count() or 4)
-pipe = StableDiffusionPipeline.from_pretrained(MODEL, torch_dtype=torch.float32, safety_checker=None,
-                                               requires_safety_checker=False)
-pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
-pipe.set_progress_bar_config(disable=True)
+def prompt(sid):
+    p = SC[sid]["prompt"].replace("{mouton}", SC["_mouton"]).replace("{renard}", SC["_renard"])
+    return f"<lora:{LORA}:0.9>" + SC["_style"] + p
 
-ids = sys.argv[1:] or sorted(SCENES)
-os.makedirs(f"{P}/clips", exist_ok=True)
-for sid in ids:
+def gen(sid, seed):
+    out = f"{P}/clips/{sid}.png"
+    cmd = [SD, "--diffusion-model", f"{M}/flux1-schnell-Q4_0.gguf", "--vae", f"{M}/ae.safetensors",
+           "--clip_l", f"{M}/clip_l.safetensors", "--t5xxl", f"{M}/t5-v1_1-xxl-encoder-Q4_K_S.gguf",
+           "--lora-model-dir", M, "-p", prompt(sid), "--cfg-scale", "1.0", "--sampling-method", "euler",
+           "--steps", "4", "-W", "768", "-H", "432", "-s", str(seed), "-t", str(os.cpu_count() or 4),
+           "--vae-tiling", "-o", out]
     t0 = time.time()
-    g = torch.Generator().manual_seed(SCENES[sid].get("seed", 7))
-    img = pipe(STYLE + SCENES[sid]["prompt"], negative_prompt=NEG, width=768, height=432,
-               num_inference_steps=20, guidance_scale=7, generator=g).images[0]
-    img = img.convert("L").convert("RGB").resize((1024, 576))
-    img.save(f"{P}/clips/{sid}.png")
-    print(f"{time.time() - t0:5.1f}s  {sid}", flush=True)
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode or not os.path.exists(out):
+        print(r.stdout[-1500:], r.stderr[-1500:]); raise SystemExit(1)
+    print(f"{time.time() - t0:6.1f}s  {sid}", flush=True)
+
+if __name__ == "__main__":
+    args = sys.argv[1:]; seed = 7
+    if "--seed" in args:
+        i = args.index("--seed"); seed = int(args[i + 1]); del args[i:i + 2]
+    os.makedirs(f"{P}/clips", exist_ok=True)
+    for sid in args or sorted(k for k in SC if not k.startswith("_")):
+        gen(sid, seed)
