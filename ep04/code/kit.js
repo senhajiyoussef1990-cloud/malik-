@@ -254,3 +254,85 @@ function pellicule(c, t, couleur) {
   if (r(99) < .2) { ink(c, 1.5); c.strokeStyle = 'rgba(20,14,10,.6)'; const hx = r(100) * W, hy = r(101) * H; c.beginPath(); c.moveTo(hx, hy); c.bezierCurveTo(hx + 20, hy - 30, hx + 40, hy + 20, hx + 60, hy - 10); c.stroke(); }
   const vg = c.createRadialGradient(W / 2, H / 2, H * .35, W / 2, H / 2, H * .85); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,.55)'); c.fillStyle = vg; c.fillRect(0, 0, W, H);
 }
+
+// ============================================================ HUMAINS (noir et blanc, dans le téléviseur)
+// LE VENDEUR : cheveux gominés raie au milieu, fine moustache, gros nez, costume rayé, nœud papillon
+function drawVendeur(c, P) {
+  const s = P.s || 1, f = P.face || 1, x = P.x, y = P.y, t = P.t || 0;
+  const PEAU = '#e9e4da', COST = '#2a2a2a', RAY = '#5a5a5a', BL = '#f7f5f0';
+  c.save(); c.translate(x, y); c.scale(s * f, s);
+  const hipY = -190, shY = -360, headY = -470;
+  const wk = P.walk || 0;
+  for (const sd of [-1, 1]) {
+    const ph = wk ? Math.sin(wk + (sd > 0 ? Math.PI : 0)) : 0;
+    const hip = [sd * 22, hipY], foot = [sd * 30 + ph * 44 + (P.spread || 0) * sd, -18 - Math.max(0, ph) * 20];
+    hose(c, hip, foot, sd * 6 - ph * 12, 32, COST); shoe(c, foot[0], foot[1] + 6, 1, '#0b0b0b');
+  }
+  c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
+  const hR = P.handR || [50, 150], hL = P.handL || [-50, 150];
+  hose(c, [-46, shY + 22], [-46 + hL[0], shY + 22 + hL[1]], 12, 26, COST); glove(c, -46 + hL[0], shY + 22 + hL[1], Math.atan2(hL[1], hL[0]), .9);
+  const v = smooth([[-54, shY], [54, shY], [60, hipY + 26], [0, hipY + 38], [-60, hipY + 26]]);
+  F(c, v, COST, 5); c.save(); c.clip(v); ink(c, 2); c.strokeStyle = RAY; for (let xx = -70; xx < 70; xx += 11) { c.beginPath(); c.moveTo(xx, shY); c.lineTo(xx + 3, hipY + 40); c.stroke(); } c.restore(); ink(c, 5); c.stroke(v);
+  F(c, poly([[-20, shY], [20, shY], [0, shY + 70]]), BL, 4);
+  F(c, poly([[0, shY + 12], [-22, shY + 2], [-22, shY + 24]]), INK, 3); F(c, poly([[0, shY + 12], [22, shY + 2], [22, shY + 24]]), INK, 3);
+  [shY + 100, shY + 130].forEach(by => F(c, ell(-10, by, 5, 5), BL, 2));
+  c.save(); c.translate(0, headY + 70); c.rotate(P.tilt || 0); c.translate(0, -(headY + 70));
+  F(c, ell(0, headY + 66, 16, 18), PEAU, 4);                                                                  // cou
+  for (const sd of [-1, 1]) F(c, ell(sd * 50, headY + 4, 12, 18), PEAU, 4);                                 // oreilles
+  F(c, smooth([[-50, headY - 30], [-30, headY - 60], [30, headY - 60], [52, headY - 30], [54, headY + 20], [34, headY + 58], [0, headY + 66], [-34, headY + 58], [-54, headY + 20]]), PEAU, 5);
+  const hair = smooth([[-54, headY - 6], [-56, headY - 44], [-30, headY - 70], [0, headY - 74], [30, headY - 70], [56, headY - 44], [54, headY - 6], [36, headY - 40], [4, headY - 52], [-4, headY - 52], [-36, headY - 40]]);
+  F(c, hair, '#151515', 4); c.fillStyle = 'rgba(255,255,255,.45)'; c.beginPath(); c.ellipse(-24, headY - 52, 14, 5, -.4, 0, 7); c.fill();
+  const lk = P.look || [0, 0];
+  pieEye(c, -14, headY - 14, 12, 18, lk[0], lk[1], P.blink || 0, P.lid || 0, PEAU);
+  pieEye(c, 16, headY - 14, 12, 18, lk[0], lk[1], P.blink || 0, P.lid || 0, PEAU);
+  ink(c, 4); for (const sd of [-1, 1]) { c.beginPath(); c.moveTo(sd * 4, headY - 38 - (P.worry || 0) * sd * -6); c.lineTo(sd * 28, headY - 40 + (P.worry || 0) * 8); c.stroke(); }
+  F(c, ell(4, headY + 14, 16, 13), PEAU, 4); c.fillStyle = 'rgba(255,255,255,.8)'; c.beginPath(); c.ellipse(-2, headY + 9, 5, 3, 0, 0, 7); c.fill();   // gros nez
+  F(c, smooth([[-26, headY + 30], [-6, headY + 26], [4, headY + 30], [14, headY + 26], [34, headY + 30], [14, headY + 34], [-6, headY + 34]]), '#151515', 2);   // fine moustache
+  mouth(c, 4, headY + 44, 22, P.talk || 0, P.worry ? -.6 : 1, '#8a8a8a');
+  c.restore();
+  hose(c, [46, shY + 22], [46 + hR[0], shY + 22 + hR[1]], -12, 26, COST); glove(c, 46 + hR[0], shY + 22 + hR[1], Math.atan2(hR[1], hR[0]), .9);
+  c.restore(); c.restore();
+}
+// chapeau de bouffon en noir et blanc (petit, pour les piles et les têtes)
+function chapeauNB(c, x, y, s, a = 0, t = 0) {
+  c.save(); c.translate(x, y); c.rotate(a); c.scale(s, s);
+  const pt = (ang, len) => { c.save(); c.rotate(ang); F(c, smooth([[-22, 0], [-12, -len * .55], [10, -len * .9], [24, -len], [14, -len * .7], [22, 0]]), ang === 0 ? '#bdbdbd' : '#8e8e8e', 4); F(c, ell(24, -len, 8, 8), '#f4f4f4', 3); c.restore(); };
+  pt(-.9, 80); pt(.9, 80); pt(0, 104);
+  F(c, smooth([[-58, -6], [0, -20], [58, -6], [60, 14], [0, 20], [-60, 14]]), '#6a6a6a', 4);
+  ink(c, 2.5); c.strokeStyle = '#2a2a2a'; c.beginPath(); c.moveTo(-50, 4); c.quadraticCurveTo(0, 12, 50, 4); c.stroke();
+  c.restore();
+}
+// DÉCOR noir et blanc : la chapellerie d'époque
+function chapellerieNB(c, t) {
+  c.fillStyle = '#cfcbc2'; c.fillRect(0, 0, W, H);
+  for (let x = 0; x < W; x += 60) { c.fillStyle = '#c3bfb5'; c.fillRect(x, 0, 28, 600); }
+  F(c, poly([[620, 80], [900, 80], [900, 520], [620, 520]]), '#e8e6e0', 6);                                     // fenêtre
+  ink(c, 6); c.beginPath(); c.moveTo(760, 80); c.lineTo(760, 520); c.moveTo(620, 300); c.lineTo(900, 300); c.stroke();
+  F(c, poly([[60, 60], [300, 60], [300, 130], [60, 130]]), '#f2f0ea', 5);
+  c.fillStyle = INK; c.font = 'italic bold 46px Georgia, serif'; c.textAlign = 'center'; c.fillText('Chapellerie', 180, 110);
+  ink(c, 4); c.beginPath(); c.moveTo(120, 0); c.lineTo(120, 60); c.moveTo(240, 0); c.lineTo(240, 60); c.stroke();
+  c.fillStyle = '#a9a59b'; c.fillRect(0, 600, W, H - 600); ink(c, 2); c.strokeStyle = '#8a867c'; for (let k = 0; k < 16; k++) { c.beginPath(); c.moveTo(k * 80 - 40, H); c.lineTo(k * 74 + 20, 600); c.stroke(); }
+  ink(c, 5); c.beginPath(); c.moveTo(0, 600); c.lineTo(W, 600); c.stroke();
+  const gl = c.createRadialGradient(470, 40, 10, 470, 300, 520); gl.addColorStop(0, 'rgba(255,255,255,.35)'); gl.addColorStop(1, 'rgba(255,255,255,0)'); c.fillStyle = gl; c.fillRect(0, 0, W, H);
+  ink(c, 3); c.beginPath(); c.moveTo(470, 0); c.lineTo(470, 30); c.stroke(); F(c, poly([[430, 60], [450, 30], [490, 30], [510, 60]]), '#3a3a3a', 4);
+}
+function montagneChapeaux(c, cx, base, t, n = 70) {
+  for (let i = n - 1; i >= 0; i--) {                       // du sommet vers la base : les chapeaux du bas passent devant
+    const r = hash(i + 3), row = Math.floor(Math.sqrt(i * 1.6)), w = 560 - row * 52;
+    const x = cx + (r - .5) * Math.max(80, w), y = base - row * 46 + hash(i + 9) * 12;
+    chapeauNB(c, x, y + Math.sin(t * 3 + i) * 1.5, .62 + hash(i) * .2, (hash(i + 5) - .5) * .9, t);
+  }
+}
+// TÉLÉVISEUR en bois (dans la boutique couleur) ; draws(c) dessine l'écran
+function televiseur(c, x, y, s, t, on, drawScreen) {
+  c.save(); c.translate(x, y); c.scale(s, s);
+  F(c, smooth([[-110, -80], [110, -80], [120, 70], [-120, 70]]), '#7a4220', 6);
+  F(c, smooth([[-90, -62], [70, -62], [74, 48], [-94, 48]]), '#1a1410', 4);
+  c.save(); c.beginPath(); c.roundRect(-84, -56, 152, 98, 18); c.clip();
+  if (on > 0) { drawScreen(c, -84, -56, 152, 98); c.fillStyle = `rgba(255,255,255,${(1 - on) * .9})`; c.fillRect(-84, -56, 152, 98); }
+  else { c.fillStyle = '#2a2622'; c.fillRect(-84, -56, 152, 98); }
+  c.restore();
+  for (const k of [0, 1]) F(c, ell(96, -30 + k * 46, 12, 12), '#d9b26a', 3);
+  ink(c, 5); c.beginPath(); c.moveTo(-90, 70); c.lineTo(-96, 100); c.moveTo(90, 70); c.lineTo(96, 100); c.stroke();
+  c.restore();
+}

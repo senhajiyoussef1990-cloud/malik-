@@ -63,3 +63,54 @@ SCENES[2] = function (c, t, E) {
   c.restore();
   pellicule(c, E.T0 + t, true);
 };
+
+// ------------------------------------------------------------ outils noir et blanc
+const OFF = document.createElement('canvas'); OFF.width = W; OFF.height = H; const offc = OFF.getContext('2d');
+function enNB(c, draw) {                      // dessine dans un calque puis le passe en noir et blanc
+  offc.setTransform(1, 0, 0, 1, 0, 0); offc.clearRect(0, 0, W, H); offc.save(); draw(offc); offc.restore();
+  c.save(); c.filter = 'grayscale(1) contrast(1.08) brightness(1.02)'; c.drawImage(OFF, 0, 0); c.restore();
+}
+function goutteJS(c, x, y, t) { const k = (t * 1.6) % 1; F(c, smooth([[x, y + k * 50 - 14], [x + 9, y + k * 50 + 4], [x, y + k * 50 + 12], [x - 9, y + k * 50 + 4]]), '#eef3f8', 3); }
+
+// ------------------------------------------------------------ SCÈNE 03 : RETOUR EN 1930
+function scene03NB(c, t, E) {
+  const tq = step(t);
+  c.save();
+  cam(c, t, [[0, 640, 420, 1.12], [2.2, 640, 420, 1.12], [5.0, 420, 400, 1.25], [8.5, 330, 360, 1.45], [12, 330, 360, 1.45]]);
+  chapellerieNB(c, t);
+  montagneChapeaux(c, 690, 640, t);
+  const fall = (t % 3.2) / 3.2;                                                  // un chapeau dégringole de la pile
+  chapeauNB(c, 760 + fall * 160, 260 + fall * fall * 380, .6, fall * 6, t);
+  const VX = 270, VY = 780, b = bnc(tq, .3);
+  boing(c, VX, VY, b, 5, 1, () => {
+    const sc = wobble(t, 3, 16);
+    drawVendeur(c, { x: VX, y: VY, s: 1, face: 1, t, worry: 1, look: [.8, -.2], blink: (t % 2.6) < .12 ? 1 : 0,
+      handR: [70 + sc * .6, -175 + Math.abs(sc) * .4], handL: [-70, 120 + wobble(t, 1.5, 10)], tilt: .06 + wobble(t, .8, .04), lean: -.04 });
+  });
+  goutteJS(c, VX + 60, VY - 560, t); goutteJS(c, VX - 50, VY - 540, t + .5);
+  c.restore();
+}
+SCENES[3] = function (c, t, E) {
+  const TIN = 1.6;
+  if (t < TIN) {
+    // le renard allume la télé, on plonge dans l'écran
+    const on = clamp((t - .45) / .35), u = ease((t - .6) / (TIN - .6));
+    const TX = 760, TY = 330, TS = 1.4, z = lerp(1, W / (152 * TS) * 1.02, u);
+    const scx = TX + (-84 + 76) * TS, scy = TY + (-56 + 49) * TS;
+    c.save(); c.translate(W / 2, H / 2); c.scale(z, z); c.translate(-lerp(W / 2, scx, u), -lerp(H / 2, scy, u));
+    boutique(c, E.T0 + t);
+    F(c, poly([[620, 400], [900, 400], [900, 420], [620, 420]]), '#4a2412', 3);
+    const ext = TX + 96 * TS, eyy = TY - 30 * TS, k = ease(t / .45);
+    drawRenard(c, { x: 360, y: 790, s: .95, t, face: 1, handR: [lerp(60, (ext - 360 - 47) / .95, k), lerp(140, (eyy - 790 + 290) / .95, k)], look: [1, 0], lid: .55 });
+    televiseur(c, TX, TY, TS, t, on, (cc, x0, y0, w, h) => {
+      offc.setTransform(1, 0, 0, 1, 0, 0); offc.clearRect(0, 0, W, H); offc.save(); scene03NB(offc, 0, E); offc.restore();
+      cc.save(); cc.filter = 'grayscale(1)'; cc.drawImage(OFF, x0, y0, w, h); cc.restore();
+      if (on < 1) { for (let i = 0; i < 40; i++) { cc.fillStyle = `rgba(255,255,255,${hash(i + t * 99) * .6})`; cc.fillRect(x0 + hash(i * 3 + t) * w, y0 + hash(i * 7 + t) * h, 6, 2); } }
+    });
+    c.restore();
+    pellicule(c, E.T0 + t, true);
+    return;
+  }
+  enNB(c, (cc) => scene03NB(cc, t, E));
+  pellicule(c, E.T0 + t, false);
+};
