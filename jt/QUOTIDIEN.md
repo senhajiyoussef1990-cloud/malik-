@@ -1,7 +1,7 @@
 # L'Écho du Jour — édition quotidienne
 
-Instructions pour la session programmée tous les jours à 11 h 25 (heure de Paris).
-But : livrer avant 12 h 30 la vidéo, le texte de publication et l'image de story.
+Instructions pour la session programmée tous les jours à 10 h 55 (heure de Paris).
+But : livrer **avant 12 h** la vidéo, le texte de publication et l'image de story. L'utilisateur publie à **12 h 30** et doit avoir le temps de vérifier.
 
 ## 1. Préparer
 
@@ -67,7 +67,7 @@ tools/daily.sh AAAA-MM-JJ-1      # ~15 à 20 min
 Vérifier dans la sortie : chaque ligne `qc` ≥ 0,75 (sinon reformuler la réplique `say` et relancer, le cache garde les autres) et une durée totale ≥ 60 s.
 Regarder 4 images : `node render.js AAAA-MM-JJ-1 --preview 2,10,30,50`, puis `out/story-AAAA-MM-JJ-1.jpg`.
 
-## 5. Livrer (avant 12 h 30)
+## 5. Livrer (avant 12 h)
 
 Envoyer à l'utilisateur avec l'outil d'envoi de fichiers (statut proactif) :
 
