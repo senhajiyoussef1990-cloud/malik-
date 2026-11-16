@@ -2,3 +2,4 @@ build_tmp/
 sortie/
 clips/
 audio/
+__pycache__/
