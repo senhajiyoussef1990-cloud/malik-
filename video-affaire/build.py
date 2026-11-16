@@ -188,8 +188,14 @@ def render_still(img, d, out, zoom_to=1.08, focus=None, punch=0.0):
          "-t", f"{d:.3f}", *ENC, out])
 
 def render_band(sid, d, out, first=False):
-    clip = P("clips", sid + ".mp4"); n = d
-    if os.path.exists(clip):
+    clip = P("clips", sid + ".mp4"); still = P("clips", sid + ".png"); n = d
+    if os.path.exists(still):   # image fixe animée : zoom lent + léger panoramique + grain
+        nf = int(round(d * FPS)); dx = (-1) ** int(sid[1:]) * 60
+        src = ["-loop", "1", "-i", still]
+        band = (f"[0:v]scale={W * 2}:{BAND_H * 2},zoompan=z='1.04+0.10*on/{nf}':d={nf}:s={W}x{BAND_H}:fps={FPS}"
+                f":x='iw/2-(iw/zoom/2)+{dx}*on/{nf}':y='ih/2-(ih/zoom/2)',"
+                f"colorchannelmixer=rr=0.93:gg=0.97:bb=1.06,noise=alls=10:allf=t,vignette=PI/4.5,setsar=1")
+    elif os.path.exists(clip):
         src = ["-stream_loop", "-1", "-i", clip]
         band = f"[0:v]scale={W}:{BAND_H}:force_original_aspect_ratio=increase,crop={W}:{BAND_H},setsar=1,fps={FPS}"
     else:
