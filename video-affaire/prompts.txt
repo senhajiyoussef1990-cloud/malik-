@@ -1,0 +1,47 @@
+PROMPTS — vidéo « T'AS FAIT UNE AFFAIRE ? » (@ne.suit.pas.lesmoutons)
+Personnages : format vertical (2:3 ou 9:16), fond blanc uni.
+Décors : format horizontal 16:9, sans personnage.
+Astuce : si ton outil accepte une image de référence, donne-lui tes images du renard et du mouton.
+Renvoie chaque image avec le nom de fichier indiqué.
+
+=== mouton_content.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon sheep character with fluffy white wool, a flat newsboy cap, a knitted vest and a bow tie, big happy smile, arms open, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== mouton_marche.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon sheep character with fluffy white wool, a flat newsboy cap, a knitted vest and a bow tie, walking cheerfully, side view, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== mouton_inquiet.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon sheep character with fluffy white wool, a flat newsboy cap, a knitted vest and a bow tie, worried and sweating, hands on cheeks, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== mouton_montre.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon sheep character with fluffy white wool, a flat newsboy cap, a knitted vest and a bow tie, holding up a wristwatch proudly, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== mouton_pointe.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon sheep character with fluffy white wool, a flat newsboy cap, a knitted vest and a bow tie, pointing with one finger, surprised, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== mouton_reflechit.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon sheep character with fluffy white wool, a flat newsboy cap, a knitted vest and a bow tie, thinking, scratching his head, puzzled, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== renard_sourire.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a slim sly cartoon fox character in a dark pinstripe three-piece suit and tie, sly smirk, half-closed eyes, hands behind back, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== renard_presente.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a slim sly cartoon fox character in a dark pinstripe three-piece suit and tie, presenting with one arm stretched out, grinning, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== renard_rit.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a slim sly cartoon fox character in a dark pinstripe three-piece suit and tie, laughing with eyes closed, hand on belly, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== renard_clin.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a slim sly cartoon fox character in a dark pinstripe three-piece suit and tie, winking and giving a thumbs up, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== savant.png  (vertical, fond blanc) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, an old bald cartoon scientist with a big white moustache and round glasses in a lab coat, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== decor_boutique.png  (16:9 horizontal) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, inside an old clock and watch shop, wooden counter, wall clocks, display cases, empty background, no characters, wide shot
+
+=== decor_labo.png  (16:9 horizontal) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, an old science laboratory with blackboards and flasks, empty background, no characters, wide shot
+
+=== decor_scene.png  (16:9 horizontal) ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, an old theater stage with curtains and spotlights, empty background, no characters, wide shot
