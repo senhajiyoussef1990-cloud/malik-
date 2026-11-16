@@ -23,7 +23,9 @@ lines = json.load(open(f"{R}/lignes.json"))
 only = sys.argv[1:]
 model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
 
-def say(text, who, out, seed=1930):
+SEED = int(os.environ.get("SEED", "1930"))
+def say(text, who, out, seed=None):
+    seed = SEED if seed is None else seed
     ref, ex, cfg = JEU[who]
     torch.manual_seed(seed)
     wav = model.generate(text, language_id="fr", audio_prompt_path=f"{R}/voix/refs/ref-{ref}.wav",

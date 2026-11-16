@@ -126,7 +126,7 @@ def etoile(d, x, y, r, col=(255, 255, 255)):
 def marque(d, x, y, txt, sz, t, t0, col=(255, 255, 255)):
     k = (t - t0) / 0.25
     if k <= 0: return
-    s = sz * (1.25 if k < 0.6 else 1.0) * min(1, k * 2)
+    s = max(6, sz * (1.25 if k < 0.6 else 1.0) * min(1, k * 2))
     y2 = y + math.sin(t * 7 + x) * 5
     d.text((x, y2), txt, font=font(s), fill=col, anchor="mm", stroke_width=max(2, int(s / 14)), stroke_fill=(15, 15, 15))
 def traits(d, x, y, t, n=3, long=40, ang0=-60):
