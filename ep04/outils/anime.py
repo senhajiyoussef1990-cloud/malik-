@@ -238,7 +238,7 @@ def camera(cads, t):
             k = ease((t - st) / 0.6); prev = cur
             cur = tuple(p + (c - p) * k for p, c in zip(prev, cible))
     cx, cy, z = cur
-    z *= 1 + 0.015 * math.sin(t * 0.8)                       # respiration de caméra
+    z = max(1.0, z * (1 + 0.015 * math.sin(t * 0.8)))         # respiration de caméra
     w, h = IW / z, IH / z
     cx = min(max(cx, w / 2), IW - w / 2); cy = min(max(cy, h / 2), IH - h / 2)
     return (cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2)

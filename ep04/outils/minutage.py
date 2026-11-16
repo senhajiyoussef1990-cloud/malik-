@@ -25,13 +25,22 @@ for L in lines:
                     "silenceremove=start_periods=1:start_threshold=-42dB,areverse,silenceremove=start_periods=1:start_threshold=-42dB,areverse,"
                     "highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=5:release=80", "-ar", "44100", "-b:a", "192k", clean], check=True)
     segs, _ = model.transcribe(load(clean), language="fr", word_timestamps=True, condition_on_previous_text=False)
-    words = [(w.word.strip(), w.start, w.end) for s in segs for w in s.words]
+    words = []
+    for s in segs:
+        for w in s.words:
+            t = w.word.strip()
+            if words and (t[:1] in "'’-" or words[-1][0][-1:] in "'’"):   # recolle « d » + « 'autres », « celui » + « -ci »
+                words[-1] = (words[-1][0] + t, words[-1][1], w.end)
+            elif t: words.append((t, w.start, w.end))
     tw = L["text"].split()
     sm = difflib.SequenceMatcher(a=[norm(w) for w in tw], b=[norm(w[0]) for w in words], autojunk=False)
     blocks = [b for b in sm.get_matching_blocks() if b.size]
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", clean], capture_output=True, text=True).stdout)
     ratio = sum(b.size for b in blocks) / max(1, len(tw))
-    if ratio >= 0.6 and blocks and blocks[-1].b + blocks[-1].size < len(words):   # mots ajoutés par la synthèse : on coupe
+    queue_rec = "".join(norm(w[0]) for w in words[blocks[-1].b + blocks[-1].size:]) if blocks else ""
+    queue_txt = "".join(norm(w) for w in tw[blocks[-1].a + blocks[-1].size:]) if blocks else ""
+    ressemble = bool(queue_txt) and difflib.SequenceMatcher(None, queue_rec, queue_txt).ratio() > 0.45
+    if ratio >= 0.6 and not ressemble and blocks and blocks[-1].b + blocks[-1].size < len(words):   # mots ajoutés : on coupe
         cut = words[blocks[-1].b + blocks[-1].size - 1][2] + 0.25
         tmp = clean + ".tmp.mp3"
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", clean, "-t", f"{cut:.2f}", "-af", f"afade=t=out:st={cut - .12:.2f}:d=0.12", "-b:a", "192k", tmp], check=True)
