@@ -90,17 +90,41 @@ def placeholder_card(sid, path):
     im.save(path)
 
 def phone_placeholder(path):
-    base = Image.open(P("img/renard_cravate.png")).convert("RGB").resize((W, H))
-    d = ImageDraw.Draw(base)
-    # faux smartphone tenu en bas à droite
-    x0, y0 = 600, 1080
-    d.rounded_rectangle([x0, y0, x0 + 330, y0 + 620], 40, fill=(15, 15, 15), outline=(90, 90, 90), width=6)
-    d.rounded_rectangle([x0 + 20, y0 + 50, x0 + 310, y0 + 570], 18, fill=(205, 205, 205))
-    f = font(F_CAP, 30)
-    for i, ln in enumerate(["IMAGE À", "GÉNÉRER :", "renard qui", "tend le", "smartphone"]):
-        d.text((x0 + 45, y0 + 150 + i * 46), ln, font=f, fill=(40, 40, 40))
-    base.save(path)
-    return (x0 + 165, y0 + 310)  # centre de l'écran du téléphone
+    """renard_face + patte qui tend un smartphone ; l'écran montre le 1er plan du clip n01"""
+    base = Image.open(P("img/renard_face.png")).convert("RGBA").resize((W, H))
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    fur, fur2, ol = (190, 96, 44), (225, 160, 110), (55, 26, 10)
+    X, Y, PW, PH = 600, 1020, 380, 700                       # téléphone
+    # manche + paume (derrière le téléphone)
+    d.polygon([(250, H), (520, H), (800, 1760), (700, 1640)], fill=(36, 28, 24), outline=(12, 10, 8))
+    d.polygon([(690, 1650), (735, 1615), (820, 1735), (785, 1775)], fill=(238, 230, 212), outline=(12, 10, 8))
+    d.ellipse([700, 1600, 920, 1790], fill=fur, outline=ol, width=5)
+    # téléphone
+    ph = Image.new("RGBA", (PW, PH), (0, 0, 0, 0)); pd = ImageDraw.Draw(ph)
+    pd.rounded_rectangle([0, 0, PW - 1, PH - 1], 50, fill=(16, 16, 16), outline=(90, 90, 90), width=5)
+    sw, sh = PW - 36, PH - 90
+    scr = Image.new("RGB", (sw, sh), (20, 20, 20))
+    clip = P("clips", "n01.mp4")
+    if os.path.exists(clip):
+        run(["ffmpeg", "-y", "-v", "error", "-ss", "0.5", "-i", clip, "-frames:v", "1", P(TMP, "phone_frame.png")])
+        fr = Image.open(P(TMP, "phone_frame.png")).convert("RGB")
+        fr = fr.resize((sw, int(fr.height * sw / fr.width)))
+        scr.paste(fr, (0, (sh - fr.height) // 2))
+    m = Image.new("L", (sw, sh), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, sw - 1, sh - 1], 32, fill=255)
+    ph.paste(scr, (18, 48), m)
+    pd.rounded_rectangle([PW // 2 - 50, 18, PW // 2 + 50, 32], 7, fill=(45, 45, 45))
+    lay.alpha_composite(ph, (X, Y))
+    d = ImageDraw.Draw(lay)
+    # pouce sur le bord gauche, bouts des doigts sur le bord droit
+    d.rounded_rectangle([X - 30, Y + 520, X + 26, Y + 660], 26, fill=fur, outline=ol, width=5)
+    d.ellipse([X - 18, Y + 535, X + 14, Y + 565], fill=fur2)
+    for k in range(3):
+        y = Y + 470 + k * 62
+        d.rounded_rectangle([X + PW - 26, y, X + PW + 34, y + 54], 26, fill=fur, outline=ol, width=5)
+    d.rounded_rectangle([X + 60, Y + PH - 14, X + 300, Y + PH + 40], 26, fill=fur, outline=ol, width=5)
+    base.alpha_composite(lay)
+    base.convert("RGB").save(path)
+    return (X + PW / 2, Y + PH / 2)  # centre de l'écran du téléphone
 
 # ---------- durées & sous-titres ----------
 def seg_timing(L):
@@ -237,8 +261,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", P(TMP, "a.txt"), P(TMP, "all.wav")])
     fd = t0 - 2.0 + 1.2
     run(["ffmpeg", "-y", "-v", "error", "-i", P(TMP, "all.mp4"), "-i", P(TMP, "ov_title.png"), "-i", P(TMP, "all.wav"),
-         "-filter_complex", f"[0:v][1:v]overlay=0:0,ass={P(TMP, 'subs.ass')}:fontsdir={P('fonts')},fade=t=out:st={fd:.2f}:d=0.8[v]",
-         "-map", "[v]", "-map", "2:a", "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "8M",
+         "-filter_complex", f"[0:v][1:v]overlay=0:0,ass={P(TMP, 'subs.ass')}:fontsdir={P('fonts')},fade=t=out:st={fd:.2f}:d=0.8[v];[2:a]loudnorm=I=-14:TP=-1.5:LRA=11[a]",
+         "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "8M",
          "-bufsize", "16M", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart",
          P(OUT, "video.mp4")])
     print(f"OK -> sortie/video.mp4  ({t0:.1f}s)")
