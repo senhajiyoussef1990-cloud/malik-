@@ -101,33 +101,35 @@ def tv_image(path):
     """renard_face + téléviseur en bois années 30 posé sur le comptoir ; l'écran montre le dessin animé"""
     base = Image.open(P("img/renard_face.png")).convert("RGBA").resize((W, H))
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
-    X, Y, TW, TH = 545, 1080, 500, 600                      # meuble
+    # meuble télé d'époque posé au sol (pieds sur le plancher, en bas à droite)
+    X, TW, TH, LEG = 560, 470, 640, 90
+    FLOOR = 1895; Y = FLOOR - LEG - TH
     wood, wood2, dark, brass = (112, 66, 34), (140, 86, 46), (40, 22, 10), (196, 158, 82)
-    d.ellipse([X - 20, Y + TH - 10, X + TW + 20, Y + TH + 50], fill=(0, 0, 0, 110))                 # ombre
-    d.rounded_rectangle([X, Y, X + TW, Y + TH], 46, fill=wood, outline=dark, width=7)
-    for k in range(9):                                                                              # veinage
-        yy = Y + 30 + k * 64
+    d.ellipse([X - 40, FLOOR - 25, X + TW + 40, FLOOR + 25], fill=(0, 0, 0, 130))                  # ombre au sol
+    for k in (0, 1):                                                                                # pieds galbés
+        lx = X + 40 + k * (TW - 110)
+        d.polygon([(lx, Y + TH - 5), (lx + 30, Y + TH - 5), (lx + 22 + k * 8, FLOOR), (lx + 8 - k * 0, FLOOR)], fill=dark)
+    d.rounded_rectangle([X, Y, X + TW, Y + TH], 40, fill=wood, outline=dark, width=7)
+    for k in range(10):                                                                             # veinage
+        yy = Y + 30 + k * 62
         d.arc([X + 20, yy - 30, X + TW - 20, yy + 30], 190, 350, fill=wood2, width=3)
-    d.rounded_rectangle([X + 26, Y + 26, X + TW - 26, Y + 360], 36, fill=dark)                      # cadre écran
-    sx0, sy0, sx1, sy1 = X + 50, Y + 50, X + TW - 50, Y + 336
+    d.rounded_rectangle([X + 24, Y + 24, X + TW - 24, Y + 330], 34, fill=dark)                      # cadre écran
+    sx0, sy0, sx1, sy1 = X + 46, Y + 46, X + TW - 46, Y + 308
     fr = first_frame(P(TMP, "tv_frame.png")).resize((sx1 - sx0, int((sx1 - sx0) * 9 / 16)))
     scr = Image.new("RGB", (sx1 - sx0, sy1 - sy0), (25, 25, 25))
     scr.paste(fr, (0, (sy1 - sy0 - fr.height) // 2))
     m = Image.new("L", scr.size, 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, scr.width - 1, scr.height - 1], 40, fill=255)
     lay.paste(scr, (sx0, sy0), m)
-    glow = Image.new("RGBA", scr.size, (0, 0, 0, 0)); gd = ImageDraw.Draw(glow)               # écran bombé
+    glow = Image.new("RGBA", scr.size, (0, 0, 0, 0)); gd = ImageDraw.Draw(glow)               # reflet écran bombé
     gd.ellipse([20, 10, scr.width * 0.55, scr.height * 0.45], fill=(255, 255, 255, 38))
     lay.alpha_composite(glow, (sx0, sy0))
     d = ImageDraw.Draw(lay)
-    d.rounded_rectangle([X + 60, Y + 390, X + 320, Y + 560], 16, fill=(70, 42, 22), outline=dark, width=5)  # grille
-    for k in range(11): d.line([(X + 78 + k * 22, Y + 402), (X + 78 + k * 22, Y + 548)], fill=(150, 110, 60), width=6)
-    for k in range(2):                                                                              # boutons
-        cx, cy = X + 400, Y + 430 + k * 90
-        d.ellipse([cx - 34, cy - 34, cx + 34, cy + 34], fill=brass, outline=dark, width=5)
-        d.line([(cx, cy), (cx + 20, cy - 20)], fill=dark, width=6)
-    for k in (0, 1):                                                                                # pieds
-        lx = X + 50 + k * (TW - 130)
-        d.rectangle([lx, Y + TH - 4, lx + 30, Y + TH + 30], fill=dark)
+    d.rounded_rectangle([X + 50, Y + 365, X + 300, Y + 600], 16, fill=(70, 42, 22), outline=dark, width=5)  # grille
+    for k in range(11): d.line([(X + 68 + k * 21, Y + 378), (X + 68 + k * 21, Y + 588)], fill=(150, 110, 60), width=6)
+    for k in range(3):                                                                              # boutons
+        cx, cy = X + 380, Y + 400 + k * 85
+        d.ellipse([cx - 32, cy - 32, cx + 32, cy + 32], fill=brass, outline=dark, width=5)
+        d.line([(cx, cy), (cx + 19, cy - 19)], fill=dark, width=6)
     base.alpha_composite(lay)
     base.convert("RGB").save(path)
     return ((sx0 + sx1) / 2, (sy0 + sy1) / 2)  # centre de l'écran du téléviseur
