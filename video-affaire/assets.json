@@ -1,0 +1,22 @@
+{
+ "_style": "rubberhose style illustration, golden age of animation, 1930s black and white cartoon, monochrome, bold black ink outlines, pie-cut eyes, white gloves, ",
+ "_mouton": "a cartoon sheep character with fluffy white wool, a flat newsboy cap, a knitted vest and a bow tie",
+ "_renard": "a slim sly cartoon fox character in a dark pinstripe three-piece suit and tie",
+ "_perso": "full body, standing, centered, isolated on a plain white background, no shadow",
+ "_decor": "empty background, no characters, wide shot",
+
+ "mouton_content":  {"w": 512, "h": 768, "prompt": "{mouton}, big happy smile, arms open, {perso}"},
+ "mouton_marche":   {"w": 512, "h": 768, "prompt": "{mouton}, walking cheerfully, side view, {perso}"},
+ "mouton_inquiet":  {"w": 512, "h": 768, "prompt": "{mouton}, worried and sweating, hands on cheeks, {perso}"},
+ "mouton_montre":   {"w": 512, "h": 768, "prompt": "{mouton}, holding up a wristwatch proudly, {perso}"},
+ "mouton_pointe":   {"w": 512, "h": 768, "prompt": "{mouton}, pointing with one finger, surprised, {perso}"},
+ "mouton_reflechit":{"w": 512, "h": 768, "prompt": "{mouton}, thinking, scratching his head, puzzled, {perso}"},
+ "renard_sourire":  {"w": 512, "h": 768, "prompt": "{renard}, sly smirk, half-closed eyes, hands behind back, {perso}"},
+ "renard_presente": {"w": 512, "h": 768, "prompt": "{renard}, presenting with one arm stretched out, grinning, {perso}"},
+ "renard_rit":      {"w": 512, "h": 768, "prompt": "{renard}, laughing with eyes closed, hand on belly, {perso}"},
+ "renard_clin":     {"w": 512, "h": 768, "prompt": "{renard}, winking and giving a thumbs up, {perso}"},
+ "savant":          {"w": 512, "h": 768, "prompt": "an old bald cartoon scientist with a big white moustache and round glasses in a lab coat, {perso}"},
+ "decor_boutique":  {"w": 768, "h": 432, "prompt": "inside an old clock and watch shop, wooden counter, wall clocks, display cases, {decor}"},
+ "decor_labo":      {"w": 768, "h": 432, "prompt": "an old science laboratory with blackboards and flasks, {decor}"},
+ "decor_scene":     {"w": 768, "h": 432, "prompt": "an old theater stage with curtains and spotlights, {decor}"}
+}
