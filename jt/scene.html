@@ -870,6 +870,40 @@ window.renderBrand = function (kind) {
     $("banner").setAttribute("display", "none");
   }
 };
+// ---------- vidéo de présentation (≈ 10 s) ----------
+// P = { env: [...], a: [début, fin], b: [début, fin], dur } en secondes
+window.renderPromo = function (f, P) {
+  const t = f / FPS;
+  if (t < 1.5) {
+    window.renderFrame(Math.round((T_OPEN + t) * FPS));
+    $("dateTxt").textContent = "CHAQUE JOUR À 12 H 30";
+    return;
+  }
+  const endTalk = P.b[1], sal = endTalk + 0.15;
+  let base;
+  if (t < P.b[0]) base = T_OUTRO + 0.4 + ((t - 1.5) % 2.0);             // parle
+  else if (t < sal) base = T_OUTRO + TL.outroRight + 0.4;                 // pointe vers « s'abonner »
+  else base = T_OUTRO + TL.outroSalute + 0.25 + (t - sal);                // salue
+  window.renderFrame(Math.round(base * FPS));
+  $("dateTxt").textContent = E.date;
+  fitText("bannerTxt", "L'ÉCHO DU JOUR", 820, 76);
+  $("banner").setAttribute("display", "inline");
+  $("banner").setAttribute("transform", `translate(${(1 - easeBack(clamp((t - 1.5) / 0.4))) * -1100},0)`);
+  const ills = ["globe", "boat", "ball", "wine", "rocket", "probe"];
+  updateIll(ills[Math.floor((t - 1.5) / 1.4) % ills.length], (t - 1.5) % 1.4, t);
+  let lines = null, alpha = 0, pop = 1;
+  const w = (a, b2) => { if (t >= a && t < b2) { alpha = clamp(Math.min((t - a) / 0.15, (b2 - t) / 0.12)); pop = (t - a) / 0.25; return true; } return false; };
+  if (w(P.a[0] - 0.05, P.b[0] - 0.05)) lines = ["Chaque jour à *12 h 30*,", "l'actu d'hier en *1 minute* !"];
+  else if (w(P.b[0] - 0.05, P.dur - 0.7)) lines = ["France · Monde · *Insolite*", "*Abonne-toi* !"];
+  setSub(lines, alpha, pop);
+  const mo = clamp(((P.env[f] || 0) - 0.08) * 1.4);
+  $("mouthC").setAttribute("display", mo < 0.12 ? "inline" : "none");
+  $("mouthO").setAttribute("display", mo >= 0.12 ? "inline" : "none");
+  $("mouthE").setAttribute("ry", 6 + mo * 18); $("tongue").setAttribute("cy", 906 + mo * 12);
+  const tc = P.dur - 0.7;
+  $("irisHole").setAttribute("r", t >= tc ? Math.max(0, 1300 * (1 - ease(clamp((t - tc) / 0.6)))) : 1300);
+  $("irisHole").setAttribute("cx", 500); $("irisHole").setAttribute("cy", 860);
+};
 window.ready = document.fonts.ready.then(() => { window.renderFrame(0); return true; });
 </script>
 </body>
