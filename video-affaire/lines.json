@@ -1,0 +1,23 @@
+[
+ {"id":"i1","who":"mouton","text":"Regarde ! Elle était à cent euros… je l'ai eue à trente-neuf euros !","cap":"Regarde ! Elle était à 100 €… je l'ai eue à 39 € !"},
+ {"id":"i2","who":"renard","text":"Hmm… t'es sûr que t'as fait une affaire ?"},
+ {"id":"i3","who":"mouton","text":"Bah… pourquoi ?"},
+ {"id":"i4","who":"renard","text":"Rien… regarde."},
+ {"id":"n01","who":"narr","text":"Avant cent euros. Maintenant trente-neuf. Ton cerveau a déjà décidé : c'est une affaire.","cap":"Avant 100 €. Maintenant 39. Ton cerveau a déjà décidé : c'est une affaire."},
+ {"id":"n02","who":"narr","text":"Mais il n'a jamais vu la montre à cent euros. Il a juste vu le chiffre.","cap":"Mais il n'a jamais vu la montre à 100 €. Il a juste vu le chiffre."},
+ {"id":"n03","who":"narr","text":"Ça s'appelle l'ancrage. Le premier prix que tu vois devient ta référence. Même s'il est inventé."},
+ {"id":"n04","who":"narr","text":"En mille neuf cent soixante-quatorze, deux chercheurs, Tversky et Kahneman, font tourner une roue truquée. Elle s'arrête sur dix… ou sur soixante-cinq.","cap":"En 1974, deux chercheurs, Tversky et Kahneman, font tourner une roue truquée. Elle s'arrête sur 10… ou sur 65."},
+ {"id":"n05","who":"narr","text":"Puis ils posent une question sans aucun rapport : quel pourcentage des pays de l'ONU sont africains ?"},
+ {"id":"n06","who":"narr","text":"Ceux qui ont vu dix répondent vingt-cinq pour cent. Ceux qui ont vu soixante-cinq répondent quarante-cinq pour cent.","cap":"Ceux qui ont vu 10 répondent 25 %. Ceux qui ont vu 65 répondent 45 %."},
+ {"id":"n07","who":"narr","text":"Un chiffre au hasard. Et leur cerveau s'y accroche."},
+ {"id":"n08","who":"narr","text":"Alors imagine ce que fait un chiffre choisi exprès."},
+ {"id":"n09","who":"narr","text":"Le prix barré. Le « prix conseillé » que personne n'a jamais payé. L'article hors de prix en vitrine, juste là pour que le reste paraisse pas cher."},
+ {"id":"n10","who":"narr","text":"Le compte à rebours. Le « plus que deux en stock ». Pour que tu n'aies pas le temps de comparer.","cap":"Le compte à rebours. Le « plus que 2 en stock ». Pour que tu n'aies pas le temps de comparer."},
+ {"id":"n11","who":"narr","text":"En France, le prix barré doit maintenant être le plus bas des trente derniers jours. Alors il arrive que le prix grimpe… juste avant les soldes.","cap":"En France, le prix barré doit maintenant être le plus bas des 30 derniers jours. Alors il arrive que le prix grimpe… juste avant les soldes."},
+ {"id":"n12","who":"narr","text":"Tu ne paies pas trente-neuf euros pour une montre à cent euros.","cap":"Tu ne paies pas 39 € pour une montre à 100 €."},
+ {"id":"n13","who":"narr","text":"Tu paies trente-neuf euros pour une montre à trente-neuf euros. Et le sentiment d'avoir gagné… c'est cadeau.","cap":"Tu paies 39 € pour une montre à 39 €. Et le sentiment d'avoir gagné… c'est cadeau."},
+ {"id":"n14","who":"narr","text":"La vraie question, ce n'est jamais : « combien j'économise ? »"},
+ {"id":"n15","who":"narr","text":"C'est : « est-ce que je l'aurais acheté à ce prix-là… sans le chiffre barré ? »"},
+ {"id":"f1","who":"mouton","text":"Donc… j'ai pas fait une affaire ?"},
+ {"id":"f2","who":"renard","text":"Si. Moi."}
+]
