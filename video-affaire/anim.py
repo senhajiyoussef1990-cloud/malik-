@@ -170,8 +170,9 @@ def n08a(F, t, T):
 def n09a(F, t, T):
     F.actor(pose(t, ["renard_presente", "renard_sourire"], 0.9), 320, 430, t, bob=0.6)
     p = F.pen(); tag(p, 780, 280, "39 €", 1.2)
-    big_text(p, 780, 110, "PRIX CONSEILLÉ : 199 €", 40, t, 0.3, INK)
-    if t > 0.9: p.line([(600, 130), (600 + 360 * ease((t - 0.9) / 0.5), 95)], RED, 8)
+    if t > 0.3:
+        p.rect(560, 60, 1000, 150, PAPER, INK, 6, r=8); p.text(780, 105, "PRIX CONSEILLÉ : 199 €", 40, INK)
+    if t > 0.9: p.line([(590, 125), (590 + 380 * ease((t - 0.9) / 0.5), 88)], RED, 9)
 def n09b(F, t, T):
     p = F.pen()
     p.rect(60, 40, 1020, 520, None, INK, 10); p.rect(470, 330, 610, 520, G3, INK, 5)
@@ -210,9 +211,7 @@ def n11b(F, t, T):
     F.actor("renard_rit", 300, 430, t, speed=2.5, squash=0.04)
     p = F.pen(); machine(p, t, 39, RED); big_text(p, 720, 520, "SOLDES !", 80, t, 0.2)
 def n12a(F, t, T):
-    F.actor("renard_sourire", 800, 400, t, floor=470, bob=0.4, flip=True)
-    p = F.pen(); p.rect(560, 380, W, 520, G4, INK, 6); p.line([(560, 400), (W, 400)], (90, 89, 86), 4)
-    F.done(); F.ov = None
+    F.actor("renard_sourire", 820, 420, t, bob=0.4, flip=True)
     F.actor("mouton_montre", 290, 420, t, bob=0.5)
     p = F.pen()
     for i in range(4):
@@ -220,7 +219,7 @@ def n12a(F, t, T):
         coin(p, 420 + k * 330, 300 - math.sin(k * math.pi) * 170)
 def n13a(F, t, T):
     F.actor("renard_clin", 290, 430, t)
-    p = F.pen(); bx, by = 700, 360; lid = ease((t - T * 0.5) / 0.5) * 90
+    p = F.pen(); bx, by = 720, 410; lid = ease((t - T * 0.5) / 0.5) * 90
     p.rect(bx - 130, by, bx + 130, by + 140, PAPER, INK, 6); p.rect(bx - 16, by, bx + 16, by + 140, RED, INK, 3)
     p.rect(bx - 140, by - 42 - lid, bx + 140, by - lid, PAPER, INK, 6); p.rect(bx - 16, by - 42 - lid, bx + 16, by - lid, RED, INK, 3)
     heart(p, bx - 26, by - 58 - lid, 17); heart(p, bx + 26, by - 58 - lid, 17)
