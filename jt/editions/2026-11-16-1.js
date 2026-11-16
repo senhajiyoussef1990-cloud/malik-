@@ -3,13 +3,13 @@
 window.EDITION = {
   date: "LUNDI 16 NOVEMBRE 2026",
   file: "ecodujour-2026-11-16-1",
-  caption: "📰 L'Écho du Jour du 16 novembre : un tonneau de vin à un million d'euros à Beaune, un El Niño géant dans le Pacifique, et Voyager 1 bientôt à un jour-lumière de la Terre. Et toi, tu paierais combien pour un tonneau ? 👇\n\n#actu #info #journal #ecodujour #beaune #elnino #voyager1",
+  caption: "📰 L'Écho du Jour du 16 novembre : un tonneau de vin qui rapporte un million d'euros à Beaune, un El Niño géant dans le Pacifique, et Voyager 1 bientôt à un jour-lumière de la Terre. Et toi, tu paierais combien pour un tonneau ? 👇\n\n#actu #info #journal #ecodujour #beaune #elnino #voyager1",
   storyCta: "LE JT EST EN LIGNE !",
   voice: "fr_FR-tom-medium",
   voiceEngine: "clone",
   phonetic: { "El Niño": "El Nigno" },
-  hook: ["Un tonneau de vin", "à *un million* d'euros !"],
-  hookSay: "Un tonneau de vin|à un million d'euros !",
+  hook: ["Un tonneau de vin", "rapporte *un million* !"],
+  hookSay: "Un tonneau de vin|rapporte un million d'euros !",
   hookIllustration: "wine",
   rubriques: [
     {
@@ -18,13 +18,13 @@ window.EDITION = {
       illustration: "wine",
       subs: [
         ["Dimanche à Beaune, la", "vente des *Hospices*."],
-        ["La pièce de charité part", "à *un million* d'euros !"],
+        ["La pièce de charité", "rapporte *un million* !"],
         ["Adjugée 770 000 €,", "*un don* complète la somme."],
         ["Au total : *14,4 millions*", "malgré une petite récolte."],
       ],
       say: [
         "Dimanche à Beaune,|c'est la vente des vins des Hospices !",
-        "La pièce de charité|part à un million d'euros !",
+        "La pièce de charité|rapporte un million d'euros !",
         "Adjugée sept cent soixante-dix mille euros,|un don complète la somme !",
         "Au total, quatorze virgule quatre millions d'euros,|malgré une petite récolte !",
       ],
@@ -35,15 +35,15 @@ window.EDITION = {
       illustration: "globe",
       subs: [
         ["Dans le Pacifique, *El Niño*", "chauffe l'océan."],
-        ["*+2 °C* : le 2e plus fort", "depuis 1950."],
-        ["Seul celui de *1997* était", "plus puissant."],
-        ["*83 %* de chances qu'il", "batte le record !"],
+        ["*+2 °C*, le 2e plus fort", "à cette saison depuis 1950"],
+        ["Seul *1997* faisait", "mieux à ce stade."],
+        ["Record possible : *83 %*", "selon la NOAA."],
       ],
       say: [
         "Dans le Pacifique,|El Niño fait chauffer l'océan !",
-        "Plus deux degrés :|le deuxième plus fort depuis mille neuf cent cinquante !",
-        "Seul celui de mille neuf cent quatre-vingt-dix-sept|était plus puissant à cette période !",
-        "Quatre-vingt-trois pour cent de chances|qu'il batte le record !",
+        "Plus deux degrés :|le deuxième plus fort à cette saison depuis mille neuf cent cinquante !",
+        "Seul l'épisode de mille neuf cent quatre-vingt-dix-sept|faisait mieux à ce stade !",
+        "Quatre-vingt-trois pour cent de chances de record,|selon les météorologues américains !",
       ],
     },
     {
@@ -53,7 +53,7 @@ window.EDITION = {
       insolite: true,
       subs: [
         ["Mercredi, *Voyager 1*", "sera à un jour-lumière !"],
-        ["Soit *25,9 milliards* de km :", "du jamais vu !"],
+        ["*25,9 milliards* de km :", "du jamais vu !"],
         ["Un message de la Terre", "met *un jour entier* !"],
         ["Lancée en *1977*,", "elle répond toujours !"],
       ],
