@@ -151,8 +151,8 @@ def video(subs, out):
     vf += f";[v3]ass={P('travail/sous_titres.ass')}:fontsdir={P('fonts')}[v]" if subs else ";[v3]null[v]"
     run(["ffmpeg", "-y", "-v", "error", "-i", P("travail/bande.mp4"), "-loop", "1", "-i", P("travail/calque.png"),
          "-loop", "1", "-i", P("travail/carton.png"), "-i", P("travail/mix.wav"), "-filter_complex", vf,
-         "-map", "[v]", "-map", "3:a", "-t", f"{TOTAL:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
-         "-maxrate", "9M", "-bufsize", "18M", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",
+         "-map", "[v]", "-map", "3:a", "-t", f"{TOTAL:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "24",
+         "-maxrate", "4500k", "-bufsize", "9M", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",
          "-movflags", "+faststart", out])
 
 def couverture():
@@ -167,8 +167,8 @@ def couverture():
     im.save(P("sortie/EP04_couverture.png"))
 
 def bande_annonce():
-    # accroche (scènes 1-2) + pression du groupe (9) + dernier piège (14), env. 40 s
-    parts = [(1, 2), (9, 9), (14, 14)]; segs = []
+    # accroche (scènes 1-2) + dernier piège (14), env. 40 s
+    parts = [(1, 2), (14, 14)]; segs = []
     for a, b in parts:
         s0 = next(s for s in plans if s["n"] == a); s1 = next(s for s in plans if s["n"] == b)
         segs.append((s0["t0"], s1["t0"] + s1["dur"]))
