@@ -1,0 +1,35 @@
+PROMPTS — 10 personnages du DESSIN ANIMÉ DANS LE TÉLÉVISEUR (noir et blanc, années 30)
+Ces personnages sont DIFFÉRENTS du renard et du mouton (qui restent uniquement dans la boutique en couleur).
+Format vertical (2:3), fond blanc uni, personnage entier.
+Utilise la même référence d'image pour toutes les poses d'un même personnage (le client, le vendeur).
+Déjà bons, à ne PAS refaire : savant.png, decor_boutique.png, decor_labo.png, decor_scene.png
+
+=== client_content.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon working-class man with a flat cap, stubble, a big round nose, a white shirt with rolled-up sleeves, suspenders and baggy trousers, big happy smile, arms open wide, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== client_marche.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon working-class man with a flat cap, stubble, a big round nose, a white shirt with rolled-up sleeves, suspenders and baggy trousers, walking cheerfully, side view, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== client_inquiet.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon working-class man with a flat cap, stubble, a big round nose, a white shirt with rolled-up sleeves, suspenders and baggy trousers, worried and sweating, hands on cheeks, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== client_montre.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon working-class man with a flat cap, stubble, a big round nose, a white shirt with rolled-up sleeves, suspenders and baggy trousers, holding up a wristwatch proudly, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== client_pointe.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon working-class man with a flat cap, stubble, a big round nose, a white shirt with rolled-up sleeves, suspenders and baggy trousers, pointing up with one finger, surprised, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== client_reflechit.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon working-class man with a flat cap, stubble, a big round nose, a white shirt with rolled-up sleeves, suspenders and baggy trousers, thinking, scratching his head, puzzled, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== vendeur_sourire.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon salesman with slicked-back black hair, a thin moustache, a big nose, a sly grin, a pinstripe suit and a bow tie, sly smirk, half-closed eyes, hands behind his back, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== vendeur_presente.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon salesman with slicked-back black hair, a thin moustache, a big nose, a sly grin, a pinstripe suit and a bow tie, presenting something with one arm stretched out, grinning, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== vendeur_rit.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon salesman with slicked-back black hair, a thin moustache, a big nose, a sly grin, a pinstripe suit and a bow tie, laughing with eyes closed, hand on belly, full body, standing, centered, isolated on a plain white background, no shadow, no scenery
+
+=== vendeur_clin.png ===
+1930s rubber hose cartoon style, black and white, monochrome, bold black ink outlines, pie-cut eyes, white gloves, golden age of animation, a cartoon salesman with slicked-back black hair, a thin moustache, a big nose, a sly grin, a pinstripe suit and a bow tie, winking and giving a thumbs up, full body, standing, centered, isolated on a plain white background, no shadow, no scenery

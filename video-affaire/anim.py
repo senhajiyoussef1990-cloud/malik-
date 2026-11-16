@@ -107,18 +107,18 @@ def big_text(p, x, y, txt, sz, t, t0, col=RED):
 # ---------------- plans (2 à 3 par réplique) ----------------
 # chaque plan : f(F, t, T) ; t = temps local du plan, T = durée du plan
 def n01a(F, t, T):
-    F.actor("mouton_montre", 380, 400, t)
+    F.actor("client_montre", 380, 400, t)
     p = F.pen(); tag(p, 760, slide(t, 0, 0.5, -150, 260), "100 €", 1.3)
 def n01b(F, t, T):
-    F.actor(pose(t, ["mouton_content", "mouton_montre"], 0.6), 380, 400, t, hop=abs(math.sin(t * 6)) * 15)
+    F.actor(pose(t, ["client_content", "client_montre"], 0.6), 380, 400, t, hop=abs(math.sin(t * 6)) * 15)
     p = F.pen(); tag(p, 760, 260, "100 €", 1.3, cross=ease(t / 0.6), new="39 €" if t > 0.8 else None)
     hearts(p, 380, 160, t)
 def n02a(F, t, T):
-    F.actor("mouton_pointe", 300, 380, t, bob=0.5)
+    F.actor("client_pointe", 300, 380, t, bob=0.5)
     p = F.pen(); k = pop(t, 0.3); cloud(p, 720, 170, 230 * k + 1, 110 * k + 1)
     if k: p.text(720, 170, "100", 110 * k)
 def n02b(F, t, T):
-    F.actor("mouton_content", 540, 470, t, floor=700, bob=0.4)
+    F.actor("client_content", 540, 470, t, floor=700, bob=0.4)
     p = F.pen(); s = 1 + 0.08 * math.sin(t * 5); p.text(540, 90, "100", 120 * s, INK, stroke=5)
 def n03a(F, t, T):
     p = F.pen(); y = slide(t, 0, 0.6, -120, 200)
@@ -126,7 +126,7 @@ def n03a(F, t, T):
     for x in (300, 780): p.line([(x, 0), (x, y - 70)], INK, 4)
 def n03b(F, t, T):
     x = 420 + math.sin(t * 3) * 12
-    F.actor(pose(t, ["mouton_marche", "mouton_inquiet"], 0.4), x, 380, t, speed=2.5, shake=1.5)
+    F.actor(pose(t, ["client_marche", "client_inquiet"], 0.4), x, 380, t, speed=2.5, shake=1.5)
     p = F.pen(); sweat(p, x + 80, 200, t)
     ax, ay = 860, 470
     for i, (lx, ly) in enumerate(C.bez((x + 40, 530), ((x + ax) / 2, 580), (ax - 40, ay + 40), 10)):
@@ -151,24 +151,24 @@ def n05a(F, t, T):
     for k in range(3): p.ell(gx, gy, max(3, abs(math.cos(t * 1.5 + k * 1.05)) * r), r, None, INK, 2)
     p.line([(gx - r, gy), (gx + r, gy)], INK, 2)
     for i, x in enumerate((600, 770, 940)):
-        F.actor("mouton_reflechit", x, 300, t + i * 0.3, bob=0.5)
+        F.actor("client_reflechit", x, 300, t + i * 0.3, bob=0.5)
         qmark(p, x, 150, t + i, 70)
 def n06a(F, t, T):
-    for i, x in enumerate((300, 520)): F.actor("mouton_content", x, 330, t + i * 0.25, hop=abs(math.sin(t * 5 + i)) * 12)
+    for i, x in enumerate((300, 520)): F.actor("client_content", x, 330, t + i * 0.25, hop=abs(math.sin(t * 5 + i)) * 12)
     p = F.pen(); sign(p, 410, slide(t, 0, 0.4, -100, 120), "25 %", 260, 110, INK, 70); p.text(410, 30, "ONT VU 10", 34)
 def n06b(F, t, T):
-    for i, x in enumerate((560, 780)): F.actor("mouton_pointe", x, 330, t + i * 0.25, flip=True, hop=abs(math.sin(t * 5 + i)) * 12)
+    for i, x in enumerate((560, 780)): F.actor("client_pointe", x, 330, t + i * 0.25, flip=True, hop=abs(math.sin(t * 5 + i)) * 12)
     p = F.pen(); sign(p, 670, slide(t, 0, 0.4, -100, 120), "45 %", 260, 110, RED, 70); p.text(670, 30, "ONT VU 65", 34)
 def n07a(F, t, T):
     C.s_n07(F.pen(), t, T)
 def n08a(F, t, T):
-    F.actor("renard_sourire", slide(t, 0, 0.6, -150, 330), 430, t, bob=0.5)
+    F.actor("vendeur_sourire", slide(t, 0, 0.6, -150, 330), 430, t, bob=0.5)
     p = F.pen(); tag(p, 760, 290, "39 €", 1.3)
     k = ease((t - 0.8) / 0.8)
     if k > 0:
         p.text(760, 100, "100 €", 66, INK, stroke=3); p.line([(680, 125), (680 + 160 * k, 125 - 50 * k)], RED, 10)
 def n09a(F, t, T):
-    F.actor(pose(t, ["renard_presente", "renard_sourire"], 0.9), 320, 430, t, bob=0.6)
+    F.actor(pose(t, ["vendeur_presente", "vendeur_sourire"], 0.9), 320, 430, t, bob=0.6)
     p = F.pen(); tag(p, 780, 280, "39 €", 1.2)
     if t > 0.3:
         p.rect(560, 60, 1000, 150, PAPER, INK, 6, r=8); p.text(780, 105, "PRIX CONSEILLÉ : 199 €", 40, INK)
@@ -181,7 +181,7 @@ def n09b(F, t, T):
     p.rect(470, 330, 610, 372, PAPER, INK, 3); p.text(540, 351, "999 €", 32, RED)
     for i, x in enumerate((170, 300, 780, 910)): watch(p, x, 440, 34, t * 0.5 + i); p.text(x, 500, "39 €", 28)
 def n09c(F, t, T):
-    F.actor("mouton_content", 540, 440, t, hop=abs(math.sin(t * 4)) * 10)
+    F.actor("client_content", 540, 440, t, hop=abs(math.sin(t * 4)) * 10)
     p = F.pen(); hearts(p, 540, 140, t)
     for i in range(5): sparkle(p, 300 + i * 120, 120 + (i % 2) * 60, 26, t + i)
 def n10a(F, t, T):
@@ -192,10 +192,10 @@ def n10a(F, t, T):
         p.line([(cx + math.cos(a) * r * .82, cy + math.sin(a) * r * .82), (cx + math.cos(a) * r * .95, cy + math.sin(a) * r * .95)], INK, 5)
     a = math.radians(-90 + int(t * 4) * 18)
     p.line([(cx, cy), (cx + math.cos(a) * r * .85, cy + math.sin(a) * r * .85)], RED, 7)
-    F.actor("mouton_inquiet", 250, 400, t, shake=3, bob=0.3)
+    F.actor("client_inquiet", 250, 400, t, shake=3, bob=0.3)
     sweat(p, 330, 200, t); sweat(p, 180, 220, t + 0.5)
 def n10b(F, t, T):
-    F.actor(pose(t, ["renard_clin", "renard_sourire"], 0.7), 330, 430, t)
+    F.actor(pose(t, ["vendeur_clin", "vendeur_sourire"], 0.7), 330, 430, t)
     p = F.pen(); on = int(t * 3) % 2 == 0
     sign(p, 760, 240, "PLUS QUE 2 !", 380, 120, RED if on else INK, 62)
 def machine(p, t, val, col=INK):
@@ -204,31 +204,31 @@ def machine(p, t, val, col=INK):
     p.rect(mx + 30, my + 30, mx + 290, my + 130, PAPER, INK, 5, r=6); p.text(mx + 160, my + 80, f"{val} €", 72, col)
     for i in range(3): p.ell(mx + 80 + i * 80, my + 220, 24, 24, RED if i == int(t * 3) % 3 else PAPER, INK, 4)
 def n11a(F, t, T):
-    F.actor(pose(t, ["renard_presente", "renard_sourire"], 0.5), 300, 430, t, speed=2.2)
+    F.actor(pose(t, ["vendeur_presente", "vendeur_sourire"], 0.5), 300, 430, t, speed=2.2)
     p = F.pen(); machine(p, t, int(39 + 61 * ease(t / (T * 0.8))))
     big_text(p, 720, 520, "30 jours avant…", 46, t, 0.2, INK)
 def n11b(F, t, T):
-    F.actor("renard_rit", 300, 430, t, speed=2.5, squash=0.04)
+    F.actor("vendeur_rit", 300, 430, t, speed=2.5, squash=0.04)
     p = F.pen(); machine(p, t, 39, RED); big_text(p, 720, 520, "SOLDES !", 80, t, 0.2)
 def n12a(F, t, T):
-    F.actor("renard_sourire", 820, 420, t, bob=0.4, flip=True)
-    F.actor("mouton_montre", 290, 420, t, bob=0.5)
+    F.actor("vendeur_sourire", 820, 420, t, bob=0.4, flip=True)
+    F.actor("client_montre", 290, 420, t, bob=0.5)
     p = F.pen()
     for i in range(4):
         k = ((t * 0.9 + i / 4) % 1)
         coin(p, 420 + k * 330, 300 - math.sin(k * math.pi) * 170)
 def n13a(F, t, T):
-    F.actor("renard_clin", 290, 430, t)
+    F.actor("vendeur_clin", 290, 430, t)
     p = F.pen(); bx, by = 720, 410; lid = ease((t - T * 0.5) / 0.5) * 90
     p.rect(bx - 130, by, bx + 130, by + 140, PAPER, INK, 6); p.rect(bx - 16, by, bx + 16, by + 140, RED, INK, 3)
     p.rect(bx - 140, by - 42 - lid, bx + 140, by - lid, PAPER, INK, 6); p.rect(bx - 16, by - 42 - lid, bx + 16, by - lid, RED, INK, 3)
     heart(p, bx - 26, by - 58 - lid, 17); heart(p, bx + 26, by - 58 - lid, 17)
     if lid > 50: big_text(p, bx, by - 180, "VIDE !", 70, t, T * 0.75)
 def n13b(F, t, T):
-    F.actor("mouton_content", 540, 440, t, hop=abs(math.sin(t * 5)) * 18, speed=2)
+    F.actor("client_content", 540, 440, t, hop=abs(math.sin(t * 5)) * 18, speed=2)
     p = F.pen(); hearts(p, 540, 130, t); big_text(p, 540, 560, "le sentiment… offert", 52, t, 0.3, INK)
 def n14a(F, t, T):
-    F.actor("mouton_reflechit", 360, 430, t, bob=0.3)
+    F.actor("client_reflechit", 360, 430, t, bob=0.3)
     p = F.pen(); k = ease(t / 1.0)
     for i, (x, y, r) in enumerate(((480, 190, 12), (540, 150, 20))):
         if k > i * 0.4: p.ell(x, y, r, r, PAPER, INK, 4)
@@ -240,7 +240,7 @@ def n15a(F, t, T):
     c = tuple(int(a + (b - a) * k) for a, b in zip(INK, PAPER)); r = tuple(int(a + (b - a) * k) for a, b in zip(RED, PAPER))
     p.text(x, 240, "100 €", 110, c); p.line([(x - 150, 290), (x + 150, 200)], r, 14); p.text(x, 430, "39 €", 150, RED)
     F.done(); F.ov = None
-    F.actor("mouton_reflechit", 200, 330, t, bob=0.3)
+    F.actor("client_reflechit", 200, 330, t, bob=0.3)
 
 SHOTS = {
     "n01": [("decor_boutique", n01a), ("decor_boutique", n01b)],
