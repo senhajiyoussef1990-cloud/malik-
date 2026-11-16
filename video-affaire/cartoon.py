@@ -188,13 +188,114 @@ def scientist(p, x, y, t, s=1.0, arms=None, flip=1):
     p.line([(x - 26 * s, hy + 30 * s), (x - 10 * s, hy + 40 * s), (x + 10 * s, hy + 40 * s), (x + 26 * s, hy + 30 * s)], PAPER, 6)  # moustache
     p.line([(x - 26 * s, hy + 30 * s), (x - 10 * s, hy + 40 * s), (x + 10 * s, hy + 40 * s), (x + 26 * s, hy + 30 * s)], INK, 2)
 
+# ---------------- humains années 30 (remplacent mouton/renard dans le téléphone) ----------------
+SKIN = (222, 218, 210)
+
+def tube(p, a, b, col, w, bend=0):
+    pts = bez(a, ((a[0] + b[0]) / 2 + bend, (a[1] + b[1]) / 2), b, 10)
+    p.line(pts, INK, w + 7); p.line(pts, col, w)
+
+def person(p, x, y, t, s=1.0, kind="ouvrier", expr="happy", arms=None, look=(0, 0), walk=0, bounce=1.0,
+           mouth="smile", head_off=105, foot_off=135):
+    b = math.sin(t * 2 * math.pi * 1.4) * 5 * bounce
+    by = y - abs(b)
+    shirt = {"ouvrier": G1, "carreaux": G2, "vendeur": PAPER}[kind]
+    pants = {"ouvrier": G3, "carreaux": G4, "vendeur": G4}[kind]
+    # ombre au sol
+    p.ell(x, y + foot_off * s + 10 * s, 70 * s, 12 * s, (120, 118, 114), None)
+    # jambes (pantalon) + chaussures
+    for side in (-1, 1):
+        ph = math.sin(t * 8 + (side > 0) * math.pi) * walk
+        hip = (x + side * 20 * s, by + 40 * s)
+        foot = (x + side * 26 * s + ph * 24 * s, y + foot_off * s - 8 * s - max(0, ph) * 8)
+        tube(p, hip, foot, pants, 24 * s, side * 4 * s)
+        p.ell(foot[0] + side * 10 * s, foot[1] + 10 * s, 30 * s, 14 * s, INK, None)
+        p.ell(foot[0] + side * 18 * s, foot[1] + 5 * s, 9 * s, 4 * s, (100, 100, 100), None)
+    # buste
+    top, bot = by - 58 * s, by + 46 * s
+    if kind == "vendeur":
+        p.poly([(x - 52 * s, top), (x + 52 * s, top), (x + 46 * s, bot), (x - 46 * s, bot)], G4, INK, 5)
+        for k in range(-3, 4): p.line([(x + k * 13 * s, top + 4), (x + k * 12 * s, bot - 4)], (100, 99, 97), 1.6)
+        p.poly([(x - 20 * s, top), (x + 20 * s, top), (x, by - 8 * s)], PAPER, INK, 3)
+        p.poly([(x - 6 * s, top + 3), (x + 6 * s, top + 3), (x + 9 * s, by - 16 * s), (x, by - 4 * s), (x - 9 * s, by - 16 * s)], RED, INK, 2.5)
+        p.ell(x, by + 18 * s, 4 * s, 4 * s, INK, None); p.ell(x, by + 34 * s, 4 * s, 4 * s, INK, None)
+    else:
+        p.poly([(x - 50 * s, top), (x + 50 * s, top), (x + 46 * s, bot), (x - 46 * s, bot)], shirt, INK, 5)
+        if kind == "carreaux":
+            for k in range(-3, 4):
+                p.line([(x + k * 14 * s, top + 3), (x + k * 13 * s, bot - 3)], G4, 3)
+            for k in range(1, 7):
+                yy_ = top + k * 15 * s; p.line([(x - 48 * s, yy_), (x + 48 * s, yy_)], G4, 3)
+        else:  # salopette
+            p.poly([(x - 34 * s, by - 20 * s), (x + 34 * s, by - 20 * s), (x + 44 * s, bot), (x - 44 * s, bot)], G3, INK, 4)
+            for side in (-1, 1):
+                p.line([(x + side * 28 * s, by - 20 * s), (x + side * 36 * s, top + 2)], G3, 9 * s)
+                p.ell(x + side * 26 * s, by - 16 * s, 5 * s, 5 * s, PAPER, INK, 2)
+            p.rect(x - 14 * s, by - 6 * s, x + 14 * s, by + 12 * s, G3, INK, 3)
+    # bras (manches) + gants
+    arms = arms or {}
+    sleeve = G4 if kind == "vendeur" else shirt
+    for side in (-1, 1):
+        sh = (x + side * 46 * s, by - 44 * s)
+        hx, hy = arms.get(side, (side * 66, 30))
+        hand = (x + hx * s, by + hy * s)
+        tube(p, sh, hand, sleeve, 16 * s, -side * 10 * s)
+        glove(p, hand[0], hand[1], 16 * s)
+    # tête
+    hy = by - head_off * s
+    for side in (-1, 1): p.ell(x + side * 44 * s, hy + 6 * s, 10 * s, 14 * s, SKIN, INK, 4)
+    if kind == "vendeur":
+        for side in (-1, 1): p.ell(x + side * 40 * s, hy - 16 * s, 13 * s, 18 * s, INK, None)
+    p.ell(x, hy, 44 * s, 50 * s, SKIN, INK, 5)
+    if kind in ("ouvrier", "carreaux"):   # barbe de trois jours
+        rnd = random.Random(kind)
+        for _ in range(22):
+            a = rnd.uniform(0.15, 0.85) * math.pi; r = rnd.uniform(0.55, 0.9)
+            p.ell(x + math.cos(a) * 38 * s * r, hy + 12 * s + math.sin(a) * 34 * s * r, 1.6 * s, 1.6 * s, G3, None)
+    eyes(p, x, hy - 8 * s, expr, look, 0.95 * s, t)
+    if expr not in ("hearts", "spin"):
+        for side in (-1, 1):   # sourcils
+            tilt = {"sly": 5, "worried": -6}.get(expr, 0) * side
+            p.line([(x + side * 6 * s, hy - 34 * s + tilt), (x + side * 30 * s, hy - 36 * s - tilt)], INK, 5 * s)
+    p.ell(x + look[0] * 4 * s, hy + 16 * s, 17 * s, 13 * s, SKIN, INK, 4)          # gros nez
+    p.ell(x + look[0] * 4 * s - 5 * s, hy + 12 * s, 5 * s, 3.5 * s, PAPER, None)
+    my = hy + 33 * s
+    if kind == "vendeur":
+        p.poly([(x - 34 * s, my - 2 * s), (x, my - 8 * s), (x + 34 * s, my - 2 * s), (x + 20 * s, my + 4 * s), (x, my), (x - 20 * s, my + 4 * s)], INK, None)  # moustache
+        if mouth != "o": p.arc(x, my + 2 * s, 18 * s, 10 * s, 20, 160, INK, 4)
+    if mouth == "smile" and kind != "vendeur": p.arc(x, my - 4 * s, 18 * s, 10 * s, 20, 160, INK, 4)
+    elif mouth == "o": p.ell(x, my + 6 * s, 7 * s, 8 * s, INK, None)
+    elif mouth == "wavy": p.line([(x - 14 * s + k * 3.5 * s, my + 4 * s + (2.5 if k % 2 else -2.5) * s) for k in range(9)], INK, 3)
+    # coiffure / chapeau
+    if kind == "ouvrier":
+        p.poly([(x - 46 * s, hy - 30 * s), (x + 46 * s, hy - 30 * s), (x + 62 * s, hy - 20 * s), (x - 20 * s, hy - 18 * s)], G4, INK, 4)
+        p.ell(x + 2 * s, hy - 44 * s, 46 * s, 22 * s, G4, INK, 4)
+        p.ell(x + 2 * s, hy - 64 * s, 5 * s, 4 * s, INK, None)
+    elif kind == "carreaux":
+        for k in range(-3, 4): p.ell(x + k * 12 * s, hy - 46 * s + abs(k) * 3 * s, 12 * s, 10 * s, INK, None)
+    else:  # vendeur : crâne dégarni, reflet sur le crâne
+        p.arc(x, hy - 6 * s, 36 * s, 40 * s, 235, 305, (250, 250, 248), 5)
+    return (x, hy)
+
+def sheep(p, x, y, t, s=1.0, expr="happy", arms=None, look=(0, 0), walk=0, bounce=1.0, mouth="smile", kind="ouvrier"):
+    return person(p, x, y, t, s, kind, expr, arms, look, walk, bounce, mouth, head_off=100, foot_off=120)
+
+def fox(p, x, y, t, s=1.0, expr="sly", arms=None, look=(1, 0), grin=True, bounce=0.6):
+    return person(p, x, y, t, s, "vendeur", expr, arms, look, 0, bounce, "smile", head_off=105, foot_off=150)
+
 # ---------------- décors & accessoires ----------------
 def room(p, t, clocks=True):
     p.rect(0, 0, W, 430, G1, None); p.rect(0, 430, W, H, G2, None)
+    p.rect(0, 330, W, 430, (188, 186, 180), None); p.line([(0, 330), (W, 330)], INK, 4)
+    for k in range(40, W, 170): p.rect(k, 345, k + 130, 418, None, (140, 138, 133), 3)
+    for cx in (30, 1050):
+        p.rect(cx - 26, 0, cx + 26, 430, (215, 213, 207), INK, 4)
+        for k in (-12, 0, 12): p.line([(cx + k, 30), (cx + k, 410)], (160, 158, 153), 2)
+        p.rect(cx - 36, 0, cx + 36, 30, (200, 198, 192), INK, 4); p.rect(cx - 36, 410, cx + 36, 432, (200, 198, 192), INK, 4)
     p.line([(0, 430), (W, 430)], INK, 6)
     for k in range(0, W, 90): p.line([(k + 20, 440), (k - 40, H)], (150, 148, 143), 2)
     if clocks:
-        for i, cx in enumerate((120, 300, 780, 960)):
+        for i, cx in enumerate((150, 320, 760, 930)):
             cy = 120 + (i % 2) * 40
             p.ell(cx, cy, 42, 42, PAPER, INK, 5)
             a = t * (40 + i * 25) + i * 70
@@ -301,18 +402,18 @@ def s_n05(p, t, T):
         p.ell(gx, gy, max(rx, 3), r, None, INK, 2)
     p.line([(gx - r, gy), (gx + r, gy)], INK, 2)
     for i, x in enumerate((640, 790, 940)):
-        sheep(p, x, 380, t + i * 0.3, 0.75, "happy", look=(-1, -1), arms={1: (40, -95)}, bounce=0.3, mouth="o")
+        sheep(p, x, 380, t + i * 0.3, 0.75, "happy", look=(-1, -1), arms={1: (40, -95)}, bounce=0.3, mouth="o", kind=("carreaux", "ouvrier")[i % 2])
         qmark(p, x + 10, 120, t + i, 64)
 
 def s_n06(p, t, T):
     room(p, t, clocks=False)
     for i, x in enumerate((140, 330)):
         up = math.sin(t * 6 + i) > 0
-        sheep(p, x, 400, t + i * 0.2, 0.68, "happy", arms={1: (55, -100 - (10 if up else 0))}, bounce=0.5)
+        sheep(p, x, 400, t + i * 0.2, 0.68, "happy", arms={1: (55, -100 - (10 if up else 0))}, bounce=0.5, kind=("ouvrier", "carreaux")[i])
     sign(p, 235, 90, "25 %", 230, 100)
     for i, x in enumerate((750, 940)):
         up = math.sin(t * 6 + i) > 0
-        sheep(p, x, 400, t + i * 0.2, 0.68, "happy", arms={-1: (-55, -100 - (10 if up else 0))}, bounce=0.5)
+        sheep(p, x, 400, t + i * 0.2, 0.68, "happy", arms={-1: (-55, -100 - (10 if up else 0))}, bounce=0.5, kind=("carreaux", "ouvrier")[i])
     sign(p, 845, 90, "45 %", 230, 100, RED)
     p.text(235, 26, "ONT VU 10", 30); p.text(845, 26, "ONT VU 65", 30)
     p.line([(540, 40), (540, 560)], INK, 4)
@@ -391,8 +492,8 @@ def s_n11(p, t, T):
 
 def s_n12(p, t, T):
     room(p, t)
-    p.rect(560, 360, W, 470, G4, INK, 6)
     fox(p, 830, 250, t, 0.9, "sly", look=(-1, 0), arms={-1: (-110, 60)})
+    p.rect(560, 330, W, 470, G4, INK, 6); p.line([(560, 350), (W, 350)], (90, 89, 86), 4)
     sheep(p, 300, 330, t, 0.95, "happy", look=(1, 0), arms={1: (110, -20)}, bounce=0.3)
     for i in range(3):
         k = ((t * 0.8 + i / 3) % 1)
@@ -444,9 +545,14 @@ GRAIN = [rng.normal(0, 9, (H, W)).astype(np.float32) for _ in range(6)]
 yy, xx = np.mgrid[0:H, 0:W]
 VIG = (1 - 0.55 * (((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2) ** 1.4).clip(0.35, 1).astype(np.float32)[..., None]
 
+TINT = np.array([-0.07, -0.03, 0.07], dtype=np.float32)
+
 def film(img, i):
     a = np.asarray(img, dtype=np.float32)
     a = a * (0.96 + 0.05 * math.sin(i * 2.3) * random.random()) + GRAIN[i % 6][..., None]
+    sat = (a.max(axis=2, keepdims=True) - a.min(axis=2, keepdims=True)) / 255.0
+    w = (1 - sat * 4).clip(0, 1)
+    a *= 1 + w * TINT
     a *= VIG
     if random.random() < 0.25:
         x = random.randrange(W); a[:, x:x + 2] = a[:, x:x + 2] * 0.5 + 110
