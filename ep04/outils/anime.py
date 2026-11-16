@@ -21,6 +21,8 @@ BPM = 128; BEAT = 60 / BPM
 FONT = f"{R}/fonts/oswald-latin-700-normal.ttf"
 rnd = random.Random(1930)
 
+HOOK = None; EXTRA = None      # branchés par outils/pantin.py (marionnettes articulées)
+
 def ease(x): x = max(0.0, min(1.0, x)); return x * x * (3 - 2 * x)
 
 # ---------------------------------------------------------------- préparation des scènes
@@ -275,6 +277,9 @@ def compose(n, t, T, lignes_scene, cads, fige_apres=None):
     for name, a in sc.acteurs.items():
         mode, ph = DIRECTION[n]["modes"].get(name, ("idle", 0))
         parle = DIRECTION[n]["parleurs"].get(name) in parle_now
+        if HOOK:
+            r_ = HOOK(n, name, a, tt, lignes_scene)
+            if r_: a, mode = r_[0], (r_[1] or mode)
         if fige_apres is not None and t >= fige_apres: mode = "fige"
         if mode == "chute":
             k = min(1, tt / 0.5); dy = -(1 - k) ** 2 * 500; land = max(0, 1 - abs(tt - 0.5) / 0.18)
@@ -282,6 +287,7 @@ def compose(n, t, T, lignes_scene, cads, fige_apres=None):
         else:
             pose = pose_acteur(a, tt, mode, ph, parle)
         colle(canvas, a, pose)
+    if EXTRA: EXTRA(n, canvas, tt, lignes_scene)
     d = ImageDraw.Draw(canvas)
     if fige_apres is None or t < fige_apres:
         effets(n, d, t, T, {k: v for k, v in lignes_scene.items()})
