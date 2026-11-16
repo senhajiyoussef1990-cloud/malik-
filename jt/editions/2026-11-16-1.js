@@ -1,72 +1,121 @@
-// Édition du lundi 16 novembre 2026.
+// Édition du lundi 16 novembre 2026 — uniquement des faits de la veille (dimanche 15 novembre).
 // Mots entre *astérisques* = mot clé surligné. say = texte dit (nombres en lettres, | = nouvelle phrase).
 window.EDITION = {
-  date: "LUNDI 16 NOVEMBRE 2026",
-  file: "ecodujour-2026-11-16-1",
-  caption: "📰 L'Écho du Jour du 16 novembre : un tonneau de vin qui rapporte un million d'euros à Beaune, un El Niño géant dans le Pacifique, et Voyager 1 bientôt à un jour-lumière de la Terre. Et toi, tu paierais combien pour un tonneau ? 👇\n\n#actu #info #journal #ecodujour #beaune #elnino #voyager1",
-  storyCta: "LE JT EST EN LIGNE !",
-  voice: "fr_FR-tom-medium",
-  voiceEngine: "clone",
-  phonetic: { "El Niño": "El Nigno" },
-  hook: ["Un tonneau de vin", "rapporte *un million* !"],
-  hookSay: "Un tonneau de vin|rapporte un million d'euros !",
-  hookIllustration: "wine",
-  rubriques: [
+  "date": "LUNDI 16 NOVEMBRE 2026",
+  "file": "ecodujour-2026-11-16-1",
+  "caption": "📰 L'Écho du Jour du 16 novembre : record pour Achille Nebout sur la Route du Rhum, l'Angleterre met fin à 43 matchs sans défaite de l'Espagne, et un tonneau de vin qui rapporte un million d'euros à Beaune. Et toi, tu paierais combien pour un tonneau ? 👇\n\n#actu #info #journal #ecodujour #routedurhum #football #beaune",
+  "storyCta": "LE JT EST EN LIGNE !",
+  "voice": "fr_FR-tom-medium",
+  "voiceEngine": "clone",
+  "phonetic": {
+    "Achille Nebout": "Achile Nebou",
+    "Class quarante": "classe quarante",
+    "coude-à-coude": "coude à coude"
+  },
+  "hook": [
+    "Un tonneau de vin",
+    "rapporte *un million* !"
+  ],
+  "hookSay": "Un tonneau de vin|rapporte un million d'euros !",
+  "hookIllustration": "wine",
+  "rubriques": [
     {
-      category: "EN FRANCE",
-      title: "Beaune : un tonneau à 1 million",
-      illustration: "wine",
-      subs: [
-        ["Dimanche à Beaune, la", "vente des *Hospices*."],
-        ["La pièce de charité", "rapporte *un million* !"],
-        ["Adjugée 770 000 €,", "*un don* complète la somme."],
-        ["Au total : *14,4 millions*", "malgré une petite récolte."],
+      "category": "EN FRANCE",
+      "title": "Route du Rhum : un record en Class40",
+      "illustration": "boat",
+      "subs": [
+        [
+          "Route du Rhum : Nebout",
+          "gagne en *Class40* !"
+        ],
+        [
+          "Arrivé en *Guadeloupe*",
+          "après 14 jours de mer."
+        ],
+        [
+          "Un *record* : 2 heures",
+          "de mieux qu'en 2022 !"
+        ],
+        [
+          "Le 2e arrive",
+          "*27 minutes* après !"
+        ]
       ],
-      say: [
+      "say": [
+        "Victoire sur la Route du Rhum !|Achille Nebout gagne en Class quarante !",
+        "Arrivé ce dimanche en Guadeloupe,|après quatorze jours de mer !",
+        "Un record !|Deux heures de mieux que l'ancien chrono !",
+        "Le deuxième arrive vingt-sept minutes après.|Un final au coude-à-coude !"
+      ]
+    },
+    {
+      "category": "DANS LE MONDE",
+      "title": "L'Espagne enfin battue",
+      "illustration": "ball",
+      "subs": [
+        [
+          "À Madrid, l'*Angleterre*",
+          "bat l'Espagne 3 à 2."
+        ],
+        [
+          "Fin d'une série de",
+          "*43 matchs* sans défaite !"
+        ],
+        [
+          "Les Anglais menaient 3-0,",
+          "*réduits à dix* ensuite."
+        ],
+        [
+          "Une parade en fin de match",
+          "*sauve la victoire* !"
+        ]
+      ],
+      "say": [
+        "À Madrid,|l'Angleterre bat l'Espagne trois buts à deux !",
+        "Fin d'une série|de quarante-trois matchs sans défaite !",
+        "Les Anglais menaient trois à zéro,|avant d'être réduits à dix !",
+        "Une double parade dans les dernières secondes|sauve la victoire !"
+      ]
+    },
+    {
+      "category": "L'INSOLITE",
+      "title": "Beaune : un tonneau à 1 million",
+      "illustration": "wine",
+      "subs": [
+        [
+          "Dimanche à Beaune, la",
+          "vente des *Hospices*."
+        ],
+        [
+          "La pièce de charité",
+          "rapporte *un million* !"
+        ],
+        [
+          "Adjugée 770 000 €,",
+          "*un don* complète la somme."
+        ],
+        [
+          "Au total : *14,4 millions*",
+          "malgré une petite récolte."
+        ]
+      ],
+      "say": [
         "Dimanche à Beaune,|c'est la vente des vins des Hospices !",
         "La pièce de charité|rapporte un million d'euros !",
         "Adjugée sept cent soixante-dix mille euros,|un don complète la somme !",
-        "Au total, quatorze virgule quatre millions d'euros,|malgré une petite récolte !",
+        "Au total, quatorze virgule quatre millions d'euros,|malgré une petite récolte !"
       ],
-    },
-    {
-      category: "DANS LE MONDE",
-      title: "Un El Niño géant se prépare",
-      illustration: "globe",
-      subs: [
-        ["Dans le Pacifique, *El Niño*", "chauffe l'océan."],
-        ["*+2 °C*, le 2e plus fort", "à cette saison depuis 1950"],
-        ["Seul *1997* faisait", "mieux à ce stade."],
-        ["Record possible : *83 %*", "selon la NOAA."],
-      ],
-      say: [
-        "Dans le Pacifique,|El Niño fait chauffer l'océan !",
-        "Plus deux degrés :|le deuxième plus fort à cette saison depuis mille neuf cent cinquante !",
-        "Seul l'épisode de mille neuf cent quatre-vingt-dix-sept|faisait mieux à ce stade !",
-        "Quatre-vingt-trois pour cent de chances de record,|selon les météorologues américains !",
-      ],
-    },
-    {
-      category: "L'INSOLITE",
-      title: "Voyager 1, à un jour-lumière",
-      illustration: "probe",
-      insolite: true,
-      subs: [
-        ["Mercredi, *Voyager 1*", "sera à un jour-lumière !"],
-        ["*25,9 milliards* de km :", "du jamais vu !"],
-        ["Un message de la Terre", "met *un jour entier* !"],
-        ["Lancée en *1977*,", "elle répond toujours !"],
-      ],
-      say: [
-        "Mercredi, la sonde Voyager un|sera à un jour-lumière de nous !",
-        "Soit vingt-cinq virgule neuf milliards de kilomètres :|du jamais vu !",
-        "Un message envoyé de la Terre|met un jour entier à l'atteindre !",
-        "Lancée en mille neuf cent soixante-dix-sept,|elle répond toujours !",
-      ],
-    },
+      "insolite": true
+    }
   ],
-  question: ["Et toi, tu paierais combien", "pour *un tonneau* ?"],
-  questionSay: "Et toi,|tu paierais combien pour un tonneau ?",
-  subscribe: ["Abonne-toi pour", "l'*édition de demain*."],
-  subscribeSay: "Abonne-toi|pour l'édition de demain !",
+  "question": [
+    "Et toi, tu paierais combien",
+    "pour *un tonneau* ?"
+  ],
+  "questionSay": "Et toi,|tu paierais combien pour un tonneau ?",
+  "subscribe": [
+    "Abonne-toi pour",
+    "l'*édition de demain*."
+  ],
+  "subscribeSay": "Abonne-toi|pour l'édition de demain !"
 };

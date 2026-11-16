@@ -11,7 +11,7 @@ Pars du principe que la rédaction a pu se tromper. Ton rôle est de trouver l'e
 ## 1. Les faits (pour chacune des 3 rubriques)
 
 - Trouve et **ouvre** au moins **deux sources sérieuses et indépendantes** (agence de presse, grand média, source officielle). Un extrait de moteur de recherche ne compte pas comme source.
-- Vérifie que l'événement date bien des **dernières 24 à 48 heures** par rapport à la date de l'édition.
+- Vérifie que l'événement **s'est produit la veille** de la date de l'édition (J-1). Un événement à venir, un chiffre publié plusieurs jours avant ou un « sujet de fond » est un motif de **À CORRIGER** : demande de remplacer le sujet.
 - Compare **chaque chiffre, date, nom et lieu** des `subs` et des `say` avec les sources : 1,6 % n'est pas 1,8 %, « hier » doit correspondre au bon jour, un record doit être confirmé comme record.
 - Signale toute affirmation que les sources ne soutiennent pas, ou qui exagère (« première mondiale », « historique ») sans appui.
 - L'accroche (`hook`) et la `caption` ne doivent rien affirmer de plus que les rubriques.

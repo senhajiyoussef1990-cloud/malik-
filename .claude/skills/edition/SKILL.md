@@ -24,7 +24,7 @@ Réponds en français. Le projet est dans `jt/` sur la branche `jt`.
 Suis `jt/QUOTIDIEN.md` étape par étape. Rappels essentiels :
 
 1. `git fetch origin jt && git checkout jt && git pull origin jt`. Vérifie que `/root/venvs/cb/bin/python` existe, sinon installe comme indiqué dans QUOTIDIEN.md.
-2. **Sujets** : actus des dernières 24 h, ouvre les articles, **deux sources sérieuses** par sujet. Pas de drame traité légèrement, neutralité politique, insolite vrai, aucun visage réel ni logo.
+2. **Sujets** : **uniquement des faits survenus la veille** (J-1), jamais un événement à venir ni un chiffre de plusieurs jours, ouvre les articles, **deux sources sérieuses** par sujet. Pas de drame traité légèrement, neutralité politique, insolite vrai, aucun visage réel ni logo.
 3. **Édition** : 4 sous-titres par rubrique, **26 caractères maximum par ligne**, `say` avec nombres en toutes lettres, `phonetic` pour les noms difficiles, `caption` avec question et hashtags.
 4. **Vérification** : lance le sous-agent `verificateur` avec le chemin de l'édition et les liens des sources ; applique ses corrections jusqu'à **VALIDÉ** avant tout rendu.
 5. **Illustration** : si aucune de `pay, stage, mic, globe, boat, rocket, probe` ne convient, ajoute-en une dans `jt/scene.html` (même style sépia) et vérifie-la avec `node render.js ED --preview 8,12`.

@@ -17,7 +17,7 @@ puis `pip install piper-tts faster-whisper && pip install --no-deps num2words`.
 
 ## 2. Choisir les 3 sujets
 
-Chercher sur le web les actus des dernières 24 heures et ouvrir les articles.
+Chercher sur le web **uniquement des faits survenus la veille** (le jour J-1, heure de Paris) et ouvrir les articles. Pas d'annonce d'un événement à venir, pas de chiffre publié plusieurs jours avant, pas de « sujet de fond » : si rien d'assez fort ne s'est passé la veille dans une rubrique, prendre un autre fait de la veille.
 
 | Rubrique | Bandeau | Ce qu'on cherche |
 |---|---|---|
