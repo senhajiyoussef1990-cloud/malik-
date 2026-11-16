@@ -844,6 +844,32 @@ window.renderStory = function () {
   const b = el("text", { x: 540, y: y + 18, "text-anchor": "middle", class: "lime", "font-size": 50, fill: "#E9B54C", "letter-spacing": 3 }, g);
   b.textContent = E.storyCta || "LE JT EST EN LIGNE !";
 };
+// ---------- visuels de la page (profil, couverture) ----------
+window.renderBrand = function (kind) {
+  // Maurice qui salue, sans sous-titre ni rayure
+  window.renderFrame(Math.round((T_OUTRO + TL.outroSalute + 0.25) * FPS));
+  $("sub").setAttribute("display", "none");
+  $("scratches").innerHTML = "";
+  $("flash").setAttribute("opacity", 0);
+  $("flicker").setAttribute("opacity", 0.03);
+  $("irisHole").setAttribute("r", 1300);
+  $("weave").setAttribute("transform", "");
+  $("mouthC").setAttribute("display", "none"); $("mouthO").setAttribute("display", "inline");
+  $("mouthE").setAttribute("ry", 12); $("tongue").setAttribute("cy", 912);
+  const g = $("story"); g.innerHTML = ""; g.setAttribute("display", "inline");
+  if (kind === "cover") {
+    fitText("bannerTxt", "L'ÉCHO DU JOUR", 820, 76);
+    $("banner").setAttribute("transform", "");
+    const y = 1290;
+    el("rect", { x: 70, y: y - 70, width: 940, height: 150, rx: 20, fill: "#1E1610", stroke: "#E9B54C", "stroke-width": 6 }, g);
+    const t1 = el("text", { x: 540, y: y - 8, "text-anchor": "middle", class: "lime", "font-size": 52, fill: "#F1E6CC", "letter-spacing": 3 }, g); t1.textContent = "LE JT D'HIER EN 1 MINUTE";
+    const t2 = el("text", { x: 540, y: y + 52, "text-anchor": "middle", class: "play", "font-size": 40, fill: "#E9B54C" }, g); t2.textContent = "France · Monde · Insolite";
+    el("path", { d: "M150 1545 H930 L970 1600 L930 1655 H150 L110 1600 Z", fill: "#B5482F", stroke: "#120c08", "stroke-width": 6 }, g);
+    const t3 = el("text", { x: 540, y: 1620, "text-anchor": "middle", class: "lime", "font-size": 54, fill: "#F1E6CC", "letter-spacing": 4 }, g); t3.textContent = "CHAQUE JOUR À 12 H 30";
+  } else {
+    $("banner").setAttribute("display", "none");
+  }
+};
 window.ready = document.fonts.ready.then(() => { window.renderFrame(0); return true; });
 </script>
 </body>

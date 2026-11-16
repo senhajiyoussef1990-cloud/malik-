@@ -19,6 +19,20 @@ fs.mkdirSync(frames, { recursive: true });
     await page.evaluate(() => window.ready);
     return page;
   };
+  if (process.argv.includes("--brand")) {
+    const browser2 = browser;
+    const page = await browser2.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+    await page.goto(url); await page.evaluate(() => window.ready);
+    await page.evaluate(() => window.renderBrand("cover"));
+    await page.screenshot({ path: path.join(out, "page-couverture.jpg"), type: "jpeg", quality: 94 });
+    const pp = await browser2.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1.8621 });
+    await pp.goto(url); await pp.evaluate(() => window.ready);
+    await pp.evaluate(() => window.renderBrand("profile"));
+    await pp.screenshot({ path: path.join(out, "page-profil.png"), clip: { x: 140, y: 580, width: 580, height: 580 } });
+    await browser.close();
+    console.log("brand ok");
+    return;
+  }
   if (process.argv.includes("--story")) {
     const page = await open();
     await page.evaluate(() => window.renderStory());
