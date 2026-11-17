@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import anime as A
 
 R = A.R; BW, BH, FPS = A.BW, A.BH, 30
-CLIPS = f"{R}/kaggle/clips"; LEAD, TV, PAUSE, RALENTI = 0.35, 1.4, 0.75, 1.6
+CLIPS = f"{R}/kaggle/clips"; LEAD, TV, PAUSE, RALENTI = 0.25, 1.2, 0.5, 1.0
 TELE = (1154, 192, 1310, 308)          # écran du téléviseur dans Scene_13 (image 1448x1086)
 
 def plan():
