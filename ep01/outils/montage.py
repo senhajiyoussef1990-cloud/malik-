@@ -91,7 +91,7 @@ Style: Perso,Inter,48,&H00FFFFFF,&H00FFFFFF,&H78000000,&H00000000,-1,0,0,0,100,1
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n"
     open(P("travail/sous_titres.ass"), "w").write(ass)
-    with open(P("sortie/EP01_Tout_le_monde_le_fait.srt"), "w") as f:
+    with open(P("sortie/EP01_Tu_crois_choisir.srt"), "w") as f:
         for i, (a, b, t) in enumerate(srt, 1): f.write(f"{i}\n{tc(a, True)} --> {tc(b, True)}\n{t}\n\n")
 
 # ------------------------------------------------ script des voix
@@ -171,14 +171,14 @@ def bande_annonce():
                   f"[0:a]atrim={a:.2f}:{b:.2f},asetpts=PTS-STARTPTS,afade=t=in:d=0.15,afade=t=out:st={b - a - 0.3:.2f}:d=0.3[a{i}]")
         cat += f"[v{i}][a{i}]"
     fl.append(f"{cat}concat=n={len(segs)}:v=1:a=1[v][a]")
-    run(["ffmpeg", "-y", "-v", "error", "-i", P("sortie/EP01_Tout_le_monde_le_fait.mp4"), "-filter_complex", ";".join(fl),
+    run(["ffmpeg", "-y", "-v", "error", "-i", P("sortie/EP01_Tu_crois_choisir.mp4"), "-filter_complex", ";".join(fl),
          "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", P("sortie/EP01_bande_annonce.mp4")])
     return sum(b - a for a, b in segs)
 
 if __name__ == "__main__":
     calque(); sous_titres(); script(); son()
-    video(True, P("sortie/EP01_Tout_le_monde_le_fait.mp4"))
+    video(True, P("sortie/EP01_Tu_crois_choisir.mp4"))
     video(False, P("sortie/EP01_sans_sous_titres.mp4"))
     couverture(); d = bande_annonce()
     print(f"OK  durée {TOTAL:.1f}s  bande-annonce {d:.1f}s")
