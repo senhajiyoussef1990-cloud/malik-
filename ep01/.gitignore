@@ -6,3 +6,5 @@ travail/
 audio/*.wav
 kaggle/clips/
 sortie/*.mp4
+sortie/*.wav
+sortie/*.zip
