@@ -14,7 +14,7 @@ from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # référence, exagération (énergie), cfg (bas = débit plus vivant)
-JEU = {"narr": ("narrateur", 0.8, 0.35), "renard": ("renard", 0.6, 0.4), "mouton": ("mouton", 0.75, 0.45),
+JEU = {"narr": ("eleven-jt", 0.7, 0.4), "renard": ("eleven-renard", 0.6, 0.45), "mouton": ("eleven-mouton", 0.7, 0.45),
        "vendeur": ("vendeur", 0.75, 0.4), "client": ("client", 0.7, 0.45), "passant": ("passant", 0.7, 0.45),
        "passante": ("passante", 0.7, 0.45)}
 FOULE = ["client", "vendeur", "passant"]
