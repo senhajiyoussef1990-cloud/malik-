@@ -102,6 +102,9 @@
       <g id="ill-probe"></g>
       <g id="ill-wine"></g>
       <g id="ill-ball"></g>
+      <g id="ill-factory"></g>
+      <g id="ill-cop"></g>
+      <g id="ill-crabs"></g>
       <ellipse id="ovalFlash" rx="210" ry="170" fill="#fff8e6" opacity="0"/>
     </g>
   </g>
@@ -454,6 +457,73 @@ const ill = {};
   el("line", { x1: 0, y1: -12, x2: 0, y2: -48, stroke: "#F1E6CC", "stroke-width": 4 }, ill.probe);
 })();
 
+(function buildFactory() {
+  const g = $("ill-factory");
+  el("rect", { x: -220, y: -180, width: 440, height: 360, fill: "#E6D6B2" }, g);
+  // carte de France stylisée en fond
+  el("path", { d: "M-40 -150 L30 -160 L95 -120 L110 -60 L90 0 L100 40 L40 70 L-30 60 L-90 30 L-110 -40 L-80 -100 Z", fill: "#D9C7A3", stroke: "#A88B63", "stroke-width": 5 }, g);
+  el("rect", { x: -220, y: 80, width: 440, height: 30, fill: "#5C4630", stroke: "#2A1E14", "stroke-width": 4 }, g);
+  for (let x = -210; x < 220; x += 30) el("circle", { cx: x, cy: 120, r: 10, fill: "#3A2B1E", stroke: "#2A1E14", "stroke-width": 3 }, g);
+  ill.belt = el("g", {}, g);
+  for (let k = 0; k < 5; k++) {
+    const c = el("g", { transform: `translate(${-160 + k * 150},40)` }, ill.belt);
+    el("path", { d: "M-55 30 L-50 5 L-25 0 L-10 -18 L25 -18 L40 0 L55 5 L55 30 Z", fill: "#8C6A30", stroke: "#2A1E14", "stroke-width": 4 }, c);
+    el("circle", { cx: -30, cy: 32, r: 12, fill: "#2A1E14" }, c); el("circle", { cx: 30, cy: 32, r: 12, fill: "#2A1E14" }, c);
+    el("path", { d: "M-18 -14 Q0 -36 18 -14 Z", fill: "#E9B54C", stroke: "#2A1E14", "stroke-width": 3 }, c);
+    el("rect", { x: -20, y: -16, width: 40, height: 5, fill: "#E9B54C", stroke: "#2A1E14", "stroke-width": 2 }, c);
+  }
+  ill.arm = el("g", {}, g);
+  el("rect", { x: -8, y: -120, width: 16, height: 120, fill: "#6E6658", stroke: "#2A1E14", "stroke-width": 4 }, ill.arm);
+  el("circle", { cx: 0, cy: 0, r: 12, fill: "#B5482F", stroke: "#2A1E14", "stroke-width": 4 }, ill.arm);
+})();
+(function buildCop() {
+  const g = $("ill-cop");
+  el("rect", { x: -220, y: -180, width: 440, height: 360, fill: "#E6D6B2" }, g);
+  el("path", { d: "M-220 -40 Q-120 -70 -40 -50 Q60 -30 220 -60 L220 -10 L-220 -10 Z", fill: "#8C6A30", opacity: 0.6 }, g);
+  el("rect", { x: -220, y: -10, width: 440, height: 40, fill: "#A88B63", opacity: 0.5 }, g);
+  const gg = el("g", { transform: "translate(-50,-80)" }, g);
+  const cp = el("clipPath", { id: "copClip" }, $("s").querySelector("defs")); el("circle", { r: 70 }, cp);
+  const inner = el("g", { "clip-path": "url(#copClip)" }, gg);
+  ill.copGlobe = makeGlobe(inner, 70);
+  el("circle", { r: 70, fill: "none", stroke: "#2A1E14", "stroke-width": 5 }, gg);
+  const th = el("g", { transform: "translate(60,-60)" }, g);
+  el("rect", { x: -14, y: -120, width: 28, height: 150, rx: 14, fill: "#FBF6EA", stroke: "#2A1E14", "stroke-width": 5 }, th);
+  ill.mercury = el("rect", { x: -6, y: -80, width: 12, height: 100, fill: "#B5482F" }, th);
+  el("circle", { cx: 0, cy: 34, r: 22, fill: "#B5482F", stroke: "#2A1E14", "stroke-width": 5 }, th);
+  el("ellipse", { cx: 0, cy: 110, rx: 190, ry: 45, fill: "#6B4A2E", stroke: "#2A1E14", "stroke-width": 5 }, g);
+  ill.flags = [];
+  const cols = ["#B5482F", "#E9B54C", "#5C4630", "#F1E6CC", "#8C8A4A", "#A88B63"];
+  for (let i = 0; i < 6; i++) {
+    const a = Math.PI + i / 5 * Math.PI, x = Math.cos(a) * 150, y = 110 + Math.sin(a) * 30;
+    const f = el("g", { transform: `translate(${x},${y})` }, g);
+    el("line", { x1: 0, y1: 0, x2: 0, y2: -46, stroke: "#2A1E14", "stroke-width": 4 }, f);
+    const fl = el("g", {}, f); el("rect", { x: 0, y: -46, width: 30, height: 20, fill: cols[i], stroke: "#2A1E14", "stroke-width": 3 }, fl);
+    ill.flags.push(fl);
+  }
+})();
+(function buildCrabs() {
+  const g = $("ill-crabs");
+  el("rect", { x: -220, y: -180, width: 440, height: 360, fill: "#4F5A2E" }, g);
+  for (let i = 0; i < 9; i++) el("circle", { cx: -210 + i * 55, cy: -150 + (i % 2) * 20, r: 50, fill: i % 2 ? "#3E4824" : "#5E6A36", stroke: "#2A1E14", "stroke-width": 3 }, g);
+  el("rect", { x: -220, y: -10, width: 440, height: 140, fill: "#8C7A5E", stroke: "#2A1E14", "stroke-width": 4 }, g);
+  for (let x = -200; x < 220; x += 60) el("rect", { x, y: 56, width: 30, height: 6, fill: "#E6D6B2" }, g);
+  // petit pont à crabes
+  el("path", { d: "M-150 -10 L-130 -95 L130 -95 L150 -10", fill: "none", stroke: "#5C4630", "stroke-width": 10 }, g);
+  el("rect", { x: -130, y: -105, width: 260, height: 14, fill: "#9A7048", stroke: "#2A1E14", "stroke-width": 4 }, g);
+  for (let x = -120; x <= 120; x += 30) el("line", { x1: x, y1: -105, x2: x, y2: -125, stroke: "#5C4630", "stroke-width": 4 }, g);
+  ill.crabList = [];
+  const r = rng(23);
+  for (let i = 0; i < 22; i++) {
+    const onBridge = i < 5, cg = el("g", {}, g), s = onBridge ? 0.6 : 0.7 + r() * 0.4;
+    const body = el("g", { transform: `scale(${s})` }, cg);
+    for (const sx of [-1, 1]) for (const k of [0, 1, 2]) el("line", { x1: sx * 12, y1: 0, x2: sx * (26 + k * 3), y2: 10 + k * 5, stroke: "#7A2E22", "stroke-width": 4 }, body);
+    el("ellipse", { rx: 18, ry: 12, fill: "#B5482F", stroke: "#2A1E14", "stroke-width": 3 }, body);
+    el("circle", { cx: -20, cy: -14, r: 7, fill: "#B5482F", stroke: "#2A1E14", "stroke-width": 3 }, body);
+    el("circle", { cx: 20, cy: -14, r: 7, fill: "#B5482F", stroke: "#2A1E14", "stroke-width": 3 }, body);
+    el("circle", { cx: -6, cy: -12, r: 3, fill: "#120c08" }, body); el("circle", { cx: 6, cy: -12, r: 3, fill: "#120c08" }, body);
+    ill.crabList.push({ g: cg, x0: r() * 520, v: 12 + r() * 18, y: onBridge ? -118 : 5 + r() * 115 });
+  }
+})();
 (function buildBall() {
   const g = $("ill-ball");
   el("rect", { x: -220, y: -180, width: 440, height: 360, fill: "#E6D6B2" }, g);
@@ -494,7 +564,7 @@ const ill = {};
 })();
 
 function updateIll(name, lt, t) {
-  for (const n of ["pay", "stage", "mic", "globe", "boat", "rocket", "probe", "wine", "ball"]) $("ill-" + n).setAttribute("display", n === name ? "inline" : "none");
+  for (const n of ["pay", "stage", "mic", "globe", "boat", "rocket", "probe", "wine", "ball", "factory", "cop", "crabs"]) $("ill-" + n).setAttribute("display", n === name ? "inline" : "none");
   if (name === "pay") {
     const k = ease(clamp((lt - 0.3) / 1.4));
     const len = 460;
@@ -546,6 +616,19 @@ function updateIll(name, lt, t) {
     const k = clamp((lt - 3.3) / 0.35);
     ill.armL.setAttribute("transform", `translate(${lerp(-28, 0, k)},0)`);
     ill.armR.setAttribute("transform", `translate(${lerp(28, 0, k)},0)`);
+  } else if (name === "factory") {
+    ill.belt.setAttribute("transform", `translate(${((t * 60) % 150) - 150},0)`);
+    ill.arm.setAttribute("transform", `translate(70,-30) rotate(${-20 + Math.sin(t * 4) * 18})`);
+  } else if (name === "cop") {
+    updateGlobe(ill.copGlobe, t * 0.8);
+    ill.mercury.setAttribute("height", 60 + (Math.sin(t * 1.5) * 0.5 + 0.5) * 70);
+    ill.mercury.setAttribute("y", 20 - (60 + (Math.sin(t * 1.5) * 0.5 + 0.5) * 70));
+    ill.flags.forEach((f, i) => f.setAttribute("transform", `skewY(${Math.sin(t * 6 + i) * 10})`));
+  } else if (name === "crabs") {
+    ill.crabList.forEach((c, i) => {
+      const x = ((c.x0 + t * c.v) % 520) - 260;
+      c.g.setAttribute("transform", `translate(${x},${c.y + Math.abs(Math.sin(t * 9 + i)) * -4}) rotate(${Math.sin(t * 10 + i) * 6})`);
+    });
   } else if (name === "ball") {
     const p = (t * 0.7) % 1, x = lerp(-150, 120, p), y = 90 - Math.abs(Math.sin(p * Math.PI * 3)) * 110 * (1 - p * 0.5);
     ill.ball.setAttribute("transform", `translate(${x},${y}) rotate(${t * 360})`);
