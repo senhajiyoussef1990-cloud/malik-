@@ -1,0 +1,62 @@
+name: Rendu JT 18 novembre — moteur original
+on:
+  push:
+    branches: [jt]
+    paths:
+      - ".github/workflows/render-jt-2026-11-18.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - name: Checkout branche JT
+        uses: actions/checkout@v4
+        with:
+          ref: jt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Dépendances systèmes
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install "numpy<2" pillow soundfile chatterbox-tts faster-whisper num2words
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Préparer environnement voix original
+        run: |
+          mkdir -p /root/venvs/cb
+          sudo mkdir -p /root/venvs
+          sudo ln -sf "$(which python)" /root/venvs/cb/python
+          ls -l jt/voices/ref-maurice.wav
+          python -c "import chatterbox.mtl_tts, torch, torchaudio; print('Voix installée')"
+      - name: Générer le vrai JT 18 novembre
+        working-directory: jt
+        run: |
+          chmod +x tools/daily.sh
+          tools/daily.sh 2026-11-18-1
+      - name: Vérifier fichier vidéo
+        working-directory: jt
+        run: |
+          ffprobe -v error -show_entries format=duration,width,height -of default=nw=1 out/ecodujour-2026-11-18-1.mp4
+          test -s out/story-2026-11-18-1.jpg
+          test -s out/publication-2026-11-18-1.txt
+      - name: Livrer MP4, story et publication
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: echo-du-jour-2026-11-18
+          path: |
+            jt/out/ecodujour-2026-11-18-1.mp4
+            jt/out/story-2026-11-18-1.jpg
+            jt/out/publication-2026-11-18-1.txt
+          if-no-files-found: warn
