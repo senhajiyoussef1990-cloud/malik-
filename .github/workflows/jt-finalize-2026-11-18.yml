@@ -1,0 +1,65 @@
+name: Finaliser le JT 18 novembre sans refaire Maurice
+on:
+  push:
+    branches: [jt]
+    paths:
+      - ".github/workflows/jt-finalize-2026-11-18.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  final-render:
+    name: Générer le MP4 original et la story
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: jt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Récupérer les 15 répliques déjà clonées de Maurice
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 44289813152
+          repository: ${{ github.repository }}
+          github-token: ${{ github.token }}
+          pattern: maurice-part-*
+          merge-multiple: true
+          path: jt/out/voice-parts
+      - name: Dépendances légères — FFmpeg, Playwright, Python
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install --no-cache-dir numpy pillow soundfile
+          npm install --prefix jt --no-save playwright@1.56.1
+          cd jt && npx playwright install --with-deps chromium
+          ffprobe -version | head -1
+          ls -l out/voice-parts/*.wav | wc -l
+      - name: Assembler sans régénérer la voix
+        working-directory: jt
+        env:
+          VOICE_PARTS_DIR: out/voice-parts
+        run: |
+          chmod +x tools/daily.sh
+          tools/daily.sh 2026-11-18-1
+          test -s out/ecodujour-2026-11-18-1.mp4
+          test -s out/story-2026-11-18-1.jpg
+          ffprobe -v error -show_entries format=duration -of default=nw=1 out/ecodujour-2026-11-18-1.mp4
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: video-finale-echo-du-jour-18-novembre
+          path: |
+            jt/out/ecodujour-2026-11-18-1.mp4
+            jt/out/story-2026-11-18-1.jpg
+            jt/out/publication-2026-11-18-1.txt
+          if-no-files-found: warn
+          retention-days: 7
