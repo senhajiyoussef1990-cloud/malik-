@@ -26,12 +26,20 @@ jobs:
           python-version: "3.11"
       - name: Dépendances systèmes
         run: |
+          # GitHub runners are short on disk: remove unused SDKs and CUDA libraries.
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/hostedtoolcache/CodeQL || true
+          sudo apt-get clean
+          python -m pip cache purge || true
+          df -h
           sudo apt-get update
           sudo apt-get install -y ffmpeg
-          python -m pip install --upgrade pip
-          python -m pip install "numpy<2" pillow soundfile chatterbox-tts faster-whisper num2words
+          python -m pip install --no-cache-dir --upgrade pip
+          # The original speech model runs on CPU; don't install huge CUDA PyTorch wheels.
+          python -m pip install --no-cache-dir 'torch==2.6.0+cpu' 'torchaudio==2.6.0+cpu' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir "numpy<2" pillow soundfile chatterbox-tts faster-whisper num2words
           npm install --prefix jt --no-save playwright@1.56.1
           cd jt && npx playwright install --with-deps chromium
+          df -h
       - name: Préparer environnement voix original
         run: |
           echo "CHATTERBOX_PYTHON=$(which python)" >> "$GITHUB_ENV"
