@@ -32,7 +32,7 @@ function synthClone(list, seed) {
   const job = path.join(tmp, `clone-${seed}.json`);
   list.forEach((c) => { c.cand = path.join(tmp, `${c.id}-${seed}.wav`); });
   fs.writeFileSync(job, JSON.stringify(list.map((c) => ({ text: c.text, out: c.cand, seed }))));
-  sh("/root/venvs/cb/bin/python", [path.join(__dirname, "clone.py"), job], { stdio: ["ignore", "inherit", "ignore"] });
+  sh(process.env.CHATTERBOX_PYTHON || "/root/venvs/cb/bin/python", [path.join(__dirname, "clone.py"), job], { stdio: ["ignore", "inherit", "ignore"] });
 }
 function qc(list) {
   const job = path.join(tmp, `qc.json`);
