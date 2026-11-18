@@ -29,12 +29,20 @@ clips.forEach((c, i) => { c.text = phon(c.text); c.raw = path.join(tmp, `g${i}.w
 const clone = E.voiceEngine === "clone";
 const VINTAGE = "highpass=f=140,lowpass=f=6500,equalizer=f=2000:t=q:w=1:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-16:TP=-1.5";
 function synthClone(list, seed) {
+  if (process.env.VOICE_PARTS_DIR) {
+    for (const clip of list) {
+      clip.cand = path.join(tmp, clip.id + "-provided.wav");
+      fs.copyFileSync(path.join(process.env.VOICE_PARTS_DIR, clip.id + ".wav"), clip.cand);
+    }
+    return;
+  }
   const job = path.join(tmp, `clone-${seed}.json`);
   list.forEach((c) => { c.cand = path.join(tmp, `${c.id}-${seed}.wav`); });
   fs.writeFileSync(job, JSON.stringify(list.map((c) => ({ text: c.text, out: c.cand, seed }))));
   sh(process.env.CHATTERBOX_PYTHON || "/root/venvs/cb/bin/python", [path.join(__dirname, "clone.py"), job], { stdio: ["ignore", "inherit", "ignore"] });
 }
 function qc(list) {
+  if (process.env.VOICE_PARTS_DIR) return list.map(c => ({score: 1, end: dur(c.cand), heard: c.text}));
   const job = path.join(tmp, `qc.json`);
   fs.writeFileSync(job, JSON.stringify(list.map((c) => ({ wav: c.cand, text: c.text }))));
   sh("python3", [path.join(__dirname, "qc.py"), job], { stdio: ["ignore", "inherit", "ignore"] });
