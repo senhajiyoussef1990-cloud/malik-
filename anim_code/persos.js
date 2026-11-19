@@ -192,16 +192,24 @@ function drawRenard(c, P) {
     ink(c, 2, '#fff4e4'); for (let k = 0; k < 6; k++) { const bx = sd * (40 + k * 5); c.beginPath(); c.moveTo(bx, hy - 58); c.quadraticCurveTo(bx + sd * 5, hy - 80 - k * 3, bx + sd * 2, hy - 96 - k * 3); c.stroke(); }
   }
   // ---- crâne rond + joues ébouriffées
-  const tete = smooth([[0, hy - 90], [38, hy - 84], [68, hy - 60], [80, hy - 22], [94, hy + 8], [86, hy + 20], [100, hy + 36], [86, hy + 46], [94, hy + 62], [76, hy + 70],
-                       [50, hy + 84], [22, hy + 100], [0, hy + 104], [-22, hy + 100], [-50, hy + 84], [-76, hy + 70], [-94, hy + 62], [-86, hy + 46], [-100, hy + 36],
-                       [-86, hy + 20], [-94, hy + 8], [-80, hy - 22], [-68, hy - 60], [-38, hy - 84]]);
+  // tête en losange : deux triangles qui s'élargissent jusqu'aux joues, quelques petits poils sur les côtés
+  const tete = new Path2D();
+  tete.moveTo(0, hy - 90);
+  tete.quadraticCurveTo(52, hy - 88, 70, hy - 52);                     // haut du crâne
+  tete.lineTo(100, hy + 22);                                            // pente vers la pointe de la joue
+  tete.lineTo(92, hy + 28); tete.lineTo(104, hy + 36); tete.lineTo(90, hy + 42); tete.lineTo(97, hy + 50); tete.lineTo(82, hy + 54);   // petits poils
+  tete.quadraticCurveTo(52, hy + 88, 0, hy + 104);                      // vers le menton
+  tete.quadraticCurveTo(-52, hy + 88, -82, hy + 54);
+  tete.lineTo(-97, hy + 50); tete.lineTo(-90, hy + 42); tete.lineTo(-104, hy + 36); tete.lineTo(-92, hy + 28); tete.lineTo(-100, hy + 22);
+  tete.lineTo(-70, hy - 52);
+  tete.quadraticCurveTo(-52, hy - 88, 0, hy - 90); tete.closePath();
   F(c, tete, R.fur, 5);
   c.save(); c.clip(tete);
   const gr = c.createRadialGradient(-10, hy - 40, 20, 0, hy, 150); gr.addColorStop(0, 'rgba(255,200,140,.28)'); gr.addColorStop(.55, 'rgba(255,200,140,0)'); gr.addColorStop(1, 'rgba(90,25,5,.38)');
   c.fillStyle = gr; c.fillRect(-200, hy - 200, 400, 400);                                                     // volume : front éclairé, côtés dans l'ombre
   // bas du visage crème, avec l'arête orange du museau au milieu
-  const creme = smooth([[-98, hy + 44], [-70, hy + 30], [-46, hy + 32], [-30, hy + 44], [-24, hy + 60], [0, hy + 66], [24, hy + 60], [30, hy + 44], [46, hy + 32], [70, hy + 30], [98, hy + 44],
-                        [76, hy + 70], [46, hy + 90], [0, hy + 106], [-46, hy + 90], [-76, hy + 70]]);
+  const creme = smooth([[-96, hy + 40], [-70, hy + 30], [-46, hy + 32], [-30, hy + 44], [-24, hy + 60], [0, hy + 66], [24, hy + 60], [30, hy + 44], [46, hy + 32], [70, hy + 30], [96, hy + 40],
+                        [74, hy + 66], [44, hy + 88], [0, hy + 106], [-44, hy + 88], [-74, hy + 66]]);
   F(c, creme, R.creme, 0); ombre(c, creme, 0, hy + 30, 0, hy + 112, .2);
   F(c, smooth([[-14, hy - 18], [14, hy - 18], [22, hy + 20], [26, hy + 46], [0, hy + 58], [-26, hy + 46], [-22, hy + 20]]), R.fur, 0);          // arête du museau, large jusqu'à la truffe
   c.fillStyle = 'rgba(255,215,160,.35)'; c.beginPath(); c.ellipse(0, hy + 4, 6, 18, 0, 0, 7); c.fill();                       // reflet sur l'arête
@@ -209,7 +217,7 @@ function drawRenard(c, P) {
   ink(c, 5); c.stroke(tete);
   ink(c, 2.6, R.fur2);                                                                                        // mèches de fourrure
   for (let k = -4; k <= 4; k++) { c.beginPath(); c.moveTo(k * 9, hy - 90); c.quadraticCurveTo(k * 11 + 3, hy - 78, k * 8, hy - 66); c.stroke(); }
-  for (const sd of [-1, 1]) for (let k = 0; k < 5; k++) { const y0 = hy + 18 + k * 10; c.beginPath(); c.moveTo(sd * (72 - k * 3), y0); c.lineTo(sd * (88 - k * 2), y0 + 5); c.stroke(); }
+  for (const sd of [-1, 1]) for (let k = 0; k < 3; k++) { const y0 = hy + 24 + k * 9; c.beginPath(); c.moveTo(sd * (70 - k * 3), y0); c.lineTo(sd * (84 - k * 3), y0 + 4); c.stroke(); }
   ink(c, 2, 'rgba(255,240,215,.7)'); for (const sd of [-1, 1]) for (let k = 0; k < 3; k++) { c.beginPath(); c.moveTo(sd * (60 + k * 7), hy + 44 + k * 7); c.lineTo(sd * (74 + k * 7), hy + 50 + k * 7); c.stroke(); }
   // ---- yeux mi-clos à grosses paupières, sourcils épais
   const lk = P.look || [0, 0], lid = P.lid != null ? P.lid : .5, bl = P.blink ? 1 : 0;
@@ -275,7 +283,7 @@ function drawMouton(c, P) {
     c.save(); c.translate(ank[0] + sd * 6, ank[1] + 88); c.rotate(sd * .08); chaussure(c, 0, 0, sd > 0 ? 1 : -1, M.chaus, 1.18); c.restore();   // le dessus de la chaussure touche la chaussette
   }
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
-  const hL = P.handL || [-106, -408], hR = P.handR || [106, -408];
+  const hL = P.handL || [-104, -366], hR = P.handR || [104, -366];
   const sL = [-80, shY + 22], sR = [80, shY + 22];
   // ---- manches bouffantes (arrière)
   { const a = Math.atan2(hL[1] - sL[1], hL[0] - sL[0]), E = [hL[0] - Math.cos(a) * 30, hL[1] - Math.sin(a) * 30];
