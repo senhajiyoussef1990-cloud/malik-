@@ -63,3 +63,5 @@ jobs:
             jt/out/verification-2026-11-19-1.jpg
           if-no-files-found: warn
           retention-days: 7
+
+# Relance demandée le 19 novembre à 08 h 33 (Bruxelles).
