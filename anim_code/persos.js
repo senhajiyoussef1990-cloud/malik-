@@ -257,75 +257,93 @@ const MOUTON = { casq: '#b8471c', casq2: '#8e3412', laine: '#f4ddb8', laine2: '#
 function drawMouton(c, P) {
   const M = MOUTON, t = P.t || 0, s = P.s || 1;
   c.save(); c.translate(P.x, P.y); c.scale(s * (P.face || 1), s);
-  const hipY = -360, shY = -580, neckY = -610, hy = -700;
-  for (const sd of [-1, 1]) {                                                                               // jambes + revers
+  const hipY = -440, shY = -636, neckY = -660, hy = -756;
+  // ---- jambes fines, espacées, revers, chaussettes, chaussures collées aux chaussettes
+  for (const sd of [-1, 1]) {
     const ph = P.walk ? Math.sin(P.walk + (sd > 0 ? Math.PI : 0)) : 0;
-    const hip = [sd * 46, hipY], foot = [sd * 52 + ph * 50, -40 - Math.max(0, ph) * 20];
-    const C = tube(c, hip, [foot[0], foot[1] - 60], sd * 4 - ph * 8, 96, M.pant);
-    const cuff = poly([[foot[0] - 48, foot[1] - 86], [foot[0] + 48, foot[1] - 86], [foot[0] + 46, foot[1] - 34], [foot[0] - 46, foot[1] - 34]]);
-    F(c, cuff, M.pant, 5); chevrons(c, cuff, M.pant2, 12); ink(c, 5); c.stroke(cuff);
-    F(c, poly([[foot[0] - 22, foot[1] - 36], [foot[0] + 22, foot[1] - 36], [foot[0] + 20, foot[1] - 14], [foot[0] - 20, foot[1] - 14]]), '#e9cfa8', 3);   // chaussettes
-    chaussure(c, foot[0] + sd * 4, foot[1] + 38, sd > 0 ? 1 : -1, M.chaus, 1.05);
+    const hip = [sd * 40, hipY], ank = [sd * 50 + ph * 50, -88 - Math.max(0, ph) * 18];
+    tube(c, hip, ank, sd * 3 - ph * 8, 76, M.pant, INK, false);
+    c.save(); c.translate(sd * 8, 0); c.strokeStyle = 'rgba(40,14,4,.2)'; c.lineWidth = 16; c.lineCap = 'round'; c.beginPath(); c.moveTo(...hip); c.lineTo(...ank); c.stroke(); c.restore();
+    const cuff = smooth([[ank[0] - 42, ank[1] - 10], [ank[0] + 42, ank[1] - 10], [ank[0] + 42, ank[1] + 40], [ank[0] - 42, ank[1] + 40]]);
+    F(c, cuff, M.pant, 5); chevrons(c, cuff, M.pant2, 11); ombre(c, cuff, ank[0] - 40, 0, ank[0] + 40, 0, .25); ink(c, 5); c.stroke(cuff);
+    ink(c, 2, 'rgba(60,20,6,.5)'); c.beginPath(); c.moveTo(ank[0] - 40, ank[1] + 4); c.lineTo(ank[0] + 40, ank[1] + 4); c.stroke();
+    const so = poly([[ank[0] - 24, ank[1] + 38], [ank[0] + 24, ank[1] + 38], [ank[0] + 24, ank[1] + 52], [ank[0] - 24, ank[1] + 52]]);
+    F(c, so, '#ead2ad', 3); ink(c, 1.4, 'rgba(120,80,40,.5)'); for (let k = -2; k <= 2; k++) { c.beginPath(); c.moveTo(ank[0] + k * 8, ank[1] + 40); c.lineTo(ank[0] + k * 8, ank[1] + 50); c.stroke(); }
+    c.save(); c.translate(ank[0] + sd * 6, ank[1] + 88); c.rotate(sd * .08); chaussure(c, 0, 0, sd > 0 ? 1 : -1, M.chaus, 1.18); c.restore();   // le dessus de la chaussure touche la chaussette
   }
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
-  const hL = P.handL || [-118, -360], hR = P.handR || [118, -360];
-  const sL = [-92, shY + 24], sR = [92, shY + 24];
-  tube(c, sL, hL, 18, 58, M.chemise); F(c, ell(hL[0], hL[1] - 10, 26, 12, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) + Math.PI / 2), M.chemise, 3);
-  main(c, hL[0], hL[1], Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, 1.05, M.main, false, P.poseL || 'repos', -1);
-  // pantalon haut (taille)
-  F(c, poly([[-94, -450], [94, -450], [100, -330], [-100, -330]]), M.pant, 5);
-  chevrons(c, poly([[-94, -450], [94, -450], [100, -330], [-100, -330]]), M.pant2, 12);
-  // chemise + gilet tricoté
-  F(c, smooth([[-92, shY], [92, shY], [96, -460], [-96, -460]]), M.chemise, 5);
-  const gilet = poly([[-80, shY + 4], [-24, shY + 4], [0, shY + 70], [24, shY + 4], [80, shY + 4], [88, -400], [0, -380], [-88, -400]]);
-  F(c, gilet, M.gilet, 5); chevrons(c, gilet, M.gilet2, 12); ombre(c, gilet, -50, shY, 90, -400, .32); reflet(c, gilet, -46, shY + 70, 20, 60, .1, .1); ink(c, 5); c.stroke(gilet);
-  ink(c, 1.4, 'rgba(255,220,190,.45)'); c.setLineDash([4, 3]); c.beginPath(); c.moveTo(-84, -404); c.quadraticCurveTo(0, -384, 84, -404); c.stroke(); c.setLineDash([]);
-  for (const sd of [-1, 1]) { F(c, poly([[sd * 24, shY + 4], [sd * 44, shY + 4], [sd * 8, shY + 92], [sd * 2, shY + 76]]), M.gilet2, 3);
-    F(c, poly([[sd * 34, -452], [sd * 72, -452], [sd * 72, -438], [sd * 34, -438]]), M.gilet2, 3); }
-  [-488, -452, -416].forEach(y => { F(c, ell(0, y, 9, 9), M.bouton, 3); c.fillStyle = 'rgba(255,240,210,.6)'; c.beginPath(); c.arc(-2, y - 2, 3, 0, 7); c.fill(); });
-  // nœud papillon
-  const ny = neckY + 10;
-  F(c, smooth([[0, ny], [-36, ny - 18], [-40, ny + 18]]), M.noeud, 4); F(c, smooth([[0, ny], [36, ny - 18], [40, ny + 18]]), M.noeud, 4); F(c, ell(0, ny, 9, 10), '#8a1a14', 3);
-  // tête
-  c.save(); c.translate(0, neckY); c.rotate(P.tilt || 0); c.translate(0, -neckY);
-  for (const sd of [-1, 1]) {                                                                                // oreilles tombantes
-    const a = (P.oreille || 0) * sd;
-    c.save(); c.translate(sd * 74, hy + 10); c.rotate(sd * (0.12 + a));
-    const o = smooth([[0, -16], [sd * 60, -22], [sd * 104, -6], [sd * 70, 18], [0, 18]]);
-    F(c, o, M.oreille, 4); F(c, smooth([[sd * 10, -6], [sd * 60, -10], [sd * 88, -4], [sd * 60, 8], [sd * 10, 8]]), M.oreilleIn, 0); c.restore();
+  const hL = P.handL || [-106, -408], hR = P.handR || [106, -408];
+  const sL = [-80, shY + 22], sR = [80, shY + 22];
+  // ---- manches bouffantes (arrière)
+  tube(c, sL, hL, 16, 54, M.chemise);
+  F(c, ell(hL[0], hL[1] - 12, 24, 11, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) + Math.PI / 2), M.chemise, 3);
+  main(c, hL[0], hL[1] - 2, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, .98, M.main, false, P.poseL || 'repos', -1);
+  // ---- haut du pantalon, chemise, gilet tricoté
+  const ht = poly([[-80, -470], [80, -470], [84, -410], [-84, -410]]); F(c, ht, M.pant, 5); chevrons(c, ht, M.pant2, 11);
+  const ch = smooth([[-82, shY], [-40, shY - 14], [40, shY - 14], [82, shY], [78, -470], [-78, -470]]); F(c, ch, M.chemise, 5); ombre(c, ch, -40, shY, 80, -470, .2);
+  const gilet = poly([[-72, shY + 2], [-22, shY + 2], [0, shY + 66], [22, shY + 2], [72, shY + 2], [78, -450], [40, -440], [0, -422], [-40, -440], [-78, -450]]);
+  F(c, gilet, M.gilet, 5); chevrons(c, gilet, M.gilet2, 11); ombre(c, gilet, -40, shY, 80, -430, .32); reflet(c, gilet, -40, shY + 60, 18, 56, .1, .1); ink(c, 5); c.stroke(gilet);
+  for (const sd of [-1, 1]) {
+    F(c, poly([[sd * 22, shY + 2], [sd * 40, shY + 2], [sd * 8, shY + 86], [sd * 2, shY + 70]]), M.gilet2, 3);                // revers du gilet
+    F(c, poly([[sd * 30, -500], [sd * 64, -502], [sd * 64, -490], [sd * 30, -488]]), M.gilet2, 2.5);                          // poches passepoilées
   }
-  const laine = [[-70, hy + 86], [-88, hy + 56], [-100, hy + 22], [-104, hy - 12], [-94, hy - 46], [-66, hy - 72], [-30, hy - 84], [6, hy - 88], [42, hy - 82], [74, hy - 66], [98, hy - 40], [106, hy - 6], [100, hy + 26], [88, hy + 58], [70, hy + 88], [-36, hy + 104], [0, hy + 112], [36, hy + 104]];
-  for (const [x, y] of laine) F(c, ell(x, y, 32, 28), M.laine2, 4);
-  for (const [x, y] of laine) F(c, ell(x - 2, y - 4, 27, 23), M.laine, 0);
-  for (const [x, y] of laine) { c.fillStyle = 'rgba(255,255,250,.55)'; c.beginPath(); c.ellipse(x - 9, y - 10, 9, 6, -.5, 0, 7); c.fill(); }
-  ink(c, 2.4, M.laine2); for (const [x, y] of laine) { c.beginPath(); c.arc(x + 3, y + 1, 11, 0.3, 2.6); c.stroke(); c.beginPath(); c.arc(x - 6, y - 4, 5, 3.4, 5.6); c.stroke(); }
-  const vis = smooth([[-58, hy - 40], [0, hy - 54], [58, hy - 40], [66, hy + 8], [52, hy + 62], [22, hy + 88], [0, hy + 92], [-22, hy + 88], [-52, hy + 62], [-66, hy + 8]]);
-  F(c, vis, M.visage, 5); ombre(c, vis, -30, hy - 30, 60, hy + 80, .24); reflet(c, vis, -22, hy - 20, 18, 12, .22);
-  c.fillStyle = 'rgba(240,140,120,.25)'; for (const sd of [-1, 1]) { c.beginPath(); c.ellipse(sd * 40, hy + 46, 14, 8, 0, 0, 7); c.fill(); }   // joues roses
+  [-560, -524, -488].forEach(y => { F(c, ell(0, y, 8, 8), M.bouton, 3); c.fillStyle = 'rgba(255,240,210,.6)'; c.beginPath(); c.arc(-2, y - 2, 2.6, 0, 7); c.fill(); });
+  ink(c, 1.4, 'rgba(255,220,190,.45)'); c.setLineDash([4, 3]); c.beginPath(); c.moveTo(-74, -452); c.lineTo(-40, -444); c.lineTo(0, -428); c.lineTo(40, -444); c.lineTo(74, -452); c.stroke(); c.setLineDash([]);
+  // ---- cou, col, nœud papillon
+  F(c, poly([[-16, neckY + 24], [16, neckY + 24], [14, neckY - 26], [-14, neckY - 26]]), M.visage, 3);
+  for (const sd of [-1, 1]) F(c, poly([[sd * 4, shY - 12], [sd * 34, shY - 16], [sd * 22, shY + 14]]), M.chemise, 2.5);
+  const ny = neckY + 18;
+  F(c, smooth([[0, ny], [-34, ny - 16], [-38, ny + 16]]), M.noeud, 4); F(c, smooth([[0, ny], [34, ny - 16], [38, ny + 16]]), M.noeud, 4); F(c, ell(0, ny, 8, 9), '#8a1a14', 3);
+  ink(c, 1.6, 'rgba(60,0,0,.5)'); for (const sd of [-1, 1]) { c.beginPath(); c.moveTo(sd * 10, ny - 6); c.lineTo(sd * 28, ny - 10); c.stroke(); c.beginPath(); c.moveTo(sd * 10, ny + 6); c.lineTo(sd * 30, ny + 10); c.stroke(); }
+  // ---- tête
+  c.save(); c.translate(0, neckY); c.rotate(P.tilt || 0); c.translate(0, -neckY);
+  for (const sd of [-1, 1]) {                                                                               // longues oreilles bien visibles
+    const ao = (P.oreille || 0) * sd;
+    c.save(); c.translate(sd * 58, hy - 10); c.rotate(sd * (0.18 + ao));
+    const o = smooth([[0, -14], [sd * 44, -26], [sd * 96, -16], [sd * 112, 0], [sd * 86, 16], [sd * 40, 18], [0, 14]]);
+    F(c, o, M.oreille, 4); F(c, smooth([[sd * 14, -6], [sd * 50, -14], [sd * 92, -6], [sd * 72, 8], [sd * 34, 8]]), M.oreilleIn, 0);
+    ombre(c, o, 0, -20, 0, 20, .25); c.restore();
+  }
+  const vis = smooth([[-46, hy - 50], [0, hy - 58], [46, hy - 50], [60, hy - 14], [62, hy + 26], [44, hy + 64], [18, hy + 84], [0, hy + 87], [-18, hy + 84], [-44, hy + 64], [-62, hy + 26], [-60, hy - 14]]);
+  F(c, vis, M.visage, 5); ombre(c, vis, -30, hy - 30, 60, hy + 80, .22); reflet(c, vis, -20, hy - 26, 16, 10, .2);
+  c.fillStyle = 'rgba(240,140,120,.22)'; for (const sd of [-1, 1]) { c.beginPath(); c.ellipse(sd * 40, hy + 40, 12, 7, 0, 0, 7); c.fill(); }
+  // laine : frange sur le front et côtés jusqu'aux joues — pas de laine au menton
+  const laine = [[-70, hy + 34], [-74, hy + 10], [-74, hy - 16], [-66, hy - 40], [-50, hy - 58], [-28, hy - 64], [-6, hy - 66], [16, hy - 66], [38, hy - 62], [58, hy - 50], [70, hy - 28], [76, hy - 2], [74, hy + 24], [68, hy + 44]];
+  for (const [x, y] of laine) F(c, ell(x, y, 20, 18), M.laine2, 3.5);
+  for (const [x, y] of laine) F(c, ell(x - 1, y - 2, 16, 14), M.laine, 0);
+  for (const [x, y] of laine) { c.fillStyle = 'rgba(255,255,250,.55)'; c.beginPath(); c.ellipse(x - 6, y - 6, 6, 4, -.5, 0, 7); c.fill(); }
+  ink(c, 2, M.laine2); for (const [x, y] of laine) { c.beginPath(); c.arc(x + 2, y + 1, 8, 0.3, 2.6); c.stroke(); }
+  F(c, smooth([[-50, hy - 44], [0, hy - 52], [50, hy - 44], [44, hy - 30], [0, hy - 38], [-44, hy - 30]]), M.visage, 0);   // le front passe sous la frange
   const lk = P.look || [0, 0];
   for (const sd of [-1, 1]) {
-    const ex = sd * 32, ey = hy + 4;
-    if (P.blink || P.rire) { ink(c, 5); c.beginPath(); c.moveTo(ex - 20, ey + 2); c.quadraticCurveTo(ex, ey - 12, ex + 20, ey + 2); c.stroke(); }
+    const ex = sd * 26, ey = hy + 4;
+    if (P.blink || P.rire) { ink(c, 5); c.beginPath(); c.moveTo(ex - 18, ey + 2); c.quadraticCurveTo(ex, ey - 12, ex + 18, ey + 2); c.stroke(); }
     else {
-      F(c, ell(ex, ey, 24, 27), '#fffaf0', 3.5);
-      F(c, ell(ex + lk[0] * 7, ey + 3 + lk[1] * 6, 12, 13), '#7a3e14', 0); F(c, ell(ex + lk[0] * 7, ey + 3 + lk[1] * 6, 6, 7), '#1a0a04', 0);
-      c.fillStyle = '#fff'; c.beginPath(); c.arc(ex + lk[0] * 7 - 4, ey - 3, 3.5, 0, 7); c.fill();
+      F(c, ell(ex, ey, 19, 22), '#fffaf0', 3.5);
+      F(c, ell(ex + lk[0] * 6, ey + 3 + lk[1] * 5, 11, 12), '#8a4416', 0); F(c, ell(ex + lk[0] * 6, ey + 3 + lk[1] * 5, 5.5, 6.5), '#1a0a04', 0);
+      c.fillStyle = '#fff'; c.beginPath(); c.arc(ex + lk[0] * 6 - 4, ey - 2, 3.4, 0, 7); c.fill();
+      ink(c, 2, 'rgba(90,40,14,.55)'); c.beginPath(); c.moveTo(ex - 16, ey + 18); c.quadraticCurveTo(ex, ey + 24, ex + 16, ey + 18); c.stroke();
     }
-    const fr = P.froncer != null ? P.froncer : .5;                                                           // sourcils
-    ink(c, 7, '#4a2410'); c.beginPath(); c.moveTo(ex - sd * 22, ey - 36 + fr * 6 * 0); c.quadraticCurveTo(ex, ey - 44 - (1 - fr) * 6, ex + sd * 24, ey - 34 + fr * 10); c.stroke();
+    const fr = P.froncer != null ? P.froncer : .6;                                                            // sourcils épais, froncés vers le centre
+    F(c, smooth([[ex - sd * 22, ey - 30 - (1 - fr) * 4], [ex, ey - 36 - (1 - fr) * 6], [ex + sd * 20, ey - 30 + fr * 8], [ex + sd * 16, ey - 24 + fr * 8], [ex, ey - 30 - (1 - fr) * 6], [ex - sd * 20, ey - 25]]), '#4a2410', 2);
   }
-  F(c, smooth([[-10, hy + 52], [10, hy + 52], [0, hy + 62]]), '#e88c86', 2.5);                                // nez
-  ink(c, 3); c.beginPath(); c.moveTo(0, hy + 62); c.lineTo(0, hy + 70); c.stroke();
-  bouche(c, 0, hy + 76, 40, P.talk || 0, P.rire ? 1.4 : (P.sourire != null ? P.sourire : 0.3), '#6a2016');
-  // casquette plate en tweed
-  const cq = smooth([[-108, hy - 60], [-90, hy - 104], [-40, hy - 128], [20, hy - 130], [80, hy - 112], [112, hy - 72], [100, hy - 52], [0, hy - 64]]);
-  F(c, cq, M.casq, 5); chevrons(c, cq, M.casq2, 13); ombre(c, cq, -40, hy - 130, 90, hy - 60, .3); reflet(c, cq, -40, hy - 112, 34, 12, .18); ink(c, 5); c.stroke(cq);
-  const visiere = smooth([[-92, hy - 56], [0, hy - 70], [96, hy - 54], [86, hy - 40], [0, hy - 48], [-84, hy - 42]]);
-  F(c, visiere, M.casq2, 4); ink(c, 1.4, 'rgba(255,220,190,.5)'); c.setLineDash([4, 3]); c.beginPath(); c.moveTo(-80, hy - 52); c.quadraticCurveTo(0, hy - 62, 84, hy - 50); c.stroke(); c.setLineDash([]);
-  ink(c, 2.5, M.casq2); for (let k = -3; k <= 3; k++) { c.beginPath(); c.moveTo(k * 8, hy - 128); c.quadraticCurveTo(k * 26, hy - 100, k * 30, hy - 66); c.stroke(); }
-  F(c, ell(4, hy - 132, 16, 9), M.casq, 4);
+  F(c, smooth([[-9, hy + 44], [9, hy + 44], [0, hy + 54]]), '#e88c86', 2.5);                                    // petit nez
+  ink(c, 3); c.beginPath(); c.moveTo(0, hy + 54); c.lineTo(0, hy + 60); c.stroke();
+  if ((P.talk || 0) < .06 && !P.rire) { ink(c, 3.5); c.beginPath(); c.moveTo(-10, hy + 64); c.quadraticCurveTo(-4, hy + 60, 0, hy + 61); c.quadraticCurveTo(4, hy + 60, 10, hy + 64); c.stroke(); }
+  else bouche(c, 0, hy + 64, 34, Math.max(P.talk || 0, P.rire ? .8 : 0), P.rire ? 1.4 : (P.sourire != null ? P.sourire : .3), '#6a2016');
+  // ---- grande casquette plate en tweed, plus large que la tête
+  const cq = smooth([[-118, hy - 76], [-104, hy - 122], [-60, hy - 150], [0, hy - 158], [64, hy - 150], [108, hy - 120], [120, hy - 80], [104, hy - 62], [0, hy - 70], [-104, hy - 62]]);
+  F(c, cq, M.casq, 5); chevrons(c, cq, M.casq2, 12); ombre(c, cq, -50, hy - 150, 100, hy - 66, .32); reflet(c, cq, -46, hy - 128, 38, 12, .18); ink(c, 5); c.stroke(cq);
+  ink(c, 2.4, M.casq2); for (let k = -3; k <= 3; k++) { c.beginPath(); c.moveTo(k * 6, hy - 156); c.quadraticCurveTo(k * 28, hy - 124, k * 36, hy - 74); c.stroke(); }
+  const vi = smooth([[-96, hy - 62], [0, hy - 76], [100, hy - 60], [90, hy - 44], [0, hy - 54], [-88, hy - 46]]);
+  F(c, vi, M.casq2, 4); chevrons(c, vi, '#6a2408', 10); ink(c, 4); c.stroke(vi);
+  ink(c, 1.4, 'rgba(255,220,190,.5)'); c.setLineDash([4, 3]); c.beginPath(); c.moveTo(-84, hy - 56); c.quadraticCurveTo(0, hy - 68, 88, hy - 54); c.stroke(); c.setLineDash([]);
+  F(c, ell(2, hy - 160, 16, 9), M.casq, 4);
   c.restore();
-  tube(c, sR, hR, -18, 58, M.chemise); F(c, ell(hR[0], hR[1] - 10, 26, 12, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) + Math.PI / 2), M.chemise, 3);
-  main(c, hR[0], hR[1], Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, 1.05, M.main, false, P.poseR || 'repos', 1);
+  // ---- manche avant
+  tube(c, sR, hR, -16, 54, M.chemise);
+  F(c, ell(hR[0], hR[1] - 12, 24, 11, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) + Math.PI / 2), M.chemise, 3);
+  F(c, ell(lerp(hR[0], sR[0], .08), lerp(hR[1], sR[1], .08), 3.5, 3.5), M.bouton, 1.5);
+  main(c, hR[0], hR[1] - 2, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, .98, M.main, false, P.poseR || 'repos', 1);
   c.restore(); c.restore();
 }

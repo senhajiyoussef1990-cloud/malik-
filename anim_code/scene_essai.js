@@ -89,14 +89,14 @@ function renardPose(t) {
 }
 function moutonPose(t) {
   const tq = step(t), l = t - T_M;
-  const P = { x: 800, y: 790, s: .58, t: tq, face: -1, talk: (l >= 0 && l < 7.5) ? bouchePour('mouton', T_M, t) : 0, look: [-.6, 0], blink: (t % 2.8) < .1 ? 1 : 0, froncer: .5, sourire: .3 };
-  P.handL = [-118, -360]; P.handR = [118, -360]; P.tilt = wob(tq, .4, .03);
+  const P = { x: 800, y: 790, s: .56, t: tq, face: -1, talk: (l >= 0 && l < 7.5) ? bouchePour('mouton', T_M, t) : 0, look: [-.6, 0], blink: (t % 2.8) < .1 ? 1 : 0, froncer: .5, sourire: .3 };
+  P.handL = [-106, -408]; P.handR = [106, -408]; P.tilt = wob(tq, .4, .03);
   if (t < T_M) { P.look = [-.8, 0]; P.froncer = .3; }                                   // il écoute le renard
-  if (l >= 0 && l < .9) { P.handR = [40, -540]; P.handL = [-118, -360]; P.froncer = .2; P.poseR = 'ouverte'; }          // « Moi ? » : main sur la poitrine
-  else if (l >= .9 && l < 2.2) { P.tilt = wob(tq, 3.2, .12); P.handR = [130, -470]; P.handL = [-130, -470]; P.froncer = .9; P.poseR = P.poseL = 'poing'; }   // « Personne ne m'influence ! » : non de la tête
-  else if (l >= 2.2 && l < 2.7) { P.rire = true; P.tilt = -.12; P.handR = [60, -420]; P.handL = [-60, -420]; P.poseR = P.poseL = 'ouverte'; }            // « Ha ha ! »
-  else if (l >= 2.7 && l < 4.8) { P.handR = [lerp(150, 220, Math.abs(Math.sin(tq * 6))), -600]; P.froncer = .7; P.sourire = .8; P.poseR = 'ouverte'; }  // « Même gratuitement… » : geste de la main, dédaigneux
-  else if (l >= 4.8 && l < 7.6) { P.lean = .1; P.handR = [70, -470]; P.handL = [10, -480]; P.froncer = 0; P.look = [-1, .4]; P.oreille = .15; P.poseR = 'pointe'; }  // « Ah bon ? Attends… il coûte combien ? » : penché, intéressé
+  if (l >= 0 && l < .9) { P.handR = [40, -580]; P.handL = [-106, -408]; P.froncer = .2; P.poseR = 'ouverte'; }          // « Moi ? » : main sur la poitrine
+  else if (l >= .9 && l < 2.2) { P.tilt = wob(tq, 3.2, .12); P.handR = [120, -500]; P.handL = [-120, -500]; P.froncer = .9; P.poseR = P.poseL = 'poing'; }   // « Personne ne m'influence ! » : non de la tête
+  else if (l >= 2.2 && l < 2.7) { P.rire = true; P.tilt = -.12; P.handR = [50, -460]; P.handL = [-50, -460]; P.poseR = P.poseL = 'ouverte'; }            // « Ha ha ! »
+  else if (l >= 2.7 && l < 4.8) { P.handR = [lerp(140, 210, Math.abs(Math.sin(tq * 6))), -640]; P.froncer = .7; P.sourire = .8; P.poseR = 'ouverte'; }  // « Même gratuitement… » : geste de la main, dédaigneux
+  else if (l >= 4.8 && l < 7.6) { P.lean = .1; P.handR = [60, -520]; P.handL = [10, -520]; P.froncer = 0; P.look = [-1, .4]; P.oreille = .15; P.poseR = 'pointe'; }  // « Ah bon ? Attends… il coûte combien ? » : penché, intéressé
   P.bob = (l >= 2.2 && l < 2.7) ? Math.abs(Math.sin(tq * 14)) * 16 : bnc(tq, .25) * 4;
   return P;
 }
