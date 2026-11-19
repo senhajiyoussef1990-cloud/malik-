@@ -1,0 +1,91 @@
+name: Rendu JT 19 novembre — Maurice original parallèle
+on:
+  push:
+    branches: [jt]
+    paths:
+      - ".github/workflows/jt-fast-render-2026-11-19.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  voices:
+    name: Maurice — segment ${{ matrix.shard }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: jt
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Installer Chatterbox CPU léger
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/hostedtoolcache/CodeQL || true
+          python -m pip install --no-cache-dir "torch==2.6.0+cpu" "torchaudio==2.6.0+cpu" --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --no-cache-dir "numpy<2" chatterbox-tts
+      - name: Générer la voix de Maurice sur ce segment
+        env:
+          HF_HUB_DISABLE_XET: "1"
+          OMP_NUM_THREADS: "4"
+        run: |
+          mkdir -p /tmp/maurice-part
+          node jt/tools/parallel-clips.js 2026-11-19-1 ${{ matrix.shard }} 8 /tmp/maurice-part
+          python jt/tools/clone.py /tmp/maurice-part/jobs-${{ matrix.shard }}.json
+          ls -lh /tmp/maurice-part/*.wav
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maurice-19-part-${{ matrix.shard }}
+          path: /tmp/maurice-part/*.wav
+          retention-days: 1
+
+  render:
+    name: MP4 original — Maurice, animation, musique
+    runs-on: ubuntu-24.04
+    needs: voices
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: jt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: maurice-19-part-*
+          merge-multiple: true
+          path: jt/out/voice-parts
+      - name: Dépendances vidéo uniquement
+        run: |
+          python -m pip install --no-cache-dir numpy pillow soundfile
+          npm install --prefix jt --no-save playwright@1.56.1
+          cd jt && npx playwright install --with-deps chromium
+      - name: Rendu complet — moteur et voix identiques
+        working-directory: jt
+        env:
+          VOICE_PARTS_DIR: out/voice-parts
+        run: |
+          chmod +x tools/daily.sh
+          tools/daily.sh 2026-11-19-1
+          ffprobe -v error -show_entries format=duration,width,height -of default=nw=1 out/ecodujour-2026-11-19-1.mp4
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eco-du-jour-original-2026-11-19
+          path: |
+            jt/out/ecodujour-2026-11-19-1.mp4
+            jt/out/story-2026-11-19-1.jpg
+            jt/out/publication-2026-11-19-1.txt
+          if-no-files-found: warn
+          retention-days: 7
