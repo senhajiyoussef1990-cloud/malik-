@@ -1,0 +1,65 @@
+name: JT 19 novembre - correction ffprobe et rendu original
+on:
+  push:
+    branches: [jt]
+    paths: ['.github/workflows/jt-19-recovery.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: jt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer FFmpeg et ffprobe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          ffprobe -version
+      - name: Reprendre les 8 segments Chatterbox existants
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 44458424982
+          pattern: maurice-19-part-*
+          merge-multiple: true
+          path: jt/out/voice-parts
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Installer les dépendances du moteur original
+        working-directory: jt
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          python3 -m pip install numpy --break-system-packages
+      - name: Produire avec scene.html, voice.js et audio.py
+        working-directory: jt
+        env:
+          VOICE_PARTS_DIR: out/voice-parts
+        run: |
+          chmod +x tools/daily.sh
+          tools/daily.sh 2026-11-19-1
+          ffprobe -v error -show_entries format=duration:stream=width,height -of default=nw=1 out/ecodujour-2026-11-19-1.mp4
+          ffmpeg -y -ss 15 -i out/ecodujour-2026-11-19-1.mp4 -frames:v 1 out/verification-2026-11-19-1.jpg
+          test -s out/story-2026-11-19-1.jpg
+          test -s out/publication-2026-11-19-1.txt
+      - name: Livrer les fichiers originaux
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eco-du-jour-original-2026-11-19-recovery
+          path: |
+            jt/out/ecodujour-2026-11-19-1.mp4
+            jt/out/story-2026-11-19-1.jpg
+            jt/out/publication-2026-11-19-1.txt
+            jt/out/verification-2026-11-19-1.jpg
+          if-no-files-found: warn
+          retention-days: 7
