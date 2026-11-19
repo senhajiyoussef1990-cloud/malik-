@@ -126,7 +126,7 @@ const RENARD = { fur: '#f2691c', fur2: '#c8461a', creme: '#fbdcb3', tip: '#8a341
 function drawRenard(c, P) {
   const R = RENARD, t = P.t || 0, s = P.s || 1;
   c.save(); c.translate(P.x, P.y); c.scale(s * (P.face || 1), s);
-  const hipY = -470, shY = -735, neckY = -760;
+  const hipY = -470, shY = -712, neckY = -752;
   // jambes (pantalon rayé)
   for (const sd of [-1, 1]) {
     const ph = P.walk ? Math.sin(P.walk + (sd > 0 ? Math.PI : 0)) : 0;
@@ -146,11 +146,11 @@ function drawRenard(c, P) {
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
   // bras arrière
   const hL = P.handL || [-104, -440], hR = P.handR || [104, -440];
-  const sL = [-84, shY + 20], sR = [84, shY + 20];
+  const sL = [-82, shY + 30], sR = [82, shY + 30];
   tube(c, sL, hL, 14, 40, R.cost); F(c, ell(hL[0], hL[1] - 6, 22, 10, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) + Math.PI / 2), R.chemise, 3);
   main(c, hL[0], hL[1] + 4, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, 1.1, R.main, true, P.poseL || 'repos', -1);
   // veste
-  const veste = smooth([[-88, shY], [-50, shY - 14], [50, shY - 14], [88, shY], [74, -560], [84, -390], [0, -376], [-84, -390], [-74, -560]]);
+  const veste = smooth([[-90, shY + 14], [-58, shY - 8], [-30, shY - 18], [30, shY - 18], [58, shY - 8], [90, shY + 14], [76, -560], [84, -390], [0, -376], [-84, -390], [-76, -560]]);
   F(c, veste, R.cost, 5); rayures(c, veste, R.ray, 16);
   ombre(c, veste, -60, shY, 90, -420, .34); reflet(c, veste, -50, shY + 60, 26, 90, .08, .1);
   for (const sd of [-1, 1]) {                                                                               // poches à rabat
@@ -173,41 +173,76 @@ function drawRenard(c, P) {
   { const pts = []; for (let k = 0; k <= 14; k++) { const u = k / 14, x = lerp(-40, 46, u), y = -560 + Math.sin(u * Math.PI) * 34 - (u > .5 ? 0 : 0); pts.push([x, y]); }
     for (const [x, y] of pts) { F(c, ell(x, y, 3.4, 2.4), R.or, 1.2); } F(c, ell(-40, -562, 6, 6), R.or, 2); }      // chaîne de montre à maillons
   // tête
-  const hy = -862;
+  const hy = -836;
   c.save(); c.translate(0, neckY); c.rotate(P.tilt || 0); c.scale(.86, .86); c.translate(0, -neckY);
-  F(c, poly([[-26, neckY + 10], [26, neckY + 10], [20, neckY - 40], [-20, neckY - 40]]), R.fur2, 3);
-  for (const sd of [-1, 1]) {                                                                              // oreilles
-    const o = poly([[sd * 34, hy - 50], [sd * 80, hy - 160 + (P.oreille || 0) * sd * 6], [sd * 104, hy - 40]]);
-    F(c, o, R.fur, 5); F(c, poly([[sd * 46, hy - 54], [sd * 80, hy - 140], [sd * 92, hy - 52]]), R.inner, 0);
-    ink(c, 2, '#fff4e4'); for (let k = 0; k < 5; k++) { c.beginPath(); c.moveTo(sd * (52 + k * 7), hy - 54); c.lineTo(sd * (56 + k * 6), hy - 84 - k * 4); c.stroke(); }
-    c.save(); c.clip(o); c.fillStyle = R.tip; c.fillRect(-300, hy - 200, 600, 70); c.restore(); ink(c, 5); c.stroke(o);
+  F(c, smooth([[-30, neckY + 30], [30, neckY + 30], [26, neckY - 50], [-26, neckY - 50]]), R.fur, 3); F(c, smooth([[-18, neckY + 30], [18, neckY + 30], [12, neckY - 30], [-12, neckY - 30]]), R.creme, 0);
+  // ---- oreilles : grandes, bord brun foncé, touffe crème
+  for (const sd of [-1, 1]) {
+    const tipY = hy - 214 + (P.oreille || 0) * sd * 8;
+    const o = smooth([[sd * 22, hy - 76], [sd * 44, hy - 150], [sd * 76, tipY], [sd * 98, hy - 120], [sd * 104, hy - 48]]);
+    F(c, o, R.fur, 5);
+    c.save(); c.clip(o);
+    const gt = c.createLinearGradient(0, tipY, 0, hy - 110); gt.addColorStop(0, R.tip); gt.addColorStop(1, 'rgba(138,52,18,0)');
+    c.fillStyle = gt; c.fillRect(-300, tipY - 10, 600, 120);
+    ink(c, 12, R.tip); c.beginPath(); c.moveTo(sd * 76, tipY); c.quadraticCurveTo(sd * 100, hy - 120, sd * 104, hy - 48); c.stroke();     // bord extérieur foncé
+    c.restore(); ink(c, 5); c.stroke(o);
+    const inn = smooth([[sd * 42, hy - 72], [sd * 58, hy - 140], [sd * 74, hy - 176], [sd * 86, hy - 124], [sd * 88, hy - 62]]);
+    F(c, inn, R.inner, 0); ombre(c, inn, sd * 40, hy - 160, sd * 90, hy - 70, .35);
+    ink(c, 2.2, '#fff4e4'); for (let k = 0; k < 7; k++) { const bx = sd * (48 + k * 5.5); c.beginPath(); c.moveTo(bx, hy - 64); c.quadraticCurveTo(bx + sd * 6, hy - 92 - k * 3, bx + sd * 2, hy - 112 - k * 4); c.stroke(); }
   }
-  const tete = smooth([[0, hy - 66], [60, hy - 58], [92, hy - 20], [116, hy + 8], [92, hy + 22], [100, hy + 40], [64, hy + 56], [30, hy + 84], [0, hy + 92],
-                       [-30, hy + 84], [-64, hy + 56], [-100, hy + 40], [-92, hy + 22], [-116, hy + 8], [-92, hy - 20], [-60, hy - 58]]);
-  F(c, tete, R.fur, 5); ombre(c, tete, -40, hy - 40, 90, hy + 60, .3);
-  ink(c, 2.6, R.fur2);
-  for (const sd of [-1, 1]) for (let k = 0; k < 5; k++) { const y0 = hy + 6 + k * 9; c.beginPath(); c.moveTo(sd * (84 - k * 6), y0); c.lineTo(sd * (100 - k * 4), y0 + 4); c.stroke(); }   // joues ébouriffées
-  for (let k = -3; k <= 3; k++) { c.beginPath(); c.moveTo(k * 10, hy - 60); c.quadraticCurveTo(k * 12 + 4, hy - 46, k * 9, hy - 34); c.stroke(); }                                   // front
-  F(c, smooth([[-58, hy + 14], [-24, hy + 8], [0, hy + 20], [24, hy + 8], [58, hy + 14], [40, hy + 60], [0, hy + 96], [-40, hy + 60]]), R.creme, 0);
-  ink(c, 3, R.fur2); c.beginPath(); c.moveTo(-14, hy + 22); c.quadraticCurveTo(0, hy + 12, 14, hy + 22); c.stroke();
+  // ---- crâne rond + joues ébouriffées
+  const tete = smooth([[0, hy - 92], [38, hy - 86], [70, hy - 62], [82, hy - 22], [116, hy + 4], [92, hy + 16], [128, hy + 36], [96, hy + 44], [120, hy + 64], [84, hy + 66],
+                       [68, hy + 86], [34, hy + 104], [0, hy + 110], [-34, hy + 104], [-68, hy + 86], [-84, hy + 66], [-120, hy + 64], [-96, hy + 44], [-128, hy + 36],
+                       [-92, hy + 16], [-116, hy + 4], [-82, hy - 22], [-70, hy - 62], [-38, hy - 86]]);
+  F(c, tete, R.fur, 5);
+  c.save(); c.clip(tete);
+  const gr = c.createRadialGradient(-10, hy - 40, 20, 0, hy, 150); gr.addColorStop(0, 'rgba(255,200,140,.28)'); gr.addColorStop(.55, 'rgba(255,200,140,0)'); gr.addColorStop(1, 'rgba(90,25,5,.38)');
+  c.fillStyle = gr; c.fillRect(-200, hy - 200, 400, 400);                                                     // volume : front éclairé, côtés dans l'ombre
+  // bas du visage crème, avec l'arête orange du museau au milieu
+  const creme = smooth([[-118, hy + 40], [-74, hy + 22], [-40, hy + 26], [-16, hy + 14], [0, hy + 40], [16, hy + 14], [40, hy + 26], [74, hy + 22], [118, hy + 40],
+                        [92, hy + 66], [60, hy + 92], [0, hy + 112], [-60, hy + 92], [-92, hy + 66]]);
+  F(c, creme, R.creme, 0); ombre(c, creme, 0, hy + 30, 0, hy + 112, .2);
+  F(c, smooth([[-14, hy - 18], [14, hy - 18], [16, hy + 20], [10, hy + 40], [-10, hy + 40], [-16, hy + 20]]), R.fur, 0);          // arête du museau
+  c.fillStyle = 'rgba(255,215,160,.35)'; c.beginPath(); c.ellipse(0, hy + 4, 6, 18, 0, 0, 7); c.fill();                       // reflet sur l'arête
+  c.restore();
   ink(c, 5); c.stroke(tete);
+  ink(c, 2.6, R.fur2);                                                                                        // mèches de fourrure
+  for (let k = -4; k <= 4; k++) { c.beginPath(); c.moveTo(k * 9, hy - 90); c.quadraticCurveTo(k * 11 + 3, hy - 78, k * 8, hy - 66); c.stroke(); }
+  for (const sd of [-1, 1]) for (let k = 0; k < 6; k++) { const y0 = hy + 14 + k * 10; c.beginPath(); c.moveTo(sd * (78 - k * 4), y0); c.lineTo(sd * (104 - k * 3), y0 + 6); c.stroke(); }
+  ink(c, 2, 'rgba(255,240,215,.7)'); for (const sd of [-1, 1]) for (let k = 0; k < 4; k++) { c.beginPath(); c.moveTo(sd * (64 + k * 9), hy + 40 + k * 6); c.lineTo(sd * (84 + k * 9), hy + 48 + k * 7); c.stroke(); }
+  // ---- yeux mi-clos à grosses paupières, sourcils épais
   const lk = P.look || [0, 0], lid = P.lid != null ? P.lid : .5, bl = P.blink ? 1 : 0;
-  for (const sd of [-1, 1]) {                                                                                // yeux mi-clos
-    const ex = sd * 40, ey = hy - 4;
-    if (bl || (P.wink && sd > 0)) { ink(c, 5); c.beginPath(); c.moveTo(ex - 20, ey); c.quadraticCurveTo(ex, ey + 8, ex + 20, ey - 2); c.stroke(); }
+  for (const sd of [-1, 1]) {
+    const ex = sd * 42, ey = hy - 4;
+    F(c, smooth([[ex - 30, ey - 8], [ex - 10, ey - 24], [ex + 14, ey - 24], [ex + 32, ey - 6], [ex + 26, ey + 8], [ex - 24, ey + 8]]), '#e65a14', 0);   // paupière (volume)
+    if (bl || (P.wink && sd > 0)) { ink(c, 5); c.beginPath(); c.moveTo(ex - 24, ey + 1); c.quadraticCurveTo(ex, ey + 10, ex + 24, ey - 1); c.stroke(); }
     else {
-      F(c, ell(ex, ey, 22, 13), '#fff8ea', 3);
-      c.save(); c.clip(ell(ex, ey, 22, 13)); F(c, ell(ex + 4 + lk[0] * 6, ey + 3 + lk[1] * 3, 10, 10), '#7a4a1a', 0); F(c, ell(ex + 4 + lk[0] * 6, ey + 3, 5, 6), '#1a0c06', 0);
-      c.fillStyle = R.fur; c.fillRect(ex - 26, ey - 16, 52, 26 * lid); c.restore();
-      ink(c, 4.5); c.beginPath(); c.moveTo(ex - 22, ey - 13 + 26 * lid); c.quadraticCurveTo(ex, ey - 16 + 26 * lid, ex + 22, ey - 12 + 26 * lid); c.stroke();
+      const oe = smooth([[ex - 24, ey + 1], [ex - 12, ey - 12], [ex + 10, ey - 13], [ex + 24, ey - 1], [ex + 12, ey + 11], [ex - 12, ey + 11]]);
+      F(c, oe, '#fff8ea', 3); c.save(); c.clip(oe);
+      F(c, ell(ex + 3 + lk[0] * 7, ey + 2 + lk[1] * 3, 11, 11), '#8a5a1e', 0); F(c, ell(ex + 3 + lk[0] * 7, ey + 2 + lk[1] * 3, 5.5, 6.5), '#1a0c06', 0);
+      c.fillStyle = '#fff'; c.beginPath(); c.arc(ex + lk[0] * 7, ey - 2, 2.6, 0, 7); c.fill();
+      c.fillStyle = '#e65a14'; c.fillRect(ex - 30, ey - 16, 60, 26 * lid); c.restore();
+      ink(c, 5); c.beginPath(); c.moveTo(ex - 24, ey - 13 + 24 * lid); c.quadraticCurveTo(ex, ey - 17 + 24 * lid, ex + 24, ey - 12 + 24 * lid); c.stroke();   // bord de paupière
+      ink(c, 2.2); c.beginPath(); c.moveTo(ex - 20, ey + 12); c.quadraticCurveTo(ex, ey + 16, ex + 20, ey + 11); c.stroke();                               // pli sous l'œil
     }
-    const br = P.sourcil || 0;                                                                              // sourcils épais
-    F(c, smooth([[ex - 28, ey - 24 - br * sd * 0], [ex, ey - 34 - br * 8], [ex + 28, ey - 26 + sd * 2], [ex + 24, ey - 20], [ex, ey - 27 - br * 8], [ex - 24, ey - 18]]), R.fur2, 2.5);
+    const br = P.sourcil || 0;
+    F(c, smooth([[ex - 34, ey - 22], [ex - 8, ey - 40 - br * 8], [ex + 24, ey - 38 - br * 6], [ex + 36, ey - 26], [ex + 20, ey - 30 - br * 6], [ex - 8, ey - 32 - br * 8]]), '#5a2410', 2);
   }
-  F(c, smooth([[-20, hy + 34], [20, hy + 34], [16, hy + 50], [0, hy + 58], [-16, hy + 50]]), '#2a120a', 3);   // truffe
-  c.fillStyle = 'rgba(255,255,255,.5)'; c.beginPath(); c.ellipse(-5, hy + 41, 5, 3, 0, 0, 7); c.fill();
-  bouche(c, 4, hy + 70, 58, P.talk || 0, 1.2);
-  c.fillStyle = 'rgba(120,50,20,.6)'; [[-28, hy + 64], [-34, hy + 72], [28, hy + 64], [34, hy + 72]].forEach(([a, b]) => { c.beginPath(); c.arc(a, b, 2, 0, 7); c.fill(); });
+  // ---- grosse truffe brillante, sourire large d'une joue à l'autre
+  const tr = smooth([[-24, hy + 40], [0, hy + 34], [24, hy + 40], [20, hy + 56], [0, hy + 64], [-20, hy + 56]]);
+  F(c, tr, '#2a120a', 3); reflet(c, tr, -8, hy + 42, 9, 4, .55, -.2);
+  ink(c, 3.5); c.beginPath(); c.moveTo(0, hy + 64); c.lineTo(0, hy + 72); c.stroke();
+  const ouv = P.talk || 0;
+  if (ouv < 0.06) {
+    ink(c, 4.5); c.beginPath(); c.moveTo(-70, hy + 58); c.quadraticCurveTo(-36, hy + 86, 0, hy + 76); c.quadraticCurveTo(40, hy + 84, 72, hy + 54); c.stroke();
+    ink(c, 3.5); c.beginPath(); c.moveTo(66, hy + 50); c.quadraticCurveTo(76, hy + 52, 78, hy + 60); c.stroke();
+  } else {
+    const h = 14 + ouv * 38;
+    const bo = new Path2D(); bo.moveTo(-62, hy + 62); bo.quadraticCurveTo(0, hy + 80, 64, hy + 58); bo.quadraticCurveTo(36, hy + 78 + h, 0, hy + 80 + h); bo.quadraticCurveTo(-36, hy + 80 + h, -62, hy + 62); bo.closePath();
+    F(c, bo, '#5a1a12', 4); c.save(); c.clip(bo); c.fillStyle = '#d0605a'; c.beginPath(); c.ellipse(4, hy + 82 + h, 28, h * .5, 0, 0, 7); c.fill();
+    c.fillStyle = '#fff8ee'; c.beginPath(); c.moveTo(-54, hy + 62); c.quadraticCurveTo(0, hy + 80, 56, hy + 60); c.lineTo(52, hy + 70); c.quadraticCurveTo(0, hy + 88, -50, hy + 70); c.fill(); c.restore();
+  }
+  c.fillStyle = 'rgba(120,50,20,.55)'; [[-36, hy + 62], [-44, hy + 70], [-30, hy + 72], [36, hy + 62], [44, hy + 70], [30, hy + 72]].forEach(([x, y]) => { c.beginPath(); c.arc(x, y, 1.8, 0, 7); c.fill(); });   // points des moustaches
   c.restore();
   // bras avant
   tube(c, sR, hR, -14, 40, R.cost); F(c, ell(hR[0], hR[1] - 6, 22, 10, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) + Math.PI / 2), R.chemise, 3);
