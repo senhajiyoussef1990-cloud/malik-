@@ -160,15 +160,16 @@ function drawRenard(c, P) {
   ink(c, 2, 'rgba(30,8,2,.6)'); c.beginPath(); c.moveTo(0, -560); c.lineTo(0, -380); c.stroke();          // ouverture de la veste
   ink(c, 5); c.stroke(veste);
   // gilet + chemise + cravate
-  F(c, poly([[-46, shY - 6], [46, shY - 6], [52, -420], [0, -400], [-52, -420]]), '#4d1f10', 4);
-  rayures(c, poly([[-46, shY - 6], [46, shY - 6], [52, -420], [0, -400], [-52, -420]]), '#6a321c', 14);
-  F(c, poly([[-30, shY - 14], [30, shY - 14], [0, shY + 70]]), R.chemise, 4);
-  for (const sd of [-1, 1]) F(c, poly([[sd * 4, shY - 16], [sd * 30, shY - 18], [sd * 18, shY + 12]]), R.chemise, 2.5);    // pointes du col
-  F(c, poly([[-12, shY - 4], [12, shY - 4], [18, shY + 90], [0, shY + 116], [-18, shY + 90]]), R.cravate, 3);
+  F(c, poly([[-50, shY - 14], [50, shY - 14], [30, shY + 126], [0, shY + 136], [-30, shY + 126]]), R.chemise, 4);           // plastron de chemise, bien visible
+  ombre(c, poly([[-50, shY - 14], [50, shY - 14], [30, shY + 126], [0, shY + 136], [-30, shY + 126]]), -30, 0, 50, 0, .18);
+  const gil = poly([[-58, shY - 2], [-46, shY - 2], [0, shY + 118], [46, shY - 2], [58, shY - 2], [54, -420], [0, -400], [-54, -420]]);   // gilet ouvert en V
+  F(c, gil, '#4d1f10', 4); rayures(c, gil, '#6a321c', 14); ink(c, 4); c.stroke(gil);
+  for (const sd of [-1, 1]) F(c, poly([[sd * 4, shY - 18], [sd * 40, shY - 20], [sd * 26, shY + 22]]), R.chemise, 2.5);    // pointes du col
+  F(c, poly([[-10, shY - 4], [10, shY - 4], [15, shY + 90], [0, shY + 112], [-15, shY + 90]]), R.cravate, 3);
   F(c, poly([[-12, shY - 4], [12, shY - 4], [6, shY + 10], [-6, shY + 10]]), '#d44f0a', 2);
   ink(c, 1.4, 'rgba(120,30,0,.55)'); for (let k = 0; k < 6; k++) { c.beginPath(); c.moveTo(-14 + k * 6, shY + 20 + k * 10); c.lineTo(-4 + k * 6, shY + 28 + k * 10); c.stroke(); }   // motif de la cravate
-  for (const sd of [-1, 1]) F(c, poly([[sd * 28, shY - 14], [sd * 56, shY - 4], [sd * 30, -560], [sd * 14, shY + 80]]), '#4a1d0e', 4);   // revers
-  [-592, -552, -512, -472].forEach(y => F(c, ell(0, y, 6, 6), "#3a1608", 2));
+  for (const sd of [-1, 1]) F(c, poly([[sd * 56, shY - 10], [sd * 76, shY + 2], [sd * 50, -560], [sd * 44, shY + 110]]), '#4a1d0e', 4);   // revers, écartés : la chemise se voit
+  [-560, -524, -488, -452].forEach(y => F(c, ell(0, y, 6, 6), "#3a1608", 2));
   F(c, poly([[46, shY + 64], [72, shY + 58], [68, shY + 74], [48, shY + 76]]), R.chemise, 2);            // pochette
   { const pts = []; for (let k = 0; k <= 14; k++) { const u = k / 14, x = lerp(-40, 46, u), y = -560 + Math.sin(u * Math.PI) * 34 - (u > .5 ? 0 : 0); pts.push([x, y]); }
     for (const [x, y] of pts) { F(c, ell(x, y, 3.4, 2.4), R.or, 1.2); } F(c, ell(-40, -562, 6, 6), R.or, 2); }      // chaîne de montre à maillons
