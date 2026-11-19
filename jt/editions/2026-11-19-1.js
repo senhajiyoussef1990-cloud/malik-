@@ -9,15 +9,15 @@ window.EDITION = {
  phonetic:{"APEC":"Apec","Sheinbaum":"Chèïnebaoum","Dubreuillosaurus":"Dubreuillosaure"},
  hook:["Une *présidente*","en classe économique !"],
  hookSay:"Une présidente|qui voyage en classe économique !",
- hookIllustration:"boat",
+ hookIllustration:"plane",
  rubriques:[
- {category:"EN FRANCE",title:"Le dinosaure absent des enchères",illustration:"probe",
+ {category:"EN FRANCE",title:"Le dinosaure absent des enchères",illustration:"dinosaur",
  subs:[["Un *dinosaure* rare","attendu à Paris !"],["Son squelette devait","passer aux *enchères*."],["Le lot était estimé","*250 000 à 350 000 €*."],["Mais le catalogue dit :","*lot non venu* !"]],
  say:["Mercredi, à Paris, un squelette de dinosaure rarissime|était annoncé pour une vente aux enchères !","Ce fossile de Dubreuillosaurus, découvert en Normandie,|est le seul spécimen connu de son espèce !","La maison de vente l'estimait|entre deux cent cinquante mille et trois cent cinquante mille euros !","Mais surprise : sur la fiche officielle du lot,|il est indiqué que le dinosaure n'est pas venu à la vente !"]},
  {category:"DANS LE MONDE",title:"Les dirigeants réunis en Chine",illustration:"globe",
  subs:[["Le sommet de l'*APEC*","s'ouvre en Chine."],["*Xi Jinping* appelle","au libre-échange."],["*Trump* et *Poutine*","sont aussi présents."],["Des *discussions*","prévues jeudi !"]],
  say:["Mercredi, le sommet de l'Apec s'est ouvert|à Shenzhen, en Chine !","Le président chinois Xi Jinping|a plaidé pour davantage de libre-échange !","Donald Trump et Vladimir Poutine|ont également rejoint le rassemblement !","Les trois dirigeants doivent discuter jeudi,|notamment sur les grands enjeux internationaux !"]},
- {category:"L'INSOLITE",title:"Une présidente en classe éco",illustration:"boat",insolite:true,
+ {category:"L'INSOLITE",title:"Une présidente en classe éco",illustration:"plane",insolite:true,
  subs:[["La présidente du","*Mexique* surprend !"],["Pour venir en Chine,","elle voyage en *éco*."],["Des internautes chinois","saluent son *choix*."],["Une arrivée remarquée","au sommet de l'*APEC* !"]],
  say:["La présidente mexicaine Claudia Sheinbaum|a attiré l'attention mercredi en Chine !","Pour son déplacement, elle a choisi|de voyager en classe économique !","Sur les réseaux sociaux chinois,|des internautes ont salué ce choix !","Une arrivée remarquée,|à l'occasion du sommet de l'Apec !"]}
  ],
