@@ -1,7 +1,7 @@
 // node rendu.js [--images 1,5,12]  -> sortie/essai.mp4 (avec les voix) ou travail/img_*.jpg
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path'), { spawn, execFileSync } = require('child_process');
-const D = __dirname, FPS = 24;
+const D = __dirname, FPS = 30;
 const args = process.argv.slice(2), ii = args.indexOf('--images'), stills = ii >= 0 ? args[ii + 1].split(',').map(Number) : null;
 (async () => {
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 810 } });
@@ -14,7 +14,7 @@ const args = process.argv.slice(2), ii = args.indexOf('--images'), stills = ii >
     for (const t of stills) fs.writeFileSync(path.join(D, `travail/img_${t}.jpg`), Buffer.from((await img(t)).split(',')[1], 'base64'));
   } else {
     const T = await pg.evaluate(() => DUREE), tmp = path.join(D, 'travail/essai_muet.mp4');
-    const ff = spawn('ffmpeg', ['-y', '-v', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '19', '-pix_fmt', 'yuv420p', '-r', '30', tmp], { stdio: ['pipe', 'inherit', 'inherit'] });
+    const ff = spawn('ffmpeg', ['-y', '-v', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '19', '-pix_fmt', 'yuv420p', tmp], { stdio: ['pipe', 'inherit', 'inherit'] });
     for (let i = 0; i < Math.round(T * FPS); i++) { const d = await img(i / FPS); if (!ff.stdin.write(Buffer.from(d.split(',')[1], 'base64'))) await new Promise(r => ff.stdin.once('drain', r)); }
     ff.stdin.end(); await new Promise(r => ff.on('close', r));
     execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', tmp, '-i', path.join(D, 'voix/renard.mp3'), '-i', path.join(D, 'voix/mouton.mp3'),

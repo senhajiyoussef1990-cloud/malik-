@@ -2,11 +2,11 @@
 // window.frame(t) dessine l'image au temps t (secondes). Voix : renard 0.4 s -> 9.4 s, mouton 10.0 s -> 17.5 s.
 const W = 1080, H = 810, BEAT = 60 / 128;
 const T_R = 0.4, T_M = 10.0, DUREE = 18.6;
-const step = (t) => Math.floor(t * 12) / 12;                 // animation « sur 2 » (12 i/s)
+const step = (t) => Math.floor(t * 30) / 30;                 // 30 dessins par seconde
 const bnc = (t, ph = 0) => Math.abs(Math.sin(Math.PI * (t / BEAT + ph)));
 function wob(t, f, a, ph = 0) { return Math.sin(t * f * Math.PI * 2 + ph) * a; }
 function seg(t, a, b) { return clamp((t - a) / (b - a)); }
-function bouchePour(n, t0, t) { const e = BOUCHE[n] || [], k = Math.floor((t - t0) * 24); return k >= 0 && k < e.length ? Math.min(1, e[k] * 1.15) : 0; }
+function bouchePour(n, t0, t) { const e = BOUCHE[n] || [], k = Math.floor((t - t0) * 30); return k >= 0 && k < e.length ? Math.min(1, e[k] * 1.15) : 0; }
 
 // ------------------------------------------------ décor : boutique de chapeaux, lumière chaude
 function boutique(c, t) {
