@@ -4,25 +4,6 @@
 // L = { id: [début, durée] } est injecté par le rendu (calé sur les vraies voix).
 const T1 = L.s01a[0], D1 = L.s01a[1], T2 = L.s01b[0], D2 = L.s01b[1];
 const DUREE = T2 + D2 + 1.6;
-const AUDIO = [['s01a', T1], ['s01b', T2]];
-const BOITES = [[350, 560], [470, 560], [590, 560]];
-
-function boite(c, x, y, s, t, k) {                        // boîte à biscuits décorée (les trois sont identiques)
-  c.save(); c.translate(x, y); c.scale(s, s);
-  const corps = smooth([[-52, 0], [-56, -70], [56, -70], [52, 0]]);
-  F(c, ell(0, 0, 54, 12), '#7a1e14', 4);
-  F(c, corps, '#b8341c', 5); ombre(c, corps, -50, 0, 56, 0, .35); reflet(c, corps, -30, -40, 10, 26, .2, 0);
-  ink(c, 3, '#e0a83a'); c.beginPath(); c.moveTo(-54, -18); c.lineTo(54, -18); c.moveTo(-55, -52); c.lineTo(55, -52); c.stroke();   // filets dorés
-  F(c, ell(0, -35, 18, 14), '#f2e0b4', 3); ink(c, 2, '#b8341c'); c.beginPath(); c.arc(0, -35, 8, .4, 2.7); c.stroke();             // médaillon
-  for (const sd of [-1, 1]) { c.fillStyle = '#e0a83a'; c.beginPath(); c.arc(sd * 34, -35, 4, 0, 7); c.fill(); }
-  F(c, ell(0, -70, 56, 13), '#c8442a', 4);                                                                                             // couvercle
-  F(c, poly([[-58, -84], [58, -84], [56, -70], [-56, -70]]), '#9a2814', 4);
-  F(c, ell(0, -84, 58, 13), '#d4553a', 4); reflet(c, ell(0, -84, 58, 13), -18, -88, 26, 5, .25, 0);
-  F(c, ell(0, -92, 12, 7), '#e0a83a', 3);                                                                                              // bouton du couvercle
-  // nœud de ruban
-  F(c, smooth([[0, -86], [-26, -100], [-24, -78]]), '#f2e0b4', 2.5); F(c, smooth([[0, -86], [26, -100], [24, -78]]), '#f2e0b4', 2.5);
-  c.restore();
-}
 function camera(c, t) {
   // plan large ; rapproché sur le renard pendant s01a ; recadrage sur les trois boîtes pendant s01b ; plan moyen à la fin
   const keys = [[0, 560, 405, 1.0], [T1 + .6, 430, 380, 1.2], [T2 - .2, 480, 420, 1.16], [T2 + D2, 520, 410, 1.08], [DUREE, 540, 405, 1.04]];

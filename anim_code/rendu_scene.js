@@ -22,7 +22,8 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
   const errs = []; pg.on('pageerror', e => errs.push(String(e)));
   await pg.setContent('<canvas id="c" width="1080" height="810"></canvas>');
   await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)};` });
-  for (const f of ['persos.js', 'decor.js', 'decor_boutique.js', `${ep}/scene${num}.js`]) await pg.addScriptTag({ path: path.join(D, f) });
+  const estTV = fs.readFileSync(path.join(D, `${ep}/scene${num}.js`), 'utf8').includes('enNoirEtBlanc');
+  for (const f of ['persos.js', 'decor.js', 'decor_boutique.js', 'humains.js', `${ep}/commun.js`, ...(estTV ? [`${ep}/tv.js`] : []), `${ep}/scene${num}.js`]) if (fs.existsSync(path.join(D, f))) await pg.addScriptTag({ path: path.join(D, f) });
   const img = (t) => pg.evaluate((t) => { const cv = document.getElementById('c'); frame(cv.getContext('2d'), t); return cv.toDataURL('image/jpeg', .93); }, t);
   const nom = `${ep.toUpperCase()}_scene${num}`;
   if (stills) {
@@ -35,7 +36,8 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
     const inp = [], fl = []; AUD.forEach(([id, st], k) => { inp.push('-i', path.join(VOIX, id + '.mp3')); const ms = Math.round(st * 1000); fl.push(`[${k + 1}]adelay=${ms}|${ms}[a${k}]`); });
     fl.push(AUD.map((_, k) => `[a${k}]`).join('') + `amix=inputs=${AUD.length}:normalize=0,apad,atrim=0:${T.toFixed(2)},loudnorm=I=-16:TP=-1.5[s]`);
     execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', tmp, ...inp, '-filter_complex', fl.join(';'), '-map', '0:v', '-map', '[s]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', path.join(D, `sortie/${nom}.mp4`)]);
-    console.log('ok', nom, T.toFixed(1), 's', JSON.stringify(L));
+    fs.writeFileSync(path.join(D, `travail/${nom}.json`), JSON.stringify({ dur: T, lignes: L }));
+    console.log('ok', nom, T.toFixed(1), 's');
   }
   await b.close(); if (errs.length) { console.error('ERREURS', errs.slice(0, 3)); process.exit(1); }
 })();
