@@ -147,8 +147,8 @@ function drawRenard(c, P) {
   // bras arrière
   const hL = P.handL || [-104, -440], hR = P.handR || [104, -440];
   const sL = [-82, shY + 30], sR = [82, shY + 30];
+  main(c, hL[0], hL[1] - 8, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, 1.1, R.main, true, P.poseL || 'repos', -1);
   tube(c, sL, hL, 14, 40, R.cost); F(c, ell(hL[0], hL[1] - 6, 22, 10, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) + Math.PI / 2), R.chemise, 3);
-  main(c, hL[0], hL[1] + 4, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, 1.1, R.main, true, P.poseL || 'repos', -1);
   // veste
   const veste = smooth([[-90, shY + 14], [-58, shY - 8], [-30, shY - 18], [30, shY - 18], [58, shY - 8], [90, shY + 14], [76, -560], [84, -390], [0, -376], [-84, -390], [-76, -560]]);
   F(c, veste, R.cost, 5); rayures(c, veste, R.ray, 16);
@@ -173,47 +173,49 @@ function drawRenard(c, P) {
   { const pts = []; for (let k = 0; k <= 14; k++) { const u = k / 14, x = lerp(-40, 46, u), y = -560 + Math.sin(u * Math.PI) * 34 - (u > .5 ? 0 : 0); pts.push([x, y]); }
     for (const [x, y] of pts) { F(c, ell(x, y, 3.4, 2.4), R.or, 1.2); } F(c, ell(-40, -562, 6, 6), R.or, 2); }      // chaîne de montre à maillons
   // tête
-  const hy = -836;
+  const hy = -848;
   c.save(); c.translate(0, neckY); c.rotate(P.tilt || 0); c.scale(.86, .86); c.translate(0, -neckY);
-  F(c, smooth([[-30, neckY + 30], [30, neckY + 30], [26, neckY - 50], [-26, neckY - 50]]), R.fur, 3); F(c, smooth([[-18, neckY + 30], [18, neckY + 30], [12, neckY - 30], [-12, neckY - 30]]), R.creme, 0);
+  const cou = smooth([[-36, neckY + 34], [36, neckY + 34], [32, neckY - 60], [-32, neckY - 60]]); F(c, cou, R.fur, 4); F(c, smooth([[-22, neckY + 34], [22, neckY + 34], [16, neckY - 44], [-16, neckY - 44]]), R.creme, 0); ombre(c, cou, -20, 0, 26, 0, .3);
+  ink(c, 2, R.fur2); for (let k = -1; k <= 1; k++) { c.beginPath(); c.moveTo(k * 10, neckY - 10); c.lineTo(k * 10 + 3, neckY + 6); c.stroke(); }
   // ---- oreilles : grandes, bord brun foncé, touffe crème
   for (const sd of [-1, 1]) {
-    const tipY = hy - 214 + (P.oreille || 0) * sd * 8;
-    const o = smooth([[sd * 22, hy - 76], [sd * 44, hy - 150], [sd * 76, tipY], [sd * 98, hy - 120], [sd * 104, hy - 48]]);
+    const tipY = hy - 168 + (P.oreille || 0) * sd * 6;
+    const o = smooth([[sd * 18, hy - 50], [sd * 36, hy - 112], [sd * 62, tipY], [sd * 82, hy - 100], [sd * 86, hy - 40]]);
     F(c, o, R.fur, 5);
     c.save(); c.clip(o);
-    const gt = c.createLinearGradient(0, tipY, 0, hy - 110); gt.addColorStop(0, R.tip); gt.addColorStop(1, 'rgba(138,52,18,0)');
-    c.fillStyle = gt; c.fillRect(-300, tipY - 10, 600, 120);
-    ink(c, 12, R.tip); c.beginPath(); c.moveTo(sd * 76, tipY); c.quadraticCurveTo(sd * 100, hy - 120, sd * 104, hy - 48); c.stroke();     // bord extérieur foncé
+    const gt = c.createLinearGradient(0, tipY, 0, hy - 96); gt.addColorStop(0, R.tip); gt.addColorStop(1, 'rgba(138,52,18,0)');
+    c.fillStyle = gt; c.fillRect(-300, tipY - 10, 600, 90);
+    ink(c, 10, R.tip); c.beginPath(); c.moveTo(sd * 62, tipY); c.quadraticCurveTo(sd * 84, hy - 104, sd * 86, hy - 40); c.stroke();
     c.restore(); ink(c, 5); c.stroke(o);
-    const inn = smooth([[sd * 42, hy - 72], [sd * 58, hy - 140], [sd * 74, hy - 176], [sd * 86, hy - 124], [sd * 88, hy - 62]]);
-    F(c, inn, R.inner, 0); ombre(c, inn, sd * 40, hy - 160, sd * 90, hy - 70, .35);
-    ink(c, 2.2, '#fff4e4'); for (let k = 0; k < 7; k++) { const bx = sd * (48 + k * 5.5); c.beginPath(); c.moveTo(bx, hy - 64); c.quadraticCurveTo(bx + sd * 6, hy - 92 - k * 3, bx + sd * 2, hy - 112 - k * 4); c.stroke(); }
+    const inn = smooth([[sd * 34, hy - 56], [sd * 46, hy - 110], [sd * 60, hy - 140], [sd * 72, hy - 100], [sd * 72, hy - 54]]);
+    F(c, inn, R.inner, 0); ombre(c, inn, sd * 34, hy - 130, sd * 74, hy - 60, .35);
+    ink(c, 2, '#fff4e4'); for (let k = 0; k < 6; k++) { const bx = sd * (40 + k * 5); c.beginPath(); c.moveTo(bx, hy - 58); c.quadraticCurveTo(bx + sd * 5, hy - 80 - k * 3, bx + sd * 2, hy - 96 - k * 3); c.stroke(); }
   }
   // ---- crâne rond + joues ébouriffées
-  const tete = smooth([[0, hy - 92], [38, hy - 86], [70, hy - 62], [82, hy - 22], [116, hy + 4], [92, hy + 16], [128, hy + 36], [96, hy + 44], [120, hy + 64], [84, hy + 66],
-                       [68, hy + 86], [34, hy + 104], [0, hy + 110], [-34, hy + 104], [-68, hy + 86], [-84, hy + 66], [-120, hy + 64], [-96, hy + 44], [-128, hy + 36],
-                       [-92, hy + 16], [-116, hy + 4], [-82, hy - 22], [-70, hy - 62], [-38, hy - 86]]);
+  const tete = smooth([[0, hy - 90], [38, hy - 84], [68, hy - 60], [80, hy - 22], [94, hy + 8], [86, hy + 20], [100, hy + 36], [86, hy + 46], [94, hy + 62], [76, hy + 70],
+                       [50, hy + 84], [22, hy + 100], [0, hy + 104], [-22, hy + 100], [-50, hy + 84], [-76, hy + 70], [-94, hy + 62], [-86, hy + 46], [-100, hy + 36],
+                       [-86, hy + 20], [-94, hy + 8], [-80, hy - 22], [-68, hy - 60], [-38, hy - 84]]);
   F(c, tete, R.fur, 5);
   c.save(); c.clip(tete);
   const gr = c.createRadialGradient(-10, hy - 40, 20, 0, hy, 150); gr.addColorStop(0, 'rgba(255,200,140,.28)'); gr.addColorStop(.55, 'rgba(255,200,140,0)'); gr.addColorStop(1, 'rgba(90,25,5,.38)');
   c.fillStyle = gr; c.fillRect(-200, hy - 200, 400, 400);                                                     // volume : front éclairé, côtés dans l'ombre
   // bas du visage crème, avec l'arête orange du museau au milieu
-  const creme = smooth([[-118, hy + 40], [-74, hy + 22], [-40, hy + 26], [-16, hy + 14], [0, hy + 40], [16, hy + 14], [40, hy + 26], [74, hy + 22], [118, hy + 40],
-                        [92, hy + 66], [60, hy + 92], [0, hy + 112], [-60, hy + 92], [-92, hy + 66]]);
+  const creme = smooth([[-98, hy + 44], [-70, hy + 30], [-46, hy + 32], [-30, hy + 44], [-24, hy + 60], [0, hy + 66], [24, hy + 60], [30, hy + 44], [46, hy + 32], [70, hy + 30], [98, hy + 44],
+                        [76, hy + 70], [46, hy + 90], [0, hy + 106], [-46, hy + 90], [-76, hy + 70]]);
   F(c, creme, R.creme, 0); ombre(c, creme, 0, hy + 30, 0, hy + 112, .2);
-  F(c, smooth([[-14, hy - 18], [14, hy - 18], [16, hy + 20], [10, hy + 40], [-10, hy + 40], [-16, hy + 20]]), R.fur, 0);          // arête du museau
+  F(c, smooth([[-14, hy - 18], [14, hy - 18], [22, hy + 20], [26, hy + 46], [0, hy + 58], [-26, hy + 46], [-22, hy + 20]]), R.fur, 0);          // arête du museau, large jusqu'à la truffe
   c.fillStyle = 'rgba(255,215,160,.35)'; c.beginPath(); c.ellipse(0, hy + 4, 6, 18, 0, 0, 7); c.fill();                       // reflet sur l'arête
   c.restore();
   ink(c, 5); c.stroke(tete);
   ink(c, 2.6, R.fur2);                                                                                        // mèches de fourrure
   for (let k = -4; k <= 4; k++) { c.beginPath(); c.moveTo(k * 9, hy - 90); c.quadraticCurveTo(k * 11 + 3, hy - 78, k * 8, hy - 66); c.stroke(); }
-  for (const sd of [-1, 1]) for (let k = 0; k < 6; k++) { const y0 = hy + 14 + k * 10; c.beginPath(); c.moveTo(sd * (78 - k * 4), y0); c.lineTo(sd * (104 - k * 3), y0 + 6); c.stroke(); }
-  ink(c, 2, 'rgba(255,240,215,.7)'); for (const sd of [-1, 1]) for (let k = 0; k < 4; k++) { c.beginPath(); c.moveTo(sd * (64 + k * 9), hy + 40 + k * 6); c.lineTo(sd * (84 + k * 9), hy + 48 + k * 7); c.stroke(); }
+  for (const sd of [-1, 1]) for (let k = 0; k < 5; k++) { const y0 = hy + 18 + k * 10; c.beginPath(); c.moveTo(sd * (72 - k * 3), y0); c.lineTo(sd * (88 - k * 2), y0 + 5); c.stroke(); }
+  ink(c, 2, 'rgba(255,240,215,.7)'); for (const sd of [-1, 1]) for (let k = 0; k < 3; k++) { c.beginPath(); c.moveTo(sd * (60 + k * 7), hy + 44 + k * 7); c.lineTo(sd * (74 + k * 7), hy + 50 + k * 7); c.stroke(); }
   // ---- yeux mi-clos à grosses paupières, sourcils épais
   const lk = P.look || [0, 0], lid = P.lid != null ? P.lid : .5, bl = P.blink ? 1 : 0;
   for (const sd of [-1, 1]) {
-    const ex = sd * 42, ey = hy - 4;
+    const ex = sd * 40, ey = hy - 4;
+    c.save(); c.translate(ex, ey); c.rotate(-sd * .14); c.translate(-ex, -ey);
     F(c, smooth([[ex - 30, ey - 8], [ex - 10, ey - 24], [ex + 14, ey - 24], [ex + 32, ey - 6], [ex + 26, ey + 8], [ex - 24, ey + 8]]), '#e65a14', 0);   // paupière (volume)
     if (bl || (P.wink && sd > 0)) { ink(c, 5); c.beginPath(); c.moveTo(ex - 24, ey + 1); c.quadraticCurveTo(ex, ey + 10, ex + 24, ey - 1); c.stroke(); }
     else {
@@ -227,6 +229,7 @@ function drawRenard(c, P) {
     }
     const br = P.sourcil || 0;
     F(c, smooth([[ex - 34, ey - 22], [ex - 8, ey - 40 - br * 8], [ex + 24, ey - 38 - br * 6], [ex + 36, ey - 26], [ex + 20, ey - 30 - br * 6], [ex - 8, ey - 32 - br * 8]]), '#5a2410', 2);
+    c.restore();
   }
   // ---- grosse truffe brillante, sourire large d'une joue à l'autre
   const tr = smooth([[-24, hy + 40], [0, hy + 34], [24, hy + 40], [20, hy + 56], [0, hy + 64], [-20, hy + 56]]);
@@ -234,20 +237,20 @@ function drawRenard(c, P) {
   ink(c, 3.5); c.beginPath(); c.moveTo(0, hy + 64); c.lineTo(0, hy + 72); c.stroke();
   const ouv = P.talk || 0;
   if (ouv < 0.06) {
-    ink(c, 4.5); c.beginPath(); c.moveTo(-70, hy + 58); c.quadraticCurveTo(-36, hy + 86, 0, hy + 76); c.quadraticCurveTo(40, hy + 84, 72, hy + 54); c.stroke();
-    ink(c, 3.5); c.beginPath(); c.moveTo(66, hy + 50); c.quadraticCurveTo(76, hy + 52, 78, hy + 60); c.stroke();
+    ink(c, 4.5); c.beginPath(); c.moveTo(-44, hy + 64); c.quadraticCurveTo(-22, hy + 82, 0, hy + 76); c.quadraticCurveTo(26, hy + 82, 48, hy + 60); c.stroke();
+    ink(c, 3.2); c.beginPath(); c.moveTo(44, hy + 57); c.quadraticCurveTo(52, hy + 58, 54, hy + 64); c.stroke();
   } else {
     const h = 14 + ouv * 38;
-    const bo = new Path2D(); bo.moveTo(-62, hy + 62); bo.quadraticCurveTo(0, hy + 80, 64, hy + 58); bo.quadraticCurveTo(36, hy + 78 + h, 0, hy + 80 + h); bo.quadraticCurveTo(-36, hy + 80 + h, -62, hy + 62); bo.closePath();
-    F(c, bo, '#5a1a12', 4); c.save(); c.clip(bo); c.fillStyle = '#d0605a'; c.beginPath(); c.ellipse(4, hy + 82 + h, 28, h * .5, 0, 0, 7); c.fill();
-    c.fillStyle = '#fff8ee'; c.beginPath(); c.moveTo(-54, hy + 62); c.quadraticCurveTo(0, hy + 80, 56, hy + 60); c.lineTo(52, hy + 70); c.quadraticCurveTo(0, hy + 88, -50, hy + 70); c.fill(); c.restore();
+    const bo = new Path2D(); bo.moveTo(-40, hy + 64); bo.quadraticCurveTo(0, hy + 80, 44, hy + 60); bo.quadraticCurveTo(26, hy + 78 + h, 0, hy + 80 + h); bo.quadraticCurveTo(-26, hy + 80 + h, -40, hy + 64); bo.closePath();
+    F(c, bo, '#5a1a12', 4); c.save(); c.clip(bo); c.fillStyle = '#d0605a'; c.beginPath(); c.ellipse(3, hy + 82 + h, 20, h * .5, 0, 0, 7); c.fill();
+    c.fillStyle = '#fff8ee'; c.beginPath(); c.moveTo(-36, hy + 64); c.quadraticCurveTo(0, hy + 80, 40, hy + 62); c.lineTo(36, hy + 71); c.quadraticCurveTo(0, hy + 88, -32, hy + 72); c.fill(); c.restore();
   }
-  c.fillStyle = 'rgba(120,50,20,.55)'; [[-36, hy + 62], [-44, hy + 70], [-30, hy + 72], [36, hy + 62], [44, hy + 70], [30, hy + 72]].forEach(([x, y]) => { c.beginPath(); c.arc(x, y, 1.8, 0, 7); c.fill(); });   // points des moustaches
+  c.fillStyle = 'rgba(120,50,20,.55)'; [[-30, hy + 58], [-36, hy + 66], [-26, hy + 68], [30, hy + 58], [36, hy + 66], [26, hy + 68]].forEach(([x, y]) => { c.beginPath(); c.arc(x, y, 1.8, 0, 7); c.fill(); });   // points des moustaches
   c.restore();
   // bras avant
+  main(c, hR[0], hR[1] - 8, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, 1.1, R.main, true, P.poseR || 'repos', 1);
   tube(c, sR, hR, -14, 40, R.cost); F(c, ell(hR[0], hR[1] - 6, 22, 10, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) + Math.PI / 2), R.chemise, 3);
   for (let k = 1; k <= 2; k++) F(c, ell(lerp(hR[0], sR[0], .1 * k), lerp(hR[1], sR[1], .1 * k), 4, 4), '#3a1608', 1.5);
-  main(c, hR[0], hR[1] + 4, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, 1.1, R.main, true, P.poseR || 'repos', 1);
   c.restore(); c.restore();
 }
 
@@ -275,9 +278,10 @@ function drawMouton(c, P) {
   const hL = P.handL || [-106, -408], hR = P.handR || [106, -408];
   const sL = [-80, shY + 22], sR = [80, shY + 22];
   // ---- manches bouffantes (arrière)
-  tube(c, sL, hL, 16, 54, M.chemise);
-  F(c, ell(hL[0], hL[1] - 12, 24, 11, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) + Math.PI / 2), M.chemise, 3);
-  main(c, hL[0], hL[1] - 2, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, .98, M.main, false, P.poseL || 'repos', -1);
+  { const a = Math.atan2(hL[1] - sL[1], hL[0] - sL[0]), E = [hL[0] - Math.cos(a) * 30, hL[1] - Math.sin(a) * 30];
+    main(c, E[0] + Math.cos(a) * 2, E[1] + Math.sin(a) * 2, a - Math.PI / 2, .98, M.main, false, P.poseL || 'repos', -1);   // la main sort de la manche
+    tube(c, sL, E, 16, 54, M.chemise);
+    const cf = ell(E[0], E[1], 27, 13, a + Math.PI / 2); F(c, cf, M.chemise, 4); ombre(c, cf, E[0] - 20, E[1], E[0] + 20, E[1], .25); }
   // ---- haut du pantalon, chemise, gilet tricoté
   const ht = poly([[-80, -470], [80, -470], [84, -410], [-84, -410]]); F(c, ht, M.pant, 5); chevrons(c, ht, M.pant2, 11);
   const ch = smooth([[-82, shY], [-40, shY - 14], [40, shY - 14], [82, shY], [78, -470], [-78, -470]]); F(c, ch, M.chemise, 5); ombre(c, ch, -40, shY, 80, -470, .2);
@@ -341,9 +345,9 @@ function drawMouton(c, P) {
   F(c, ell(2, hy - 160, 16, 9), M.casq, 4);
   c.restore();
   // ---- manche avant
-  tube(c, sR, hR, -16, 54, M.chemise);
-  F(c, ell(hR[0], hR[1] - 12, 24, 11, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) + Math.PI / 2), M.chemise, 3);
-  F(c, ell(lerp(hR[0], sR[0], .08), lerp(hR[1], sR[1], .08), 3.5, 3.5), M.bouton, 1.5);
-  main(c, hR[0], hR[1] - 2, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, .98, M.main, false, P.poseR || 'repos', 1);
+  { const a = Math.atan2(hR[1] - sR[1], hR[0] - sR[0]), E = [hR[0] - Math.cos(a) * 30, hR[1] - Math.sin(a) * 30];
+    main(c, E[0] + Math.cos(a) * 2, E[1] + Math.sin(a) * 2, a - Math.PI / 2, .98, M.main, false, P.poseR || 'repos', 1);   // la main sort de la manche
+    tube(c, sR, E, -16, 54, M.chemise);
+    const cf = ell(E[0], E[1], 27, 13, a + Math.PI / 2); F(c, cf, M.chemise, 4); ombre(c, cf, E[0] - 20, E[1], E[0] + 20, E[1], .25); }
   c.restore(); c.restore();
 }
