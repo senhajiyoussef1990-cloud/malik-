@@ -130,9 +130,18 @@ function drawRenard(c, P) {
   // jambes (pantalon rayé)
   for (const sd of [-1, 1]) {
     const ph = P.walk ? Math.sin(P.walk + (sd > 0 ? Math.PI : 0)) : 0;
-    const hip = [sd * 30, hipY], foot = [sd * 36 + ph * 60, -42 - Math.max(0, ph) * 22];
-    tube(c, hip, foot, sd * 4 - ph * 10, 58, R.cost);
-    chaussure(c, foot[0] + sd * 4, foot[1] + 40, sd > 0 ? 1 : -1, R.chaus, 1.15);
+    const ecart = P.ecart != null ? P.ecart : 1;                       // jambes légèrement écartées, comme sur la fiche
+    const hip = [sd * 32, hipY], foot = [sd * (36 + 26 * ecart) + ph * 60, -42 - Math.max(0, ph) * 22];
+    const knee = [lerp(hip[0], foot[0], .5) + sd * 3 + ph * 18, -255];
+    const jambe = (w, col) => { c.lineCap = 'round'; c.lineJoin = 'round'; c.strokeStyle = col; c.lineWidth = w;
+      c.beginPath(); c.moveTo(...hip); c.quadraticCurveTo(lerp(hip[0], knee[0], .5) - sd * 2, (hip[1] + knee[1]) / 2, ...knee);
+      c.quadraticCurveTo(lerp(knee[0], foot[0], .5) + sd * 2, (knee[1] + foot[1]) / 2, ...foot); c.stroke(); };
+    jambe(68, INK); jambe(60, R.cost);                                                                 // jambe d'un seul trait
+    c.save(); c.translate(sd * 9, 0); jambe(18, 'rgba(40,14,4,.22)'); c.restore();                     // côté ombre
+    c.save(); c.translate(-sd * 14, 0); jambe(8, 'rgba(255,245,225,.12)'); c.restore();                // reflet
+    ink(c, 2, 'rgba(255,220,190,.18)'); c.beginPath(); c.moveTo(hip[0], hipY + 20); c.lineTo(foot[0], foot[1] - 20); c.stroke();   // pli du pantalon
+    c.save(); c.translate(foot[0] + sd * 6, foot[1] + 40); c.rotate(sd * .1);
+    chaussure(c, 0, 0, sd > 0 ? 1 : -1, R.chaus, 1.15); c.restore();
   }
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
   // bras arrière
