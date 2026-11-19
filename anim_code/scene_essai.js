@@ -76,11 +76,11 @@ function renardPose(t) {
   const P = { x: 360, y: 760, s: .62, t: tq, talk: parle ? bouchePour('renard', T_R, t) : 0, lid: .5, blink: (t % 3.3) < .1 ? 1 : 0, look: [.6, 0] };
   P.tilt = wob(tq, .35, .04); P.handL = [-104, -440]; P.handR = [104, -440];
   if (l >= 0 && l < 2) {               // « Tu crois avoir tes propres goûts ? » : il tapote sa tempe
-    const u = ease(seg(l, 0, .5)); P.handR = [lerp(104, 70, u), lerp(-440, -880, u) + wob(tq, 3, 8 * u)]; P.sourcil = 1; P.tilt = -.06;
+    const u = ease(seg(l, 0, .5)); P.handR = [lerp(104, 70, u), lerp(-440, -880, u) + wob(tq, 3, 8 * u)]; P.sourcil = 1; P.tilt = -.06; P.poseR = 'pointe';
   } else if (l >= 2 && l < 6) {        // « Alors explique-moi pourquoi… » : main ouverte, paume tendue
-    const u = ease(seg(l, 2, 2.6)); P.handR = [lerp(70, 200, u), lerp(-880, -650, u) + wob(tq, 1.2, 14)]; P.handL = [-104, -440]; P.tilt = .05 + wob(tq, 1.1, .04); P.look = [.9, 0];
+    const u = ease(seg(l, 2, 2.6)); P.handR = [lerp(70, 200, u), lerp(-880, -650, u) + wob(tq, 1.2, 14)]; P.handL = [-104, -440]; P.tilt = .05 + wob(tq, 1.1, .04); P.look = [.9, 0]; P.poseR = 'ouverte';
   } else if (l >= 6 && l < 9) {        // « D'ailleurs, celui-ci… tout le monde se l'arrache ! » : il présente le bocal
-    const u = ease(seg(l, 6, 6.5)); P.handR = [lerp(200, 250, u), lerp(-650, -560, u) + wob(tq, .8, 6)]; P.handL = [lerp(-104, -150, u), lerp(-440, -620, u)]; P.lid = .62; P.sourcil = .6; P.look = [1, .3];
+    const u = ease(seg(l, 6, 6.5)); P.handR = [lerp(200, 250, u), lerp(-650, -560, u) + wob(tq, .8, 6)]; P.handL = [lerp(-104, -150, u), lerp(-440, -620, u)]; P.lid = .62; P.sourcil = .6; P.look = [1, .3]; P.poseR = 'ouverte'; P.poseL = 'ouverte';
   } else if (t > T_M) {                // il écoute le mouton, l'air satisfait
     P.look = [1, 0]; P.lid = .6; P.handL = [-104, -440]; P.handR = [104, -440];
   }
@@ -92,11 +92,11 @@ function moutonPose(t) {
   const P = { x: 800, y: 790, s: .58, t: tq, face: -1, talk: (l >= 0 && l < 7.5) ? bouchePour('mouton', T_M, t) : 0, look: [-.6, 0], blink: (t % 2.8) < .1 ? 1 : 0, froncer: .5, sourire: .3 };
   P.handL = [-118, -360]; P.handR = [118, -360]; P.tilt = wob(tq, .4, .03);
   if (t < T_M) { P.look = [-.8, 0]; P.froncer = .3; }                                   // il écoute le renard
-  if (l >= 0 && l < .9) { P.handR = [40, -540]; P.handL = [-118, -360]; P.froncer = .2; }          // « Moi ? » : main sur la poitrine
-  else if (l >= .9 && l < 2.2) { P.tilt = wob(tq, 3.2, .12); P.handR = [130, -470]; P.handL = [-130, -470]; P.froncer = .9; }   // « Personne ne m'influence ! » : non de la tête
-  else if (l >= 2.2 && l < 2.7) { P.rire = true; P.tilt = -.12; P.handR = [60, -420]; P.handL = [-60, -420]; }            // « Ha ha ! »
-  else if (l >= 2.7 && l < 4.8) { P.handR = [lerp(150, 220, Math.abs(Math.sin(tq * 6))), -600]; P.froncer = .7; P.sourire = .8; }  // « Même gratuitement… » : geste de la main, dédaigneux
-  else if (l >= 4.8 && l < 7.6) { P.lean = .1; P.handR = [70, -470]; P.handL = [10, -480]; P.froncer = 0; P.look = [-1, .4]; P.oreille = .15; }  // « Ah bon ? Attends… il coûte combien ? » : penché, intéressé
+  if (l >= 0 && l < .9) { P.handR = [40, -540]; P.handL = [-118, -360]; P.froncer = .2; P.poseR = 'ouverte'; }          // « Moi ? » : main sur la poitrine
+  else if (l >= .9 && l < 2.2) { P.tilt = wob(tq, 3.2, .12); P.handR = [130, -470]; P.handL = [-130, -470]; P.froncer = .9; P.poseR = P.poseL = 'poing'; }   // « Personne ne m'influence ! » : non de la tête
+  else if (l >= 2.2 && l < 2.7) { P.rire = true; P.tilt = -.12; P.handR = [60, -420]; P.handL = [-60, -420]; P.poseR = P.poseL = 'ouverte'; }            // « Ha ha ! »
+  else if (l >= 2.7 && l < 4.8) { P.handR = [lerp(150, 220, Math.abs(Math.sin(tq * 6))), -600]; P.froncer = .7; P.sourire = .8; P.poseR = 'ouverte'; }  // « Même gratuitement… » : geste de la main, dédaigneux
+  else if (l >= 4.8 && l < 7.6) { P.lean = .1; P.handR = [70, -470]; P.handL = [10, -480]; P.froncer = 0; P.look = [-1, .4]; P.oreille = .15; P.poseR = 'pointe'; }  // « Ah bon ? Attends… il coûte combien ? » : penché, intéressé
   P.bob = (l >= 2.2 && l < 2.7) ? Math.abs(Math.sin(tq * 14)) * 16 : bnc(tq, .25) * 4;
   return P;
 }
