@@ -28,19 +28,19 @@ de l’histoire (bacon, jus d’orange, diamant, Guerre des mondes…).
 
 | N° | Titre | Dossier des données | Dossier des scènes | État |
 |----|-------|---------------------|--------------------|------|
-| 11 | Le mythe du bacon (Bernays, 1925) | `bacon/` | `anim_code/bacon/` | prêt — voix faites, rendu en cours |
-| 12 | Le jus d'orange du matin (Californie, 1910) | `orange/` | `anim_code/orange/` | prêt à lancer — voix en cours |
-| 13 | Le saumon des sushis (Norvège/Japon, 1986) | `saumon/` | `anim_code/saumon/` | prêt à lancer (en file) |
-| 14 | Le diamant éternel (New York, 1938-1947) | `diamant/` | `anim_code/diamant/` | prêt à lancer (en file) |
-| 15 | Les torches de la liberté (New York, 1929) | `torches/` | `anim_code/torches/` | prêt à lancer (en file) |
-| 16 | La réduflation | `reduflation/` | `anim_code/reduflation/` | prêt à lancer (en file) |
-| 17 | La chanson qu'on finit par aimer (payola, 1950-1959) | `chanson/` | `anim_code/chanson/` | prêt à lancer (en file) |
-| 18 | L'ampoule programmée (cartel Phœbus, 1924) | `ampoule/` | `anim_code/ampoule/` | prêt à lancer (en file) |
-| 19 | La Guerre des mondes (1938) | `martiens/` | `anim_code/martiens/` | prêt à lancer (en file) |
+| 01 | Le mythe du bacon (Bernays, 1925) | `bacon/` | `anim_code/bacon/` | prêt — voix faites, rendu en cours |
+| 02 | Le jus d'orange du matin (Californie, 1910) | `orange/` | `anim_code/orange/` | prêt à lancer — voix en cours |
+| 03 | Le saumon des sushis (Norvège/Japon, 1986) | `saumon/` | `anim_code/saumon/` | prêt à lancer (en file) |
+| 04 | Le diamant éternel (New York, 1938-1947) | `diamant/` | `anim_code/diamant/` | prêt à lancer (en file) |
+| 05 | Les torches de la liberté (New York, 1929) | `torches/` | `anim_code/torches/` | prêt à lancer (en file) |
+| 06 | La réduflation | `reduflation/` | `anim_code/reduflation/` | prêt à lancer (en file) |
+| 07 | La chanson qu'on finit par aimer (payola, 1950-1959) | `chanson/` | `anim_code/chanson/` | prêt à lancer (en file) |
+| 08 | L'ampoule programmée (cartel Phœbus, 1924) | `ampoule/` | `anim_code/ampoule/` | prêt à lancer (en file) |
+| 09 | La Guerre des mondes (1938) | `martiens/` | `anim_code/martiens/` | prêt à lancer (en file) |
 
 « Prêt à lancer » = répliques, décors, 16 scènes, montage et publications écrits ; il ne reste que la fabrication :
 `sh outils_commun/voix_episodes.sh <ep>` puis `sh outils_commun/fin_<ep>.sh` (ou `episode.sh`, voir section 4).
-(L'ancienne série 1 à 10 a été abandonnée et supprimée — jugée trop molle ; elle reste dans l'historique git. Les épisodes 11 à 19 sont le nouveau standard.)
+(L'ancienne série 1 à 10 a été abandonnée et supprimée — jugée trop molle ; elle reste dans l'historique git. Les épisodes 1 à 9 (bacon → Guerre des mondes) sont le standard ; les épisodes 10 à 21 ont leur texte écrit (`<ep>/specification.json`).)
 
 La suite : les 50 sujets de `SUJETS_50_EPISODES.md` (histoires vraies du livre *Influencer les masses*). Les épisodes 11 à 14 sont
 les meilleurs modèles : même structure, un salon avec une **table** (petit-déjeuner, sushis, écrin…), une histoire vraie dans la télé,
@@ -160,7 +160,7 @@ Outils utiles : `renardBase(t)`, `moutonBase(t)`, `voix(P, ids, t)`, `dessineSal
 
 Le dépôt contient `.github/workflows/episode.yml` : un serveur de GitHub installe tout et fabrique l'épisode, sans ordinateur.
 1. Onglet **Actions** du dépôt → **Fabriquer un épisode** → **Run workflow**.
-2. Choisir la branche `claude/wonderful-sagan-3cr70a`, remplir : dossier (`bacon`), nom de sortie (`EP11_Le_mythe_du_bacon`),
+2. Choisir la branche `claude/wonderful-sagan-3cr70a`, remplir : dossier (`bacon`), nom de sortie (`EP01_Le_mythe_du_bacon`),
    badge, titre, sous-titre, accroche, et l'étape : `voix`, `video` ou `tout`.
 3. **voix** génère les voix et les enregistre dans la branche (`<ep>/voix/*.mp3`) ; **video** rend les 16 scènes en HD, monte, fait
    la story et le zip. À la fin, le zip se télécharge en bas de la page de l'exécution, rubrique **Artifacts**.
@@ -181,14 +181,14 @@ Vérifier `verification-voix-<ep>` (artifact) : toute réplique notée sous 0,85
 
 | episode | nom | badge | titre | sous_titre | accroche |
 |---|---|---|---|---|---|
-| `orange` | `EP12_Le_jus_d_orange_du_matin` | ÉPISODE 12 | LE JUS D’ORANGE DU MATIN | « Buvez une orange ! » | Ton jus du matin… une pub ? |
-| `saumon` | `EP13_Le_saumon_des_sushis` | ÉPISODE 13 | LE SAUMON DES SUSHIS | « Change l’étiquette… » | Tes sushis au saumon… une pub ? |
-| `diamant` | `EP14_Le_diamant_eternel` | ÉPISODE 14 | LE DIAMANT ÉTERNEL | « Deux mois de salaire » | Ta bague en diamant… une pub ? |
-| `torches` | `EP15_Les_torches_de_la_liberte` | ÉPISODE 15 | LES TORCHES DE LA LIBERTÉ | « On t’a vendu une cigarette » | Fumer = être libre… vraiment ? |
-| `reduflation` | `EP16_La_reduflation` | ÉPISODE 16 | LA RÉDUFLATION | « Le paquet qui rétrécit » | Même prix… moins de biscuits ? |
-| `chanson` | `EP17_La_chanson_qu_on_finit_par_aimer` | ÉPISODE 17 | LA CHANSON QU’ON FINIT PAR AIMER | « Encore et encore » | Tu l’aimes… ou tu l’entends trop ? |
-| `ampoule` | `EP18_L_ampoule_programmee` | ÉPISODE 18 | L’AMPOULE PROGRAMMÉE | « Mille heures, pas une de plus » | Ton ampoule… grillée exprès ? |
-| `martiens` | `EP19_La_guerre_des_mondes` | ÉPISODE 19 | LA GUERRE DES MONDES | « Ça ressemble aux infos… » | La grande panique de 1938… vraiment ? |
+| `orange` | `EP02_Le_jus_d_orange_du_matin` | ÉPISODE 2 | LE JUS D’ORANGE DU MATIN | « Buvez une orange ! » | Ton jus du matin… une pub ? |
+| `saumon` | `EP03_Le_saumon_des_sushis` | ÉPISODE 3 | LE SAUMON DES SUSHIS | « Change l’étiquette… » | Tes sushis au saumon… une pub ? |
+| `diamant` | `EP04_Le_diamant_eternel` | ÉPISODE 4 | LE DIAMANT ÉTERNEL | « Deux mois de salaire » | Ta bague en diamant… une pub ? |
+| `torches` | `EP05_Les_torches_de_la_liberte` | ÉPISODE 5 | LES TORCHES DE LA LIBERTÉ | « On t’a vendu une cigarette » | Fumer = être libre… vraiment ? |
+| `reduflation` | `EP06_La_reduflation` | ÉPISODE 6 | LA RÉDUFLATION | « Le paquet qui rétrécit » | Même prix… moins de biscuits ? |
+| `chanson` | `EP07_La_chanson_qu_on_finit_par_aimer` | ÉPISODE 7 | LA CHANSON QU’ON FINIT PAR AIMER | « Encore et encore » | Tu l’aimes… ou tu l’entends trop ? |
+| `ampoule` | `EP08_L_ampoule_programmee` | ÉPISODE 8 | L’AMPOULE PROGRAMMÉE | « Mille heures, pas une de plus » | Ton ampoule… grillée exprès ? |
+| `martiens` | `EP09_La_guerre_des_mondes` | ÉPISODE 9 | LA GUERRE DES MONDES | « Ça ressemble aux infos… » | La grande panique de 1938… vraiment ? |
 
 ## 6. Installer l'environnement (sur un ordinateur ou un serveur)
 
