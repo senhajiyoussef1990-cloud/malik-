@@ -1,0 +1,78 @@
+# Fabrication automatique sur GitHub, déclenchée depuis n'importe quelle branche (pas besoin de main) :
+# pousser un fichier lancer/<épisode>.json  →  voix + vidéo HD + zip, puis le zip est déposé dans livraisons/ sur la même branche.
+# Contenu du JSON : {"episode": "ampoule", "nom": "EP18_...", "badge": "ÉPISODE 18", "titre": "...", "sous_titre": "« ... »", "accroche": "..."}
+name: Lancer des épisodes
+on:
+  push:
+    paths: ["lancer/*.json"]
+permissions:
+  contents: write
+concurrency: { group: "lancer-${{ github.ref }}", cancel-in-progress: false }
+jobs:
+  liste:
+    runs-on: ubuntu-latest
+    outputs: { episodes: "${{ steps.l.outputs.episodes }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: l
+        run: |
+          F=$(git diff --name-only --diff-filter=AM HEAD^ HEAD -- 'lancer/*.json' | xargs -r -n1 basename | sed 's/\.json$//')
+          echo "episodes=$(printf '%s\n' $F | jq -R . | jq -cs 'map(select(length>0))')" >> "$GITHUB_OUTPUT"; echo "épisodes : $F"
+  voix:
+    needs: liste
+    if: needs.liste.outputs.episodes != '[]'
+    strategy: { fail-fast: false, matrix: { ep: "${{ fromJson(needs.liste.outputs.episodes) }}" } }
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Outils de voix
+        run: |
+          python3 -m venv .venv-voix && .venv-voix/bin/pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu && .venv-voix/bin/pip install -q chatterbox-tts==0.1.7
+          python3 -m venv .venv-outils && .venv-outils/bin/pip install -q faster-whisper==1.2.1 noisereduce==3.0.3 pillow numpy scipy
+      - name: Voix
+        run: |
+          export PATH="$PWD/.venv-outils/bin:$PATH" CB_PY="$PWD/.venv-voix/bin/python"
+          sh outils_commun/voix_episodes.sh "${{ matrix.ep }}"; cat "${{ matrix.ep }}/travail/choix_voix.txt" || true
+      - name: Enregistrer les voix
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add "${{ matrix.ep }}/voix/"*.mp3; cp "${{ matrix.ep }}/travail/choix_voix.txt" "${{ matrix.ep }}/sortie/verification_voix.txt" || true; git add -f "${{ matrix.ep }}/sortie/verification_voix.txt" || true
+          git commit -m "Voix de l'épisode ${{ matrix.ep }} (GitHub Actions)" || echo rien
+          for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep 10; done
+  video:
+    needs: [liste, voix]
+    strategy: { fail-fast: false, matrix: { ep: "${{ fromJson(needs.liste.outputs.episodes) }}" } }
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.ref }}" }
+      - run: git pull --ff-only || true
+      - name: ffmpeg, polices, Playwright, Python
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg zip jq fonts-dejavu fonts-liberation
+          cd anim_code && npm install --no-audit --no-fund && npx playwright install --with-deps chromium && cd ..
+          python3 -m venv .venv-outils && .venv-outils/bin/pip install -q faster-whisper==1.2.1 noisereduce==3.0.3 pillow numpy scipy
+      - name: Rendu HD + montage + story + zip
+        run: |
+          export PATH="$PWD/.venv-outils/bin:$PATH"; J="lancer/${{ matrix.ep }}.json"
+          sh outils_commun/episode.sh "$(jq -r .episode $J)" "$(jq -r .nom $J)" "$(jq -r .badge $J)" "$(jq -r .titre $J)" "$(jq -r .sous_titre $J)" "$(jq -r .accroche $J)"
+          ls -la "${{ matrix.ep }}/sortie/"
+      - name: Déposer le zip dans livraisons/
+        run: |
+          N=$(jq -r .nom "lancer/${{ matrix.ep }}.json"); mkdir -p livraisons; cp "${{ matrix.ep }}/sortie/$N.zip" livraisons/
+          git config user.name "github-actions[bot]"; git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add -f "livraisons/$N.zip" && git commit -m "Livraison $N (GitHub Actions)"
+          for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep 10; done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: "${{ matrix.ep }}-sortie"
+          if-no-files-found: ignore
+          path: |
+            ${{ matrix.ep }}/sortie/*.zip
+            anim_code/travail/*.log
+            ${{ matrix.ep }}/travail/*.log
