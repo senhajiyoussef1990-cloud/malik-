@@ -1,4 +1,5 @@
 // Épisode « La peur et la rumeur » — éléments communs (salon en couleur + monde N&B du téléviseur).
+var CAM_CALME = .3;
 var THEME_SALON = { mur: 'ardoise' };
 const AUDIO = Object.keys(L).map(id => [id, L[id][0]]);
 const FIN = (extra = 1.4) => Math.max(...Object.values(L).map(l => l[0] + l[1])) + extra;
