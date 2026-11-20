@@ -101,7 +101,7 @@ function passant(t, x, v, o = {}) {
     handL: [-80, -420], handR: [80, -420] }, o);
 }
 function marchandBase(t, x = 560) { const tq = step(t); return { x, y: 660, s: .44, t: tq, look: [.6, 0], blink: (t % 3.1) < .1 ? 1 : 0, tilt: wob(tq, .5, .04), bob: bnc(tq, .5) * 3 }; }
-function dessine(c, P, f) { c.save(); c.translate(0, -(P.bob || 0)); f(c, P); c.restore(); }
+function dessine(c, P, f) { if (P.souffle != null) { dessineVivant(c, P, f || drawFigurant); return; } c.save(); c.translate(0, -(P.bob || 0)); (f || drawFigurant)(c, P); c.restore(); }
 function debutFlash(c, t) { if (t < .35) { c.fillStyle = `rgba(255,255,255,${1 - ease(t / .35)})`; c.fillRect(0, 0, W, H); } }
 // la file devant la vitrine : n passants (fractionnaire = le dernier arrive en marchant)
 function file(c, t, n, o = {}) {

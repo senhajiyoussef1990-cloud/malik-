@@ -264,7 +264,8 @@ function drawRenard(c, P) {
   const tr = smooth([[-24, hy + 40], [0, hy + 34], [24, hy + 40], [20, hy + 56], [0, hy + 64], [-20, hy + 56]]);
   F(c, tr, '#2a120a', 3); reflet(c, tr, -8, hy + 42, 9, 4, .55, -.2);
   ink(c, 3.5); c.beginPath(); c.moveTo(0, hy + 64); c.lineTo(0, hy + 72); c.stroke();
-  const ouv = P.talk || 0;
+  const vis = P.viseme || '', ouv = vis === 'm' ? 0 : (P.talk || 0) * (vis === 'i' ? .6 : 1);
+  c.save(); c.translate(0, hy + 70); c.scale(vis === 'o' ? .62 : vis === 'i' ? 1.12 : 1, vis === 'o' ? 1.15 : 1); c.translate(0, -(hy + 70));
   if (ouv < 0.06) {
     ink(c, 4.5); c.beginPath(); c.moveTo(-44, hy + 64); c.quadraticCurveTo(-22, hy + 82, 0, hy + 76); c.quadraticCurveTo(26, hy + 82, 48, hy + 60); c.stroke();
     ink(c, 3.2); c.beginPath(); c.moveTo(44, hy + 57); c.quadraticCurveTo(52, hy + 58, 54, hy + 64); c.stroke();
@@ -274,6 +275,7 @@ function drawRenard(c, P) {
     F(c, bo, '#5a1a12', 4); c.save(); c.clip(bo); c.fillStyle = '#d0605a'; c.beginPath(); c.ellipse(3, hy + 82 + h, 20, h * .5, 0, 0, 7); c.fill();
     c.fillStyle = '#fff8ee'; c.beginPath(); c.moveTo(-36, hy + 64); c.quadraticCurveTo(0, hy + 80, 40, hy + 62); c.lineTo(36, hy + 71); c.quadraticCurveTo(0, hy + 88, -32, hy + 72); c.fill(); c.restore();
   }
+  c.restore();
   c.fillStyle = 'rgba(120,50,20,.55)'; [[-30, hy + 58], [-36, hy + 66], [-26, hy + 68], [30, hy + 58], [36, hy + 66], [26, hy + 68]].forEach(([x, y]) => { c.beginPath(); c.arc(x, y, 1.8, 0, 7); c.fill(); });   // points des moustaches
   c.restore();
   // bras avant
@@ -362,8 +364,11 @@ function drawMouton(c, P) {
   }
   F(c, smooth([[-9, hy + 44], [9, hy + 44], [0, hy + 54]]), '#e88c86', 2.5);                                    // petit nez
   ink(c, 3); c.beginPath(); c.moveTo(0, hy + 54); c.lineTo(0, hy + 60); c.stroke();
-  if ((P.talk || 0) < .06 && !P.rire) { ink(c, 3.5); c.beginPath(); c.moveTo(-10, hy + 64); c.quadraticCurveTo(-4, hy + 60, 0, hy + 61); c.quadraticCurveTo(4, hy + 60, 10, hy + 64); c.stroke(); }
-  else bouche(c, 0, hy + 64, 34, Math.max(P.talk || 0, P.rire ? .8 : 0), P.rire ? 1.4 : (P.sourire != null ? P.sourire : .3), '#6a2016');
+  const visM = P.viseme || '', talkM = visM === 'm' ? 0 : (P.talk || 0) * (visM === 'i' ? .6 : 1);
+  c.save(); c.translate(0, hy + 66); c.scale(visM === 'o' ? .62 : visM === 'i' ? 1.15 : 1, visM === 'o' ? 1.15 : 1); c.translate(0, -(hy + 66));
+  if (talkM < .06 && !P.rire) { ink(c, 3.5); c.beginPath(); c.moveTo(-10, hy + 64); c.quadraticCurveTo(-4, hy + 60, 0, hy + 61); c.quadraticCurveTo(4, hy + 60, 10, hy + 64); c.stroke(); }
+  else bouche(c, 0, hy + 64, 34, Math.max(talkM, P.rire ? .8 : 0), P.rire ? 1.4 : (P.sourire != null ? P.sourire : .3), '#6a2016');
+  c.restore();
   // ---- grande casquette plate en tweed (ou un autre chapeau : P.chapeau(c, hy) le dessine à la place)
   if (P.chapeau) P.chapeau(c, hy); else {
   const cq = smooth([[-118, hy - 76], [-104, hy - 122], [-60, hy - 150], [0, hy - 158], [64, hy - 150], [108, hy - 120], [120, hy - 80], [104, hy - 62], [0, hy - 70], [-104, hy - 62]]);

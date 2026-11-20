@@ -8,7 +8,8 @@ const EP = path.join(D, '..', ep), VOIX = path.join(EP, 'voix');
 const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).toString());
 (async () => {
   // répliques de la scène, enchaînées avec une petite pause ; enveloppe de bouche à 30 i/s
-  const lignes = JSON.parse(fs.readFileSync(path.join(EP, 'lignes.json'))).filter(l => l.scene === +num);
+  const lignes = JSON.parse(fs.readFileSync(path.join(EP, 'lignes.json'))).filter(l => l.scene === +(process.env.LIGNES_SCENE || num));
+  const MN = fs.existsSync(path.join(EP, 'travail/minutage.json')) ? JSON.parse(fs.readFileSync(path.join(EP, 'travail/minutage.json'))) : {};
   // grille du PDF : un plan = 5 s, chaque réplique démarre au début de son plan
   const grille = process.env.GRILLE === '1' && lignes.every(l => l.plan), p0 = grille ? Math.min(...lignes.map(l => l.plan)) : 0;
   const L = {}, BOUCHE = {}; let t = 0.3;
@@ -23,9 +24,9 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 810 } });
   const errs = []; pg.on('pageerror', e => errs.push(String(e)));
   await pg.setContent('<canvas id="c" width="1080" height="810"></canvas>');
-  await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)};` + (grille ? `const GRILLE = ${lignes.length * 5};` : '') });
+  await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)}; const MOTS = ${JSON.stringify(Object.fromEntries(Object.keys(L).map(k => [k, (MN[k] || {}).mots || []])))};` + (grille ? `const GRILLE = ${lignes.length * 5};` : '') });
   const estTV = fs.readFileSync(path.join(D, `${ep}/scene${num}.js`), 'utf8').match(/enNoirEtBlanc|ecran/) !== null || (ep !== 'ep01' && fs.existsSync(path.join(D, ep, 'tv.js')));
-  for (const f of ['persos.js', 'decor.js', 'decor_boutique.js', 'decor_salon.js', 'humains.js', `${ep}/commun.js`, ...(estTV ? [`${ep}/tv.js`] : []), `${ep}/scene${num}.js`]) if (fs.existsSync(path.join(D, f))) await pg.addScriptTag({ path: path.join(D, f) });
+  for (const f of ['persos.js', 'vivant.js', 'decor.js', 'decor_boutique.js', 'decor_salon.js', 'humains.js', `${ep}/commun.js`, ...(estTV ? [`${ep}/tv.js`] : []), `${ep}/scene${num}.js`]) if (fs.existsSync(path.join(D, f))) await pg.addScriptTag({ path: path.join(D, f) });
   const img = (t) => pg.evaluate((t) => { const cv = document.getElementById('c'); frame(cv.getContext('2d'), t); return cv.toDataURL('image/jpeg', .93); }, t);
   const nom = `${ep.toUpperCase()}_scene${num}`;
   if (stills) {

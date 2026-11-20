@@ -14,8 +14,8 @@ function dessineSalon(c, t, R, M, o = {}, avant) {
   const rect = salon(c, t, o);
   if (o.ecran) ecranTV(c, rect, t, o.ecran, o.tv || 1);
   if (o.derriere) o.derriere(c);
-  if (R) { c.save(); c.translate(0, -R.bob); drawRenard(c, R); c.restore(); }
-  if (M) { c.save(); c.translate(0, -M.bob); drawMouton(c, M); c.restore(); }
+  if (R) { if (R.souffle != null) dessineVivant(c, R, drawRenard); else { c.save(); c.translate(0, -R.bob); drawRenard(c, R); c.restore(); } }
+  if (M) { if (M.souffle != null) dessineVivant(c, M, drawMouton); else { c.save(); c.translate(0, -M.bob); drawMouton(c, M); c.restore(); } }
   if (avant) avant(c);
 }
 const _ecr = document.createElement('canvas'); _ecr.width = W; _ecr.height = H; const _ecrc = _ecr.getContext('2d');
