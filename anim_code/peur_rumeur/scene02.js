@@ -13,7 +13,7 @@ function frame(c, t) {
   c.save(); cam(c, t, [[0, 560, 380, 1.5], [B[0] + .2, 520, 380, 1.55], [DUREE, 520, 380, 1.6]]);
   dessineSalon(c, t, R, M, {}, (cc) => {
     if (tient === 'mouton') { const a = mainScene(M, -1); journal(cc, a[0] + 80, a[1] - 50, .62, { rot: -.05 }); }
-    else { const a = mainScene(R, 1); journal(cc, a[0] - 70, a[1] - 60, .64, { rot: .04, tourne: tour }); }
+    else { const a = mainScene(R, 1); journal(cc, a[0] + 10, a[1] + 30, .56, { rot: .04, tourne: tour }); }
   });
   c.restore();
 }

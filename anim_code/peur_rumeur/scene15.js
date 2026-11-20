@@ -16,8 +16,8 @@ function frame(c, t) {
     if (ferme < 1) journal(cc, a[0] + 90 - ferme * 30, a[1] - 50, .62 * (1 - ferme * .5), { rot: -.05 });
     else { cc.save(); cc.translate(a[0] + 60, a[1] - 40); F(cc, poly([[-60, -80], [60, -80], [60, 80], [-60, 80]]), '#f4efe0', 3); cc.font = 'bold 14px Georgia'; cc.textAlign = 'center'; cc.fillStyle = '#2a2a2a'; cc.fillText('LE PETIT ÉCHO', 0, -60); cc.restore(); }
     if (liste > 0) { const [hx, hy] = mainScene(R, 1); cc.save(); cc.translate(hx + 10, hy - 30); cc.scale(liste, liste); F(cc, poly([[-56, -70], [56, -70], [56, 70], [-56, 70]]), '#fbf4e2', 3); cc.font = 'bold 17px Georgia'; cc.fillStyle = '#1a3a7a'; cc.textAlign = 'left'; ['✓ source', '✓ date', '✓ contexte'].forEach((l, k) => cc.fillText(l, -46, -30 + k * 36)); cc.restore(); }
-    if (lc >= 0 && ferme < 1) { cc.save(); cc.translate(a[0] - 60 - ecarte * 60, a[1] - 160); cc.rotate(-.2 * ecarte); F(cc, poly([[-70, -20], [70, -20], [70, 20], [-70, 20]]), '#f4efe0', 2); cc.font = 'bold 16px Georgia'; cc.textAlign = 'center'; cc.fillStyle = '#a8181a'; cc.fillText('PANIQUE !', 0, 6); cc.restore();
-      cc.save(); cc.translate(a[0] + 140, a[1] - 160); F(cc, poly([[-80, -20], [80, -20], [80, 20], [-80, 20]]), '#fbf8ee', 2); cc.font = '14px Georgia'; cc.textAlign = 'center'; cc.fillStyle = '#1a1a1a'; cc.fillText('Une charnière réparée', 0, 6); cc.restore(); }
+    if (lc >= 0 && ferme < 1) { cc.save(); cc.translate(a[0] - 40 - ecarte * 80, a[1] + 140); cc.rotate(-.2 * ecarte); F(cc, poly([[-70, -20], [70, -20], [70, 20], [-70, 20]]), '#f4efe0', 2); cc.font = 'bold 16px Georgia'; cc.textAlign = 'center'; cc.fillStyle = '#a8181a'; cc.fillText('PANIQUE !', 0, 6); cc.restore();
+      cc.save(); cc.translate(a[0] + 120, a[1] + 190); F(cc, poly([[-80, -20], [80, -20], [80, 20], [-80, 20]]), '#fbf8ee', 2); cc.font = '14px Georgia'; cc.textAlign = 'center'; cc.fillStyle = '#1a1a1a'; cc.fillText('Une charnière réparée', 0, 6); cc.restore(); }
   });
   c.restore();
 }
