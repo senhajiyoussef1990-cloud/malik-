@@ -77,7 +77,8 @@
   "scene": 6,
   "who": "narr",
   "pause": 0.3,
-  "text": "On le croit plein de parasites, fade, juste bon pour le gril."
+  "text": "On le croit plein de parasites, fade, juste bon pour le gril.",
+  "dit": "On le croit plein de parasites, fade, et juste bon pour le gril."
  },
  {
   "id": "s06b",
@@ -149,7 +150,8 @@
   "scene": 10,
   "who": "cliente",
   "pause": 0.4,
-  "text": "Ce sāmon est doux et fondant. J’en reprends !"
+  "text": "Ce sāmon est doux et fondant. J’en reprends !",
+  "dit": "Ce samone est doux et fondant. J’en reprends !"
  },
  {
   "id": "s11a",
