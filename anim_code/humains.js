@@ -143,6 +143,13 @@ function drawFigurant(c, P) {
     F(c, poly([[-24, shY - 8], [24, shY - 8], [0, shY + 70]]), GRIS.blanc, 3); F(c, poly([[-8, shY], [8, shY], [12, shY + 64], [0, shY + 80], [-12, shY + 64]]), v % 2 ? GRIS.noir : GRIS.moyen, 2);
     for (const sd of [-1, 1]) F(c, poly([[sd * 24, shY - 6], [sd * 46, shY + 2], [sd * 20, -470], [sd * 8, shY + 60]]), 'rgba(0,0,0,.25)', 3);
     [-560, -520, -480].forEach(y => F(c, ell(0, y, 5, 5), GRIS.blanc, 1.5)); }
+  if (P.tablier) {                                                  // tablier de travail (imprimeur, boulanger, marchande)
+    const tb = smooth([[-44, shY + 30], [44, shY + 30], [52, -390], [64, -150], [-64, -150], [-52, -390]]); F(c, tb, P.tablier === 'noir' ? GRIS.fonce : GRIS.blanc, 4);
+    ombre(c, tb, -60, 0, 60, 0, .25); F(c, poly([[-30, -330], [30, -330], [30, -270], [-30, -270]]), P.tablier === 'noir' ? GRIS.noir : GRIS.clair, 2);   // poche
+    ink(c, 4, GRIS.fonce); c.beginPath(); c.moveTo(-58, -400); c.lineTo(58, -400); c.stroke();
+    if (P.tablier === 'taches') { c.fillStyle = 'rgba(0,0,0,.35)'; for (let k = 0; k < 7; k++) { c.beginPath(); c.arc(-34 + hash(k) * 68, -360 + hash(k + 4) * 200, 4 + hash(k + 8) * 6, 0, 7); c.fill(); } }
+  }
+  if (P.habit) P.habit(c, shY, hipY);
   const hL = P.handL || [-92, -400], hR = P.handR || [92, -400];
   bras(c, [-70, shY + 22], hL, 12, femme ? GRIS.clair : col, P.poseL); bras(c, [70, shY + 22], hR, -12, femme ? GRIS.clair : col, P.poseR);
   c.save(); c.translate(0, shY); c.rotate(P.tilt || 0); c.translate(0, -shY);
@@ -308,3 +315,11 @@ function televiseur(c, x, y, s, on, t) {                 // vieux poste en bois 
   c.restore();
   return [x + (-20) * s, y - 78 * s, 150 * s, 108 * s];   // centre et taille de l'écran
 }
+// ---------- couvre-chefs des figurants (à passer en P.chapeau)
+const COIFFE = {
+  casquette: (c, hy) => { F(c, smooth([[-60, hy - 52], [-50, hy - 86], [0, hy - 96], [52, hy - 84], [62, hy - 52]]), GRIS.fonce, 4); F(c, smooth([[-20, hy - 56], [70, hy - 58], [90, hy - 48], [60, hy - 44], [-20, hy - 48]]), GRIS.noir, 3); ink(c, 1.4, 'rgba(255,255,255,.3)'); for (let k = -2; k <= 2; k++) { c.beginPath(); c.moveTo(k * 8, hy - 94); c.quadraticCurveTo(k * 22, hy - 76, k * 26, hy - 56); c.stroke(); } F(c, ell(0, hy - 95, 7, 4), GRIS.fonce, 2); },
+  toque: (c, hy) => { F(c, poly([[-46, hy - 50], [46, hy - 50], [44, hy - 76], [-44, hy - 76]]), GRIS.blanc, 3); for (let k = -2; k <= 2; k++) F(c, ell(k * 22, hy - 104, 26, 30), GRIS.blanc, 3); F(c, poly([[-44, hy - 76], [44, hy - 76], [44, hy - 84], [-44, hy - 84]]), GRIS.blanc, 0); },
+  kepi: (c, hy) => { F(c, poly([[-46, hy - 50], [46, hy - 50], [40, hy - 104], [-40, hy - 104]]), GRIS.noir, 4); F(c, ell(0, hy - 104, 40, 8), GRIS.fonce, 3); F(c, smooth([[-46, hy - 52], [46, hy - 52], [56, hy - 40], [-10, hy - 40]]), GRIS.noir, 3); F(c, poly([[-46, hy - 66], [46, hy - 66], [46, hy - 58], [-46, hy - 58]]), GRIS.blanc, 1.5); F(c, ell(0, hy - 82, 8, 9), GRIS.blanc, 2); },
+  foulard: (c, hy) => { F(c, smooth([[-62, hy + 10], [-66, hy - 50], [0, hy - 92], [66, hy - 50], [62, hy + 10], [50, hy - 30], [0, hy - 60], [-50, hy - 30]]), GRIS.moyen, 4); c.fillStyle = 'rgba(255,255,255,.5)'; for (let k = 0; k < 9; k++) { c.beginPath(); c.arc(-40 + (k % 3) * 40, hy - 70 + Math.floor(k / 3) * 20, 4, 0, 7); c.fill(); } F(c, smooth([[40, hy + 6], [60, hy + 30], [44, hy + 40], [30, hy + 16]]), GRIS.moyen, 2); },
+  visiere: (c, hy) => { F(c, smooth([[-58, hy - 50], [58, hy - 50], [76, hy - 40], [-10, hy - 34]]), 'rgba(40,40,40,.85)', 3); ink(c, 6, GRIS.fonce); c.beginPath(); c.moveTo(-58, hy - 52); c.quadraticCurveTo(0, hy - 64, 58, hy - 52); c.stroke(); },
+};

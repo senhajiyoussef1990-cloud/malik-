@@ -3,6 +3,7 @@
 const SL = { mur: '#1f5560', mur2: '#18454f', motif: 'rgba(170,220,215,.09)', bois: '#7a4220', bois2: '#5a2e14', bois3: '#9c5a2c', dore: '#d9a04a',
   rideau: '#a8442a', rideau2: '#7a2c1a', sol: '#6a3a1c', tapis: '#8a2a20', tapis2: '#1f3a5a', tapis3: '#e0b060', creme: '#f2e2c0' };
 let _fondSalon = null;
+const THEME = () => (typeof THEME_SALON !== 'undefined' ? THEME_SALON : {});   // options par épisode : { mur: 'ardoise', rue: 'affiches' }
 const SALON = { tv: [190, 600, .8], fenetre: [800, 96, 220, 300], miroir: [620, 210], affiche: [70, 96], horloge: [345, 150] };
 
 function damas(c, x0, y0, x1, y1) {                       // papier peint à motifs damassés
@@ -24,6 +25,11 @@ function rueSalon(c, x, y, w, h, t, file) {             // la rue derrière la f
   // façade d'en face : boutique avec auvent rayé
   F(c, poly([[x, y + 60], [x + w, y + 60], [x + w, y + h], [x, y + h]]), '#c8835a', 2);
   for (let r = 0; r < 2; r++) for (let q = 0; q < 4; q++) F(c, poly([[x + 14 + q * 56, y + 72 + r * 40], [x + 44 + q * 56, y + 72 + r * 40], [x + 44 + q * 56, y + 100 + r * 40], [x + 14 + q * 56, y + 100 + r * 40]]), (q + r) % 3 ? '#f6e0a8' : '#5a3a2a', 1.5);
+  if (THEME().rue === 'affiches') {                                     // le mur d'en face : trois affiches identiques
+    F(c, poly([[x, y + 150], [x + w, y + 150], [x + w, y + h - 14], [x, y + h - 14]]), '#b07a5a', 2);
+    for (let k = 0; k < 3; k++) afficheVainqueurs(c, x + 40 + k * 72, y + 170, .42, true);
+    F(c, poly([[x, y + h - 14], [x + w, y + h - 14], [x + w, y + h], [x, y + h]]), '#9a8a78', 1.5); return;
+  }
   const ay = y + 160; for (let k = 0; k < 8; k++) F(c, poly([[x + k * w / 8, ay], [x + (k + 1) * w / 8, ay], [x + (k + 1) * w / 8 + 4, ay + 26], [x + k * w / 8 + 4, ay + 26]]), k % 2 ? '#f2ead8' : '#b8341c', 1.5);
   F(c, poly([[x + 20, ay + 30], [x + w - 20, ay + 30], [x + w - 20, y + h - 14], [x + 20, y + h - 14]]), '#3a2a22', 2);   // vitrine sombre
   c.fillStyle = 'rgba(255,230,170,.5)'; c.fillRect(x + 30, ay + 40, w - 60, 40);
@@ -115,6 +121,18 @@ function tapisPersan(c, cx, cy, rx, ry) {                     // tapis persan en
   for (const [u, v] of [[-.7, -.4], [.7, -.4], [-.7, .4], [.7, .4]]) { const [a, b] = p(u, v); F(c, ell(a, b, 20, 9), SL.tapis3, 1.5); F(c, ell(a, b, 9, 4), '#c04a30', 1); }
   ink(c, 1.4, SL.creme); for (const sd of [-1, 1]) for (let k = 0; k < 22; k++) { const [a, b] = p(sd * 1, -1 + k * .095); c.beginPath(); c.moveTo(a, b); c.lineTo(a + sd * 10, b); c.stroke(); }
 }
+function ardoiseMur(c, x, y) {                                // ardoise encadrée (le renard y écrit à la craie)
+  F(c, poly([[x - 12, y - 12], [x + 172, y - 12], [x + 172, y + 222], [x - 12, y + 222]]), SL.bois3, 4);
+  const b = poly([[x, y], [x + 160, y], [x + 160, y + 210], [x, y + 210]]); F(c, b, '#26302c', 3);
+  c.save(); c.clip(b); c.fillStyle = 'rgba(255,255,255,.05)'; for (let k = 0; k < 6; k++) { c.beginPath(); c.ellipse(x + 30 + k * 25, y + 40 + (k % 3) * 60, 30, 12, .3, 0, 7); c.fill(); } c.restore();   // traces effacées
+  F(c, poly([[x - 4, y + 222], [x + 164, y + 222], [x + 164, y + 232], [x - 4, y + 232]]), SL.bois2, 2); F(c, poly([[x + 120, y + 216], [x + 140, y + 216], [x + 140, y + 222], [x + 120, y + 222]]), '#f4f0e6', 1);   // craie
+}
+const ARDOISE = [70, 96, 160, 210];
+function craie(c, pts, u, w = 4) {                             // trait de craie progressif (u 0→1)
+  if (u <= 0) return; const n = Math.max(2, Math.ceil(pts.length * u)); ink(c, w, 'rgba(244,240,228,.92)'); c.beginPath(); c.moveTo(...pts[0]);
+  for (let i = 1; i < n; i++) c.lineTo(...pts[Math.min(i, pts.length - 1)]); c.stroke();
+}
+function texteCraie(c, txt, x, y, u, taille = 22) { if (u <= 0) return; c.save(); c.font = `bold ${taille}px Georgia`; c.fillStyle = 'rgba(244,240,228,.92)'; c.textAlign = 'center'; c.fillText(txt.slice(0, Math.ceil(txt.length * Math.min(1, u))), x, y); c.restore(); }
 function affiche(c, x, y) {                                   // affiche de boutique : trois personnes avec le même chapeau
   cadre(c, x, y, 150, 200, (c) => {
     c.fillStyle = '#f0dcae'; c.fillRect(x, y, 150, 200);
@@ -178,7 +196,7 @@ function fondSalon() {
   ink(c, 4); c.beginPath(); c.moveTo(0, 640); c.lineTo(W, 640); c.stroke();
   tapisPersan(c, 540, 726, 330, 62);
   // murs : affiche, cadres, horloge (dynamique), miroir
-  affiche(c, ...SALON.affiche);
+  if (THEME().mur === 'ardoise') ardoiseMur(c, ...SALON.affiche); else affiche(c, ...SALON.affiche);
   cadre(c, 430, 70, 80, 60, (c) => { const g = c.createLinearGradient(0, 70, 0, 130); g.addColorStop(0, '#f2c27a'); g.addColorStop(1, '#6a9aa0'); c.fillStyle = g; c.fillRect(430, 70, 80, 60); F(c, poly([[430, 130], [455, 96], [478, 116], [510, 88], [510, 130]]), '#3a5a4a', 1.5); F(c, ell(492, 84, 7, 7), '#fff0c0', 0); });
   cadre(c, 250, 300, 60, 76, (c) => { c.fillStyle = '#e8d8b8'; c.fillRect(250, 300, 60, 76); F(c, ell(280, 328, 13, 15), '#8a6a5a', 1); F(c, poly([[258, 376], [302, 376], [296, 352], [264, 352]]), '#5a4a3a', 1); });
   miroir(c, ...SALON.miroir, 0);
@@ -202,4 +220,19 @@ function salon(c, t, o = {}) {
   c.fillStyle = 'rgba(255,236,190,.45)';
   for (let k = 0; k < 16; k++) { const x = (hash(k) * 760 + t * 7 * (hash(k + 3) - .3)) % 760 + 160, y = 120 + (hash(k + 9) * 400 + t * 5) % 400; c.beginPath(); c.arc(x, y, 1.1 + hash(k + 5), 0, 7); c.fill(); }
   return rect;
+}
+
+// l'affiche de l'épisode « La répétition » : « LA BOISSON DES VAINQUEURS ! » (couleur ou N&B selon le contexte)
+function afficheVainqueurs(c, x, y, s, couleur = false) {
+  c.save(); c.translate(x, y); c.scale(s, s);
+  const R = couleur ? '#c8341c' : '#2a2826', J = couleur ? '#f2c240' : '#d8d4ca', B = couleur ? '#f4ead2' : '#f4f2ec';
+  F(c, poly([[-75, 0], [75, 0], [75, 200], [-75, 200]]), B, 3);
+  F(c, poly([[-75, 0], [75, 0], [75, 44], [-75, 44]]), R, 2);
+  for (let k = 0; k < 12; k++) { const a = -Math.PI + k * Math.PI / 11; ink(c, 6, J); c.beginPath(); c.moveTo(0, 130); c.lineTo(Math.cos(a) * 90, 130 + Math.sin(a) * 70); c.stroke(); }   // rayons de gloire
+  c.save(); c.beginPath(); c.rect(-75, 44, 150, 156); c.clip(); F(c, ell(0, 130, 40, 40), J, 2); c.restore();
+  F(c, smooth([[-14, 190], [-16, 120], [-8, 100], [-8, 80], [8, 80], [8, 100], [16, 120], [14, 190]]), R, 3);   // bouteille
+  F(c, poly([[-12, 130], [12, 130], [12, 160], [-12, 160]]), B, 1.5); F(c, poly([[-6, 72], [6, 72], [6, 80], [-6, 80]]), J, 1.5);
+  for (const sd of [-1, 1]) { ink(c, 5, R); c.beginPath(); c.moveTo(sd * 40, 190); c.lineTo(sd * 46, 140); c.lineTo(sd * 62, 100); c.stroke(); F(c, ell(sd * 46, 128, 8, 9), J, 1.5); }   // vainqueurs aux bras levés
+  c.font = 'bold 15px Georgia'; c.textAlign = 'center'; c.fillStyle = B; c.fillText('LA BOISSON', 0, 19); c.fillText('DES VAINQUEURS !', 0, 37);
+  c.restore();
 }

@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Renard, tu as lu cette alerte ?"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "J’ai lu le titre. Pas encore les faits."
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais la photo fait vraiment peur !"
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "La peur peut courir plus vite que l’information."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Regardons comment naît une rumeur."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Dans ce village, tout commence par un bruit."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Une porte claque dans la nuit."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "passant",
+  "pause": 0.5,
+  "text": "J’ai entendu quelque chose près de l’entrepôt !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Il raconte un bruit, pas une menace."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "figurante",
+  "pause": 0.5,
+  "text": "On dit qu’il y a du danger là-bas."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le bruit devient une histoire plus inquiétante."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "L’imagination remplit les blancs."
+ },
+ {
+  "id": "s08a",
+  "plan": 13,
+  "scene": 8,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Personne n’a vu ce monstre !"
+ },
+ {
+  "id": "s08b",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Exact. Il faut distinguer vu, entendu et supposé."
+ },
+ {
+  "id": "s09a",
+  "plan": 15,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "La panique se partage par imitation."
+ },
+ {
+  "id": "s09b",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Chaque récit grossit un peu le précédent."
+ },
+ {
+  "id": "s10a",
+  "plan": 17,
+  "scene": 10,
+  "who": "figurante",
+  "pause": 0.5,
+  "text": "Vite, fermez tout !"
+ },
+ {
+  "id": "s10b",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "L’auteur du premier récit est lui-même surpris."
+ },
+ {
+  "id": "s11a",
+  "plan": 19,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "On vérifie ensemble, sans se précipiter ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 20,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Oui, mais sans prendre de risque inutile."
+ },
+ {
+  "id": "s12a",
+  "plan": 21,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "Le bruit vient d’une charnière mal fixée."
+ },
+ {
+  "id": "s12b",
+  "plan": 22,
+  "scene": 12,
+  "who": "mouton",
+  "pause": 0.4,
+  "text": "Le dessin était bien plus effrayant que la réalité."
+ },
+ {
+  "id": "s13a",
+  "plan": 23,
+  "scene": 13,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "Une vérification transforme toute l’histoire."
+ },
+ {
+  "id": "s13b",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Tu avais entendu juste. L’explication était incertaine."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les faits reprennent leur place."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Maintenant, je cherche qui confirme l’alerte."
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Et quand c’est sérieux, on suit les sources fiables."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Une image impressionnante ne suffit pas."
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "La peur mérite des faits, pas des échos."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+ }
+]
