@@ -11,3 +11,6 @@ recompense/travail/
 echo/travail/
 indignation/travail/
 travail_fin_serie.log
+*.tmp.wav
+*.n.mp3
+*.t.mp3
