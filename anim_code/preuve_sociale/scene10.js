@@ -1,5 +1,5 @@
 // SCÈNE 10 — Plan 17 (salon). Dans le poste, la cliente se retourne vers ses voisins, la mine dépitée. Le mouton : « Elle ne l'aime même pas ! »
-const A = L.s10a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 1.2);
+const A = L.s10a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 0.54);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const tq = step(t), R = renardBase(t), M = voix(moutonBase(t), ['s10a'], t), la = t - A[0];

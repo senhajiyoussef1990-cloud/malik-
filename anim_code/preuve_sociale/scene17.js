@@ -1,5 +1,5 @@
 // SCÈNE 17 — Plan 30. Le poste se rallume sur le logo ; la voix du téléviseur : « Arrête de suivre le troupeau. Suis le renard… et pense par toi-même ! »
-const A = L.s17a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 2.0);
+const A = L.s17a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 0.9);
 function logo(cc, t) {
   cc.fillStyle = GRIS.noir; cc.fillRect(0, 0, W, H);
   for (let k = 0; k < 24; k++) { const a = k * Math.PI / 12 + t * .15; cc.fillStyle = k % 2 ? 'rgba(255,255,255,.07)' : 'rgba(0,0,0,0)'; cc.beginPath(); cc.moveTo(540, 405); cc.arc(540, 405, 900, a, a + Math.PI / 12); cc.fill(); }   // rayons

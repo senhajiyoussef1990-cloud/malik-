@@ -1,6 +1,6 @@
 // SCÈNE 06 — Plan 11 (salon). Dans le poste, une nouvelle arrivante se met en rang sans même regarder l'objet.
 // Le mouton désigne l'écran, perplexe (s06a).
-const A = L.s06a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 1.1);
+const A = L.s06a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 0.5);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const tq = step(t), R = renardBase(t), M = voix(moutonBase(t), ['s06a'], t), la = t - A[0];

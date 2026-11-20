@@ -1,6 +1,6 @@
 // SCÈNE 16 — Plans 26-29 (salon). s16a : il pose doucement le chapeau et sourit. s16b : le renard ouvre la main vers lui.
 // s16c : il l'essaie avec assurance. s16d : « Un groupe peut inspirer. Il ne doit pas décider. » — la lumière de la télé s'éteint.
-const A = L.s16a, B = L.s16b, C = L.s16c, Dd = L.s16d, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : Dd[0] + Dd[1] + 1.4);
+const A = L.s16a, B = L.s16b, C = L.s16c, Dd = L.s16d, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : Dd[0] + Dd[1] + 0.63);
 const GUER = [580, 700];                                                   // petit guéridon
 function gueridon(c) { const [x, y] = GUER; F(c, ell(x, y - 120, 70, 16), SALON_BOIS(), 4); F(c, ell(x, y - 126, 70, 16), '#9c5a2c', 4); F(c, poly([[x - 6, y - 116], [x + 6, y - 116], [x + 8, y - 8], [x - 8, y - 8]]), '#5a2e14', 3); for (const sd of [-1, 0, 1]) F(c, smooth([[x, y - 20], [x + sd * 40, y - 4], [x + sd * 46, y + 4]]), '#5a2e14', 3); }
 function SALON_BOIS() { return '#7a4220'; }

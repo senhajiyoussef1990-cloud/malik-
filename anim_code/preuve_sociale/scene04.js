@@ -1,6 +1,6 @@
 // SCÈNE 04 — Plans 06-08 (TV, N&B). s04a : la ville imaginaire, le marchand installe son chapeau.
 // s04b : personne ne s'y intéresse ; il époussette le présentoir désert. s04c : un passant hésite, hausse les épaules et s'en va.
-const A = L.s04a, B = L.s04b, C = L.s04c, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : C[0] + C[1] + 1.0);
+const A = L.s04a, B = L.s04b, C = L.s04c, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : C[0] + C[1] + 0.45);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   enNoirEtBlanc(c, t, (cc) => {

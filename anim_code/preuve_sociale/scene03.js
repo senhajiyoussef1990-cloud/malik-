@@ -1,7 +1,7 @@
 // SCÈNE 03 — Plan 05. « Entrons dans cette drôle de boutique. » Le renard tourne le bouton du poste ; halo de l'écran ;
 // la caméra plonge dans l'image.
 const T1 = L.s03a[0], D1 = L.s03a[1];
-const ZD = 1.5, T_ON = T1 + D1 * .55, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : T1 + D1 + .4 + ZD + .05), Z0 = DUREE - ZD - .05;
+const ZD = 1.0, T_ON = T1 + D1 * .55, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : T1 + D1 + .4 + ZD + 0.45), Z0 = DUREE - ZD - .05;
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const tq = step(t), R = voix(renardBase(t), ['s03a'], t), M = moutonBase(t), la = t - T1;

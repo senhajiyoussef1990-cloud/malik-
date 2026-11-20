@@ -1,6 +1,6 @@
 // SCÈNE 09 — Plans 14-16 (TV). s09a : le marchand accroche « LE CHAPEAU DE L'ANNÉE ! » en souriant (l'étiquette arrive après l'engouement).
 // s09b : gros plan sur les visages : les regards se croisent, une tête acquiesce. s09c : la cliente essaie le chapeau, lève et baisse le bord.
-const A = L.s09a, B = L.s09b, C = L.s09c, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : C[0] + C[1] + 1.0);
+const A = L.s09a, B = L.s09b, C = L.s09c, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : C[0] + C[1] + 0.45);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   enNoirEtBlanc(c, t, (cc) => {

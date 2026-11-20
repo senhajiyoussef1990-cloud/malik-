@@ -1,7 +1,7 @@
 // SCÈNE 01 — Plans 01-02. Le mouton regarde l'affiche « LA MODE ! » ; le renard la désigne (s01a).
 // Le mouton file au miroir, pose le chapeau improbable sur sa tête, fier… puis doute (s01b).
 const T1 = L.s01a[0], D1 = L.s01a[1], T2 = L.s01b[0], D2 = L.s01b[1];
-const DUREE = (typeof GRILLE !== "undefined" ? GRILLE : T2 + D2 + 1.2);
+const DUREE = (typeof GRILLE !== "undefined" ? GRILLE : T2 + D2 + 0.54);
 const X_AFF = 215, X_MIR = 640;
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);

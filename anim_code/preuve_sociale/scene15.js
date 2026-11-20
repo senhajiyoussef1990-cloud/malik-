@@ -1,6 +1,6 @@
 // SCÈNE 15 — Plan 25 (TV → salon). « Le spectacle se termine. Le choix lui appartient. » La rue se vide ;
 // un seul passant reste, son chapeau à la main, pensif. Zoom arrière jusqu'au salon coloré.
-const A = L.s15a, ZD = 1.2, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + .2 + ZD + 1.0), Z0 = Math.min(A[0] + A[1] + .15, DUREE - ZD - .4);
+const A = L.s15a, ZD = 1.0, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + .2 + ZD + 0.45), Z0 = Math.min(A[0] + A[1] + .15, DUREE - ZD - .4);
 function scene(cc, t) {
   const v = ease(seg(t, .3, A[0] + A[1]));
   chapellerieNB(cc, t, { panneau: 1 - v, vedette: false, spot: .3 });

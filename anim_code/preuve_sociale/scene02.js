@@ -1,7 +1,7 @@
 // SCÈNE 02 — Plans 03-04. Le renard, main sur la hanche, lève un sourcil (s02a) ; le mouton tient le chapeau à deux mains,
 // puis court à la fenêtre : dehors, une file s'allonge devant une vitrine (s02b).
 const T1 = L.s02a[0], D1 = L.s02a[1], T2 = L.s02b[0], D2 = L.s02b[1];
-const DUREE = (typeof GRILLE !== "undefined" ? GRILLE : T2 + D2 + 1.2);
+const DUREE = (typeof GRILLE !== "undefined" ? GRILLE : T2 + D2 + 0.54);
 const X_FEN = 745;
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);

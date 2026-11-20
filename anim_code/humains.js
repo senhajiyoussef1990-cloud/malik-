@@ -291,7 +291,7 @@ function apres(id, t, d = 0) { const l = L[id]; return !!l && t >= l[0] + d; }
 function local(id, t) { const l = L[id]; return l ? t - l[0] : -1; }
 function cam(c, t, keys) {
   let k = keys[0];
-  for (let i = 1; i < keys.length; i++) { const a = keys[i - 1], b = keys[i]; if (t >= b[0]) { k = b; continue; } const u = ease((t - a[0]) / Math.min(1.2, Math.max(.01, b[0] - a[0]))); k = [0, lerp(a[1], b[1], u), lerp(a[2], b[2], u), lerp(a[3], b[3], u)]; break; }
+  for (let i = 1; i < keys.length; i++) { const a = keys[i - 1], b = keys[i]; if (t >= b[0]) { k = b; continue; } const u = ease((t - a[0]) / Math.min(.6, Math.max(.01, b[0] - a[0]))); k = [0, lerp(a[1], b[1], u), lerp(a[2], b[2], u), lerp(a[3], b[3], u)]; break; }
   let [, cx, cy, z] = k; z = Math.max(1, z); cx = clamp(cx, W / (2 * z), W - W / (2 * z)); cy = clamp(cy, H / (2 * z), H - H / (2 * z));
   c.translate(W / 2, H / 2); c.scale(z, z); c.translate(-cx, -cy);
 }

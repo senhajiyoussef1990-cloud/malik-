@@ -10,8 +10,8 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
   // répliques de la scène, enchaînées avec une petite pause ; enveloppe de bouche à 30 i/s
   const lignes = JSON.parse(fs.readFileSync(path.join(EP, 'lignes.json'))).filter(l => l.scene === +num);
   // grille du PDF : un plan = 5 s, chaque réplique démarre au début de son plan
-  const grille = lignes.length && lignes.every(l => l.plan), p0 = grille ? Math.min(...lignes.map(l => l.plan)) : 0;
-  const L = {}, BOUCHE = {}; let t = 0.5;
+  const grille = process.env.GRILLE === '1' && lignes.every(l => l.plan), p0 = grille ? Math.min(...lignes.map(l => l.plan)) : 0;
+  const L = {}, BOUCHE = {}; let t = 0.3;
   for (const l of lignes) {
     const f = path.join(VOIX, l.id + '.mp3'), d = dur(f); if (grille) t = (l.plan - p0) * 5 + 0.35; L[l.id] = [t, d, l.who]; t += d + (l.pause ?? .5);
     const raw = execFileSync('ffmpeg', ['-v', 'error', '-i', f, '-f', 's16le', '-ac', '1', '-ar', '24000', '-']);

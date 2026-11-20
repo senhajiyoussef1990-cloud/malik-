@@ -4,7 +4,7 @@ const FIN = (extra = 1.4) => Math.max(...Object.values(L).map(l => l[0] + l[1]))
 const POS = { renard: [400, 770, .6], mouton: [660, 790, .56] };
 function renardBase(t) { const tq = step(t); return { x: POS.renard[0], y: POS.renard[1], s: POS.renard[2], t: tq, lid: .5, look: [.7, 0], blink: (t % 3.4) < .1 ? 1 : 0, tilt: wob(tq, .35, .035), handL: [-104, -440], handR: [104, -440], bob: bnc(tq, .5) * 2.5 }; }
 function moutonBase(t) { const tq = step(t); return { x: POS.mouton[0], y: POS.mouton[1], s: POS.mouton[2], t: tq, face: -1, look: [-.7, 0], blink: (t % 2.9) < .1 ? 1 : 0, froncer: .5, sourire: .2, handL: [-104, -366], handR: [104, -366], bob: bnc(tq, .25) * 3 }; }
-function voix(P, ids, t) { for (const id of ids) if (parle(id, t)) { P.talk = bouchePour(id, L[id][0], t); P.bob = Math.max(P.bob, bnc(step(t), .5) * 7); } return P; }
+function voix(P, ids, t) { for (const id of ids) if (parle(id, t)) { const tq = step(t), e = bouchePour(id, L[id][0], t); P.talk = e; P.bob = Math.max(P.bob, bnc(tq, .5) * 11 + e * 6); P.tilt = (P.tilt || 0) + wob(tq, 1.9, .06) + e * .03; P.sourcil = Math.max(P.sourcil || 0, e * .8); } return P; }
 // main du personnage en coordonnées de la scène (pour lui faire tenir un objet)
 function mainScene(P, cote) { const h = cote > 0 ? P.handR : P.handL, f = P.face || 1; return [P.x + h[0] * P.s * f, P.y - (P.bob || 0) + (h[1] + 40) * P.s]; }
 const CHAP_TETE = (rot = -.05) => (c, hy) => chapeauMode(c, 0, hy - 62, 1.05, rot);

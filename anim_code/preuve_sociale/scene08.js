@@ -1,5 +1,5 @@
 // SCÈNE 08 — Plan 13 (salon). « Une file n'est pas une preuve de qualité. » Le renard montre l'écran : la file cache la vitrine.
-const A = L.s08a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 1.2);
+const A = L.s08a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 0.54);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const tq = step(t), R = voix(renardBase(t), ['s08a'], t), M = moutonBase(t), la = t - A[0];

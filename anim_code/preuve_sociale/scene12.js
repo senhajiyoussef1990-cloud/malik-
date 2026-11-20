@@ -1,5 +1,5 @@
 // SCÈNE 12 — Plan 22 (salon). « Et si je regardais ce qu'il vaut vraiment ? » Le mouton retourne le chapeau et inspecte l'intérieur.
-const A = L.s12a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 1.4);
+const A = L.s12a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 0.63);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const tq = step(t), R = renardBase(t), M = voix(moutonBase(t), ['s12a'], t), la = t - A[0];
