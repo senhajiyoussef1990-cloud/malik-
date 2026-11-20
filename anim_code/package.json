@@ -1,0 +1,6 @@
+{
+  "name": "ne-suis-pas-les-moutons-animation",
+  "private": true,
+  "description": "Rendu des scènes du dessin animé (Canvas dans Chromium piloté par Playwright).",
+  "dependencies": { "playwright": "1.63.0" }
+}

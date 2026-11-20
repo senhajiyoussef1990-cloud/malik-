@@ -38,6 +38,15 @@ imprévisible, chambre d'écho, indignation).
 | 08 | La récompense imprévisible | `recompense/` | `anim_code/recompense/` | en fabrication |
 | 09 | La chambre d'écho | `echo/` | `anim_code/echo/` | en fabrication |
 | 10 | La colère contagieuse | `indignation/` | `anim_code/indignation/` | en fabrication |
+| 11 | Le mythe du bacon (Bernays, 1925) | `bacon/` | `anim_code/bacon/` | scènes prêtes, voix en cours |
+| 12 | Le jus d'orange du matin (Californie, 1910) | `orange/` | `anim_code/orange/` | scènes prêtes |
+| 13 | Le saumon des sushis (Norvège/Japon, 1986) | `saumon/` | `anim_code/saumon/` | scènes prêtes |
+| 14 | Le diamant éternel (New York, 1938-1947) | `diamant/` | `anim_code/diamant/` | scènes prêtes |
+
+La suite : les 50 sujets de `SUJETS_50_EPISODES.md` (histoires vraies du livre *Influencer les masses*). Les épisodes 11 à 14 sont
+les meilleurs modèles : même structure, un salon avec une **table** (petit-déjeuner, sushis, écrin…), une histoire vraie dans la télé,
+des personnages nommés (`who` : `charcutier`, `bernays`, `producteur`, `cheffe`… déclarés dans `outils_commun/prises.py` → `JEU`
+et dans `<ep>/outils/montage.py` → `NOMS`).
 
 (L'ancien `ep04/` est une première version obsolète faite avec un autre procédé ; ne pas l'utiliser.)
 
@@ -148,7 +157,24 @@ Outils utiles : `renardBase(t)`, `moutonBase(t)`, `voix(P, ids, t)`, `dessineSal
 
 ---
 
-## 5. Installer l'environnement (sur un ordinateur ou un serveur)
+## 5. Fabriquer les vidéos directement sur GitHub (GitHub Actions)
+
+Le dépôt contient `.github/workflows/episode.yml` : un serveur de GitHub installe tout et fabrique l'épisode, sans ordinateur.
+1. Onglet **Actions** du dépôt → **Fabriquer un épisode** → **Run workflow**.
+2. Choisir la branche `claude/wonderful-sagan-3cr70a`, remplir : dossier (`bacon`), nom de sortie (`EP11_Le_mythe_du_bacon`),
+   badge, titre, sous-titre, accroche, et l'étape : `voix`, `video` ou `tout`.
+3. **voix** génère les voix et les enregistre dans la branche (`<ep>/voix/*.mp3`) ; **video** rend les 16 scènes en HD, monte, fait
+   la story et le zip. À la fin, le zip se télécharge en bas de la page de l'exécution, rubrique **Artifacts**.
+
+À savoir :
+- Le bouton « Run workflow » n'apparaît que si le fichier du workflow existe aussi sur la branche par défaut (`main`) :
+  fusionner la branche dans `main` (ou au moins y copier `.github/workflows/episode.yml`).
+- Les voix sont longues sur les serveurs gratuits (plusieurs heures, limite de 6 h par étape) : lancer d'abord `voix`, puis `video`.
+- Dépôt privé : GitHub offre un quota de minutes gratuites par mois ; un épisode complet en consomme une bonne partie.
+- ChatGPT (avec le connecteur GitHub) peut écrire les fichiers d'un nouvel épisode dans la branche ; la fabrication se lance ensuite
+  depuis l'onglet Actions (ou par ChatGPT s'il a la permission de lancer les workflows).
+
+## 6. Installer l'environnement (sur un ordinateur ou un serveur)
 
 Le rendu et les voix demandent une vraie machine (Linux ou macOS ; 4 cœurs ou plus ; ~10 Go libres). Le bac à sable
 de ChatGPT peut lire et modifier le code, mais ne peut généralement pas lancer Chromium ni les modèles de voix : dans ce
@@ -164,12 +190,13 @@ pip install pillow numpy scipy noisereduce faster-whisper
 # voix : Chatterbox multilingue, dans un environnement séparé
 python3 -m venv ~/venvs/cb && ~/venvs/cb/bin/pip install chatterbox-tts torch torchaudio
 ```
-Les scripts utilisent les chemins `/home/user/malik-` et `/root/venvs/cb/bin/python` : les adapter (rechercher-remplacer)
-à l'emplacement du dépôt et de l'environnement sur la nouvelle machine.
+Plus simple : `sh outils_commun/installer.sh` installe tout (Ubuntu). Les scripts `episode.sh` et `voix_episodes.sh` trouvent seuls
+la racine du dépôt ; indiquer le Python des voix avec `export CB_PY=<chemin>/.venv-voix/bin/python` et mettre
+`.venv-outils/bin` en tête du `PATH`.
 
 ---
 
-## 6. Message à coller dans ChatGPT pour démarrer
+## 7. Message à coller dans ChatGPT pour démarrer
 
 > Tu reprends la production de ma série de dessins animés « Ne suis pas les moutons ». Tout est dans mon dépôt GitHub
 > `senhajiyoussef1990-cloud/malik-`, branche `claude/wonderful-sagan-3cr70a`. Commence par lire `GUIDE_CHATGPT.md`

@@ -25,3 +25,6 @@ travail_file_voix.log
 saumon/travail/
 travail_file_voix*.log
 diamant/travail/
+.venv-outils/
+.venv-voix/
+anim_code/node_modules/

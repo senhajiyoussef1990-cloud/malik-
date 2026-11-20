@@ -1,0 +1,82 @@
+# Fabrique un épisode de « Ne suis pas les moutons » directement sur GitHub.
+# Onglet « Actions » → « Fabriquer un épisode » → « Run workflow », puis remplir les champs.
+#  - étape « voix »  : génère les voix (Chatterbox) et les enregistre dans la branche (<épisode>/voix/*.mp3)
+#  - étape « video » : rend les 16 scènes en haute définition, fait le montage, la story et le zip (à télécharger dans « Artifacts »)
+#  - étape « tout »  : les deux à la suite
+name: Fabriquer un épisode
+on:
+  workflow_dispatch:
+    inputs:
+      episode:   { description: "Dossier de l'épisode (ex. bacon, orange, saumon, diamant)", required: true, default: bacon }
+      nom:       { description: "Nom du fichier de sortie (ex. EP11_Le_mythe_du_bacon)", required: true, default: EP11_Le_mythe_du_bacon }
+      badge:     { description: "Badge (ex. ÉPISODE 11)", required: true, default: "ÉPISODE 11" }
+      titre:     { description: "Titre", required: true, default: "LE MYTHE DU BACON" }
+      sous_titre: { description: "Sous-titre", required: true, default: "« Les médecins recommandent… »" }
+      accroche:  { description: "Accroche de la story", required: true, default: "Le bacon du matin… une pub ?" }
+      etape:
+        description: "Étape à lancer"
+        type: choice
+        options: [tout, voix, video]
+        default: tout
+permissions:
+  contents: write
+jobs:
+  voix:
+    if: inputs.etape != 'video'
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installer ffmpeg et Python
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Installer les outils de voix
+        run: |
+          python3 -m venv .venv-voix && .venv-voix/bin/pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu && .venv-voix/bin/pip install -q chatterbox-tts==0.1.7
+          python3 -m venv .venv-outils && .venv-outils/bin/pip install -q faster-whisper==1.2.1 noisereduce==3.0.3 pillow numpy scipy
+      - name: Générer, choisir et nettoyer les voix
+        run: |
+          export PATH="$PWD/.venv-outils/bin:$PATH" CB_PY="$PWD/.venv-voix/bin/python"
+          sh outils_commun/voix_episodes.sh "${{ inputs.episode }}"
+          cat "${{ inputs.episode }}/travail/choix_voix.txt" || true
+      - name: Enregistrer les voix dans la branche
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.episode }}/voix/"*.mp3
+          git commit -m "Voix de l'épisode ${{ inputs.episode }} (GitHub Actions)" || echo "rien de nouveau"
+          git pull --rebase && git push
+      - uses: actions/upload-artifact@v4
+        with: { name: "verification-voix-${{ inputs.episode }}", path: "${{ inputs.episode }}/travail/choix_voix.txt", if-no-files-found: ignore }
+  video:
+    needs: voix
+    if: always() && inputs.etape != 'voix' && (needs.voix.result == 'success' || needs.voix.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.ref }}" }
+      - name: Récupérer les dernières voix
+        run: git pull --ff-only || true
+      - name: Installer ffmpeg, polices, Playwright et Python
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg zip fonts-dejavu fonts-liberation
+          cd anim_code && npm install --no-audit --no-fund && npx playwright install --with-deps chromium && cd ..
+          python3 -m venv .venv-outils && .venv-outils/bin/pip install -q faster-whisper==1.2.1 noisereduce==3.0.3 pillow numpy scipy
+      - name: Rendu HD + montage + story + zip
+        run: |
+          export PATH="$PWD/.venv-outils/bin:$PATH"
+          sh outils_commun/episode.sh "${{ inputs.episode }}" "${{ inputs.nom }}" "${{ inputs.badge }}" "${{ inputs.titre }}" "${{ inputs.sous_titre }}" "${{ inputs.accroche }}"
+          ls -la "${{ inputs.episode }}/sortie/"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "${{ inputs.nom }}"
+          path: |
+            ${{ inputs.episode }}/sortie/${{ inputs.nom }}.zip
+            ${{ inputs.episode }}/sortie/${{ inputs.nom }}_sans_sous_titres.mp4
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: "journaux-${{ inputs.episode }}"
+          if-no-files-found: ignore
+          path: |
+            anim_code/travail/*.log
+            ${{ inputs.episode }}/travail/*.log
