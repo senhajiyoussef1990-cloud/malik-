@@ -144,7 +144,7 @@ def video(subs, out):
     vf += f";[v3]ass={P('travail/sous_titres.ass')}:fontsdir={P('fonts')}[v]" if subs else ";[v3]null[v]"
     run(["ffmpeg", "-y", "-v", "error", "-i", P("travail/bande.mp4"), "-loop", "1", "-i", P("travail/calque.png"),
          "-loop", "1", "-i", P("travail/carton.png"), "-i", P("travail/mix.wav"), "-filter_complex", vf,
-         "-map", "[v]", "-map", "3:a", "-t", f"{TOTAL:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "24",
+         "-map", "[v]", "-map", "3:a", "-t", f"{TOTAL:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "17",
          "-maxrate", "4500k", "-bufsize", "9M", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",
          "-movflags", "+faststart", out])
 

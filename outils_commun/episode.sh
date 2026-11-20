@@ -3,7 +3,7 @@
 # usage : sh episode.sh <dossier> <NOM_SORTIE> <badge> <titre> <sous-titre> <accroche>
 EP=$1; NOM=$2; A=/home/user/malik-/anim_code; E=/home/user/malik-/$EP; N=$(echo $EP | tr a-z A-Z); LOG=$A/travail/${EP}_rendu.log
 cd $E && HF_HUB_DISABLE_XET=1 python3 outils/minutage.py > travail/minutage.log 2>&1 || exit 1
-cd $A && export STYLE=1 DESSIN=1 && ls $EP/scene*.js | sed "s/.*scene\([0-9]*\).js/\1/" | grep -E "${SCENES:-.}" | xargs -P 3 -I{} node rendu_scene.js $EP {} > $LOG 2>&1
+cd $A && export STYLE=1 DESSIN=1 HD=2 && ls $EP/scene*.js | sed "s/.*scene\([0-9]*\).js/\1/" | grep -E "${SCENES:-.}" | xargs -P 3 -I{} node rendu_scene.js $EP {} > $LOG 2>&1
 python3 - "$EP" "$N" <<'PY'
 import json, subprocess, glob, sys
 EP, N = sys.argv[1:3]; A="/home/user/malik-/anim_code"; E=f"/home/user/malik-/{EP}"; plans=[]; t=0.0

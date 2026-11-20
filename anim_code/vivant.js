@@ -82,8 +82,8 @@ function plansDialogue(lignes, pos, large = [540, 405, 1.12]) {
 // rendu « dessin » : le personnage est peint à part, puis entouré d'un seul contour qui « vibre » légèrement, comme tracé à la main
 let _trCv = null, _trC = null;
 function dessinTrace(c, P, f, couleur = INK) {
-  if (!_trCv) { _trCv = document.createElement('canvas'); _trCv.width = c.canvas.width; _trCv.height = c.canvas.height; _trC = _trCv.getContext('2d'); }
-  const m = c.getTransform(); _trC.setTransform(1, 0, 0, 1, 0, 0); _trC.clearRect(0, 0, _trCv.width, _trCv.height); _trC.setTransform(m);
+  if (!_trCv) { _trCv = document.createElement('canvas'); _trCv.width = W; _trCv.height = H; _trC = _trCv.getContext('2d'); }
+  const m = c.getTransform(); _trC.setTransform(1, 0, 0, 1, 0, 0); _trC.clearRect(0, 0, W, H); _trC.setTransform(m);
   _trC.save(); _trC.translate(P.sway || 0, -(P.bob || 0)); _trC.translate(P.x, P.y); _trC.scale(1, 1 + (P.souffle || 0)); _trC.translate(-P.x, -P.y);
   STYLE_DESSIN = true; try { f(_trC, P); } finally { STYLE_DESSIN = false; } _trC.restore();
   if (!P.pasDeLumiere) {                                             // lumière chaude d'un côté, ombre de l'autre, posée seulement sur le personnage
@@ -95,7 +95,7 @@ function dessinTrace(c, P, f, couleur = INK) {
   }
   if (!P.pasDOmbre) { c.save(); const rx = 120 * (P.s || .6), ry = 26 * (P.s || .6), g = c.createRadialGradient(P.x + (P.sway || 0), P.y, 2, P.x + (P.sway || 0), P.y, rx);   // ombre portée au sol
     g.addColorStop(0, 'rgba(20,10,5,.55)'); g.addColorStop(1, 'rgba(20,10,5,0)'); c.translate(P.x + (P.sway || 0), P.y); c.scale(1, ry / rx); c.translate(-(P.x + (P.sway || 0)), -P.y); c.fillStyle = g; c.beginPath(); c.arc(P.x + (P.sway || 0), P.y, rx, 0, 7); c.fill(); c.restore(); }
-  const fr = Math.floor((P.t || 0) * 15), z = Math.hypot(m.a, m.b), d = Math.max(1.2, 2.3 * z * (P.s || .6) / .6) + (hash(fr) - .5) * .5, j = (hash(fr + 7) - .5) * .6;
+  const fr = Math.floor((P.t || 0) * 15), z = Math.hypot(m.a, m.b) * (typeof HD !== 'undefined' ? HD : 1), d = Math.max(1.2, 2.3 * z * (P.s || .6) / .6) + (hash(fr) - .5) * .5, j = (hash(fr + 7) - .5) * .6;
   c.save(); c.setTransform(1, 0, 0, 1, 0, 0);
   c.filter = `drop-shadow(${d + j}px 0 0 ${couleur}) drop-shadow(${-d}px ${j}px 0 ${couleur}) drop-shadow(0 ${d}px 0 ${couleur}) drop-shadow(${j}px ${-d}px 0 ${couleur})`;
   c.drawImage(_trCv, 0, 0); c.filter = 'none';
