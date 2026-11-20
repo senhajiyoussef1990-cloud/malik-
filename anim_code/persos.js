@@ -110,6 +110,14 @@ function main(c, x, y, ang, s, col, griffes = false, pose = 'repos', cote = 1) {
     }
     if (pose === 'pointe') doigt(-12, 34, -.02, L0[0] * 1.08, wd, .02);
     doigt(-15, 26, -1.25, 23 * k, wd * 1.08, .18);              // pouce replié en travers des doigts
+  } else if (pose === 'repos') {
+    // main qui pend le long du corps, vue de profil : dos de la main vers l'extérieur, doigts repliés vers la cuisse, pouce devant
+    const kk = R ? 1.08 : 1, ep = R ? 1 : 1.12;
+    const paumeP = smooth([[-11 * ep, -4], [12 * ep, -4], [17 * ep, 18], [16 * ep, 40], [6, 50], [-12 * ep, 46], [-15 * ep, 22]]);
+    F(c, paumeP, col, EP); c.save(); c.clip(paumeP); ombre(c, paumeP, 18, 0, -16, 0, .26); c.restore();
+    // quatre doigts fins qui s'enroulent vers la cuisse (de l'auriculaire, au fond, à l'index, devant)
+    [[13, 36, 28], [9, 40, 32], [4, 43, 34], [-2, 44, 32]].forEach(([bx, by, Lf], i) => doigt(bx * ep, by, -.32 + i * .04, Lf * k, wd * (R ? .98 : 1.06), .62));
+    doigt(-13 * ep, 10, .22, 30 * k, wd * 1.1, -.05);                    // le pouce, devant, le long du bord
   } else {
     const ouv = pose === 'ouverte';
     const A = ouv ? [.34, .11, -.1, -.3] : [.05, .015, -.02, -.06];
@@ -124,6 +132,15 @@ function main(c, x, y, ang, s, col, griffes = false, pose = 'repos', cote = 1) {
   }
   plis(1.2); c.beginPath(); c.moveTo(-6, 18); c.quadraticCurveTo(0, 22, 7, 17); c.stroke();          // pli du dos de la main
   if (R) { ink(c, 1.3, 'rgba(140,46,10,.55)'); for (let j = 0; j < 5; j++) { const fx = -9 + j * 4.5; c.beginPath(); c.moveTo(fx, 0); c.lineTo(fx + 1.2, 6 + (j % 2) * 2); c.stroke(); } }   // pelage au poignet
+  c.restore();
+}
+function manchette(c, x, y, ang, larg, haut, col, bouton = true) {   // poignet de chemise : bande rectangulaire à bouton, dans l'axe du bras
+  c.save(); c.translate(x, y); c.rotate(ang);
+  const r = 3, p = new Path2D(); p.moveTo(-larg / 2 + r, -haut / 2); p.lineTo(larg / 2 - r, -haut / 2); p.quadraticCurveTo(larg / 2, -haut / 2, larg / 2, -haut / 2 + r); p.lineTo(larg / 2, haut / 2 - r); p.quadraticCurveTo(larg / 2, haut / 2, larg / 2 - r, haut / 2);
+  p.lineTo(-larg / 2 + r, haut / 2); p.quadraticCurveTo(-larg / 2, haut / 2, -larg / 2, haut / 2 - r); p.lineTo(-larg / 2, -haut / 2 + r); p.quadraticCurveTo(-larg / 2, -haut / 2, -larg / 2 + r, -haut / 2); p.closePath();
+  F(c, p, col, 3); c.save(); c.clip(p); ombre(c, p, -larg / 2, 0, larg / 2, 0, .22); c.restore();
+  ink(c, 1.2, 'rgba(60,30,10,.35)'); c.beginPath(); c.moveTo(-larg / 2 + 3, -haut / 2 + 4); c.lineTo(larg / 2 - 3, -haut / 2 + 4); c.stroke();
+  if (bouton) F(c, ell(larg / 2 - 7, 0, 3.2, 3.2), '#e8dcc0', 1.5);
   c.restore();
 }
 function chaussure(c, x, y, dir, col, s = 1) {
@@ -177,7 +194,7 @@ function drawRenard(c, P) {
   const hL = P.handL || [-104, -440], hR = P.handR || [104, -440];
   const sL = [-86, shY + 20], sR = [86, shY + 20];                    // épaules : le haut du bras affleure la ligne des épaules
   main(c, hL[0], hL[1] - 8, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, 1.32, R.main, true, P.poseL || 'repos', -1);
-  tube(c, sL, hL, 14, 40, R.cost); F(c, ell(hL[0], hL[1] - 6, 22, 10, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) + Math.PI / 2), R.chemise, 3);
+  tube(c, sL, hL, 14, 40, R.cost); manchette(c, hL[0], hL[1] - 8, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, 46, 20, R.chemise);
   // veste
   const veste = smooth([[-90, shY + 14], [-58, shY - 8], [-30, shY - 18], [30, shY - 18], [58, shY - 8], [90, shY + 14], [76, -560], [84, -390], [0, -376], [-84, -390], [-76, -560]]);
   F(c, veste, R.cost, 5); rayures(c, veste, R.ray, 16);
@@ -289,7 +306,7 @@ function drawRenard(c, P) {
   c.restore();
   // bras avant
   main(c, hR[0], hR[1] - 8, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, 1.32, R.main, true, P.poseR || 'repos', 1);
-  tube(c, sR, hR, -14, 40, R.cost); F(c, ell(hR[0], hR[1] - 6, 22, 10, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) + Math.PI / 2), R.chemise, 3);
+  tube(c, sR, hR, -14, 40, R.cost); manchette(c, hR[0], hR[1] - 8, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, 46, 20, R.chemise);
   for (let k = 1; k <= 2; k++) F(c, ell(lerp(hR[0], sR[0], .1 * k), lerp(hR[1], sR[1], .1 * k), 4, 4), '#3a1608', 1.5);
   c.restore(); c.restore();
 }
@@ -321,7 +338,7 @@ function drawMouton(c, P) {
   { const a = Math.atan2(hL[1] - sL[1], hL[0] - sL[0]), E = [hL[0] - Math.cos(a) * 30, hL[1] - Math.sin(a) * 30];
     main(c, E[0] + Math.cos(a) * 2, E[1] + Math.sin(a) * 2, a - Math.PI / 2, 1.2, M.main, false, P.poseL || 'repos', -1);   // la main sort de la manche
     tube(c, sL, E, 16, 54, M.chemise);
-    const cf = ell(E[0], E[1], 27, 13, a + Math.PI / 2); F(c, cf, M.chemise, 4); ombre(c, cf, E[0] - 20, E[1], E[0] + 20, E[1], .25); }
+    manchette(c, E[0], E[1], a - Math.PI / 2, 60, 24, M.chemise); }
   // ---- haut du pantalon, chemise, gilet tricoté
   const ht = poly([[-80, -470], [80, -470], [84, -410], [-84, -410]]); F(c, ht, M.pant, 5); chevrons(c, ht, M.pant2, 11);
   const ch = smooth([[-82, shY], [-40, shY - 14], [40, shY - 14], [82, shY], [78, -470], [-78, -470]]); F(c, ch, M.chemise, 5); ombre(c, ch, -40, shY, 80, -470, .2);
@@ -393,6 +410,6 @@ function drawMouton(c, P) {
   { const a = Math.atan2(hR[1] - sR[1], hR[0] - sR[0]), E = [hR[0] - Math.cos(a) * 30, hR[1] - Math.sin(a) * 30];
     main(c, E[0] + Math.cos(a) * 2, E[1] + Math.sin(a) * 2, a - Math.PI / 2, 1.2, M.main, false, P.poseR || 'repos', 1);   // la main sort de la manche
     tube(c, sR, E, -16, 54, M.chemise);
-    const cf = ell(E[0], E[1], 27, 13, a + Math.PI / 2); F(c, cf, M.chemise, 4); ombre(c, cf, E[0] - 20, E[1], E[0] + 20, E[1], .25); }
+    manchette(c, E[0], E[1], a - Math.PI / 2, 60, 24, M.chemise); }
   c.restore(); c.restore();
 }

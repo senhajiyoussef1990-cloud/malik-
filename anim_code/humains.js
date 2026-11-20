@@ -64,7 +64,7 @@ function bras(c, sh, hand, bend, col, pose, w = 30) {
   const a = Math.atan2(hand[1] - sh[1], hand[0] - sh[0]), E = [hand[0] - Math.cos(a) * 18, hand[1] - Math.sin(a) * 18];
   gant(c, E[0] + Math.cos(a) * 2, E[1] + Math.sin(a) * 2, a - Math.PI / 2, 1, pose);
   tube(c, sh, E, bend, w, col);
-  F(c, ell(E[0], E[1], w * .55, 9, a + Math.PI / 2), GRIS.blanc, 3);                                          // manchette blanche
+  manchette(c, E[0], E[1], a - Math.PI / 2, w * 1.15, 14, GRIS.blanc, false);                                   // manchette blanche
 }
 
 // ---------- LE VENDEUR : cheveux gominés, fine moustache, costume rayé, nœud papillon
