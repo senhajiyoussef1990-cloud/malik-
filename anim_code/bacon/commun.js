@@ -103,3 +103,18 @@ function blouseCintre(c, x, y, s, rot = 0) {
   F(c, ell(-50, 70, 9, 9), '#c83a2a', 1.5); ink(c, 3, '#c83a2a'); c.beginPath(); c.moveTo(-56, 70); c.lineTo(-44, 70); c.moveTo(-50, 64); c.lineTo(-50, 76); c.stroke();   // petite croix brodée
   c.restore();
 }
+// la table du petit-déjeuner, entre le renard et le mouton (derrière eux) : bois tourné, nappe blanche brodée
+const TABLE = [530, 770];
+function tablePetitDej(c, o = {}) {
+  const [x, y] = TABLE, top = y - 175;
+  F(c, ell(x, y + 2, 120, 14), 'rgba(40,20,10,.25)', 0);                                        // ombre au sol
+  for (const dx of [-70, 70]) { const p = smooth([[x + dx - 9, top + 20], [x + dx + 9, top + 20], [x + dx * 1.12 + 7, y], [x + dx * 1.12 - 7, y]]); F(c, p, '#7a3e18', 2.5); }
+  const nappe = smooth([[x - 128, top], [x - 60, top - 22], [x + 60, top - 22], [x + 128, top], [x + 134, top + 70], [x + 110, top + 84], [x + 70, top + 76], [x + 30, top + 88], [x - 10, top + 78], [x - 50, top + 90], [x - 90, top + 78], [x - 124, top + 86], [x - 134, top + 70]]);
+  F(c, nappe, '#fbf6ea', 2.5);
+  c.save(); c.clip(nappe); ink(c, 1.4, 'rgba(160,120,80,.35)'); for (let k = -5; k <= 5; k++) { c.beginPath(); c.moveTo(x + k * 24, top + 8); c.quadraticCurveTo(x + k * 26, top + 50, x + k * 25, top + 92); c.stroke(); } c.restore();   // plis
+  ink(c, 2.5, '#c83a2a'); c.setLineDash([5, 5]); c.beginPath(); c.moveTo(x - 126, top + 62); c.quadraticCurveTo(x, top + 84, x + 126, top + 62); c.stroke(); c.setLineDash([]);   // broderie rouge
+  F(c, ell(x, top - 4, 118, 20), '#fffaf0', 2);
+  if (o.assiette) assiette(c, x - 40, top - 8, .34, { fumee: o.t, mange: o.mange || 0 });
+  if (o.tasse) tasse(c, x + 62, top - 2, .38);
+  if (o.cafetiere) { c.save(); c.translate(x + 100, top - 8); F(c, smooth([[-16, 0], [16, 0], [12, -46], [-12, -46]]), '#c8a040', 2.5); F(c, poly([[-12, -36], [-30, -50], [-26, -40]]), '#c8a040', 2); F(c, ell(0, -50, 8, 5), '#a07820', 2); c.restore(); }
+}
