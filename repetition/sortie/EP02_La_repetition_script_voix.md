@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LA RÉPÉTITION
 *« À force de l’entendre »*
 
-Durée finale : 1 min 36.1 s
+Durée finale : 1 min 33.2 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:06)
 
@@ -20,69 +20,69 @@ Durée finale : 1 min 36.1 s
 ## Scène 04 — SCÈNE 04  (00:14 – 00:20)
 
 - `00:15,29` **NARRATEUR** : « Une belle formule sort des presses. »
-- `00:17,99` **NARRATEUR** : « La machine l’imprime encore et encore. »
+- `00:17,57` **NARRATEUR** : « La machine l’imprime encore et encore. »
 
-## Scène 05 — SCÈNE 05  (00:20 – 00:24)
+## Scène 05 — SCÈNE 05  (00:20 – 00:23)
 
-- `00:21,09` **NARRATEUR** : « Bientôt, la rue ne voit plus qu’elle. »
+- `00:20,67` **NARRATEUR** : « Bientôt, la rue ne voit plus qu’elle. »
 
-## Scène 06 — SCÈNE 06  (00:24 – 00:35)
+## Scène 06 — SCÈNE 06  (00:23 – 00:31)
 
-- `00:24,34` **NARRATEUR** : « Au premier passage, il l’oublie presque. »
-- `00:27,07` **NARRATEUR** : « Au second, il la reconnaît. »
-- `00:29,25` **NARRATEUR** : « Au troisième, elle paraît familière. »
+- `00:23,92` **NARRATEUR** : « Au premier passage, il l’oublie presque. »
+- `00:26,65` **NARRATEUR** : « Au second, il la reconnaît. »
+- `00:28,65` **NARRATEUR** : « Au troisième, elle paraît familière. »
 
-## Scène 07 — SCÈNE 07  (00:35 – 00:40)
+## Scène 07 — SCÈNE 07  (00:31 – 00:36)
 
-- `00:35,35` **MOUTON** : « Et la familiarité ressemble à une preuve ? »
-- `00:38,07` **RENARD** : « Elle peut donner cette impression. »
+- `00:32,03` **MOUTON** : « Et la familiarité ressemble à une preuve ? »
+- `00:34,75` **RENARD** : « Elle peut donner cette impression. »
 
-## Scène 08 — SCÈNE 08  (00:40 – 00:52)
+## Scène 08 — SCÈNE 08  (00:36 – 00:48)
 
-- `00:40,32` **NARRATEUR** : « Le message circule partout, sous des formes nouvelles. »
-- `00:44,07` **NARRATEUR** : « Même ceux qui la disent peuvent ne pas la vérifier. »
-- `00:47,26` **PASSANT** : « Quelle étude le démontre ? »
-- `00:49,74` **NARRATEUR** : « Elle n’a que d’autres affiches à montrer. »
+- `00:37,00` **NARRATEUR** : « Le message circule partout, sous des formes nouvelles. »
+- `00:40,75` **NARRATEUR** : « Même ceux qui la disent peuvent ne pas la vérifier. »
+- `00:43,94` **PASSANT** : « Quelle étude le démontre ? »
+- `00:46,43` **NARRATEUR** : « Elle n’a que d’autres affiches à montrer. »
 
-## Scène 09 — SCÈNE 09  (00:52 – 00:55)
+## Scène 09 — SCÈNE 09  (00:48 – 00:52)
 
-- `00:52,45` **MOUTON** : « C’est la même phrase, encore une fois. »
+- `00:49,13` **MOUTON** : « C’est la même phrase, encore une fois. »
 
-## Scène 10 — SCÈNE 10  (00:55 – 00:59)
+## Scène 10 — SCÈNE 10  (00:52 – 00:56)
 
-- `00:55,98` **NARRATEUR** : « Un souvenir fort n’est pas une preuve solide. »
+- `00:52,66` **NARRATEUR** : « Un souvenir fort n’est pas une preuve solide. »
 
-## Scène 11 — SCÈNE 11  (00:59 – 01:01)
+## Scène 11 — SCÈNE 11  (00:56 – 00:58)
 
-- `00:59,38` **RENARD** : « Il faut remonter à l’origine. »
+- `00:56,51` **RENARD** : « Il faut remonter à l’origine. »
 
-## Scène 12 — SCÈNE 12  (01:01 – 01:05)
+## Scène 12 — SCÈNE 12  (00:58 – 01:02)
 
-- `01:01,87` **NARRATEUR** : « La phrase vient d’une campagne, pas d’une découverte. »
+- `00:59,00` **NARRATEUR** : « La phrase vient d’une campagne, pas d’une découverte. »
 
-## Scène 13 — SCÈNE 13  (01:05 – 01:08)
+## Scène 13 — SCÈNE 13  (01:02 – 01:05)
 
-- `01:05,82` **MOUTON** : « Je peux comparer au lieu de répéter. »
+- `01:02,95` **MOUTON** : « Je peux comparer au lieu de répéter. »
 
-## Scène 14 — SCÈNE 14  (01:08 – 01:11)
+## Scène 14 — SCÈNE 14  (01:05 – 01:08)
 
-- `01:08,46` **NARRATEUR** : « On peut regarder ce qui est mesurable. »
+- `01:05,59` **NARRATEUR** : « On peut regarder ce qui est mesurable. »
 
-## Scène 15 — SCÈNE 15  (01:11 – 01:17)
+## Scène 15 — SCÈNE 15  (01:08 – 01:14)
 
-- `01:11,57` **RENARD** : « Le message a perdu son charme de certitude. »
-- `01:14,48` **NARRATEUR** : « De retour au salon, la radio joue toujours. »
+- `01:08,70` **RENARD** : « Le message a perdu son charme de certitude. »
+- `01:11,60` **NARRATEUR** : « De retour au salon, la radio joue toujours. »
 
-## Scène 16 — SCÈNE 16  (01:17 – 01:30)
+## Scène 16 — SCÈNE 16  (01:14 – 01:27)
 
-- `01:17,81` **MOUTON** : « Je connais le refrain. Pas encore les faits. »
-- `01:20,84` **RENARD** : « Bonne habitude : demander d’où ça vient. »
-- `01:23,54` **MOUTON** : « Cette fois, je décide après vérification. »
-- `01:26,62` **RENARD** : « Répéter aide à mémoriser, pas à démontrer. »
+- `01:14,94` **MOUTON** : « Je connais le refrain. Pas encore les faits. »
+- `01:17,97` **RENARD** : « Bonne habitude : demander d’où ça vient. »
+- `01:20,66` **MOUTON** : « Cette fois, je décide après vérification. »
+- `01:23,75` **RENARD** : « Répéter aide à mémoriser, pas à démontrer. »
 
-## Scène 17 — SCÈNE 17  (01:30 – 01:36)
+## Scène 17 — SCÈNE 17  (01:27 – 01:33)
 
-- `01:30,86` **NARRATEUR** : « Arrête de suivre le troupeau. Suis le renard… et pense par toi-même ! »
+- `01:27,99` **NARRATEUR** : « Arrête de suivre le troupeau. Suis le renard… et pense par toi-même ! »
 
 **ÉCRAN FINAL** : NE SUIS PAS LES MOUTONS
 
