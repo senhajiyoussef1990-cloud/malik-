@@ -1,0 +1,849 @@
+        NE SUIS PAS LES MOUTONS / BIBLE DE PRODUCTION IA
+
+
+        ÉPISODE 02
+
+
+
+        La répétition
+        « À force de l’entendre »
+
+
+
+        Comment un slogan familier paraît plus crédible sans devenir plus démontré.
+
+
+
+        02:30 · 30 IMAGES SOURCES · 30 VIDÉOS DE 5 S · 9:16
+
+        Un seul personnage original à la fois, une action claire par plan. La narration
+        explique les mécanismes d’influence sans transformer le Mouton en victime ni
+        faire du Renard un manipulateur.
+
+
+
+
+ Scénario intégral · Dialogues · Prompts d’images · Actions animées · Raccords de continuité
+
+ Chaque fiche contient une image à générer et une animation de cinq secondes. La production finale combine
+ les trente clips dans l’ordre, avec les voix et sous-titres montés séparément.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                               01
+NE SUIS PAS LES MOUTONS                                                                               ÉP. 02 · La répétition
+
+
+
+
+ ÉPISODE 02 / CONSIGNES FIXES
+
+ Charte de production & méthode Agnès
+ Identité visuelle
+ Salon rétro illustré en 2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois,
+ télévision à antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures,
+ chemise ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+ moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+ approuvées.
+
+
+ Séquences dans la télévision
+ Univers de démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930
+ sans imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+ Conserver des silhouettes et des visages constants d’un plan à l’autre.
+
+
+ Continuité obligatoire d’une image à l’autre
+ Pour le plan 01, charger la fiche des personnages approuvée. Pour chaque plan 02 à 30, joindre
+ impérativement l’image réellement générée au plan précédent, en plus des personnages de référence.
+ Réutiliser exactement les visages, les vêtements, les objets, les positions et le décor. Modifier uniquement
+ l’action demandée. Lors du passage salon → télévision → salon, garder un élément de raccord visuel dans deux
+ images successives. Cette instruction est répétée dans toutes les 30 fiches.
+
+
+ Le pipeline recommandé
+ 1. Générer l’image complète de chaque plan dans Agnès. 2. Vérifier les yeux, les doigts, les accessoires et le
+ décor. 3. Utiliser l’image complète comme entrée d’un outil image-vers-vidéo pour créer une animation de 5 s,
+ sans inventer de nouveau personnage. 4. Monter 30 vidéos pour obtenir 150 s. 5. Ajouter les voix et les
+ sous-titres ; vérifier les raccords et les bruits parasites.
+
+
+ Audio et rythme
+ Chaque ligne parlée a été calibrée pour une seule fenêtre de 5 s (en général moins de 12 mots). La voix JT est
+ hors champ dans les démonstrations. Préférer une action principale par clip, un léger mouvement secondaire
+ et une pose finale tenue. En cas de phrase trop longue, faire commencer la narration pendant le raccord
+ précédent, sans accélérer artificiellement les paroles.
+
+
+ À éviter absolument
+ Pas de personnages de dessins animés existants, ni marques réelles, ni fausses preuves documentaires, ni
+ décors qui changent sans transition. Pas de lèvres ajoutées sur une bouche déjà fermée. Les scènes noir et
+ blanc sont des fables visuelles fictives, pas des reconstitutions historiques certifiées. Les sous-titres et le
+ slogan sont ajoutés à l’édition pour rester lisibles.
+
+
+ Phrase de fin commune
+ « Arrête de suivre le troupeau. Suis le renard… et pense par toi-même ! »
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                           02
+NE SUIS PAS LES MOUTONS                                                                                 ÉP. 02 · La répétition
+
+
+
+
+ ÉPISODE 02 / LA RÉPÉTITION
+
+ Storyboard & dialogues — 30 plans
+ Durée fixe : 00:00 à 02:30. Un plan = une image complète + une animation de cinq secondes. Le texte « image
+ précédente » figure dans chaque fiche pour la chaîne de références Agnès.
+
+
+    PLAN 01 / 30 · 00:00 - 00:05
+
+    VOIX · MOUTON : « Cette phrase me dit quelque chose. Elle doit être vraie. »
+
+    IMAGE À PRODUIRE : Salon en couleur; le Mouton écoute une publicité répétée sur une vieille radio. Salon
+    rétro illustré en 2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois,
+    télévision à antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures,
+    chemise ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+    moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+    approuvées. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni
+    bouche collée sur une expression existante. Conserver les doigts corrects, objets cohérents, architecture
+    stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE
+    POUR CETTE IMAGE : IMAGE DE DÉPART : partir impérativement des références validées du Renard, du
+    Mouton, de leurs habits, du salon et du logo ; ce plan fixe la continuité de tous les plans suivants. Aucun
+    redesign.
+
+    ANIMATION · 5 S : Le Mouton tourne le bouton de la radio. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 02 / 30 · 00:05 - 00:10
+
+    VOIX · RENARD : « Ou simplement très répétée. »
+
+    IMAGE À PRODUIRE : Le Renard montre trois affiches identiques derrière la fenêtre du salon. Salon rétro
+    illustré en 2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois, télévision
+    à antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures, chemise
+    ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+    moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+    approuvées. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni
+    bouche collée sur une expression existante. Conserver les doigts corrects, objets cohérents, architecture
+    stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE
+    POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 01 de CET ÉPISODE comme image
+    de référence pour générer l’IMAGE 02. Conserver strictement le dessin du plan précédent : mêmes visages,
+    volumes, habits, mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne
+    changer que la pose ou l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il compte les affiches du doigt. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                             03
+NE SUIS PAS LES MOUTONS                                                                               ÉP. 02 · La répétition
+
+
+
+
+    PLAN 03 / 30 · 00:10 - 00:15
+
+    VOIX · MOUTON : « Je la connais par cœur, pourtant. »
+
+    IMAGE À PRODUIRE : Le Mouton fredonne la formule en regardant son reflet dans la vitre. Salon rétro illustré
+    en 2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois, télévision à
+    antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures, chemise
+    ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+    moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+    approuvées. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni
+    bouche collée sur une expression existante. Conserver les doigts corrects, objets cohérents, architecture
+    stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE
+    POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 02 de CET ÉPISODE comme image
+    de référence pour générer l’IMAGE 03. Conserver strictement le dessin du plan précédent : mêmes visages,
+    volumes, habits, mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne
+    changer que la pose ou l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Ses lèvres miment le refrain sans réfléchir. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 04 / 30 · 00:15 - 00:20
+
+    VOIX · RENARD : « Connaître une phrase, est-ce la vérifier ? »
+
+    IMAGE À PRODUIRE : Le Renard dessine un cercle et une question sur une ardoise du salon. Salon rétro
+    illustré en 2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois, télévision
+    à antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures, chemise
+    ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+    moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+    approuvées. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni
+    bouche collée sur une expression existante. Conserver les doigts corrects, objets cohérents, architecture
+    stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE
+    POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 03 de CET ÉPISODE comme image
+    de référence pour générer l’IMAGE 04. Conserver strictement le dessin du plan précédent : mêmes visages,
+    volumes, habits, mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne
+    changer que la pose ou l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Le cercle et le point d'interrogation apparaissent. Geste principal lisible, pose tenue à la
+    fin pour raccorder le plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                           04
+NE SUIS PAS LES MOUTONS                                                                                 ÉP. 02 · La répétition
+
+
+
+
+    PLAN 05 / 30 · 00:20 - 00:25
+
+    VOIX · JT : « Visitons l'atelier des messages familiers. »
+
+    IMAGE À PRODUIRE : Le Renard ouvre le téléviseur; image se transforme en studio d'affiches noir et blanc.
+    Salon rétro illustré en 2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois,
+    télévision à antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures,
+    chemise ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+    moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+    approuvées. Scène de transition : assurer un raccord par la télévision, avec un changement progressif de
+    teinte et le même élément de liaison. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme,
+    pas de visage découpé ni bouche collée sur une expression existante. Conserver les doigts corrects, objets
+    cohérents, architecture stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage.
+    CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 04 de
+    CET ÉPISODE comme image de référence pour générer l’IMAGE 05. Conserver strictement le dessin du plan
+    précédent : mêmes visages, volumes, habits, mains, accessoires, éléments fixes du décor, proportions,
+    direction du regard et lumière. Ne changer que la pose ou l’action indiquée ; redessiner l’image entière. Si un
+    changement de lieu intervient, montrer le raccord visuel (téléviseur, reflet, porte ou mouvement caméra) et
+    conserver les traits, objets et position de départ avant de révéler le nouveau décor.
+
+    ANIMATION · 5 S : Le cadre télé devient une porte visuelle. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 06 / 30 · 00:25 - 00:30
+
+    VOIX · JT : « Une belle formule sort des presses. »
+
+    IMAGE À PRODUIRE : Un imprimeur fictif prépare une affiche « La boisson des vainqueurs » sans preuve.
+    Univers de démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années
+    1930 sans imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture
+    papier. Conserver des silhouettes et des visages constants d’un plan à l’autre. Scène de transition : assurer un
+    raccord par la télévision, avec un changement progressif de teinte et le même élément de liaison. FORMAT
+    9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une
+    expression existante. Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte
+    généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE :
+    RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 05 de CET ÉPISODE comme image de référence pour
+    générer l’IMAGE 06. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits,
+    mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la
+    pose ou l’action indiquée ; redessiner l’image entière. Si un changement de lieu intervient, montrer le raccord
+    visuel (téléviseur, reflet, porte ou mouvement caméra) et conserver les traits, objets et position de départ
+    avant de révéler le nouveau décor.
+
+    ANIMATION · 5 S : L'imprimeur prépare les caractères. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                             05
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 07 / 30 · 00:30 - 00:35
+
+    VOIX · JT : « La machine l'imprime encore et encore. »
+
+    IMAGE À PRODUIRE : Gros plan sur la presse à rouleaux, une feuille identique toutes les secondes. Univers
+    de démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 06 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 07. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : La presse avance une feuille à chaque mouvement. Geste principal lisible, pose tenue à la
+    fin pour raccorder le plan suivant.
+
+
+    PLAN 08 / 30 · 00:35 - 00:40
+
+    VOIX · JT : « Bientôt, la rue ne voit plus qu'elle. »
+
+    IMAGE À PRODUIRE : Des colleurs recouvrent un mur de dizaines d'exemplaires de l'affiche. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 07 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 08. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Les colleurs ajoutent deux affiches. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              06
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 09 / 30 · 00:40 - 00:45
+
+    VOIX · JT : « Au premier passage, il l'oublie presque. »
+
+    IMAGE À PRODUIRE : Un passant aperçoit la formule sur une façade puis s'en va. Univers de démonstration
+    en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans imitation de
+    personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier. Conserver des
+    silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas
+    de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante. Conserver les doigts
+    corrects, objets cohérents, architecture stable et aucun texte généré illisible : les sous-titres seront ajoutés au
+    montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement
+    l’IMAGE 08 de CET ÉPISODE comme image de référence pour générer l’IMAGE 09. Conserver strictement le
+    dessin du plan précédent : mêmes visages, volumes, habits, mains, accessoires, éléments fixes du décor,
+    proportions, direction du regard et lumière. Ne changer que la pose ou l’action indiquée ; redessiner l’image
+    entière.
+
+    ANIMATION · 5 S : Le passant détourne les yeux. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+    PLAN 10 / 30 · 00:45 - 00:50
+
+    VOIX · JT : « Au second, il la reconnaît. »
+
+    IMAGE À PRODUIRE : Le même passant retrouve la formule sur un kiosque à journaux. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 09 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 10. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il ralentit et sourit. Geste principal lisible, pose tenue à la fin pour raccorder le plan
+    suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              07
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 11 / 30 · 00:50 - 00:55
+
+    VOIX · JT : « Au troisième, elle paraît familière. »
+
+    IMAGE À PRODUIRE : Le passant entend la formule dans un haut-parleur du marché. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 10 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 11. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il incline la tête vers le haut-parleur. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 12 / 30 · 00:55 - 01:00
+
+    VOIX · MOUTON : « Et la familiarité ressemble à une preuve ? »
+
+    IMAGE À PRODUIRE : Le Mouton regarde la scène sur une petite fenêtre de film, yeux élargis. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 11 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 12. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Le Mouton fronce les sourcils. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              08
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 13 / 30 · 01:00 - 01:05
+
+    VOIX · RENARD : « Elle peut donner cette impression. »
+
+    IMAGE À PRODUIRE : Le Renard montre un carnet marqué « source ? » au bord de la projection. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 12 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 13. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Le Renard pointe le carnet vide. Geste principal lisible, pose tenue à la fin pour raccorder
+    le plan suivant.
+
+
+    PLAN 14 / 30 · 01:05 - 01:10
+
+    VOIX · JT : « Le message circule partout, sous des formes nouvelles. »
+
+    IMAGE À PRODUIRE : La publicité se retrouve sur une boîte, un ticket et une enseigne. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 13 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 14. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Les trois supports apparaissent successivement. Geste principal lisible, pose tenue à la fin
+    pour raccorder le plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              09
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 15 / 30 · 01:10 - 01:15
+
+    VOIX · JT : « Même ceux qui la disent peuvent ne pas la vérifier. »
+
+    IMAGE À PRODUIRE : Une marchande répète la formule machinalement au comptoir. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 14 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 15. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : La marchande hausse les épaules. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 16 / 30 · 01:15 - 01:20
+
+    VOIX · FIGURANT : « Quelle étude le démontre ? »
+
+    IMAGE À PRODUIRE : Un client demande à la marchande ce qui rend la boisson meilleure. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 15 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 16. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il tend un papier et attend. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              10
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 17 / 30 · 01:20 - 01:25
+
+    VOIX · JT : « Elle n'a que d'autres affiches à montrer. »
+
+    IMAGE À PRODUIRE : La marchande montre des cartons publicitaires sans donnée ni source. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 16 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 17. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Elle cherche derrière le comptoir. Geste principal lisible, pose tenue à la fin pour raccorder
+    le plan suivant.
+
+
+    PLAN 18 / 30 · 01:25 - 01:30
+
+    VOIX · MOUTON : « C'est la même phrase, encore une fois. »
+
+    IMAGE À PRODUIRE : Le Mouton examine une affiche décollée; derrière, aucun document. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 17 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 18. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il retourne le papier. Geste principal lisible, pose tenue à la fin pour raccorder le plan
+    suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              11
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 19 / 30 · 01:30 - 01:35
+
+    VOIX · JT : « Un souvenir fort n'est pas une preuve solide. »
+
+    IMAGE À PRODUIRE : Un panneau de deux colonnes oppose « vu souvent » et « vérifié ». Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 18 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 19. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Les deux colonnes se séparent. Geste principal lisible, pose tenue à la fin pour raccorder
+    le plan suivant.
+
+
+    PLAN 20 / 30 · 01:35 - 01:40
+
+    VOIX · RENARD : « Il faut remonter à l'origine. »
+
+    IMAGE À PRODUIRE : Le Renard souligne le mot « vérifié » devant le Mouton. Univers de démonstration en
+    noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans imitation de
+    personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier. Conserver des
+    silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas
+    de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante. Conserver les doigts
+    corrects, objets cohérents, architecture stable et aucun texte généré illisible : les sous-titres seront ajoutés au
+    montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement
+    l’IMAGE 19 de CET ÉPISODE comme image de référence pour générer l’IMAGE 20. Conserver strictement le
+    dessin du plan précédent : mêmes visages, volumes, habits, mains, accessoires, éléments fixes du décor,
+    proportions, direction du regard et lumière. Ne changer que la pose ou l’action indiquée ; redessiner l’image
+    entière.
+
+    ANIMATION · 5 S : Il suit une flèche à la craie. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              12
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 21 / 30 · 01:40 - 01:45
+
+    VOIX · JT : « La phrase vient d'une campagne, pas d'une découverte. »
+
+    IMAGE À PRODUIRE : Retour à l'imprimerie; l'imprimeur révèle un contrat publicitaire ordinaire. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 20 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 21. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il pose le contrat sur la table. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+    PLAN 22 / 30 · 01:45 - 01:50
+
+    VOIX · MOUTON : « Je peux comparer au lieu de répéter. »
+
+    IMAGE À PRODUIRE : Le Mouton compare le slogan à une liste d'informations sur la boisson. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 21 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 22. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il met les feuilles côte à côte. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              13
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 23 / 30 · 01:50 - 01:55
+
+    VOIX · JT : « On peut regarder ce qui est mesurable. »
+
+    IMAGE À PRODUIRE : Deux boissons différentes apparaissent, avec composition et prix clairement visibles.
+    Univers de démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années
+    1930 sans imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture
+    papier. Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D
+    COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression
+    existante. Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible :
+    les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 22 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 23. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : La caméra passe de l'une à l'autre. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 24 / 30 · 01:55 - 02:00
+
+    VOIX · RENARD : « Le message a perdu son charme de certitude. »
+
+    IMAGE À PRODUIRE : Le Renard montre la sortie de l'atelier et l'écran télé qui apparaît. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. FORMAT 9:16, DESSIN 2D COMPLET,
+    pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une expression existante.
+    Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte généré illisible : les
+    sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE : RÉFÉRENCE
+    OBLIGATOIRE : utiliser réellement l’IMAGE 23 de CET ÉPISODE comme image de référence pour générer
+    l’IMAGE 24. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits, mains,
+    accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la pose ou
+    l’action indiquée ; redessiner l’image entière. Si un changement de lieu intervient, montrer le raccord visuel
+    (téléviseur, reflet, porte ou mouvement caméra) et conserver les traits, objets et position de départ avant de
+    révéler le nouveau décor.
+
+    ANIMATION · 5 S : Il coupe la lumière de l'atelier. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              14
+NE SUIS PAS LES MOUTONS                                                                                  ÉP. 02 · La répétition
+
+
+
+
+    PLAN 25 / 30 · 02:00 - 02:05
+
+    VOIX · JT : « De retour au salon, la radio joue toujours. »
+
+    IMAGE À PRODUIRE : Transition noir et blanc vers le salon en couleur, par l'écran de la télévision. Univers de
+    démonstration en noir et blanc richement encré, inspiration gravure / cinéma fictif des années 1930 sans
+    imitation de personnage connu. Humains originaux, décors détaillés, pellicules, ombres et texture papier.
+    Conserver des silhouettes et des visages constants d’un plan à l’autre. Scène de transition : assurer un
+    raccord par la télévision, avec un changement progressif de teinte et le même élément de liaison. FORMAT
+    9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une
+    expression existante. Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte
+    généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE :
+    RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 24 de CET ÉPISODE comme image de référence pour
+    générer l’IMAGE 25. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits,
+    mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la
+    pose ou l’action indiquée ; redessiner l’image entière. Si un changement de lieu intervient, montrer le raccord
+    visuel (téléviseur, reflet, porte ou mouvement caméra) et conserver les traits, objets et position de départ
+    avant de révéler le nouveau décor.
+
+    ANIMATION · 5 S : Le cadre du téléviseur reprend sa place. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 26 / 30 · 02:05 - 02:10
+
+    VOIX · MOUTON : « Je connais le refrain. Pas encore les faits. »
+
+    IMAGE À PRODUIRE : Le Mouton baisse la radio et ouvre un petit carnet de notes. Salon rétro illustré en 2D
+    couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois, télévision à antennes,
+    lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures, chemise ivoire, cravate
+    orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune moutarde, nœud
+    papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches approuvées. Scène de
+    transition : assurer un raccord par la télévision, avec un changement progressif de teinte et le même élément
+    de liaison. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni
+    bouche collée sur une expression existante. Conserver les doigts corrects, objets cohérents, architecture
+    stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE
+    POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 25 de CET ÉPISODE comme image
+    de référence pour générer l’IMAGE 26. Conserver strictement le dessin du plan précédent : mêmes visages,
+    volumes, habits, mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne
+    changer que la pose ou l’action indiquée ; redessiner l’image entière. Si un changement de lieu intervient,
+    montrer le raccord visuel (téléviseur, reflet, porte ou mouvement caméra) et conserver les traits, objets et
+    position de départ avant de révéler le nouveau décor.
+
+    ANIMATION · 5 S : Il écrit « à vérifier ». Geste principal lisible, pose tenue à la fin pour raccorder le plan
+    suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                              15
+NE SUIS PAS LES MOUTONS                                                                                ÉP. 02 · La répétition
+
+
+
+
+    PLAN 27 / 30 · 02:10 - 02:15
+
+    VOIX · RENARD : « Bonne habitude : demander d'où ça vient. »
+
+    IMAGE À PRODUIRE : Le Renard sourit et pousse le carnet vers le Mouton. Salon rétro illustré en 2D couleur,
+    années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois, télévision à antennes, lampe,
+    horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures, chemise ivoire, cravate
+    orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune moutarde, nœud
+    papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches approuvées. FORMAT
+    9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une
+    expression existante. Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte
+    généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE :
+    RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 26 de CET ÉPISODE comme image de référence pour
+    générer l’IMAGE 27. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits,
+    mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la
+    pose ou l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il tapote la page, sans juger. Geste principal lisible, pose tenue à la fin pour raccorder le
+    plan suivant.
+
+
+    PLAN 28 / 30 · 02:15 - 02:20
+
+    VOIX · MOUTON : « Cette fois, je décide après vérification. »
+
+    IMAGE À PRODUIRE : Le Mouton éteint la radio, regarde paisiblement par la fenêtre. Salon rétro illustré en
+    2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois, télévision à
+    antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures, chemise
+    ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+    moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+    approuvées. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni
+    bouche collée sur une expression existante. Conserver les doigts corrects, objets cohérents, architecture
+    stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE
+    POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 27 de CET ÉPISODE comme image
+    de référence pour générer l’IMAGE 28. Conserver strictement le dessin du plan précédent : mêmes visages,
+    volumes, habits, mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne
+    changer que la pose ou l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Il ferme le carnet avec satisfaction. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                            16
+NE SUIS PAS LES MOUTONS                                                                               ÉP. 02 · La répétition
+
+
+
+
+    PLAN 29 / 30 · 02:20 - 02:25
+
+    VOIX · RENARD : « Répéter aide à mémoriser, pas à démontrer. »
+
+    IMAGE À PRODUIRE : Plan large salon, radio silencieuse, affiches identiques derrière la fenêtre. Salon rétro
+    illustré en 2D couleur, années 1950 revisitées : murs bleu pétrole, rideaux brique, meubles en bois, télévision
+    à antennes, lampe, horloge, tapis persan. Renard roux intelligent en costume brun à fines rayures, chemise
+    ivoire, cravate orangée et chaîne de montre ; Mouton crème curieux en casquette tweed, gilet jaune
+    moutarde, nœud papillon bordeaux et pantalon brun. Même visage et mêmes proportions que les fiches
+    approuvées. FORMAT 9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni
+    bouche collée sur une expression existante. Conserver les doigts corrects, objets cohérents, architecture
+    stable et aucun texte généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE
+    POUR CETTE IMAGE : RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 28 de CET ÉPISODE comme image
+    de référence pour générer l’IMAGE 29. Conserver strictement le dessin du plan précédent : mêmes visages,
+    volumes, habits, mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne
+    changer que la pose ou l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Le Renard tourne la tête vers la caméra. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+    PLAN 30 / 30 · 02:25 - 02:30
+
+    VOIX · JT : « Arrête de suivre le troupeau. Suis le renard… et pense par toi-même ! »
+
+    IMAGE À PRODUIRE : Carton de fin avec les deux personnages, logo et sous-titre distincts du décor. Carton
+    original de « Ne suis pas les moutons », logo de la série, Renard et Mouton identiques aux références, fond
+    couleur crème/brique/bleu pétrole. Aucun personnage ni marque provenant d’une œuvre connue. FORMAT
+    9:16, DESSIN 2D COMPLET, pas de 3D, pas de photoréalisme, pas de visage découpé ni bouche collée sur une
+    expression existante. Conserver les doigts corrects, objets cohérents, architecture stable et aucun texte
+    généré illisible : les sous-titres seront ajoutés au montage. CONTINUITÉ IMPÉRATIVE POUR CETTE IMAGE :
+    RÉFÉRENCE OBLIGATOIRE : utiliser réellement l’IMAGE 29 de CET ÉPISODE comme image de référence pour
+    générer l’IMAGE 30. Conserver strictement le dessin du plan précédent : mêmes visages, volumes, habits,
+    mains, accessoires, éléments fixes du décor, proportions, direction du regard et lumière. Ne changer que la
+    pose ou l’action indiquée ; redessiner l’image entière.
+
+    ANIMATION · 5 S : Apparition douce du carton, tenue finale. Geste principal lisible, pose tenue à la fin pour
+    raccorder le plan suivant.
+
+
+
+
+ Contrôle avant montage
+ Les 30 images sont-elles cohérentes ? Le salon et l’intérieur de la télévision gardent-ils leurs propres styles ?
+ Les voix sont-elles attribuées aux bons personnages ? Les 30 clips font-ils bien 5 secondes ? Le raccord du
+ plan 30 est-il un vrai carton final lisible ?
+
+
+
+
+30 plans × 5 secondes · Référence image précédente obligatoire                                                           17
+
