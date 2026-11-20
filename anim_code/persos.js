@@ -364,7 +364,8 @@ function drawMouton(c, P) {
   ink(c, 3); c.beginPath(); c.moveTo(0, hy + 54); c.lineTo(0, hy + 60); c.stroke();
   if ((P.talk || 0) < .06 && !P.rire) { ink(c, 3.5); c.beginPath(); c.moveTo(-10, hy + 64); c.quadraticCurveTo(-4, hy + 60, 0, hy + 61); c.quadraticCurveTo(4, hy + 60, 10, hy + 64); c.stroke(); }
   else bouche(c, 0, hy + 64, 34, Math.max(P.talk || 0, P.rire ? .8 : 0), P.rire ? 1.4 : (P.sourire != null ? P.sourire : .3), '#6a2016');
-  // ---- grande casquette plate en tweed, plus large que la tête
+  // ---- grande casquette plate en tweed (ou un autre chapeau : P.chapeau(c, hy) le dessine à la place)
+  if (P.chapeau) P.chapeau(c, hy); else {
   const cq = smooth([[-118, hy - 76], [-104, hy - 122], [-60, hy - 150], [0, hy - 158], [64, hy - 150], [108, hy - 120], [120, hy - 80], [104, hy - 62], [0, hy - 70], [-104, hy - 62]]);
   F(c, cq, M.casq, 5); chevrons(c, cq, M.casq2, 12); ombre(c, cq, -50, hy - 150, 100, hy - 66, .32); reflet(c, cq, -46, hy - 128, 38, 12, .18); ink(c, 5); c.stroke(cq);
   ink(c, 2.4, M.casq2); for (let k = -3; k <= 3; k++) { c.beginPath(); c.moveTo(k * 6, hy - 156); c.quadraticCurveTo(k * 28, hy - 124, k * 36, hy - 74); c.stroke(); }
@@ -372,6 +373,7 @@ function drawMouton(c, P) {
   F(c, vi, M.casq2, 4); chevrons(c, vi, '#6a2408', 10); ink(c, 4); c.stroke(vi);
   ink(c, 1.4, 'rgba(255,220,190,.5)'); c.setLineDash([4, 3]); c.beginPath(); c.moveTo(-84, hy - 56); c.quadraticCurveTo(0, hy - 68, 88, hy - 54); c.stroke(); c.setLineDash([]);
   F(c, ell(2, hy - 160, 16, 9), M.casq, 4);
+  }
   c.restore();
   // ---- manche avant
   { const a = Math.atan2(hR[1] - sR[1], hR[0] - sR[0]), E = [hR[0] - Math.cos(a) * 30, hR[1] - Math.sin(a) * 30];

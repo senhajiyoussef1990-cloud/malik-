@@ -23,7 +23,7 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
   await pg.setContent('<canvas id="c" width="1080" height="810"></canvas>');
   await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)};` });
   const estTV = fs.readFileSync(path.join(D, `${ep}/scene${num}.js`), 'utf8').includes('enNoirEtBlanc');
-  for (const f of ['persos.js', 'decor.js', 'decor_boutique.js', 'humains.js', `${ep}/commun.js`, ...(estTV ? [`${ep}/tv.js`] : []), `${ep}/scene${num}.js`]) if (fs.existsSync(path.join(D, f))) await pg.addScriptTag({ path: path.join(D, f) });
+  for (const f of ['persos.js', 'decor.js', 'decor_boutique.js', 'decor_salon.js', 'humains.js', `${ep}/commun.js`, ...(estTV ? [`${ep}/tv.js`] : []), `${ep}/scene${num}.js`]) if (fs.existsSync(path.join(D, f))) await pg.addScriptTag({ path: path.join(D, f) });
   const img = (t) => pg.evaluate((t) => { const cv = document.getElementById('c'); frame(cv.getContext('2d'), t); return cv.toDataURL('image/jpeg', .93); }, t);
   const nom = `${ep.toUpperCase()}_scene${num}`;
   if (stills) {

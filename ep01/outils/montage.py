@@ -180,5 +180,5 @@ if __name__ == "__main__":
     calque(); sous_titres(); script(); son()
     video(True, P("sortie/EP01_Tu_crois_choisir.mp4"))
     video(False, P("sortie/EP01_sans_sous_titres.mp4"))
-    couverture(); d = bande_annonce()
-    print(f"OK  durée {TOTAL:.1f}s  bande-annonce {d:.1f}s")
+    couverture()
+    print(f"OK  durée {TOTAL:.1f}s")
