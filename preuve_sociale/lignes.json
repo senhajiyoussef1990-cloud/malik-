@@ -44,7 +44,7 @@
   "plan": 6,
   "scene": 4,
   "who": "narr",
-  "pause": 0.25,
+  "pause": 0.3,
   "text": "Dans une ville imaginaire, un marchand prépare une expérience."
  },
  {
@@ -52,7 +52,7 @@
   "plan": 7,
   "scene": 4,
   "who": "narr",
-  "pause": 0.25,
+  "pause": 0.3,
   "text": "Personne ne s’y intéresse, au début."
  },
  {
@@ -68,7 +68,7 @@
   "plan": 9,
   "scene": 5,
   "who": "narr",
-  "pause": 0.25,
+  "pause": 0.3,
   "text": "Puis deux curieux s’arrêtent ensemble."
  },
  {
@@ -108,7 +108,7 @@
   "plan": 14,
   "scene": 9,
   "who": "narr",
-  "pause": 0.25,
+  "pause": 0.3,
   "text": "L’étiquette arrive après l’engouement."
  },
  {
@@ -116,7 +116,7 @@
   "plan": 15,
   "scene": 9,
   "who": "narr",
-  "pause": 0.25,
+  "pause": 0.3,
   "text": "Ils regardent surtout les réactions des autres."
  },
  {
@@ -140,7 +140,7 @@
   "plan": 18,
   "scene": 11,
   "who": "narr",
-  "pause": 0.25,
+  "pause": 0.5,
   "text": "La conformité peut rassurer sans satisfaire."
  },
  {
@@ -148,7 +148,7 @@
   "plan": 19,
   "scene": 11,
   "who": "renard",
-  "pause": 0.25,
+  "pause": 0.85,
   "text": "Pourquoi ce modèle, précisément ?"
  },
  {
@@ -156,7 +156,7 @@
   "plan": 20,
   "scene": 11,
   "who": "figurant",
-  "pause": 0.25,
+  "pause": 0.5,
   "text": "Eh bien… tout le monde le porte."
  },
  {
@@ -204,7 +204,7 @@
   "plan": 26,
   "scene": 16,
   "who": "mouton",
-  "pause": 0.25,
+  "pause": 0.75,
   "text": "Je croyais choisir. J’imitais sans réfléchir."
  },
  {
@@ -212,7 +212,7 @@
   "plan": 27,
   "scene": 16,
   "who": "renard",
-  "pause": 0.25,
+  "pause": 0.5,
   "text": "Regarde les autres, mais écoute aussi tes raisons."
  },
  {
@@ -220,7 +220,7 @@
   "plan": 28,
   "scene": 16,
   "who": "mouton",
-  "pause": 0.25,
+  "pause": 0.6,
   "text": "Cette fois, je le choisis pour moi."
  },
  {
