@@ -35,11 +35,13 @@ jobs:
       - name: Voix
         run: |
           export PATH="$PWD/.venv-outils/bin:$PATH" CB_PY="$PWD/.venv-voix/bin/python"
-          sh outils_commun/voix_episodes.sh "${{ matrix.ep }}"; cat "${{ matrix.ep }}/travail/choix_voix.txt" || true
+          if [ "$(ls "${{ matrix.ep }}/voix/"*.mp3 2>/dev/null | wc -l)" -ge 30 ]; then echo "voix déjà faites (Kaggle ou machine) : on passe"; exit 0; fi
+          sh outils_commun/voix_episodes.sh "${{ matrix.ep }}" || true; tail -n 40 "${{ matrix.ep }}/travail/prises.log" || true; cat "${{ matrix.ep }}/travail/choix_voix.txt" || true
+          test "$(ls "${{ matrix.ep }}/voix/"*.mp3 2>/dev/null | wc -l)" -ge 30
       - name: Enregistrer les voix
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
-          git add "${{ matrix.ep }}/voix/"*.mp3; cp "${{ matrix.ep }}/travail/choix_voix.txt" "${{ matrix.ep }}/sortie/verification_voix.txt" || true; git add -f "${{ matrix.ep }}/sortie/verification_voix.txt" || true
+          git add "${{ matrix.ep }}/voix/"*.mp3 || true; cp "${{ matrix.ep }}/travail/choix_voix.txt" "${{ matrix.ep }}/sortie/verification_voix.txt" || true; git add -f "${{ matrix.ep }}/sortie/verification_voix.txt" || true
           git commit -m "Voix de l'épisode ${{ matrix.ep }} (GitHub Actions)" || echo rien
           for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep 10; done
   video:
