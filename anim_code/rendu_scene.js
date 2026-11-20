@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path'), { spawn, execFileSync } = require('child_process');
 const D = __dirname, FPS = 30;
 const [ep, num] = process.argv.slice(2), ii = process.argv.indexOf('--images'), stills = ii >= 0 ? process.argv[ii + 1].split(',').map(Number) : null;
-const EP = path.join(D, '..', ep), VOIX = path.join(EP, 'voix');
+const EP = path.join(D, '..', ep), VOIX = process.env.VOIX_DIR || path.join(EP, 'voix');
 const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).toString());
 (async () => {
   // répliques de la scène, enchaînées avec une petite pause ; enveloppe de bouche à 30 i/s
