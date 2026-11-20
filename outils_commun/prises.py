@@ -6,7 +6,7 @@ os.environ.setdefault("HF_HUB_DISABLE_XET", "1"); torch.set_num_threads(os.cpu_c
 from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 R = os.path.abspath(sys.argv[1]); only = sys.argv[2:]
 JEU = {"narr": ("eleven-jt", .6, .5), "renard": ("eleven-renard", .6, .5), "mouton": ("eleven-mouton", .4, .5),
-       "figurant": ("client", .65, .5), "figurante": ("passante", .65, .5), "passant": ("passant", .65, .5)}
+       "figurant": ("tv-homme", .5, .5), "figurante": ("tv-femme", .5, .5), "passant": ("tv-homme", .5, .5)}
 m = ChatterboxMultilingualTTS.from_pretrained(device="cpu"); os.makedirs(f"{R}/travail/essais", exist_ok=True)
 for L in json.load(open(f"{R}/lignes.json")):
     if only and L["id"] not in only: continue
