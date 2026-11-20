@@ -12,8 +12,8 @@ l'auteur, épisode après épisode) et la marche à suivre pour faire un nouvel 
 ## 1. Le concept
 
 Pages « ne.suit.pas.lesmoutons » / « Ne suis pas les moutons » : dessins animés satiriques verticaux (9:16) sur les
-mécanismes d'influence (preuve sociale, répétition, peur, cadrage, illusion du choix, urgence, autorité, récompense
-imprévisible, chambre d'écho, indignation).
+mécanismes d'influence (preuve sociale, répétition, peur, cadrage, illusion du choix, et, désormais, les grandes manipulations
+de l’histoire (bacon, jus d’orange, diamant, Guerre des mondes…).
 
 - **Le salon, en couleur** (années 1950 revisitées) : le **Renard** (malin, calme, bienveillant) et le **Mouton**
   (curieux, se fait avoir puis comprend).
@@ -33,11 +33,6 @@ imprévisible, chambre d'écho, indignation).
 | 03 | La peur et la rumeur | `peur_rumeur/` | `anim_code/peur_rumeur/` | livré |
 | 04 | Le pouvoir du cadrage | `cadrage/` | `anim_code/cadrage/` | livré |
 | 05 | Tu crois choisir ? (l'illusion du choix) | `ep01/` (ancien nom) | `anim_code/ep01/` | livré (ancien style) |
-| 06 | L'urgence artificielle | `urgence/` | `anim_code/urgence/` | en fabrication |
-| 07 | L'autorité mise en scène | `autorite/` | `anim_code/autorite/` | en fabrication |
-| 08 | La récompense imprévisible | `recompense/` | `anim_code/recompense/` | en fabrication |
-| 09 | La chambre d'écho | `echo/` | `anim_code/echo/` | en fabrication |
-| 10 | La colère contagieuse | `indignation/` | `anim_code/indignation/` | en fabrication |
 | 11 | Le mythe du bacon (Bernays, 1925) | `bacon/` | `anim_code/bacon/` | prêt — voix faites, rendu en cours |
 | 12 | Le jus d'orange du matin (Californie, 1910) | `orange/` | `anim_code/orange/` | prêt à lancer — voix en cours |
 | 13 | Le saumon des sushis (Norvège/Japon, 1986) | `saumon/` | `anim_code/saumon/` | prêt à lancer (en file) |
@@ -50,7 +45,7 @@ imprévisible, chambre d'écho, indignation).
 
 « Prêt à lancer » = répliques, décors, 16 scènes, montage et publications écrits ; il ne reste que la fabrication :
 `sh outils_commun/voix_episodes.sh <ep>` puis `sh outils_commun/fin_<ep>.sh` (ou `episode.sh`, voir section 4).
-Les épisodes 6 à 10 ont leurs scènes écrites ; EP06 n'attend plus que la scène 5 et le montage, EP07-10 attendent leurs voix.
+(L'ancienne série 6 à 10 a été abandonnée et supprimée ; elle reste consultable dans l'historique git.)
 
 La suite : les 50 sujets de `SUJETS_50_EPISODES.md` (histoires vraies du livre *Influencer les masses*). Les épisodes 11 à 14 sont
 les meilleurs modèles : même structure, un salon avec une **table** (petit-déjeuner, sushis, écrin…), une histoire vraie dans la télé,
@@ -136,7 +131,7 @@ episodes_pdf/               les 10 scénarios (PDF + texte)
 
 ### Écrire une scène
 Chaque `sceneNN.js` reçoit `L` (`L.id = [début, durée, qui]`, calé sur les vraies voix), `MOTS` (minutage mot à mot) et
-`BOUCHE`. Il définit `DUREE` et `frame(c, t)`. Modèles à copier : `anim_code/urgence/scene01.js` (salon),
+`BOUCHE`. Il définit `DUREE` et `frame(c, t)`. Modèles à copier : `anim_code/bacon/scene01.js` (salon),
 `scene04.js` (télé N&B), `scene07.js` (héros en couleur dans le monde N&B), `scene03.js` / `scene14.js`
 (plongée dans l'écran / retour), `scene16.js` (logo final + clin d'œil).
 Outils utiles : `renardBase(t)`, `moutonBase(t)`, `voix(P, ids, t)`, `dessineSalon(c, t, R, M, o, avant)`,
@@ -154,12 +149,12 @@ Outils utiles : `renardBase(t)`, `moutonBase(t)`, `voix(P, ids, t)`, `dessineSal
    `sh outils_commun/voix_episodes.sh <ep>` (prises + choix + nettoyage + accélération). Vérifier `travail/choix_voix.txt`
    (score < 0,9 = à écouter ; refaire avec `GRAINES=1933,1934,1935,1936 python prises.py <ep> <id>` puis
    `choix_prises.py <ep> <id>`).
-3. **Décors et scènes** : `anim_code/<ep>/commun.js` (copier celui d'`urgence`, garder `VIVANT_AUTO`, `CAM_COUPES`,
+3. **Décors et scènes** : `anim_code/<ep>/commun.js` (copier celui de `bacon`, garder `VIVANT_AUTO`, `CAM_COUPES`,
    `CAM_CALME`), `tv.js` (le monde N&B), `scene01.js`… `scene16.js`. Aperçu d'une image :
    `cd anim_code && HD=2 DESSIN=1 STYLE=1 node rendu_scene.js <ep> 05 --images 2.5` (image dans `anim_code/travail/`).
    **Montrer des aperçus à l'auteur avant de lancer un rendu complet.**
 4. **Montage** : copier `<ep>/outils/montage.py` d'un épisode récent (titre, sous-titre, nom, badge, scènes TV),
-   écrire `<ep>/sortie/<NOM>_publications.txt` (modèle : `urgence/sortie/…_publications.txt`).
+   écrire `<ep>/sortie/<NOM>_publications.txt` (ou `python3 outils_commun/publications.py <pub.json>`).
 5. **Tout fabriquer** : `sh outils_commun/episode.sh <ep> <NOM> "ÉPISODE NN" "TITRE" "« sous-titre »" "accroche story"`
    → `<ep>/sortie/<NOM>.zip`.
 6. Vérifier quelques images de la vidéo finale (visages non cachés, textes lisibles), puis livrer le zip.
