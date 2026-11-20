@@ -11,7 +11,7 @@ jobs:
   voice:
     name: Maurice — voix segment ${{ matrix.part }}
     runs-on: ubuntu-24.04
-    timeout-minutes: 110
+    timeout-minutes: 180
     strategy:
       fail-fast: false
       matrix:
@@ -32,14 +32,17 @@ jobs:
           sudo apt-get install -y ffmpeg libsndfile1
           python -m pip install --upgrade pip
           python -m pip install chatterbox-tts
+          python -c 'import torch, torchaudio; from chatterbox.mtl_tts import ChatterboxMultilingualTTS; print("Chatterbox prêt")'
       - name: Générer les segments originaux de Maurice
         working-directory: jt
         env:
           HF_HUB_DISABLE_XET: '1'
         run: |
           mkdir -p out/voice-parts
+          node --check editions/2026-11-20-1.js
           node tools/parallel-clips.js 2026-11-20-1 ${{ matrix.part }} 8 out/voice-parts
           python tools/clone.py out/voice-parts/jobs-${{ matrix.part }}.json
+          test -n "$(find out/voice-parts -maxdepth 1 -name '*.wav' -print -quit)"
       - uses: actions/upload-artifact@v4
         with:
           name: maurice-20-part-${{ matrix.part }}
@@ -68,6 +71,8 @@ jobs:
           npm install --no-save playwright
           npx playwright install --with-deps chromium
           python -m pip install numpy
+          node --check editions/2026-11-20-1.js
+          node --check render.js
       - uses: actions/download-artifact@v4
         with:
           pattern: maurice-20-part-*
@@ -92,10 +97,12 @@ jobs:
             jt/out/story-2026-11-20-1.jpg
             jt/out/publication-2026-11-20-1.txt
           retention-days: 7
-          if-no-files-found: warn
+          if-no-files-found: error
 
 # Relance après validation du sujet insolite : insecte de Patagonie.
 
 # Correction du scénario JavaScript du 20 novembre et nouvelle tentative.
 
 # Demande de lancement immédiat du moteur original jt/tools/daily.sh.
+
+# Vérifications préalables du scénario, de Chatterbox et des WAV; échec explicite sans livrable.
