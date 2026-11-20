@@ -92,3 +92,5 @@ jobs:
             jt/out/publication-2026-11-20-1.txt
           retention-days: 7
           if-no-files-found: warn
+
+# Relance après validation du sujet insolite : insecte de Patagonie.
