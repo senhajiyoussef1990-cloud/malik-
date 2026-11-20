@@ -1,7 +1,7 @@
 #!/bin/sh
 # voix 18-19 : Kaggle → dépôt, puis déclenche le rendu vidéo sur GitHub (étape voix sautée)
 cd /home/user/malik-
-sh outils_commun/kaggle/recup_voix.sh fabrique-voix-18-19 ampoule martiens
+sh outils_commun/kaggle/recup_voix.sh fabrique-voix-18-19-b ampoule martiens
 for e in ampoule martiens; do [ "$(ls $e/voix/*.mp3 | wc -l)" -ge 30 ] || { echo "voix incomplètes pour $e"; exit 1; }; done
 python3 - <<'PY'
 import json, time
