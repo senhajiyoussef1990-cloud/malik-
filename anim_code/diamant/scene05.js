@@ -13,7 +13,7 @@ function frame(c, t) {
     const Pu = PUBLICITAIRE(t, lerp(1100, 720, ag), { face: -1, look: [-.8, 0], sourire: 1, chapeau: lb < 1.2 });
     if (lb >= 0) { if (ag < 1) marche(Pu, t, 8); else { Pu.handL = [-150, -560]; Pu.poseL = 'ouverte'; } D.look = [1, 0]; D.handR = [180, -560]; D.poseR = 'ouverte'; }
     dessine(cc, D); if (lb >= 0) dessine(cc, Pu, drawVendeur);
-    if (la >= 0 && lb < 0) { const h = mainF(D, 1); bagueNB(cc, h[0], h[1] - 20, .8, t); }
+    if (la >= 0 && lb < 0) { const h = mainF(D, 1); bagueNB(cc, h[0], h[1] - 8, .38, t); }
     const k = ease(seg(lb, 1.2, 1.7)); if (k > 0) { cc.save(); cc.globalAlpha = k; F(cc, poly([[100, 690], [600, 690], [600, 780], [100, 780]]), GRIS.noir, 3); ink(cc, 2, GRIS.blanc); cc.strokeRect(110, 700, 480, 70); cc.textAlign = 'center'; cc.fillStyle = GRIS.blanc; cc.font = 'bold 26px Georgia'; cc.fillText('UNE AGENCE DE PUBLICITÉ', 350, 732); cc.font = 'italic 18px Georgia'; cc.fillText('mission : changer les mœurs', 350, 758); cc.restore(); }
   });
   debutFlash(c, t);

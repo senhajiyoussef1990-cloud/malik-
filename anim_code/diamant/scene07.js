@@ -12,7 +12,7 @@ function frame(c, t) {
     projecteur2(cc, 700, 1);
     const Vd = voix(VEDETTE(t, 760, { face: -1, look: [-.6, 0], sourire: 1.2, handR: [-200, -660], poseR: 'ouverte' }), ['s07a'], t);
     const Ac = figurant(t, 600, 0, { face: 1, s: .5, y: 840, look: [.6, -.6], sourire: 1, handR: [140, -560], poseR: 'ouverte' });
-    dessine(cc, Ac); dessine(cc, Vd); const h = mainF(Vd, 1); bagueNB(cc, h[0], h[1] - 14, .8, t);
+    dessine(cc, Ac); dessine(cc, Vd); const h = mainF(Vd, 1); bagueNB(cc, h[0], h[1] - 8, .36, t);
     cc.save(); cc.translate(470, 600); F(cc, poly([[-60, -60], [40, -60], [40, 20], [-60, 20]]), GRIS.noir, 3); F(cc, ell(-30, -80, 30, 30), GRIS.fonce, 3); F(cc, ell(20, -80, 30, 30), GRIS.fonce, 3); F(cc, poly([[40, -40], [90, -60], [90, 0], [40, -20]]), GRIS.noir, 2); ink(cc, 6, GRIS.noir); cc.beginPath(); cc.moveTo(-10, 20); cc.lineTo(-50, 200); cc.moveTo(-10, 20); cc.lineTo(30, 200); cc.stroke(); cc.restore();   // caméra
   }, (cc) => heros(cc, R, M));
   debutFlash(c, t);

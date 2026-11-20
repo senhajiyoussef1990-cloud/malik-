@@ -7,7 +7,7 @@ function frame(c, t) {
   enNoirEtBlanc(c, t, (cc) => {
     if (lb < 0) {
       cam(cc, t, [[0, 540, 405, 1.0], [B[0], 540, 330, 1.18]]);
-      cinemaNB(cc, t, { film: (c2) => { const Vd = VEDETTE(t, 560, { y: 470, s: .42, face: -1, look: [-.2, 0], sourire: 1, handR: [-180, -620], poseR: 'ouverte' }); sceneFilm(c2, t, Vd, null); const h = mainF(Vd, 1); bagueNB(c2, h[0], h[1] - 14, .7, t); } });
+      cinemaNB(cc, t, { film: (c2) => { const Vd = VEDETTE(t, 560, { y: 470, s: .42, face: -1, look: [-.2, 0], sourire: 1, handR: [-180, -620], poseR: 'ouverte' }); sceneFilm(c2, t, Vd, null); const h = mainF(Vd, 1); bagueNB(c2, h[0], h[1] - 8, .3, t); } });
     } else {
       cam(cc, t, [[B[0], 540, 380, 1.1], [DUREE, 540, 370, 1.14]]);
       const Cf = PUBLICITAIRE(t, 820, { y: 640, s: .42, face: -1, look: [-.8, -.2], sourire: .8, handL: [-220, -640], poseL: 'pointe' });
