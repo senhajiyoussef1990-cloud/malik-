@@ -15,3 +15,13 @@ function faitMain(cv, t) {
   c.save(); c.globalCompositeOperation = 'soft-light'; c.globalAlpha = .55; c.drawImage(_gouache, 0, 0); c.restore();       // texture de gouache
   c.save(); c.globalCompositeOperation = 'multiply'; c.globalAlpha = .38; c.drawImage(_papier, 0, 0); c.restore();          // grain du papier
 }
+// lettrage peint à la main : chaque lettre légèrement tournée, décalée et de taille irrégulière
+(() => { const P2 = CanvasRenderingContext2D.prototype, fT = P2.fillText, sT = P2.strokeText;
+  const main = (orig) => function (txt, x, y, mw) {
+    txt = String(txt); if (txt.length < 2 || this.__lettre) return orig.call(this, txt, x, y, mw);
+    const w = this.measureText(txt).width, al = this.textAlign; let cx = al === 'center' ? x - w / 2 : (al === 'right' || al === 'end') ? x - w : x;
+    this.save(); this.textAlign = 'left'; this.__lettre = true; let seed = 0; for (const ch of txt) seed += ch.charCodeAt(0);
+    [...txt].forEach((ch, i) => { const cw = this.measureText(ch).width, r = (k) => { const v = Math.sin((seed + i * 7.3 + k) * 91.7) * 43758.5; return v - Math.floor(v) - .5; };
+      this.save(); this.translate(cx + cw / 2, y + r(1) * 4); this.rotate(r(2) * .16); this.scale(1 + r(3) * .1, 1 + r(4) * .14); orig.call(this, ch, -cw / 2, 0); this.restore(); cx += cw; });
+    this.__lettre = false; this.restore(); };
+  P2.fillText = main(fT); P2.strokeText = main(sT); })();

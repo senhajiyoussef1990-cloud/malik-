@@ -15,7 +15,7 @@ function teinte(col, k) {
   const n = parseInt(col.slice(1), 16), f = (v) => Math.round(v * (1 - k)); return (_teintes[key] = `rgb(${f(n >> 16)},${f((n >> 8) & 255)},${f(n & 255)})`);
 }
 function ink(c, w = 5, col = INK) { if (STYLE_DESSIN && col === INK) { col = 'rgba(42,20,10,.5)'; w *= .7; } else if (typeof TRAIT_DOUX !== 'undefined' && col === INK) { col = 'rgba(48,24,12,.82)'; w *= .6; } c.strokeStyle = col; c.lineWidth = w; c.lineJoin = 'round'; c.lineCap = 'round'; }
-function F(c, p, col, w = 5) { c.fillStyle = col; c.fill(p); if (w) { if (STYLE_DESSIN) { c.strokeStyle = col; c.lineWidth = w * .42; c.lineJoin = c.lineCap = 'round'; } else ink(c, w); c.stroke(p); } }
+function F(c, p, col, w = 5) { c.fillStyle = col; c.fill(p); if (w) { if (STYLE_DESSIN) { const cl = typeof col === 'string' && col[0] === '#' && col.length === 7 && (parseInt(col.slice(1, 3), 16) + parseInt(col.slice(3, 5), 16) + parseInt(col.slice(5, 7), 16)) > 640; c.strokeStyle = cl ? 'rgba(60,30,14,.75)' : col; c.lineWidth = cl ? w * .55 : w * .42; c.lineJoin = c.lineCap = 'round'; } else ink(c, w); c.stroke(p); } }
 function ell(x, y, rx, ry, a = 0) { const p = new Path2D(); p.ellipse(x, y, Math.max(.1, rx), Math.max(.1, ry), a, 0, Math.PI * 2); return p; }
 function poly(pts) { const p = new Path2D(); p.moveTo(...pts[0]); for (const q of pts.slice(1)) p.lineTo(...q); p.closePath(); return p; }
 function smooth(pts, closed = true) {
@@ -266,6 +266,7 @@ function drawRenard(c, P) {
   for (let k = -4; k <= 4; k++) { c.beginPath(); c.moveTo(k * 9, hy - 90); c.quadraticCurveTo(k * 11 + 3, hy - 78, k * 8, hy - 66); c.stroke(); }
   for (const sd of [-1, 1]) for (let k = 0; k < 3; k++) { const y0 = hy + 24 + k * 9; c.beginPath(); c.moveTo(sd * (70 - k * 3), y0); c.lineTo(sd * (84 - k * 3), y0 + 4); c.stroke(); }
   ink(c, 2, 'rgba(255,240,215,.7)'); for (const sd of [-1, 1]) for (let k = 0; k < 3; k++) { c.beginPath(); c.moveTo(sd * (60 + k * 7), hy + 44 + k * 7); c.lineTo(sd * (74 + k * 7), hy + 50 + k * 7); c.stroke(); }
+  c.save(); c.translate((P.tourne || 0) * 24, 0);                                         // trois quarts : le visage glisse
   // ---- yeux mi-clos à grosses paupières, sourcils épais
   const lk = P.look || [0, 0], lid = P.lid != null ? P.lid : .5, bl = P.blink ? 1 : 0;
   for (const sd of [-1, 1]) {
@@ -303,6 +304,7 @@ function drawRenard(c, P) {
   }
   c.restore();
   c.fillStyle = 'rgba(120,50,20,.55)'; [[-30, hy + 58], [-36, hy + 66], [-26, hy + 68], [30, hy + 58], [36, hy + 66], [26, hy + 68]].forEach(([x, y]) => { c.beginPath(); c.arc(x, y, 1.8, 0, 7); c.fill(); });   // points des moustaches
+  c.restore();
   c.restore();
   // bras avant
   main(c, hR[0], hR[1] - 8, Math.atan2(hR[1] - sR[1], hR[0] - sR[0]) - Math.PI / 2, 1.32, R.main, true, P.poseR || 'repos', 1);
@@ -375,6 +377,7 @@ function drawMouton(c, P) {
   for (const [x, y] of laine) { c.fillStyle = 'rgba(255,255,250,.55)'; c.beginPath(); c.ellipse(x - 6, y - 6, 6, 4, -.5, 0, 7); c.fill(); }
   ink(c, 2, M.laine2); for (const [x, y] of laine) { c.beginPath(); c.arc(x + 2, y + 1, 8, 0.3, 2.6); c.stroke(); }
   F(c, smooth([[-50, hy - 44], [0, hy - 52], [50, hy - 44], [44, hy - 30], [0, hy - 38], [-44, hy - 30]]), M.visage, 0);   // le front passe sous la frange
+  c.save(); c.translate((P.tourne || 0) * 20, 0);                                         // trois quarts
   const lk = P.look || [0, 0];
   for (const sd of [-1, 1]) {
     const ex = sd * 26, ey = hy + 4;
@@ -394,6 +397,7 @@ function drawMouton(c, P) {
   c.save(); c.translate(0, hy + 66); c.scale(visM === 'o' ? .62 : visM === 'i' ? 1.15 : 1, visM === 'o' ? 1.15 : 1); c.translate(0, -(hy + 66));
   if (talkM < .06 && !P.rire) { ink(c, 3.5); c.beginPath(); c.moveTo(-10, hy + 64); c.quadraticCurveTo(-4, hy + 60, 0, hy + 61); c.quadraticCurveTo(4, hy + 60, 10, hy + 64); c.stroke(); }
   else bouche(c, 0, hy + 64, 34, Math.max(talkM, P.rire ? .8 : 0), P.rire ? 1.4 : (P.sourire != null ? P.sourire : .3), '#6a2016');
+  c.restore();
   c.restore();
   // ---- grande casquette plate en tweed (ou un autre chapeau : P.chapeau(c, hy) le dessine à la place)
   if (P.chapeau) P.chapeau(c, hy); else {

@@ -15,7 +15,7 @@ function dessineSalon(c, t, R, M, o = {}, avant) {
   if (o.derriere) o.derriere(c);
   if (R) { if (R.souffle != null) dessineVivant(c, R, drawRenard); else { c.save(); c.translate(0, -R.bob); drawRenard(c, R); c.restore(); } }
   if (M) { if (M.souffle != null) dessineVivant(c, M, drawMouton); else { c.save(); c.translate(0, -M.bob); drawMouton(c, M); c.restore(); } }
-  if (avant) avant(c);
+  if (avant) { avant(c); if (typeof VIVANT_AUTO !== 'undefined') { if (R) tenir(c, R, 'renard'); if (M) tenir(c, M, 'mouton'); } }
 }
 const _ecr = document.createElement('canvas'); _ecr.width = W; _ecr.height = H; const _ecrc = _ecr.getContext('2d');
 function ecranTV(c, rect, t, dessin, on) {                    // l'émission vue dans le poste (N&B, déformée en bombé)

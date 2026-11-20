@@ -31,7 +31,8 @@ function vivant(P, t, o = {}) {
   // respiration et transfert de poids (toujours)
   P.souffle = .007 * Math.sin(t * 2.3 + ph);
   P.sway = (P.walk ? 0 : 4 * Math.sin(t * .55 + ph));
-  P.lean = (P.lean || 0) + (P.walk ? .035 : .012 * Math.sin(t * .55 + ph + .5));
+  P.lean = (P.lean || 0) + (P.walk ? .035 : .012 * Math.sin(t * .55 + ph + .5) + (_h(Math.floor(ph * 10)) > .5 ? .02 : -.02));
+  if (!P.walk) P.tilt = (P.tilt || 0) - (_h(Math.floor(ph * 10)) > .5 ? .025 : -.025);   // la tête compense l'inclinaison du buste
   // clignements irréguliers
   const cyc = 2.6 + _h(Math.floor(t / 3 + ph)) * 2.4; P.blink = (t + ph * 3) % cyc < .11 ? 1 : 0;
   // coups d'œil quand on se tait
@@ -53,6 +54,7 @@ function vivant(P, t, o = {}) {
     P.tilt = (P.tilt || 0) + Math.max(0, b) * .06; P.sourcil = Math.max(P.sourcil || 0, Math.max(0, b) * .6);
     if (o.vers != null) P.look = [Math.sign(o.vers - P.x) * .9 * (P.face || 1), .1];
   }
+  P.tourne = Math.max(-1, Math.min(1, (P.look ? P.look[0] : 0) * .8));
   // les oreilles suivent le mouvement de la tête avec retard
   P.oreille = (P.oreille || 0) + (Math.sin((t - .12) * 3.1 + ph) - Math.sin(t * 3.1 + ph)) * .35 + (parle ? battement(o.parle, t - .1) * .08 : 0);
   // marche : balancier des bras opposé aux jambes, buste qui monte deux fois par pas
@@ -84,10 +86,21 @@ function dessinTrace(c, P, f, couleur = INK) {
   const m = c.getTransform(); _trC.setTransform(1, 0, 0, 1, 0, 0); _trC.clearRect(0, 0, _trCv.width, _trCv.height); _trC.setTransform(m);
   _trC.save(); _trC.translate(P.sway || 0, -(P.bob || 0)); _trC.translate(P.x, P.y); _trC.scale(1, 1 + (P.souffle || 0)); _trC.translate(-P.x, -P.y);
   STYLE_DESSIN = true; try { f(_trC, P); } finally { STYLE_DESSIN = false; } _trC.restore();
+  if (!P.pasDeLumiere) {                                             // lumière chaude d'un côté, ombre de l'autre, posée seulement sur le personnage
+    _trC.save(); _trC.globalCompositeOperation = 'source-atop'; const r = 260 * (P.s || .6) / .6, g = _trC.createLinearGradient(P.x - r, 0, P.x + r, 0);
+    g.addColorStop(0, 'rgba(255,214,150,.32)'); g.addColorStop(.42, 'rgba(255,214,150,0)'); g.addColorStop(.58, 'rgba(30,14,30,0)'); g.addColorStop(1, 'rgba(30,14,30,.36)');
+    _trC.fillStyle = g; _trC.fillRect(P.x - r * 2, P.y - r * 5, r * 4, r * 6);
+    const g2 = _trC.createLinearGradient(0, P.y - r * 1.2, 0, P.y); g2.addColorStop(0, 'rgba(30,14,30,0)'); g2.addColorStop(1, 'rgba(30,14,30,.22)'); _trC.fillStyle = g2; _trC.fillRect(P.x - r * 2, P.y - r * 1.2, r * 4, r * 1.3);
+    _trC.restore();
+  }
+  if (!P.pasDOmbre) { c.save(); const rx = 120 * (P.s || .6), ry = 26 * (P.s || .6), g = c.createRadialGradient(P.x + (P.sway || 0), P.y, 2, P.x + (P.sway || 0), P.y, rx);   // ombre portée au sol
+    g.addColorStop(0, 'rgba(20,10,5,.55)'); g.addColorStop(1, 'rgba(20,10,5,0)'); c.translate(P.x + (P.sway || 0), P.y); c.scale(1, ry / rx); c.translate(-(P.x + (P.sway || 0)), -P.y); c.fillStyle = g; c.beginPath(); c.arc(P.x + (P.sway || 0), P.y, rx, 0, 7); c.fill(); c.restore(); }
   const fr = Math.floor((P.t || 0) * 15), z = Math.hypot(m.a, m.b), d = Math.max(1.2, 2.3 * z * (P.s || .6) / .6) + (hash(fr) - .5) * .5, j = (hash(fr + 7) - .5) * .6;
   c.save(); c.setTransform(1, 0, 0, 1, 0, 0);
   c.filter = `drop-shadow(${d + j}px 0 0 ${couleur}) drop-shadow(${-d}px ${j}px 0 ${couleur}) drop-shadow(0 ${d}px 0 ${couleur}) drop-shadow(${j}px ${-d}px 0 ${couleur})`;
-  c.drawImage(_trCv, 0, 0); c.filter = 'none'; c.drawImage(_trCv, 0, 0); c.restore();
+  c.drawImage(_trCv, 0, 0); c.filter = 'none';
+  if (P.walk) { const dx = -(P.face || 1) * 9 * z; c.globalAlpha = .16; c.drawImage(_trCv, dx * 2, 0); c.globalAlpha = .26; c.drawImage(_trCv, dx, 0); c.globalAlpha = 1; }   // traînée de mouvement
+  c.drawImage(_trCv, 0, 0); c.restore();
 }
 
 // version automatique : retrouve qui parle et qui écoute d'après les répliques de la scène (L[id][2] = personnage)
@@ -97,3 +110,14 @@ function vivantAuto(P, t, qui, autreX, phase = 0) {
   const main = P.poseR && P.poseR !== 'repos' ? 'L' : 'R';
   return vivant(P, t, { parle: miens, ecoute: autres, vers: autreX, main, phase, bras: !(P.handL && P.handR && Math.abs(P.handL[0] - P.handR[0]) < 140) });
 }
+
+// une main qui tient un objet : redessinée par-dessus l'objet, doigts refermés dessus
+const _CORPS = { renard: { shY: -712, hipY: -470, sx: 86, sy: 20, ech: 1.32, retrait: 8, col: () => RENARD.main, griffes: true }, mouton: { shY: -636, hipY: -440, sx: 88, sy: 14, ech: 1.2, retrait: 28, col: () => MOUTON.main, griffes: false } };
+function mainDessus(c, P, qui, cote) {
+  const K = _CORPS[qui], h = cote > 0 ? P.handR : P.handL; if (!h) return;
+  const f = (cc) => { cc.save(); cc.translate(P.x, P.y); cc.scale(P.s * (P.face || 1), P.s); cc.translate(0, K.hipY); cc.rotate(P.lean || 0); cc.translate(0, -K.hipY);
+    const sh = [cote * K.sx, K.shY + K.sy], a = Math.atan2(h[1] - sh[1], h[0] - sh[0]), hx = h[0] - Math.cos(a) * K.retrait, hy = h[1] - Math.sin(a) * K.retrait;
+    main(cc, hx, hy - (qui === 'renard' ? 8 : 0), a - Math.PI / 2, K.ech, K.col(), K.griffes, 'poing', cote); cc.restore(); };
+  const PP = Object.assign({}, P, { pasDOmbre: true }); if (typeof STYLE_TRACE !== 'undefined' && STYLE_TRACE) dessinTrace(c, PP, (cc) => f(cc)); else { c.save(); c.translate(0, -(P.bob || 0)); f(c); c.restore(); }
+}
+function tenir(c, P, qui) { for (const cote of [1, -1]) if ((cote > 0 ? P.poseR : P.poseL) === 'poing') mainDessus(c, P, qui, cote); }

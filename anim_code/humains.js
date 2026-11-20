@@ -32,6 +32,7 @@ function teteHumain(c, P, hy, opts) {
   F(c, v, GRIS.peau, 5); ombre(c, v, -30, hy - 20, 57, hy + 40, .26); reflet(c, v, -24, hy - 30, 18, 10, .3);
   c.save(); c.clip(v); const g = c.createLinearGradient(0, hy + 30, 0, hy + 72); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,.14)'); c.fillStyle = g; c.fillRect(-60, hy + 30, 120, 50); c.restore();   // ombre sous le menton
   if (opts.barbe) { c.fillStyle = 'rgba(70,66,60,.38)'; for (let k = 0; k < 70; k++) { const a = .15 + hash(k) * 2.85, r = .55 + hash(k + 7) * .4; c.beginPath(); c.arc(Math.cos(a) * 46 * r, hy + 24 + Math.sin(a) * 38 * r, 1.3, 0, 7); c.fill(); } }
+  c.save(); c.translate((P.tourne || 0) * 10, 0);
   ink(c, 1.8, 'rgba(0,0,0,.35)');                                                                       // rides d'expression
   for (const sd of [-1, 1]) { c.beginPath(); c.moveTo(sd * 30, hy + 26); c.quadraticCurveTo(sd * 36, hy + 40, sd * 30, hy + 52); c.stroke(); }
   if (opts.age) { for (let k = 0; k < 3; k++) { c.beginPath(); c.moveTo(-22, hy - 44 + k * 7); c.quadraticCurveTo(0, hy - 48 + k * 7, 22, hy - 44 + k * 7); c.stroke(); } }
@@ -50,8 +51,8 @@ function teteHumain(c, P, hy, opts) {
     const sc = P.sourcil || 0;
     F(c, smooth([[ex - sd * 14, ey - 21 - sc * 3], [ex, ey - 29 - sc * 6], [ex + sd * 14, ey - 23 + (opts.mechant ? 5 : 0)], [ex + sd * 12, ey - 19 + (opts.mechant ? 5 : 0)], [ex, ey - 25 - sc * 6], [ex - sd * 12, ey - 18 - sc * 3]]), opts.blond ? GRIS.moyen : GRIS.noir, 1.5);
   }
-  const nez = ell(4 + lk[0] * 3, hy + 14, 15, 12); F(c, nez, GRIS.peau, 4); ombre(c, nez, 0, hy + 4, 18, hy + 24, .3); reflet(c, nez, -1, hy + 9, 5, 3, .7);  // gros nez rond
-  c.fillStyle = 'rgba(0,0,0,.4)'; for (const sd of [-1, 1]) { c.beginPath(); c.ellipse(4 + sd * 6, hy + 22, 2.4, 1.6, 0, 0, 7); c.fill(); }
+  const nez = smooth([[-3 + lk[0] * 3, hy - 4], [8 + lk[0] * 3, hy - 2], [13 + lk[0] * 3, hy + 16], [6 + lk[0] * 3, hy + 22], [-6 + lk[0] * 3, hy + 20], [-8 + lk[0] * 3, hy + 12]]); F(c, nez, GRIS.peau, 4); ombre(c, nez, -8, hy + 4, 14, hy + 22, .3); reflet(c, nez, 1, hy + 6, 3, 4, .6);  // gros nez rond
+  c.fillStyle = 'rgba(0,0,0,.35)'; for (const sd of [-1, 1]) { c.beginPath(); c.ellipse(2 + sd * 5 + lk[0] * 3, hy + 19, 2, 1.3, 0, 0, 7); c.fill(); }
   if (opts.moustache) { const mo = smooth([[-28, hy + 32], [-8, hy + 27], [4, hy + 31], [16, hy + 27], [36, hy + 32], [16, hy + 38], [-6, hy + 38]]); F(c, mo, GRIS.noir, 2); ink(c, 1, 'rgba(255,255,255,.3)'); c.beginPath(); c.moveTo(-18, hy + 31); c.lineTo(-4, hy + 30); c.moveTo(10, hy + 30); c.lineTo(26, hy + 31); c.stroke(); }
   if (opts.rouge) { c.fillStyle = 'rgba(0,0,0,.12)'; for (const sd of [-1, 1]) { c.beginPath(); c.ellipse(sd * 34, hy + 30, 10, 6, 0, 0, 7); c.fill(); } }
   const o = P.talk || 0, my = hy + 47;
@@ -59,6 +60,7 @@ function teteHumain(c, P, hy, opts) {
   else { const h = 6 + o * 22; const b = new Path2D(); b.moveTo(-17, my - 2); b.quadraticCurveTo(2, my + 4, 21, my - 4); b.quadraticCurveTo(10, my + h, 2, my + h); b.quadraticCurveTo(-8, my + h, -17, my - 2); b.closePath();
     F(c, b, GRIS.noir, 3.5); c.save(); c.clip(b); c.fillStyle = GRIS.moyen; c.beginPath(); c.ellipse(2, my + h, 10, h * .4, 0, 0, 7); c.fill(); c.fillStyle = '#fff'; c.fillRect(-14, my - 4, 32, 5); c.restore(); }
   ink(c, 2, 'rgba(0,0,0,.4)'); c.beginPath(); c.moveTo(-8, my + 16); c.quadraticCurveTo(2, my + 20, 12, my + 16); c.stroke();          // fossette du menton
+  c.restore();
 }
 function bras(c, sh, hand, bend, col, pose, w = 30) {
   const a = Math.atan2(hand[1] - sh[1], hand[0] - sh[0]), E = [hand[0] - Math.cos(a) * 18, hand[1] - Math.sin(a) * 18];
