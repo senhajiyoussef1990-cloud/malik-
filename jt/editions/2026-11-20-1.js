@@ -7,7 +7,7 @@ window.EDITION = {
  voice:"fr_FR-tom-medium",voiceEngine:"clone",
  phonetic:{"Van Gogh":"Van Gogue","OTAN":"Otan","Lecornu":"Le Cornu"},
  hook:["Un insecte *mystérieux*","près d’un *glacier* !"],
- hookSay:"Un insecte mystérieux|découvert près d’un glacier !"
+ hookSay:"Un insecte mystérieux|découvert près d’un glacier !",
  hookIllustration:"globe",
  rubriques:[
  {category:"EN FRANCE",title:"Alerte sur les cyberattaques",illustration:"globe",
