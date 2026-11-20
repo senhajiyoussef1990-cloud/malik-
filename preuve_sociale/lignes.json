@@ -4,7 +4,7 @@
   "plan": 1,
   "scene": 1,
   "who": "renard",
-  "pause": 0.45,
+  "pause": 1.1,
   "text": "Tu veux vraiment ce chapeau, ou tu l’as vu partout ?"
  },
  {
@@ -20,7 +20,7 @@
   "plan": 3,
   "scene": 2,
   "who": "renard",
-  "pause": 0.45,
+  "pause": 1.1,
   "text": "Et si tout le monde attendait simplement le premier ?"
  },
  {
@@ -204,7 +204,7 @@
   "plan": 26,
   "scene": 16,
   "who": "mouton",
-  "pause": 0.45,
+  "pause": 0.8,
   "text": "Je croyais choisir. J’imitais sans réfléchir."
  },
  {
@@ -212,7 +212,7 @@
   "plan": 27,
   "scene": 16,
   "who": "renard",
-  "pause": 0.45,
+  "pause": 0.8,
   "text": "Regarde les autres, mais écoute aussi tes raisons."
  },
  {
@@ -220,7 +220,7 @@
   "plan": 28,
   "scene": 16,
   "who": "mouton",
-  "pause": 0.45,
+  "pause": 0.8,
   "text": "Cette fois, je le choisis pour moi."
  },
  {

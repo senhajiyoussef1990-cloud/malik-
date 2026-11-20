@@ -137,8 +137,8 @@ function drawFigurant(c, P) {
     F(c, smooth([[-46, shY - 4], [0, shY + 40], [46, shY - 4], [40, shY + 16], [0, shY + 56], [-40, shY + 16]]), GRIS.blanc, 3);   // col claudine
     F(c, poly([[-62, -400], [62, -400], [64, -386], [-64, -386]]), GRIS.noir, 2); F(c, ell(0, -393, 9, 7), GRIS.blanc, 2);              // ceinture
     for (let k = -3; k <= 3; k++) { ink(c, 1.4, 'rgba(0,0,0,.3)'); c.beginPath(); c.moveTo(k * 20, -380); c.lineTo(k * 30, -70); c.stroke(); }   // plis de la jupe
-    for (const sd of [-1, 1]) { ink(c, 14); c.beginPath(); c.moveTo(sd * 30, -60); c.lineTo(sd * 34, -20); c.stroke(); souliers(c, sd * 34, 0, sd, .8); } }
-  else { for (const sd of [-1, 1]) { const hip = [sd * 28, hipY], foot = [sd * 38, -30]; jambeHumain(c, hip, foot, 50, col, sd, 0); souliers(c, foot[0], foot[1] + 30, sd, 1); }
+    for (const sd of [-1, 1]) { const ph = P.walk ? Math.sin(P.walk + (sd > 0 ? Math.PI : 0)) : 0; ink(c, 14); c.beginPath(); c.moveTo(sd * 30, -60); c.lineTo(sd * 34 + ph * 30, -20 - Math.max(0, ph) * 10); c.stroke(); souliers(c, sd * 34 + ph * 30, -Math.max(0, ph) * 10, sd, .8); } }
+  else { for (const sd of [-1, 1]) { const ph = P.walk ? Math.sin(P.walk + (sd > 0 ? Math.PI : 0)) : 0, hip = [sd * 28, hipY], foot = [sd * 38 + ph * 46, -30 - Math.max(0, ph) * 16]; jambeHumain(c, hip, foot, 50, col, sd, ph); souliers(c, foot[0], foot[1] + 30, sd, 1); }
     const v2 = smooth([[-76, shY], [76, shY], [72, -400], [-72, -400]]); F(c, v2, col, 5); if (v % 2) rayures(c, v2, 'rgba(0,0,0,.25)', 13); ombre(c, v2, -40, shY, 76, -400, .3); ink(c, 5); c.stroke(v2);
     F(c, poly([[-24, shY - 8], [24, shY - 8], [0, shY + 70]]), GRIS.blanc, 3); F(c, poly([[-8, shY], [8, shY], [12, shY + 64], [0, shY + 80], [-12, shY + 64]]), v % 2 ? GRIS.noir : GRIS.moyen, 2);
     for (const sd of [-1, 1]) F(c, poly([[sd * 24, shY - 6], [sd * 46, shY + 2], [sd * 20, -470], [sd * 8, shY + 60]]), 'rgba(0,0,0,.25)', 3);
@@ -150,7 +150,8 @@ function drawFigurant(c, P) {
   teteHumain(c, P, hy, { moustache: v % 3 === 0, cils: v % 3 === 1, age: v % 4 === 0, barbe: v % 5 === 2, rouge: true });
   if (femme) { for (let k = -3; k <= 3; k++) { F(c, ell(k * 16, hy - 52 + Math.abs(k) * 6, 16, 14), GRIS.noir, 0); ink(c, 1.4, 'rgba(255,255,255,.35)'); c.beginPath(); c.arc(k * 16, hy - 52 + Math.abs(k) * 6, 8, 3.5, 5.6); c.stroke(); }
     for (const sd of [-1, 1]) F(c, ell(sd * 52, hy + 26, 4, 6), GRIS.blanc, 1.5);   // boucles d'oreilles
-    F(c, ell(0, hy - 62, 64, 10), GRIS.clair, 3); F(c, smooth([[-36, hy - 64], [-30, hy - 96], [30, hy - 96], [36, hy - 64]]), GRIS.clair, 3); F(c, ell(20, hy - 80, 10, 8), GRIS.fonce, 2); }
+    if (P.chapeau) P.chapeau(c, hy); else { F(c, ell(0, hy - 62, 64, 10), GRIS.clair, 3); F(c, smooth([[-36, hy - 64], [-30, hy - 96], [30, hy - 96], [36, hy - 64]]), GRIS.clair, 3); F(c, ell(20, hy - 80, 10, 8), GRIS.fonce, 2); } }
+  else if (P.chapeau) P.chapeau(c, hy);
   else if (v % 3 === 0) { F(c, ell(0, hy - 58, 66, 10), GRIS.noir, 3); F(c, smooth([[-40, hy - 60], [-36, hy - 104], [36, hy - 104], [40, hy - 60]]), GRIS.noir, 3); }
   else { F(c, ell(0, hy - 56, 62, 10), GRIS.blanc, 3); F(c, poly([[-38, hy - 58], [38, hy - 58], [36, hy - 82], [-36, hy - 82]]), GRIS.blanc, 3); F(c, poly([[-38, hy - 68], [38, hy - 68], [38, hy - 62], [-38, hy - 62]]), GRIS.noir, 1.5); }
   if (P.objet) P.objet(c, hR);
