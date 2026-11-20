@@ -28,11 +28,12 @@ jobs:
           python-version: '3.11'
       - name: Installer Chatterbox et PyTorch
         run: |
+          sudo rm -rf /usr/local/lib/android /opt/hostedtoolcache/CodeQL /usr/share/dotnet /opt/ghc || true
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg libsndfile1
-          python -m pip install --upgrade pip
-          python -m pip install chatterbox-tts
-          python -c 'import torch, torchaudio; from chatterbox.mtl_tts import ChatterboxMultilingualTTS; print("Chatterbox prêt")'
+          python -m pip install --no-cache-dir chatterbox-tts
+          df -h .
+          python -c 'import torch, torchaudio; print("Chatterbox dependencies ready")'
       - name: Générer les segments originaux de Maurice
         working-directory: jt
         env:
@@ -106,3 +107,5 @@ jobs:
 # Demande de lancement immédiat du moteur original jt/tools/daily.sh.
 
 # Vérifications préalables du scénario, de Chatterbox et des WAV; échec explicite sans livrable.
+
+# Correctif vérifié dans logs du run 44725046209 : Errno 28 disk full pendant pip install.
