@@ -1,0 +1,94 @@
+name: Maurice JT quotidien 20 novembre 2026
+on:
+  push:
+    branches: [jt]
+    paths: ['.github/workflows/jt-20.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  voice:
+    name: Maurice — voix segment ${{ matrix.part }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 110
+    strategy:
+      fail-fast: false
+      matrix:
+        part: [0,1,2,3,4,5,6,7]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: jt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer Chatterbox et PyTorch
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg libsndfile1
+          python -m pip install chatterbox-tts
+      - name: Générer les segments originaux de Maurice
+        working-directory: jt
+        env:
+          HF_HUB_DISABLE_XET: '1'
+        run: |
+          mkdir -p out/voice-parts
+          node tools/parallel-clips.js 2026-11-20-1 ${{ matrix.part }} 8 out/voice-parts
+          python tools/clone.py out/voice-parts/jobs-${{ matrix.part }}.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maurice-20-part-${{ matrix.part }}
+          path: jt/out/voice-parts/*.wav
+          retention-days: 7
+  render:
+    name: MP4 original, story et publication
+    needs: voice
+    runs-on: ubuntu-24.04
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: jt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer FFmpeg et Chromium
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          cd jt
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          python -m pip install numpy
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: maurice-20-part-*
+          merge-multiple: true
+          path: jt/out/voice-parts
+      - name: Monter le JT original
+        working-directory: jt
+        env:
+          VOICE_PARTS_DIR: out/voice-parts
+        run: |
+          chmod +x tools/daily.sh
+          tools/daily.sh 2026-11-20-1
+          test -s out/ecodujour-2026-11-20-1.mp4
+          test -s out/story-2026-11-20-1.jpg
+          test -s out/publication-2026-11-20-1.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eco-du-jour-2026-11-20
+          path: |
+            jt/out/ecodujour-2026-11-20-1.mp4
+            jt/out/story-2026-11-20-1.jpg
+            jt/out/publication-2026-11-20-1.txt
+          retention-days: 7
+          if-no-files-found: warn
