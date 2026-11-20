@@ -5,8 +5,17 @@ const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
 const lerp = (a, b, k) => a + (b - a) * k;
 const ease = (x) => { x = clamp(x); return x * x * (3 - 2 * x); };
 function hash(n) { const s = Math.sin(n * 12.9898) * 43758.5453; return s - Math.floor(s); }
-function ink(c, w = 5, col = INK) { c.strokeStyle = col; c.lineWidth = w; c.lineJoin = 'round'; c.lineCap = 'round'; }
-function F(c, p, col, w = 5) { c.fillStyle = col; c.fill(p); if (w) { ink(c, w); c.stroke(p); } }
+// Style « dessin » : pendant qu'un personnage est dessiné, pas de traits noirs entre ses morceaux ; les séparations deviennent
+// une simple nuance plus foncée de la couleur, et un seul contour entoure toute la silhouette (voir dessinTrace dans vivant.js).
+let STYLE_DESSIN = false;
+const _teintes = {};
+function teinte(col, k) {
+  if (typeof col !== 'string' || col[0] !== '#' || col.length !== 7) return `rgba(42,20,10,${.35 + k * .3})`;
+  const key = col + k; if (_teintes[key]) return _teintes[key];
+  const n = parseInt(col.slice(1), 16), f = (v) => Math.round(v * (1 - k)); return (_teintes[key] = `rgb(${f(n >> 16)},${f((n >> 8) & 255)},${f(n & 255)})`);
+}
+function ink(c, w = 5, col = INK) { if (STYLE_DESSIN && col === INK) { col = 'rgba(42,20,10,.62)'; w *= .72; } c.strokeStyle = col; c.lineWidth = w; c.lineJoin = 'round'; c.lineCap = 'round'; }
+function F(c, p, col, w = 5) { c.fillStyle = col; c.fill(p); if (w) { if (STYLE_DESSIN) { c.strokeStyle = teinte(col, .28); c.lineWidth = w * .42; c.lineJoin = c.lineCap = 'round'; } else ink(c, w); c.stroke(p); } }
 function ell(x, y, rx, ry, a = 0) { const p = new Path2D(); p.ellipse(x, y, Math.max(.1, rx), Math.max(.1, ry), a, 0, Math.PI * 2); return p; }
 function poly(pts) { const p = new Path2D(); p.moveTo(...pts[0]); for (const q of pts.slice(1)) p.lineTo(...q); p.closePath(); return p; }
 function smooth(pts, closed = true) {

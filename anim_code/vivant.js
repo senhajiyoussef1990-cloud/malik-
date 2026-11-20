@@ -60,7 +60,7 @@ function vivant(P, t, o = {}) {
   return P;
 }
 // dessine un personnage avec respiration et transfert de poids
-function dessineVivant(c, P, f) { c.save(); c.translate(P.sway || 0, -(P.bob || 0)); c.translate(P.x, P.y); c.scale(1, 1 + (P.souffle || 0)); c.translate(-P.x, -P.y); f(c, P); c.restore(); }
+function dessineVivant(c, P, f) { if (typeof STYLE_TRACE !== 'undefined' && STYLE_TRACE) return dessinTrace(c, P, f); c.save(); c.translate(P.sway || 0, -(P.bob || 0)); c.translate(P.x, P.y); c.scale(1, 1 + (P.souffle || 0)); c.translate(-P.x, -P.y); f(c, P); c.restore(); }
 // découpage en plans : liste [début, cx, cy, zoom] ; coupe franche entre deux plans (deux images de fondu)
 function plans(c, t, liste) {
   let k = liste[0]; for (const p of liste) if (t >= p[0]) k = p;
@@ -75,4 +75,17 @@ function plansDialogue(lignes, pos, large = [540, 405, 1.12]) {
     res.push([l[0] - .15, x, y, 1.75]);
     if (l[1] > 2.4 && pos[autre]) { res.push([l[0] + l[1] * .55, pos[autre][0], pos[autre][1], 1.75]); res.push([l[0] + l[1] * .55 + .9, x, y, 1.6]); } });
   return res;
+}
+
+// rendu « dessin » : le personnage est peint à part, puis entouré d'un seul contour qui « vibre » légèrement, comme tracé à la main
+let _trCv = null, _trC = null;
+function dessinTrace(c, P, f, couleur = INK) {
+  if (!_trCv) { _trCv = document.createElement('canvas'); _trCv.width = c.canvas.width; _trCv.height = c.canvas.height; _trC = _trCv.getContext('2d'); }
+  const m = c.getTransform(); _trC.setTransform(1, 0, 0, 1, 0, 0); _trC.clearRect(0, 0, _trCv.width, _trCv.height); _trC.setTransform(m);
+  _trC.save(); _trC.translate(P.sway || 0, -(P.bob || 0)); _trC.translate(P.x, P.y); _trC.scale(1, 1 + (P.souffle || 0)); _trC.translate(-P.x, -P.y);
+  STYLE_DESSIN = true; try { f(_trC, P); } finally { STYLE_DESSIN = false; } _trC.restore();
+  const fr = Math.floor((P.t || 0) * 15), z = Math.hypot(m.a, m.b), d = Math.max(1.2, 2.3 * z * (P.s || .6) / .6) + (hash(fr) - .5) * .5, j = (hash(fr + 7) - .5) * .6;
+  c.save(); c.setTransform(1, 0, 0, 1, 0, 0);
+  c.filter = `drop-shadow(${d + j}px 0 0 ${couleur}) drop-shadow(${-d}px ${j}px 0 ${couleur}) drop-shadow(0 ${d}px 0 ${couleur}) drop-shadow(${j}px ${-d}px 0 ${couleur})`;
+  c.drawImage(_trCv, 0, 0); c.filter = 'none'; c.drawImage(_trCv, 0, 0); c.restore();
 }
