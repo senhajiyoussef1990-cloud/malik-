@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Des sushis au saumon : la vraie tradition japonaise."
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Une tradition ? Tu serais surpris de son âge."
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Les Japonais en mangent depuis des siècles, non ?"
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Pas de celui-là. Allons voir ça de près."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Direction la Norvège, au milieu des années quatre-vingt."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "La Norvège élève des saumons en masse. Ses fermes débordent."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Il lui faut un nouveau pays, prêt à en manger beaucoup."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "delegue",
+  "pause": 0.5,
+  "text": "Le Japon adore le poisson cru. Vendons-leur notre saumon !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Mais au Japon, le saumon se mange grillé, jamais cru."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "On le croit plein de parasites, fade, juste bon pour le gril."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "cheffe",
+  "pause": 0.4,
+  "text": "Du saumon cru dans un sushi ? Jamais de la vie !"
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "Alors les Norvégiens changent tout… sauf le poisson."
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.4,
+  "text": "Comment ça, tout sauf le poisson ?"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Le nom, l’image, et l’histoire qu’on raconte autour."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "On l’appelle désormais « sāmon », un mot neuf, venu de l’anglais."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "On le présente comme frais, élevé en eaux froides, sans parasites."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Des chefs sont invités, des dégustations sont organisées partout."
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "Une grande entreprise accepte d’en vendre à bas prix, pour les sushis."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "cliente",
+  "pause": 0.4,
+  "text": "Ce sāmon est doux et fondant. J’en reprends !"
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc le saumon des sushis, c’est une campagne de vente ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Oui. Un produit refusé, rebaptisé, puis adopté."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "En quelques années, il devient le poisson préféré des sushis."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Et beaucoup croient aujourd’hui que c’est une tradition ancienne."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Change l’étiquette, et le goût change dans la tête."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour à table."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Je les aime quand même, mes sushis au saumon."
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Tant mieux. Aimer, c’est permis. Savoir, c’est mieux."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Qui a choisi ce nom, et pourquoi celui-là ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Exactement. Un nom aussi peut être une réclame."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+ }
+]
