@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Pour demander sa main, il faut une bague en diamant. C’est obligé."
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Obligé ? Par qui, au juste ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Ben… par la tradition. Et elle doit coûter deux mois de salaire."
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Deux mois ? Voyons qui a fixé ce prix-là."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Direction New York, à la fin des années trente."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Les ventes de diamants s’effondrent. Plus personne n’a d’argent."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Pourtant, un seul grand marchand contrôle presque toutes les mines."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "diamantaire",
+  "pause": 0.5,
+  "text": "Il faut que chaque fiancé se sente obligé d’en acheter un !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Il engage une agence de publicité, chargée de changer les mœurs."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "On prête des diamants aux vedettes de cinéma."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Des conférenciers vont même parler de bagues dans les lycées."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "vedette",
+  "pause": 0.5,
+  "text": "Une vraie demande en mariage, c’est un diamant, mon chéri !"
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.4,
+  "text": "Mais elle récite une réclame !"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Oui. Et sur grand écran, ça ressemble à de l’amour."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "En mille neuf cent quarante-sept, une rédactrice trouve la phrase magique."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "redactrice",
+  "pause": 0.3,
+  "text": "Un diamant est éternel !"
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Éternel… donc on ne le revend pas. Et le prix reste haut."
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "Plus tard, la réclame fixe même le prix de l’amour : deux mois de salaire."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "fiance",
+  "pause": 0.4,
+  "text": "Deux mois de salaire ? Bon… si c’est la règle."
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc la règle des deux mois, c’est le vendeur qui l’a écrite ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Exactement. Une norme inventée par celui qui encaisse."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Le diamant est moins rare qu’on le croit. Le revendre, en revanche, rapporte peu."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Mais la phrase est restée, et la tradition avec elle."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "L’amour ne se mesure pas en carats."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour au salon."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Alors je peux offrir autre chose qu’un diamant ?"
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Bien sûr. Offre ce qui a du sens pour vous deux."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Qui a fixé la règle, et qui y gagne ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Voilà. Une tradition peut aussi être un slogan."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+ }
+]
