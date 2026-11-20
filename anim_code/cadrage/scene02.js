@@ -10,7 +10,7 @@ function frame(c, t) {
   if (lb >= 0) { R.handR = [190, -620]; R.poseR = 'pointe'; R.handR[1] += Math.sin(lb * 6) * 8; R.sourcil = .9; R.lean = .05; M.sourire = -.3; M.froncer = .8; M.look = [-1, .4]; }
   c.save(); cam(c, t, [[0, 580, 400, 1.45], [DUREE, 560, 400, 1.5]]);
   dessineSalon(c, t, R, M, {}, (cc) => {
-    const a = mainScene(M, -1); journalPhoto(cc, a[0] - 10, a[1] - 40, .56, 'fete', { rot: -.05 });
+    const a = mainScene(M, -1); journalPhoto(cc, a[0] - 30, a[1] + 40, .5, 'fete', { rot: -.05 });
     const [hx, hy] = mainScene(R, 1); journalPhoto(cc, hx + 60, hy + 60, .5, 'flaque', { rot: .08 });
   });
   c.restore();

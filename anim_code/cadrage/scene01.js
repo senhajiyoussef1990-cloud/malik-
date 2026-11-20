@@ -11,7 +11,7 @@ function frame(c, t) {
   c.save(); cam(c, t, [[0, 560, 400, 1.35], [DUREE, 560, 400, 1.45]]);
   dessineSalon(c, t, R, M, {}, (cc) => {
     const a = mainScene(M, -1), b = mainScene(M, 1);
-    journalPhoto(cc, a[0] - 10, a[1] - 40, .5, 'fete', { rot: -.06 }); journalPhoto(cc, b[0] + 20, b[1] - 40, .5, 'flaque', { rot: .06 });
+    journalPhoto(cc, a[0] - 30, a[1] + 40, .46, 'fete', { rot: -.06 }); journalPhoto(cc, b[0] + 40, b[1] + 40, .46, 'flaque', { rot: .06 });
     if (lp > 0) { const [hx, hy] = mainScene(R, 1); loupe(cc, hx + 4, hy - 50, .8, -.3); }
   });
   c.restore();
