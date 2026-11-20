@@ -4,12 +4,14 @@ import os, re, json, glob, subprocess, shutil
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ORDRE = ["bacon", "orange", "saumon", "diamant", "torches", "reduflation", "chanson", "ampoule", "martiens",
          "cereales", "haleine", "rasoir", "eau", "cowboy", "neufneuf", "prixbarre", "leurre", "lait", "pain", "echantillon", "abonnement"]
+import sys
 for n, ep in enumerate(ORDRE, 1):
+    if sys.argv[1:] and ep not in sys.argv[1:]: continue
     E = f"{R}/{ep}"; mp = f"{E}/outils/montage.py"; s = open(mp).read()
     ancien = re.search(r'NOM = "(EP\d+)_([^"]+)"', s); vieux, reste = ancien.group(1), ancien.group(2); nouveau = f"EP{n:02d}"
     s = s.replace(f'NOM = "{vieux}_{reste}"', f'NOM = "{nouveau}_{reste}"')
     s = re.sub(r'badge = "ÉPISODE \d+"', f'badge = "ÉPISODE {n}"', s)
-    if "def principal" not in s:
+    if 'sys.argv[1:] == ["couverture"]' not in s:
         s = s.replace('if __name__ == "__main__":\n    calque();', 'import sys\nif __name__ == "__main__" and sys.argv[1:] == ["couverture"]:\n    couverture()\nelif __name__ == "__main__":\n    calque();')
         s = s.replace("def couverture():\n    s2 = next(s for s in plans if s[\"n\"] == 1)\n    t = s2[\"t0\"] + s2[\"lignes\"][\"s01b\"][0] + 0.8",
                       "def couverture():\n    try:\n        s2 = next(s for s in plans if s[\"n\"] == 1); t = s2[\"t0\"] + s2[\"lignes\"][\"s01b\"][0] + 0.8\n    except Exception: t = 3.0")
