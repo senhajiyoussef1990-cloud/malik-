@@ -23,8 +23,8 @@ def fnt(f, s): return ImageFont.truetype(f, s)
 def centre(d, y, txt, f, fill="white", stroke=2):
     d.text(((W - d.textlength(txt, font=f)) / 2, y), txt, font=f, fill=fill, stroke_width=stroke, stroke_fill="black")
 
-plans = json.load(open(P("travail/plans.json")))
-mn = json.load(open(P("travail/minutage.json")))
+plans = json.load(open(P("travail/plans.json"))) if os.path.exists(P("travail/plans.json")) else []
+mn = json.load(open(P("travail/minutage.json"))) if os.path.exists(P("travail/minutage.json")) else {}
 lignes = {l["id"]: l for l in json.load(open(P("lignes.json")))}
 TOTAL = sum(s["dur"] for s in plans)
 os.makedirs(P("sortie"), exist_ok=True)
@@ -147,7 +147,7 @@ def video(subs, out):
 def couverture():
     try:
         s2 = next(s for s in plans if s["n"] == 1); t = s2["t0"] + s2["lignes"]["s01b"][0] + 0.8
-    except Exception: t = 3.0
+    except Exception: t = 0.15   # pas de plans : tout début, avant le premier sous-titre
     run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", P(f"sortie/{NOM}_sans_sous_titres.mp4"), "-frames:v", "1", P("travail/cover_src.png")])
     im = Image.open(P("travail/cover_src.png")).convert("RGB"); d = ImageDraw.Draw(im)
     badge = "ÉPISODE 8"; f = fnt(F_T, 64); w = d.textlength(badge, font=f)

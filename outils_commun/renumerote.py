@@ -32,7 +32,7 @@ for n, ep in enumerate(ORDRE, 1):
         subprocess.run(["python3", mp, "couverture"], cwd=E, check=True)
         f2 = open(f"{R}/outils_commun/fin_{ep}.sh").read() if os.path.exists(fs) else ""
         m = re.search(r'episode\.sh \S+ \S+ "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)"', f2)
-        if m: subprocess.run(["python3", f"{R}/outils_commun/story.py", f"sortie/{nouveau}_{reste}_sans_sous_titres.mp4", "5", m.group(1), m.group(2), m.group(3), m.group(4), f"sortie/{nouveau}_{reste}_story.png", "fonts"], cwd=E, check=True)
+        if m: subprocess.run(["python3", f"{R}/outils_commun/story.py", f"sortie/{nouveau}_{reste}_sans_sous_titres.mp4", "5" if os.path.exists(f"{E}/travail/plans.json") else "0.15", m.group(1), m.group(2), m.group(3), m.group(4), f"sortie/{nouveau}_{reste}_story.png", "fonts"], cwd=E, check=True)
         z = f"{E}/sortie/{nouveau}_{reste}.zip"
         if os.path.exists(f"{E}/sortie/{vieux}_{reste}.zip") or True:
             for old in glob.glob(f"{E}/sortie/*.zip"): os.remove(old)
