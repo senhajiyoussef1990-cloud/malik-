@@ -1,7 +1,7 @@
 #!/bin/sh
 # Rend les 15 scènes (4 en parallèle), assemble la bande et lance le montage de l'épisode 1.
 cd /home/user/malik-/anim_code || exit 1
-ls ep01/scene*.js | sed 's/.*scene\([0-9]*\).js/\1/' | xargs -P 4 -I{} node rendu_scene.js ep01 {} > travail/ep01_rendu.log 2>&1
+ls ep01/scene*.js | sed "s/.*scene\([0-9]*\).js/\1/" | grep -E "${SCENES:-.}" | xargs -P 4 -I{} node rendu_scene.js ep01 {} > travail/ep01_rendu.log 2>&1
 python3 - <<'PY'
 import json, subprocess, os
 A="/home/user/malik-/anim_code"; E="/home/user/malik-/ep01"; plans=[]; t=0.0

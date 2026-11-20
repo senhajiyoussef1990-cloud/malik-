@@ -7,7 +7,7 @@ function frame(c, t) {
     rueNB(cc, t);
     F(cc, poly([[380, 470], [700, 470], [700, 520], [380, 520]]), GRIS.fonce, 5);                                    // estrade
     for (let k = 0; k < 6; k++) F(cc, poly([[380 + k * 54, 470], [434 + k * 54, 470], [407 + k * 54, 494]]), k % 2 ? GRIS.blanc : GRIS.noir, 2);
-    const V = vendeurBase(t, 540); V.y = 480; V.s = .5; V.handL = [-60, -720]; V.poseL = 'poing'; V.look = [0, -.2];
+    const V = vendeurBase(t, 540); V.y = 480; V.s = .5; V.handL = [-110, -900]; V.poseL = 'poing'; V.look = [0, -.2];
     if (lb >= 0) { voix(V, ['s08b'], t); V.handR = [130, -740]; V.poseR = 'ouverte'; V.sourcil = 1; V.tilt = -.08; }
     dessine(cc, V, drawVendeur);
     const hx = 540 + (V.handL[0]) * V.s, hy = 480 + V.handL[1] * V.s - V.bob; pot(cc, hx, hy - 10, .5, 'luxe', t);     // il brandit le produit
