@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Ces deux journaux racontent des histoires différentes !"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Et pourtant, ils photographient la même scène."
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Sur celle-ci, tout paraît merveilleux."
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Sur l’autre, tout semble catastrophique."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Observons la force d’un simple cadrage."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Sur cette place, on inaugure une fontaine."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Premier photographe : une fête joyeuse."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Deuxième photographe : un problème gênant."
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les deux images montrent quelque chose de réel."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais aucune ne montre toute la place."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Ce qu’on exclut change aussi ce qu’on comprend."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Un titre peut guider le regard."
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le même fait reçoit une autre histoire."
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Comment savoir ce qui compte vraiment ?"
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Il faut demander : quel angle manque ?"
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Une perspective supplémentaire complète la scène."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les chiffres et les faits ajoutent du contexte."
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "figurante",
+  "pause": 0.5,
+  "text": "J’aime la fontaine, mais le sol glisse."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "figurant",
+  "pause": 0.4,
+  "text": "Nous sommes contents d’avoir ce lieu."
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le tableau complet est plus nuancé."
+ },
+ {
+  "id": "s12a",
+  "plan": 21,
+  "scene": 12,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Alors je peux accueillir plusieurs faits ensemble."
+ },
+ {
+  "id": "s12b",
+  "plan": 22,
+  "scene": 12,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Le cadre organise une histoire. Il ne la résume pas."
+ },
+ {
+  "id": "s13a",
+  "plan": 23,
+  "scene": 13,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Une vraie scène tient rarement dans un seul angle."
+ },
+ {
+  "id": "s14a",
+  "plan": 24,
+  "scene": 14,
+  "who": "mouton",
+  "pause": 0.4,
+  "text": "Je veux voir ce qu’il y a hors champ."
+ },
+ {
+  "id": "s15a",
+  "plan": 25,
+  "scene": 15,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le retour au salon change le regard."
+ },
+ {
+  "id": "s16a",
+  "plan": 26,
+  "scene": 16,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Qu’est-ce qu’on ne te montre pas ici ?"
+ },
+ {
+  "id": "s16b",
+  "plan": 27,
+  "scene": 16,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Je cherche le contexte et d’autres témoignages."
+ },
+ {
+  "id": "s16c",
+  "plan": 28,
+  "scene": 16,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Ni naïveté, ni cynisme : davantage de contexte."
+ },
+ {
+  "id": "s16d",
+  "plan": 29,
+  "scene": 16,
+  "who": "mouton",
+  "pause": 0.4,
+  "text": "Un angle de plus, c’est déjà mieux."
+ },
+ {
+  "id": "s17a",
+  "plan": 30,
+  "scene": 17,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+ }
+]
