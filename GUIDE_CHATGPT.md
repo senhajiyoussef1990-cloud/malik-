@@ -28,11 +28,6 @@ de l’histoire (bacon, jus d’orange, diamant, Guerre des mondes…).
 
 | N° | Titre | Dossier des données | Dossier des scènes | État |
 |----|-------|---------------------|--------------------|------|
-| 01 | La preuve sociale | `preuve_sociale/` | `anim_code/preuve_sociale/` | livré |
-| 02 | La répétition | `repetition/` | `anim_code/repetition/` | livré |
-| 03 | La peur et la rumeur | `peur_rumeur/` | `anim_code/peur_rumeur/` | livré |
-| 04 | Le pouvoir du cadrage | `cadrage/` | `anim_code/cadrage/` | livré |
-| 05 | Tu crois choisir ? (l'illusion du choix) | `ep01/` (ancien nom) | `anim_code/ep01/` | livré (ancien style) |
 | 11 | Le mythe du bacon (Bernays, 1925) | `bacon/` | `anim_code/bacon/` | prêt — voix faites, rendu en cours |
 | 12 | Le jus d'orange du matin (Californie, 1910) | `orange/` | `anim_code/orange/` | prêt à lancer — voix en cours |
 | 13 | Le saumon des sushis (Norvège/Japon, 1986) | `saumon/` | `anim_code/saumon/` | prêt à lancer (en file) |
@@ -45,14 +40,13 @@ de l’histoire (bacon, jus d’orange, diamant, Guerre des mondes…).
 
 « Prêt à lancer » = répliques, décors, 16 scènes, montage et publications écrits ; il ne reste que la fabrication :
 `sh outils_commun/voix_episodes.sh <ep>` puis `sh outils_commun/fin_<ep>.sh` (ou `episode.sh`, voir section 4).
-(L'ancienne série 6 à 10 a été abandonnée et supprimée ; elle reste consultable dans l'historique git.)
+(L'ancienne série 1 à 10 a été abandonnée et supprimée — jugée trop molle ; elle reste dans l'historique git. Les épisodes 11 à 19 sont le nouveau standard.)
 
 La suite : les 50 sujets de `SUJETS_50_EPISODES.md` (histoires vraies du livre *Influencer les masses*). Les épisodes 11 à 14 sont
 les meilleurs modèles : même structure, un salon avec une **table** (petit-déjeuner, sushis, écrin…), une histoire vraie dans la télé,
 des personnages nommés (`who` : `charcutier`, `bernays`, `producteur`, `cheffe`… déclarés dans `outils_commun/prises.py` → `JEU`
 et dans `<ep>/outils/montage.py` → `NOMS`).
 
-(L'ancien `ep04/` est une première version obsolète faite avec un autre procédé ; ne pas l'utiliser.)
 
 ---
 
@@ -177,6 +171,23 @@ Le dépôt contient `.github/workflows/episode.yml` : un serveur de GitHub insta
 - Dépôt privé : GitHub offre un quota de minutes gratuites par mois ; un épisode complet en consomme une bonne partie.
 - ChatGPT (avec le connecteur GitHub) peut écrire les fichiers d'un nouvel épisode dans la branche ; la fabrication se lance ensuite
   depuis l'onglet Actions (ou par ChatGPT s'il a la permission de lancer les workflows).
+
+
+### Réglages exacts du bouton « Run workflow » pour chaque épisode prêt
+Étape conseillée : `voix` d'abord, puis `video` une fois les voix enregistrées dans la branche (ou `tout` d'un coup).
+Les voix finales s'enregistrent dans la branche ; le zip final se télécharge dans « Artifacts » en bas de la page d'exécution.
+Vérifier `verification-voix-<ep>` (artifact) : toute réplique notée sous 0,85 est à refaire (voir section 4, étape 2).
+
+| episode | nom | badge | titre | sous_titre | accroche |
+|---|---|---|---|---|---|
+| `orange` | `EP12_Le_jus_d_orange_du_matin` | ÉPISODE 12 | LE JUS D’ORANGE DU MATIN | « Buvez une orange ! » | Ton jus du matin… une pub ? |
+| `saumon` | `EP13_Le_saumon_des_sushis` | ÉPISODE 13 | LE SAUMON DES SUSHIS | « Change l’étiquette… » | Tes sushis au saumon… une pub ? |
+| `diamant` | `EP14_Le_diamant_eternel` | ÉPISODE 14 | LE DIAMANT ÉTERNEL | « Deux mois de salaire » | Ta bague en diamant… une pub ? |
+| `torches` | `EP15_Les_torches_de_la_liberte` | ÉPISODE 15 | LES TORCHES DE LA LIBERTÉ | « On t’a vendu une cigarette » | Fumer = être libre… vraiment ? |
+| `reduflation` | `EP16_La_reduflation` | ÉPISODE 16 | LA RÉDUFLATION | « Le paquet qui rétrécit » | Même prix… moins de biscuits ? |
+| `chanson` | `EP17_La_chanson_qu_on_finit_par_aimer` | ÉPISODE 17 | LA CHANSON QU’ON FINIT PAR AIMER | « Encore et encore » | Tu l’aimes… ou tu l’entends trop ? |
+| `ampoule` | `EP18_L_ampoule_programmee` | ÉPISODE 18 | L’AMPOULE PROGRAMMÉE | « Mille heures, pas une de plus » | Ton ampoule… grillée exprès ? |
+| `martiens` | `EP19_La_guerre_des_mondes` | ÉPISODE 19 | LA GUERRE DES MONDES | « Ça ressemble aux infos… » | La grande panique de 1938… vraiment ? |
 
 ## 6. Installer l'environnement (sur un ordinateur ou un serveur)
 
