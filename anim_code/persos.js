@@ -116,7 +116,7 @@ function main(c, x, y, ang, s, col, griffes = false, pose = 'repos', cote = 1) {
     const paumeP = smooth([[-11 * ep, -4], [12 * ep, -4], [17 * ep, 18], [16 * ep, 40], [6, 50], [-12 * ep, 46], [-15 * ep, 22]]);
     F(c, paumeP, col, EP); c.save(); c.clip(paumeP); ombre(c, paumeP, 18, 0, -16, 0, .26); c.restore();
     // quatre doigts fins qui s'enroulent vers la cuisse (de l'auriculaire, au fond, à l'index, devant)
-    [[13, 36, 28], [9, 40, 32], [4, 43, 34], [-2, 44, 32]].forEach(([bx, by, Lf], i) => doigt(bx * ep, by, -.32 + i * .04, Lf * k, wd * (R ? .98 : 1.06), .62));
+    [[13, 36, 28], [9, 40, 32], [4, 43, 34], [-2, 44, 32]].forEach(([bx, by, Lf], i) => doigt(bx * ep, by, -.06 + i * .03, Lf * k * 1.12, wd * (R ? .98 : 1.06), .2));
     doigt(-13 * ep, 10, .22, 30 * k, wd * 1.1, -.05);                    // le pouce, devant, le long du bord
   } else {
     const ouv = pose === 'ouverte';
