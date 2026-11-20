@@ -1,0 +1,243 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Cette chanson, je la détestais. Maintenant, je l’adore !"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Combien de fois l’as-tu entendue cette semaine ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Partout ! À la radio, au café, au marché…"
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Voilà la clé. Allons voir d’où viennent ces refrains."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Direction l’Amérique des années cinquante, au temps des postes de radio."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Des centaines de disques sortent chaque semaine. Très peu passent à la radio."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Or une chanson qu’on n’entend pas, personne ne l’achète."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "producteur",
+  "pause": 0.5,
+  "text": "Il faut que notre chanson passe dix fois par jour !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Alors certaines maisons de disques glissent des enveloppes aux animateurs."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "En échange, l’animateur passe le disque encore et encore."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "animateur",
+  "pause": 0.4,
+  "text": "Et voici, pour la dixième fois aujourd’hui, le tube du moment !"
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Il est payé pour la faire tourner ?"
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Oui. Et les auditeurs croient que c’est un succès."
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "À force de l’entendre, le cerveau trouve la chanson familière."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Et ce qui est familier finit par paraître agréable."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Les ventes de disques suivent. Le faux tube devient un vrai tube."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "auditrice",
+  "pause": 0.4,
+  "text": "Je ne l’aimais pas, mais on l’entend partout. Elle est géniale !"
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "En mille neuf cent cinquante-neuf, l’affaire éclate devant le Congrès."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le pays découvre les pots-de-vin derrière ses tubes. On l’appelle la payola.",
+  "dit": "Le pays découvre les pots-de-vin derrière ses tubes. On l’appelle la pé-yo-la."
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc mon goût a été fabriqué par la répétition ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "En partie. Entendre souvent, c’est presque aimer."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Les chercheurs appellent ça l’effet de simple exposition."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Il marche pour les chansons, les visages, les marques… et les idées."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Ce que tu entends souvent, tu crois l’aimer."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour au salon."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Alors, j’aime vraiment cette chanson, ou pas ?"
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Peut-être. Écoute-la loin de la radio, et décide."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Pourquoi je l’entends partout, et qui a payé ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Voilà. Répéter n’est pas prouver."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+ }
+]
