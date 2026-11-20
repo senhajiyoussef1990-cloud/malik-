@@ -41,7 +41,7 @@ function tube(c, A, B, bend, w, col, edge = INK, plis = true) {
   const mx = (A[0] + B[0]) / 2, my = (A[1] + B[1]) / 2, dx = B[0] - A[0], dy = B[1] - A[1], L = Math.hypot(dx, dy) || 1;
   const nx = -dy / L, ny = dx / L, C = [mx + nx * bend, my + ny * bend];
   const trace = (ox, oy) => { c.beginPath(); c.moveTo(A[0] + ox, A[1] + oy); c.quadraticCurveTo(C[0] + ox, C[1] + oy, B[0] + ox, B[1] + oy); };
-  c.lineCap = 'round'; c.strokeStyle = edge; c.lineWidth = w + 8; trace(0, 0); c.stroke();
+  c.lineCap = 'round'; c.strokeStyle = STYLE_DESSIN ? col : edge; c.lineWidth = w + (STYLE_DESSIN ? 2 : 8); trace(0, 0); c.stroke();
   c.strokeStyle = col; c.lineWidth = w; trace(0, 0); c.stroke();
   c.strokeStyle = 'rgba(40,14,4,.22)'; c.lineWidth = w * .34; trace(nx * w * .3, ny * w * .3); c.stroke();      // côté ombre
   c.strokeStyle = 'rgba(255,245,225,.18)'; c.lineWidth = w * .16; trace(-nx * w * .26, -ny * w * .26); c.stroke(); // reflet
@@ -175,7 +175,7 @@ function drawRenard(c, P) {
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
   // bras arrière
   const hL = P.handL || [-104, -440], hR = P.handR || [104, -440];
-  const sL = [-82, shY + 30], sR = [82, shY + 30];
+  const sL = [-86, shY + 20], sR = [86, shY + 20];                    // épaules : le haut du bras affleure la ligne des épaules
   main(c, hL[0], hL[1] - 8, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) - Math.PI / 2, 1.32, R.main, true, P.poseL || 'repos', -1);
   tube(c, sL, hL, 14, 40, R.cost); F(c, ell(hL[0], hL[1] - 6, 22, 10, Math.atan2(hL[1] - sL[1], hL[0] - sL[0]) + Math.PI / 2), R.chemise, 3);
   // veste
@@ -316,7 +316,7 @@ function drawMouton(c, P) {
   }
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
   const hL = P.handL || [-104, -366], hR = P.handR || [104, -366];
-  const sL = [-80, shY + 22], sR = [80, shY + 22];
+  const sL = [-88, shY + 14], sR = [88, shY + 14];
   // ---- manches bouffantes (arrière)
   { const a = Math.atan2(hL[1] - sL[1], hL[0] - sL[0]), E = [hL[0] - Math.cos(a) * 30, hL[1] - Math.sin(a) * 30];
     main(c, E[0] + Math.cos(a) * 2, E[1] + Math.sin(a) * 2, a - Math.PI / 2, 1.2, M.main, false, P.poseL || 'repos', -1);   // la main sort de la manche

@@ -75,7 +75,7 @@ function drawVendeur(c, P) {
     const hip = [sd * 28, hipY], foot = [sd * 40 + ph * 50, -30 - Math.max(0, ph) * 18];
     jambeHumain(c, hip, foot, 48, GRIS.fonce, sd, ph); souliers(c, foot[0] + sd * 4, foot[1] + 30, sd > 0 ? 1 : -1, 1.05); }
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
-  const hL = P.handL || [-96, -400], hR = P.handR || [96, -400], sL = [-76, shY + 24], sR = [76, shY + 24];
+  const hL = P.handL || [-96, -400], hR = P.handR || [96, -400], sL = [-78, shY + 16], sR = [78, shY + 16];
   bras(c, sL, hL, 12, GRIS.fonce, P.poseL);
   const v = smooth([[-80, shY], [-40, shY - 12], [40, shY - 12], [80, shY], [70, -470], [78, -400], [0, -384], [-78, -400], [-70, -470]]);
   F(c, v, GRIS.fonce, 5); rayures(c, v, '#7a766e', 14); ombre(c, v, -40, shY, 80, -400, .3); reflet(c, v, -44, shY + 60, 20, 80, .08, .1); ink(c, 5); c.stroke(v);
@@ -107,7 +107,7 @@ function drawClient(c, P) {
     const hip = [sd * 32, hipY], foot = [sd * 42 + ph * 56, -30 - Math.max(0, ph) * 20];
     jambeHumain(c, hip, foot, 60, GRIS.moyen, sd, ph); souliers(c, foot[0] + sd * 4, foot[1] + 30, sd > 0 ? 1 : -1, 1.1); }
   c.save(); c.translate(0, hipY); c.rotate(P.lean || 0); c.translate(0, -hipY);
-  const hL = P.handL || [-100, -380], hR = P.handR || [100, -380], sL = [-78, shY + 24], sR = [78, shY + 24];
+  const hL = P.handL || [-100, -380], hR = P.handR || [100, -380], sL = [-80, shY + 16], sR = [80, shY + 16];
   bras(c, sL, hL, 14, GRIS.blanc, P.poseL, 34);
   const ch = smooth([[-82, shY], [-40, shY - 12], [40, shY - 12], [82, shY], [80, -420], [-80, -420]]); F(c, ch, GRIS.blanc, 5); ombre(c, ch, -40, shY, 80, -420, .28);
   ink(c, 1.8, 'rgba(0,0,0,.3)'); for (const sd of [-1, 1]) for (let k = 0; k < 3; k++) { c.beginPath(); c.moveTo(sd * (20 + k * 14), shY + 40 + k * 30); c.quadraticCurveTo(sd * (30 + k * 14), shY + 80 + k * 30, sd * (24 + k * 14), shY + 120 + k * 30); c.stroke(); }   // plis de la chemise
@@ -151,7 +151,7 @@ function drawFigurant(c, P) {
   }
   if (P.habit) P.habit(c, shY, hipY);
   const hL = P.handL || [-92, -400], hR = P.handR || [92, -400];
-  bras(c, [-70, shY + 22], hL, 12, femme ? GRIS.clair : col, P.poseL); bras(c, [70, shY + 22], hR, -12, femme ? GRIS.clair : col, P.poseR);
+  bras(c, [-72, shY + 15], hL, 12, femme ? GRIS.clair : col, P.poseL); bras(c, [72, shY + 15], hR, -12, femme ? GRIS.clair : col, P.poseR);
   c.save(); c.translate(0, shY); c.rotate(P.tilt || 0); c.translate(0, -shY);
   F(c, poly([[-14, shY + 4], [14, shY + 4], [12, shY - 30], [-12, shY - 30]]), GRIS.peau, 3);
   teteHumain(c, P, hy, { moustache: v % 3 === 0, cils: v % 3 === 1, age: v % 4 === 0, barbe: v % 5 === 2, rouge: true });
