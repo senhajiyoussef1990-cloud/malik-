@@ -15,7 +15,12 @@ for L in json.load(open(f"{R}/lignes.json")):
         A, B = norm(L["text"]), norm(txt); r = difflib.SequenceMatcher(None, A, B).ratio()
         # pénalité pour mots en trop à la fin (parasites) ou fin manquante
         fin = mots[-1].end if mots else len(a) / 16000
-        sc = r - .15 * (A[-1:] != B[-1:]) - .02 * max(0, len(B) - len(A))
+        # couper après le mot qui correspond au DERNIER mot du texte (première occurrence), pas après une répétition parasite
+        nb = [norm(w.word) for w in mots]; nb = [x[0] if x else "" for x in nb]
+        bl = [b for b in difflib.SequenceMatcher(None, A, nb, autojunk=False).get_matching_blocks() if b.size]
+        if bl: fin = mots[bl[-1].b + bl[-1].size - 1].end; B2 = nb[:bl[-1].b + bl[-1].size]
+        else: B2 = B
+        sc = r - .15 * (A[-1:] != B2[-1:]) - .03 * max(0, len(B) - len(A)) + .05 * difflib.SequenceMatcher(None, A, B2).ratio()
         if best is None or sc > best[0]: best = (sc, f, fin, txt, r)
     sc, f, fin, txt, r = best
     # couper juste après le dernier mot reconnu du texte
