@@ -38,10 +38,19 @@ imprévisible, chambre d'écho, indignation).
 | 08 | La récompense imprévisible | `recompense/` | `anim_code/recompense/` | en fabrication |
 | 09 | La chambre d'écho | `echo/` | `anim_code/echo/` | en fabrication |
 | 10 | La colère contagieuse | `indignation/` | `anim_code/indignation/` | en fabrication |
-| 11 | Le mythe du bacon (Bernays, 1925) | `bacon/` | `anim_code/bacon/` | scènes prêtes, voix en cours |
-| 12 | Le jus d'orange du matin (Californie, 1910) | `orange/` | `anim_code/orange/` | scènes prêtes |
-| 13 | Le saumon des sushis (Norvège/Japon, 1986) | `saumon/` | `anim_code/saumon/` | scènes prêtes |
-| 14 | Le diamant éternel (New York, 1938-1947) | `diamant/` | `anim_code/diamant/` | scènes prêtes |
+| 11 | Le mythe du bacon (Bernays, 1925) | `bacon/` | `anim_code/bacon/` | prêt — voix faites, rendu en cours |
+| 12 | Le jus d'orange du matin (Californie, 1910) | `orange/` | `anim_code/orange/` | prêt à lancer — voix en cours |
+| 13 | Le saumon des sushis (Norvège/Japon, 1986) | `saumon/` | `anim_code/saumon/` | prêt à lancer (en file) |
+| 14 | Le diamant éternel (New York, 1938-1947) | `diamant/` | `anim_code/diamant/` | prêt à lancer (en file) |
+| 15 | Les torches de la liberté (New York, 1929) | `torches/` | `anim_code/torches/` | prêt à lancer (en file) |
+| 16 | La réduflation | `reduflation/` | `anim_code/reduflation/` | prêt à lancer (en file) |
+| 17 | La chanson qu'on finit par aimer (payola, 1950-1959) | `chanson/` | `anim_code/chanson/` | prêt à lancer (en file) |
+| 18 | L'ampoule programmée (cartel Phœbus, 1924) | `ampoule/` | `anim_code/ampoule/` | prêt à lancer (en file) |
+| 19 | La Guerre des mondes (1938) | `martiens/` | `anim_code/martiens/` | prêt à lancer (en file) |
+
+« Prêt à lancer » = répliques, décors, 16 scènes, montage et publications écrits ; il ne reste que la fabrication :
+`sh outils_commun/voix_episodes.sh <ep>` puis `sh outils_commun/fin_<ep>.sh` (ou `episode.sh`, voir section 4).
+Les épisodes 6 à 10 ont leurs scènes écrites ; EP06 n'attend plus que la scène 5 et le montage, EP07-10 attendent leurs voix.
 
 La suite : les 50 sujets de `SUJETS_50_EPISODES.md` (histoires vraies du livre *Influencer les masses*). Les épisodes 11 à 14 sont
 les meilleurs modèles : même structure, un salon avec une **table** (petit-déjeuner, sushis, écrin…), une histoire vraie dans la télé,
