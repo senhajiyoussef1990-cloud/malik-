@@ -7,7 +7,7 @@ else: shutil.copytree(os.path.dirname(glob.glob("/kaggle/input/**/episodes.json"
 os.chdir(W); print(os.listdir("."), flush=True)
 sh = lambda c: subprocess.run(c, shell=True, check=True)
 sh("which ffmpeg || (apt-get update -qq && apt-get install -y -qq ffmpeg)")
-sh("pip install -q uv && uv venv -q -p 3.12 /kaggle/working/cb && VIRTUAL_ENV=/kaggle/working/cb uv pip install -q chatterbox-tts==0.1.7 'setuptools<81' faster-whisper==1.2.1 noisereduce==3.0.3 scipy")
+sh("pip install -q uv && uv venv -p 3.12 /kaggle/working/cb && uv pip install --python /kaggle/working/cb/bin/python torch==2.6.0 torchaudio==2.6.0 chatterbox-tts==0.1.7 'setuptools<81' faster-whisper==1.2.1 noisereduce==3.0.3 scipy")
 PY = "/kaggle/working/cb/bin/python"; sh(f"{PY} -c \"import torch;print('torch', torch.__version__, torch.cuda.is_available(), torch.cuda.device_count())\"")
 eps = json.load(open("episodes.json")); print("épisodes :", eps, flush=True)
 ng = max(1, len(subprocess.run("nvidia-smi -L", shell=True, capture_output=True, text=True).stdout.strip().splitlines())); print("GPU :", ng, flush=True)
