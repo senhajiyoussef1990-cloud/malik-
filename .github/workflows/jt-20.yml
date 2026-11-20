@@ -1,4 +1,4 @@
-name: Maurice JT quotidien 20 novembre 2026
+name: Maurice JT 20 novembre — moteur original
 on:
   push:
     branches: [jt]
@@ -97,3 +97,5 @@ jobs:
 # Relance après validation du sujet insolite : insecte de Patagonie.
 
 # Correction du scénario JavaScript du 20 novembre et nouvelle tentative.
+
+# Demande de lancement immédiat du moteur original jt/tools/daily.sh.
