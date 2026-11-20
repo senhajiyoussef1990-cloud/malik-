@@ -15,5 +15,5 @@ for L in json.load(open(f"{R}/lignes.json")):
         out = f"{R}/travail/essais/{L['id']}_{seed}.wav"
         if os.path.exists(out): continue
         torch.manual_seed(seed)
-        w = m.generate(L["text"].replace("’", "'"), language_id="fr", audio_prompt_path=f"{R}/voix/refs/ref-{ref}.wav", exaggeration=ex, cfg_weight=cfg, temperature=.65)
+        w = m.generate(L.get("dit", L["text"]).replace("’", "'"), language_id="fr", audio_prompt_path=f"{R}/voix/refs/ref-{ref}.wav", exaggeration=ex, cfg_weight=cfg, temperature=.65)
         torchaudio.save(out, w, m.sr); print("ok", L["id"], seed, flush=True)
