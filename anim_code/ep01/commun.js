@@ -1,3 +1,4 @@
+var THEME = 'biscuiterie';   // la boutique du renard dans l'épisode 1
 // Épisode 01 — éléments communs aux scènes de la boutique.
 const BOITES = [[350, 560], [470, 560], [590, 560]];
 
