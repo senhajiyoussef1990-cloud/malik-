@@ -2,8 +2,9 @@
 usage : python3 nettoie_voix.py ep01/voix   (originaux gardés dans voix/brut/)"""
 import sys, os, glob, shutil, subprocess, numpy as np, noisereduce as nr
 from scipy.io import wavfile
-d = sys.argv[1]; os.makedirs(f"{d}/brut", exist_ok=True)
+d = sys.argv[1]; SEUL = sys.argv[2:]; os.makedirs(f"{d}/brut", exist_ok=True)
 for f in sorted(glob.glob(f"{d}/*.mp3")):
+    if SEUL and os.path.basename(f)[:-4] not in SEUL: continue
     b = f"{d}/brut/" + os.path.basename(f)
     if not os.path.exists(b): shutil.copy(f, b)
     tmp = f + ".tmp.wav"
