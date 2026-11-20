@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Un grand verre de jus d’orange chaque matin : c’est bon pour la santé."
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Chaque matin ? Depuis quand, au juste ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Depuis toujours, je crois. C’est la tradition."
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Les traditions aussi ont une date de naissance. Allons voir."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Direction la Californie, au début du siècle dernier."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Les vergers croulent sous les oranges. Il y en a beaucoup trop."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les prix s’effondrent. Certains producteurs vont jusqu’à arracher leurs arbres."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "producteur",
+  "pause": 0.5,
+  "text": "Les gens mangent une orange de temps en temps. Ce n’est pas assez !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Alors les producteurs s’unissent, et engagent une agence de réclame."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "L’idée de génie : ne plus manger l’orange… mais la boire."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Un verre de jus, c’est deux ou trois oranges d’un seul coup."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "publicitaire",
+  "pause": 0.5,
+  "text": "Buvez une orange ! Voilà notre slogan."
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.4,
+  "text": "Boire une orange ? On en avale trois sans s’en rendre compte !"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Et le vendeur, lui, en vend trois fois plus."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Pour que ce soit facile, on vend des presse-agrumes en verre, presque à prix coûtant."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Puis on découvre les vitamines. La réclame s’en empare aussitôt."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le jus d’orange devient un remède, le geste d’une bonne mère."
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.5,
+  "text": "Les affiches envahissent les journaux, les gares, les cuisines."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "mere",
+  "pause": 0.4,
+  "text": "Un verre chaque matin, et mes enfants seront en pleine forme !"
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc le verre du matin, c’est une idée de vendeurs d’oranges ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Une idée pour écouler un stock, devenue une habitude."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Le fruit n’a pas changé. C’est l’habitude qui a été fabriquée."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Et un verre de jus garde le sucre de plusieurs fruits, mais perd leurs fibres."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Une orange, ça se croque aussi. Personne ne l’interdit."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour à notre petit-déjeuner."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Alors je ne dois plus boire de jus ?"
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Bois-en si tu aimes. Mais choisis-le, ne le subis pas."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "D’où vient l’habitude, et qui en profite ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.4,
+  "text": "Voilà. Une tradition, ça se questionne aussi."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+ }
+]
