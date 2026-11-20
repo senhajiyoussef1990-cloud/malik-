@@ -15,3 +15,5 @@ travail_fin_serie.log
 *.n.mp3
 *.t.mp3
 sortie_chatgpt/
+travail_fin*.log
+travail_voix_reprise.log
