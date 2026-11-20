@@ -7,6 +7,16 @@ from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 R = os.path.abspath(sys.argv[1]); only = sys.argv[2:]
 JEU = {"narr": ("eleven-jt", .6, .5), "renard": ("eleven-renard", .6, .5), "mouton": ("eleven-mouton", .4, .5),
        "charcutier": ("tv-homme", .5, .5), "producteur": ("tv-homme", .5, .5), "publicitaire": ("tv-homme", .45, .5), "bernays": ("tv-homme", .45, .5), "mere": ("tv-femme", .5, .5), "diamantaire": ("tv-homme", .5, .5), "vedette": ("tv-femme", .6, .5), "redactrice": ("tv-femme", .5, .5), "fiance": ("tv-homme", .45, .5), "delegue": ("tv-homme", .5, .5), "cheffe": ("tv-femme", .55, .5), "cliente": ("tv-femme", .5, .5), "fabricant": ("tv-homme", .5, .5), "passante": ("tv-femme", .5, .5), "biscuitier": ("tv-homme", .5, .5), "animateur": ("tv-homme", .65, .5), "auditrice": ("tv-femme", .55, .5), "industriel": ("tv-homme", .5, .5), "speaker": ("tv-homme", .6, .5), "crieur": ("tv-homme", .65, .5), "figurant": ("tv-homme", .5, .5), "figurante": ("tv-femme", .5, .5), "passant": ("tv-homme", .5, .5)}
+
+# Mots anglais (ou étrangers) prononcés « à l'anglaise » : la voix française lit l'orthographe phonétique, les sous-titres gardent le vrai mot.
+import re as _re
+ANGLAIS = {"bacon": "békeune", "bacons": "békeunes", "hamburger": "ambeurgueur", "hamburgers": "ambeurgueurs", "cheeseburger": "tchizbeurgueur",
+           "ketchup": "kètcheupe", "milkshake": "milkchéque", "juke-box": "djoukboxe", "jukebox": "djoukboxe", "payola": "péyola",
+           "Bernays": "Bernaisse", "Edward": "Èdouard", "Daily": "Déïli", "News": "Niouze", "Times": "Taïmz", "Herald": "Hèrald",
+           "show": "chô", "fast-food": "fastefoude", "marketing": "markètingue", "manager": "manadjeur", "people": "pipeule",
+           "smartphone": "smartefone", "best-seller": "bèstesèleur", "cow-boy": "kaoboï", "Sunshine": "Seunchaïne", "California": "Kalifornia"}
+def a_l_anglaise(txt):
+    return _re.sub(r"[A-Za-zÀ-ÿ-]+", lambda m: ANGLAIS.get(m.group(0), ANGLAIS.get(m.group(0).lower(), m.group(0))), txt)
 m = ChatterboxMultilingualTTS.from_pretrained(device="cpu"); os.makedirs(f"{R}/travail/essais", exist_ok=True)
 for L in json.load(open(f"{R}/lignes.json")):
     if only and L["id"] not in only: continue
@@ -15,5 +25,5 @@ for L in json.load(open(f"{R}/lignes.json")):
         out = f"{R}/travail/essais/{L['id']}_{seed}.wav"
         if os.path.exists(out): continue
         torch.manual_seed(seed)
-        w = m.generate(L.get("dit", L["text"]).replace("’", "'"), language_id="fr", audio_prompt_path=f"{R}/voix/refs/ref-{ref}.wav", exaggeration=ex, cfg_weight=cfg, temperature=.65)
+        w = m.generate(a_l_anglaise(L.get("dit", L["text"])).replace("’", "'"), language_id="fr", audio_prompt_path=f"{R}/voix/refs/ref-{ref}.wav", exaggeration=ex, cfg_weight=cfg, temperature=.65)
         torchaudio.save(out, w, m.sr); print("ok", L["id"], seed, flush=True)

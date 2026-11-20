@@ -82,6 +82,7 @@ et dans `<ep>/outils/montage.py` → `NOMS`).
 **Voix**
 - Renard, Mouton, Narrateur : clones des enregistrements ElevenLabs de l'auteur (`voix/refs/ref-eleven-*.wav`).
 - Personnages de la télé : `ref-tv-homme.wav` (ElevenLabs) et `ref-tv-femme.wav`.
+- Les mots anglais (bacon, hamburger, juke-box…) se prononcent **à l'anglaise** : `outils_commun/prises.py` les remplace automatiquement par une orthographe phonétique (dictionnaire `ANGLAIS`, à compléter) ; pour un cas particulier, ajouter un champ `"dit"` à la réplique dans `lignes.json` (la voix lit `dit`, les sous-titres gardent `text`).
 - Mouton **posé**, pas trop enthousiaste. Voix des personnages légèrement accélérées (×1,07), narrateur ×1,12.
 - Aucun bruit parasite, aucune répétition de fin de phrase, aucun mot coupé : chaque réplique est vérifiée par
   transcription (Whisper) et comparée au texte.
