@@ -91,12 +91,12 @@ Style: Perso,Inter,48,&H00FFFFFF,&H00FFFFFF,&H78000000,&H00000000,-1,0,0,0,100,1
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n"
     open(P("travail/sous_titres.ass"), "w").write(ass)
-    with open(P("sortie/EP01_Tu_crois_choisir.srt"), "w") as f:
+    with open(P("sortie/EP05_Tu_crois_choisir.srt"), "w") as f:
         for i, (a, b, t) in enumerate(srt, 1): f.write(f"{i}\n{tc(a, True)} --> {tc(b, True)}\n{t}\n\n")
 
 # ------------------------------------------------ script des voix
 def script():
-    out = [f"# NE SUIS PAS LES MOUTONS — Épisode 01 : {TITRE}", f"*{SOUS}*", "",
+    out = [f"# NE SUIS PAS LES MOUTONS — Épisode 05 : {TITRE}", f"*{SOUS}*", "",
            f"Durée finale : {int(TOTAL // 60)} min {TOTAL % 60:04.1f} s", ""]
     titres = [f"SCÈNE {k:02d}" for k in range(1, 16)]
     for s in plans:
@@ -106,7 +106,7 @@ def script():
         out.append("")
     out += ["**ÉCRAN FINAL** : NE SUIS PAS LES MOUTONS — « Qui a dessiné le décor de ton choix ? »", "",
             "Voix : Chatterbox multilingue (clonage à partir de courtes références) — narrateur : `voix/refs/ref-narrateur.wav`."]
-    open(P("sortie/EP01_script_voix.md"), "w").write("\n".join(out))
+    open(P("sortie/EP05_script_voix.md"), "w").write("\n".join(out))
 
 # ------------------------------------------------ son : voix + musique + bruitages
 def son():
@@ -151,13 +151,13 @@ def video(subs, out):
 def couverture():
     s2 = next(s for s in plans if s["n"] == 2)
     t = s2["t0"] + s2["lignes"]["s02a"][0] + 0.8
-    run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", P("sortie/EP01_sans_sous_titres.mp4"), "-frames:v", "1", P("travail/cover_src.png")])
+    run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", P("sortie/EP05_sans_sous_titres.mp4"), "-frames:v", "1", P("travail/cover_src.png")])
     im = Image.open(P("travail/cover_src.png")).convert("RGB"); d = ImageDraw.Draw(im)
-    badge = "ÉPISODE 01"; f = fnt(F_T, 64); w = d.textlength(badge, font=f)
+    badge = "ÉPISODE 05"; f = fnt(F_T, 64); w = d.textlength(badge, font=f)
     d.rounded_rectangle([(W - w) / 2 - 30, 1430, (W + w) / 2 + 30, 1530], 18, fill=(200, 30, 30))
     d.text(((W - w) / 2, 1440), badge, font=f, fill="white")
     centre(d, 1580, "NE SUIS PAS LES MOUTONS", fnt(F_T, 70), fill=(255, 225, 77), stroke=3)
-    im.save(P("sortie/EP01_couverture.png"))
+    im.save(P("sortie/EP05_couverture.png"))
 
 def bande_annonce():
     # accroche (scènes 1-2) + dernier piège (14), env. 40 s
@@ -171,14 +171,14 @@ def bande_annonce():
                   f"[0:a]atrim={a:.2f}:{b:.2f},asetpts=PTS-STARTPTS,afade=t=in:d=0.15,afade=t=out:st={b - a - 0.3:.2f}:d=0.3[a{i}]")
         cat += f"[v{i}][a{i}]"
     fl.append(f"{cat}concat=n={len(segs)}:v=1:a=1[v][a]")
-    run(["ffmpeg", "-y", "-v", "error", "-i", P("sortie/EP01_Tu_crois_choisir.mp4"), "-filter_complex", ";".join(fl),
+    run(["ffmpeg", "-y", "-v", "error", "-i", P("sortie/EP05_Tu_crois_choisir.mp4"), "-filter_complex", ";".join(fl),
          "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", P("sortie/EP01_bande_annonce.mp4")])
+         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", P("sortie/EP05_bande_annonce.mp4")])
     return sum(b - a for a, b in segs)
 
 if __name__ == "__main__":
     calque(); sous_titres(); script(); son()
-    video(True, P("sortie/EP01_Tu_crois_choisir.mp4"))
-    video(False, P("sortie/EP01_sans_sous_titres.mp4"))
+    video(True, P("sortie/EP05_Tu_crois_choisir.mp4"))
+    video(False, P("sortie/EP05_sans_sous_titres.mp4"))
     couverture()
     print(f"OK  durée {TOTAL:.1f}s")

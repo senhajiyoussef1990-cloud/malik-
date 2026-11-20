@@ -1,5 +1,5 @@
 // SCÈNE 13 — Plan 23 (TV). « Il vérifie ce qui compte pour lui. » Gros plan : la doublure, l'étiquette, une loupe sur la couture.
-const A = L.s13a, DUREE = A[0] + A[1] + 1.2;
+const A = L.s13a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 1.2);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   enNoirEtBlanc(c, t, (cc) => {

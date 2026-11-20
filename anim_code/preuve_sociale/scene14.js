@@ -1,5 +1,5 @@
 // SCÈNE 14 — Plan 24 (salon). « Demander pourquoi, c'est déjà reprendre sa place. » Le renard invite le mouton à faire un pas de côté.
-const A = L.s14a, DUREE = A[0] + A[1] + 1.3;
+const A = L.s14a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 1.3);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const tq = step(t), R = voix(renardBase(t), ['s14a'], t), M = moutonBase(t), la = t - A[0];

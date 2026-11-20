@@ -1,6 +1,6 @@
 // SCÈNE 05 — Plans 09-10 (TV). s05a : deux curieux s'arrêtent ensemble ; un doigt désigne le chapeau, les deux têtes pivotent.
 // s05b : « La foule attire la foule » : un troisième, puis un quatrième passant les rejoignent.
-const A = L.s05a, B = L.s05b, DUREE = B[0] + B[1] + 1.0;
+const A = L.s05a, B = L.s05b, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : B[0] + B[1] + 1.0);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   enNoirEtBlanc(c, t, (cc) => {

@@ -11,7 +11,7 @@ P = lambda *a: os.path.join(R, *a)
 W, H, FPS = 1080, 1920, 30
 BAND_Y = 540; BW, BH = 1080, 810
 TITRE, SOUS = "LA PREUVE SOCIALE", "« Tout le monde le fait »"
-NOM = "EP02_La_preuve_sociale"
+NOM = "EP01_La_preuve_sociale"
 FILIGRANE = "© Ne suis pas les moutons"
 F_T, F_C = P("fonts/oswald-latin-700-normal.ttf"), P("fonts/inter-latin-700-normal.ttf")
 F_I = P("fonts/roboto-latin-500-italic.ttf")
@@ -152,7 +152,7 @@ def couverture():
     t = s2["t0"] + s2["lignes"]["s01b"][0] + 1.2
     run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", P(f"sortie/{NOM}_sans_sous_titres.mp4"), "-frames:v", "1", P("travail/cover_src.png")])
     im = Image.open(P("travail/cover_src.png")).convert("RGB"); d = ImageDraw.Draw(im)
-    badge = "ÉPISODE 02"; f = fnt(F_T, 64); w = d.textlength(badge, font=f)
+    badge = "ÉPISODE 01"; f = fnt(F_T, 64); w = d.textlength(badge, font=f)
     d.rounded_rectangle([(W - w) / 2 - 30, 1430, (W + w) / 2 + 30, 1530], 18, fill=(200, 30, 30))
     d.text(((W - w) / 2, 1440), badge, font=f, fill="white")
     centre(d, 1580, "NE SUIS PAS LES MOUTONS", fnt(F_T, 70), fill=(255, 225, 77), stroke=3)

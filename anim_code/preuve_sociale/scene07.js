@@ -1,5 +1,5 @@
 // SCÈNE 07 — Plan 12 (TV). « Chacun suppose que les autres ont une raison. » La file s'allonge ; les regards se croisent.
-const A = L.s07a, DUREE = A[0] + A[1] + 1.2;
+const A = L.s07a, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : A[0] + A[1] + 1.2);
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   enNoirEtBlanc(c, t, (cc) => {

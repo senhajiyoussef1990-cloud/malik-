@@ -2,7 +2,7 @@
 // s11b (voix du renard) : « Pourquoi ce modèle, précisément ? » — le passant ouvre la bouche, puis hésite.
 // s11c (passant) : « Eh bien… tout le monde le porte. » — grand geste vers la foule.
 // s11d : la caméra compare deux détails de fabrication : couture lâche du chapeau à la mode / point serré d'un chapeau simple.
-const A = L.s11a, B = L.s11b, C = L.s11c, Dd = L.s11d, DUREE = Dd[0] + Dd[1] + 1.1;
+const A = L.s11a, B = L.s11b, C = L.s11c, Dd = L.s11d, DUREE = (typeof GRILLE !== "undefined" ? GRILLE : Dd[0] + Dd[1] + 1.1);
 function detail(c, t, x, y, bon) {                              // gros plan sur la couture du bord d'un chapeau
   c.save(); c.translate(x, y); c.scale(1.55, 1.55);
   const bord = smooth([[-230, 40], [-200, -60], [0, -90], [200, -60], [230, 40], [0, 70]]);

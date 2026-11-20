@@ -9,9 +9,11 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
 (async () => {
   // répliques de la scène, enchaînées avec une petite pause ; enveloppe de bouche à 30 i/s
   const lignes = JSON.parse(fs.readFileSync(path.join(EP, 'lignes.json'))).filter(l => l.scene === +num);
+  // grille du PDF : un plan = 5 s, chaque réplique démarre au début de son plan
+  const grille = lignes.length && lignes.every(l => l.plan), p0 = grille ? Math.min(...lignes.map(l => l.plan)) : 0;
   const L = {}, BOUCHE = {}; let t = 0.5;
   for (const l of lignes) {
-    const f = path.join(VOIX, l.id + '.mp3'), d = dur(f); L[l.id] = [t, d, l.who]; t += d + (l.pause ?? .5);
+    const f = path.join(VOIX, l.id + '.mp3'), d = dur(f); if (grille) t = (l.plan - p0) * 5 + 0.35; L[l.id] = [t, d, l.who]; t += d + (l.pause ?? .5);
     const raw = execFileSync('ffmpeg', ['-v', 'error', '-i', f, '-f', 's16le', '-ac', '1', '-ar', '24000', '-']);
     const a = new Int16Array(raw.buffer, raw.byteOffset, raw.length / 2), hop = 800, e = [];
     for (let i = 0; i + hop <= a.length; i += hop) { let q = 0; for (let j = i; j < i + hop; j++) q += (a[j] / 32768) ** 2; e.push(Math.sqrt(q / hop)); }
@@ -21,7 +23,7 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 810 } });
   const errs = []; pg.on('pageerror', e => errs.push(String(e)));
   await pg.setContent('<canvas id="c" width="1080" height="810"></canvas>');
-  await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)};` });
+  await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)};` + (grille ? `const GRILLE = ${lignes.length * 5};` : '') });
   const estTV = fs.readFileSync(path.join(D, `${ep}/scene${num}.js`), 'utf8').match(/enNoirEtBlanc|ecran:/) !== null;
   for (const f of ['persos.js', 'decor.js', 'decor_boutique.js', 'decor_salon.js', 'humains.js', `${ep}/commun.js`, ...(estTV ? [`${ep}/tv.js`] : []), `${ep}/scene${num}.js`]) if (fs.existsSync(path.join(D, f))) await pg.addScriptTag({ path: path.join(D, f) });
   const img = (t) => pg.evaluate((t) => { const cv = document.getElementById('c'); frame(cv.getContext('2d'), t); return cv.toDataURL('image/jpeg', .93); }, t);
