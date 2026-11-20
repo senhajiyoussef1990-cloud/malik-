@@ -17,7 +17,7 @@ ANGLAIS = {"bacon": "békeune", "bacons": "békeunes", "hamburger": "ambeurgueur
            "smartphone": "smartefone", "best-seller": "bèstesèleur", "cow-boy": "kaoboï", "Sunshine": "Seunchaïne", "California": "Kalifornia"}
 def a_l_anglaise(txt):
     return _re.sub(r"[A-Za-zÀ-ÿ-]+", lambda m: ANGLAIS.get(m.group(0), ANGLAIS.get(m.group(0).lower(), m.group(0))), txt)
-m = ChatterboxMultilingualTTS.from_pretrained(device="cpu"); os.makedirs(f"{R}/travail/essais", exist_ok=True)
+m = ChatterboxMultilingualTTS.from_pretrained(device=os.environ.get("DEVICE") or ("cuda" if torch.cuda.is_available() else "cpu")); os.makedirs(f"{R}/travail/essais", exist_ok=True)
 for L in json.load(open(f"{R}/lignes.json")):
     if only and L["id"] not in only: continue
     ref, ex, cfg = JEU[L["who"]]

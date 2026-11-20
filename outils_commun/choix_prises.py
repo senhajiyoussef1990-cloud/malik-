@@ -2,7 +2,7 @@
 accélère le narrateur (x1.12), puis nettoie le souffle.  usage : python3 choix_prises.py <dossier_episode>"""
 import json, os, sys, glob, re, difflib, subprocess, numpy as np
 from faster_whisper import WhisperModel
-R = os.path.abspath(sys.argv[1]); SEUL = sys.argv[2:]; m = WhisperModel("small", device="cpu", compute_type="int8")
+R = os.path.abspath(sys.argv[1]); SEUL = sys.argv[2:]; m = WhisperModel("small", device=os.environ.get("DEVICE", "cpu"), compute_type="float16" if os.environ.get("DEVICE") == "cuda" else "int8")
 norm = lambda s: re.sub(r"[^a-zàâçéèêëîïôûùüÿœ' ]", " ", s.lower().replace("’", "'")).split()
 def audio(f): return np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", f, "-ac", "1", "-ar", "16000", "-f", "s16le", "-"], capture_output=True).stdout, np.int16).astype(np.float32) / 32768
 rap = []
