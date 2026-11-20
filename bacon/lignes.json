@@ -45,7 +45,7 @@
   "scene": 4,
   "who": "narr",
   "pause": 0.3,
-  "text": "À cette époque, on déjeune léger : un café, un morceau de pain."
+  "text": "À cette époque, le matin, on mange léger : un café, un morceau de pain."
  },
  {
   "id": "s04b",
@@ -118,7 +118,7 @@
   "scene": 8,
   "who": "narr",
   "pause": 0.4,
-  "text": "Le médecin écrit à cinq mille confrères. Des milliers répondent oui."
+  "text": "Le médecin écrit à cinq mille confrères. Des milliers disent oui."
  },
  {
   "id": "s09a",
