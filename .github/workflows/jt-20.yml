@@ -30,6 +30,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg libsndfile1
+          python -m pip install --upgrade pip
           python -m pip install chatterbox-tts
       - name: Générer les segments originaux de Maurice
         working-directory: jt
@@ -94,3 +95,5 @@ jobs:
           if-no-files-found: warn
 
 # Relance après validation du sujet insolite : insecte de Patagonie.
+
+# Correction du scénario JavaScript du 20 novembre et nouvelle tentative.
