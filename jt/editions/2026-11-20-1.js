@@ -2,12 +2,12 @@
 window.EDITION = {
  date:"VENDREDI 20 NOVEMBRE 2026",
  file:"ecodujour-2026-11-20-1",
- caption:"📰 L'Écho du Jour — 20 novembre 2026 ! Maurice revient sur la cybersécurité en France, les négociations autour de l'Ukraine et un tableau de Van Gogh vendu à prix record. Quel sujet t'a le plus étonné ? 👇\n\n#actu #journal #ecodujour #maurice #cybersecurite #ukraine #vangogh",
+ caption:"📰 L'Écho du Jour — 20 novembre 2026 ! Maurice revient sur la cybersécurité en France, les négociations autour de l'Ukraine et un insecte mystérieux découvert près d'un glacier. Quel sujet t'a le plus étonné ? 👇\n\n#actu #journal #ecodujour #maurice #cybersecurite #ukraine #science",
  storyCta:"LE JT EST EN LIGNE !",
  voice:"fr_FR-tom-medium",voiceEngine:"clone",
  phonetic:{"Van Gogh":"Van Gogue","OTAN":"Otan","Lecornu":"Le Cornu"},
- hook:["Un *Van Gogh* vendu","à prix *record* !"],
- hookSay:"Un Van Gogh vendu|à un prix record !",
+ hook:["Un insecte *mystérieux*","près d’un *glacier* !"],
+ hookSay:"Un insecte mystérieux|découvert près d’un glacier !"
  hookIllustration:"globe",
  rubriques:[
  {category:"EN FRANCE",title:"Alerte sur les cyberattaques",illustration:"globe",
@@ -16,9 +16,10 @@ window.EDITION = {
  {category:"DANS LE MONDE",title:"Ukraine : les alliés se réunissent",illustration:"globe",
  subs:[["Les alliés de","l'*Ukraine* réunis."],["Une réunion","s'est tenue à *Berlin*."],["La sécurité et","la *paix* au centre."],["Des discussions","pourraient *suivre*."]],
  say:["Jeudi, les alliés de l'Ukraine|se sont réunis à Berlin !","Ils ont discuté de la sécurité du pays|et des efforts pour parvenir à la paix !","Emmanuel Macron a évoqué la question|de l'adhésion de l'Ukraine à l'Otan !","Les Européens envisagent de prochaines discussions|avec les autres parties concernées !"]},
- {category:"L'INSOLITE",title:"Van Gogh bat un record",illustration:"globe",insolite:true,
- subs:[["Un tableau de","*Van Gogh* vendu !"],["*Châtaigniers en fleurs*","aux enchères."],["Le prix atteint","*190,4 millions* $ !"],["Un nouveau *record*","pour le peintre !"]],
- say:["Et pour terminer, une vente qui donne le vertige|dans le monde de l'art !","Le tableau Châtaigniers en fleurs, de Van Gogh,|a été vendu aux enchères à New York !","Avec les frais, le prix atteint|cent quatre-vingt-dix virgule quatre millions de dollars !","C'est un nouveau record de vente aux enchères|pour une œuvre du peintre !"]}
+ {category:"L'INSOLITE",title:"L'insecte mystérieux du glacier",illustration:"globe",insolite:true,
+ subs:[["En *Patagonie*,","une découverte rare !"],["Un insecte près","d'un *glacier* fondu."],["Une espèce peut-être","*inconnue* !"],["Les chercheurs","doivent *vérifier* !"]],
+ say:["Et pour terminer, direction la Patagonie chilienne|pour une découverte étonnante !","Des scientifiques ont trouvé un insecte rare|près des vestiges d’un glacier, sur l’île Navarino !","Ils ne parviennent pas à le rattacher|aux espèces déjà connues !","Il pourrait s’agir d’une espèce nouvelle,|mais d’autres recherches seront nécessaires !"]}
+
  ],
  question:["Et toi, quel sujet","t'a le plus *marqué* ?"],
  questionSay:"Et toi,|quel sujet t'a le plus marqué ?",
