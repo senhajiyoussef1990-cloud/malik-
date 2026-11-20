@@ -57,7 +57,7 @@ function craieNB(c, pts, u, w) { if (u <= 0) return; const n = Math.max(2, Math.
 // ---------------------------------------------------------------- personnages
 function figurant(t, x, v, o = {}) { const tq = step(t); return Object.assign({ x, y: 760, s: .5, t: tq, v, face: 1, look: [.5, 0], blink: ((t + v * .7) % 3.1) < .1 ? 1 : 0, tilt: wob(tq, .4, .03, v), bob: bnc(tq, v * .3) * 2.5, handL: [-80, -420], handR: [80, -420] }, o); }
 function marche(P, t, vit = 9) { P.walk = t * vit; P.bob = Math.abs(Math.sin(t * vit)) * 7; return P; }
-function dessine(c, P, f) { if (P.souffle != null) { dessineVivant(c, P, f || drawFigurant); return; } c.save(); c.translate(0, -(P.bob || 0)); (f || drawFigurant)(c, P); c.restore(); }
+function dessine(c, P, f) { if (typeof VIVANT_AUTO !== 'undefined' && P.souffle == null && P.t != null) vivant(P, P.t, { phase: (P.x || 0) * .013 + (P.v || 0), parle: [], ecoute: [] }); if (P.souffle != null) { dessineVivant(c, P, f || drawFigurant); return; } c.save(); c.translate(0, -(P.bob || 0)); (f || drawFigurant)(c, P); c.restore(); }
 function mainF(P, cote) { const h = cote > 0 ? P.handR : P.handL; return [P.x + h[0] * P.s * (P.face || 1), P.y - (P.bob || 0) + (h[1] + 30) * P.s]; }
 function debutFlash(c, t) { if (t < .3) { c.fillStyle = `rgba(255,255,255,${1 - ease(t / .3)})`; c.fillRect(0, 0, W, H); } }
 const VEILLEUR = (t, x, o = {}) => figurant(t, x, 3, Object.assign({ chapeau: COIFFE.kepi, s: .5 }, o));
@@ -161,7 +161,7 @@ function cadreTrait(c, rect, a = 1, txt) {                             // juste 
   if (a <= 0) return; const [x, y, w, h] = rect; ink(c, 4, `rgba(255,255,255,${a})`); c.setLineDash([12, 8]); c.strokeRect(x, y, w, h); c.setLineDash([]);
   if (txt) { c.save(); c.globalAlpha = a; c.font = 'bold 24px Georgia'; c.fillStyle = GRIS.blanc; c.strokeStyle = GRIS.noir; c.lineWidth = 4; c.strokeText(txt, x + 10, y - 12); c.fillText(txt, x + 10, y - 12); c.restore(); }
 }
-function heros(c, R, M) { for (const P of [R, M]) if (P) { c.save(); c.translate(0, -(P.bob || 0)); (P === R ? drawRenard : drawMouton)(c, P); c.restore(); } }
+function heros(c, R, M) { const t = (R || M).t; if (R) vivantAuto(R, t, 'renard', M ? M.x : null, 0); if (M) vivantAuto(M, t, 'mouton', R ? R.x : null, 1.7); for (const P of [R, M]) if (P) { if (P.souffle != null) dessineVivant(c, P, P === R ? drawRenard : drawMouton); else { c.save(); c.translate(0, -(P.bob || 0)); (P === R ? drawRenard : drawMouton)(c, P); c.restore(); } } }
 function herosTV(t, rx, mx) { const R = renardBase(t), M = moutonBase(t); R.x = rx; R.y = 800; R.s = .5; M.x = mx; M.y = 810; M.s = .47; R.look = [rx < mx ? .8 : -.8, 0]; M.look = [rx < mx ? -.8 : .8, 0]; return [R, M]; }
 function bouquet(c, x, y, s, k = 0) { c.save(); c.translate(x, y); c.scale(s, s); for (let q = 0; q < 6; q++) { const a = -1.2 + q * .5; ink(c, 2.5, GRIS.fonce); c.beginPath(); c.moveTo(0, 30); c.lineTo(Math.sin(a) * 30, -20 - Math.cos(a) * 20); c.stroke(); F(c, ell(Math.sin(a) * 30, -24 - Math.cos(a) * 20, 10, 10), [GRIS.blanc, GRIS.clair, GRIS.moyen][(q + k) % 3], 1.5); } c.restore(); }
 // la scène de la place : m = 0 avant, 1 le faux pas (les fleurs tombent), 2 l'entraide

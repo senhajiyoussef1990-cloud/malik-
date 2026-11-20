@@ -14,8 +14,8 @@ function teinte(col, k) {
   const key = col + k; if (_teintes[key]) return _teintes[key];
   const n = parseInt(col.slice(1), 16), f = (v) => Math.round(v * (1 - k)); return (_teintes[key] = `rgb(${f(n >> 16)},${f((n >> 8) & 255)},${f(n & 255)})`);
 }
-function ink(c, w = 5, col = INK) { if (STYLE_DESSIN && col === INK) { col = 'rgba(42,20,10,.62)'; w *= .72; } c.strokeStyle = col; c.lineWidth = w; c.lineJoin = 'round'; c.lineCap = 'round'; }
-function F(c, p, col, w = 5) { c.fillStyle = col; c.fill(p); if (w) { if (STYLE_DESSIN) { c.strokeStyle = teinte(col, .28); c.lineWidth = w * .42; c.lineJoin = c.lineCap = 'round'; } else ink(c, w); c.stroke(p); } }
+function ink(c, w = 5, col = INK) { if (STYLE_DESSIN && col === INK) { col = 'rgba(42,20,10,.5)'; w *= .7; } c.strokeStyle = col; c.lineWidth = w; c.lineJoin = 'round'; c.lineCap = 'round'; }
+function F(c, p, col, w = 5) { c.fillStyle = col; c.fill(p); if (w) { if (STYLE_DESSIN) { c.strokeStyle = col; c.lineWidth = w * .42; c.lineJoin = c.lineCap = 'round'; } else ink(c, w); c.stroke(p); } }
 function ell(x, y, rx, ry, a = 0) { const p = new Path2D(); p.ellipse(x, y, Math.max(.1, rx), Math.max(.1, ry), a, 0, Math.PI * 2); return p; }
 function poly(pts) { const p = new Path2D(); p.moveTo(...pts[0]); for (const q of pts.slice(1)) p.lineTo(...q); p.closePath(); return p; }
 function smooth(pts, closed = true) {

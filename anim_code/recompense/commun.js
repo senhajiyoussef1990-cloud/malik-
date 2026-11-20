@@ -1,4 +1,5 @@
 // Épisode « La récompense imprévisible » — éléments communs (salon en couleur + monde N&B du téléviseur).
+var VIVANT_AUTO = true, CAM_COUPES = true;
 var CAM_CALME = .3;
 var THEME_SALON = { mur: 'ardoise' };
 const AUDIO = Object.keys(L).map(id => [id, L[id][0]]);
@@ -14,6 +15,7 @@ function dessineSalon(c, t, R, M, o = {}, avant) {
   const rect = salon(c, t, o);
   if (o.ecran) ecranTV(c, rect, t, o.ecran, o.tv || 1);
   if (o.derriere) o.derriere(c);
+  if (R) vivantAuto(R, t, 'renard', M ? M.x : null, 0); if (M) vivantAuto(M, t, 'mouton', R ? R.x : null, 1.7);
   if (R) { if (R.souffle != null) dessineVivant(c, R, drawRenard); else { c.save(); c.translate(0, -R.bob); drawRenard(c, R); c.restore(); } }
   if (M) { if (M.souffle != null) dessineVivant(c, M, drawMouton); else { c.save(); c.translate(0, -M.bob); drawMouton(c, M); c.restore(); } }
   if (avant) avant(c);

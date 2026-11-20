@@ -297,6 +297,7 @@ function parle(id, t) { const l = L[id]; return !!l && t >= l[0] && t < l[0] + l
 function apres(id, t, d = 0) { const l = L[id]; return !!l && t >= l[0] + d; }
 function local(id, t) { const l = L[id]; return l ? t - l[0] : -1; }
 function cam(c, t, keys) {
+  if (typeof CAM_COUPES !== 'undefined' && keys.length > 1 && typeof plans === 'function') { if (typeof CAM_CALME !== 'undefined') { const zm = keys.reduce((a, k) => a + k[3], 0) / keys.length; keys = keys.map(k => [k[0], k[1], k[2], zm + (k[3] - zm) * Math.max(CAM_CALME, .6)]); } return plans(c, t, keys); }
   if (typeof CAM_CALME !== 'undefined' && keys.length > 1) {          // caméra plus posée : les variations de zoom sont atténuées
     const zm = keys.reduce((a, k) => a + k[3], 0) / keys.length; keys = keys.map(k => [k[0], k[1], k[2], zm + (k[3] - zm) * CAM_CALME]);
   }

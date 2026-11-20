@@ -89,3 +89,11 @@ function dessinTrace(c, P, f, couleur = INK) {
   c.filter = `drop-shadow(${d + j}px 0 0 ${couleur}) drop-shadow(${-d}px ${j}px 0 ${couleur}) drop-shadow(0 ${d}px 0 ${couleur}) drop-shadow(${j}px ${-d}px 0 ${couleur})`;
   c.drawImage(_trCv, 0, 0); c.filter = 'none'; c.drawImage(_trCv, 0, 0); c.restore();
 }
+
+// version automatique : retrouve qui parle et qui écoute d'après les répliques de la scène (L[id][2] = personnage)
+function vivantAuto(P, t, qui, autreX, phase = 0) {
+  if (P.souffle != null || typeof VIVANT_AUTO === 'undefined') return P;
+  const ids = Object.keys(L), miens = ids.filter(id => L[id][2] === qui), autres = ids.filter(id => L[id][2] !== qui && L[id][2] !== 'narr');
+  const main = P.poseR && P.poseR !== 'repos' ? 'L' : 'R';
+  return vivant(P, t, { parle: miens, ecoute: autres, vers: autreX, main, phase, bras: !(P.handL && P.handR && Math.abs(P.handL[0] - P.handR[0]) < 140) });
+}
