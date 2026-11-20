@@ -23,11 +23,12 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
   }
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 810 } });
   const errs = []; pg.on('pageerror', e => errs.push(String(e)));
-  await pg.setContent('<canvas id="c" width="1080" height="810"></canvas>');
-  await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)}; ${process.env.STYLE === '1' ? 'var STYLE_TRACE = true;' : ''} const MOTS = ${JSON.stringify(Object.fromEntries(Object.keys(L).map(k => [k, (MN[k] || {}).mots || []])))};` + (grille ? `const GRILLE = ${lignes.length * 5};` : '') });
+  await pg.setContent('<canvas id="c" width="1080" height="810"></canvas>' + (process.env.DESSIN === '1' ? `<svg width="0" height="0" style="position:absolute"><filter id="crayon" x="0" y="0" width="100%" height="100%"><feTurbulence id="tb" type="fractalNoise" baseFrequency="0.022" numOctaves="2" seed="1" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.6" xChannelSelector="R" yChannelSelector="G"/></filter></svg>` : ''));
+  await pg.addScriptTag({ content: `const L = ${JSON.stringify(L)}; const BOUCHE = ${JSON.stringify(BOUCHE)}; ${process.env.STYLE === '1' ? 'var STYLE_TRACE = true;' : ''}${process.env.DESSIN === '1' ? 'var TRAIT_DOUX = true;' : ''} const MOTS = ${JSON.stringify(Object.fromEntries(Object.keys(L).map(k => [k, (MN[k] || {}).mots || []])))};` + (grille ? `const GRILLE = ${lignes.length * 5};` : '') });
   const estTV = fs.readFileSync(path.join(D, `${ep}/scene${num}.js`), 'utf8').match(/enNoirEtBlanc|ecran/) !== null || (ep !== 'ep01' && fs.existsSync(path.join(D, ep, 'tv.js')));
   for (const f of ['persos.js', 'vivant.js', 'decor.js', 'decor_boutique.js', 'decor_salon.js', 'humains.js', `${ep}/commun.js`, ...(estTV ? [`${ep}/tv.js`] : []), `${ep}/scene${num}.js`]) if (fs.existsSync(path.join(D, f))) await pg.addScriptTag({ path: path.join(D, f) });
-  const img = (t) => pg.evaluate((t) => { const cv = document.getElementById('c'); frame(cv.getContext('2d'), t); return cv.toDataURL('image/jpeg', .93); }, t);
+  if (process.env.DESSIN === '1') await pg.addScriptTag({ path: path.join(D, 'dessin.js') });
+  const img = (t) => pg.evaluate((t) => { const cv = document.getElementById('c'); frame(cv.getContext('2d'), t); if (typeof faitMain === 'function') faitMain(cv, t); return cv.toDataURL('image/jpeg', .93); }, t);
   const nom = `${ep.toUpperCase()}_scene${num}`;
   if (stills) {
     for (const s of stills) fs.writeFileSync(path.join(D, `travail/${nom}_${s}.jpg`), Buffer.from((await img(s)).split(',')[1], 'base64'));
