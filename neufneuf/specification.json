@@ -1,0 +1,225 @@
+{
+ "ep": "neufneuf",
+ "nom": "EP25_Le_prix_en_99",
+ "badge": "ÉPISODE 25",
+ "titre": "LE PRIX EN 99",
+ "sous": "« Un centime pour ton œil »",
+ "accroche": "9,99… ce n’est pas 10 ?",
+ "apres": "cowboy",
+ "noms": {
+  "epicier": "ÉPICIER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Regarde ce grille-pain : neuf euros quatre-vingt-dix-neuf. Pas même dix euros !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Il manque un centime. Un seul."
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Oui, mais ça fait neuf euros, pas dix. C’est moins cher, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "C’est ce que ton œil croit. Allons voir pourquoi."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans l’épicerie d’un petit village d’autrefois."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "L’épicier affiche des prix ronds : un franc, deux francs, dix francs."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un jour, il remarque une chose curieuse chez son concurrent."
+  ],
+  [
+   "s05a",
+   5,
+   "epicier",
+   0.4,
+   "Il écrit quatre-vingt-dix-neuf centimes au lieu d’un franc… et il vend plus que moi !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Notre œil lit les prix de gauche à droite, et retient surtout le premier chiffre."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Quatre-vingt-dix-neuf centimes commence par un neuf. Un franc commence par un un."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le cerveau range le premier prix dans les petits prix. Sans même compter."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Seulement quatre-vingt-dix-neuf centimes ? Alors j’en prends deux !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Pour un centime, elle en achète deux ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Elle n’a pas vu un centime de différence. Elle a vu un autre prix."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "L’épicier change toutes ses étiquettes. Partout, des neuf apparaissent."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Neuf francs quatre-vingt-dix-neuf. Quatre-vingt-dix-neuf francs. Neuf cent quatre-vingt-dix-neuf francs."
+  ],
+  [
+   "s09b",
+   9,
+   "epicier",
+   0.4,
+   "Un centime de moins, et ils ont l’impression de faire une affaire !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui encore, presque tous les magasins utilisent cette astuce."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Elle ne coûte rien au vendeur, et elle trompe notre œil des milliers de fois."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc neuf quatre-vingt-dix-neuf, c’est vraiment dix euros ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "À un centime près, oui. Le reste, c’est de l’illusion."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les chercheurs appellent ça l’effet du chiffre de gauche."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Il marche même quand on le connaît. Il faut juste prendre le temps d’arrondir."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un centime pour tromper ton œil."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors je dois arrondir tous les prix dans ma tête ?"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Au moins pour les grosses dépenses. Arrondis toujours au-dessus."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Combien ça coûte vraiment, si j’arrondis ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le premier chiffre n’est pas le seul qui compte."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

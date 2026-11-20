@@ -1,0 +1,225 @@
+{
+ "ep": "eau",
+ "nom": "EP23_L_eau_en_bouteille",
+ "badge": "ÉPISODE 23",
+ "titre": "L’EAU EN BOUTEILLE",
+ "sous": "« Vendre ce qui est gratuit »",
+ "accroche": "Payer l’eau… plus cher que l’essence ?",
+ "apres": "rasoir",
+ "noms": {
+  "vendeur": "VENDEUR",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Je ne bois que de l’eau en bouteille. Celle du robinet, je n’ose pas."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu as déjà comparé leurs analyses ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… mais l’eau en bouteille, c’est forcément plus pur, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Forcément ? Allons voir comment ce forcément est né."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Pendant longtemps, l’eau en bouteille se vend surtout comme un remède, dans les villes d’eau."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Puis, dans la seconde moitié du vingtième siècle, les marques voient plus grand."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Leur défi : vendre à prix d’or ce qui coule déjà du robinet."
+  ],
+  [
+   "s05a",
+   5,
+   "vendeur",
+   0.4,
+   "Il nous faut une source, une montagne, et une belle histoire !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les étiquettes montrent des glaciers, des sommets, des sources cachées."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les réclames parlent de pureté, de jeunesse, de minceur."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Boire de l’eau en bouteille devient un signe d’élégance."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "L’eau du robinet ? Quelle horreur. Je ne bois que de l’eau de source."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais son eau du robinet est contrôlée, non ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Très contrôlée, souvent. Mais une montagne sur une étiquette, ça rassure."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Pour vendre la bouteille, on fait douter du robinet."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Le moindre goût de chlore devient une preuve de danger."
+  ],
+  [
+   "s09b",
+   9,
+   "vendeur",
+   0.4,
+   "Mille fois plus cher que le robinet, et ils en redemandent !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Les rayons se remplissent de bouteilles en plastique."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Et les déchets, eux, s’accumulent jusque dans les océans."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc on m’a vendu de la peur… en bouteille ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Un peu de peur, beaucoup d’image, et une source bien jolie."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Il existe des cas où la bouteille est utile. Mais ce n’est pas la règle."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Dans beaucoup de pays, l’eau du robinet est sûre et très surveillée."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ce qui est gratuit, certains rêvent de te le vendre."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors je peux boire l’eau du robinet ?"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Renseigne-toi sur celle de ta ville. Les analyses sont publiques."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui me fait douter, et combien je paie ce doute ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une belle étiquette ne rend pas l’eau meilleure."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

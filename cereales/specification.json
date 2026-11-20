@@ -1,0 +1,225 @@
+{
+ "ep": "cereales",
+ "nom": "EP20_Le_repas_le_plus_important",
+ "badge": "ÉPISODE 20",
+ "titre": "LE REPAS LE PLUS IMPORTANT",
+ "sous": "« Dit le vendeur de céréales »",
+ "accroche": "Le petit-déjeuner… le plus important ?",
+ "apres": "chanson",
+ "noms": {
+  "docteur": "DOCTEUR",
+  "vendeur": "VENDEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Le petit-déjeuner, c’est le repas le plus important de la journée. Tout le monde le sait."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tout le monde le sait… mais qui l’a dit en premier ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Des médecins, sûrement. Des nutritionnistes ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Regarde plutôt la boîte que tu tiens. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, à la fin du dix-neuvième siècle."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Dans une maison de santé, un médecin invente des flocons de maïs grillés."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il veut un repas simple, fade, censé calmer les passions."
+  ],
+  [
+   "s05a",
+   5,
+   "docteur",
+   0.4,
+   "Pas de viande, pas d’épices. Des flocons, et du lait !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Son frère, lui, voit surtout une affaire à faire."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Il ajoute du sucre, une jolie boîte, et beaucoup de réclame."
+  ],
+  [
+   "s06b",
+   6,
+   "vendeur",
+   0.4,
+   "Un bon petit-déjeuner, et vous serez fort toute la journée !"
+  ],
+  [
+   "s07a",
+   7,
+   "mouton",
+   0.5,
+   "Donc au départ, c’était un régime de clinique ?"
+  ],
+  [
+   "s07b",
+   7,
+   "renard",
+   0.5,
+   "Oui. Le sucre et les slogans sont venus après."
+  ],
+  [
+   "s08a",
+   8,
+   "narr",
+   0.4,
+   "Les fabricants de céréales répètent partout la même phrase."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Le petit-déjeuner serait le repas le plus important de la journée."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les boîtes se couvrent de mascottes, de jouets et de promesses."
+  ],
+  [
+   "s09b",
+   9,
+   "vendeur",
+   0.4,
+   "Avec un jouet dans chaque boîte, les enfants les réclament !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "La phrase devient une vérité qu’on n’interroge plus."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Pourtant, les études sur le sujet sont loin d’être aussi claires."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc la phrase vient d’abord de ceux qui vendent les céréales ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Elle les arrange bien, en tout cas. Ça ne la rend ni vraie ni fausse."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Une phrase répétée assez souvent finit par sonner comme un fait."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Surtout quand elle est imprimée sur des millions de boîtes."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Avant de croire une vérité, demande qui l’a écrite."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour à notre petit-déjeuner."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors je peux sauter le petit-déjeuner ?"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Écoute ton corps, pas la boîte. Chacun est différent."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui a lancé cette phrase, et qu’est-ce qu’il vend ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un slogan n’est pas une étude."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

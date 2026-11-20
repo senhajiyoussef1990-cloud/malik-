@@ -1,0 +1,225 @@
+{
+ "ep": "lait",
+ "nom": "EP28_Le_lait_au_fond_du_magasin",
+ "badge": "ÉPISODE 28",
+ "titre": "LE LAIT AU FOND DU MAGASIN",
+ "sous": "« Le chemin le plus long »",
+ "accroche": "Pourquoi le lait est toujours au fond ?",
+ "apres": "leurre",
+ "noms": {
+  "inventeur": "INVENTEUR",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Je suis allé acheter du lait. Je suis ressorti avec un sac plein !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Où était le lait, dans le magasin ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Tout au fond, comme d’habitude. Il a fallu traverser tous les rayons."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Comme d’habitude, justement. Allons voir qui a dessiné ce chemin."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, en mille neuf cent seize."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "À l’époque, on donne sa liste à l’épicier, et il va chercher les produits derrière son comptoir."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un commerçant a une idée nouvelle : laisser les clients se servir eux-mêmes."
+  ],
+  [
+   "s05a",
+   5,
+   "inventeur",
+   0.4,
+   "Prenez un panier, et servez-vous ! Plus besoin d’attendre au comptoir !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "C’est l’un des premiers libre-service. Un parcours obligatoire traverse tous les rayons."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les clients voient tout, touchent tout… et achètent plus que prévu."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les magasins suivants affinent la méthode, rayon après rayon."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Je venais pour du pain… et j’ai pris des biscuits, du savon, et un vase !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Donc le chemin est fait exprès pour me faire acheter ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Le chemin, les couleurs, la hauteur des étagères. Rien n’est au hasard."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les produits de base sont placés loin de l’entrée : lait, pain, œufs."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les produits les plus rentables sont mis à hauteur des yeux."
+  ],
+  [
+   "s09b",
+   9,
+   "narr",
+   0.4,
+   "Et les friandises attendent près des caisses, à hauteur d’enfant."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça le merchandising : l’art de guider le client."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Plus on marche dans le magasin, plus on dépense."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je suis un rat dans un labyrinthe à caddies ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Un peu. Mais un rat qui a une liste peut sortir plus vite."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Le magasin n’est pas un simple entrepôt. C’est un parcours pensé pour vendre."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Celui qui connaît le plan peut choisir son propre chemin."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Le chemin le plus long, c’est celui qui rapporte."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je fais une liste, et je m’y tiens."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et tu regardes en haut et en bas des rayons, pas seulement en face."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Pourquoi ce produit est-il là, et en avais-je besoin ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le plan du magasin est fait pour lui, pas pour toi."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

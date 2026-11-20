@@ -1,0 +1,225 @@
+{
+ "ep": "echantillon",
+ "nom": "EP30_Le_cadeau_qui_oblige",
+ "badge": "ÉPISODE 30",
+ "titre": "LE CADEAU QUI OBLIGE",
+ "sous": "« La réciprocité »",
+ "accroche": "Un cadeau gratuit… vraiment gratuit ?",
+ "apres": "pain",
+ "noms": {
+  "moine": "QUÊTEUR",
+  "voyageur": "VOYAGEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "On m’a offert un échantillon de fromage au marché. Du coup, j’ai acheté tout le fromage !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu en avais envie, ou tu te sentais obligé ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Un peu obligé… Elle avait été si gentille avec moi."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "C’est exactement le but. Allons voir pourquoi."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction les aéroports d’Amérique, dans les années mille neuf cent soixante-dix."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Des quêteurs en robe orange abordent les voyageurs pressés."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Ils commencent toujours par la même chose : offrir une fleur."
+  ],
+  [
+   "s05a",
+   5,
+   "moine",
+   0.4,
+   "Tenez, c’est un cadeau. Pour vous, gratuitement."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le voyageur prend la fleur. Puis le quêteur demande un don."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Beaucoup de voyageurs donnent, même agacés, même pressés."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Certains jettent ensuite la fleur dans la poubelle la plus proche."
+  ],
+  [
+   "s07a",
+   7,
+   "voyageur",
+   0.4,
+   "Je ne voulais pas de cette fleur… mais je me sentais obligé de donner."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Il ne voulait même pas de la fleur !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Peu importe. Recevoir crée une dette. Et on n’aime pas avoir de dettes."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les chercheurs appellent ça la règle de réciprocité."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Elle existe dans toutes les sociétés humaines. Elle nous aide à vivre ensemble."
+  ],
+  [
+   "s09b",
+   9,
+   "narr",
+   0.4,
+   "Mais elle peut aussi être utilisée contre nous."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Échantillons gratuits, dégustations, petits cadeaux joints aux courriers…"
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Le cadeau n’est pas gratuit. C’est un hameçon."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc l’échantillon de fromage, c’était un hameçon ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Pas forcément méchant. Mais conçu pour te faire sentir redevable."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut accepter un cadeau sans rien devoir."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Il suffit de se rappeler qu’on ne l’a pas demandé."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un cadeau qui attend quelque chose, ce n’est pas un cadeau."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors la prochaine fois, je goûte… et je dis merci, c’est tout ?"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Tu peux. Un merci suffit à rendre un cadeau."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Ai-je demandé ce cadeau, et qu’attend-on de moi en échange ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Tu peux accepter un cadeau sans accepter la dette."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

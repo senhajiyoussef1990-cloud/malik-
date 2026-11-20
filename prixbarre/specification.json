@@ -1,0 +1,225 @@
+{
+ "ep": "prixbarre",
+ "nom": "EP26_Le_prix_barre",
+ "badge": "ÉPISODE 26",
+ "titre": "LE PRIX BARRÉ",
+ "sous": "« Une affaire, par rapport à quoi ? »",
+ "accroche": "Moins cinquante pour cent… de quoi ?",
+ "apres": "neufneuf",
+ "noms": {
+  "marchand": "MARCHAND",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Regarde ! Ce manteau était à deux cents euros, et il est à cent. Moins cinquante pour cent !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Il était vraiment à deux cents euros ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Bah oui, c’est écrit, et c’est barré. Ils ne peuvent pas mentir, quand même ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir comment naît un prix barré."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans la boutique d’un marchand de manteaux."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un manteau vaut cent francs. Personne ne l’achète."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Le marchand a une idée : écrire d’abord un prix beaucoup plus haut."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Deux cents francs ! Et juste en dessous, je le barre. Cent francs, une affaire !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le prix barré n’a peut-être jamais été pratiqué. Il sert de point de comparaison."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Notre cerveau compare toujours. Et il compare avec ce qu’on lui montre en premier."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "C’est ce qu’on appelle un ancrage : un premier chiffre qui colle à l’esprit."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Cent francs au lieu de deux cents ? Je le prends tout de suite !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais le manteau, lui, n’a pas changé du tout !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Seule l’étiquette a changé. Et ta façon de le regarder."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Le marchand recommence avec tous ses articles."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les soldes permanentes arrivent : moins trente, moins quarante, moins soixante-dix !"
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne vends plus des manteaux. Je vends des affaires !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Dans beaucoup de pays, la loi encadre les prix barrés."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Mais il reste facile d’afficher un ancien prix très court, juste pour l’occasion."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc le prix barré sert surtout à me faire comparer avec du vent ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Parfois avec un vrai prix. Parfois avec du vent. À toi de vérifier."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour savoir si c’est une affaire, il faut un autre point de comparaison."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Le même article ailleurs. Ou ce que tu étais prêt à payer avant de voir l’étiquette."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une affaire, par rapport à quoi ?"
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors je ne crois plus aucun prix barré ?"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Ne le crois pas sur parole. Compare avec d’autres magasins."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Ce prix barré a-t-il existé, et combien ça vaut ailleurs ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le premier chiffre qu’on te montre n’est pas le bon juge."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

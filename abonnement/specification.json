@@ -1,0 +1,225 @@
+{
+ "ep": "abonnement",
+ "nom": "EP31_L_essai_gratuit",
+ "badge": "ÉPISODE 31",
+ "titre": "L’ESSAI GRATUIT",
+ "sous": "« Ce que tu ne refuses pas, tu le paies »",
+ "accroche": "Gratuit… jusqu’à quand ?",
+ "apres": "echantillon",
+ "noms": {
+  "vendeur": "VENDEUR",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai découvert que je payais encore un abonnement que j’avais oublié depuis un an !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu l’avais pris comment, cet abonnement ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "C’était un essai gratuit… Il fallait juste penser à l’arrêter."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Juste penser à l’arrêter. Voilà tout le secret. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, dans les années mille neuf cent cinquante."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un club de disques par correspondance fait une offre incroyable."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Douze disques pour un seul centime ! Il suffit de remplir un coupon."
+  ],
+  [
+   "s05a",
+   5,
+   "vendeur",
+   0.4,
+   "Douze disques pour un centime ! Qui pourrait refuser ?"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Mais en petits caractères, le client s’engage pour la suite."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Chaque mois, un nouveau disque arrive, avec sa facture."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Pour ne pas le recevoir, il faut renvoyer une carte de refus. À temps."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Encore un disque que je n’ai pas choisi… J’ai encore oublié la carte !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Donc il paie parce qu’il a oublié de dire non ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Le silence vaut un oui. Et on oublie souvent."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça l’option par défaut."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Ce qui se passe quand on ne fait rien. Et le plus souvent, on ne fait rien."
+  ],
+  [
+   "s09b",
+   9,
+   "narr",
+   0.4,
+   "Les entreprises choisissent le défaut qui les arrange."
+  ],
+  [
+   "s10a",
+   10,
+   "vendeur",
+   0.4,
+   "Je n’ai pas besoin qu’ils disent oui. J’ai besoin qu’ils oublient de dire non !"
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les essais gratuits en ligne reprennent la même recette, en un clic."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc l’essai gratuit, c’est un pari sur mon oubli ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Souvent, oui. Et l’entreprise gagne quand tu oublies."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Dans de nombreux pays, la loi oblige désormais à faciliter la résiliation."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Mais il reste à chacun de noter la date de fin."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ce que tu ne refuses pas, tu le paies."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je mets un rappel avant la fin de l’essai."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Ou tu résilies dès le premier jour. Tu gardes souvent l’essai quand même."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Que se passe-t-il si je ne fais rien, et qui y gagne ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le défaut est un choix, mais ce n’est pas le tien."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

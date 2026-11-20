@@ -1,0 +1,225 @@
+{
+ "ep": "pain",
+ "nom": "EP29_L_odeur_du_pain_chaud",
+ "badge": "ÉPISODE 29",
+ "titre": "L’ODEUR DU PAIN CHAUD",
+ "sous": "« Ton nez fait tes courses »",
+ "accroche": "Cette bonne odeur… un piège ?",
+ "apres": "lait",
+ "noms": {
+  "boulanger": "BOULANGER",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "En entrant au supermarché, ça sentait le pain chaud. J’ai tout acheté !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu avais faim en entrant ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Pas du tout. Mais cette odeur m’a ouvert l’appétit."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Et si cette odeur avait été placée là exprès ? Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un grand magasin du village."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le directeur remarque que les clients passent vite, sans s’arrêter."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il installe un four à pain juste à l’entrée, et laisse la porte ouverte."
+  ],
+  [
+   "s05a",
+   5,
+   "boulanger",
+   0.4,
+   "Le pain se vend tout seul. Et il fait vendre tout le reste !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "L’odeur du pain chaud rappelle la maison, l’enfance, la chaleur."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Elle détend les clients… et réveille leur appétit."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Or un client qui a faim achète plus, et plus de choses inutiles."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Tiens, je vais prendre des croissants, et des gâteaux, et du fromage…"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Il ne venait acheter qu’une ampoule !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Son nez a fait les courses à sa place."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Bientôt, d’autres magasins s’y mettent. Les odeurs deviennent une stratégie."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Odeur de cuir dans les boutiques de chaussures, de vanille dans les magasins de vêtements."
+  ],
+  [
+   "s09b",
+   9,
+   "narr",
+   0.4,
+   "Et la musique aussi : lente pour faire flâner, rapide pour faire circuler."
+  ],
+  [
+   "s10a",
+   10,
+   "boulanger",
+   0.4,
+   "Le client croit choisir. C’est l’ambiance qui choisit pour lui !"
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les spécialistes parlent de marketing sensoriel : vendre par les cinq sens."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc l’odeur, la musique, la lumière… tout est calculé ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Souvent, oui. Une ambiance agréable n’est pas toujours innocente."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Rien d’illégal là-dedans. Mais il vaut mieux le savoir."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un conseil simple : ne pas faire ses courses le ventre vide."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ton nez fait parfois tes courses."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors je vais faire mes courses après le repas !"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et avec une liste. Le nez a toujours faim, la liste jamais."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qu’est-ce qui me donne envie, mon besoin ou l’ambiance ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une bonne odeur n’est pas une bonne affaire."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

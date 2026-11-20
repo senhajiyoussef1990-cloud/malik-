@@ -1,0 +1,225 @@
+{
+ "ep": "haleine",
+ "nom": "EP21_La_mauvaise_haleine",
+ "badge": "ÉPISODE 21",
+ "titre": "LA MAUVAISE HALEINE",
+ "sous": "« Inventer le problème »",
+ "accroche": "Ta mauvaise haleine… une invention ?",
+ "apres": "cereales",
+ "noms": {
+  "publicitaire": "PUBLICITAIRE",
+  "mariee": "JEUNE FEMME"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Je me rince la bouche trois fois par jour. On ne sait jamais !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "On ne sait jamais quoi, au juste ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "La mauvaise haleine ! Ça peut gâcher toute une vie, il paraît."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Il paraît. Voyons qui a fait courir cette rumeur."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, dans les années mille neuf cent vingt."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un fabricant vend un antiseptique, utilisé jusque-là pour les sols et les plaies."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Les ventes sont faibles. Il faut trouver un nouvel usage."
+  ],
+  [
+   "s05a",
+   5,
+   "publicitaire",
+   0.4,
+   "Et si on en faisait un remède contre la mauvaise haleine ?"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Ils dénichent un vieux mot savant, presque oublié : l’halitose."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Soudain, un simple souffle devient une maladie au nom inquiétant."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les réclames racontent des histoires de cœurs brisés."
+  ],
+  [
+   "s07a",
+   7,
+   "mariee",
+   0.4,
+   "Toujours demoiselle d’honneur, jamais la mariée… Pourquoi ?"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Parce qu’elle a mauvaise haleine ? C’est ça, la réclame ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Et personne n’ose le lui dire. Donc il faut acheter le flacon."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "La peur du regard des autres devient l’argument de vente."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "En quelques années, les ventes explosent."
+  ],
+  [
+   "s09b",
+   9,
+   "publicitaire",
+   0.4,
+   "On ne vend pas un produit. On vend la fin d’une angoisse !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Mais cette angoisse, c’est la réclame qui l’a créée."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "D’autres marques copient la recette : un mot savant, une honte, un remède."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc ils ont inventé le problème pour vendre la solution ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Le problème existait un peu. Ils l’ont surtout rendu terrifiant."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Donner un nom médical à une gêne ordinaire la rend plus grave."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Et quand on a peur, on achète vite, sans comparer."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Méfie-toi de qui vend la maladie et le remède."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors je peux arrêter de me rincer la bouche trois fois par jour ?"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Garde de bonnes habitudes. Mais sans peur, ni excès."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui m’a fait peur, et qu’est-ce qu’il me vend ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une peur fabriquée est souvent un argument de vente."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

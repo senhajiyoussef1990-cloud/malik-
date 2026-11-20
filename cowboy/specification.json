@@ -1,0 +1,225 @@
+{
+ "ep": "cowboy",
+ "nom": "EP24_Le_cow-boy_des_cigarettes",
+ "badge": "ÉPISODE 24",
+ "titre": "LE COW-BOY DES CIGARETTES",
+ "sous": "« On t’a vendu un personnage »",
+ "accroche": "Ce cow-boy… vendait quoi, au juste ?",
+ "apres": "eau",
+ "noms": {
+  "publicitaire": "PUBLICITAIRE",
+  "fumeur": "FUMEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ce cow-boy sur les vieilles affiches, quel symbole de liberté !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu sais pour qui cette cigarette était faite, au départ ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Pour les cow-boys, j’imagine. Des hommes rudes, des grands espaces…"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Pas du tout. Allons voir la vraie histoire."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, dans les années mille neuf cent vingt."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Une marque lance une cigarette douce, avec un bout coloré pour cacher le rouge à lèvres."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Son slogan la destine aux femmes : douce comme le mois de mai."
+  ],
+  [
+   "s05a",
+   5,
+   "fumeur",
+   0.4,
+   "Une cigarette pour dames ? Très peu pour moi."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Trente ans plus tard, les ventes sont au plus bas."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les fumeurs s’inquiètent pour leur santé. Les cigarettes à filtre semblent plus sûres."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Mais pour beaucoup d’hommes, le filtre fait trop féminin."
+  ],
+  [
+   "s07a",
+   7,
+   "publicitaire",
+   0.4,
+   "Il nous faut le symbole le plus viril d’Amérique. Un cow-boy !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Ils ont pris une cigarette pour femmes… et l’ont donnée à un cow-boy ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Même produit, nouveau personnage."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Chevaux, grands espaces, regard dur, tatouage sur la main."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "On ne montre plus une cigarette. On montre un homme libre."
+  ],
+  [
+   "s09b",
+   9,
+   "fumeur",
+   0.4,
+   "Avec celle-là, je me sens comme lui. Libre !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Les ventes s’envolent. La marque devient l’une des plus vendues au monde."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Des années plus tard, plusieurs hommes ayant posé pour ces affiches meurent de maladies liées au tabac."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc le cow-boy n’avait rien à voir avec la cigarette ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Rien. C’était un costume posé sur un produit."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un personnage parle à nos rêves, pas à notre raison."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "On n’achète plus un objet : on achète l’image de soi qu’il promet."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "On t’a vendu un personnage, pas un produit."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors quand une pub me montre un héros…"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Regarde ce qu’il tient dans la main, pas ce qu’il te fait rêver."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui joue ce rôle, et qu’est-ce qu’on me vend vraiment ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un héros d’affiche ne fume pas pour toi… il fume pour la marque."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

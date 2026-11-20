@@ -1,0 +1,225 @@
+{
+ "ep": "leurre",
+ "nom": "EP27_L_option_du_milieu",
+ "badge": "ÉPISODE 27",
+ "titre": "L’OPTION DU MILIEU",
+ "sous": "« Le leurre »",
+ "accroche": "Pourquoi tu choisis toujours le moyen ?",
+ "apres": "prixbarre",
+ "noms": {
+  "vendeur": "VENDEUR",
+  "lecteur": "LECTEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Au cinéma, j’ai pris le grand pop-corn. Pour cinquante centimes de plus, c’était évident !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu voulais un grand pop-corn en entrant ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non, un petit. Mais le moyen était si cher que le grand paraissait une affaire."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Et si le moyen était là exprès ? Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Commençons par une expérience célèbre, menée par un chercheur dans les années deux mille."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un magazine propose trois abonnements à ses lecteurs."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Version en ligne, cinquante-neuf. Version papier, cent vingt-cinq. Papier et en ligne… cent vingt-cinq aussi."
+  ],
+  [
+   "s05a",
+   5,
+   "lecteur",
+   0.4,
+   "Le papier seul au même prix que les deux ? Je prends les deux, évidemment !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Presque personne ne choisit le papier seul. Mais il change tout."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Quand on retire cette option inutile, beaucoup plus de gens choisissent la moins chère."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "L’option que personne ne prend sert de leurre. Elle rend l’autre irrésistible."
+  ],
+  [
+   "s07a",
+   7,
+   "vendeur",
+   0.4,
+   "Je n’ai pas besoin de vendre le moyen. J’ai besoin qu’il existe !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Donc le moyen pop-corn, c’était un leurre ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Un leurre placé juste à côté du grand, pour le faire briller."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On retrouve ce piège partout : les menus, les forfaits, les tailles de café."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Trois choix, dont un un peu absurde, et l’on glisse vers celui qu’on voulait nous vendre."
+  ],
+  [
+   "s09b",
+   9,
+   "vendeur",
+   0.4,
+   "Petit, moyen, grand. Et tout le monde prend le grand !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Notre cerveau n’évalue pas les prix seuls. Il les compare entre eux."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Il suffit de choisir les éléments de comparaison pour guider le choix."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc on ne choisit pas vraiment, on compare ce qu’on nous montre ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Exactement. Et celui qui montre a déjà choisi pour toi."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour déjouer le leurre, il faut revenir à la vraie question."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "De quoi ai-je besoin, et combien suis-je prêt à payer ?"
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "La troisième option n’est là que pour te pousser."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je décide de la taille avant de lire les prix."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Excellente idée. Décide avant de comparer."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "De quoi ai-je besoin, et quelle option est là pour rien ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un bon choix commence avant le menu."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

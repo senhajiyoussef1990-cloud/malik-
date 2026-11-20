@@ -1,0 +1,225 @@
+{
+ "ep": "rasoir",
+ "nom": "EP22_Les_poils_de_la_honte",
+ "badge": "ÉPISODE 22",
+ "titre": "LES POILS DE LA HONTE",
+ "sous": "« Créer un complexe »",
+ "accroche": "Ce complexe… qui te l’a vendu ?",
+ "apres": "haleine",
+ "noms": {
+  "publicitaire": "PUBLICITAIRE",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ma cousine dit qu’une femme doit absolument se raser les jambes."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Absolument ? Depuis quand est-ce une obligation ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Depuis toujours, non ? C’est plus propre, c’est plus beau."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "C’est un choix. Mais l’obligation a une histoire. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, en mille neuf cent quinze."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les fabricants de rasoirs ne vendent qu’aux hommes. La moitié du marché leur échappe."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Or la mode change : les robes découvrent les bras, puis les jambes."
+  ],
+  [
+   "s05a",
+   5,
+   "publicitaire",
+   0.4,
+   "Les dames aussi ont des poils. Il suffit de les en convaincre !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Un fabricant lance un rasoir pour les femmes, avec un étui élégant."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les magazines publient des réclames montrant des aisselles parfaitement lisses."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les poils deviennent disgracieux, puis gênants, puis honteux."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Mon Dieu, et si quelqu’un voyait mes bras au bal ?"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Hier, personne n’y pensait. Et maintenant, c’est la honte ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. On a appris aux gens à avoir honte d’eux-mêmes."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Plus tard, les jupes raccourcissent. Les jambes suivent le même chemin."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les réclames répètent le mot : disgracieux, disgracieux, disgracieux."
+  ],
+  [
+   "s09b",
+   9,
+   "publicitaire",
+   0.4,
+   "Un complexe bien installé, c’est un client pour la vie !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "En une génération, l’habitude devient une norme."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Et la norme devient une obligation que personne n’a votée."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc ce n’est pas la nature qui l’exige, c’est la réclame ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "La réclame a surtout transformé un choix en devoir."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Faire honte, c’est créer un besoin qui revient chaque matin."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Chacun reste libre de se raser. Ou de ne pas le faire."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un complexe, c’est souvent une publicité qui a réussi."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors ma cousine peut faire ce qu’elle veut ?"
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bien sûr. L’important, c’est que ce soit son choix."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui m’a appris cette honte, et qui en profite ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un corps n’a pas besoin de ton approbation… ni de la leur."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}
