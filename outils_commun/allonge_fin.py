@@ -5,7 +5,7 @@ import sys, os, glob, subprocess, numpy as np
 R = os.path.abspath(sys.argv[1]); O = os.path.dirname(os.path.abspath(__file__)); CARTE = f"{O}/fin_abonne.mp4"
 run = lambda c: subprocess.run(c, check=True, capture_output=True, text=True)
 duree = lambda f: float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).stdout)
-mp4 = [f for f in glob.glob(f"{R}/sortie/EP*.mp4") if "sans_sous" not in f][0]
+mp4 = [f for f in glob.glob(f"{R}/sortie/*.mp4") if "sans_sous" not in f][0]
 dur = float(open(mp4 + ".fin").read()) if os.path.exists(mp4 + ".fin") else duree(mp4)   # déjà fait : on repart de la partie d'origine
 if os.path.exists(mp4 + ".long"): dur -= float(open(mp4 + ".long").read()); os.remove(mp4 + ".long")   # ancien essai (image figée) : on le retire
 coupe = dur - 0.45                                                                                    # on retire le fondu au noir final
