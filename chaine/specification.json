@@ -1,0 +1,15 @@
+{"ep": "chaine", "nom": "Bienvenue_sur_la_chaine", "badge": "LA CHAÎNE", "titre": "NE SUIS PAS LES MOUTONS", "sous": "« Bienvenue sur la chaîne »", "accroche": "C’est quoi, cette chaîne ?", "apres": "aucun", "noms": {},
+ "lignes": [
+  ["s01a", 1, "mouton", 0.5, "Dis, renard… c’est quoi, cette chaîne ?"],
+  ["s01b", 1, "renard", 0.5, "Ici, on regarde comment on nous fait croire des choses… sans qu’on s’en rende compte."],
+  ["s02a", 2, "mouton", 0.5, "Comme quoi ?"],
+  ["s02b", 2, "renard", 0.5, "Le bacon du petit-déjeuner. Le diamant éternel. Le jus d’orange du matin."],
+  ["s03a", 3, "renard", 0.5, "Derrière beaucoup d’habitudes, il y a une pub, une rumeur, ou une astuce bien cachée."],
+  ["s03b", 3, "mouton", 0.5, "Et moi, je suivais les autres moutons sans rien voir !"],
+  ["s04a", 4, "narr", 0.4, "Dans chaque épisode, une vraie histoire d’autrefois, en noir et blanc, à la télé."],
+  ["s04b", 4, "narr", 0.4, "Puis une question simple, pour ne plus te faire avoir."],
+  ["s05a", 5, "mouton", 0.5, "Et c’est pour qui ?"],
+  ["s05b", 5, "renard", 0.5, "Pour tous ceux qui veulent comprendre. Même les moutons."],
+  ["s06a", 6, "narr", 0.4, "Abonne-toi, et regarde les épisodes dans l’ordre."],
+  ["s06b", 6, "narr", 0.4, "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"]
+ ]}

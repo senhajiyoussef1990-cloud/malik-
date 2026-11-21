@@ -1,0 +1,98 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Dis, renard… c’est quoi, cette chaîne ?"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Ici, on regarde comment on nous fait croire des choses… sans qu’on s’en rende compte."
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Comme quoi ?"
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Le bacon du petit-déjeuner. Le diamant éternel. Le jus d’orange du matin."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Derrière beaucoup d’habitudes, il y a une pub, une rumeur, ou une astuce bien cachée."
+ },
+ {
+  "id": "s03b",
+  "plan": 6,
+  "scene": 3,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Et moi, je suivais les autres moutons sans rien voir !"
+ },
+ {
+  "id": "s04a",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Dans chaque épisode, une vraie histoire d’autrefois, en noir et blanc, à la télé."
+ },
+ {
+  "id": "s04b",
+  "plan": 8,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Puis une question simple, pour ne plus te faire avoir."
+ },
+ {
+  "id": "s05a",
+  "plan": 9,
+  "scene": 5,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Et c’est pour qui ?"
+ },
+ {
+  "id": "s05b",
+  "plan": 10,
+  "scene": 5,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Pour tous ceux qui veulent comprendre. Même les moutons."
+ },
+ {
+  "id": "s06a",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Abonne-toi, et regarde les épisodes dans l’ordre."
+ },
+ {
+  "id": "s06b",
+  "plan": 12,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+ }
+]
