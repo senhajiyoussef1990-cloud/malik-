@@ -22,7 +22,7 @@ de l’histoire (bacon, jus d’orange, diamant, Guerre des mondes…).
 - Les scénarios sont dans `episodes_pdf/` (10 PDF + leur texte extrait `.txt`) : 30 plans, une réplique par plan.
   **Le texte des répliques doit être respecté mot pour mot.**
 - Phrase de fin commune (voix du narrateur, sur le logo dans la télé) :
-  « Arrête de suivre le troupeau. Suis le renard… et pense par toi-même ! »
+  « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 
 ### Épisodes
 

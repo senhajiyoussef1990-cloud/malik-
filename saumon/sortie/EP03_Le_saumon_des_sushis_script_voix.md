@@ -79,7 +79,7 @@ Durée finale : 1 min 56.1 s
 
 ## Scène 16 — SCÈNE 16  (01:50 – 01:56)
 
-- `01:50,89` **NARRATEUR** : « Arrête de suivre le troupeau. Suis le renard… et pense par toi-même ! »
+- `01:50,89` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 
 **ÉCRAN FINAL** : NE SUIS PAS LES MOUTONS
 

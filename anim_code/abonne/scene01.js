@@ -1,5 +1,5 @@
 // ÉCRAN DE FIN — appel à l'abonnement (6 s). Dans le salon, le poste affiche le logo ; un gros bouton « S'ABONNER » surgit,
-// le mouton appuie dessus : il devient « ABONNÉ ✓ », la cloche sonne, le renard fait un clin d'œil. « Abonne-toi pour ne plus suivre le troupeau ! »
+// le mouton appuie dessus : il devient « ABONNÉ ✓ », la cloche sonne, le renard fait un clin d'œil. « Abonne-toi pour ne plus suivre les moutons ! »
 const DUREE = 6.0;
 function logoTV(cc, t) { cc.fillStyle = GRIS.noir; cc.fillRect(0, 0, W, H); F(cc, ell(540, 405, 380, 290), GRIS.blanc, 10); F(cc, ell(540, 405, 352, 262), GRIS.noir, 4); cc.save(); cc.textAlign = 'center'; cc.fillStyle = GRIS.blanc; cc.font = 'bold 74px Georgia'; cc.fillText('NE SUIS PAS', 540, 384); cc.fillText('LES MOUTONS', 540, 470); cc.restore(); }
 function bouton(c, x, y, s, abonne, press) { c.save(); c.translate(x, y); c.scale(s * (press ? .93 : 1), s * (press ? .93 : 1));
@@ -18,7 +18,7 @@ function frame(c, t) {
   const u = ease(seg(t, .2, .9)), ly = lerp(405, 190, u), ls = lerp(1, .58, u);
   c.save(); c.translate(540, ly); c.scale(ls, ls); F(c, ell(0, 0, 380, 290), GRIS.blanc, 10); F(c, ell(0, 0, 352, 262), GRIS.noir, 4); c.textAlign = 'center'; c.fillStyle = GRIS.blanc; c.font = 'bold 74px Georgia'; c.fillText('NE SUIS PAS', 0, -21); c.fillText('LES MOUTONS', 0, 65); c.font = 'italic 30px Georgia'; c.fillText('pense par toi-même', 0, 155); for (const sd of [-1, 1]) etoile(c, sd * 300, -105, 22); c.restore();
   // le texte d'appel
-  const tx = ease(seg(t, .8, 1.3)); c.save(); c.globalAlpha = tx; c.textAlign = 'center'; c.font = 'bold 46px Georgia'; c.lineWidth = 8; c.strokeStyle = '#000'; c.fillStyle = '#ffe14d'; c.strokeText('Abonne-toi pour ne plus suivre le troupeau !', 540, 420); c.fillText('Abonne-toi pour ne plus suivre le troupeau !', 540, 420); c.restore();
+  const tx = ease(seg(t, .8, 1.3)); c.save(); c.globalAlpha = tx; c.textAlign = 'center'; c.font = 'bold 46px Georgia'; c.lineWidth = 8; c.strokeStyle = '#000'; c.fillStyle = '#ffe14d'; c.strokeText('Abonne-toi pour ne plus suivre les moutons !', 540, 420); c.fillText('Abonne-toi pour ne plus suivre les moutons !', 540, 420); c.restore();
   // le bouton surgit, une patte de renard vient appuyer dessus
   const clic = 2.2, ab = t > clic + .05;
   const bs = t < 1.0 ? 0 : Math.min(1.08, ease(seg(t, 1.0, 1.4)) * 1.08) - Math.max(0, seg(t, 1.4, 1.55)) * .08;

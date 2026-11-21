@@ -58,9 +58,9 @@ DESCRIPTION :
 {P['yt_desc']}
 
 {P['morale']}
-Arrête de suivre le troupeau. Suis le renard… et pense par toi-même !
+Arrête de suivre les moutons. Suis le renard… et pense par toi-même !
 
-🔔 Abonne-toi pour ne pas suivre le troupeau.
+🔔 Abonne-toi pour ne pas suivre les moutons.
 
 {P['tags_yt']}
 
