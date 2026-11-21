@@ -1,0 +1,384 @@
+1
+00:00:00,300 --> 00:00:01,679
+Regarde ce grille-pain :
+
+2
+00:00:01,700 --> 00:00:02,179
+neuf euros
+
+3
+00:00:02,199 --> 00:00:03,559
+quatre-vingt-dix-neuf. Pas
+
+4
+00:00:03,579 --> 00:00:04,669
+même dix euros !
+
+5
+00:00:05,031 --> 00:00:06,271
+Il manque un centime.
+
+6
+00:00:06,291 --> 00:00:06,961
+Un seul.
+
+7
+00:00:07,943 --> 00:00:08,763
+Oui, mais ça fait
+
+8
+00:00:08,783 --> 00:00:10,043
+neuf euros, pas dix.
+
+9
+00:00:10,063 --> 00:00:11,413
+C’est moins cher, non ?
+
+10
+00:00:11,760 --> 00:00:12,340
+C’est ce que ton
+
+11
+00:00:12,360 --> 00:00:13,120
+œil croit.
+
+12
+00:00:13,140 --> 00:00:14,130
+Allons voir pourquoi.
+
+13
+00:00:15,042 --> 00:00:16,162
+Entrons dans l’épicerie d’un
+
+14
+00:00:16,182 --> 00:00:18,009
+petit village d’autrefois.
+
+15
+00:00:18,359 --> 00:00:19,759
+L’épicier affiche des prix
+
+16
+00:00:19,779 --> 00:00:21,279
+ronds : un franc,
+
+17
+00:00:21,299 --> 00:00:23,109
+deux francs, dix francs.
+
+18
+00:00:24,035 --> 00:00:25,395
+Un jour, il remarque
+
+19
+00:00:25,415 --> 00:00:26,255
+une chose curieuse chez
+
+20
+00:00:26,275 --> 00:00:26,965
+son concurrent.
+
+21
+00:00:28,305 --> 00:00:28,645
+Il écrit
+
+22
+00:00:28,665 --> 00:00:28,645
+quatre-vingt-dix-neuf
+
+23
+00:00:28,665 --> 00:00:30,185
+centimes au lieu d’un
+
+24
+00:00:30,205 --> 00:00:31,285
+franc… et il vend
+
+25
+00:00:31,305 --> 00:00:32,447
+plus que moi !
+
+26
+00:00:32,597 --> 00:00:33,537
+Notre œil lit les
+
+27
+00:00:33,557 --> 00:00:34,117
+prix de gauche à
+
+28
+00:00:34,137 --> 00:00:35,257
+droite, et retient surtout
+
+29
+00:00:35,277 --> 00:00:36,327
+le premier chiffre.
+
+30
+00:00:37,882 --> 00:00:38,422
+Quatre-vingt-dix-neuf
+
+31
+00:00:38,442 --> 00:00:39,542
+centimes commence par un
+
+32
+00:00:39,562 --> 00:00:40,702
+neuf. Un franc commence
+
+33
+00:00:40,722 --> 00:00:41,602
+par un un.
+
+34
+00:00:41,782 --> 00:00:42,742
+Le cerveau range le
+
+35
+00:00:42,762 --> 00:00:43,462
+premier prix dans les
+
+36
+00:00:43,482 --> 00:00:44,222
+petits prix.
+
+37
+00:00:44,242 --> 00:00:45,332
+Sans même compter.
+
+38
+00:00:46,831 --> 00:00:47,231
+Seulement
+
+39
+00:00:47,251 --> 00:00:47,931
+quatre-vingt-dix-neuf
+
+40
+00:00:47,951 --> 00:00:49,031
+centimes ?
+
+41
+00:00:49,051 --> 00:00:50,529
+Alors j’en prends deux !
+
+42
+00:00:50,679 --> 00:00:51,959
+Pour un centime, elle
+
+43
+00:00:51,979 --> 00:00:53,228
+en achète deux ?
+
+44
+00:00:53,978 --> 00:00:54,538
+Elle n’a pas vu
+
+45
+00:00:54,558 --> 00:00:56,238
+un centime de différence.
+
+46
+00:00:56,258 --> 00:00:56,718
+Elle a vu un
+
+47
+00:00:56,738 --> 00:00:57,508
+autre prix.
+
+48
+00:00:58,083 --> 00:00:59,283
+L’épicier change toutes ses
+
+49
+00:00:59,303 --> 00:01:00,963
+étiquettes. Partout, des
+
+50
+00:01:00,983 --> 00:01:01,973
+neuf apparaissent.
+
+51
+00:01:03,441 --> 00:01:03,421
+Neuf francs
+
+52
+00:01:03,441 --> 00:01:03,421
+quatre-vingt-dix-neuf.
+
+53
+00:01:03,441 --> 00:01:03,421
+Quatre-vingt-dix-neuf
+
+54
+00:01:03,441 --> 00:01:03,421
+francs. Neuf cent
+
+55
+00:01:03,441 --> 00:01:03,421
+quatre-vingt-dix-neuf
+
+56
+00:01:03,441 --> 00:01:07,897
+francs.
+
+57
+00:01:08,046 --> 00:01:08,966
+Un centime de moins,
+
+58
+00:01:08,986 --> 00:01:10,126
+et ils ont l’impression
+
+59
+00:01:10,146 --> 00:01:12,136
+de faire une affaire !
+
+60
+00:01:12,886 --> 00:01:14,346
+Aujourd’hui encore, presque
+
+61
+00:01:14,366 --> 00:01:15,746
+tous les magasins utilisent
+
+62
+00:01:15,766 --> 00:01:16,516
+cette astuce.
+
+63
+00:01:17,126 --> 00:01:17,826
+Elle ne coûte rien
+
+64
+00:01:17,846 --> 00:01:19,026
+au vendeur, et elle
+
+65
+00:01:19,046 --> 00:01:19,926
+trompe notre œil des
+
+66
+00:01:19,946 --> 00:01:20,756
+milliers de fois.
+
+67
+00:01:22,228 --> 00:01:22,388
+Donc neuf
+
+68
+00:01:22,408 --> 00:01:24,068
+quatre-vingt-dix-neuf, c’est
+
+69
+00:01:24,088 --> 00:01:25,299
+vraiment dix euros ?
+
+70
+00:01:25,549 --> 00:01:26,549
+À un centime près,
+
+71
+00:01:26,569 --> 00:01:27,809
+oui. Le reste, c’est
+
+72
+00:01:27,829 --> 00:01:28,639
+de l’illusion.
+
+73
+00:01:29,810 --> 00:01:30,770
+Les chercheurs appellent ça
+
+74
+00:01:30,790 --> 00:01:32,070
+l’effet du chiffre de
+
+75
+00:01:32,090 --> 00:01:32,540
+gauche.
+
+76
+00:01:33,344 --> 00:01:33,984
+Il marche même quand
+
+77
+00:01:34,004 --> 00:01:34,664
+on le connaît.
+
+78
+00:01:34,684 --> 00:01:35,364
+Il faut juste prendre
+
+79
+00:01:35,384 --> 00:01:36,334
+le temps d’arrondir.
+
+80
+00:01:37,866 --> 00:01:38,886
+Un centime pour tromper
+
+81
+00:01:38,906 --> 00:01:39,556
+ton œil.
+
+82
+00:01:40,869 --> 00:01:41,799
+Retour au salon.
+
+83
+00:01:42,940 --> 00:01:44,360
+Alors je dois arrondir
+
+84
+00:01:44,380 --> 00:01:44,900
+tous les prix dans
+
+85
+00:01:44,920 --> 00:01:45,590
+ma tête ?
+
+86
+00:01:46,000 --> 00:01:46,560
+Au moins pour les
+
+87
+00:01:46,580 --> 00:01:47,600
+grosses dépenses.
+
+88
+00:01:47,620 --> 00:01:49,230
+Arrondis toujours au-dessus.
+
+89
+00:01:49,765 --> 00:01:51,245
+Combien ça coûte vraiment,
+
+90
+00:01:51,265 --> 00:01:52,418
+si j’arrondis ?
+
+91
+00:01:52,668 --> 00:01:54,568
+Voilà. Le premier chiffre
+
+92
+00:01:54,588 --> 00:01:55,428
+n’est pas le seul
+
+93
+00:01:55,448 --> 00:01:56,178
+qui compte.
+
+94
+00:01:57,473 --> 00:01:58,453
+Arrête de suivre le
+
+95
+00:01:58,473 --> 00:01:59,753
+troupeau. Suis le renard…
+
+96
+00:01:59,773 --> 00:02:01,981
+et pense par toi-même !
+
