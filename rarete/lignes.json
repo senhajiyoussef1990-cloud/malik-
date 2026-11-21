@@ -61,7 +61,8 @@
   "scene": 5,
   "who": "chapelier",
   "pause": 0.4,
-  "text": "Demain, je n’en montre que trois. Et j’écris : derniers exemplaires !"
+  "text": "Demain, je n’en montre que trois. Et j’écris : derniers exemplaires !",
+  "dit": "Demain, je n’en montre que trois. Et j’écris : derniers exemplaires !"
  },
  {
   "id": "s05b",
@@ -189,7 +190,8 @@
   "scene": 13,
   "who": "renard",
   "pause": 0.5,
-  "text": "Rare pour qui ? Pour ton portefeuille."
+  "text": "Rare pour qui ? Pour ton portefeuille.",
+  "dit": "Rare… pour qui ? Pour ton portefeuille."
  },
  {
   "id": "s14a",
