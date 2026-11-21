@@ -1,0 +1,368 @@
+1
+00:00:00,300 --> 00:00:01,900
+Mon entreprise annonce un
+
+2
+00:00:01,920 --> 00:00:02,859
+plan de sauvegarde de
+
+3
+00:00:02,879 --> 00:00:04,139
+l’emploi. C’est une bonne
+
+4
+00:00:04,160 --> 00:00:04,929
+nouvelle !
+
+5
+00:00:05,293 --> 00:00:06,313
+Une bonne nouvelle ?
+
+6
+00:00:06,333 --> 00:00:06,793
+Tu sais ce que
+
+7
+00:00:06,813 --> 00:00:07,533
+ça veut dire, en
+
+8
+00:00:07,553 --> 00:00:08,143
+vrai ?
+
+9
+00:00:08,909 --> 00:00:09,689
+Qu’ils vont sauver des
+
+10
+00:00:09,709 --> 00:00:10,669
+emplois, non ?
+
+11
+00:00:10,689 --> 00:00:11,954
+C’est écrit dessus.
+
+12
+00:00:12,204 --> 00:00:13,844
+C’est écrit dessus, oui.
+
+13
+00:00:13,864 --> 00:00:14,904
+Allons voir comment on
+
+14
+00:00:14,924 --> 00:00:15,774
+choisit les mots.
+
+15
+00:00:16,635 --> 00:00:17,515
+Entrons dans un village
+
+16
+00:00:17,535 --> 00:00:19,515
+d’autrefois, sur la place,
+
+17
+00:00:19,535 --> 00:00:20,485
+un jour de marché.
+
+18
+00:00:21,624 --> 00:00:23,084
+Chaque semaine, le crieur
+
+19
+00:00:23,104 --> 00:00:24,164
+annonce les nouvelles du
+
+20
+00:00:24,184 --> 00:00:24,814
+seigneur.
+
+21
+00:00:25,707 --> 00:00:26,867
+Mais cette semaine, les
+
+22
+00:00:26,887 --> 00:00:27,997
+nouvelles sont mauvaises.
+
+23
+00:00:29,319 --> 00:00:30,099
+Oyez !
+
+24
+00:00:30,119 --> 00:00:30,879
+Le seigneur vous offre
+
+25
+00:00:30,899 --> 00:00:31,319
+une contribution
+
+26
+00:00:31,339 --> 00:00:33,331
+exceptionnelle de solidarité !
+
+27
+00:00:33,481 --> 00:00:34,801
+En réalité, c’est un
+
+28
+00:00:34,821 --> 00:00:35,661
+nouvel impôt.
+
+29
+00:00:35,681 --> 00:00:36,441
+Mais personne n’entend le
+
+30
+00:00:36,461 --> 00:00:37,171
+mot impôt.
+
+31
+00:00:38,478 --> 00:00:39,398
+Les renvois deviennent des
+
+32
+00:00:39,418 --> 00:00:40,758
+départs. Les hausses
+
+33
+00:00:40,778 --> 00:00:41,988
+deviennent des ajustements.
+
+34
+00:00:42,875 --> 00:00:43,635
+Les mots doux rendent
+
+35
+00:00:43,655 --> 00:00:44,275
+les choses dures plus
+
+36
+00:00:44,295 --> 00:00:45,185
+faciles à avaler.
+
+37
+00:00:46,565 --> 00:00:47,445
+Une contribution de
+
+38
+00:00:47,465 --> 00:00:48,645
+solidarité… C’est plutôt
+
+39
+00:00:48,665 --> 00:00:49,695
+gentil, non ?
+
+40
+00:00:49,969 --> 00:00:50,769
+Mais il va payer
+
+41
+00:00:50,789 --> 00:00:52,387
+plus d’impôts !
+
+42
+00:00:53,137 --> 00:00:54,157
+Oui. Le mot a
+
+43
+00:00:54,177 --> 00:00:55,677
+changé. Le prix, lui,
+
+44
+00:00:55,697 --> 00:00:56,127
+non.
+
+45
+00:00:56,668 --> 00:00:57,508
+On appelle ça un
+
+46
+00:00:57,528 --> 00:00:58,748
+euphémisme : un mot
+
+47
+00:00:58,768 --> 00:00:59,768
+adouci pour une réalité
+
+48
+00:00:59,788 --> 00:01:00,458
+pénible.
+
+49
+00:01:02,078 --> 00:01:02,718
+Parfois c’est de la
+
+50
+00:01:02,738 --> 00:01:03,938
+politesse. Parfois c’est
+
+51
+00:01:03,958 --> 00:01:04,928
+pour éviter la colère.
+
+52
+00:01:05,769 --> 00:01:06,569
+Je n’annonce pas de
+
+53
+00:01:06,589 --> 00:01:07,549
+mauvaises nouvelles.
+
+54
+00:01:07,569 --> 00:01:08,879
+Je les emballe !
+
+55
+00:01:09,878 --> 00:01:11,898
+Aujourd’hui, entreprises,
+
+56
+00:01:11,918 --> 00:01:12,538
+gouvernements et
+
+57
+00:01:12,558 --> 00:01:13,918
+publicitaires choisissent
+
+58
+00:01:13,938 --> 00:01:15,208
+leurs mots avec soin.
+
+59
+00:01:16,338 --> 00:01:17,278
+Plan de sauvegarde de
+
+60
+00:01:17,298 --> 00:01:18,158
+l’emploi peut vouloir dire
+
+61
+00:01:18,178 --> 00:01:20,271
+licenciements.
+
+62
+00:01:21,022 --> 00:01:22,462
+Donc mon entreprise va
+
+63
+00:01:22,482 --> 00:01:23,806
+licencier des gens ?
+
+64
+00:01:24,055 --> 00:01:25,475
+Probablement. Le mot «
+
+65
+00:01:25,495 --> 00:01:27,175
+sauvegarde » parle de
+
+66
+00:01:27,195 --> 00:01:28,105
+ceux qui restent.
+
+67
+00:01:29,727 --> 00:01:31,167
+Pour voir la réalité,
+
+68
+00:01:31,187 --> 00:01:32,027
+il suffit souvent de
+
+69
+00:01:32,047 --> 00:01:33,167
+demander : concrètement,
+
+70
+00:01:33,187 --> 00:01:34,993
+qu’est-ce qui change ?
+
+71
+00:01:35,142 --> 00:01:35,762
+Les mots sont des
+
+72
+00:01:35,782 --> 00:01:36,922
+fenêtres. Certains sont en
+
+73
+00:01:36,942 --> 00:01:39,023
+verre dépoli.
+
+74
+00:01:39,773 --> 00:01:40,933
+Change le mot, et
+
+75
+00:01:40,953 --> 00:01:41,753
+la chose paraît plus
+
+76
+00:01:41,773 --> 00:01:42,383
+douce.
+
+77
+00:01:43,638 --> 00:01:44,568
+Retour au salon.
+
+78
+00:01:45,709 --> 00:01:46,429
+Je vais traduire les
+
+79
+00:01:46,449 --> 00:01:47,009
+mots doux en mots
+
+80
+00:01:47,029 --> 00:01:47,529
+simples.
+
+81
+00:01:47,828 --> 00:01:48,728
+Bon réflexe.
+
+82
+00:01:48,748 --> 00:01:49,808
+Le mot simple dit
+
+83
+00:01:49,828 --> 00:01:50,668
+souvent ce que l’autre
+
+84
+00:01:50,688 --> 00:01:51,258
+cache.
+
+85
+00:01:51,855 --> 00:01:52,855
+Que se passe-t-il vraiment,
+
+86
+00:01:52,875 --> 00:01:54,725
+derrière ce joli mot ?
+
+87
+00:01:55,124 --> 00:01:56,364
+Voilà. Un mot doux
+
+88
+00:01:56,384 --> 00:01:57,424
+peut cacher une réalité
+
+89
+00:01:57,444 --> 00:01:58,194
+dure.
+
+90
+00:01:59,511 --> 00:02:00,511
+Arrête de suivre les
+
+91
+00:02:00,531 --> 00:02:01,531
+moutons. Suis le renard…
+
+92
+00:02:01,551 --> 00:02:03,641
+et pense par toi-même !
+
