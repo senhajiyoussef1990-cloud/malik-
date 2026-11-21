@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE JUS D’ORANGE DU MATIN
 *« Buvez une orange ! »*
 
-Durée finale : 1 min 57.9 s
+Durée finale : 1 min 58.9 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 
@@ -77,7 +77,7 @@ Durée finale : 1 min 57.9 s
 - `01:46,00` **MOUTON** : « D’où vient l’habitude, et qui en profite ? »
 - `01:49,06` **RENARD** : « Voilà. Une tradition, ça se questionne aussi. »
 
-## Scène 16 — SCÈNE 16  (01:52 – 01:57)
+## Scène 16 — SCÈNE 16  (01:52 – 01:58)
 
 - `01:52,69` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 

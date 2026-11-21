@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE MYTHE DU BACON
 *« Les médecins recommandent… »*
 
-Durée finale : 1 min 50.8 s
+Durée finale : 1 min 51.7 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 
@@ -77,7 +77,7 @@ Durée finale : 1 min 50.8 s
 - `01:38,32` **MOUTON** : « Qui parle, qui paie, et qu’est-ce qu’on me vend ? »
 - `01:41,28` **RENARD** : « Exactement. Une blouse ne remplace pas une preuve. »
 
-## Scène 16 — SCÈNE 16  (01:45 – 01:50)
+## Scène 16 — SCÈNE 16  (01:45 – 01:51)
 
 - `01:45,54` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 
