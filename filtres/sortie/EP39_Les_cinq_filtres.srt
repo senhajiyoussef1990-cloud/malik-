@@ -1,0 +1,388 @@
+1
+00:00:00,300 --> 00:00:01,300
+Ce journal n’a jamais
+
+2
+00:00:01,320 --> 00:00:02,080
+dit de mal de
+
+3
+00:00:02,100 --> 00:00:02,960
+cette entreprise.
+
+4
+00:00:02,980 --> 00:00:03,659
+Elle doit être
+
+5
+00:00:03,679 --> 00:00:05,043
+irréprochable.
+
+6
+00:00:05,293 --> 00:00:06,013
+Ou alors…
+
+7
+00:00:06,033 --> 00:00:06,673
+le journal ne peut
+
+8
+00:00:06,693 --> 00:00:07,233
+pas en dire de
+
+9
+00:00:07,253 --> 00:00:08,113
+mal. Tu sais à
+
+10
+00:00:08,133 --> 00:00:09,357
+qui il appartient ?
+
+11
+00:00:10,006 --> 00:00:11,366
+Non. Un journal, c’est
+
+12
+00:00:11,386 --> 00:00:12,616
+indépendant, non ?
+
+13
+00:00:12,962 --> 00:00:13,742
+Pas toujours.
+
+14
+00:00:13,762 --> 00:00:14,762
+Allons voir les filtres
+
+15
+00:00:14,782 --> 00:00:15,332
+de l’information.
+
+16
+00:00:16,191 --> 00:00:17,771
+Direction l’Amérique, en
+
+17
+00:00:17,791 --> 00:00:17,771
+mille neuf cent
+
+18
+00:00:17,791 --> 00:00:19,602
+quatre-vingt-huit.
+
+19
+00:00:19,952 --> 00:00:20,692
+Deux chercheurs, Edward
+
+20
+00:00:20,712 --> 00:00:22,792
+Herman et Noam Chomsky,
+
+21
+00:00:22,812 --> 00:00:23,832
+décrivent cinq filtres que
+
+22
+00:00:23,852 --> 00:00:24,742
+l’information traverse.
+
+23
+00:00:25,446 --> 00:00:26,846
+Pour les comprendre, entrons
+
+24
+00:00:26,866 --> 00:00:27,566
+dans le journal d’un
+
+25
+00:00:27,586 --> 00:00:28,956
+petit village d’autrefois.
+
+26
+00:00:30,417 --> 00:00:31,357
+Ce journal m’appartient.
+
+27
+00:00:31,377 --> 00:00:32,477
+Et je suis aussi
+
+28
+00:00:32,497 --> 00:00:33,257
+le plus grand marchand
+
+29
+00:00:33,277 --> 00:00:33,807
+du village.
+
+30
+00:00:34,213 --> 00:00:35,053
+Premier filtre : le
+
+31
+00:00:35,073 --> 00:00:36,813
+propriétaire. On critique
+
+32
+00:00:36,833 --> 00:00:37,923
+rarement son patron.
+
+33
+00:00:39,079 --> 00:00:40,239
+Deuxième filtre : les
+
+34
+00:00:40,259 --> 00:00:41,839
+annonceurs. Le journal vit
+
+35
+00:00:41,859 --> 00:00:43,456
+de leurs réclames.
+
+36
+00:00:43,606 --> 00:00:44,566
+Troisième filtre : les
+
+37
+00:00:44,586 --> 00:00:46,006
+sources. On cite surtout
+
+38
+00:00:46,026 --> 00:00:46,306
+le maire et les
+
+39
+00:00:46,326 --> 00:00:47,827
+notables.
+
+40
+00:00:48,577 --> 00:00:49,297
+J’ai écrit un article
+
+41
+00:00:49,317 --> 00:00:50,517
+sur le marchand…
+
+42
+00:00:50,537 --> 00:00:51,317
+Le patron l’a mis
+
+43
+00:00:51,337 --> 00:00:52,067
+à la poubelle.
+
+44
+00:00:52,555 --> 00:00:53,195
+Il n’a même pas
+
+45
+00:00:53,215 --> 00:00:54,425
+le droit d’en parler !
+
+46
+00:00:55,175 --> 00:00:56,575
+Personne ne l’interdit.
+
+47
+00:00:56,595 --> 00:00:57,135
+Mais tout le monde
+
+48
+00:00:57,155 --> 00:00:57,595
+sait que ça ne
+
+49
+00:00:57,615 --> 00:00:58,245
+passera pas.
+
+50
+00:00:58,836 --> 00:00:59,836
+Quatrième filtre : les
+
+51
+00:00:59,856 --> 00:01:01,336
+pressions. Les lettres de
+
+52
+00:01:01,356 --> 00:01:02,836
+protestation, les menaces de
+
+53
+00:01:02,856 --> 00:01:03,506
+procès.
+
+54
+00:01:05,213 --> 00:01:06,733
+Cinquième filtre : l’ennemi
+
+55
+00:01:06,753 --> 00:01:08,013
+désigné, qui permet de
+
+56
+00:01:08,033 --> 00:01:08,903
+tout justifier.
+
+57
+00:01:09,923 --> 00:01:11,063
+Je ne censure rien.
+
+58
+00:01:11,083 --> 00:01:12,423
+Je choisis simplement ce
+
+59
+00:01:12,443 --> 00:01:13,213
+qui m’arrange.
+
+60
+00:01:14,266 --> 00:01:15,026
+Ces filtres ne sont
+
+61
+00:01:15,046 --> 00:01:16,146
+pas un complot.
+
+62
+00:01:16,166 --> 00:01:17,426
+Ils agissent souvent sans
+
+63
+00:01:17,446 --> 00:01:18,676
+que personne ne décide.
+
+64
+00:01:19,107 --> 00:01:19,727
+Les idées de ces
+
+65
+00:01:19,747 --> 00:01:21,187
+chercheurs sont discutées.
+
+66
+00:01:21,207 --> 00:01:21,847
+Mais elles posent de
+
+67
+00:01:21,867 --> 00:01:22,677
+bonnes questions.
+
+68
+00:01:24,182 --> 00:01:25,122
+Donc une info peut
+
+69
+00:01:25,142 --> 00:01:25,902
+être vraie…
+
+70
+00:01:25,922 --> 00:01:27,149
+mais incomplète ?
+
+71
+00:01:27,399 --> 00:01:28,459
+Oui. Ce qu’on ne
+
+72
+00:01:28,479 --> 00:01:29,339
+dit pas compte autant
+
+73
+00:01:29,359 --> 00:01:30,569
+que ce qu’on dit.
+
+74
+00:01:31,738 --> 00:01:32,578
+Il existe aussi des
+
+75
+00:01:32,598 --> 00:01:34,018
+médias indépendants, et des
+
+76
+00:01:34,038 --> 00:01:35,288
+journalistes courageux.
+
+77
+00:01:36,187 --> 00:01:37,347
+Pour les reconnaître, il
+
+78
+00:01:37,367 --> 00:01:38,087
+faut savoir qui les
+
+79
+00:01:38,107 --> 00:01:38,637
+finance.
+
+80
+00:01:39,956 --> 00:01:40,896
+Demande-toi qui paie le
+
+81
+00:01:40,916 --> 00:01:41,366
+journal.
+
+82
+00:01:42,645 --> 00:01:43,575
+Retour au salon.
+
+83
+00:01:44,716 --> 00:01:45,456
+Je vais chercher à
+
+84
+00:01:45,476 --> 00:01:46,416
+qui appartiennent les médias
+
+85
+00:01:46,436 --> 00:01:47,066
+que je lis.
+
+86
+00:01:47,620 --> 00:01:48,420
+Et comparer plusieurs
+
+87
+00:01:48,440 --> 00:01:49,500
+sources sur le même
+
+88
+00:01:49,520 --> 00:01:50,090
+sujet.
+
+89
+00:01:50,627 --> 00:01:51,527
+Qui possède ce média,
+
+90
+00:01:51,547 --> 00:01:52,727
+et qui lui achète
+
+91
+00:01:52,747 --> 00:01:53,724
+des pubs ?
+
+92
+00:01:53,975 --> 00:01:55,295
+Voilà. Une info passe
+
+93
+00:01:55,315 --> 00:01:56,135
+par beaucoup de mains
+
+94
+00:01:56,155 --> 00:01:57,934
+avant d’arriver aux tiennes.
+
+95
+00:01:58,884 --> 00:01:59,884
+Arrête de suivre les
+
+96
+00:01:59,904 --> 00:02:00,904
+moutons. Suis le renard…
+
+97
+00:02:00,924 --> 00:02:03,014
+et pense par toi-même !
+
