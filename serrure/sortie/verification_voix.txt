@@ -1,0 +1,30 @@
+s01a 1.00 s01a_1932.wav | Ce pays lointain est dangereux. Je le sais, je le vois tout le temps aux infos.  ->  Ce pays lointain est dangereux. Je le sais, je le vois tout le temps aux infos.
+s01b 0.91 s01b_1932.wav | Tu y es déjà allé ?  ->  Tu y es déjà allé ? Aller ?
+s02a 1.00 s02a_1931.wav | Non… Mais j’ai une image très claire dans ma tête.  ->  Non, mais j'ai une image très claire dans ma tête.
+s02b 1.00 s02b_1932.wav | Une image dans ta tête. Allons voir qui l’y a mise.  ->  Une image dans ta tête. Allons voir qui l'y a mise.
+s03a 0.55 s03a_1932.wav | Direction l’Amérique, en mille neuf cent vingt-deux.  ->  Direction l'Amérique, en 1922.
+s04a 0.90 s04a_1931.wav | Un journaliste, Walter Lippmann, publie un livre sur l’opinion publique.  ->  Un journaliste, Walter Liebman,  publie un livre sur l'opinion publique.
+s04b 1.00 s04b_1931.wav | Il explique que nous ne connaissons pas le monde directement.  ->  Il explique que nous ne connaissons pas le monde directement.
+s05a 0.85 s05a_1931.wav | Le monde est trop grand. Nous le voyons à travers des images simplifiées.  ->  Le monde a trop grand. Nous me voyons à travers des images simplifiées.
+s05b 0.78 s05b_1931.wav | Ces images toutes faites, il les appelle des stéréotypes.  ->  Ces images toutes faites, ils les appellent des stéréotypes.
+s06a 1.00 s06a_1931.wav | Les journaux choisissent quoi montrer… et quoi laisser dans l’ombre.  ->  Les journaux choisissent quoi montrer et quoi laisser dans l'ombre.
+s06b 1.00 s06b_1931.wav | Comme si l’on regardait une pièce entière par le trou d’une serrure.  ->  comme si l'on regardait une pièce entière par le trou d'une serrure.
+s07a 1.00 s07a_1931.wav | Je lis le journal chaque matin. Je sais tout ce qui se passe dans le monde !  ->  Je lis le journal chaque matin. Je sais tout ce qui se passe dans le monde.
+s07b 1.00 s07b_1931.wav | Mais il ne voit qu’un tout petit bout !  ->  Mais il ne voit qu'un tout petit bout.
+s08a 1.00 s08a_1931.wav | Oui. Et il croit voir toute la pièce.  ->  Oui, et il croit voir toute la pièce.
+s08b 0.89 s08b_1931.wav | Lippmann parle même de fabriquer le consentement de l’opinion.  ->  Hipman parle même de fabriquer le consentement de l'opinion.
+s09a 1.00 s09a_1931.wav | Pour lui, les dirigeants peuvent façonner ce que pense le public.  ->  Pour lui, les dirigeants peuvent façonner ce que pense le public.
+s09b 1.00 s09b_1931.wav | Choisissez bien les images, et le public pensera ce que vous voulez.  ->  Choisissez bien les images, et le public pensera ce que vous voulez.
+s10a 1.00 s10a_1932.wav | Des décennies plus tard, cette expression deviendra le titre d’un livre critique.  ->  Des décennies plus tard, cette expression deviendra le titre d'un livre critique.
+s10b 1.00 s10b_1932.wav | Aujourd’hui, les écrans montrent des images en continu. Mais toujours choisies.  ->  Aujourd'hui, les écrans montrent des images en continu, mais toujours choisies.
+s11a 1.00 s11a_1931.wav | Donc mon image de ce pays vient surtout de ce qu’on m’a montré ?  ->  Donc, mon image de ce pays vient surtout de ce qu'on m'a montré ?
+s11b 1.00 s11b_1931.wav | Oui. Et souvent des mauvaises nouvelles, parce qu’elles attirent l’attention.  ->  Oui, et souvent des mauvaises nouvelles parce qu'elles attirent l'attention.
+s12a 0.92 s12a_1931.wav | Un pays, ce sont des millions de vies ordinaires qu’on ne montre jamais.  ->  À pays, ce sont des millions de vies ordinaires qu'on ne montre jamais.
+s12b 0.80 s12b_1932.wav | Varier ses sources, c’est agrandir le trou de la serrure.  ->  Varier ces sources, c'est agrandir le trou de la sévure.
+s13a 1.00 s13a_1931.wav | Tu ne vois du monde que ce qu’on te montre.  ->  Tu ne vois du monde que ce qu'on te montre.
+s14a 0.60 s14a_1932.wav | Retour au salon.  ->  Retour au salon.  Quand est GAN BISE 2 ?
+s15a 1.00 s15a_1931.wav | Je vais lire des gens qui vivent vraiment là-bas.  ->  Je vais lire des gens qui vivent vraiment là-bas !
+s15b 0.90 s15b_1931.wav | Excellente idée. Ils te montreront ce que la serrure cache.  ->  Excellent idée, ils te montreront ce que la serrure cache.
+s15c 1.00 s15c_1931.wav | Qui m’a montré cette image, et qu’est-ce qu’il a laissé de côté ?  ->  qui m'a montré cette image et qu'est-ce qu'il a laissé de côté ?
+s15d 1.00 s15d_1931.wav | Voilà. Le monde est plus grand que l’écran.  ->  Voilà, le monde est plus grand que l'écran.
+s16a 1.00 s16a_1931.wav | Arrête de suivre les moutons. Suis le renard… et pense par toi-même !  ->  Arrête de suivre les moutons. Suis le renard et pense par toi-même.

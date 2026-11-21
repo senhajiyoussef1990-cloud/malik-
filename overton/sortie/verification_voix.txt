@@ -1,0 +1,30 @@
+s01a 1.00 s01a_1931.wav | Il y a dix ans, cette idée choquait tout le monde. Aujourd’hui, ça paraît normal.  ->  Il y a dix ans, cette idée choquait tout le monde.  Aujourd'hui, ça paraît normal ?
+s01b 1.00 s01b_1931.wav | Tu as changé d’avis d’un coup, ou petit à petit ?  ->  tu as changé d'avis d'un coup, ou petit à petit ?
+s02a 1.00 s02a_1932.wav | Petit à petit… Je ne sais même plus quand.  ->  Petit à petit, je ne sais même plus quand.
+s02b 0.88 s02b_1931.wav | C’est tout le principe. Allons voir une fenêtre.  ->  C'était tout le principe. Allons voir une fenêtre.
+s03a 0.87 s03a_1931.wav | Entrons dans un village d’autrefois, où un impôt frappe les portes et les fenêtres.  ->  Entrons dans un bilal d'autrefois, où un impôt frappe les portes et les fenêtres.  Guifersu  Guifersu
+s04a 1.00 s04a_1932.wav | Un tel impôt a vraiment existé, en France comme ailleurs.  ->  Un tel impôt a vraiment existé en France comme ailleurs.
+s04b 0.83 s04b_1931.wav | Au début, il est minuscule. Un sou par fenêtre. Personne ne proteste.  ->  Au début, il est ninja. Un sous par fenêtre. Personne ne proteste.
+s05a 1.00 s05a_1931.wav | Un petit sou de plus, cette année. Rien de bien méchant, n’est-ce pas ?  ->  Un petit sou de plus cette année. Rien de bien méchant, n'est-ce pas ?
+s05b 0.88 s05b_1931.wav | L’année suivante, encore un sou. Puis un autre. Puis un autre.  ->  l'année suivante, encore un sou, puis un autre, puis un autre, puis un autre...
+s06a 1.00 s06a_1932.wav | Chaque hausse paraît petite comparée à la précédente.  ->  Chaque hausse paraît petite comparée à la précédente.
+s06b 0.89 s06b_1932.wav | Certains finissent par murer leurs fenêtres pour payer moins.  ->  Certains finissent par mieuxver leurs fenêtres pour payer moins.
+s07a 0.92 s07a_1931.wav | On vit dans le noir… Mais bon, ça s’est fait petit à petit.  ->  On vit dans le noir. Mais bon, ça c'est fait petit à petit.
+s07b 1.00 s07b_1931.wav | Mais si on leur avait tout demandé d’un coup, ils auraient refusé !  ->  Mais si on leur avait tout demandé d'un coup, ils auraient refusé.
+s08a 0.92 s08a_1931.wav | Exactement. Personne n’accepte un grand saut. Beaucoup acceptent une série de petits pas.  ->  Exactement. Personne n'accepte un grand saut. Beaucoup acceptent une célé de petits pas.
+s08b 0.79 s08b_1932.wav | Dans les années mille neuf cent quatre-vingt-dix, Joseph Overton décrit une fenêtre des idées acceptables.  ->  Dans les années 1990, Joseph Overton décrit une fenêtre des idées acceptables.
+s09a 0.92 s09a_1932.wav | Une idée passe d’impensable à radicale, puis acceptable, puis raisonnable, puis normale.  ->  Une idée passe d'impensable à radicale, puis acceptable, puis raisonnable, puis normale, puis normale.
+s09b 1.00 s09b_1931.wav | Ne demandez jamais tout. Demandez juste un peu plus que l’an dernier.  ->  Ne demandez jamais tout, demandez juste un peu plus que l'an dernier.
+s10a 1.00 s10a_1931.wav | Cette fenêtre peut s’ouvrir dans les deux sens : vers le mieux ou vers le pire.  ->  Cette fenêtre peut s'ouvrir dans les deux sens, vers le mieux ou vers le pire.
+s10b 0.71 s10b_1932.wav | Ce qui compte, c’est de remarquer quand elle bouge, et qui la pousse.  ->  Ce qui compte, c'est de remarquer quand elle bouge, et qu'il appousse, et qu'il appou...
+s11a 0.91 s11a_1932.wav | Donc on peut me faire accepter n’importe quoi, pas à pas ?  ->  Donc, on peut nous faire accepter n'importe quoi, pas à pas ?
+s11b 1.00 s11b_1931.wav | Beaucoup de choses, si tu ne regardes jamais d’où tu es parti.  ->  Beaucoup de choses, si tu ne regardes jamais d'où tu es parti.
+s12a 0.96 s12a_1931.wav | Pour voir le chemin, il faut parfois comparer avec dix ans plus tôt.  ->  Pour voir le chemin, il faut parfois comparer avec 10 ans plus tôt.
+s12b 1.00 s12b_1931.wav | Ce qui paraît normal aujourd’hui n’était peut-être pas normal hier.  ->  Ce qui paraît normal aujourd'hui n'était peut-être pas normal hier.
+s13a 1.00 s13a_1931.wav | Un pas à la fois, on peut te faire aller très loin.  ->  un pas à la fois, on peut te faire aller très loin.
+s14a 0.60 s14a_1932.wav | Retour au salon.  ->  Retour au salon.  Quand est GAN BISE 2 ?
+s15a 1.00 s15a_1931.wav | Je vais comparer ce que je pense avec ce que je pensais il y a dix ans.  ->  Je vais comparer ce que je pense avec ce que je pensais il y a dix ans.
+s15b 0.93 s15b_1931.wav | Et te demander si c’est toi qui as changé, ou si on t’a fait marcher.  ->  et te demander si c'est toi qui a changé ou si on t'a fait marcher.
+s15c 1.00 s15c_1931.wav | D’où suis-je parti, et qui m’a fait avancer ?  ->  d'où suis-je parti et qui m'a fait avancer ?
+s15d 1.00 s15d_1932.wav | Voilà. Regarde le chemin, pas seulement le dernier pas.  ->  Voilà, regarde le chemin, pas seulement le dernier pas.
+s16a 1.00 s16a_1931.wav | Arrête de suivre les moutons. Suis le renard… et pense par toi-même !  ->  Arrête de suivre les moutons. Suis le renard et pense par toi-même.
