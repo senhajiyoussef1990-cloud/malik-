@@ -43,7 +43,7 @@ jobs:
           git config user.name "github-actions[bot]"; git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
           git add "${{ matrix.ep }}/voix/"*.mp3 || true; cp "${{ matrix.ep }}/travail/choix_voix.txt" "${{ matrix.ep }}/sortie/verification_voix.txt" || true; git add -f "${{ matrix.ep }}/sortie/verification_voix.txt" || true
           git commit -m "Voix de l'épisode ${{ matrix.ep }} (GitHub Actions)" || echo rien
-          for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep 10; done
+          for i in 1 2 3 4 5 6 7 8 9 10; do git pull --rebase --no-edit && git push && break; sleep $((i * 15)); done; git log origin/HEAD -1 >/dev/null
   video:
     needs: [liste, voix]
     strategy: { fail-fast: false, matrix: { ep: "${{ fromJson(needs.liste.outputs.episodes) }}" } }
@@ -68,7 +68,7 @@ jobs:
           N=$(jq -r .nom "lancer/${{ matrix.ep }}.json"); mkdir -p livraisons; cp "${{ matrix.ep }}/sortie/$N.zip" livraisons/
           git config user.name "github-actions[bot]"; git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
           git add -f "livraisons/$N.zip" && git commit -m "Livraison $N (GitHub Actions)"
-          for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep 10; done
+          for i in 1 2 3 4 5 6 7 8 9 10; do git pull --rebase --no-edit && git push && break; sleep $((i * 15)); done; git log origin/HEAD -1 >/dev/null
       - uses: actions/upload-artifact@v4
         if: always()
         with:
