@@ -1,0 +1,332 @@
+1
+00:00:00,300 --> 00:00:01,459
+Encore une ampoule grillée
+
+2
+00:00:01,480 --> 00:00:02,140
+! Elles ne durent
+
+3
+00:00:02,160 --> 00:00:02,629
+jamais.
+
+4
+00:00:03,177 --> 00:00:03,597
+Il y en a
+
+5
+00:00:03,617 --> 00:00:04,397
+une qui brille depuis
+
+6
+00:00:04,417 --> 00:00:05,457
+plus de cent ans,
+
+7
+00:00:05,477 --> 00:00:06,007
+tu sais.
+
+8
+00:00:06,976 --> 00:00:07,856
+Cent ans ?
+
+9
+00:00:07,876 --> 00:00:09,096
+Alors pourquoi les miennes
+
+10
+00:00:09,116 --> 00:00:10,006
+meurent si vite ?
+
+11
+00:00:10,376 --> 00:00:11,096
+Parce que quelqu’un l’a
+
+12
+00:00:11,116 --> 00:00:12,506
+décidé. Allons voir.
+
+13
+00:00:13,344 --> 00:00:14,544
+Direction Genève, en mille
+
+14
+00:00:14,564 --> 00:00:16,285
+neuf cent vingt-quatre.
+
+15
+00:00:16,635 --> 00:00:17,515
+Les ampoules de l’époque
+
+16
+00:00:17,535 --> 00:00:18,155
+peuvent durer deux mille
+
+17
+00:00:18,175 --> 00:00:19,685
+heures, parfois bien plus.
+
+18
+00:00:20,383 --> 00:00:21,183
+Mais une ampoule qui
+
+19
+00:00:21,203 --> 00:00:22,363
+dure, c’est une ampoule
+
+20
+00:00:22,383 --> 00:00:23,273
+qu’on ne rachète pas.
+
+21
+00:00:24,574 --> 00:00:26,454
+Messieurs, nos ampoules
+
+22
+00:00:26,474 --> 00:00:27,334
+durent beaucoup trop
+
+23
+00:00:27,354 --> 00:00:28,194
+longtemps !
+
+24
+00:00:28,444 --> 00:00:29,364
+Les grands fabricants du
+
+25
+00:00:29,384 --> 00:00:30,784
+monde entier se réunissent
+
+26
+00:00:30,804 --> 00:00:31,414
+en secret.
+
+27
+00:00:32,605 --> 00:00:32,585
+Ils signent un accord
+
+28
+00:00:32,605 --> 00:00:34,605
+: aucune ampoule ne
+
+29
+00:00:34,625 --> 00:00:35,555
+dépassera mille heures.
+
+30
+00:00:36,301 --> 00:00:36,481
+Ce groupe porte un
+
+31
+00:00:36,501 --> 00:00:38,061
+nom : le cartel
+
+32
+00:00:38,081 --> 00:00:38,928
+Phœbus.
+
+33
+00:00:39,678 --> 00:00:40,678
+Et celui qui fabrique
+
+34
+00:00:40,698 --> 00:00:41,838
+des ampoules trop solides
+
+35
+00:00:41,858 --> 00:00:43,402
+paiera une amende !
+
+36
+00:00:43,652 --> 00:00:44,352
+Une amende…
+
+37
+00:00:44,372 --> 00:00:45,252
+pour avoir fait du
+
+38
+00:00:45,272 --> 00:00:46,182
+bon travail ?
+
+39
+00:00:47,055 --> 00:00:48,395
+Oui. Et ils testaient
+
+40
+00:00:48,415 --> 00:00:49,255
+même les ampoules de
+
+41
+00:00:49,275 --> 00:00:50,285
+leurs concurrents.
+
+42
+00:00:50,925 --> 00:00:52,405
+Dans les laboratoires, on
+
+43
+00:00:52,425 --> 00:00:53,765
+mesure, on chronomètre, on
+
+44
+00:00:53,785 --> 00:00:54,715
+note chaque ampoule.
+
+45
+00:00:56,335 --> 00:00:57,175
+Les ampoules s’éteignent
+
+46
+00:00:57,195 --> 00:00:57,735
+plus tôt.
+
+47
+00:00:57,755 --> 00:00:58,555
+Les ventes, elles,
+
+48
+00:00:58,575 --> 00:00:59,667
+s’allument.
+
+49
+00:00:59,718 --> 00:01:00,558
+Encore grillée ?
+
+50
+00:01:00,578 --> 00:01:02,368
+Bon, j’en rachète une.
+
+51
+00:01:03,408 --> 00:01:04,708
+Le cartel durera jusqu’à
+
+52
+00:01:04,728 --> 00:01:05,508
+la guerre.
+
+53
+00:01:05,528 --> 00:01:07,078
+L’idée, elle, est restée.
+
+54
+00:01:08,088 --> 00:01:09,288
+Pendant ce temps, dans
+
+55
+00:01:09,308 --> 00:01:10,208
+une caserne de pompiers
+
+56
+00:01:10,228 --> 00:01:11,668
+de Californie, une vieille
+
+57
+00:01:11,688 --> 00:01:12,718
+ampoule brille toujours.
+
+58
+00:01:14,443 --> 00:01:15,663
+Donc la panne était
+
+59
+00:01:15,683 --> 00:01:16,966
+prévue d’avance ?
+
+60
+00:01:17,216 --> 00:01:18,376
+Pour celles-là, oui.
+
+61
+00:01:18,396 --> 00:01:19,716
+On appelle ça l’obsolescence
+
+62
+00:01:19,736 --> 00:01:20,466
+programmée.
+
+63
+00:01:21,633 --> 00:01:23,033
+Aujourd’hui, on la soupçonne
+
+64
+00:01:23,053 --> 00:01:24,033
+dans les téléphones, les
+
+65
+00:01:24,053 --> 00:01:25,243
+imprimantes, les machines.
+
+66
+00:01:26,035 --> 00:01:27,115
+Et certains pays commencent
+
+67
+00:01:27,135 --> 00:01:27,805
+à la punir.
+
+68
+00:01:29,251 --> 00:01:30,091
+Certaines pannes sont
+
+69
+00:01:30,111 --> 00:01:31,081
+prévues d’avance.
+
+70
+00:01:32,357 --> 00:01:33,287
+Retour au salon.
+
+71
+00:01:34,428 --> 00:01:35,568
+Alors je dois toujours
+
+72
+00:01:35,588 --> 00:01:37,003
+acheter la moins chère ?
+
+73
+00:01:37,253 --> 00:01:38,173
+Pas forcément.
+
+74
+00:01:38,193 --> 00:01:39,293
+Regarde aussi combien de
+
+75
+00:01:39,313 --> 00:01:40,403
+temps elle dure.
+
+76
+00:01:40,940 --> 00:01:41,840
+Combien d’heures, quelle
+
+77
+00:01:41,860 --> 00:01:43,140
+garantie, et peut-on la
+
+78
+00:01:43,160 --> 00:01:43,990
+réparer ?
+
+79
+00:01:44,392 --> 00:01:45,912
+Voilà. Un objet solide,
+
+80
+00:01:45,932 --> 00:01:47,422
+c’est aussi une économie.
+
+81
+00:01:48,675 --> 00:01:49,675
+Arrête de suivre le
+
+82
+00:01:49,695 --> 00:01:50,955
+troupeau. Suis le renard…
+
+83
+00:01:50,975 --> 00:01:53,183
+et pense par toi-même !
+
