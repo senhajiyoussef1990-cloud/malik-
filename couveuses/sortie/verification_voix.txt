@@ -1,0 +1,30 @@
+s01a 0.91 s01a_1931.wav | J’ai vu une vidéo bouleversante. Je l’ai partagée tout de suite !  ->  J'ai vu une vidéo bouleversante. Je l'ai partagé tout de suite.
+s01b 0.82 s01b_1931.wav | Tu sais d’où elle vient, cette vidéo ?  ->  Tu sais d'où elle vient cette vidéo ?  Ça tu y...
+s02a 1.00 s02a_1931.wav | Non… Mais j’ai pleuré. Une telle émotion, ça ne peut pas être faux.  ->  Non mais j'ai pleuré ! Une telle émotion, ça ne peut pas être faux !
+s02b 1.00 s02b_1932.wav | Une émotion, ça peut se préparer. Allons voir.  ->  Une émotion, ça peut se préparer. Allons voir.
+s03a 0.50 s03a_1931.wav | Direction l’Amérique, en mille neuf cent quatre-vingt-dix.  ->  Direction l'Amérique en 1990
+s04a 0.83 s04a_1931.wav | Un pays vient d’en envahir un autre. On débat d’une intervention militaire.  ->  À pays vient d'en envahir un autre, au débat d'une intervention militaire.
+s04b 0.96 s04b_1932.wav | Devant des parlementaires, une jeune fille de quinze ans témoigne, en larmes.  ->  Devant des parlementaires, une jeune fille de 15 ans témoigne en larmes.
+s05a 1.00 s05a_1931.wav | J’ai vu des soldats sortir des bébés des couveuses, et les laisser mourir.  ->  J'ai vu des soldats sortir des bébés, des couveuses, et les laisser mourir.
+s05b 1.00 s05b_1931.wav | Le témoignage fait le tour du monde. Il est répété par des dirigeants.  ->  Le témoignage fait le tour du monde. Il est répété par des dirigeants.
+s06a 1.00 s06a_1931.wav | L’émotion est immense. L’opinion bascule vers la guerre.  ->  L'émotion est immense. L'opinion bascule vers la guerre.
+s06b 0.90 s06b_1931.wav | Mais on ne dit pas qui est cette jeune fille, ni qui a préparé son témoignage.  ->  Mais on ne dit pas qui est cette jeune fille.  Niki a préparé son témoignage.
+s07a 0.93 s07a_1931.wav | Une histoire de bébés, une jeune voix, des larmes. Personne ne posera de questions.  ->  Une histoire de bébé, une jeune voix, des larmes, personne ne posera de questions.
+s07b 1.00 s07b_1931.wav | C’était organisé ?  ->  C'était organisé ?
+s08a 0.86 s08a_1932.wav | Oui. Par une agence de communication payée par un groupe lié au pays envahi.  ->  Oui, par une agence de communication payée par un groupe lié aux pays envahis.
+s08b 0.92 s08b_1931.wav | On apprend plus tard qu’elle est la fille de l’ambassadeur de ce pays.  ->  On apprend plus tard quelle est la fille de l'ambassadeur de ce pays.
+s09a 1.00 s09a_1931.wav | Les enquêtes menées ensuite ne confirment pas son récit.  ->  Les enquêtes menées ensuite ne confirment pas son récit.
+s09b 1.00 s09b_1931.wav | Les faits se discutent. Une émotion, elle, se partage.  ->  Les faits se discutent. Une émotion, elle se partage.
+s10a 0.87 s10a_1932.wav | La guerre aurait peut-être eu lieu sans ce témoignage. Mais il a pesé lourd.  ->  La guerre aurait peut-être eu lieu sans ce témoignage, mais s'il a posé lourd...
+s10b 0.88 s10b_1932.wav | Une émotion forte coupe souvent la réflexion.  ->  Une émotion forte coupe souvent la réflexion.  Toulà, à !
+s11a 1.00 s11a_1932.wav | Donc plus une histoire me bouleverse, plus je dois vérifier ?  ->  Donc plus une histoire me bouleverse, plus je dois vérifier.
+s11b 1.00 s11b_1931.wav | Oui. Surtout si elle pousse à une décision grave.  ->  Oui, surtout si elle pousse à une décision grave.
+s12a 0.94 s12a_1931.wav | Les vraies souffrances existent, et méritent d’être entendues.  ->  Les vraies souffrances existent et méritent d'être entendues.  Contendues !
+s12b 0.75 s12b_1931.wav | Mais elles méritent aussi d’être vérifiées, pour ne pas servir de décor.  ->  mais elle mérite aussi d'être vérifiée pour ne pas servir de décor.
+s13a 0.82 s13a_1931.wav | Une émotion forte n’est pas une preuve.  ->  Une émotion forte n'est pas une preuve, pas une preuve.
+s14a 0.60 s14a_1932.wav | Retour au salon.  ->  Retour au salon.  Quand est GAN BISE 2 ?
+s15a 1.00 s15a_1931.wav | La prochaine fois, je vérifie la source avant de partager.  ->  La prochaine fois, je vérifie la source avant de partager.
+s15b 1.00 s15b_1931.wav | Et tu attends un peu. La vérité arrive souvent après l’émotion.  ->  et tu attends un peu. La vérité arrive souvent après l'émotion.
+s15c 1.00 s15c_1932.wav | Qui me raconte ça, et qu’est-ce qu’il veut que je fasse ?  ->  qui me raconte ça, et qu'est-ce qu'il veut que je fasse ?
+s15d 1.00 s15d_1931.wav | Voilà. Pleurer n’empêche pas de réfléchir.  ->  Voilà, pleurer n'empêche pas de réfléchir.
+s16a 1.00 s16a_1931.wav | Arrête de suivre les moutons. Suis le renard… et pense par toi-même !  ->  Arrête de suivre les moutons. Suis le renard et pense par toi-même.
