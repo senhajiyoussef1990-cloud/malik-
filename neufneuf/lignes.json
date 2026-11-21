@@ -6,7 +6,7 @@
   "who": "mouton",
   "pause": 0.5,
   "text": "Regarde ce grille-pain : neuf euros quatre-vingt-dix-neuf. Pas même dix euros !",
-  "dit": "Regarde ce grille-pain. Neuf euros quatre-vingt-dix-neuf. Pas même dix euros !"
+  "dit": "Regarde ce grille-pain ! Neuf euros, quatre-vingt-dix-neuf. Pas même dix euros !"
  },
  {
   "id": "s01b",
@@ -128,7 +128,7 @@
   "who": "narr",
   "pause": 0.4,
   "text": "Neuf francs quatre-vingt-dix-neuf. Quatre-vingt-dix-neuf francs. Neuf cent quatre-vingt-dix-neuf francs.",
-  "dit": "Neuf francs, quatre-vingt-dix-neuf. Quatre-vingt-dix-neuf francs. Neuf cent quatre-vingt-dix-neuf francs."
+  "dit": "Neuf francs, quatre-vingt-dix-neuf… Quatre-vingt-dix-neuf francs… Neuf cent, quatre-vingt-dix-neuf francs."
  },
  {
   "id": "s09b",
