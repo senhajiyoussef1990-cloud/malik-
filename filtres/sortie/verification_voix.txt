@@ -1,0 +1,30 @@
+s01a 1.00 s01a_1931.wav | Ce journal n’a jamais dit de mal de cette entreprise. Elle doit être irréprochable.  ->  Ce journal n'a jamais dit de mal de cette entreprise.  Elle doit être irréprochable.
+s01b 1.00 s01b_1932.wav | Ou alors… le journal ne peut pas en dire de mal. Tu sais à qui il appartient ?  ->  Ou alors, le journal ne peut pas en dire de mal, tu sais à qui il appartient.
+s02a 1.00 s02a_1932.wav | Non. Un journal, c’est indépendant, non ?  ->  Non. Un journal, c'est indépendant, non ?
+s02b 1.00 s02b_1932.wav | Pas toujours. Allons voir les filtres de l’information.  ->  pas toujours. Allons voir les filtres de l'information.
+s03a 0.50 s03a_1931.wav | Direction l’Amérique, en mille neuf cent quatre-vingt-huit.  ->  direction l'Amérique en 1988.
+s04a 0.77 s04a_1931.wav | Deux chercheurs, Edward Herman et Noam Chomsky, décrivent cinq filtres que l’information traverse.  ->  Deux chercheurs, Édouard Hermann et Noël Chomsky, décrivent cinq filtres que l'information traverse.
+s04b 0.83 s04b_1932.wav | Pour les comprendre, entrons dans le journal d’un petit village d’autrefois.  ->  Pour les comprendre, entrons dans le journal d'un petit dillage d'autrefois, d'autrefois, et...
+s05a 1.00 s05a_1932.wav | Ce journal m’appartient. Et je suis aussi le plus grand marchand du village.  ->  Ce journal m'appartient et je suis aussi le plus grand marchand du village.
+s05b 0.89 s05b_1931.wav | Premier filtre : le propriétaire. On critique rarement son patron.  ->  chrony filtre, le propriétaire. On critique rarement son patron.
+s06a 1.00 s06a_1932.wav | Deuxième filtre : les annonceurs. Le journal vit de leurs réclames.  ->  Deuxième filtre. Les annonceurs. Le journal vit de leurs réclames.
+s06b 1.00 s06b_1932.wav | Troisième filtre : les sources. On cite surtout le maire et les notables.  ->  Troisième filtre, les sources.  On cite surtout le maire et les notables.
+s07a 1.00 s07a_1931.wav | J’ai écrit un article sur le marchand… Le patron l’a mis à la poubelle.  ->  J'ai écrit un article sur le marchand.  Le patron l'a mis à la poubelle.
+s07b 1.00 s07b_1931.wav | Il n’a même pas le droit d’en parler !  ->  Il n'a même pas le droit d'en parler !
+s08a 1.00 s08a_1931.wav | Personne ne l’interdit. Mais tout le monde sait que ça ne passera pas.  ->  Personne ne l'interdit mais tout le monde sait que ça ne passera pas.
+s08b 1.00 s08b_1932.wav | Quatrième filtre : les pressions. Les lettres de protestation, les menaces de procès.  ->  Quatrième filtre, les pressions, les lettres de protestation, les menaces de procès.
+s09a 0.89 s09a_1932.wav | Cinquième filtre : l’ennemi désigné, qui permet de tout justifier.  ->  Cinquième filtre. L'ennemi dégigné qui permet de tout justifier.
+s09b 0.86 s09b_1931.wav | Je ne censure rien. Je choisis simplement ce qui m’arrange.  ->  Je ne sens sur rien. Je choisis simplement ce qui m'arrange.
+s10a 0.93 s10a_1931.wav | Ces filtres ne sont pas un complot. Ils agissent souvent sans que personne ne décide.  ->  Ces fitres ne sont pas un complot, ils agissent souvent sans que personne ne décide.
+s10b 1.00 s10b_1931.wav | Les idées de ces chercheurs sont discutées. Mais elles posent de bonnes questions.  ->  Les idées de ces chercheurs sont discutées, mais elles posent de bonnes questions.
+s11a 1.00 s11a_1931.wav | Donc une info peut être vraie… mais incomplète ?  ->  Donc une info peut être vraie, mais incomplète !
+s11b 1.00 s11b_1932.wav | Oui. Ce qu’on ne dit pas compte autant que ce qu’on dit.  ->  Oui, ce qu'on ne dit pas compte autant que ce qu'on dit.
+s12a 1.00 s12a_1931.wav | Il existe aussi des médias indépendants, et des journalistes courageux.  ->  Il existe aussi des médias indépendants et des journalistes courageux.
+s12b 1.00 s12b_1931.wav | Pour les reconnaître, il faut savoir qui les finance.  ->  Pour les reconnaître, il faut savoir qui les finance.
+s13a 1.00 s13a_1932.wav | Demande-toi qui paie le journal.  ->  Demande-toi qui paie le journal.
+s14a 1.00 s14a_1932.wav | Retour au salon.  ->  Retour au salon.
+s15a 1.00 s15a_1932.wav | Je vais chercher à qui appartiennent les médias que je lis.  ->  Je vais chercher à qui appartiennent les médias que je lis.
+s15b 1.00 s15b_1931.wav | Et comparer plusieurs sources sur le même sujet.  ->  et comparer plusieurs sources sur le même sujet.
+s15c 1.00 s15c_1932.wav | Qui possède ce média, et qui lui achète des pubs ?  ->  qui possède ce média et qui lui achète des pubs.
+s15d 1.00 s15d_1931.wav | Voilà. Une info passe par beaucoup de mains avant d’arriver aux tiennes.  ->  Voilà, une info passe par beaucoup de mains avant d'arriver aux tiennes.
+s16a 1.00 s16a_1931.wav | Arrête de suivre les moutons. Suis le renard… et pense par toi-même !  ->  Arrête de suivre les moutons. Suis le renard et pense par toi-même.
