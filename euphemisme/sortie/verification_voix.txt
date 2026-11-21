@@ -1,0 +1,30 @@
+s01a 1.00 s01a_1931.wav | Mon entreprise annonce un plan de sauvegarde de l’emploi. C’est une bonne nouvelle !  ->  Mon entreprise annonce un plan de sauvegarde de l'emploi.  C'est une bonne nouvelle !
+s01b 1.00 s01b_1932.wav | Une bonne nouvelle ? Tu sais ce que ça veut dire, en vrai ?  ->  Une bonne nouvelle ? Tu sais ce que ça veut dire ? En vrai ?
+s02a 1.00 s02a_1931.wav | Qu’ils vont sauver des emplois, non ? C’est écrit dessus.  ->  Qu'ils vont sauver des emplois, non ?  C'est écrit dessus !
+s02b 1.00 s02b_1932.wav | C’est écrit dessus, oui. Allons voir comment on choisit les mots.  ->  C'est écrit dessus, oui, allons voir comment on choisit les mots.
+s03a 0.92 s03a_1931.wav | Entrons dans un village d’autrefois, sur la place, un jour de marché.  ->  Entrons dans un l'îlage d'autrefois, sur la place, un jour de marché.
+s04a 0.89 s04a_1931.wav | Chaque semaine, le crieur annonce les nouvelles du seigneur.  ->  Chaque semaine, le crier annonce les nouvelles du Seigneur.
+s04b 1.00 s04b_1931.wav | Mais cette semaine, les nouvelles sont mauvaises.  ->  Mais cette semaine, les nouvelles sont mauvaises.
+s05a 1.00 s05a_1931.wav | Oyez ! Le seigneur vous offre une contribution exceptionnelle de solidarité !  ->  Oyez, le Seigneur vous offre une contribution exceptionnelle de solidarité.
+s05b 1.00 s05b_1931.wav | En réalité, c’est un nouvel impôt. Mais personne n’entend le mot impôt.  ->  En réalité, c'est un nouvel impôt, mais personne n'entend le mot impôt.
+s06a 1.00 s06a_1931.wav | Les renvois deviennent des départs. Les hausses deviennent des ajustements.  ->  Les renvois deviennent des départs. Les hausses deviennent des ajustements.
+s06b 0.91 s06b_1931.wav | Les mots doux rendent les choses dures plus faciles à avaler.  ->  Les mots d'eau rendent les choses dures plus faciles à avaler.
+s07a 1.00 s07a_1932.wav | Une contribution de solidarité… C’est plutôt gentil, non ?  ->  Une contribution de solidarité, c'est plutôt gentil, non ?
+s07b 1.00 s07b_1931.wav | Mais il va payer plus d’impôts !  ->  Mais il va payer plus d'impôts!
+s08a 1.00 s08a_1932.wav | Oui. Le mot a changé. Le prix, lui, non.  ->  Oui, le mot a changé, le prix, lui, non.
+s08b 1.00 s08b_1931.wav | On appelle ça un euphémisme : un mot adouci pour une réalité pénible.  ->  On appelle ça un euphémisme, un mot adouci pour une réalité pénible.
+s09a 1.00 s09a_1931.wav | Parfois c’est de la politesse. Parfois c’est pour éviter la colère.  ->  Parfois c'est de la politesse. Parfois c'est pour éviter la colère.
+s09b 1.00 s09b_1931.wav | Je n’annonce pas de mauvaises nouvelles. Je les emballe !  ->  Je n'annonce pas de mauvaises nouvelles. Je les emballe.
+s10a 1.00 s10a_1932.wav | Aujourd’hui, entreprises, gouvernements et publicitaires choisissent leurs mots avec soin.  ->  Aujourd'hui, entreprises, gouvernements et publicitaires choisissent leurs mots avec soin.
+s10b 0.89 s10b_1932.wav | Plan de sauvegarde de l’emploi peut vouloir dire licenciements.  ->  Plan de sauvegarde de l'emploi peut vouloir dire licenciement.
+s11a 1.00 s11a_1932.wav | Donc mon entreprise va licencier des gens ?  ->  Donc, mon entreprise va licencier des gens ?
+s11b 1.00 s11b_1931.wav | Probablement. Le mot « sauvegarde » parle de ceux qui restent.  ->  probablement. Le mot sauvegarde parle de ceux qui restent.
+s12a 1.00 s12a_1932.wav | Pour voir la réalité, il suffit souvent de demander : concrètement, qu’est-ce qui change ?  ->  Pour voir la réalité, il suffit souvent de demander concrètement qu'est-ce qui change.
+s12b 0.70 s12b_1931.wav | Les mots sont des fenêtres. Certains sont en verre dépoli.  ->  Les mots sont des fenêtres. Certains sont envers des polis.
+s13a 1.00 s13a_1931.wav | Change le mot, et la chose paraît plus douce.  ->  change le mot et la chose paraît plus douce.
+s14a 0.60 s14a_1932.wav | Retour au salon.  ->  Retour au salon.  Can et Ganbiz de...
+s15a 1.00 s15a_1932.wav | Je vais traduire les mots doux en mots simples.  ->  Je vais traduire les mots doux en mots simples.
+s15b 1.00 s15b_1931.wav | Bon réflexe. Le mot simple dit souvent ce que l’autre cache.  ->  Bon réflexe, le mot simple dit souvent ce que l'autre cache.
+s15c 1.00 s15c_1931.wav | Que se passe-t-il vraiment, derrière ce joli mot ?  ->  Que se passe-t-il vraiment derrière ce joli mot ?
+s15d 0.89 s15d_1931.wav | Voilà. Un mot doux peut cacher une réalité dure.  ->  Voilà, un mot d'eau peut cacher une réalité dure.
+s16a 1.00 s16a_1931.wav | Arrête de suivre les moutons. Suis le renard… et pense par toi-même !  ->  Arrête de suivre les moutons. Suis le renard et pense par toi-même.
