@@ -1,0 +1,225 @@
+{
+ "ep": "ennemi",
+ "nom": "EP29_L_ennemi_commun",
+ "badge": "ÉPISODE 29",
+ "titre": "L’ENNEMI COMMUN",
+ "sous": "« Unir par la peur »",
+ "accroche": "Ce loup… il existe ?",
+ "apres": "bouc",
+ "noms": {
+  "maire": "MAIRE",
+  "berger": "BERGER"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Depuis qu’on parle de ce danger, tout le monde est uni dans le quartier."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et ce danger, tu l’as vu ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais on en parle tellement qu’on se serre les coudes."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Rien ne rassemble comme un ennemi. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, à quelques semaines d’une élection."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le maire est impopulaire. Les villageois se disputent sans arrêt."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un soir, il a une idée."
+  ],
+  [
+   "s05a",
+   5,
+   "maire",
+   0.4,
+   "Un loup rôde autour du village ! Restons unis, et je vous protégerai !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Personne n’a vu le loup. Mais tout le monde en parle."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les disputes s’arrêtent. On ferme les portes. On se regroupe derrière le maire."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Chaque bruit dans la nuit devient une preuve."
+  ],
+  [
+   "s07a",
+   7,
+   "berger",
+   0.4,
+   "J’ai entendu hurler ! Enfin… je crois. C’était peut-être le vent."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Donc personne n’a vu ce loup !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Personne. Mais la peur fait le travail toute seule."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Le maire est réélu. Le loup, lui, n’est jamais venu."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les spécialistes parlent de l’effet de ralliement autour d’un ennemi commun."
+  ],
+  [
+   "s09b",
+   9,
+   "maire",
+   0.4,
+   "Un village qui a peur ne pose pas de questions sur les impôts."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Parfois l’ennemi est réel. Parfois il est exagéré. Parfois il est inventé."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Dans tous les cas, la peur rend le groupe moins critique envers ses chefs."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc la peur, ça peut servir à faire taire les questions ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Quand on a peur, on veut un protecteur, pas un débat."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Se protéger est normal. Mais il faut vérifier la menace."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une peur sans preuve est un outil, pas une information."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un ennemi inventé rassemble aussi bien qu’un vrai."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais demander qui a vu ce danger, et quand."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Excellente question. Et qui gagne à ce qu’on ait peur."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui me fait peur, et qu’est-ce qu’il gagne si j’ai peur ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. La peur est un bon outil… surtout pour ceux qui la vendent."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "avis",
+ "nom": "EP31_Les_faux_avis",
+ "badge": "ÉPISODE 31",
+ "titre": "LES FAUX AVIS",
+ "sous": "« Cinq étoiles, écrites par qui ? »",
+ "accroche": "Ces avis… qui les a écrits ?",
+ "apres": "astroturf",
+ "noms": {
+  "aubergiste": "AUBERGISTE",
+  "voyageur": "VOYAGEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Cet hôtel a cinq étoiles et des centaines d’avis enthousiastes. Je réserve !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Des centaines d’avis… Tu les as lus ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Quelques-uns. Ils disent tous que c’est parfait, merveilleux, inoubliable."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Tous pareils ? Allons voir qui tient la plume."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une auberge d’autrefois, au bord d’une route de diligences."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "À l’entrée, un grand livre d’or : les voyageurs y écrivent leur avis."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais l’auberge est sale, et les avis sont mauvais."
+  ],
+  [
+   "s05a",
+   5,
+   "aubergiste",
+   0.4,
+   "Arrachons ces pages ! Et cette nuit, j’écrirai moi-même de beaux compliments."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il change d’écriture, d’encre, de prénom. Une page par soir."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Bientôt, le livre d’or déborde de louanges."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les voyageurs feuillettent le livre… et réservent une chambre."
+  ],
+  [
+   "s07a",
+   7,
+   "voyageur",
+   0.4,
+   "Tant de compliments ! Cette auberge doit être la meilleure de la route."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est l’aubergiste qui a tout écrit !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le livre d’or était un livre de publicité."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Quand on ne connaît pas un lieu, on fait confiance aux avis des autres."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "C’est la preuve sociale. Et elle peut se fabriquer."
+  ],
+  [
+   "s09b",
+   9,
+   "aubergiste",
+   0.4,
+   "Je ne vends pas des chambres. Je vends ce qu’on en dit !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, des avis s’achètent par milliers, et des robots en écrivent."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Dans de nombreux pays, la loi interdit désormais les faux avis."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc les cinq étoiles peuvent être fausses ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Certaines. Les avis tous parfaits et tous pareils sont suspects."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les vrais avis sont variés : quelques défauts, des détails précis, des dates."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Lire les avis moyens apprend souvent plus que lire les avis parfaits."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Cinq étoiles, mais écrites par qui ?"
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais lire les avis à trois étoiles. Ils ont l’air plus honnêtes."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Souvent, oui. Et regarde si les auteurs ont écrit d’autres avis."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui a écrit cet avis, et a-t-il vraiment dormi ici ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un compliment trop parfait mérite une question."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

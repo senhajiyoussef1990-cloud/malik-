@@ -1,0 +1,225 @@
+{
+ "ep": "sucre",
+ "nom": "EP34_Le_sucre_blanchi",
+ "badge": "ÉPISODE 34",
+ "titre": "LE SUCRE BLANCHI",
+ "sous": "« Regarde qui a payé l’étude »",
+ "accroche": "Le gras… ou le sucre ?",
+ "apres": "dentistes",
+ "noms": {
+  "confiseur": "CONFISEUR",
+  "savant": "SAVANT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’évite le gras, c’est lui le grand coupable. Par contre, le sucre, ça va."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Qui t’a dit que le sucre allait bien ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Tout le monde ! Depuis des années, on accuse surtout le gras."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Depuis des années, justement. Allons voir qui a écrit cette histoire."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, dans les années mille neuf cent soixante."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Des chercheurs commencent à s’inquiéter du sucre pour le cœur."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un groupe financé par l’industrie du sucre veut changer la conversation."
+  ],
+  [
+   "s05a",
+   5,
+   "confiseur",
+   0.4,
+   "Trouvez-moi des savants qui accusent plutôt le gras !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il paie des chercheurs d’une grande université pour écrire une revue des études."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "La revue minimise le rôle du sucre, et insiste sur celui des graisses."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Elle est publiée dans une revue médicale très respectée. Sans dire qui l’a payée."
+  ],
+  [
+   "s07a",
+   7,
+   "savant",
+   0.4,
+   "Nos conclusions sont claires : le problème, c’est le gras."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est le sucre qui les payait !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Et personne ne le savait. C’est ça, le problème."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Pendant des décennies, les conseils de santé visent surtout le gras."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les rayons se remplissent de produits allégés… et souvent plus sucrés."
+  ],
+  [
+   "s09b",
+   9,
+   "confiseur",
+   0.4,
+   "Une étude bien payée vaut mieux que mille réclames !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "En deux mille seize, des chercheurs retrouvent les archives et révèlent le financement."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, on sait que le sucre en excès pose aussi de vrais problèmes."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc une étude peut être payée par ceux qu’elle protège ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Ça arrive. C’est pour ça qu’on demande toujours qui finance."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les revues sérieuses obligent maintenant les chercheurs à déclarer leurs financements."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une étude financée n’est pas forcément fausse. Mais elle mérite plus de vigilance."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Avant de croire l’étude, regarde qui l’a payée."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais regarder qui a financé les études que je partage."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et privilégier celles qui sont confirmées par d’autres équipes."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui a payé l’étude, et qu’est-ce qu’il vend ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. La science aussi peut avoir des sponsors."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

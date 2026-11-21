@@ -1,0 +1,225 @@
+{
+ "ep": "blouse",
+ "nom": "EP32_La_blouse_qui_vend",
+ "badge": "ÉPISODE 32",
+ "titre": "LA BLOUSE QUI VEND",
+ "sous": "« Une blouse n’est pas une preuve »",
+ "accroche": "Le médecin de la pub… vrai ?",
+ "apres": "avis",
+ "noms": {
+  "publicitaire": "PUBLICITAIRE",
+  "medecin": "MÉDECIN"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Dans cette pub, un médecin recommande ce sirop. Alors il doit être bon !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Un médecin ? Ou un acteur en blouse blanche ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Il avait une blouse et un stéthoscope. Ça fait sérieux."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Ça fait sérieux, oui. Allons voir une vieille recette."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, dans les années mille neuf cent quarante."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les gens commencent à se demander si fumer est mauvais pour la santé."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Une marque de cigarettes a une idée : mettre des médecins dans ses réclames."
+  ],
+  [
+   "s05a",
+   5,
+   "publicitaire",
+   0.4,
+   "Plus de médecins fument notre marque que toute autre ! Voilà notre slogan !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le chiffre vient d’un sondage auprès de médecins, dans des congrès."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Juste avant, la marque leur avait offert des cartouches de cigarettes gratuites."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Puis on leur demande : quelle marque avez-vous dans la poche ?"
+  ],
+  [
+   "s07a",
+   7,
+   "medecin",
+   0.4,
+   "Celle-ci… Celle qu’on vient de m’offrir à l’entrée."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais ce n’était pas un vrai choix !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Le sondage était arrangé. Et la blouse a fait le reste."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les réclames montrent des médecins souriants, cigarette à la main."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "La blouse blanche rassure. On ne discute pas avec un docteur."
+  ],
+  [
+   "s09b",
+   9,
+   "publicitaire",
+   0.4,
+   "Une blouse vaut mieux que mille arguments !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Plus tard, les études montrent clairement les dangers du tabac."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Mais pendant des années, la blouse a servi de bouclier."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc une blouse dans une pub, ça ne prouve rien ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Rien du tout. Ce qui compte, ce sont les preuves, pas le costume."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les vrais conseils médicaux ne se trouvent pas dans les réclames."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ils s’appuient sur des études, et pas sur des sourires."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une blouse ne rend pas un argument vrai."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je demande à mon vrai médecin."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "C’est la meilleure idée. Lui, il connaît ta santé, pas tes achats."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui parle, et qui le paie pour le dire ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. L’habit ne fait pas le savant."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

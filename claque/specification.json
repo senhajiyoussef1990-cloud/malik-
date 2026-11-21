@@ -1,0 +1,225 @@
+{
+ "ep": "claque",
+ "nom": "EP24_La_claque",
+ "badge": "ÉPISODE 24",
+ "titre": "LA CLAQUE",
+ "sous": "« Des bravos payés »",
+ "accroche": "Qui a applaudi en premier ?",
+ "apres": "file",
+ "noms": {
+  "chef": "CHEF DE CLAQUE",
+  "spectatrice": "SPECTATRICE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Au spectacle, toute la salle s’est levée pour applaudir. J’ai fait pareil !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu as trouvé ça génial, ou tu t’es levé parce que les autres se levaient ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Je me suis levé quand mon voisin s’est levé."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Ton voisin, ou quelqu’un payé pour se lever ? Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction Paris, au dix-neuvième siècle, dans un grand théâtre."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Dans la salle, quelques spectateurs ne sont pas comme les autres."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Ils sont payés pour applaudir. On les appelle la claque."
+  ],
+  [
+   "s05a",
+   5,
+   "chef",
+   0.4,
+   "Au signal, vous applaudissez ! Et toi, tu ris. Toi, tu pleures !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il y a les rieurs, les pleureurs, et ceux qui crient : bis ! encore !"
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Quand la claque applaudit, la salle entière suit."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Personne n’ose rester assis quand tout le monde se lève."
+  ],
+  [
+   "s07a",
+   7,
+   "spectatrice",
+   0.4,
+   "Tout le monde applaudit… C’était donc magnifique !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est le chef de claque qui a donné le signal !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Dix personnes payées, et mille personnes suivent."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les artistes paient la claque pour être sûrs d’avoir du succès."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les chercheurs appellent ça la preuve sociale."
+  ],
+  [
+   "s09b",
+   9,
+   "chef",
+   0.4,
+   "Je ne vends pas des applaudissements. Je vends le premier applaudissement !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui encore : faux fans, abonnés achetés, salles remplies d’invités."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Le succès affiché attire le succès réel."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il suffit que quelques-uns commencent pour que tout le monde suive ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Le plus dur, c’est d’être le premier. Alors certains paient pour ça."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Applaudir n’est pas un problème. Le faire sans y penser, si."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ton avis compte autant que celui de la salle."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Avant d’applaudir, regarde qui a commencé."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je me demande si j’ai vraiment aimé."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et tu as le droit de rester assis, si ça ne t’a pas plu."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que j’applaudis pour moi, ou pour faire comme les autres ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Ton bravo t’appartient."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

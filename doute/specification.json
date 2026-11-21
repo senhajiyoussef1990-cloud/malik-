@@ -1,0 +1,225 @@
+{
+ "ep": "doute",
+ "nom": "EP35_Le_doute_est_leur_produit",
+ "badge": "ÉPISODE 35",
+ "titre": "LE DOUTE EST LEUR PRODUIT",
+ "sous": "« Semer le doute »",
+ "accroche": "On ne sait pas… vraiment ?",
+ "apres": "sucre",
+ "noms": {
+  "avocat": "AVOCAT",
+  "journaliste": "JOURNALISTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "On ne sait pas vraiment si c’est dangereux. Les experts ne sont pas d’accord."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Quels experts ? Et payés par qui ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Je ne sais pas… Mais s’il y a un débat, c’est que personne n’est sûr."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Un débat, ça peut se fabriquer. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, dans les années mille neuf cent cinquante."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les études s’accumulent : le tabac provoque des maladies graves."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Les fabricants ne peuvent pas prouver le contraire. Alors ils changent de stratégie."
+  ],
+  [
+   "s05a",
+   5,
+   "avocat",
+   0.4,
+   "Pas besoin de gagner le débat. Il suffit qu’il continue !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Ils financent des chercheurs qui posent des questions sans fin."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Ils répètent : la science n’est pas certaine, il faut plus d’études."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Un document interne de l’industrie le dit clairement : le doute est notre produit."
+  ],
+  [
+   "s07a",
+   7,
+   "journaliste",
+   0.4,
+   "Pour être équitable, je donne la parole aux deux camps."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais un camp était payé pour douter !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Et en lui donnant autant de place, on fait croire à un match nul."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Pendant ce temps, les gens continuent de fumer, et de tomber malades."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les historiens appellent ça la fabrique du doute."
+  ],
+  [
+   "s09b",
+   9,
+   "avocat",
+   0.4,
+   "Tant qu’ils hésitent, ils achètent !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "La même méthode servira ensuite pour d’autres produits dangereux."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Le doute honnête fait avancer la science. Le doute acheté la ralentit."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc « on ne sait pas encore », ça peut être une stratégie ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Parfois. Surtout quand ceux qui doutent vendent le produit."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour s’y retrouver, on regarde ce que dit la grande majorité des études."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Et on se demande qui profite de l’incertitude."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Semer le doute, c’est parfois cacher une vérité."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je demande ce que disent la plupart des chercheurs."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et qui paie ceux qui disent l’inverse."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui doute, et à qui profite ce doute ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un doute qui rapporte mérite qu’on s’en méfie."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

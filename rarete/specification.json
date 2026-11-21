@@ -1,0 +1,225 @@
+{
+ "ep": "rarete",
+ "nom": "EP22_L_edition_limitee",
+ "badge": "ÉPISODE 22",
+ "titre": "L’ÉDITION LIMITÉE",
+ "sous": "« Rare pour qui ? »",
+ "accroche": "Bientôt épuisé… vraiment ?",
+ "apres": "abonnement",
+ "noms": {
+  "chapelier": "CHAPELIER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai acheté ces baskets en édition limitée. Il n’en restait plus que trois !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Trois ? Et le lendemain, il en restait combien ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Je ne sais pas… Mais il fallait se décider tout de suite !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Tout de suite, justement. Allons voir d’où vient cette urgence."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons chez un chapelier, dans une petite ville d’autrefois."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Ses chapeaux sont beaux, mais ils dorment sur les étagères."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un soir, il range presque tout dans son arrière-boutique."
+  ],
+  [
+   "s05a",
+   5,
+   "chapelier",
+   0.4,
+   "Demain, je n’en montre que trois. Et j’écris : derniers exemplaires !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le lendemain, les passants voient la vitrine presque vide."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Ce qui est rare semble précieux. Ce qui va disparaître, on le veut."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Une file se forme. Chacun a peur d’arriver trop tard."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Plus que trois ? Je le prends, avant que ma voisine me le vole !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il en a plein, cachés derrière !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. La rareté, ici, est un décor. Le stock, lui, est bien réel."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Le chapelier ressort trois chapeaux chaque matin. Toujours les derniers."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça l’effet de rareté."
+  ],
+  [
+   "s09b",
+   9,
+   "chapelier",
+   0.4,
+   "Je ne vends plus des chapeaux. Je vends la peur de les rater !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : séries limitées, ventes flash, comptes à rebours, stocks presque épuisés."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Parfois c’est vrai. Souvent, c’est une mise en scène."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc le « plus que trois », c’était pour me presser ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Pour t’empêcher de réfléchir. La peur de rater va plus vite que la raison."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Quand on se presse, on compare moins, et on paie plus."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un vrai bon achat supporte bien une nuit de réflexion."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Rare pour qui ? Pour ton portefeuille."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, j’attends un jour avant d’acheter."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Si c’est vraiment pour toi, ça peut attendre demain."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce rare, ou est-ce qu’on veut me presser ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. L’urgence des autres n’est pas la tienne."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

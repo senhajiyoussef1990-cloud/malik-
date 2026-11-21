@@ -1,0 +1,225 @@
+{
+ "ep": "couveuses",
+ "nom": "EP37_Les_couveuses",
+ "badge": "ÉPISODE 37",
+ "titre": "LES COUVEUSES",
+ "sous": "« Une émotion n’est pas une preuve »",
+ "accroche": "Cette larme… était-elle vraie ?",
+ "apres": "milgram",
+ "noms": {
+  "temoin": "TÉMOIN",
+  "communicant": "COMMUNICANT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai vu une vidéo bouleversante. Je l’ai partagée tout de suite !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu sais d’où elle vient, cette vidéo ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais j’ai pleuré. Une telle émotion, ça ne peut pas être faux."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Une émotion, ça peut se préparer. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, en mille neuf cent quatre-vingt-dix."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un pays vient d’en envahir un autre. On débat d’une intervention militaire."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Devant des parlementaires, une jeune fille de quinze ans témoigne, en larmes."
+  ],
+  [
+   "s05a",
+   5,
+   "temoin",
+   0.4,
+   "J’ai vu des soldats sortir des bébés des couveuses, et les laisser mourir."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le témoignage fait le tour du monde. Il est répété par des dirigeants."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "L’émotion est immense. L’opinion bascule vers la guerre."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Mais on ne dit pas qui est cette jeune fille, ni qui a préparé son témoignage."
+  ],
+  [
+   "s07a",
+   7,
+   "communicant",
+   0.4,
+   "Une histoire de bébés, une jeune voix, des larmes. Personne ne posera de questions."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "C’était organisé ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Par une agence de communication payée par un groupe lié au pays envahi."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On apprend plus tard qu’elle est la fille de l’ambassadeur de ce pays."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les enquêtes menées ensuite ne confirment pas son récit."
+  ],
+  [
+   "s09b",
+   9,
+   "communicant",
+   0.4,
+   "Les faits se discutent. Une émotion, elle, se partage."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "La guerre aurait peut-être eu lieu sans ce témoignage. Mais il a pesé lourd."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Une émotion forte coupe souvent la réflexion."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc plus une histoire me bouleverse, plus je dois vérifier ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Surtout si elle pousse à une décision grave."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les vraies souffrances existent, et méritent d’être entendues."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Mais elles méritent aussi d’être vérifiées, pour ne pas servir de décor."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une émotion forte n’est pas une preuve."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je vérifie la source avant de partager."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et tu attends un peu. La vérité arrive souvent après l’émotion."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui me raconte ça, et qu’est-ce qu’il veut que je fasse ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Pleurer n’empêche pas de réfléchir."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

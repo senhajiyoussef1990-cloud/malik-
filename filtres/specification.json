@@ -1,0 +1,225 @@
+{
+ "ep": "filtres",
+ "nom": "EP39_Les_cinq_filtres",
+ "badge": "ÉPISODE 39",
+ "titre": "LES CINQ FILTRES",
+ "sous": "« Demande-toi qui paie le journal »",
+ "accroche": "Ton info… est passée par où ?",
+ "apres": "serrure",
+ "noms": {
+  "patron": "PATRON",
+  "journaliste": "JOURNALISTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ce journal n’a jamais dit de mal de cette entreprise. Elle doit être irréprochable."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Ou alors… le journal ne peut pas en dire de mal. Tu sais à qui il appartient ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non. Un journal, c’est indépendant, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Pas toujours. Allons voir les filtres de l’information."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, en mille neuf cent quatre-vingt-huit."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Deux chercheurs, Edward Herman et Noam Chomsky, décrivent cinq filtres que l’information traverse."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Pour les comprendre, entrons dans le journal d’un petit village d’autrefois."
+  ],
+  [
+   "s05a",
+   5,
+   "patron",
+   0.4,
+   "Ce journal m’appartient. Et je suis aussi le plus grand marchand du village."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Premier filtre : le propriétaire. On critique rarement son patron."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Deuxième filtre : les annonceurs. Le journal vit de leurs réclames."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Troisième filtre : les sources. On cite surtout le maire et les notables."
+  ],
+  [
+   "s07a",
+   7,
+   "journaliste",
+   0.4,
+   "J’ai écrit un article sur le marchand… Le patron l’a mis à la poubelle."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Il n’a même pas le droit d’en parler !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Personne ne l’interdit. Mais tout le monde sait que ça ne passera pas."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Quatrième filtre : les pressions. Les lettres de protestation, les menaces de procès."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Cinquième filtre : l’ennemi désigné, qui permet de tout justifier."
+  ],
+  [
+   "s09b",
+   9,
+   "patron",
+   0.4,
+   "Je ne censure rien. Je choisis simplement ce qui m’arrange."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Ces filtres ne sont pas un complot. Ils agissent souvent sans que personne ne décide."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les idées de ces chercheurs sont discutées. Mais elles posent de bonnes questions."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc une info peut être vraie… mais incomplète ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Ce qu’on ne dit pas compte autant que ce qu’on dit."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Il existe aussi des médias indépendants, et des journalistes courageux."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Pour les reconnaître, il faut savoir qui les finance."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Demande-toi qui paie le journal."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais chercher à qui appartiennent les médias que je lis."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et comparer plusieurs sources sur le même sujet."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui possède ce média, et qui lui achète des pubs ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une info passe par beaucoup de mains avant d’arriver aux tiennes."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

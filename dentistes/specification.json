@@ -1,0 +1,225 @@
+{
+ "ep": "dentistes",
+ "nom": "EP33_Quatre_dentistes_sur_cinq",
+ "badge": "ÉPISODE 33",
+ "titre": "QUATRE DENTISTES SUR CINQ",
+ "sous": "« Sur combien, et qui a payé ? »",
+ "accroche": "Quatre sur cinq… de quoi ?",
+ "apres": "blouse",
+ "noms": {
+  "vendeur": "VENDEUR",
+  "dentiste": "DENTISTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Quatre dentistes sur cinq recommandent ce dentifrice ! C’est écrit sur la boîte."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Quatre sur cinq… Cinq quoi ? Cinq dentistes en tout ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Je ne sais pas… Mais quatre sur cinq, c’est presque tout le monde !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "C’est ce que le chiffre veut te faire croire. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, chez un fabricant de poudre dentaire."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Il veut un argument qui sonne scientifique. Un chiffre, de préférence."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il interroge cinq dentistes, ses amis. Puis il imprime le résultat."
+  ],
+  [
+   "s05a",
+   5,
+   "vendeur",
+   0.4,
+   "Quatre dentistes sur cinq recommandent notre poudre ! C’est la science !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Mais on leur avait demandé : recommandez-vous cette poudre, ou d’autres ?"
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les dentistes en avaient cité plusieurs, comme pour toutes les marques."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le chiffre est vrai… mais il ne veut presque rien dire."
+  ],
+  [
+   "s07a",
+   7,
+   "dentiste",
+   0.4,
+   "J’ai dit qu’elle était correcte. Comme une dizaine d’autres."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Donc toutes les marques pourraient dire la même chose !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Un chiffre rassurant, sans comparaison."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Au Royaume-Uni, en deux mille sept, une réclame de ce genre est interdite pour être trompeuse."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les dentistes interrogés pouvaient recommander plusieurs marques à la fois."
+  ],
+  [
+   "s09b",
+   9,
+   "vendeur",
+   0.4,
+   "Les gens ne lisent pas la question. Ils retiennent le chiffre !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Ces chiffres impressionnent parce qu’ils ont l’air précis."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Mais un chiffre sans contexte, c’est une décoration."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut demander combien de personnes, et quelle question ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Et qui a payé l’enquête. Ces trois questions suffisent souvent."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Combien de personnes ont répondu ? Comment les a-t-on choisies ?"
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Et qu’a-t-on vraiment demandé ?"
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Demande toujours : sur combien, et qui a payé ?"
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais choisir mon dentifrice en demandant à mon dentiste."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Le tien, qui connaît tes dents. Pas celui de la boîte."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Sur combien, quelle question, et qui a payé ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un chiffre sans contexte ne prouve rien."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "foule",
+ "nom": "EP27_L_ame_des_foules",
+ "badge": "ÉPISODE 27",
+ "titre": "L’ÂME DES FOULES",
+ "sous": "« Garde ta tête »",
+ "accroche": "Dans la foule, qui pense ?",
+ "apres": "asch",
+ "noms": {
+  "orateur": "ORATEUR",
+  "marchand": "MARCHAND"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Hier, au marché, tout le monde s’est mis à courir. J’ai couru aussi !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu savais pourquoi tu courais ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Pas du tout. Mais tout le monde courait, alors…"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Alors tes jambes ont suivi la foule. Allons voir ce qu’en disait un savant."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction la France, en mille huit cent quatre-vingt-quinze."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un médecin, Gustave Le Bon, publie un livre : la psychologie des foules."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il observe que, dans une foule, chacun réfléchit moins par lui-même."
+  ],
+  [
+   "s05a",
+   5,
+   "orateur",
+   0.4,
+   "Une foule ne raisonne pas : elle sent, elle imite, elle s’emballe !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les émotions passent de l’un à l’autre, comme une fièvre."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Dans la foule, on se sent fort, anonyme, et moins responsable."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Un seul cri peut faire courir toute une place."
+  ],
+  [
+   "s07a",
+   7,
+   "marchand",
+   0.4,
+   "Au voleur ! Euh… non, je crois que c’était un chat."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Tout le monde a couru pour un chat ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Pour un cri. La foule n’a pas vérifié. Elle a suivi."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les orateurs et les publicitaires lisent ce livre avec attention."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Ils retiennent ses conseils : affirmer, répéter, contaminer."
+  ],
+  [
+   "s09b",
+   9,
+   "orateur",
+   0.4,
+   "Pas besoin de prouver ! Affirmez fort, répétez souvent, et la foule suivra !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Les idées de Le Bon sont discutées aujourd’hui. Toutes les foules ne sont pas folles."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Mais l’effet d’entraînement, lui, est bien réel."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc dans une foule, je peux perdre un peu ma tête ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Un peu. Ta tête reste là, mais elle écoute moins."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les foules peuvent aussi être calmes, solidaires et courageuses."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ce qui compte, c’est de garder la capacité de dire : attendez, pourquoi ?"
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Dans la foule, garde ta tête sur tes épaules."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je m’arrête deux secondes avant de courir."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Deux secondes, c’est souvent assez pour voir que c’était un chat."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Pourquoi tout le monde fait ça, et est-ce que je le sais ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une foule qui court ne sait pas toujours où elle va."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

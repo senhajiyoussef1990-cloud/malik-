@@ -1,0 +1,225 @@
+{
+ "ep": "euphemisme",
+ "nom": "EP40_Le_mot_qui_change_tout",
+ "badge": "ÉPISODE 40",
+ "titre": "LE MOT QUI CHANGE TOUT",
+ "sous": "« Change le mot, la chose paraît douce »",
+ "accroche": "Un mot doux… pour quoi ?",
+ "apres": "filtres",
+ "noms": {
+  "crieur": "CRIEUR",
+  "villageois": "VILLAGEOIS"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Mon entreprise annonce un plan de sauvegarde de l’emploi. C’est une bonne nouvelle !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Une bonne nouvelle ? Tu sais ce que ça veut dire, en vrai ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Qu’ils vont sauver des emplois, non ? C’est écrit dessus."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "C’est écrit dessus, oui. Allons voir comment on choisit les mots."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, sur la place, un jour de marché."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Chaque semaine, le crieur annonce les nouvelles du seigneur."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais cette semaine, les nouvelles sont mauvaises."
+  ],
+  [
+   "s05a",
+   5,
+   "crieur",
+   0.4,
+   "Oyez ! Le seigneur vous offre une contribution exceptionnelle de solidarité !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "En réalité, c’est un nouvel impôt. Mais personne n’entend le mot impôt."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les renvois deviennent des départs. Les hausses deviennent des ajustements."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les mots doux rendent les choses dures plus faciles à avaler."
+  ],
+  [
+   "s07a",
+   7,
+   "villageois",
+   0.4,
+   "Une contribution de solidarité… C’est plutôt gentil, non ?"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il va payer plus d’impôts !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le mot a changé. Le prix, lui, non."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça un euphémisme : un mot adouci pour une réalité pénible."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Parfois c’est de la politesse. Parfois c’est pour éviter la colère."
+  ],
+  [
+   "s09b",
+   9,
+   "crieur",
+   0.4,
+   "Je n’annonce pas de mauvaises nouvelles. Je les emballe !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, entreprises, gouvernements et publicitaires choisissent leurs mots avec soin."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Plan de sauvegarde de l’emploi peut vouloir dire licenciements."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon entreprise va licencier des gens ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Probablement. Le mot « sauvegarde » parle de ceux qui restent."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour voir la réalité, il suffit souvent de demander : concrètement, qu’est-ce qui change ?"
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Les mots sont des fenêtres. Certains sont en verre dépoli."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Change le mot, et la chose paraît plus douce."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais traduire les mots doux en mots simples."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bon réflexe. Le mot simple dit souvent ce que l’autre cache."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Que se passe-t-il vraiment, derrière ce joli mot ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un mot doux peut cacher une réalité dure."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

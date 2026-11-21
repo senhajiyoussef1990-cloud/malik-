@@ -1,0 +1,225 @@
+{
+ "ep": "bouc",
+ "nom": "EP28_Le_bouc_emissaire",
+ "badge": "ÉPISODE 28",
+ "titre": "LE BOUC ÉMISSAIRE",
+ "sous": "« Un seul coupable ? »",
+ "accroche": "Tout est de sa faute… vraiment ?",
+ "apres": "foule",
+ "noms": {
+  "maire": "MAIRE",
+  "villageoise": "VILLAGEOISE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Si tout va mal au bureau, c’est à cause du nouveau. Tout le monde le dit."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tout va mal depuis son arrivée, ou depuis bien avant ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Bien avant… Mais lui, au moins, on sait qui c’est."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "C’est bien pratique. Allons voir d’où vient le bouc émissaire."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Dans un très ancien rite, un bouc était chassé dans le désert, chargé des fautes de tout un peuple."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le bouc n’avait rien fait. Mais une fois parti, chacun se sentait plus léger."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Entrons maintenant dans un village d’autrefois, après des semaines de pluie."
+  ],
+  [
+   "s05a",
+   5,
+   "maire",
+   0.4,
+   "Cette pluie, c’est la faute de l’étranger qui vit au bout du chemin !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les récoltes pourrissent. Les gens ont peur, et ils sont en colère."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Un coupable unique, c’est plus simple qu’un problème compliqué."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le maire, lui, n’a pas réparé les fossés depuis dix ans."
+  ],
+  [
+   "s07a",
+   7,
+   "villageoise",
+   0.4,
+   "Depuis qu’il est arrivé, tout va de travers ! Il faut qu’il parte !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il ne commande pas la pluie !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Mais l’accuser évite de parler des fossés."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "L’étranger est chassé. La pluie continue. Les fossés restent bouchés."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça la désignation d’un bouc émissaire."
+  ],
+  [
+   "s09b",
+   9,
+   "maire",
+   0.4,
+   "Tant qu’ils regardent l’étranger, personne ne me regarde."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "L’histoire est pleine de ces coupables désignés, souvent les plus faibles."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Cela soulage la colère, mais ne résout jamais le vrai problème."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc accuser quelqu’un, ça arrange parfois celui qui accuse ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Souvent. Celui qui montre du doigt cache parfois sa propre part."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les vrais problèmes ont rarement une seule cause et un seul coupable."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Chercher les causes est plus long, mais plus juste."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Quand tout est de la faute d’un seul, cherche qui en profite."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Alors au bureau, je vais demander ce qui n’allait pas avant lui."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne question. Elle déplace le regard vers les vraies causes."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui accuse, et qu’est-ce que ça lui évite ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un coupable trop parfait cache souvent un problème."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

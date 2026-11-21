@@ -1,0 +1,225 @@
+{
+ "ep": "milgram",
+ "nom": "EP36_L_obeissance",
+ "badge": "ÉPISODE 36",
+ "titre": "L’OBÉISSANCE",
+ "sous": "« Obéir, ce n’est pas penser »",
+ "accroche": "Jusqu’où obéirais-tu ?",
+ "apres": "doute",
+ "noms": {
+  "chercheur": "CHERCHEUR",
+  "participant": "PARTICIPANT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Mon chef m’a demandé de dire au client que tout était en stock. Ce n’était pas vrai."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et tu l’as dit ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Oui… C’était le chef. Ce n’est pas ma faute, j’obéissais."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "J’obéissais. Allons voir une expérience célèbre."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, au début des années mille neuf cent soixante, dans une université."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un chercheur, Stanley Milgram, dit étudier la mémoire et l’apprentissage."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un participant doit envoyer des décharges électriques à un élève qui se trompe."
+  ],
+  [
+   "s05a",
+   5,
+   "chercheur",
+   0.4,
+   "L’expérience exige que vous continuiez. Veuillez continuer."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "En réalité, l’élève est un acteur. Les décharges sont fausses."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais le participant ne le sait pas. Il entend des cris, de plus en plus forts."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "À chaque erreur, la tension monte. Le participant hésite, transpire, proteste."
+  ],
+  [
+   "s07a",
+   7,
+   "participant",
+   0.4,
+   "Il crie… Je ne veux pas continuer. Mais si vous le dites…"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Il continue quand même ?"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Beaucoup continuent. Parce qu’un homme en blouse le demande calmement."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Dans la version la plus connue, environ deux participants sur trois vont jusqu’au bout."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Ce ne sont pas des monstres. Ce sont des gens ordinaires."
+  ],
+  [
+   "s09b",
+   9,
+   "chercheur",
+   0.4,
+   "Ils ne se sentent plus responsables. C’est moi qui décide, pensent-ils."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Quand l’autorité est loin, ou quand d’autres refusent, l’obéissance chute fortement."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "L’expérience est discutée aujourd’hui. Mais sa leçon reste forte."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc on peut faire du mal juste parce qu’on nous le demande ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Surtout quand on croit que la responsabilité appartient au chef."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Obéir aux règles est souvent utile. Mais pas en éteignant sa conscience."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Dire non à une autorité demande du courage, mais c’est possible."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Obéir, ce n’est pas penser."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je dirai à mon chef que je ne veux pas mentir."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Avec calme. Souvent, il suffit d’une première personne qui refuse."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce juste, même si on me le demande ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Ta conscience ne se délègue pas."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

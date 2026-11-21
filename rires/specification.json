@@ -1,0 +1,225 @@
+{
+ "ep": "rires",
+ "nom": "EP25_Les_rires_enregistres",
+ "badge": "ÉPISODE 25",
+ "titre": "LES RIRES ENREGISTRÉS",
+ "sous": "« Ris si c’est drôle »",
+ "accroche": "Tu ris… ou la boîte rit ?",
+ "apres": "claque",
+ "noms": {
+  "ingenieur": "INGÉNIEUR",
+  "auditeur": "AUDITEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Cette émission est hilarante ! Le public rit sans arrêt."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Le public ? Tu l’as vu, ce public ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais on l’entend rire, donc il est là !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "On l’entend, oui. Allons voir d’où viennent ces rires."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, au milieu du vingtième siècle, dans un studio de radio."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les émissions comiques ont un problème : le public ne rit pas toujours au bon moment."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un ingénieur invente une machine remplie de rires enregistrés."
+  ],
+  [
+   "s05a",
+   5,
+   "ingenieur",
+   0.4,
+   "Une manette pour les petits rires, une pour les fous rires ! Plus besoin de public !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il ajoute des rires après chaque plaisanterie, même les moins drôles."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "À la maison, les auditeurs rient davantage quand ils entendent rire."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le rire est contagieux. On rit plus quand les autres rient."
+  ],
+  [
+   "s07a",
+   7,
+   "auditeur",
+   0.4,
+   "Si tout le monde rit, c’est que c’est drôle. Ha ha ha !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais ce sont des rires en boîte !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Des rires d’hier, collés sur une blague d’aujourd’hui."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Certains rires de la machine ont été enregistrés des années plus tôt."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les chercheurs parlent de contagion émotionnelle."
+  ],
+  [
+   "s09b",
+   9,
+   "ingenieur",
+   0.4,
+   "Une blague moyenne, trois rires bien placés, et c’est un succès !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Les rires enregistrés passent ensuite à la télévision, pendant des décennies."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "On ne rit pas seulement de la blague. On rit avec les autres."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je riais parce que la machine riait ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "En partie. Ton cerveau suit le groupe, même un groupe imaginaire."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Rire ensemble est agréable. Mais un rire fabriqué peut te dire quoi penser."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ce qui est vrai pour le rire l’est aussi pour la colère ou la peur."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ris si c’est drôle, pas parce que d’autres rient."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais regarder un épisode sans le son des rires."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne expérience. Tu verras ce qui est vraiment drôle."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que je ris de la blague, ou des rires des autres ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une émotion empruntée n’est pas la tienne."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

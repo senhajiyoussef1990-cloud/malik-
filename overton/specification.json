@@ -1,0 +1,225 @@
+{
+ "ep": "overton",
+ "nom": "EP41_La_fenetre_d_Overton",
+ "badge": "ÉPISODE 41",
+ "titre": "LA FENÊTRE D’OVERTON",
+ "sous": "« Un pas à la fois »",
+ "accroche": "L’impensable devient normal ?",
+ "apres": "euphemisme",
+ "noms": {
+  "collecteur": "COLLECTEUR",
+  "habitante": "HABITANTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Il y a dix ans, cette idée choquait tout le monde. Aujourd’hui, ça paraît normal."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu as changé d’avis d’un coup, ou petit à petit ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Petit à petit… Je ne sais même plus quand."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "C’est tout le principe. Allons voir une fenêtre."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, où un impôt frappe les portes et les fenêtres."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un tel impôt a vraiment existé, en France comme ailleurs."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Au début, il est minuscule. Un sou par fenêtre. Personne ne proteste."
+  ],
+  [
+   "s05a",
+   5,
+   "collecteur",
+   0.4,
+   "Un petit sou de plus, cette année. Rien de bien méchant, n’est-ce pas ?"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "L’année suivante, encore un sou. Puis un autre. Puis un autre."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Chaque hausse paraît petite comparée à la précédente."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Certains finissent par murer leurs fenêtres pour payer moins."
+  ],
+  [
+   "s07a",
+   7,
+   "habitante",
+   0.4,
+   "On vit dans le noir… Mais bon, ça s’est fait petit à petit."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais si on leur avait tout demandé d’un coup, ils auraient refusé !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Personne n’accepte un grand saut. Beaucoup acceptent une série de petits pas."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Dans les années mille neuf cent quatre-vingt-dix, Joseph Overton décrit une fenêtre des idées acceptables."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Une idée passe d’impensable à radicale, puis acceptable, puis raisonnable, puis normale."
+  ],
+  [
+   "s09b",
+   9,
+   "collecteur",
+   0.4,
+   "Ne demandez jamais tout. Demandez juste un peu plus que l’an dernier."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Cette fenêtre peut s’ouvrir dans les deux sens : vers le mieux ou vers le pire."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Ce qui compte, c’est de remarquer quand elle bouge, et qui la pousse."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc on peut me faire accepter n’importe quoi, pas à pas ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Beaucoup de choses, si tu ne regardes jamais d’où tu es parti."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour voir le chemin, il faut parfois comparer avec dix ans plus tôt."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ce qui paraît normal aujourd’hui n’était peut-être pas normal hier."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un pas à la fois, on peut te faire aller très loin."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais comparer ce que je pense avec ce que je pensais il y a dix ans."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et te demander si c’est toi qui as changé, ou si on t’a fait marcher."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "D’où suis-je parti, et qui m’a fait avancer ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Regarde le chemin, pas seulement le dernier pas."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

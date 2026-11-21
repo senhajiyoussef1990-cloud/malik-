@@ -1,0 +1,225 @@
+{
+ "ep": "serrure",
+ "nom": "EP38_Les_images_dans_nos_tetes",
+ "badge": "ÉPISODE 38",
+ "titre": "LES IMAGES DANS NOS TÊTES",
+ "sous": "« Le monde par le trou de la serrure »",
+ "accroche": "Ce que tu sais du monde… vient d’où ?",
+ "apres": "couveuses",
+ "noms": {
+  "redacteur": "RÉDACTEUR",
+  "lecteur": "LECTEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ce pays lointain est dangereux. Je le sais, je le vois tout le temps aux infos."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu y es déjà allé ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais j’ai une image très claire dans ma tête."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Une image dans ta tête. Allons voir qui l’y a mise."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Direction l’Amérique, en mille neuf cent vingt-deux."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un journaliste, Walter Lippmann, publie un livre sur l’opinion publique."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il explique que nous ne connaissons pas le monde directement."
+  ],
+  [
+   "s05a",
+   5,
+   "redacteur",
+   0.4,
+   "Le monde est trop grand. Nous le voyons à travers des images simplifiées."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Ces images toutes faites, il les appelle des stéréotypes."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les journaux choisissent quoi montrer… et quoi laisser dans l’ombre."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Comme si l’on regardait une pièce entière par le trou d’une serrure."
+  ],
+  [
+   "s07a",
+   7,
+   "lecteur",
+   0.4,
+   "Je lis le journal chaque matin. Je sais tout ce qui se passe dans le monde !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il ne voit qu’un tout petit bout !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Et il croit voir toute la pièce."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Lippmann parle même de fabriquer le consentement de l’opinion."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Pour lui, les dirigeants peuvent façonner ce que pense le public."
+  ],
+  [
+   "s09b",
+   9,
+   "redacteur",
+   0.4,
+   "Choisissez bien les images, et le public pensera ce que vous voulez."
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Des décennies plus tard, cette expression deviendra le titre d’un livre critique."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les écrans montrent des images en continu. Mais toujours choisies."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon image de ce pays vient surtout de ce qu’on m’a montré ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et souvent des mauvaises nouvelles, parce qu’elles attirent l’attention."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un pays, ce sont des millions de vies ordinaires qu’on ne montre jamais."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Varier ses sources, c’est agrandir le trou de la serrure."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Tu ne vois du monde que ce qu’on te montre."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais lire des gens qui vivent vraiment là-bas."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Excellente idée. Ils te montreront ce que la serrure cache."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui m’a montré cette image, et qu’est-ce qu’il a laissé de côté ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le monde est plus grand que l’écran."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

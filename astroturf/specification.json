@@ -1,0 +1,225 @@
+{
+ "ep": "astroturf",
+ "nom": "EP30_Le_faux_mouvement",
+ "badge": "ÉPISODE 30",
+ "titre": "LE FAUX MOUVEMENT",
+ "sous": "« Des voisins tous payés »",
+ "accroche": "Spontané… ou financé ?",
+ "apres": "ennemi",
+ "noms": {
+  "patron": "PATRON",
+  "voisin": "VOISIN"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Des milliers de citoyens protestent contre le nouveau parc. C’est un vrai mouvement populaire !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Populaire ? Tu sais qui organise ces citoyens ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Eux-mêmes, non ? Ce sont des gens comme toi et moi."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Comme toi et moi… peut-être. Allons voir."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, où l’on veut construire un parc à la place d’une usine."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le patron de l’usine ne veut pas partir. Mais il ne peut pas protester lui-même."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Alors il paie des gens pour protester à sa place."
+  ],
+  [
+   "s05a",
+   5,
+   "patron",
+   0.4,
+   "Habillez-vous en voisins indignés ! Pancartes, lettres au journal, cris dans la rue !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Des lettres arrivent au journal, toutes écrites de la même main."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Des pancartes apparaissent, toutes peintes dans le même atelier."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le journal parle d’un mouvement spontané de colère citoyenne."
+  ],
+  [
+   "s07a",
+   7,
+   "voisin",
+   0.4,
+   "Non au parc ! Nous, simples voisins… payés trois francs la journée."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Ils sont tous payés par l’usine !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Un faux mouvement, déguisé en colère populaire."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "En anglais, on appelle ça l’astroturfing, du nom d’une marque de gazon artificiel."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Un mouvement qui ressemble à de l’herbe, mais en plastique."
+  ],
+  [
+   "s09b",
+   9,
+   "patron",
+   0.4,
+   "Si c’est moi qui parle, on se méfie. Si ce sont des voisins, on les croit !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : faux comptes, pétitions financées, associations prête-noms."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les vrais mouvements citoyens existent. Mais certains sont des façades."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc certains « citoyens en colère » sont des employés ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Parfois. Il faut chercher qui finance, qui organise, et qui en profite."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un vrai mouvement a des visages, des débats, et des désaccords."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un faux mouvement répète partout les mêmes phrases."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un mouvement spontané, ça se finance rarement."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "Je vais regarder qui a créé ce groupe, avant de le partager."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Et si tous les messages se ressemblent mot pour mot. C’est un bon indice."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui organise, et qui paie ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une colère de façade ne mérite pas ta colère."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}
