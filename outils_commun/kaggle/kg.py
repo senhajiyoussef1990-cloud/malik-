@@ -1,6 +1,6 @@
 """Petit client Kaggle (API REST www.kaggle.com/api/v1 ; la clé est injectée par le proxy)."""
 import json, os, sys, time, requests
-B = "https://www.kaggle.com/api/v1"; U = "senhajiyoussef"
+B = "https://www.kaggle.com/api/v1"; U = os.environ.get("KAGGLE_USER", "papisrieux")
 S = requests.Session()
 
 def upload(path):
