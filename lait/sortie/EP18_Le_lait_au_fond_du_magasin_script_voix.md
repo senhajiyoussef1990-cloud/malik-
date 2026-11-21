@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE LAIT AU FOND DU MAGASIN
 *« Le chemin le plus long »*
 
-Durée finale : 2 min 04.3 s
+Durée finale : 2 min 04.7 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:06)
 

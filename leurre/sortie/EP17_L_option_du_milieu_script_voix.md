@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — L’OPTION DU MILIEU
 *« Le leurre »*
 
-Durée finale : 2 min 03.4 s
+Durée finale : 2 min 03.7 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:08)
 

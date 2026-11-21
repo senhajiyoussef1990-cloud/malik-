@@ -383,14 +383,14 @@ magasin est fait pour
 lui, pas pour toi.
 
 97
-00:01:58,466 --> 00:01:59,446
-Arrête de suivre le
+00:01:58,466 --> 00:01:59,716
+Arrête de suivre les
 
 98
-00:01:59,466 --> 00:02:00,746
-troupeau. Suis le renard…
+00:01:59,736 --> 00:02:01,340
+moutons. Suis le renard…
 
 99
-00:02:00,766 --> 00:02:02,974
+00:02:01,360 --> 00:02:03,083
 et pense par toi-même !
 

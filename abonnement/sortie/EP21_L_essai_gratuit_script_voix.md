@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — L’ESSAI GRATUIT
 *« Ce que tu ne refuses pas, tu le paies »*
 
-Durée finale : 1 min 57.3 s
+Durée finale : 1 min 57.6 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 

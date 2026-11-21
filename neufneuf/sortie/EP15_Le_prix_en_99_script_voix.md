@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE PRIX EN 99
 *« Un centime pour ton œil »*
 
-Durée finale : 2 min 03.3 s
+Durée finale : 2 min 03.7 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 

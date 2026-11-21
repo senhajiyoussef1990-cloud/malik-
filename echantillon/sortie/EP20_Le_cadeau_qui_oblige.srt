@@ -331,14 +331,14 @@ un cadeau sans accepter
 la dette.
 
 84
-00:01:50,499 --> 00:01:51,479
-Arrête de suivre le
+00:01:50,499 --> 00:01:51,749
+Arrête de suivre les
 
 85
-00:01:51,499 --> 00:01:52,779
-troupeau. Suis le renard…
+00:01:51,769 --> 00:01:53,373
+moutons. Suis le renard…
 
 86
-00:01:52,799 --> 00:01:55,007
+00:01:53,393 --> 00:01:55,116
 et pense par toi-même !
 

@@ -371,14 +371,14 @@ n’est pas le seul
 qui compte.
 
 94
-00:01:57,473 --> 00:01:58,453
-Arrête de suivre le
+00:01:57,473 --> 00:01:58,723
+Arrête de suivre les
 
 95
-00:01:58,473 --> 00:01:59,753
-troupeau. Suis le renard…
+00:01:58,743 --> 00:02:00,347
+moutons. Suis le renard…
 
 96
-00:01:59,773 --> 00:02:01,981
+00:02:00,367 --> 00:02:02,090
 et pense par toi-même !
 

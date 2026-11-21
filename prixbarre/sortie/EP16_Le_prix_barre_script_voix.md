@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE PRIX BARRÉ
 *« Une affaire, par rapport à quoi ? »*
 
-Durée finale : 2 min 03.4 s
+Durée finale : 2 min 03.8 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:08)
 

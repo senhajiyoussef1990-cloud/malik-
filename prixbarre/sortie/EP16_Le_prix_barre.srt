@@ -379,14 +379,14 @@ qu’on te montre n’est
 pas le bon juge.
 
 96
-00:01:57,578 --> 00:01:58,578
-Arrête de suivre le
+00:01:57,578 --> 00:01:58,828
+Arrête de suivre les
 
 97
-00:01:58,598 --> 00:01:59,858
-troupeau. Suis le renard…
+00:01:58,848 --> 00:02:00,452
+moutons. Suis le renard…
 
 98
-00:01:59,878 --> 00:02:02,086
+00:02:00,472 --> 00:02:02,195
 et pense par toi-même !
 

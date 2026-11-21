@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE CADEAU QUI OBLIGE
 *« La réciprocité »*
 
-Durée finale : 1 min 56.4 s
+Durée finale : 1 min 56.7 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:08)
 

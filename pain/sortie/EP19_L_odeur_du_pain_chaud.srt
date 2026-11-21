@@ -347,14 +347,14 @@ n’est pas une bonne
 affaire.
 
 88
-00:01:49,584 --> 00:01:50,564
-Arrête de suivre le
+00:01:49,584 --> 00:01:50,834
+Arrête de suivre les
 
 89
-00:01:50,584 --> 00:01:51,864
-troupeau. Suis le renard…
+00:01:50,854 --> 00:01:52,458
+moutons. Suis le renard…
 
 90
-00:01:51,884 --> 00:01:54,092
+00:01:52,478 --> 00:01:54,201
 et pense par toi-même !
 

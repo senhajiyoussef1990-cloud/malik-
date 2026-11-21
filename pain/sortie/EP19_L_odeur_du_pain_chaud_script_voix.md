@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — L’ODEUR DU PAIN CHAUD
 *« Ton nez fait tes courses »*
 
-Durée finale : 1 min 55.4 s
+Durée finale : 1 min 55.8 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:06)
 
