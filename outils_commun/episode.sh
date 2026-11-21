@@ -19,5 +19,6 @@ PY
 cd $E && python3 outils/montage.py >> $LOG 2>&1 || exit 2
 python3 $RACINE/outils_commun/story.py sortie/${NOM}_sans_sous_titres.mp4 5 "$3" "$4" "$5" "$6" sortie/${NOM}_story.png fonts >> $LOG 2>&1
 cd sortie && rm -f $NOM.zip && zip -q -0 $NOM.zip $NOM.mp4 ${NOM}_publications.txt ${NOM}_story.png ${NOM}_couverture.png
+python3 $RACINE/outils_commun/allonge_fin.py $E < /dev/null >> $LOG 2>&1   # écran de fin « Abonne-toi »
 [ -f $NOM.zip ] && rm -f ${NOM}_sans_sous_titres.mp4 $E/travail/bande.mp4 $E/travail/mix.wav $A/travail/${N}_scene*_muet.mp4 $A/sortie/${N}_*   # place disque
 echo "FIN $EP" >> $LOG
