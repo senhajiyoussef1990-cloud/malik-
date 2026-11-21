@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LA CHANSON QU’ON FINIT PAR AIMER
 *« Encore et encore »*
 
-Durée finale : 1 min 55.9 s
+Durée finale : 1 min 56.2 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 
@@ -77,7 +77,7 @@ Durée finale : 1 min 55.9 s
 - `01:43,26` **MOUTON** : « Pourquoi je l’entends partout, et qui a payé ? »
 - `01:46,61` **RENARD** : « Voilà. Répéter n’est pas prouver. »
 
-## Scène 16 — SCÈNE 16  (01:49 – 01:55)
+## Scène 16 — SCÈNE 16  (01:49 – 01:56)
 
 - `01:50,05` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 

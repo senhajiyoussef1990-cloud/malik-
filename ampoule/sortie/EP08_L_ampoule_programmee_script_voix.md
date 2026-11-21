@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — L’AMPOULE PROGRAMMÉE
 *« Mille heures, pas une de plus »*
 
-Durée finale : 1 min 54.5 s
+Durée finale : 1 min 54.9 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:06)
 
