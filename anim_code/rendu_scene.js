@@ -37,9 +37,11 @@ const dur = (f) => parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_ent
     const ff = spawn('ffmpeg', ['-y', '-v', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-', ...(process.env.HD ? ['-vf', 'scale=1080:810:flags=lanczos'] : []), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '16', '-pix_fmt', 'yuv420p', tmp], { stdio: ['pipe', 'inherit', 'inherit'] });
     for (let i = 0; i < Math.round(T * FPS); i++) { const d = await img(i / FPS); if (!ff.stdin.write(Buffer.from(d.split(',')[1], 'base64'))) await new Promise(r => ff.stdin.once('drain', r)); }
     ff.stdin.end(); await new Promise(r => ff.on('close', r));
+    if (AUD.length === 0) fs.copyFileSync(tmp, path.join(D, `sortie/${nom}.mp4`)); else {
     const inp = [], fl = []; AUD.forEach(([id, st], k) => { inp.push('-i', path.join(VOIX, id + '.mp3')); const ms = Math.round(st * 1000); fl.push(`[${k + 1}]adelay=${ms}|${ms}[a${k}]`); });
     fl.push(AUD.map((_, k) => `[a${k}]`).join('') + `amix=inputs=${AUD.length}:normalize=0,apad,atrim=0:${T.toFixed(2)},loudnorm=I=-16:TP=-1.5[s]`);
     execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', tmp, ...inp, '-filter_complex', fl.join(';'), '-map', '0:v', '-map', '[s]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', path.join(D, `sortie/${nom}.mp4`)]);
+    }
     fs.writeFileSync(path.join(D, `travail/${nom}.json`), JSON.stringify({ dur: T, lignes: L }));
     console.log('ok', nom, T.toFixed(1), 's');
   }
