@@ -2,7 +2,6 @@
 # Kaggle (compte papisrieux) fait les voix 23-36 ; ici : arrêter la file locale avant sa partie B, récupérer, reprendre les ratées sur GPU, rendre un par un.
 cd /home/user/malik-; K=fabrique-voix-23-36; EPS="file claque rires asch foule bouc ennemi astroturf avis blouse dentistes sucre doute milgram"; O=/tmp/claude-0/kaggle_$K
 # 1) la file locale v3 s'arrête dès qu'elle attaque la partie B
-until grep -q "voix file" travail_voix_local.log; do sleep 30; done; pkill -f voix_local_v3.sh; pkill -f "prises.py file"; echo "$(date +%H:%M) file locale arrêtée (partie B confiée à Kaggle)"
 # 2) attendre Kaggle
 while :; do S=$(python3 outils_commun/kaggle/kg.py status $K | python3 -c "import json,sys;print(json.load(sys.stdin).get('status',''))"); case "$S" in complete|error|cancel*) break;; esac; sleep 120; done
 echo "$(date +%H:%M) Kaggle $S"; mkdir -p $O && python3 outils_commun/kaggle/kg.py output $K $O
