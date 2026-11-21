@@ -12,7 +12,7 @@ for d in ["fonts", "audio"]:
 shutil.copy(f"{R}/bacon/outils/minutage.py", f"{E}/outils/")
 m = open(f"{R}/bacon/outils/montage.py").read()
 m = m.replace('"LE MYTHE DU BACON", "« Les médecins recommandent… »"', json.dumps(S["titre"], ensure_ascii=False) + ", " + json.dumps(S["sous"], ensure_ascii=False))
-m = m.replace("EP11_Le_mythe_du_bacon", S["nom"]).replace("Épisode LE MYTHE DU BACON", "Épisode " + S["titre"])
+m = m.replace("EP01_Le_mythe_du_bacon", S["nom"]).replace("Épisode LE MYTHE DU BACON", "Épisode " + S["titre"])
 m = m.replace('"charcutier": "CHARCUTIER", "bernays": "BERNAYS", "mere": "MÈRE DE FAMILLE"', ", ".join(f'"{k}": "{v}"' for k, v in S["noms"].items()))
 open(f"{E}/outils/montage.py", "w").write(m)
 L = [{"id": i, "plan": k + 1, "scene": s, "who": w, "pause": p, "text": t} for k, (i, s, w, p, t, *_) in enumerate(S["lignes"])]

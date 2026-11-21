@@ -11,7 +11,7 @@ P = lambda *a: os.path.join(R, *a)
 W, H, FPS = 1080, 1920, 30
 BAND_Y = 540; BW, BH = 1080, 810
 TITRE, SOUS = "LES FAUX AVIS", "« Cinq étoiles, écrites par qui ? »"
-NOM = "EP01_Le_mythe_du_bacon"
+NOM = "EP31_Les_faux_avis"
 FILIGRANE = "© Ne suis pas les moutons"
 F_T, F_C = P("fonts/oswald-latin-700-normal.ttf"), P("fonts/inter-latin-700-normal.ttf")
 F_I = P("fonts/roboto-latin-500-italic.ttf")

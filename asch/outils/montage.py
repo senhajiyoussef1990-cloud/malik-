@@ -11,7 +11,7 @@ P = lambda *a: os.path.join(R, *a)
 W, H, FPS = 1080, 1920, 30
 BAND_Y = 540; BW, BH = 1080, 810
 TITRE, SOUS = "LES LIGNES D’ASCH", "« La majorité peut avoir tort »"
-NOM = "EP01_Le_mythe_du_bacon"
+NOM = "EP26_Les_lignes_d_Asch"
 FILIGRANE = "© Ne suis pas les moutons"
 F_T, F_C = P("fonts/oswald-latin-700-normal.ttf"), P("fonts/inter-latin-700-normal.ttf")
 F_I = P("fonts/roboto-latin-500-italic.ttf")

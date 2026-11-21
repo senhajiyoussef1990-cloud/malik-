@@ -32,6 +32,7 @@ for L in json.load(open(f"{R}/lignes.json")):
         else: B2 = B
         sc = r - .15 * (A[-1:] != B2[-1:]) - .03 * max(0, len(B) - len(A)) + .05 * difflib.SequenceMatcher(None, A, B2).ratio()
         if best is None or sc > best[0]: best = (sc, f, fin, txt, r)
+    if best is None: continue                                   # aucune prise (ex. phrase finale copiée)
     sc, f, fin, txt, r = best
     # couper juste après le dernier mot reconnu du texte
     d = len(audio(f)) / 16000; fin = min(d, fin + .3)
