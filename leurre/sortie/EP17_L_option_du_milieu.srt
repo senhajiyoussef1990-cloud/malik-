@@ -375,14 +375,14 @@ Voilà. Un bon choix
 commence avant le menu.
 
 95
-00:01:57,552 --> 00:01:58,532
-Arrête de suivre le
+00:01:57,552 --> 00:01:58,712
+Arrête de suivre les
 
 96
-00:01:58,552 --> 00:01:59,832
-troupeau. Suis le renard…
+00:01:58,732 --> 00:02:00,231
+moutons. Suis le renard…
 
 97
-00:01:59,852 --> 00:02:02,060
+00:02:00,251 --> 00:02:01,869
 et pense par toi-même !
 
