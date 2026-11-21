@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE COW-BOY DES CIGARETTES
 *« On t’a vendu un personnage »*
 
-Durée finale : 2 min 01.8 s
+Durée finale : 2 min 02.1 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:08)
 
@@ -77,7 +77,7 @@ Durée finale : 2 min 01.8 s
 - `01:47,95` **MOUTON** : « Qui joue ce rôle, et qu’est-ce qu’on me vend vraiment ? »
 - `01:50,88` **RENARD** : « Voilà. Un héros d’affiche ne fume pas pour toi… il fume pour la marque. »
 
-## Scène 16 — SCÈNE 16  (01:55 – 02:01)
+## Scène 16 — SCÈNE 16  (01:55 – 02:02)
 
 - `01:55,94` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 

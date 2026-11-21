@@ -351,14 +351,14 @@ est souvent un argument
 de vente.
 
 89
-00:01:50,394 --> 00:01:51,374
-Arrête de suivre le
+00:01:50,394 --> 00:01:51,644
+Arrête de suivre les
 
 90
-00:01:51,394 --> 00:01:52,674
-troupeau. Suis le renard…
+00:01:51,664 --> 00:01:53,268
+moutons. Suis le renard…
 
 91
-00:01:52,694 --> 00:01:54,902
+00:01:53,288 --> 00:01:55,011
 et pense par toi-même !
 

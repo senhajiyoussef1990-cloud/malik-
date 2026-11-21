@@ -339,14 +339,14 @@ Voilà. Un slogan n’est
 pas une étude.
 
 86
-00:01:49,741 --> 00:01:50,721
-Arrête de suivre le
+00:01:49,741 --> 00:01:50,991
+Arrête de suivre les
 
 87
-00:01:50,741 --> 00:01:52,021
-troupeau. Suis le renard…
+00:01:51,011 --> 00:01:52,615
+moutons. Suis le renard…
 
 88
-00:01:52,041 --> 00:01:54,249
+00:01:52,635 --> 00:01:54,358
 et pense par toi-même !
 

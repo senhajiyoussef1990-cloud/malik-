@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE REPAS LE PLUS IMPORTANT
 *« Dit le vendeur de céréales »*
 
-Durée finale : 1 min 55.6 s
+Durée finale : 1 min 55.9 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:08)
 

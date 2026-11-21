@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LES POILS DE LA HONTE
 *« Créer un complexe »*
 
-Durée finale : 2 min 02.4 s
+Durée finale : 2 min 02.8 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 

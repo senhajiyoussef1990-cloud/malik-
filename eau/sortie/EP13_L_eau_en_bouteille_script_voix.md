@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — L’EAU EN BOUTEILLE
 *« Vendre ce qui est gratuit »*
 
-Durée finale : 1 min 58.2 s
+Durée finale : 1 min 58.5 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:06)
 

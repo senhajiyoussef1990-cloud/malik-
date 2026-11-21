@@ -355,14 +355,14 @@ approbation… ni de la
 leur.
 
 90
-00:01:56,585 --> 00:01:57,585
-Arrête de suivre le
+00:01:56,585 --> 00:01:57,835
+Arrête de suivre les
 
 91
-00:01:57,605 --> 00:01:58,865
-troupeau. Suis le renard…
+00:01:57,855 --> 00:01:59,459
+moutons. Suis le renard…
 
 92
-00:01:58,885 --> 00:02:01,093
+00:01:59,479 --> 00:02:01,202
 et pense par toi-même !
 

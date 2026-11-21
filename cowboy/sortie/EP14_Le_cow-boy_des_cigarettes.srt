@@ -367,14 +367,14 @@ toi… il fume pour
 la marque.
 
 93
-00:01:55,949 --> 00:01:56,929
-Arrête de suivre le
+00:01:55,949 --> 00:01:57,199
+Arrête de suivre les
 
 94
-00:01:56,949 --> 00:01:58,229
-troupeau. Suis le renard…
+00:01:57,219 --> 00:01:58,823
+moutons. Suis le renard…
 
 95
-00:01:58,249 --> 00:02:00,457
+00:01:58,843 --> 00:02:00,566
 et pense par toi-même !
 

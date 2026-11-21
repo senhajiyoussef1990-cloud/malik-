@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LA MAUVAISE HALEINE
 *« Inventer le problème »*
 
-Durée finale : 1 min 56.3 s
+Durée finale : 1 min 56.6 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:06)
 

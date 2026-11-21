@@ -347,14 +347,14 @@ ne rend pas l’eau
 meilleure.
 
 88
-00:01:52,301 --> 00:01:53,281
-Arrête de suivre le
+00:01:52,301 --> 00:01:53,551
+Arrête de suivre les
 
 89
-00:01:53,301 --> 00:01:54,581
-troupeau. Suis le renard…
+00:01:53,571 --> 00:01:55,175
+moutons. Suis le renard…
 
 90
-00:01:54,601 --> 00:01:56,809
+00:01:55,195 --> 00:01:56,918
 et pense par toi-même !
 
