@@ -327,14 +327,14 @@ Voilà. Un symbole ne
 remplace pas le produit.
 
 83
-00:01:50,634 --> 00:01:51,634
-Arrête de suivre le
+00:01:50,634 --> 00:01:51,884
+Arrête de suivre les
 
 84
-00:01:51,654 --> 00:01:52,914
-troupeau. Suis le renard…
+00:01:51,904 --> 00:01:53,508
+moutons. Suis le renard…
 
 85
-00:01:52,934 --> 00:01:55,142
+00:01:53,528 --> 00:01:55,251
 et pense par toi-même !
 

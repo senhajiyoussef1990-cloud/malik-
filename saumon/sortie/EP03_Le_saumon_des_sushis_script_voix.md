@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE SAUMON DES SUSHIS
 *« Change l’étiquette… »*
 
-Durée finale : 1 min 56.1 s
+Durée finale : 1 min 57.1 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 
@@ -77,7 +77,7 @@ Durée finale : 1 min 56.1 s
 - `01:43,42` **MOUTON** : « Qui a choisi ce nom, et pourquoi celui-là ? »
 - `01:46,90` **RENARD** : « Exactement. Un nom aussi peut être une réclame. »
 
-## Scène 16 — SCÈNE 16  (01:50 – 01:56)
+## Scène 16 — SCÈNE 16  (01:50 – 01:57)
 
 - `01:50,89` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 

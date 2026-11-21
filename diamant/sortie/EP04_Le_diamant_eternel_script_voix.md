@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LE DIAMANT ÉTERNEL
 *« Deux mois de salaire »*
 
-Durée finale : 1 min 50.5 s
+Durée finale : 1 min 50.9 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:07)
 

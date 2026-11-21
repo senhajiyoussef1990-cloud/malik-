@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LA RÉDUFLATION
 *« Le paquet qui rétrécit »*
 
-Durée finale : 1 min 49.8 s
+Durée finale : 1 min 50.1 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:06)
 
@@ -77,7 +77,7 @@ Durée finale : 1 min 49.8 s
 - `01:37,25` **MOUTON** : « Combien il y en a, et combien ça coûte au kilo ? »
 - `01:40,29` **RENARD** : « Voilà. Le prix affiché ne dit pas tout. »
 
-## Scène 16 — SCÈNE 16  (01:43 – 01:49)
+## Scène 16 — SCÈNE 16  (01:43 – 01:50)
 
 - `01:43,94` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 

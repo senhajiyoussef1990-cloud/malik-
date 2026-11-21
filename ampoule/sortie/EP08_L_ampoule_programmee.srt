@@ -319,14 +319,14 @@ Voilà. Un objet solide,
 c’est aussi une économie.
 
 81
-00:01:48,675 --> 00:01:49,675
-Arrête de suivre le
+00:01:48,675 --> 00:01:49,925
+Arrête de suivre les
 
 82
-00:01:49,695 --> 00:01:50,955
-troupeau. Suis le renard…
+00:01:49,945 --> 00:01:51,549
+moutons. Suis le renard…
 
 83
-00:01:50,975 --> 00:01:53,183
+00:01:51,569 --> 00:01:53,292
 et pense par toi-même !
 

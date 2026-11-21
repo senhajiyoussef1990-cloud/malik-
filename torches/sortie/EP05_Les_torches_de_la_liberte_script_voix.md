@@ -1,7 +1,7 @@
 # NE SUIS PAS LES MOUTONS — LES TORCHES DE LA LIBERTÉ
 *« On t’a vendu une cigarette »*
 
-Durée finale : 1 min 56.5 s
+Durée finale : 1 min 56.8 s
 
 ## Scène 01 — SCÈNE 01  (00:00 – 00:09)
 

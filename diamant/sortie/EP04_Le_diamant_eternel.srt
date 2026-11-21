@@ -331,14 +331,14 @@ Voilà. Une tradition peut
 aussi être un slogan.
 
 84
-00:01:44,678 --> 00:01:45,678
-Arrête de suivre le
+00:01:44,678 --> 00:01:45,928
+Arrête de suivre les
 
 85
-00:01:45,698 --> 00:01:46,958
-troupeau. Suis le renard…
+00:01:45,948 --> 00:01:47,552
+moutons. Suis le renard…
 
 86
-00:01:46,978 --> 00:01:49,186
+00:01:47,572 --> 00:01:49,295
 et pense par toi-même !
 

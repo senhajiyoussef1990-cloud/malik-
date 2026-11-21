@@ -323,14 +323,14 @@ Exactement. Un nom aussi
 peut être une réclame.
 
 82
-00:01:50,895 --> 00:01:51,795
-Arrête de suivre le
+00:01:50,895 --> 00:01:52,145
+Arrête de suivre les
 
 83
-00:01:51,815 --> 00:01:53,215
-troupeau. Suis le renard…
+00:01:52,165 --> 00:01:53,769
+moutons. Suis le renard…
 
 84
-00:01:53,235 --> 00:01:54,776
+00:01:53,789 --> 00:01:55,512
 et pense par toi-même !
 
