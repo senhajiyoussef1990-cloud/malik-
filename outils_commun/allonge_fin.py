@@ -13,7 +13,7 @@ N = duree(CARTE)
 def pcm(args): return np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", *args, "-ac", "1", "-ar", "48000", "-f", "s16le", "-"], capture_output=True).stdout, np.int16).astype(np.float32)
 rms = lambda a: float(np.sqrt(np.mean(a ** 2)) + 1e-6) if len(a) else 1.0
 mus = f"{R}/audio/musique.wav"; md = duree(mus); st = coupe % md
-g = min(4.0, rms(pcm(["-ss", f"{coupe - 1.4:.2f}", "-t", "1.2", "-i", mp4])) / rms(pcm(["-ss", f"{max(0, st - 1.4):.2f}", "-t", "1.2", "-i", mus])))
+g = min(6.0, 10 ** (-24 / 20) * 32768 / rms(pcm(["-ss", f"{st:.2f}", "-t", f"{N:.2f}", "-i", mus])))   # musique de fin à un niveau fixe (~ -24 dB)
 ding = f"{R}/audio/sfx_ding.wav" if os.path.exists(f"{R}/audio/sfx_ding.wav") else glob.glob(f"{R}/../*/audio/sfx_ding.wav")[0]
 out = mp4[:-4] + ".tmp.mp4"
 fc = (f"[0:v]trim=0:{coupe:.3f},setpts=PTS-STARTPTS,fps=30,format=yuv420p[v0];"
