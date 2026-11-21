@@ -53,7 +53,8 @@
   "scene": 4,
   "who": "narr",
   "pause": 0.4,
-  "text": "Or la mode change : les robes découvrent les bras, puis les jambes."
+  "text": "Or la mode change : les robes découvrent les bras, puis les jambes.",
+  "dit": "Or, la mode change. Les robes découvrent les bras… puis les jambes."
  },
  {
   "id": "s05a",
@@ -109,7 +110,8 @@
   "scene": 8,
   "who": "renard",
   "pause": 0.5,
-  "text": "Oui. On a appris aux gens à avoir honte d’eux-mêmes."
+  "text": "Oui. On a appris aux gens à avoir honte d’eux-mêmes.",
+  "dit": "Oui. On a appris aux gens à avoir honte… d’eux-mêmes."
  },
  {
   "id": "s08b",
@@ -125,7 +127,8 @@
   "scene": 9,
   "who": "narr",
   "pause": 0.4,
-  "text": "Les réclames répètent le mot : disgracieux, disgracieux, disgracieux."
+  "text": "Les réclames répètent le mot : disgracieux, disgracieux, disgracieux.",
+  "dit": "Les réclames répètent le mot. Disgracieux. Disgracieux. Disgracieux."
  },
  {
   "id": "s09b",

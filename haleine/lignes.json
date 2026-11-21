@@ -69,7 +69,8 @@
   "scene": 5,
   "who": "narr",
   "pause": 0.4,
-  "text": "Ils dénichent un vieux mot savant, presque oublié : l’halitose."
+  "text": "Ils dénichent un vieux mot savant, presque oublié : l’halitose.",
+  "dit": "Ils dénichent un vieux mot savant, presque oublié : halitose."
  },
  {
   "id": "s06a",
@@ -149,7 +150,8 @@
   "scene": 10,
   "who": "narr",
   "pause": 0.4,
-  "text": "D’autres marques copient la recette : un mot savant, une honte, un remède."
+  "text": "D’autres marques copient la recette : un mot savant, une honte, un remède.",
+  "dit": "D’autres marques copient la recette. Un mot savant. Une honte. Un remède."
  },
  {
   "id": "s11a",

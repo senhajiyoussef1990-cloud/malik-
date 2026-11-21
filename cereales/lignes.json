@@ -197,7 +197,8 @@
   "scene": 14,
   "who": "narr",
   "pause": 0.4,
-  "text": "Retour à notre petit-déjeuner."
+  "text": "Retour à notre petit-déjeuner.",
+  "dit": "Retour… à notre petit-déjeuner."
  },
  {
   "id": "s15a",

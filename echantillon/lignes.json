@@ -109,7 +109,8 @@
   "scene": 8,
   "who": "renard",
   "pause": 0.5,
-  "text": "Peu importe. Recevoir crée une dette. Et on n’aime pas avoir de dettes."
+  "text": "Peu importe. Recevoir crée une dette. Et on n’aime pas avoir de dettes.",
+  "dit": "Peu importe. Recevoir, crée une dette. Et on n’aime pas avoir de dettes."
  },
  {
   "id": "s08b",

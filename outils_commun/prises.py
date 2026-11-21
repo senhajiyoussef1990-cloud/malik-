@@ -13,7 +13,7 @@ import re as _re
 ANGLAIS = {"bacon": "békeune", "bacons": "békeunes", "hamburger": "ambeurgueur", "hamburgers": "ambeurgueurs", "cheeseburger": "tchizbeurgueur",
            "ketchup": "kètcheupe", "milkshake": "milkchéque", "juke-box": "djoukboxe", "jukebox": "djoukboxe", "payola": "péyola",
            "Bernays": "Bernaisse", "Edward": "Èdouard", "Daily": "Déïli", "News": "Niouze", "Times": "Taïmz", "Herald": "Hèrald",
-           "show": "chô", "fast-food": "fastefoude", "marketing": "markètingue", "manager": "manadjeur", "people": "pipeule",
+           "show": "chô", "cow-boy": "kaoboï", "cow-boys": "kaoboïs", "cowboy": "kaoboï", "fast-food": "fastefoude", "marketing": "markètingue", "manager": "manadjeur", "people": "pipeule",
            "smartphone": "smartefone", "best-seller": "bèstesèleur", "cow-boy": "kaoboï", "cow-boys": "kaoboïs", "merchandising": "meurchandaïzingue", "pop-corn": "popcorne", "Sunshine": "Seunchaïne", "California": "Kalifornia"}
 def a_l_anglaise(txt):
     return _re.sub(r"[A-Za-zÀ-ÿ-]+", lambda m: ANGLAIS.get(m.group(0), ANGLAIS.get(m.group(0).lower(), m.group(0))), txt)

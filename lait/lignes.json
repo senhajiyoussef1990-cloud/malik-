@@ -117,7 +117,8 @@
   "scene": 8,
   "who": "narr",
   "pause": 0.4,
-  "text": "Les produits de base sont placés loin de l’entrée : lait, pain, œufs."
+  "text": "Les produits de base sont placés loin de l’entrée : lait, pain, œufs.",
+  "dit": "Les produits de base sont placés loin de l’entrée. Lait. Pain. Œufs."
  },
  {
   "id": "s09a",

@@ -13,7 +13,8 @@
   "scene": 1,
   "who": "renard",
   "pause": 0.5,
-  "text": "Tu avais faim en entrant ?"
+  "text": "Tu avais faim en entrant ?",
+  "dit": "Tu avais faim, en entrant ?"
  },
  {
   "id": "s02a",
