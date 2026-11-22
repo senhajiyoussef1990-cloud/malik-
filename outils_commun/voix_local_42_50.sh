@@ -26,7 +26,7 @@ reprises() { e=$1; refaits=""
 fini() { e=$1; cp outils_commun/phrase_finale.mp3 $e/voix/s16a.mp3; cp $BON_S14A $e/voix/s14a.mp3; echo "$(date +%H:%M) $e restent faibles : $(faibles $e | tr '\n' ' ')"; }
 rendu() { e=$1; S=$e/specification.json; j() { python3 -c "import json;print(json.load(open('$S'))['$1'])"; }
   echo "$(date +%H:%M) rendu $e"; sh outils_commun/episode.sh $e "$(j nom)" "$(j badge)" "$(j titre)" "$(j sous)" "$(j accroche)"; echo "LIVRE3 $e" >> $LOG; echo "$(date +%H:%M) livré $e"; }
-for e in risque survivant halo recyclage carbone vidange modele ciblage horoscope; do
+for e in survivant halo recyclage carbone vidange modele ciblage horoscope; do
   ids=$(python3 -c "import json;print(' '.join(l['id'] for l in json.load(open('$e/lignes.json')) if l['id'] not in ('s14a','s16a')))")
   echo "$(date +%H:%M) voix $e"
   HF_HUB_DISABLE_XET=1 /root/venvs/cb/bin/python outils_commun/prises.py $e $ids >> $e/travail/prises.log 2>&1
