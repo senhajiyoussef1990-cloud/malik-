@@ -1,0 +1,420 @@
+1
+00:00:00,300 --> 00:00:01,700
+Ce sirop réduit le
+
+2
+00:00:01,720 --> 00:00:02,520
+risque de rhume de
+
+3
+00:00:02,540 --> 00:00:03,099
+moitié !
+
+4
+00:00:03,119 --> 00:00:03,819
+Je vais en acheter
+
+5
+00:00:03,839 --> 00:00:04,964
+trois flacons.
+
+6
+00:00:05,214 --> 00:00:05,994
+De moitié ?
+
+7
+00:00:06,014 --> 00:00:06,994
+Et le risque, au
+
+8
+00:00:07,014 --> 00:00:08,074
+départ, il était de
+
+9
+00:00:08,094 --> 00:00:08,804
+combien ?
+
+10
+00:00:09,510 --> 00:00:10,350
+Je ne sais pas…
+
+11
+00:00:10,370 --> 00:00:11,430
+Mais la moitié, c’est
+
+12
+00:00:11,450 --> 00:00:12,540
+énorme, non ?
+
+13
+00:00:12,910 --> 00:00:13,610
+Ça dépend de quoi
+
+14
+00:00:13,630 --> 00:00:14,310
+on parle.
+
+15
+00:00:14,330 --> 00:00:15,530
+Allons voir un vendeur
+
+16
+00:00:15,550 --> 00:00:16,290
+très doué avec les
+
+17
+00:00:16,310 --> 00:00:17,000
+chiffres.
+
+18
+00:00:17,837 --> 00:00:18,737
+Entrons sur une place
+
+19
+00:00:18,757 --> 00:00:19,977
+de marché d’autrefois,
+
+20
+00:00:19,997 --> 00:00:20,677
+devant une charrette de
+
+21
+00:00:20,697 --> 00:00:22,031
+potions.
+
+22
+00:00:22,382 --> 00:00:23,362
+Un vendeur promet que
+
+23
+00:00:23,382 --> 00:00:24,562
+son élixir protège de
+
+24
+00:00:24,582 --> 00:00:25,652
+la fièvre des marais.
+
+25
+00:00:26,491 --> 00:00:27,531
+Sur mille personnes, deux
+
+26
+00:00:27,551 --> 00:00:28,451
+attrapent la fièvre chaque
+
+27
+00:00:28,471 --> 00:00:30,091
+année. Avec l’élixir, une
+
+28
+00:00:30,111 --> 00:00:30,541
+seule.
+
+29
+00:00:31,723 --> 00:00:32,943
+Mon élixir divise le
+
+30
+00:00:32,963 --> 00:00:34,763
+risque par deux !
+
+31
+00:00:34,783 --> 00:00:34,963
+Cinquante pour cent de
+
+32
+00:00:34,983 --> 00:00:36,126
+malades en moins !
+
+33
+00:00:36,276 --> 00:00:37,036
+Les gens entendent :
+
+34
+00:00:37,056 --> 00:00:38,156
+cinquante pour cent.
+
+35
+00:00:38,176 --> 00:00:39,056
+Ils imaginent la moitié
+
+36
+00:00:39,076 --> 00:00:40,836
+du village sauvée.
+
+37
+00:00:41,586 --> 00:00:42,986
+En réalité, sur mille
+
+38
+00:00:43,006 --> 00:00:44,886
+personnes, l’élixir évite un
+
+39
+00:00:44,906 --> 00:00:45,716
+seul malade.
+
+40
+00:00:46,688 --> 00:00:46,868
+Les neuf cent
+
+41
+00:00:46,888 --> 00:00:48,368
+quatre-vingt-dix-huit autres
+
+42
+00:00:48,388 --> 00:00:49,328
+n’auraient jamais été
+
+43
+00:00:49,348 --> 00:00:50,808
+malades, avec ou sans
+
+44
+00:00:50,828 --> 00:00:51,358
+potion.
+
+45
+00:00:52,417 --> 00:00:53,257
+La moitié des malades
+
+46
+00:00:53,277 --> 00:00:53,997
+en moins ?
+
+47
+00:00:54,017 --> 00:00:55,057
+J’en prends pour toute
+
+48
+00:00:55,077 --> 00:00:56,115
+la famille !
+
+49
+00:00:56,265 --> 00:00:56,905
+Mais ça ne change
+
+50
+00:00:56,925 --> 00:00:58,495
+presque rien pour elle !
+
+51
+00:00:59,355 --> 00:01:00,715
+Exactement. Le chiffre est
+
+52
+00:01:00,735 --> 00:01:01,475
+vrai. Mais il est
+
+53
+00:01:01,495 --> 00:01:02,595
+présenté pour faire peur,
+
+54
+00:01:02,615 --> 00:01:03,345
+puis rassurer.
+
+55
+00:01:03,904 --> 00:01:05,144
+Les spécialistes distinguent
+
+56
+00:01:05,164 --> 00:01:06,244
+le risque relatif et
+
+57
+00:01:06,264 --> 00:01:07,274
+le risque absolu.
+
+58
+00:01:08,870 --> 00:01:10,010
+Le risque relatif dit
+
+59
+00:01:10,030 --> 00:01:10,970
+: moitié moins.
+
+60
+00:01:10,990 --> 00:01:11,990
+Le risque absolu dit
+
+61
+00:01:12,010 --> 00:01:12,890
+: un sur mille.
+
+62
+00:01:13,084 --> 00:01:14,344
+Je ne mens jamais.
+
+63
+00:01:14,364 --> 00:01:15,284
+Je choisis seulement le
+
+64
+00:01:15,304 --> 00:01:16,264
+chiffre qui impressionne le
+
+65
+00:01:16,284 --> 00:01:17,043
+plus !
+
+66
+00:01:17,793 --> 00:01:18,853
+Aujourd’hui, on retrouve ces
+
+67
+00:01:18,873 --> 00:01:19,653
+pourcentages dans les
+
+68
+00:01:19,673 --> 00:01:21,073
+publicités, les titres de
+
+69
+00:01:21,093 --> 00:01:22,273
+journaux et même certaines
+
+70
+00:01:22,293 --> 00:01:23,443
+brochures médicales.
+
+71
+00:01:24,671 --> 00:01:25,891
+Un pourcentage sans le
+
+72
+00:01:25,911 --> 00:01:27,091
+chiffre de départ ne
+
+73
+00:01:27,111 --> 00:01:27,961
+dit presque rien.
+
+74
+00:01:29,407 --> 00:01:30,647
+Donc mon sirop, il
+
+75
+00:01:30,667 --> 00:01:31,487
+protège peut-être une
+
+76
+00:01:31,507 --> 00:01:32,797
+personne sur mille ?
+
+77
+00:01:33,224 --> 00:01:34,684
+Peut-être. Il faut demander
+
+78
+00:01:34,704 --> 00:01:35,644
+: combien de personnes
+
+79
+00:01:35,664 --> 00:01:36,944
+sur cent, avant et
+
+80
+00:01:36,964 --> 00:01:37,784
+après ?
+
+81
+00:01:38,635 --> 00:01:39,975
+Transformer un pourcentage
+
+82
+00:01:39,995 --> 00:01:40,835
+en nombre de personnes
+
+83
+00:01:40,855 --> 00:01:41,695
+rend souvent les choses
+
+84
+00:01:41,715 --> 00:01:42,485
+plus claires.
+
+85
+00:01:43,502 --> 00:01:44,902
+Un grand pourcentage peut
+
+86
+00:01:44,922 --> 00:01:45,942
+cacher un tout petit
+
+87
+00:01:45,962 --> 00:01:46,462
+effet.
+
+88
+00:01:47,244 --> 00:01:48,224
+Cinquante pour cent de
+
+89
+00:01:48,244 --> 00:01:48,884
+quoi ?
+
+90
+00:01:48,904 --> 00:01:50,094
+Voilà la vraie question.
+
+91
+00:01:51,370 --> 00:01:52,300
+Retour au salon.
+
+92
+00:01:53,441 --> 00:01:54,481
+La prochaine fois, je
+
+93
+00:01:54,501 --> 00:01:55,341
+demanderai les vrais nombres
+
+94
+00:01:55,361 --> 00:01:56,091
+avant d’acheter.
+
+95
+00:01:56,658 --> 00:01:57,538
+Bonne idée.
+
+96
+00:01:57,558 --> 00:01:58,798
+Combien sur cent, avant,
+
+97
+00:01:58,818 --> 00:01:59,868
+et combien après.
+
+98
+00:02:00,397 --> 00:02:01,857
+Moitié moins, mais moitié
+
+99
+00:02:01,877 --> 00:02:02,867
+de combien ?
+
+100
+00:02:03,117 --> 00:02:04,877
+Voilà. Un pourcentage seul
+
+101
+00:02:04,897 --> 00:02:05,437
+ne te dit pas
+
+102
+00:02:05,457 --> 00:02:05,867
+tout.
+
+103
+00:02:07,113 --> 00:02:08,113
+Arrête de suivre les
+
+104
+00:02:08,133 --> 00:02:09,133
+moutons. Suis le renard…
+
+105
+00:02:09,153 --> 00:02:11,243
+et pense par toi-même !
+
