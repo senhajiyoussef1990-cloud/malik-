@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mon horoscope dit que je suis généreux mais parfois trop exigeant avec moi-même. C’est tout moi !"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Et ça ne te ressemble pas un peu à tout le monde ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Non, non. C’est vraiment moi. Comment ils savent ?"
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Allons voir une voyante qui connaît tout le village… sans connaître personne."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Entrons dans un village d’autrefois, sous la tente d’une voyante."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Un à un, les villageois s’assoient devant sa boule de cristal."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "À chacun, elle dit presque exactement la même chose."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "voyante",
+  "pause": 0.4,
+  "text": "Je vois en vous une grande force… mais aussi des doutes que vous cachez aux autres."
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Chaque villageois sort émerveillé. Elle a parfaitement décrit sa personnalité."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Mais ces phrases vont à tout le monde. Qui n’a pas de force, et quelques doutes ?"
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Chacun garde ce qui lui ressemble, et oublie le reste."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "villageoise",
+  "pause": 0.4,
+  "text": "Elle a tout deviné sur moi ! Elle a un vrai don !"
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais elle dit la même chose à tout le monde !"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Exactement. Une phrase floue, c’est un miroir. Chacun y voit son propre visage."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "En mille neuf cent quarante-huit, un psychologue, Bertram Forer, fait une expérience."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Il donne à ses étudiants le même portrait. Presque tous le trouvent très juste pour eux."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "voyante",
+  "pause": 0.4,
+  "text": "Je ne lis pas l’avenir. Je lis seulement ce que tout le monde a envie d’entendre !"
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "On appelle ça l’effet Barnum. On le retrouve dans les horoscopes, certains tests de personnalité, et des publicités très flatteuses."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Plus une phrase est vague, plus elle semble parler de nous."
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc mon horoscope va à tout le monde ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Essaie de lire celui d’un autre signe. Il te ira sûrement aussi."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Une description vraiment personnelle dit des choses précises, qu’on peut vérifier."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Si elle peut convenir à n’importe qui, elle ne prouve rien."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Une phrase qui va à tout le monde ne parle de personne."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour au salon."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "La prochaine fois, je lirai aussi les autres signes pour comparer."
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Bonne idée. Tu verras qu’ils se ressemblent beaucoup."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Est-ce que cette phrase irait aussi à mon voisin ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Voilà. Le flou flatte, mais il ne prouve rien."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+ }
+]

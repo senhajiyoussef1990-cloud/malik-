@@ -1,0 +1,225 @@
+{
+ "ep": "survivant",
+ "nom": "EP43_Le_biais_du_survivant",
+ "badge": "ÉPISODE 43",
+ "titre": "LE BIAIS DU SURVIVANT",
+ "sous": "« Et ceux qu’on ne voit pas ? »",
+ "accroche": "Lui a gagné… et les autres ?",
+ "apres": "risque",
+ "noms": {
+  "forain": "FORAIN",
+  "joueur": "JOUEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Tu as vu cet homme ? Il a quitté son travail, il a tout misé, et il est devenu riche !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Lui, oui. Et tous ceux qui ont fait pareil, tu les as vus ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… On ne parle que de lui."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Justement. Allons voir une fête foraine où on ne montre que les gagnants."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une fête foraine d’autrefois, devant la baraque d’une loterie."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Sur la façade, une grande photo : un joueur souriant, les bras pleins de billets."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Le forain la montre à tous les passants."
+  ],
+  [
+   "s05a",
+   5,
+   "forain",
+   0.4,
+   "Regardez cet homme ! Un seul ticket, et il est reparti riche ! Le prochain, c’est vous !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Ce que le forain ne montre pas : les mille joueurs qui ont perdu leur argent."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les perdants rentrent chez eux en silence. Personne ne prend leur photo."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Alors on ne voit que le gagnant, et on croit que gagner est facile."
+  ],
+  [
+   "s07a",
+   7,
+   "joueur",
+   0.4,
+   "S’il a réussi, pourquoi pas moi ? Donnez-moi dix tickets !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il y a des tas de perdants derrière la baraque !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. On ne t’a montré que celui qui a survécu à la loterie."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça le biais du survivant : on juge sur ceux qui restent, en oubliant ceux qui ont disparu."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Pendant une guerre, on voulait renforcer les avions là où les avions revenus avaient des trous."
+  ],
+  [
+   "s09b",
+   9,
+   "forain",
+   0.4,
+   "Je ne mens pas. Je montre juste le bon exemple, et je cache les autres !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : les histoires de réussite, les témoignages de clients ravis, les vidéos de ceux qui sont devenus riches très vite."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Pour un gagnant qu’on met en avant, combien d’échecs restent invisibles ?"
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc celui qui a tout misé, il a eu de la chance ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Peut-être. Et beaucoup d’autres ont tout perdu sans qu’on en parle."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour juger une méthode, il faut regarder aussi ceux qui ont échoué."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Les silencieux comptent autant que ceux qui parlent fort."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Pour un gagnant qu’on te montre, mille perdants qu’on te cache."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je chercherai aussi ceux qui n’ont pas réussi."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Le succès d’un seul ne prouve rien pour tous."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Combien ont essayé, et combien ont échoué ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Regarde aussi ceux qu’on ne te montre pas."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "C’est fou ! J’ai parlé de chaussures de course hier, et ce matin, j’ai vu une pub pour des chaussures de course !"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Coïncidence ? Ou quelqu’un qui sait très bien ce que tu cherches ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais comment il pourrait savoir ?"
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Allons voir un marchand qui écoute aux portes."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Entrons dans une petite ville d’autrefois, chez un marchand ambulant très attentif."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Chaque soir, il passe dans les rues et écoute derrière les portes."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Il note tout dans son carnet : qui a froid, qui attend un bébé, qui a perdu son chapeau."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "marchand",
+  "pause": 0.4,
+  "text": "Madame Martin a parlé de son vieux manteau. Demain matin, je frappe chez elle avec un manteau neuf !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le lendemain, il frappe à la bonne porte, au bon moment, avec le bon produit."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les habitants sont impressionnés. Ce marchand semble lire dans les pensées."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "En échange, il offre des petits services gratuits, pour entrer partout."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "voisin",
+  "pause": 0.4,
+  "text": "Comment savait-il que j’avais besoin d’un parapluie ? Quel marchand formidable !"
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais il les espionne !"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Oui. Ce qu’il vend de mieux, ce n’est pas sa marchandise. C’est ce qu’il sait d’eux."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Aujourd’hui, nos clics, nos recherches et nos déplacements laissent des traces."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Ces traces servent à te montrer la bonne publicité, au bon moment."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "marchand",
+  "pause": 0.4,
+  "text": "Mes services sont gratuits. Le vrai trésor, c’est mon carnet !"
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Beaucoup d’applications gratuites vivent de la publicité, et donc de ce qu’elles savent sur toi."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Une chercheuse, Shoshana Zuboff, appelle cela le capitalisme de surveillance."
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc mon téléphone sait que j’aime courir ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Probablement. Et il le dit à ceux qui veulent te vendre quelque chose."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "On peut regarder les réglages, refuser certains suivis, et réfléchir avant d’accepter."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Quand un service ne coûte rien, il faut se demander qui paie."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Si c’est gratuit, c’est toi qu’on vend."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour au salon."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "La prochaine fois, je regarde ce que les applications ont le droit de savoir."
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Bonne idée. Et tu refuses ce qui n’est pas utile."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Qui paie ce service gratuit, et avec quoi ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Voilà. Tes informations ont un prix."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+ }
+]

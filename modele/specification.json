@@ -1,0 +1,225 @@
+{
+ "ep": "modele",
+ "nom": "EP48_Le_nouveau_modele",
+ "badge": "ÉPISODE 48",
+ "titre": "LE NOUVEAU MODÈLE",
+ "sous": "« Démodé ne veut pas dire cassé »",
+ "accroche": "Ta voiture est vraiment trop vieille ?",
+ "apres": "vidange",
+ "noms": {
+  "carrossier": "CARROSSIER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Mon téléphone a deux ans. Il marche très bien, mais il fait vieux. Je vais acheter le nouveau !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Le nouveau fait quoi de plus ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Il a une nouvelle couleur… et un appareil photo un tout petit peu meilleur."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Une nouvelle couleur. Allons voir un carrossier qui a eu la même idée."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans l’Amérique des années vingt, chez un grand fabricant de voitures."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Ses voitures sont solides. Elles roulent pendant des années."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Problème : quand tout le monde a une voiture qui marche, plus personne n’en achète."
+  ],
+  [
+   "s05a",
+   5,
+   "carrossier",
+   0.4,
+   "Changeons juste la couleur et la forme des phares, chaque année !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Chaque année, un nouveau modèle sort, avec des chromes qui brillent un peu plus."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le moteur est presque le même. Mais l’ancien modèle a soudain l’air démodé."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les voisins remarquent qui a la voiture de l’année, et qui a celle d’avant."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Ma voiture roule parfaitement… mais tout le monde verra qu’elle date de l’an dernier !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais elle marche encore très bien !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Ce n’est pas la voiture qui est usée. C’est l’envie qu’on a fabriquée."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Dans les années vingt, General Motors popularise ce nouveau modèle chaque année."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "On l’appelle l’obsolescence par la mode : on remplace un objet qui fonctionne parce qu’il paraît dépassé."
+  ],
+  [
+   "s09b",
+   9,
+   "carrossier",
+   0.4,
+   "Je ne vends pas des voitures. Je vends l’envie de ne pas paraître en retard !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : téléphones, vêtements, consoles, ordinateurs. Chaque année, un nouveau modèle qui rend l’ancien un peu honteux."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Parfois, le progrès est réel. Souvent, c’est surtout la couleur qui change."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon téléphone peut encore durer longtemps ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "S’il fait ce dont tu as besoin, oui. Ça t’évite une grosse dépense."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Avant d’acheter, on peut lister ce qui manque vraiment à l’ancien."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Si la liste est vide, c’est sans doute la publicité qui parle."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ce qui est démodé marche souvent encore."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je fais la liste de ce qui ne marche plus avant d’acheter."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Si la liste est vide, garde-le."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Il est cassé, ou juste plus à la mode ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. L’envie de nouveau se fabrique aussi."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

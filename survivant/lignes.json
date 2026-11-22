@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Tu as vu cet homme ? Il a quitté son travail, il a tout misé, et il est devenu riche !"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Lui, oui. Et tous ceux qui ont fait pareil, tu les as vus ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Euh… On ne parle que de lui."
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Justement. Allons voir une fête foraine où on ne montre que les gagnants."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Entrons dans une fête foraine d’autrefois, devant la baraque d’une loterie."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Sur la façade, une grande photo : un joueur souriant, les bras pleins de billets."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le forain la montre à tous les passants."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "forain",
+  "pause": 0.4,
+  "text": "Regardez cet homme ! Un seul ticket, et il est reparti riche ! Le prochain, c’est vous !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Ce que le forain ne montre pas : les mille joueurs qui ont perdu leur argent."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les perdants rentrent chez eux en silence. Personne ne prend leur photo."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Alors on ne voit que le gagnant, et on croit que gagner est facile."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "joueur",
+  "pause": 0.4,
+  "text": "S’il a réussi, pourquoi pas moi ? Donnez-moi dix tickets !"
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais il y a des tas de perdants derrière la baraque !"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Oui. On ne t’a montré que celui qui a survécu à la loterie."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "On appelle ça le biais du survivant : on juge sur ceux qui restent, en oubliant ceux qui ont disparu."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Pendant une guerre, on voulait renforcer les avions là où les avions revenus avaient des trous."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "forain",
+  "pause": 0.4,
+  "text": "Je ne mens pas. Je montre juste le bon exemple, et je cache les autres !"
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Aujourd’hui : les histoires de réussite, les témoignages de clients ravis, les vidéos de ceux qui sont devenus riches très vite."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Pour un gagnant qu’on met en avant, combien d’échecs restent invisibles ?"
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc celui qui a tout misé, il a eu de la chance ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Peut-être. Et beaucoup d’autres ont tout perdu sans qu’on en parle."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Pour juger une méthode, il faut regarder aussi ceux qui ont échoué."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les silencieux comptent autant que ceux qui parlent fort."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Pour un gagnant qu’on te montre, mille perdants qu’on te cache."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour au salon."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "La prochaine fois, je chercherai aussi ceux qui n’ont pas réussi."
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Bonne idée. Le succès d’un seul ne prouve rien pour tous."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Combien ont essayé, et combien ont échoué ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Voilà. Regarde aussi ceux qu’on ne te montre pas."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+ }
+]

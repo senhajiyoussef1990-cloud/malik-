@@ -1,0 +1,225 @@
+{
+ "ep": "horoscope",
+ "nom": "EP50_L_horoscope_qui_parle_de_toi",
+ "badge": "ÉPISODE 50",
+ "titre": "L’HOROSCOPE QUI PARLE DE TOI",
+ "sous": "« Une phrase pour tout le monde »",
+ "accroche": "C’est tout moi… vraiment ?",
+ "apres": "ciblage",
+ "noms": {
+  "voyante": "VOYANTE",
+  "villageoise": "VILLAGEOISE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Mon horoscope dit que je suis généreux mais parfois trop exigeant avec moi-même. C’est tout moi !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et ça ne te ressemble pas un peu à tout le monde ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non, non. C’est vraiment moi. Comment ils savent ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir une voyante qui connaît tout le village… sans connaître personne."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, sous la tente d’une voyante."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un à un, les villageois s’assoient devant sa boule de cristal."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "À chacun, elle dit presque exactement la même chose."
+  ],
+  [
+   "s05a",
+   5,
+   "voyante",
+   0.4,
+   "Je vois en vous une grande force… mais aussi des doutes que vous cachez aux autres."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Chaque villageois sort émerveillé. Elle a parfaitement décrit sa personnalité."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais ces phrases vont à tout le monde. Qui n’a pas de force, et quelques doutes ?"
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Chacun garde ce qui lui ressemble, et oublie le reste."
+  ],
+  [
+   "s07a",
+   7,
+   "villageoise",
+   0.4,
+   "Elle a tout deviné sur moi ! Elle a un vrai don !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais elle dit la même chose à tout le monde !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Une phrase floue, c’est un miroir. Chacun y voit son propre visage."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "En mille neuf cent quarante-huit, un psychologue, Bertram Forer, fait une expérience."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Il donne à ses étudiants le même portrait. Presque tous le trouvent très juste pour eux."
+  ],
+  [
+   "s09b",
+   9,
+   "voyante",
+   0.4,
+   "Je ne lis pas l’avenir. Je lis seulement ce que tout le monde a envie d’entendre !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "On appelle ça l’effet Barnum. On le retrouve dans les horoscopes, certains tests de personnalité, et des publicités très flatteuses."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Plus une phrase est vague, plus elle semble parler de nous."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon horoscope va à tout le monde ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Essaie de lire celui d’un autre signe. Il te ira sûrement aussi."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Une description vraiment personnelle dit des choses précises, qu’on peut vérifier."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Si elle peut convenir à n’importe qui, elle ne prouve rien."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une phrase qui va à tout le monde ne parle de personne."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je lirai aussi les autres signes pour comparer."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Tu verras qu’ils se ressemblent beaucoup."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que cette phrase irait aussi à mon voisin ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le flou flatte, mais il ne prouve rien."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

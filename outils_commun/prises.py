@@ -14,7 +14,7 @@ ANGLAIS = {"bacon": "békeune", "bacons": "békeunes", "hamburger": "ambeurgueur
            "ketchup": "kètcheupe", "milkshake": "milkchéque", "juke-box": "djoukboxe", "jukebox": "djoukboxe", "payola": "péyola",
            "Bernays": "Bernaisse", "Edward": "Èdouard", "Daily": "Déïli", "News": "Niouze", "Times": "Taïmz", "Herald": "Hèrald",
            "show": "chô", "Asch": "Ache", "Milgram": "Milgrame", "Stanley": "Stanlé", "Solomon": "Solomone", "Lippmann": "Lipmane", "Walter": "Ouolteur", "Chomsky": "Chomski", "Noam": "Noème", "Herman": "Hèrmane", "Edward": "Èdouard", "Overton": "Ovèrteune", "Joseph": "Djozèf", "astroturfing": "astrotteurfingue", "baskets": "baskètte", "cow-boy": "kaoboï", "cow-boys": "kaoboïs", "cowboy": "kaoboï", "fast-food": "fastefoude", "marketing": "markètingue", "manager": "manadjeur", "people": "pipeule",
-           "smartphone": "smartefone", "best-seller": "bèstesèleur", "cow-boy": "kaoboï", "cow-boys": "kaoboïs", "merchandising": "meurchandaïzingue", "pop-corn": "popcorne", "Sunshine": "Seunchaïne", "California": "Kalifornia"}
+           "smartphone": "smartefone", "best-seller": "bèstesèleur", "cow-boy": "kaoboï", "cow-boys": "kaoboïs", "merchandising": "meurchandaïzingue", "pop-corn": "popcorne", "Sunshine": "Seunchaïne", "General": "Djénéral", "Motors": "Motorz", "Bertram": "Bèrtrame", "Forer": "Foreur", "Shoshana": "Chochana", "Zuboff": "Zouboff", "California": "Kalifornia"}
 def a_l_anglaise(txt):
     return _re.sub(r"[A-Za-zÀ-ÿ-]+", lambda m: ANGLAIS.get(m.group(0), ANGLAIS.get(m.group(0).lower(), m.group(0))), txt)
 m = ChatterboxMultilingualTTS.from_pretrained(device=os.environ.get("DEVICE") or ("cuda" if torch.cuda.is_available() else "cpu")); os.makedirs(f"{R}/travail/essais", exist_ok=True)

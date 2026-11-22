@@ -1,0 +1,225 @@
+{
+ "ep": "vidange",
+ "nom": "EP47_Le_garagiste_presse",
+ "badge": "ÉPISODE 47",
+ "titre": "LE GARAGISTE PRESSÉ",
+ "sous": "« Lis le carnet, pas l’affiche »",
+ "accroche": "Ta voiture en a vraiment besoin ?",
+ "apres": "carbone",
+ "noms": {
+  "garagiste": "GARAGISTE",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Le garage m’a dit de revenir très vite pour une vidange, sinon le moteur risque de casser !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Très vite ? Et ton carnet d’entretien, il dit quoi ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Mon carnet ? Je ne l’ai jamais ouvert."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un garagiste qui adore faire revenir ses clients."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, chez le seul garagiste du coin."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les premières voitures sont fragiles, et les conducteurs ont peur de la panne."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Le garagiste accroche une grande affiche au-dessus de son atelier."
+  ],
+  [
+   "s05a",
+   5,
+   "garagiste",
+   0.4,
+   "Changez l’huile tous les mois ! Sinon, gare au moteur cassé !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le fabricant de la voiture, lui, conseille une fois par an."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais personne ne lit le petit carnet rangé dans la boîte à gants."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "La peur de la panne parle plus fort que le carnet."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Tous les mois ? Je reviens tout de suite. Je ne veux pas tomber en panne !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais l’huile était encore propre !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le garagiste vend de la tranquillité. Et la peur se vend très bien."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Plus on revient souvent, plus le garagiste gagne d’argent."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "L’entretien est utile. Mais trop d’entretien coûte cher, et ne protège pas davantage."
+  ],
+  [
+   "s09b",
+   9,
+   "garagiste",
+   0.4,
+   "Je ne mens pas. Je dis juste un peu plus souvent que nécessaire !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui encore, beaucoup de conducteurs changent l’huile bien plus souvent que ne le demande le constructeur."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "La même logique existe pour beaucoup d’autres services : contrôles, remplacements, révisions."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je peux attendre ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Regarde ce que dit le constructeur. C’est écrit dans le carnet."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Celui qui vend un service n’est pas toujours le mieux placé pour dire combien il en faut."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une deuxième source, c’est souvent une économie."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Lis le carnet, pas l’affiche du garage."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, j’ouvre le carnet avant d’appeler le garage."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu demandes pourquoi, quand on te dit « tout de suite »."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui me conseille, et qu’est-ce qu’il y gagne ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. La peur n’est pas un bon mécanicien."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

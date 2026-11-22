@@ -1,0 +1,225 @@
+{
+ "ep": "ciblage",
+ "nom": "EP49_Le_marchand_qui_ecoute",
+ "badge": "ÉPISODE 49",
+ "titre": "LE MARCHAND QUI ÉCOUTE",
+ "sous": "« Si c’est gratuit, c’est toi qu’on vend »",
+ "accroche": "Comment il savait ?",
+ "apres": "modele",
+ "noms": {
+  "marchand": "MARCHAND",
+  "voisin": "VOISIN"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "C’est fou ! J’ai parlé de chaussures de course hier, et ce matin, j’ai vu une pub pour des chaussures de course !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Coïncidence ? Ou quelqu’un qui sait très bien ce que tu cherches ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Mais comment il pourrait savoir ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un marchand qui écoute aux portes."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une petite ville d’autrefois, chez un marchand ambulant très attentif."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Chaque soir, il passe dans les rues et écoute derrière les portes."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il note tout dans son carnet : qui a froid, qui attend un bébé, qui a perdu son chapeau."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Madame Martin a parlé de son vieux manteau. Demain matin, je frappe chez elle avec un manteau neuf !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le lendemain, il frappe à la bonne porte, au bon moment, avec le bon produit."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les habitants sont impressionnés. Ce marchand semble lire dans les pensées."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "En échange, il offre des petits services gratuits, pour entrer partout."
+  ],
+  [
+   "s07a",
+   7,
+   "voisin",
+   0.4,
+   "Comment savait-il que j’avais besoin d’un parapluie ? Quel marchand formidable !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il les espionne !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Ce qu’il vend de mieux, ce n’est pas sa marchandise. C’est ce qu’il sait d’eux."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Aujourd’hui, nos clics, nos recherches et nos déplacements laissent des traces."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Ces traces servent à te montrer la bonne publicité, au bon moment."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Mes services sont gratuits. Le vrai trésor, c’est mon carnet !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Beaucoup d’applications gratuites vivent de la publicité, et donc de ce qu’elles savent sur toi."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Une chercheuse, Shoshana Zuboff, appelle cela le capitalisme de surveillance."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon téléphone sait que j’aime courir ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Probablement. Et il le dit à ceux qui veulent te vendre quelque chose."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut regarder les réglages, refuser certains suivis, et réfléchir avant d’accepter."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Quand un service ne coûte rien, il faut se demander qui paie."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Si c’est gratuit, c’est toi qu’on vend."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je regarde ce que les applications ont le droit de savoir."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu refuses ce qui n’est pas utile."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui paie ce service gratuit, et avec quoi ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Tes informations ont un prix."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

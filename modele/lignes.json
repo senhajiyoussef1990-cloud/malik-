@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mon téléphone a deux ans. Il marche très bien, mais il fait vieux. Je vais acheter le nouveau !"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Le nouveau fait quoi de plus ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Il a une nouvelle couleur… et un appareil photo un tout petit peu meilleur."
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Une nouvelle couleur. Allons voir un carrossier qui a eu la même idée."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Entrons dans l’Amérique des années vingt, chez un grand fabricant de voitures."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Ses voitures sont solides. Elles roulent pendant des années."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Problème : quand tout le monde a une voiture qui marche, plus personne n’en achète."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "carrossier",
+  "pause": 0.4,
+  "text": "Changeons juste la couleur et la forme des phares, chaque année !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Chaque année, un nouveau modèle sort, avec des chromes qui brillent un peu plus."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le moteur est presque le même. Mais l’ancien modèle a soudain l’air démodé."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les voisins remarquent qui a la voiture de l’année, et qui a celle d’avant."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "cliente",
+  "pause": 0.4,
+  "text": "Ma voiture roule parfaitement… mais tout le monde verra qu’elle date de l’an dernier !"
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais elle marche encore très bien !"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Oui. Ce n’est pas la voiture qui est usée. C’est l’envie qu’on a fabriquée."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Dans les années vingt, General Motors popularise ce nouveau modèle chaque année."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "On l’appelle l’obsolescence par la mode : on remplace un objet qui fonctionne parce qu’il paraît dépassé."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "carrossier",
+  "pause": 0.4,
+  "text": "Je ne vends pas des voitures. Je vends l’envie de ne pas paraître en retard !"
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Aujourd’hui : téléphones, vêtements, consoles, ordinateurs. Chaque année, un nouveau modèle qui rend l’ancien un peu honteux."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Parfois, le progrès est réel. Souvent, c’est surtout la couleur qui change."
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc mon téléphone peut encore durer longtemps ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "S’il fait ce dont tu as besoin, oui. Ça t’évite une grosse dépense."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Avant d’acheter, on peut lister ce qui manque vraiment à l’ancien."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Si la liste est vide, c’est sans doute la publicité qui parle."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Ce qui est démodé marche souvent encore."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour au salon."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "La prochaine fois, je fais la liste de ce qui ne marche plus avant d’acheter."
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Bonne idée. Si la liste est vide, garde-le."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Il est cassé, ou juste plus à la mode ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Voilà. L’envie de nouveau se fabrique aussi."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+ }
+]

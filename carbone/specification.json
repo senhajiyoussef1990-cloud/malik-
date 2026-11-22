@@ -1,0 +1,225 @@
+{
+ "ep": "carbone",
+ "nom": "EP46_La_faute_au_passant",
+ "badge": "ÉPISODE 46",
+ "titre": "LA FAUTE AU PASSANT",
+ "sous": "« Regarde qui est soulagé »",
+ "accroche": "C’est ma faute, vraiment ?",
+ "apres": "recyclage",
+ "noms": {
+  "directeur": "DIRECTEUR",
+  "passant": "PASSANT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai calculé mon empreinte carbone. Je me sens tellement coupable !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et ce calcul, tu sais qui l’a rendu si célèbre ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Des écologistes, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Pas seulement. Allons voir une usine très douée pour montrer les autres du doigt."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, au pied d’une grande usine."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Ses cheminées crachent une fumée noire, jour et nuit."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Les habitants commencent à tousser, et à regarder vers l’usine."
+  ],
+  [
+   "s05a",
+   5,
+   "directeur",
+   0.4,
+   "Ce n’est pas nous ! C’est chacun d’entre vous. Fermez vos fenêtres, éteignez vos bougies !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le directeur colle des affiches partout : chacun doit compter sa propre fumée."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les habitants comptent leurs bougies et leurs poêles. Ils se sentent coupables."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Pendant ce temps, personne ne regarde plus les cheminées de l’usine."
+  ],
+  [
+   "s07a",
+   7,
+   "passant",
+   0.4,
+   "Je vais éteindre ma bougie plus tôt. Tout est de ma faute !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est l’usine qui fume le plus !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le directeur a déplacé la faute sur les épaules de chacun."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Dans les années deux mille, une grande compagnie pétrolière popularise le calcul de l’empreinte carbone personnelle."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les gestes de chacun comptent. Mais ils ne doivent pas faire oublier les plus gros pollueurs."
+  ],
+  [
+   "s09b",
+   9,
+   "directeur",
+   0.4,
+   "Tant qu’ils se disputent entre voisins, ils ne regardent pas mes cheminées !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, on trouve la même méthode ailleurs : rendre chacun coupable, pour éviter les vraies questions."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les deux sont vrais : nos gestes comptent, et les grandes décisions comptent aussi."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je ne dois plus faire attention ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Si. Mais sans oublier de regarder ceux qui décident le plus."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Quand quelqu’un te rend responsable, demande-toi ce qu’il gagne à le faire."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "La culpabilité peut servir à faire taire les questions."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Quand on t’accuse, regarde qui est soulagé."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je ferai attention, mais je regarderai aussi les cheminées."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Tes gestes comptent, et tes questions aussi."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "À qui ça profite, que je me sente coupable ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Regarde aussi qui montre du doigt."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

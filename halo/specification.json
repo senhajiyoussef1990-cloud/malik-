@@ -1,0 +1,225 @@
+{
+ "ep": "halo",
+ "nom": "EP44_L_effet_de_halo",
+ "badge": "ÉPISODE 44",
+ "titre": "L’EFFET DE HALO",
+ "sous": "« Elle est belle, pas forcément le savon »",
+ "accroche": "Si elle l’utilise, c’est que c’est bien ?",
+ "apres": "survivant",
+ "noms": {
+  "actrice": "ACTRICE",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ce shampoing, c’est celui de mon chanteur préféré ! Il doit être génial."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Ton chanteur chante bien. Mais il connaît quoi, aux cheveux ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Il a de beaux cheveux, en tout cas !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir comment une jolie lumière se pose sur un produit."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, à l’époque des grandes vedettes de cinéma."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un fabricant de savon a un problème : son savon ressemble à tous les autres."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il paie une actrice célèbre pour poser avec sa savonnette."
+  ],
+  [
+   "s05a",
+   5,
+   "actrice",
+   0.4,
+   "Mon secret de beauté ? Ce savon, chaque matin !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Sur l’affiche, on voit son sourire, ses cheveux, sa robe de soirée."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Elle est belle et talentueuse. Alors on pense que tout ce qu’elle touche est bon."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Pourtant, le savon n’a pas changé. Seule l’image autour a changé."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Si elle l’utilise, je veux le même ! Je serai belle comme elle !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais sa beauté ne vient pas du savon !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Mais sa lumière déborde sur le produit. C’est ça, le piège."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les psychologues appellent ça l’effet de halo."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Une qualité qu’on admire chez quelqu’un nous fait croire à toutes les autres."
+  ],
+  [
+   "s09b",
+   9,
+   "actrice",
+   0.4,
+   "Je n’y connais rien en savon. Mais on me paie pour sourire avec !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : sportifs qui vendent des montres, chanteurs qui vendent des parfums, influenceurs qui vendent un peu de tout."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Souvent, la célébrité est payée pour prêter son image, pas pour tester le produit."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon chanteur n’a peut-être jamais utilisé ce shampoing ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Peut-être que si. Mais ça ne dit rien sur la qualité du shampoing."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour juger un produit, il faut regarder le produit, pas la personne qui le tient."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Talent, beauté, célébrité : ce ne sont pas des preuves."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Elle est belle, pas forcément le savon."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cache la photo et je lis l’étiquette."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Sans la star, le produit te plairait-il encore ?"
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que j’aime le produit, ou la personne sur la pub ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une belle image ne remplace pas une preuve."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

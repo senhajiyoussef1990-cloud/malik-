@@ -1,0 +1,242 @@
+[
+ {
+  "id": "s01a",
+  "plan": 1,
+  "scene": 1,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Le garage m’a dit de revenir très vite pour une vidange, sinon le moteur risque de casser !"
+ },
+ {
+  "id": "s01b",
+  "plan": 2,
+  "scene": 1,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Très vite ? Et ton carnet d’entretien, il dit quoi ?"
+ },
+ {
+  "id": "s02a",
+  "plan": 3,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mon carnet ? Je ne l’ai jamais ouvert."
+ },
+ {
+  "id": "s02b",
+  "plan": 4,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Allons voir un garagiste qui adore faire revenir ses clients."
+ },
+ {
+  "id": "s03a",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Entrons dans un village d’autrefois, chez le seul garagiste du coin."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Les premières voitures sont fragiles, et les conducteurs ont peur de la panne."
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le garagiste accroche une grande affiche au-dessus de son atelier."
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "garagiste",
+  "pause": 0.4,
+  "text": "Changez l’huile tous les mois ! Sinon, gare au moteur cassé !"
+ },
+ {
+  "id": "s05b",
+  "plan": 9,
+  "scene": 5,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Le fabricant de la voiture, lui, conseille une fois par an."
+ },
+ {
+  "id": "s06a",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Mais personne ne lit le petit carnet rangé dans la boîte à gants."
+ },
+ {
+  "id": "s06b",
+  "plan": 11,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "La peur de la panne parle plus fort que le carnet."
+ },
+ {
+  "id": "s07a",
+  "plan": 12,
+  "scene": 7,
+  "who": "client",
+  "pause": 0.4,
+  "text": "Tous les mois ? Je reviens tout de suite. Je ne veux pas tomber en panne !"
+ },
+ {
+  "id": "s07b",
+  "plan": 13,
+  "scene": 7,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Mais l’huile était encore propre !"
+ },
+ {
+  "id": "s08a",
+  "plan": 14,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Oui. Le garagiste vend de la tranquillité. Et la peur se vend très bien."
+ },
+ {
+  "id": "s08b",
+  "plan": 15,
+  "scene": 8,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Plus on revient souvent, plus le garagiste gagne d’argent."
+ },
+ {
+  "id": "s09a",
+  "plan": 16,
+  "scene": 9,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "L’entretien est utile. Mais trop d’entretien coûte cher, et ne protège pas davantage."
+ },
+ {
+  "id": "s09b",
+  "plan": 17,
+  "scene": 9,
+  "who": "garagiste",
+  "pause": 0.4,
+  "text": "Je ne mens pas. Je dis juste un peu plus souvent que nécessaire !"
+ },
+ {
+  "id": "s10a",
+  "plan": 18,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Aujourd’hui encore, beaucoup de conducteurs changent l’huile bien plus souvent que ne le demande le constructeur."
+ },
+ {
+  "id": "s10b",
+  "plan": 19,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "La même logique existe pour beaucoup d’autres services : contrôles, remplacements, révisions."
+ },
+ {
+  "id": "s11a",
+  "plan": 20,
+  "scene": 11,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Donc je peux attendre ?"
+ },
+ {
+  "id": "s11b",
+  "plan": 21,
+  "scene": 11,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Regarde ce que dit le constructeur. C’est écrit dans le carnet."
+ },
+ {
+  "id": "s12a",
+  "plan": 22,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Celui qui vend un service n’est pas toujours le mieux placé pour dire combien il en faut."
+ },
+ {
+  "id": "s12b",
+  "plan": 23,
+  "scene": 12,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Une deuxième source, c’est souvent une économie."
+ },
+ {
+  "id": "s13a",
+  "plan": 24,
+  "scene": 13,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Lis le carnet, pas l’affiche du garage."
+ },
+ {
+  "id": "s14a",
+  "plan": 25,
+  "scene": 14,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Retour au salon."
+ },
+ {
+  "id": "s15a",
+  "plan": 26,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "La prochaine fois, j’ouvre le carnet avant d’appeler le garage."
+ },
+ {
+  "id": "s15b",
+  "plan": 27,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Bonne idée. Et tu demandes pourquoi, quand on te dit « tout de suite »."
+ },
+ {
+  "id": "s15c",
+  "plan": 28,
+  "scene": 15,
+  "who": "mouton",
+  "pause": 0.5,
+  "text": "Qui me conseille, et qu’est-ce qu’il y gagne ?"
+ },
+ {
+  "id": "s15d",
+  "plan": 29,
+  "scene": 15,
+  "who": "renard",
+  "pause": 0.5,
+  "text": "Voilà. La peur n’est pas un bon mécanicien."
+ },
+ {
+  "id": "s16a",
+  "plan": 30,
+  "scene": 16,
+  "who": "narr",
+  "pause": 0.4,
+  "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+ }
+]

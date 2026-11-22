@@ -1,0 +1,225 @@
+{
+ "ep": "risque",
+ "nom": "EP42_Le_risque_qui_fait_peur",
+ "badge": "ÉPISODE 42",
+ "titre": "LE RISQUE QUI FAIT PEUR",
+ "sous": "« Cinquante pour cent de quoi ? »",
+ "accroche": "Moitié moins de risque… vraiment ?",
+ "apres": "overton",
+ "noms": {
+  "vendeur": "VENDEUR",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ce sirop réduit le risque de rhume de moitié ! Je vais en acheter trois flacons."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "De moitié ? Et le risque, au départ, il était de combien ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Je ne sais pas… Mais la moitié, c’est énorme, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Ça dépend de quoi on parle. Allons voir un vendeur très doué avec les chiffres."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons sur une place de marché d’autrefois, devant une charrette de potions."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un vendeur promet que son élixir protège de la fièvre des marais."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Sur mille personnes, deux attrapent la fièvre chaque année. Avec l’élixir, une seule."
+  ],
+  [
+   "s05a",
+   5,
+   "vendeur",
+   0.4,
+   "Mon élixir divise le risque par deux ! Cinquante pour cent de malades en moins !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les gens entendent : cinquante pour cent. Ils imaginent la moitié du village sauvée."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "En réalité, sur mille personnes, l’élixir évite un seul malade."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les neuf cent quatre-vingt-dix-huit autres n’auraient jamais été malades, avec ou sans potion."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "La moitié des malades en moins ? J’en prends pour toute la famille !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais ça ne change presque rien pour elle !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Le chiffre est vrai. Mais il est présenté pour faire peur, puis rassurer."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les spécialistes distinguent le risque relatif et le risque absolu."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Le risque relatif dit : moitié moins. Le risque absolu dit : un sur mille."
+  ],
+  [
+   "s09b",
+   9,
+   "vendeur",
+   0.4,
+   "Je ne mens jamais. Je choisis seulement le chiffre qui impressionne le plus !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, on retrouve ces pourcentages dans les publicités, les titres de journaux et même certaines brochures médicales."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Un pourcentage sans le chiffre de départ ne dit presque rien."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon sirop, il protège peut-être une personne sur mille ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Peut-être. Il faut demander : combien de personnes sur cent, avant et après ?"
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Transformer un pourcentage en nombre de personnes rend souvent les choses plus claires."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un grand pourcentage peut cacher un tout petit effet."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Cinquante pour cent de quoi ? Voilà la vraie question."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je demanderai les vrais nombres avant d’acheter."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Combien sur cent, avant, et combien après."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Moitié moins, mais moitié de combien ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un pourcentage seul ne te dit pas tout."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

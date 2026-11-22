@@ -1,0 +1,225 @@
+{
+ "ep": "recyclage",
+ "nom": "EP45_Le_logo_qui_rassure",
+ "badge": "ÉPISODE 45",
+ "titre": "LE LOGO QUI RASSURE",
+ "sous": "« Un logo rassurant ne recycle rien »",
+ "accroche": "Ce logo… ça veut dire recyclé ?",
+ "apres": "halo",
+ "noms": {
+  "chiffonnier": "CHIFFONNIER",
+  "voisine": "VOISINE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Pas de souci pour ce pot en plastique, il y a le petit logo avec les flèches. Il sera recyclé !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tu es sûr ? Ce logo, il dit vraiment ce qui va arriver au pot ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Bah… Des flèches en rond, ça veut dire recyclage, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Pas toujours. Allons voir un chiffonnier qui promet de tout réutiliser."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un quartier d’autrefois, au passage du chiffonnier."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Chaque semaine, il ramasse les vieux objets avec sa charrette."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il a peint un joli symbole sur sa charrette : trois flèches qui tournent en rond."
+  ],
+  [
+   "s05a",
+   5,
+   "chiffonnier",
+   0.4,
+   "Donnez-moi tout ! Avec moi, rien ne se perd, tout se transforme !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les habitants sont rassurés. Ils jettent sans se poser de questions."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais derrière la colline, le chiffonnier n’en trie qu’une petite partie."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le reste finit en tas, ou brûle au fond d’un terrain vague."
+  ],
+  [
+   "s07a",
+   7,
+   "voisine",
+   0.4,
+   "Puisqu’il recycle tout, je peux en acheter encore plus !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais presque tout finit dans le tas !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le symbole rassure les gens. Et des gens rassurés jettent plus."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Ce petit symbole indique souvent seulement le type de plastique, pas qu’il sera recyclé."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Dans le monde, une petite partie seulement du plastique est vraiment recyclée."
+  ],
+  [
+   "s09b",
+   9,
+   "chiffonnier",
+   0.4,
+   "Tant qu’ils croient au recyclage, ils ne pensent pas à moins jeter !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui encore, certains fabricants mettent ce logo sur des emballages que presque personne ne recycle."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Se sentir rassuré, c’est parfait pour continuer comme avant."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon pot ne sera peut-être jamais recyclé ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Peut-être pas. Le mieux, c’est souvent d’en utiliser moins."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Réduire et réutiliser passent avant recycler."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un geste rassurant n’est pas toujours un geste utile."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un logo rassurant ne recycle rien."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je regarderai ce qu’on recycle vraiment près de chez moi."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et je choisirai, quand je peux, moins d’emballage."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Ce logo me renseigne, ou il me rassure ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Rassurer n’est pas résoudre."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}
