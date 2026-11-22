@@ -125,7 +125,8 @@
   "scene": 9,
   "who": "narr",
   "pause": 0.4,
-  "text": "Ils retiennent ses conseils : affirmer, répéter, contaminer."
+  "text": "Ils retiennent ses conseils : affirmer, répéter, contaminer.",
+  "dit": "Ils retiennent ses conseils. Affirmer. Répéter. Contaminer."
  },
  {
   "id": "s09b",
