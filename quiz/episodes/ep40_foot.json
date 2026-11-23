@@ -1,0 +1,66 @@
+{
+  "numero": 40,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Premier League : clubs et villes ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quelle ville jouent Arsenal et Chelsea ?",
+      "choix": [
+        "Londres",
+        "Manchester",
+        "Liverpool",
+        "Birmingham"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel pays se joue la Premier League ?",
+      "choix": [
+        "Écosse",
+        "Irlande",
+        "États-Unis",
+        "Angleterre"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club affronte Manchester United dans le derby de Manchester ?",
+      "choix": [
+        "Liverpool",
+        "Everton",
+        "Manchester City",
+        "Leeds United"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quelle ville joue le club d'Everton ?",
+      "choix": [
+        "Manchester",
+        "Liverpool",
+        "Londres",
+        "Newcastle"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Everton est le grand rival de Liverpool, dans la même ville."
+    },
+    {
+      "question": "Quel club a gagné la Premier League en 2004 sans perdre un seul match ?",
+      "choix": [
+        "Arsenal",
+        "Chelsea",
+        "Manchester United",
+        "Liverpool"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "On les a surnommés « les Invincibles »."
+    }
+  ]
+}

@@ -52,14 +52,14 @@
     {
       "question": "Quel a été le score de la finale France-Brésil en 1998 ?",
       "choix": [
-        "1-0",
-        "2-0",
-        "3-0",
-        "3-1"
+        "1 à 0",
+        "2 à 0",
+        "3 à 0",
+        "3 à 1"
       ],
       "reponse": 2,
       "niveau": "difficile",
-      "explication": "Trois à zéro : deux buts de Zidane et un d'Emmanuel Petit."
+      "explication": "Deux buts de Zidane et un d'Emmanuel Petit."
     }
   ]
 }

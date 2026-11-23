@@ -1,0 +1,65 @@
+{
+  "numero": 48,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Histoire de France 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "En quelle année a commencé la Révolution française ?",
+      "choix": [
+        "1689",
+        "1789",
+        "1815",
+        "1848"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel empereur français a perdu la bataille de Waterloo ?",
+      "choix": [
+        "Louis XIV",
+        "Charlemagne",
+        "Jules César",
+        "Napoléon"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel roi était surnommé « le Roi-Soleil » ?",
+      "choix": [
+        "Louis XVI",
+        "Henri IV",
+        "Louis XIV",
+        "François Ier"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quelle ville Jeanne d'Arc est-elle morte ?",
+      "choix": [
+        "Orléans",
+        "Rouen",
+        "Reims",
+        "Paris"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Ce n'est pas Orléans : elle a été brûlée à Rouen, en 1431."
+    },
+    {
+      "question": "Qui a été le premier président de la 5e République ?",
+      "choix": [
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "François Mitterrand",
+        "Vincent Auriol"
+      ],
+      "reponse": 0,
+      "niveau": "difficile"
+    }
+  ]
+}

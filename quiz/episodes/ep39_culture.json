@@ -1,0 +1,64 @@
+{
+  "numero": 39,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Les animaux 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel est le plus grand animal du monde ?",
+      "choix": [
+        "L'éléphant",
+        "La baleine bleue",
+        "La girafe",
+        "Le requin-baleine"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de pattes a un insecte ?",
+      "choix": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel est l'animal terrestre le plus rapide ?",
+      "choix": [
+        "Le lion",
+        "Le lévrier",
+        "L'antilope",
+        "Le guépard"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Comment s'appelle le petit du cheval ?",
+      "choix": [
+        "Le veau",
+        "Le chevreau",
+        "Le poulain",
+        "L'ânon"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Combien de cœurs a une pieuvre ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 2,
+      "niveau": "difficile"
+    }
+  ]
+}

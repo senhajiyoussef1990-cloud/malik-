@@ -1,0 +1,66 @@
+{
+  "numero": 60,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Musique 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Combien de cordes a une guitare classique ?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de notes y a-t-il dans la gamme do, ré, mi, fa, sol, la, si ?",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel pays actuel est né Mozart ?",
+      "choix": [
+        "Allemagne",
+        "Italie",
+        "Autriche",
+        "Suisse"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Il est né à Salzbourg, en Autriche."
+    },
+    {
+      "question": "Combien de touches a un piano classique ?",
+      "choix": [
+        "52",
+        "76",
+        "88",
+        "100"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "52 blanches et 36 noires : 88 touches."
+    },
+    {
+      "question": "Quel instrument de l'orchestre a 47 cordes ?",
+      "choix": [
+        "La harpe",
+        "Le violon",
+        "La contrebasse",
+        "Le violoncelle"
+      ],
+      "reponse": 0,
+      "niveau": "difficile"
+    }
+  ]
+}

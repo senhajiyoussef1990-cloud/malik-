@@ -1,0 +1,65 @@
+{
+  "numero": 38,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Liens de famille 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Le frère de ton père, c'est ton… ?",
+      "choix": [
+        "Cousin",
+        "Grand-père",
+        "Oncle",
+        "Neveu"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "La mère de ta mère, c'est ta… ?",
+      "choix": [
+        "Tante",
+        "Grand-mère",
+        "Cousine",
+        "Sœur"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Le fils de ton oncle, c'est ton… ?",
+      "choix": [
+        "Cousin",
+        "Frère",
+        "Neveu",
+        "Oncle"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Ma sœur a un fils. Pour moi, c'est mon… ?",
+      "choix": [
+        "Cousin",
+        "Fils",
+        "Oncle",
+        "Neveu"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Chaque fille a autant de frères que de sœurs. Chaque garçon a deux fois plus de sœurs que de frères. Combien d'enfants ?",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "4 filles et 3 garçons : chaque fille a 3 sœurs et 3 frères, chaque garçon 4 sœurs et 2 frères."
+    }
+  ]
+}

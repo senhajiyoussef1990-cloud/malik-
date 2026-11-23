@@ -1,0 +1,69 @@
+{
+  "numero": 59,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Questions pièges 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Un train électrique roule vers le nord. De quel côté part sa fumée ?",
+      "choix": [
+        "À gauche",
+        "Il n'y a pas de fumée",
+        "À droite",
+        "Vers le sud"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "Un train électrique ne fait pas de fumée !"
+    },
+    {
+      "question": "Tu as 10 poissons dans un aquarium. 2 se noient. Combien en reste-t-il ?",
+      "choix": [
+        "2",
+        "8",
+        "10",
+        "12"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "Les poissons ne se noient pas !"
+    },
+    {
+      "question": "Un fermier a 5 tas de foin dans un champ et 3 dans un autre. Il les rassemble tous. Combien de tas a-t-il ?",
+      "choix": [
+        "1",
+        "5",
+        "8",
+        "15"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "S'il les rassemble tous, ça fait un seul grand tas !"
+    },
+    {
+      "question": "Avant qu'on le découvre, quel était le plus haut sommet du monde ?",
+      "choix": [
+        "Le K2",
+        "Le mont Blanc",
+        "L'Everest",
+        "Le Kilimandjaro"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "C'était déjà l'Everest : on ne le connaissait juste pas encore !"
+    },
+    {
+      "question": "Une maison a ses 4 murs tournés vers le sud. Un ours passe devant. De quelle couleur est l'ours ?",
+      "choix": [
+        "Brun",
+        "Blanc",
+        "Noir",
+        "Gris"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Une maison dont tous les murs regardent le sud est au pôle Nord : c'est un ours polaire !"
+    }
+  ]
+}

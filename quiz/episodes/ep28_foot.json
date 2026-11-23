@@ -1,0 +1,65 @@
+{
+  "numero": 28,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Ligue des champions : l'histoire ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle compétition oppose chaque année les meilleurs clubs d'Europe ?",
+      "choix": [
+        "Ligue des champions",
+        "Coupe du monde",
+        "Euro",
+        "Copa América"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club français a gagné la Ligue des champions en 1993 ?",
+      "choix": [
+        "Paris Saint-Germain",
+        "AS Monaco",
+        "Olympique Lyonnais",
+        "Olympique de Marseille"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Comment s'appelait la Ligue des champions avant 1992 ?",
+      "choix": [
+        "Coupe UEFA",
+        "Coupe des coupes",
+        "Coupe des champions",
+        "Coupe Intertoto"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club a gagné la finale 2005 après avoir été mené 3 à 0 à la mi-temps ?",
+      "choix": [
+        "Chelsea",
+        "Liverpool",
+        "Arsenal",
+        "Manchester United"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Liverpool est revenu à 3 partout contre l'AC Milan, puis a gagné aux tirs au but."
+    },
+    {
+      "question": "Quel club a gagné les 5 premières Coupes des champions, de 1956 à 1960 ?",
+      "choix": [
+        "Real Madrid",
+        "Benfica",
+        "AC Milan",
+        "Ajax Amsterdam"
+      ],
+      "reponse": 0,
+      "niveau": "difficile"
+    }
+  ]
+}

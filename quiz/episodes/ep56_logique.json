@@ -1,0 +1,68 @@
+{
+  "numero": 56,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Mots et lettres 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien de lettres y a-t-il dans le mot LUNDI ?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel mot se lit pareil dans les deux sens ?",
+      "choix": [
+        "BATEAU",
+        "CANOË",
+        "RADEAU",
+        "KAYAK"
+      ],
+      "reponse": 3,
+      "niveau": "facile",
+      "explication": "K, A, Y, A, K : dans un sens ou dans l'autre, c'est pareil !"
+    },
+    {
+      "question": "Combien de voyelles y a-t-il dans le mot OISEAU ?",
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "O, I, E, A et U : 5 voyelles, et une seule consonne !"
+    },
+    {
+      "question": "Quel pays peut-on écrire avec les lettres du mot CHIEN ?",
+      "choix": [
+        "INDE",
+        "CHINE",
+        "CHILI",
+        "NIGER"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "C, H, I, E, N : on peut écrire CHINE."
+    },
+    {
+      "question": "Quel mot s'écrit avec exactement les mêmes lettres que LIMACE ?",
+      "choix": [
+        "MALICE",
+        "MALLES",
+        "CALMER",
+        "MICHEL"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "L, I, M, A, C, E : on peut écrire MALICE."
+    }
+  ]
+}

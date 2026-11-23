@@ -1,0 +1,65 @@
+{
+  "numero": 27,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Fleuves et océans 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel fleuve traverse l'Égypte ?",
+      "choix": [
+        "Le Congo",
+        "Le Nil",
+        "Le Niger",
+        "Le Tigre"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel océan sépare l'Europe de l'Amérique ?",
+      "choix": [
+        "L'Atlantique",
+        "Le Pacifique",
+        "L'océan Indien",
+        "L'Arctique"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel fleuve traverse Londres ?",
+      "choix": [
+        "La Seine",
+        "Le Rhin",
+        "Le Danube",
+        "La Tamise"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quelle mer se jette le Rhône ?",
+      "choix": [
+        "La Manche",
+        "La mer du Nord",
+        "La Méditerranée",
+        "L'Atlantique"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel fleuve traverse le plus de pays ?",
+      "choix": [
+        "Le Rhin",
+        "Le Danube",
+        "Le Nil",
+        "L'Amazone"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Le Danube traverse 10 pays d'Europe."
+    }
+  ]
+}

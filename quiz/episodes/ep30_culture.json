@@ -1,0 +1,65 @@
+{
+  "numero": 30,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Montagnes et volcans 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel est le plus haut sommet du monde ?",
+      "choix": [
+        "Le K2",
+        "Le mont Blanc",
+        "L'Everest",
+        "Le Kilimandjaro"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quelle chaîne de montagnes se trouve le mont Blanc ?",
+      "choix": [
+        "Les Pyrénées",
+        "Les Alpes",
+        "Les Vosges",
+        "Le Jura"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel pays se trouve le Kilimandjaro ?",
+      "choix": [
+        "Tanzanie",
+        "Kenya",
+        "Ouganda",
+        "Éthiopie"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "L'Everest se trouve à la frontière entre le Népal et quel pays ?",
+      "choix": [
+        "L'Inde",
+        "Le Pakistan",
+        "Le Bhoutan",
+        "La Chine"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Ce n'est pas l'Inde : c'est la Chine !"
+    },
+    {
+      "question": "Quel volcan a détruit la ville romaine de Pompéi, en l'an 79 ?",
+      "choix": [
+        "L'Etna",
+        "Le Stromboli",
+        "Le Vésuve",
+        "Le Fuji"
+      ],
+      "reponse": 2,
+      "niveau": "difficile"
+    }
+  ]
+}

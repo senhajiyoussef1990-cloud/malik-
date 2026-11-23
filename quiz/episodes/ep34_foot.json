@@ -1,0 +1,66 @@
+{
+  "numero": 34,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Légendes du foot (Pelé, Maradona, Zidane…) ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "De quel pays venait Pelé ?",
+      "choix": [
+        "Argentine",
+        "Portugal",
+        "Brésil",
+        "Uruguay"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "De quel pays venait Diego Maradona ?",
+      "choix": [
+        "Brésil",
+        "Argentine",
+        "Uruguay",
+        "Espagne"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de Coupes du monde Pelé a-t-il gagnées ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "En 1958, 1962 et 1970."
+    },
+    {
+      "question": "Quel joueur a marqué le but de « la main de Dieu », en 1986 ?",
+      "choix": [
+        "Pelé",
+        "Michel Platini",
+        "Zico",
+        "Diego Maradona"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Avec quel club Johan Cruyff a-t-il gagné 3 Coupes des champions ?",
+      "choix": [
+        "FC Barcelone",
+        "Feyenoord",
+        "Ajax Amsterdam",
+        "PSV Eindhoven"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "De 1971 à 1973, trois fois de suite."
+    }
+  ]
+}

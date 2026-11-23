@@ -48,6 +48,17 @@ python3 outils/verifier_voix.py --tous
 Chaque phrase est écoutée par une reconnaissance vocale. Les phrases qui ne sonnent pas
 françaises ou qui sont mal prononcées sont listées à la fin.
 
+## Publications et calendrier
+
+```bash
+python3 outils/publications.py --tous   # textes Facebook + Instagram, YouTube, TikTok, stories
+python3 outils/story.py --tous          # image de story de chaque épisode (à poster le matin)
+python3 outils/calendrier.py            # calendrier_quiz.json : 1 épisode par jour à 12 h
+```
+
+`calendrier_quiz.json` contient les entrées Chrono Quiz du « Calendrier des chaînes »
+(même format que les autres chaînes).
+
 ## Plan et ChatGPT
 
 - [`PLAN_100_EPISODES.md`](PLAN_100_EPISODES.md) : les 100 premiers épisodes (thème, sujet, accroche, titre).

@@ -1,0 +1,66 @@
+{
+  "numero": 21,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Capitales des Amériques 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la capitale des États-Unis ?",
+      "choix": [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Washington"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la capitale du Mexique ?",
+      "choix": [
+        "Cancún",
+        "Guadalajara",
+        "Mexico",
+        "Monterrey"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la capitale du Canada ?",
+      "choix": [
+        "Toronto",
+        "Ottawa",
+        "Montréal",
+        "Vancouver"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Ni Toronto ni Montréal : c'est Ottawa !"
+    },
+    {
+      "question": "Quelle est la capitale de l'Argentine ?",
+      "choix": [
+        "Buenos Aires",
+        "Cordoba",
+        "Rosario",
+        "Mendoza"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle est la capitale du Brésil ?",
+      "choix": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador",
+        "Brasilia"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "Ce n'est pas Rio : c'est Brasilia, construite en 1960."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "numero": 26,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Énigmes d'âge 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Léa a 8 ans. Son frère a 2 ans de plus. Quel âge a son frère ?",
+      "choix": [
+        "6",
+        "9",
+        "10",
+        "12"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "8 plus 2 font 10."
+    },
+    {
+      "question": "Dans 5 ans, Tom aura 12 ans. Quel âge a-t-il aujourd'hui ?",
+      "choix": [
+        "5",
+        "7",
+        "8",
+        "17"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "12 moins 5 font 7."
+    },
+    {
+      "question": "Hugo a le double de l'âge de sa sœur, qui a 6 ans. Quel âge aura Hugo dans 3 ans ?",
+      "choix": [
+        "9",
+        "12",
+        "15",
+        "18"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Hugo a 12 ans aujourd'hui, donc 15 ans dans 3 ans."
+    },
+    {
+      "question": "Quand j'avais 6 ans, ma sœur avait la moitié de mon âge. J'ai 20 ans. Quel âge a-t-elle ?",
+      "choix": [
+        "10",
+        "14",
+        "17",
+        "20"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Elle a 3 ans de moins que moi, pour toujours : 20 moins 3 font 17."
+    },
+    {
+      "question": "Un père a 30 ans de plus que son fils. Ensemble, ils ont 40 ans. Quel âge a le fils ?",
+      "choix": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "Le fils a 5 ans et le père 35 : 35 plus 5 font 40."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "numero": 58,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Gardiens légendaires ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel gardien était le capitaine des Bleus champions du monde en 2018 ?",
+      "choix": [
+        "Steve Mandanda",
+        "Fabien Barthez",
+        "Hugo Lloris",
+        "Alphonse Areola"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel gardien était champion du monde 1998 avec la France ?",
+      "choix": [
+        "Bernard Lama",
+        "Fabien Barthez",
+        "Hugo Lloris",
+        "Grégory Coupet"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel gardien italien a gagné la Coupe du monde 2006 ?",
+      "choix": [
+        "Gianluigi Buffon",
+        "Dino Zoff",
+        "Walter Zenga",
+        "Gianluigi Donnarumma"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel gardien espagnol a soulevé la Coupe du monde 2010 comme capitaine ?",
+      "choix": [
+        "Victor Valdés",
+        "Pepe Reina",
+        "David de Gea",
+        "Iker Casillas"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel gardien a été élu meilleur gardien de la Coupe du monde 2014 ?",
+      "choix": [
+        "Keylor Navas",
+        "Tim Howard",
+        "Manuel Neuer",
+        "Sergio Romero"
+      ],
+      "reponse": 2,
+      "niveau": "difficile"
+    }
+  ]
+}

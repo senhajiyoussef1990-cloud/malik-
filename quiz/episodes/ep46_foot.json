@@ -1,0 +1,65 @@
+{
+  "numero": 46,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Serie A italienne ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quel pays se joue la Serie A ?",
+      "choix": [
+        "Espagne",
+        "Portugal",
+        "Italie",
+        "Brésil"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quelle ville jouent l'AC Milan et l'Inter ?",
+      "choix": [
+        "Rome",
+        "Milan",
+        "Turin",
+        "Naples"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quelle ville joue la Juventus ?",
+      "choix": [
+        "Turin",
+        "Milan",
+        "Rome",
+        "Naples"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quel club italien Diego Maradona a-t-il joué ?",
+      "choix": [
+        "Juventus",
+        "AC Milan",
+        "AS Rome",
+        "Naples"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le surnom de l'équipe d'Italie ?",
+      "choix": [
+        "La Seleção",
+        "La Roja",
+        "La Squadra Azzurra",
+        "La Mannschaft"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Azzurra veut dire bleue, la couleur de son maillot."
+    }
+  ]
+}

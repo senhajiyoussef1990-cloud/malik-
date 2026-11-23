@@ -444,6 +444,15 @@ def phrase_reponse(q):
     return phrase
 
 
+def phrase_reponse(q):
+    """Phrase dite à la révélation. « Réponse A : Athènes » était prononcé « Réponds-ça à Taine » ;
+    cette formule est celle que la reconnaissance vocale comprend le mieux (testée sur 5 formules)."""
+    phrase = f"C'était la réponse {LETTRES[q['reponse']]} : {q['choix'][q['reponse']]} !"
+    if q.get("explication"):
+        phrase += " " + q["explication"]
+    return phrase
+
+
 def publication(ep):
     th = THEMES[ep["theme"]].get("court", THEMES[ep["theme"]]["nom"].lower())
     tags = {"foot": "#foot #football #quizfoot", "logique": "#logique #enigme #cassetete",
@@ -523,8 +532,9 @@ def generer(chemin):
             ff.stdin.write(fn(k / FPS).convert("RGB").tobytes())
     ff.stdin.close()
     ff.wait()
+    from publications import texte  # textes pour Facebook, Instagram, YouTube, TikTok et stories
     with open(os.path.join(SORTIE, nom + "_publication.txt"), "w", encoding="utf-8") as f:
-        f.write(publication(ep))
+        f.write(texte(ep, nom + ".mp4"))
     print(f"{mp4}  ({total:.1f} s)")
 
 

@@ -1,0 +1,65 @@
+{
+  "numero": 33,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Le corps humain 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel organe pompe le sang dans tout le corps ?",
+      "choix": [
+        "Le foie",
+        "Les poumons",
+        "Le cerveau",
+        "Le cœur"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de doigts avons-nous en tout, aux mains et aux pieds ?",
+      "choix": [
+        "10",
+        "15",
+        "20",
+        "24"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de dents a un adulte, avec les dents de sagesse ?",
+      "choix": [
+        "28",
+        "30",
+        "32",
+        "36"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "choix": [
+        "La peau",
+        "Le foie",
+        "Les poumons",
+        "L'intestin"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "C'est la peau : elle recouvre tout le corps !"
+    },
+    {
+      "question": "Combien d'os a environ le corps d'un adulte ?",
+      "choix": [
+        "106",
+        "206",
+        "306",
+        "406"
+      ],
+      "reponse": 1,
+      "niveau": "difficile"
+    }
+  ]
+}

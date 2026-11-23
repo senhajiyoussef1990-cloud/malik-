@@ -1,0 +1,66 @@
+{
+  "numero": 42,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Records de la nature 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel est le plus grand désert chaud du monde ?",
+      "choix": [
+        "Le Gobi",
+        "Le Kalahari",
+        "Le Sahara",
+        "L'Atacama"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel est l'animal le plus grand en hauteur ?",
+      "choix": [
+        "L'éléphant",
+        "La girafe",
+        "Le chameau",
+        "L'autruche"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel est le plus grand pays d'Afrique ?",
+      "choix": [
+        "L'Algérie",
+        "Le Nigeria",
+        "L'Égypte",
+        "La RD Congo"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le plus grand désert du monde ?",
+      "choix": [
+        "Le Sahara",
+        "Le Gobi",
+        "L'Arctique",
+        "L'Antarctique"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Un désert, c'est là où il ne pleut presque pas : l'Antarctique est le plus grand !"
+    },
+    {
+      "question": "Quel est le lac le plus profond du monde ?",
+      "choix": [
+        "Le lac Tanganyika",
+        "Le lac Victoria",
+        "Le lac Baïkal",
+        "Le lac Supérieur"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Il se trouve en Russie et dépasse 1600 mètres de profondeur."
+    }
+  ]
+}

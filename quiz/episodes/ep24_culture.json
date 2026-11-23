@@ -1,0 +1,66 @@
+{
+  "numero": 24,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Géographie de la France 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel fleuve traverse Paris ?",
+      "choix": [
+        "La Seine",
+        "La Loire",
+        "Le Rhône",
+        "La Garonne"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle mer borde la ville de Marseille ?",
+      "choix": [
+        "La Manche",
+        "L'Atlantique",
+        "La mer du Nord",
+        "La Méditerranée"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle ville est surnommée « la Ville rose » ?",
+      "choix": [
+        "Lyon",
+        "Bordeaux",
+        "Toulouse",
+        "Nice"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Après Paris, quelle est la ville la plus peuplée de France ?",
+      "choix": [
+        "Lyon",
+        "Marseille",
+        "Toulouse",
+        "Lille"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Marseille compte plus d'habitants que Lyon."
+    },
+    {
+      "question": "Avec combien de pays la France métropolitaine a-t-elle une frontière terrestre ?",
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Andorre et Espagne."
+    }
+  ]
+}

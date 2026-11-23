@@ -63,6 +63,18 @@ def main():
     from faster_whisper import WhisperModel
     modele = WhisperModel(args.modele, device="cpu", compute_type="int8")
 
+    # 1) toutes les voix sont créées d'abord, en parallèle (c'est l'étape la plus lente)
+    from concurrent.futures import ThreadPoolExecutor
+    textes = []
+    for f in fichiers:
+        for t in textes_voix(json.load(open(f, encoding="utf-8"))):
+            if t not in textes:
+                textes.append(t)
+    with ThreadPoolExecutor(6) as ex:
+        list(ex.map(g.tts, textes))
+    print(f"{len(textes)} voix prêtes", flush=True)
+
+    # 2) chaque phrase est écoutée
     vus, douteux = set(), []
     for f in fichiers:
         ep = json.load(open(f, encoding="utf-8"))
@@ -75,10 +87,10 @@ def main():
             if g.SR != 16000:  # rééchantillonnage simple vers 16 kHz
                 n = int(len(audio) * 16000 / g.SR)
                 audio16 = np.interp(np.linspace(0, len(audio) - 1, n), np.arange(len(audio)), audio).astype(np.float32)
-            _, info = modele.transcribe(audio16, beam_size=1)
-            proba_fr = dict(info.all_language_probs or []).get("fr", 0.0)
-            segs, _ = modele.transcribe(audio16, language="fr", beam_size=5)
+            # une seule écoute : la langue est détectée, puis le texte est transcrit dans cette langue
+            segs, info = modele.transcribe(audio16, beam_size=1)
             entendu = " ".join(s.text for s in segs).strip()
+            proba_fr = dict(info.all_language_probs or []).get("fr", 0.0)
             ressemblance = difflib.SequenceMatcher(None, normaliser(texte), normaliser(entendu)).ratio()
             ok = info.language == "fr" and proba_fr >= SEUIL_LANGUE and ressemblance >= SEUIL_TEXTE
             marque = "OK " if ok else "?? "

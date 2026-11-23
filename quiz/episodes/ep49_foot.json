@@ -1,0 +1,64 @@
+{
+  "numero": 49,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Bundesliga allemande ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quel pays se joue la Bundesliga ?",
+      "choix": [
+        "Autriche",
+        "Suisse",
+        "Pays-Bas",
+        "Allemagne"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la couleur principale du maillot du Bayern Munich ?",
+      "choix": [
+        "Bleu",
+        "Jaune",
+        "Rouge",
+        "Vert"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelles sont les couleurs du Borussia Dortmund ?",
+      "choix": [
+        "Rouge et blanc",
+        "Jaune et noir",
+        "Bleu et blanc",
+        "Vert et blanc"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quel club allemand Franck Ribéry a-t-il joué ?",
+      "choix": [
+        "Bayern Munich",
+        "Borussia Dortmund",
+        "Schalke 04",
+        "Hambourg"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel grand joueur allemand était surnommé « le Kaiser » ?",
+      "choix": [
+        "Gerd Müller",
+        "Lothar Matthäus",
+        "Oliver Kahn",
+        "Franz Beckenbauer"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

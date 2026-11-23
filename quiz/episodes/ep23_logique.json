@@ -1,0 +1,69 @@
+{
+  "numero": 23,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Jours et calendrier 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Si aujourd'hui c'est mercredi, quel jour serons-nous dans 2 jours ?",
+      "choix": [
+        "Jeudi",
+        "Vendredi",
+        "Samedi",
+        "Lundi"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "Mercredi, puis jeudi, puis vendredi."
+    },
+    {
+      "question": "Combien de jours y a-t-il dans 3 semaines ?",
+      "choix": [
+        "14",
+        "18",
+        "21",
+        "24"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "3 fois 7 font 21."
+    },
+    {
+      "question": "Combien de mois de l'année ont 31 jours ?",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Janvier, mars, mai, juillet, août, octobre et décembre : 7 mois."
+    },
+    {
+      "question": "Si avant-hier c'était samedi, quel jour sommes-nous aujourd'hui ?",
+      "choix": [
+        "Dimanche",
+        "Mardi",
+        "Lundi",
+        "Vendredi"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Avant-hier samedi, hier dimanche, donc aujourd'hui lundi."
+    },
+    {
+      "question": "Dans une année, combien de mois ont exactement 30 jours ?",
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Avril, juin, septembre et novembre : 4 mois."
+    }
+  ]
+}

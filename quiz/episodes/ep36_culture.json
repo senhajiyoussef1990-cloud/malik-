@@ -1,0 +1,67 @@
+{
+  "numero": 36,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : L'espace et les planètes 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la planète la plus proche du Soleil ?",
+      "choix": [
+        "Mercure",
+        "Vénus",
+        "Mars",
+        "La Terre"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la plus grande planète du système solaire ?",
+      "choix": [
+        "Saturne",
+        "Neptune",
+        "La Terre",
+        "Jupiter"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de planètes compte le système solaire ?",
+      "choix": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Pluton n'est plus considérée comme une planète depuis 2006."
+    },
+    {
+      "question": "Quelle est la planète la plus chaude du système solaire ?",
+      "choix": [
+        "Mercure",
+        "Vénus",
+        "Mars",
+        "Jupiter"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Ce n'est pas Mercure : l'épaisse atmosphère de Vénus garde la chaleur."
+    },
+    {
+      "question": "Combien de temps met la lumière du Soleil pour arriver sur Terre ?",
+      "choix": [
+        "8 minutes",
+        "8 secondes",
+        "8 heures",
+        "8 jours"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "Environ 8 minutes, pour parcourir 150 millions de kilomètres."
+    }
+  ]
+}

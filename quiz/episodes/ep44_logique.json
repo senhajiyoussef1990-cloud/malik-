@@ -1,0 +1,67 @@
+{
+  "numero": 44,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Formes et figures 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien de côtés a un triangle ?",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de coins a un carré ?",
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de faces a un cube ?",
+      "choix": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Comme un dé : 6 faces."
+    },
+    {
+      "question": "Combien d'arêtes a un cube ?",
+      "choix": [
+        "6",
+        "8",
+        "12",
+        "16"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "4 en haut, 4 en bas et 4 sur les côtés : 12."
+    },
+    {
+      "question": "Combien de diagonales a un hexagone ?",
+      "choix": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Chaque sommet en a 3 : 6 fois 3 font 18, divisé par 2, car chaque diagonale est comptée deux fois : 9."
+    }
+  ]
+}

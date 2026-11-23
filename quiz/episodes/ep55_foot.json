@@ -1,0 +1,66 @@
+{
+  "numero": 55,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Coupe d'Afrique des nations ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle équipe nationale est surnommée « les Lions de l'Atlas » ?",
+      "choix": [
+        "Algérie",
+        "Maroc",
+        "Tunisie",
+        "Sénégal"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle équipe nationale est surnommée « les Lions indomptables » ?",
+      "choix": [
+        "Cameroun",
+        "Sénégal",
+        "Nigeria",
+        "Ghana"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle équipe nationale est surnommée « les Fennecs » ?",
+      "choix": [
+        "Maroc",
+        "Tunisie",
+        "Égypte",
+        "Algérie"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a gagné la CAN 2021, jouée au Cameroun ?",
+      "choix": [
+        "Égypte",
+        "Cameroun",
+        "Sénégal",
+        "Algérie"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Le premier titre de son histoire, contre l'Égypte en finale."
+    },
+    {
+      "question": "Quel pays a gagné le plus de Coupes d'Afrique des nations ?",
+      "choix": [
+        "Cameroun",
+        "Égypte",
+        "Ghana",
+        "Nigeria"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "L'Égypte l'a gagnée 7 fois."
+    }
+  ]
+}

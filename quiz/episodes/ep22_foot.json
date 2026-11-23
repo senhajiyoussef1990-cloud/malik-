@@ -1,0 +1,65 @@
+{
+  "numero": 22,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Clubs et surnoms ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel club anglais est surnommé « les Red Devils » ?",
+      "choix": [
+        "Liverpool",
+        "Arsenal",
+        "Manchester United",
+        "Chelsea"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club de Londres est surnommé « les Gunners » ?",
+      "choix": [
+        "Chelsea",
+        "Arsenal",
+        "Tottenham",
+        "West Ham"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club italien est surnommé « la Vieille Dame » ?",
+      "choix": [
+        "Juventus",
+        "AC Milan",
+        "Inter Milan",
+        "AS Rome"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club français est surnommé « les Verts » ?",
+      "choix": [
+        "FC Nantes",
+        "OGC Nice",
+        "RC Lens",
+        "AS Saint-Étienne"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club français est surnommé « les Canaris » ?",
+      "choix": [
+        "RC Lens",
+        "Stade Brestois",
+        "FC Nantes",
+        "FC Sochaux"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Les Canaris, à cause de leur maillot jaune."
+    }
+  ]
+}

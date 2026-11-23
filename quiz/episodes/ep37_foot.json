@@ -1,0 +1,64 @@
+{
+  "numero": 37,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Ligue 1 : clubs et villes ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quelle ville joue le LOSC ?",
+      "choix": [
+        "Lens",
+        "Lyon",
+        "Lorient",
+        "Lille"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quelle ville jouent les Girondins ?",
+      "choix": [
+        "Toulouse",
+        "Nantes",
+        "Bordeaux",
+        "Montpellier"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club est surnommé « les Gones » ?",
+      "choix": [
+        "AS Monaco",
+        "Olympique Lyonnais",
+        "FC Nantes",
+        "Stade de Reims"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club joue au stade Bollaert-Delelis ?",
+      "choix": [
+        "RC Lens",
+        "LOSC Lille",
+        "Stade de Reims",
+        "Amiens SC"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Avant le PSG, quel club avait le record de titres de champion de France, avec 10 titres ?",
+      "choix": [
+        "Olympique de Marseille",
+        "FC Nantes",
+        "AS Monaco",
+        "AS Saint-Étienne"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

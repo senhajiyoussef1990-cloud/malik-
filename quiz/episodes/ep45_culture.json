@@ -1,0 +1,66 @@
+{
+  "numero": 45,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Les dinosaures 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Les dinosaures ont-ils vécu en même temps que les humains ?",
+      "choix": [
+        "Oui",
+        "Seulement au début",
+        "Seulement à la fin",
+        "Non"
+      ],
+      "reponse": 3,
+      "niveau": "facile",
+      "explication": "Ils ont disparu des millions d'années avant l'arrivée des humains."
+    },
+    {
+      "question": "Quel grand dinosaure carnivore avait de tout petits bras ?",
+      "choix": [
+        "Le diplodocus",
+        "Le tricératops",
+        "Le tyrannosaure",
+        "Le stégosaure"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel dinosaure avait trois cornes sur la tête ?",
+      "choix": [
+        "Le stégosaure",
+        "Le tricératops",
+        "Le vélociraptor",
+        "Le brachiosaure"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Comment appelle-t-on les scientifiques qui étudient les fossiles de dinosaures ?",
+      "choix": [
+        "Les paléontologues",
+        "Les archéologues",
+        "Les géologues",
+        "Les biologistes"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "Les archéologues, eux, étudient les traces des humains."
+    },
+    {
+      "question": "Il y a combien de temps les dinosaures ont-ils disparu ?",
+      "choix": [
+        "6000 ans",
+        "66 000 ans",
+        "6 milliards d'années",
+        "66 millions d'années"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

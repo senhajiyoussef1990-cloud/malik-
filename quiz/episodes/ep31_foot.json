@@ -1,0 +1,65 @@
+{
+  "numero": 31,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Ballon d'Or : l'histoire ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel trophée récompense chaque année le meilleur joueur du monde ?",
+      "choix": [
+        "Le Soulier d'or",
+        "Le Ballon d'Or",
+        "La Coupe du monde",
+        "Le Gant d'or"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel Français a gagné le Ballon d'Or en 1998 ?",
+      "choix": [
+        "Zinédine Zidane",
+        "Thierry Henry",
+        "Didier Deschamps",
+        "Fabien Barthez"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel Français a gagné le Ballon d'Or 3 fois de suite, de 1983 à 1985 ?",
+      "choix": [
+        "Jean-Pierre Papin",
+        "Raymond Kopa",
+        "Zinédine Zidane",
+        "Michel Platini"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel attaquant français a gagné le Ballon d'Or en 2022 ?",
+      "choix": [
+        "Kylian Mbappé",
+        "Antoine Griezmann",
+        "Karim Benzema",
+        "Olivier Giroud"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le seul gardien de but à avoir gagné le Ballon d'Or ?",
+      "choix": [
+        "Gianluigi Buffon",
+        "Lev Yachine",
+        "Manuel Neuer",
+        "Oliver Kahn"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Le gardien soviétique l'a gagné en 1963."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "numero": 57,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Écrivains et livres 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Qui a écrit « Le Petit Prince » ?",
+      "choix": [
+        "Victor Hugo",
+        "Jules Verne",
+        "Molière",
+        "Antoine de Saint-Exupéry"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel écrivain a imaginé « Vingt mille lieues sous les mers » ?",
+      "choix": [
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Jules Verne",
+        "Émile Zola"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Qui a écrit « Les Trois Mousquetaires » ?",
+      "choix": [
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Molière",
+        "Balzac"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel auteur anglais a écrit « Roméo et Juliette » ?",
+      "choix": [
+        "Shakespeare",
+        "Charles Dickens",
+        "Oscar Wilde",
+        "Jane Austen"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel auteur de théâtre a écrit « Le Malade imaginaire » ?",
+      "choix": [
+        "Racine",
+        "Corneille",
+        "Marivaux",
+        "Molière"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

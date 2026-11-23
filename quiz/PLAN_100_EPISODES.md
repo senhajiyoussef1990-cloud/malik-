@@ -3,7 +3,7 @@
 Rotation fixe : **foot → logique → culture générale**, puis on recommence.
 Épisode n : foot si n = 1, 4, 7…, logique si n = 2, 5, 8…, culture générale si n = 3, 6, 9…
 
-Total : 34 foot, 33 logique, 33 culture générale. Les épisodes 1 à 20 sont déjà faits.
+Total : 34 foot, 33 logique, 33 culture générale. Les épisodes 1 à 60 sont déjà faits.
 
 Pour écrire les questions d'un épisode avec ChatGPT : voir [`GUIDE_CHATGPT.md`](GUIDE_CHATGPT.md).
 Quand un épisode est fait, remplacer « À faire » par « ✅ Fait ».
@@ -32,46 +32,46 @@ Les épisodes de réserve (`episodes/reserve/`) peuvent remplacer un épisode «
 | 018 | Culture générale | Capitales d'Asie | Même les profs se trompent à la question 4 ! | Quiz culture générale : Capitales d'Asie 🌍 #shorts | ✅ Fait (`episodes/ep18_culture.json`) |
 | 019 | Foot | Équipe de France : les Bleus | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Équipe de France : les Bleus ⚽ #shorts | ✅ Fait (`episodes/ep19_foot.json`) |
 | 020 | Logique | Calcul mental rapide | Teste ton cerveau en 1 minute ! | Quiz logique : Calcul mental rapide 🧠 #shorts | ✅ Fait (`episodes/ep20_logique.json`) |
-| 021 | Culture générale | Capitales des Amériques | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Capitales des Amériques 🌍 #shorts | À faire |
-| 022 | Foot | Clubs et surnoms | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Clubs et surnoms ⚽ #shorts | À faire |
-| 023 | Logique | Jours et calendrier | Presque personne ne trouve la dernière ! | Quiz logique : Jours et calendrier 🧠 #shorts | À faire |
-| 024 | Culture générale | Géographie de la France | Même les profs se trompent à la question 4 ! | Quiz culture générale : Géographie de la France 🌍 #shorts | À faire |
-| 025 | Foot | Stades célèbres | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Stades célèbres ⚽ #shorts | À faire |
-| 026 | Logique | Énigmes d'âge | Teste ton cerveau en 1 minute ! | Quiz logique : Énigmes d'âge 🧠 #shorts | À faire |
-| 027 | Culture générale | Fleuves et océans | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Fleuves et océans 🌍 #shorts | À faire |
-| 028 | Foot | Ligue des champions : l'histoire | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Ligue des champions : l'histoire ⚽ #shorts | À faire |
-| 029 | Logique | Suites de lettres | Presque personne ne trouve la dernière ! | Quiz logique : Suites de lettres 🧠 #shorts | À faire |
-| 030 | Culture générale | Montagnes et volcans | Même les profs se trompent à la question 4 ! | Quiz culture générale : Montagnes et volcans 🌍 #shorts | À faire |
-| 031 | Foot | Ballon d'Or : l'histoire | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Ballon d'Or : l'histoire ⚽ #shorts | À faire |
-| 032 | Logique | Horloges et heures | Teste ton cerveau en 1 minute ! | Quiz logique : Horloges et heures 🧠 #shorts | À faire |
-| 033 | Culture générale | Le corps humain | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Le corps humain 🌍 #shorts | À faire |
-| 034 | Foot | Légendes du foot (Pelé, Maradona, Zidane…) | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Légendes du foot (Pelé, Maradona, Zidane…) ⚽ #shorts | À faire |
-| 035 | Logique | Qui ment ? | Presque personne ne trouve la dernière ! | Quiz logique : Qui ment ? 🧠 #shorts | À faire |
-| 036 | Culture générale | L'espace et les planètes | Même les profs se trompent à la question 4 ! | Quiz culture générale : L'espace et les planètes 🌍 #shorts | À faire |
-| 037 | Foot | Ligue 1 : clubs et villes | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Ligue 1 : clubs et villes ⚽ #shorts | À faire |
-| 038 | Logique | Liens de famille | Teste ton cerveau en 1 minute ! | Quiz logique : Liens de famille 🧠 #shorts | À faire |
-| 039 | Culture générale | Les animaux | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Les animaux 🌍 #shorts | À faire |
-| 040 | Foot | Premier League : clubs et villes | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Premier League : clubs et villes ⚽ #shorts | À faire |
-| 041 | Logique | Poids et mesures | Presque personne ne trouve la dernière ! | Quiz logique : Poids et mesures 🧠 #shorts | À faire |
-| 042 | Culture générale | Records de la nature | Même les profs se trompent à la question 4 ! | Quiz culture générale : Records de la nature 🌍 #shorts | À faire |
-| 043 | Foot | Liga espagnole | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Liga espagnole ⚽ #shorts | À faire |
-| 044 | Logique | Formes et figures | Teste ton cerveau en 1 minute ! | Quiz logique : Formes et figures 🧠 #shorts | À faire |
-| 045 | Culture générale | Les dinosaures | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Les dinosaures 🌍 #shorts | À faire |
-| 046 | Foot | Serie A italienne | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Serie A italienne ⚽ #shorts | À faire |
-| 047 | Logique | Probabilités simples | Presque personne ne trouve la dernière ! | Quiz logique : Probabilités simples 🧠 #shorts | À faire |
-| 048 | Culture générale | Histoire de France | Même les profs se trompent à la question 4 ! | Quiz culture générale : Histoire de France 🌍 #shorts | À faire |
-| 049 | Foot | Bundesliga allemande | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Bundesliga allemande ⚽ #shorts | À faire |
-| 050 | Logique | Codes secrets (A = 1, B = 2…) | Teste ton cerveau en 1 minute ! | Quiz logique : Codes secrets (A = 1, B = 2…) 🧠 #shorts | À faire |
-| 051 | Culture générale | Inventions et inventeurs | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Inventions et inventeurs 🌍 #shorts | À faire |
-| 052 | Foot | Euro : les vainqueurs | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Euro : les vainqueurs ⚽ #shorts | À faire |
-| 053 | Logique | Classements et déductions | Presque personne ne trouve la dernière ! | Quiz logique : Classements et déductions 🧠 #shorts | À faire |
-| 054 | Culture générale | Peintres célèbres | Même les profs se trompent à la question 4 ! | Quiz culture générale : Peintres célèbres 🌍 #shorts | À faire |
-| 055 | Foot | Coupe d'Afrique des nations | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Coupe d'Afrique des nations ⚽ #shorts | À faire |
-| 056 | Logique | Mots et lettres | Teste ton cerveau en 1 minute ! | Quiz logique : Mots et lettres 🧠 #shorts | À faire |
-| 057 | Culture générale | Écrivains et livres | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Écrivains et livres 🌍 #shorts | À faire |
-| 058 | Foot | Gardiens légendaires | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Gardiens légendaires ⚽ #shorts | À faire |
-| 059 | Logique | Questions pièges | Presque personne ne trouve la dernière ! | Quiz logique : Questions pièges 🧠 #shorts | À faire |
-| 060 | Culture générale | Musique | Même les profs se trompent à la question 4 ! | Quiz culture générale : Musique 🌍 #shorts | À faire |
+| 021 | Culture générale | Capitales des Amériques | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Capitales des Amériques 🌍 #shorts | ✅ Fait (`episodes/ep21_culture.json`) |
+| 022 | Foot | Clubs et surnoms | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Clubs et surnoms ⚽ #shorts | ✅ Fait (`episodes/ep22_foot.json`) |
+| 023 | Logique | Jours et calendrier | Presque personne ne trouve la dernière ! | Quiz logique : Jours et calendrier 🧠 #shorts | ✅ Fait (`episodes/ep23_logique.json`) |
+| 024 | Culture générale | Géographie de la France | Même les profs se trompent à la question 4 ! | Quiz culture générale : Géographie de la France 🌍 #shorts | ✅ Fait (`episodes/ep24_culture.json`) |
+| 025 | Foot | Stades célèbres | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Stades célèbres ⚽ #shorts | ✅ Fait (`episodes/ep25_foot.json`) |
+| 026 | Logique | Énigmes d'âge | Teste ton cerveau en 1 minute ! | Quiz logique : Énigmes d'âge 🧠 #shorts | ✅ Fait (`episodes/ep26_logique.json`) |
+| 027 | Culture générale | Fleuves et océans | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Fleuves et océans 🌍 #shorts | ✅ Fait (`episodes/ep27_culture.json`) |
+| 028 | Foot | Ligue des champions : l'histoire | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Ligue des champions : l'histoire ⚽ #shorts | ✅ Fait (`episodes/ep28_foot.json`) |
+| 029 | Logique | Suites de lettres | Presque personne ne trouve la dernière ! | Quiz logique : Suites de lettres 🧠 #shorts | ✅ Fait (`episodes/ep29_logique.json`) |
+| 030 | Culture générale | Montagnes et volcans | Même les profs se trompent à la question 4 ! | Quiz culture générale : Montagnes et volcans 🌍 #shorts | ✅ Fait (`episodes/ep30_culture.json`) |
+| 031 | Foot | Ballon d'Or : l'histoire | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Ballon d'Or : l'histoire ⚽ #shorts | ✅ Fait (`episodes/ep31_foot.json`) |
+| 032 | Logique | Horloges et heures | Teste ton cerveau en 1 minute ! | Quiz logique : Horloges et heures 🧠 #shorts | ✅ Fait (`episodes/ep32_logique.json`) |
+| 033 | Culture générale | Le corps humain | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Le corps humain 🌍 #shorts | ✅ Fait (`episodes/ep33_culture.json`) |
+| 034 | Foot | Légendes du foot (Pelé, Maradona, Zidane…) | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Légendes du foot (Pelé, Maradona, Zidane…) ⚽ #shorts | ✅ Fait (`episodes/ep34_foot.json`) |
+| 035 | Logique | Qui ment ? | Presque personne ne trouve la dernière ! | Quiz logique : Qui ment ? 🧠 #shorts | ✅ Fait (`episodes/ep35_logique.json`) |
+| 036 | Culture générale | L'espace et les planètes | Même les profs se trompent à la question 4 ! | Quiz culture générale : L'espace et les planètes 🌍 #shorts | ✅ Fait (`episodes/ep36_culture.json`) |
+| 037 | Foot | Ligue 1 : clubs et villes | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Ligue 1 : clubs et villes ⚽ #shorts | ✅ Fait (`episodes/ep37_foot.json`) |
+| 038 | Logique | Liens de famille | Teste ton cerveau en 1 minute ! | Quiz logique : Liens de famille 🧠 #shorts | ✅ Fait (`episodes/ep38_logique.json`) |
+| 039 | Culture générale | Les animaux | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Les animaux 🌍 #shorts | ✅ Fait (`episodes/ep39_culture.json`) |
+| 040 | Foot | Premier League : clubs et villes | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Premier League : clubs et villes ⚽ #shorts | ✅ Fait (`episodes/ep40_foot.json`) |
+| 041 | Logique | Poids et mesures | Presque personne ne trouve la dernière ! | Quiz logique : Poids et mesures 🧠 #shorts | ✅ Fait (`episodes/ep41_logique.json`) |
+| 042 | Culture générale | Records de la nature | Même les profs se trompent à la question 4 ! | Quiz culture générale : Records de la nature 🌍 #shorts | ✅ Fait (`episodes/ep42_culture.json`) |
+| 043 | Foot | Liga espagnole | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Liga espagnole ⚽ #shorts | ✅ Fait (`episodes/ep43_foot.json`) |
+| 044 | Logique | Formes et figures | Teste ton cerveau en 1 minute ! | Quiz logique : Formes et figures 🧠 #shorts | ✅ Fait (`episodes/ep44_logique.json`) |
+| 045 | Culture générale | Les dinosaures | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Les dinosaures 🌍 #shorts | ✅ Fait (`episodes/ep45_culture.json`) |
+| 046 | Foot | Serie A italienne | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Serie A italienne ⚽ #shorts | ✅ Fait (`episodes/ep46_foot.json`) |
+| 047 | Logique | Probabilités simples | Presque personne ne trouve la dernière ! | Quiz logique : Probabilités simples 🧠 #shorts | ✅ Fait (`episodes/ep47_logique.json`) |
+| 048 | Culture générale | Histoire de France | Même les profs se trompent à la question 4 ! | Quiz culture générale : Histoire de France 🌍 #shorts | ✅ Fait (`episodes/ep48_culture.json`) |
+| 049 | Foot | Bundesliga allemande | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Bundesliga allemande ⚽ #shorts | ✅ Fait (`episodes/ep49_foot.json`) |
+| 050 | Logique | Codes secrets (A = 1, B = 2…) | Teste ton cerveau en 1 minute ! | Quiz logique : Codes secrets (A = 1, B = 2…) 🧠 #shorts | ✅ Fait (`episodes/ep50_logique.json`) |
+| 051 | Culture générale | Inventions et inventeurs | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Inventions et inventeurs 🌍 #shorts | ✅ Fait (`episodes/ep51_culture.json`) |
+| 052 | Foot | Euro : les vainqueurs | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Euro : les vainqueurs ⚽ #shorts | ✅ Fait (`episodes/ep52_foot.json`) |
+| 053 | Logique | Classements et déductions | Presque personne ne trouve la dernière ! | Quiz logique : Classements et déductions 🧠 #shorts | ✅ Fait (`episodes/ep53_logique.json`) |
+| 054 | Culture générale | Peintres célèbres | Même les profs se trompent à la question 4 ! | Quiz culture générale : Peintres célèbres 🌍 #shorts | ✅ Fait (`episodes/ep54_culture.json`) |
+| 055 | Foot | Coupe d'Afrique des nations | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Coupe d'Afrique des nations ⚽ #shorts | ✅ Fait (`episodes/ep55_foot.json`) |
+| 056 | Logique | Mots et lettres | Teste ton cerveau en 1 minute ! | Quiz logique : Mots et lettres 🧠 #shorts | ✅ Fait (`episodes/ep56_logique.json`) |
+| 057 | Culture générale | Écrivains et livres | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Écrivains et livres 🌍 #shorts | ✅ Fait (`episodes/ep57_culture.json`) |
+| 058 | Foot | Gardiens légendaires | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Gardiens légendaires ⚽ #shorts | ✅ Fait (`episodes/ep58_foot.json`) |
+| 059 | Logique | Questions pièges | Presque personne ne trouve la dernière ! | Quiz logique : Questions pièges 🧠 #shorts | ✅ Fait (`episodes/ep59_logique.json`) |
+| 060 | Culture générale | Musique | Même les profs se trompent à la question 4 ! | Quiz culture générale : Musique 🌍 #shorts | ✅ Fait (`episodes/ep60_culture.json`) |
 | 061 | Foot | Postes et vocabulaire du foot | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Postes et vocabulaire du foot ⚽ #shorts | À faire |
 | 062 | Logique | Partages et fractions | Teste ton cerveau en 1 minute ! | Quiz logique : Partages et fractions 🧠 #shorts | À faire |
 | 063 | Culture générale | Cinéma et dessins animés | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Cinéma et dessins animés 🌍 #shorts | À faire |

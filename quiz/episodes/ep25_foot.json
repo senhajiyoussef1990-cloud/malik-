@@ -1,0 +1,64 @@
+{
+  "numero": 25,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Stades célèbres ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quel stade joue souvent l'équipe de France ?",
+      "choix": [
+        "Parc des Princes",
+        "Vélodrome",
+        "Groupama Stadium",
+        "Stade de France"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quelle ville se trouve le stade Santiago-Bernabéu ?",
+      "choix": [
+        "Barcelone",
+        "Séville",
+        "Madrid",
+        "Valence"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club joue au Camp Nou ?",
+      "choix": [
+        "Real Madrid",
+        "FC Barcelone",
+        "Atlético Madrid",
+        "Valence CF"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quelle ville se trouve le célèbre stade Maracana ?",
+      "choix": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasilia",
+        "Buenos Aires"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club anglais joue au stade d'Anfield ?",
+      "choix": [
+        "Everton",
+        "Manchester City",
+        "Arsenal",
+        "Liverpool"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

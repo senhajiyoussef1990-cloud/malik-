@@ -1,0 +1,66 @@
+{
+  "numero": 54,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Peintres célèbres 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel peintre s'est coupé une partie de l'oreille ?",
+      "choix": [
+        "Picasso",
+        "Claude Monet",
+        "Van Gogh",
+        "Salvador Dali"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel musée de Paris peut-on voir la Joconde ?",
+      "choix": [
+        "Le musée d'Orsay",
+        "Le Louvre",
+        "Le Centre Pompidou",
+        "Le Grand Palais"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel peintre espagnol a peint le tableau « Guernica » ?",
+      "choix": [
+        "Picasso",
+        "Salvador Dali",
+        "Goya",
+        "Velasquez"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "De quel pays venait le peintre Vincent van Gogh ?",
+      "choix": [
+        "France",
+        "Belgique",
+        "Allemagne",
+        "Pays-Bas"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Il a beaucoup peint en France, mais il était néerlandais."
+    },
+    {
+      "question": "Quel peintre a peint « Impression, soleil levant », qui a donné son nom à l'impressionnisme ?",
+      "choix": [
+        "Édouard Manet",
+        "Auguste Renoir",
+        "Claude Monet",
+        "Edgar Degas"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Attention à ne pas confondre Monet et Manet !"
+    }
+  ]
+}

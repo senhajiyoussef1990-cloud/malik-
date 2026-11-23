@@ -1,0 +1,67 @@
+{
+  "numero": 53,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Classements et déductions 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Dans une course, Ali finit devant Ben, et Ben devant Chris. Qui est dernier ?",
+      "choix": [
+        "Ali",
+        "Ben",
+        "On ne sait pas",
+        "Chris"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Marie est plus âgée que Julie. Julie est plus âgée que Sara. Qui est la plus âgée ?",
+      "choix": [
+        "Julie",
+        "Sara",
+        "Marie",
+        "On ne sait pas"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Le livre rouge est sous le bleu. Le vert est sous le rouge. Quel livre est tout en haut ?",
+      "choix": [
+        "Le rouge",
+        "Le bleu",
+        "Le vert",
+        "On ne sait pas"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "De haut en bas : bleu, rouge, vert."
+    },
+    {
+      "question": "Anna est 3e dans une file de 5 personnes. Combien de personnes sont derrière elle ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Il y a 2 personnes devant elle et 2 derrière."
+    },
+    {
+      "question": "Dans une file, Tom est 4e en partant du début et 4e en partant de la fin. Combien de personnes dans la file ?",
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "3 personnes devant, 3 derrière, plus Tom : 7, et pas 8 !"
+    }
+  ]
+}

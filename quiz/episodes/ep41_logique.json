@@ -1,0 +1,67 @@
+{
+  "numero": 41,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Poids et mesures 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien de centimètres y a-t-il dans un mètre ?",
+      "choix": [
+        "10",
+        "60",
+        "100",
+        "1000"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de grammes y a-t-il dans un kilo ?",
+      "choix": [
+        "10",
+        "100",
+        "500",
+        "1000"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Qu'est-ce qui est le plus long : 1 kilomètre ou 1000 mètres ?",
+      "choix": [
+        "1 kilomètre",
+        "C'est pareil",
+        "1000 mètres",
+        "Ça dépend"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Un kilomètre, c'est exactement 1000 mètres."
+    },
+    {
+      "question": "Combien de litres font 4 bouteilles de 50 centilitres ?",
+      "choix": [
+        "1",
+        "2",
+        "4",
+        "20"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "50 centilitres, c'est un demi-litre : 4 demi-litres font 2 litres."
+    },
+    {
+      "question": "Une brique pèse 1 kilo plus la moitié d'une brique. Combien pèse la brique ?",
+      "choix": [
+        "1 kilo",
+        "1,5 kilo",
+        "2 kilos",
+        "3 kilos"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Si la brique pèse 2 kilos, sa moitié pèse 1 kilo : 1 plus 1 font 2."
+    }
+  ]
+}

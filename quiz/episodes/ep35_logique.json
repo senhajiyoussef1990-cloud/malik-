@@ -1,0 +1,69 @@
+{
+  "numero": 35,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Qui ment ? 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Léo dit : « J'ai un chat. » Sa sœur dit : « Léo n'a aucun animal. » Peuvent-ils dire vrai tous les deux ?",
+      "choix": [
+        "Oui",
+        "Non",
+        "Seulement Léo",
+        "Seulement sa sœur"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "Un chat est un animal : ils ne peuvent pas avoir raison tous les deux."
+    },
+    {
+      "question": "Un menteur dit toujours le faux. Il dit : « Il pleut. » Quel temps fait-il ?",
+      "choix": [
+        "Il ne pleut pas",
+        "Il pleut",
+        "Il neige forcément",
+        "Il y a de l'orage"
+      ],
+      "reponse": 0,
+      "niveau": "facile",
+      "explication": "Il ment, donc il ne pleut pas."
+    },
+    {
+      "question": "Anna dit : « Ben ment. » Ben dit : « Anna ment. » Combien d'entre eux disent la vérité ?",
+      "choix": [
+        "Aucun",
+        "Les deux",
+        "On ne sait pas",
+        "Un seul"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Si l'un dit vrai, l'autre ment forcément : un seul dit la vérité."
+    },
+    {
+      "question": "On demande à un menteur : « Es-tu un menteur ? » Que répond-il ?",
+      "choix": [
+        "Oui",
+        "Il ne répond pas",
+        "Non",
+        "Peut-être"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Il ment toujours, donc il répond non !"
+    },
+    {
+      "question": "Un chevalier dit toujours vrai, un menteur toujours faux. Max dit : « Je suis un menteur. » Est-ce possible ?",
+      "choix": [
+        "Oui, c'est un menteur",
+        "Non, c'est impossible",
+        "Oui, c'est un chevalier",
+        "On ne peut pas savoir"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Un chevalier ne mentirait pas, et un menteur dirait alors la vérité : c'est impossible !"
+    }
+  ]
+}

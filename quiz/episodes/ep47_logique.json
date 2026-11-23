@@ -1,0 +1,67 @@
+{
+  "numero": 47,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Probabilités simples 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Tu lances une pièce. Quelle est la chance de tomber sur pile ?",
+      "choix": [
+        "1 sur 3",
+        "1 sur 2",
+        "1 sur 4",
+        "1 sur 6"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Tu lances un dé à 6 faces. Quelle est la chance de faire un 6 ?",
+      "choix": [
+        "1 sur 6",
+        "1 sur 2",
+        "1 sur 3",
+        "1 sur 12"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Un sac contient 3 billes rouges et 1 bille bleue. Quelle couleur as-tu le plus de chances de tirer ?",
+      "choix": [
+        "Bleue",
+        "C'est pareil",
+        "On ne sait pas",
+        "Rouge"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Il y a 3 rouges pour 1 bleue."
+    },
+    {
+      "question": "Tu as fait pile 5 fois de suite. Quelle est la chance de faire pile au prochain lancer ?",
+      "choix": [
+        "Presque zéro",
+        "Presque sûr",
+        "1 sur 2",
+        "1 sur 6"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "La pièce n'a pas de mémoire : c'est toujours 1 sur 2."
+    },
+    {
+      "question": "Un tiroir contient des chaussettes noires et blanches. Combien en prendre dans le noir pour être sûr d'avoir une paire ?",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Avec 3 chaussettes et seulement 2 couleurs, deux sont forcément de la même couleur."
+    }
+  ]
+}

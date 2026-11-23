@@ -1,0 +1,64 @@
+{
+  "numero": 43,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Liga espagnole ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quel pays se joue la Liga ?",
+      "choix": [
+        "Portugal",
+        "Espagne",
+        "Italie",
+        "Mexique"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Comment appelle-t-on le grand match entre le Real Madrid et le FC Barcelone ?",
+      "choix": [
+        "Le Clasico",
+        "Le Derby",
+        "Le Superclasico",
+        "Le Choc"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quelle ville joue l'Atlético ?",
+      "choix": [
+        "Barcelone",
+        "Séville",
+        "Bilbao",
+        "Madrid"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club joue au stade de Mestalla ?",
+      "choix": [
+        "FC Séville",
+        "Betis Séville",
+        "Valence CF",
+        "Villarreal"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club espagnol ne recrute que des joueurs formés au Pays basque ?",
+      "choix": [
+        "Real Sociedad",
+        "Athletic Bilbao",
+        "Osasuna",
+        "Eibar"
+      ],
+      "reponse": 1,
+      "niveau": "difficile"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "numero": 52,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Euro : les vainqueurs ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel pays a gagné l'Euro 2016, joué en France ?",
+      "choix": [
+        "Portugal",
+        "France",
+        "Allemagne",
+        "Espagne"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel pays a gagné l'Euro 2000 ?",
+      "choix": [
+        "Italie",
+        "Portugal",
+        "Pays-Bas",
+        "France"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel pays a gagné l'Euro 2004 à la surprise générale ?",
+      "choix": [
+        "Portugal",
+        "République tchèque",
+        "Grèce",
+        "Pays-Bas"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a gagné l'Euro joué en 2021, contre l'Angleterre en finale ?",
+      "choix": [
+        "Angleterre",
+        "Italie",
+        "Danemark",
+        "Espagne"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a gagné l'Euro 1992 alors qu'il n'était pas qualifié au départ ?",
+      "choix": [
+        "Danemark",
+        "Suède",
+        "Allemagne",
+        "Pays-Bas"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "Le Danemark a remplacé la Yougoslavie au dernier moment, et a gagné !"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "numero": 32,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Horloges et heures 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien de minutes y a-t-il dans une heure ?",
+      "choix": [
+        "30",
+        "60",
+        "90",
+        "100"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Il est 14 heures. Quelle heure sera-t-il dans 3 heures ?",
+      "choix": [
+        "15 h",
+        "16 h",
+        "17 h",
+        "18 h"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "14 plus 3 font 17."
+    },
+    {
+      "question": "Combien de minutes y a-t-il dans une heure et quart ?",
+      "choix": [
+        "65",
+        "70",
+        "75",
+        "90"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "60 minutes plus 15 minutes font 75."
+    },
+    {
+      "question": "Un film commence à 20 heures 45 et dure 1 heure 30. À quelle heure finit-il ?",
+      "choix": [
+        "21 h 45",
+        "22 h 15",
+        "22 h 30",
+        "23 h 15"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "20 heures 45 plus 1 heure, ça fait 21 heures 45, plus 30 minutes : 22 heures 15."
+    },
+    {
+      "question": "Combien de fois les aiguilles d'une horloge se superposent-elles en 12 heures ?",
+      "choix": [
+        "10",
+        "11",
+        "12",
+        "24"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Elles se rejoignent un peu plus d'une heure à chaque fois : 11 fois seulement en 12 heures."
+    }
+  ]
+}
