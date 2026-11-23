@@ -35,3 +35,8 @@ Par défaut : voix française gratuite Microsoft (`fr-FR-RemyMultilingualNeural`
 Autre voix : `QUIZ_VOIX_EDGE=fr-FR-HenriNeural`. ElevenLabs : `QUIZ_TTS=eleven` (compte payant).
 
 Rotation des épisodes : foot → logique → culture générale. Des épisodes prêts en avance sont rangés dans `episodes/reserve/`.
+
+## Plan et ChatGPT
+
+- [`PLAN_100_EPISODES.md`](PLAN_100_EPISODES.md) : les 100 premiers épisodes (thème, sujet, accroche, titre).
+- [`GUIDE_CHATGPT.md`](GUIDE_CHATGPT.md) : le message à coller dans ChatGPT pour écrire un épisode au bon format.
