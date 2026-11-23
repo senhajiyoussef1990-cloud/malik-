@@ -6,7 +6,7 @@
   "pause_par_question": true,
   "questions": [
     {
-      "question": "Si A vaut 1, B vaut 2, C vaut 3… quelle lettre vaut 5 ?",
+      "question": "Si A égale 1, B égale 2, C égale 3… quelle lettre égale 5 ?",
       "choix": [
         "D",
         "F",
@@ -18,7 +18,7 @@
       "explication": "A, B, C, D, E : la 5e lettre est le E."
     },
     {
-      "question": "Si A vaut 1, B vaut 2… combien vaut la lettre J ?",
+      "question": "Si A égale 1, B égale 2… combien égale la lettre J ?",
       "choix": [
         "9",
         "10",
@@ -30,7 +30,7 @@
       "explication": "J est la 10e lettre de l'alphabet."
     },
     {
-      "question": "Si A vaut 1, B vaut 2… quel mot s'écrit 12, 1, 3 ?",
+      "question": "Si A égale 1, B égale 2… quel mot s'écrit 12, 1, 3 ?",
       "choix": [
         "LAC",
         "BAC",
@@ -42,7 +42,7 @@
       "explication": "12 c'est L, 1 c'est A, 3 c'est C : LAC."
     },
     {
-      "question": "Si A vaut 1, B vaut 2… combien vaut le mot BEC ?",
+      "question": "Si A égale 1, B égale 2… combien fait le mot BEC ?",
       "choix": [
         "8",
         "9",
@@ -51,7 +51,7 @@
       ],
       "reponse": 2,
       "niveau": "moyen",
-      "explication": "B vaut 2, E vaut 5 et C vaut 3 : 2 plus 5 plus 3 font 10."
+      "explication": "B égale 2, E égale 5 et C égale 3 : 2 plus 5 plus 3 font 10."
     },
     {
       "question": "Code secret : chaque lettre devient la suivante, A devient B. Que devient le mot BAL ?",

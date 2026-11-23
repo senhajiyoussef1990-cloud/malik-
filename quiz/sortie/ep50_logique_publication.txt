@@ -10,7 +10,7 @@ TITRE :
 DESCRIPTION :
 Quiz logique n°50 : 5 questions, de facile à difficile. ⏱️ 4 secondes pour répondre !
 Besoin de réfléchir ? Appuie sur pause ⏸️
-Première question : Si A vaut 1, B vaut 2, C vaut 3… quelle lettre vaut 5 ?
+Première question : Si A égale 1, B égale 2, C égale 3… quelle lettre égale 5 ?
 Écris ton score sur 5 en commentaire 👇
 Envoie-le à quelqu'un qui pense être super malin 😏
 

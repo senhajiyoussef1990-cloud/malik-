@@ -42,10 +42,10 @@
     {
       "question": "Combien de litres font 4 bouteilles de 50 centilitres ?",
       "choix": [
-        "1",
-        "2",
-        "4",
-        "20"
+        "1 litre",
+        "2 litres",
+        "4 litres",
+        "20 litres"
       ],
       "reponse": 1,
       "niveau": "moyen",
