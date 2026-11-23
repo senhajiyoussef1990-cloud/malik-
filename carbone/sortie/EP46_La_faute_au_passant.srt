@@ -1,0 +1,372 @@
+1
+00:00:00,300 --> 00:00:01,419
+J’ai calculé mon empreinte
+
+2
+00:00:01,439 --> 00:00:02,559
+carbone. Je me sens
+
+3
+00:00:02,579 --> 00:00:03,770
+tellement coupable !
+
+4
+00:00:04,169 --> 00:00:05,269
+Et ce calcul, tu
+
+5
+00:00:05,289 --> 00:00:06,049
+sais qui l’a rendu
+
+6
+00:00:06,069 --> 00:00:06,999
+si célèbre ?
+
+7
+00:00:07,786 --> 00:00:09,596
+Euh… Des écologistes, non ?
+
+8
+00:00:09,958 --> 00:00:10,778
+Pas seulement.
+
+9
+00:00:10,798 --> 00:00:11,698
+Allons voir une usine
+
+10
+00:00:11,718 --> 00:00:12,498
+très douée pour montrer
+
+11
+00:00:12,518 --> 00:00:13,548
+les autres du doigt.
+
+12
+00:00:14,389 --> 00:00:15,329
+Entrons dans une ville
+
+13
+00:00:15,349 --> 00:00:16,849
+d’autrefois, au pied d’une
+
+14
+00:00:16,869 --> 00:00:17,599
+grande usine.
+
+15
+00:00:18,228 --> 00:00:19,248
+Ses cheminées crachent une
+
+16
+00:00:19,268 --> 00:00:20,668
+fumée noire, jour et
+
+17
+00:00:20,688 --> 00:00:21,078
+nuit.
+
+18
+00:00:21,893 --> 00:00:22,833
+Les habitants commencent à
+
+19
+00:00:22,853 --> 00:00:23,973
+tousser, et à regarder
+
+20
+00:00:23,993 --> 00:00:25,016
+vers l’usine.
+
+21
+00:00:25,767 --> 00:00:26,347
+Ce n’est pas nous
+
+22
+00:00:26,367 --> 00:00:27,447
+! C’est chacun d’entre
+
+23
+00:00:27,467 --> 00:00:29,187
+vous. Fermez vos fenêtres,
+
+24
+00:00:29,207 --> 00:00:30,510
+éteignez vos bougies !
+
+25
+00:00:30,660 --> 00:00:31,580
+Le directeur colle des
+
+26
+00:00:31,600 --> 00:00:32,840
+affiches partout : chacun
+
+27
+00:00:32,860 --> 00:00:33,660
+doit compter sa propre
+
+28
+00:00:33,680 --> 00:00:34,330
+fumée.
+
+29
+00:00:35,813 --> 00:00:36,733
+Les habitants comptent leurs
+
+30
+00:00:36,753 --> 00:00:38,013
+bougies et leurs poêles.
+
+31
+00:00:38,033 --> 00:00:39,343
+Ils se sentent coupables.
+
+32
+00:00:40,210 --> 00:00:41,530
+Pendant ce temps, personne
+
+33
+00:00:41,550 --> 00:00:42,470
+ne regarde plus les
+
+34
+00:00:42,490 --> 00:00:43,560
+cheminées de l’usine.
+
+35
+00:00:44,815 --> 00:00:45,655
+Je vais éteindre ma
+
+36
+00:00:45,675 --> 00:00:46,695
+bougie plus tôt.
+
+37
+00:00:46,715 --> 00:00:47,155
+Tout est de ma
+
+38
+00:00:47,175 --> 00:00:47,965
+faute !
+
+39
+00:00:48,115 --> 00:00:49,395
+Mais c’est l’usine qui
+
+40
+00:00:49,415 --> 00:00:50,505
+fume le plus !
+
+41
+00:00:51,335 --> 00:00:52,495
+Oui. Le directeur a
+
+42
+00:00:52,515 --> 00:00:53,375
+déplacé la faute sur
+
+43
+00:00:53,395 --> 00:00:54,325
+les épaules de chacun.
+
+44
+00:00:54,891 --> 00:00:55,411
+Dans les années deux
+
+45
+00:00:55,431 --> 00:00:57,171
+mille, une grande compagnie
+
+46
+00:00:57,191 --> 00:00:58,391
+pétrolière popularise le
+
+47
+00:00:58,411 --> 00:00:59,231
+calcul de l’empreinte
+
+48
+00:00:59,251 --> 00:01:00,421
+carbone personnelle.
+
+49
+00:01:02,156 --> 00:01:02,976
+Les gestes de chacun
+
+50
+00:01:02,996 --> 00:01:04,176
+comptent. Mais ils ne
+
+51
+00:01:04,196 --> 00:01:05,036
+doivent pas faire oublier
+
+52
+00:01:05,056 --> 00:01:06,186
+les plus gros pollueurs.
+
+53
+00:01:06,762 --> 00:01:07,742
+Tant qu’ils se disputent
+
+54
+00:01:07,762 --> 00:01:09,022
+entre voisins, ils ne
+
+55
+00:01:09,042 --> 00:01:10,617
+regardent pas mes cheminées !
+
+56
+00:01:11,367 --> 00:01:12,507
+Aujourd’hui, on trouve la
+
+57
+00:01:12,527 --> 00:01:13,747
+même méthode ailleurs :
+
+58
+00:01:13,767 --> 00:01:15,307
+rendre chacun coupable, pour
+
+59
+00:01:15,327 --> 00:01:16,477
+éviter les vraies questions.
+
+60
+00:01:17,566 --> 00:01:18,446
+Les deux sont vrais
+
+61
+00:01:18,466 --> 00:01:19,726
+: nos gestes comptent,
+
+62
+00:01:19,746 --> 00:01:20,666
+et les grandes décisions
+
+63
+00:01:20,686 --> 00:01:21,476
+comptent aussi.
+
+64
+00:01:22,772 --> 00:01:23,672
+Donc je ne dois
+
+65
+00:01:23,692 --> 00:01:24,862
+plus faire attention ?
+
+66
+00:01:25,179 --> 00:01:26,739
+Si. Mais sans oublier
+
+67
+00:01:26,759 --> 00:01:27,679
+de regarder ceux qui
+
+68
+00:01:27,699 --> 00:01:28,609
+décident le plus.
+
+69
+00:01:29,779 --> 00:01:30,679
+Quand quelqu’un te rend
+
+70
+00:01:30,699 --> 00:01:32,459
+responsable, demande-toi ce
+
+71
+00:01:32,479 --> 00:01:33,019
+qu’il gagne à le
+
+72
+00:01:33,039 --> 00:01:33,509
+faire.
+
+73
+00:01:34,411 --> 00:01:35,591
+La culpabilité peut servir
+
+74
+00:01:35,611 --> 00:01:36,171
+à faire taire les
+
+75
+00:01:36,191 --> 00:01:36,721
+questions.
+
+76
+00:01:38,075 --> 00:01:39,475
+Quand on t’accuse, regarde
+
+77
+00:01:39,495 --> 00:01:40,645
+qui est soulagé.
+
+78
+00:01:41,914 --> 00:01:42,844
+Retour au salon.
+
+79
+00:01:43,985 --> 00:01:45,025
+La prochaine fois, je
+
+80
+00:01:45,045 --> 00:01:46,385
+ferai attention, mais je
+
+81
+00:01:46,405 --> 00:01:47,185
+regarderai aussi les
+
+82
+00:01:47,205 --> 00:01:47,815
+cheminées.
+
+83
+00:01:48,403 --> 00:01:49,183
+Bonne idée.
+
+84
+00:01:49,203 --> 00:01:50,163
+Tes gestes comptent, et
+
+85
+00:01:50,183 --> 00:01:51,173
+tes questions aussi.
+
+86
+00:01:51,724 --> 00:01:52,584
+À qui ça profite,
+
+87
+00:01:52,604 --> 00:01:53,384
+que je me sente
+
+88
+00:01:53,404 --> 00:01:54,354
+coupable ?
+
+89
+00:01:54,706 --> 00:01:56,046
+Voilà. Regarde aussi qui
+
+90
+00:01:56,066 --> 00:01:56,976
+montre du doigt.
+
+91
+00:01:58,231 --> 00:01:59,231
+Arrête de suivre les
+
+92
+00:01:59,251 --> 00:02:00,251
+moutons. Suis le renard…
+
+93
+00:02:00,271 --> 00:02:02,361
+et pense par toi-même !
+
