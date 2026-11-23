@@ -1,0 +1,408 @@
+1
+00:00:00,300 --> 00:00:01,400
+Mon téléphone a deux
+
+2
+00:00:01,420 --> 00:00:02,379
+ans. Il marche très
+
+3
+00:00:02,399 --> 00:00:03,119
+bien, mais il fait
+
+4
+00:00:03,139 --> 00:00:04,000
+vieux. Je vais acheter
+
+5
+00:00:04,020 --> 00:00:04,809
+le nouveau !
+
+6
+00:00:05,136 --> 00:00:05,836
+Le nouveau fait quoi
+
+7
+00:00:05,856 --> 00:00:06,726
+de plus ?
+
+8
+00:00:07,446 --> 00:00:08,126
+Il a une nouvelle
+
+9
+00:00:08,146 --> 00:00:09,886
+couleur… et un appareil
+
+10
+00:00:09,906 --> 00:00:10,986
+photo un tout petit
+
+11
+00:00:11,006 --> 00:00:11,636
+peu meilleur.
+
+12
+00:00:12,178 --> 00:00:13,338
+Une nouvelle couleur.
+
+13
+00:00:13,358 --> 00:00:14,538
+Allons voir un carrossier
+
+14
+00:00:14,558 --> 00:00:14,998
+qui a eu la
+
+15
+00:00:15,018 --> 00:00:15,668
+même idée.
+
+16
+00:00:16,531 --> 00:00:17,511
+Entrons dans l’Amérique des
+
+17
+00:00:17,531 --> 00:00:18,491
+années vingt, chez un
+
+18
+00:00:18,511 --> 00:00:20,490
+grand fabricant de voitures.
+
+19
+00:00:20,840 --> 00:00:22,100
+Ses voitures sont solides.
+
+20
+00:00:22,120 --> 00:00:23,020
+Elles roulent pendant des
+
+21
+00:00:23,040 --> 00:00:23,470
+années.
+
+22
+00:00:24,271 --> 00:00:25,411
+Problème : quand tout
+
+23
+00:00:25,431 --> 00:00:25,931
+le monde a une
+
+24
+00:00:25,951 --> 00:00:27,051
+voiture qui marche, plus
+
+25
+00:00:27,071 --> 00:00:28,141
+personne n’en achète.
+
+26
+00:00:29,293 --> 00:00:30,613
+Changeons juste la couleur
+
+27
+00:00:30,633 --> 00:00:31,253
+et la forme des
+
+28
+00:00:31,273 --> 00:00:32,991
+phares, chaque année !
+
+29
+00:00:33,142 --> 00:00:34,342
+Chaque année, un nouveau
+
+30
+00:00:34,362 --> 00:00:35,662
+modèle sort, avec des
+
+31
+00:00:35,682 --> 00:00:36,502
+chromes qui brillent un
+
+32
+00:00:36,522 --> 00:00:37,072
+peu plus.
+
+33
+00:00:38,164 --> 00:00:38,844
+Le moteur est presque
+
+34
+00:00:38,864 --> 00:00:39,444
+le même.
+
+35
+00:00:39,464 --> 00:00:40,484
+Mais l’ancien modèle a
+
+36
+00:00:40,504 --> 00:00:41,494
+soudain l’air démodé.
+
+37
+00:00:42,039 --> 00:00:42,999
+Les voisins remarquent qui
+
+38
+00:00:43,019 --> 00:00:43,459
+a la voiture de
+
+39
+00:00:43,479 --> 00:00:43,739
+l’année, et qui a
+
+40
+00:00:43,759 --> 00:00:45,129
+celle d’avant.
+
+41
+00:00:46,304 --> 00:00:47,124
+Ma voiture roule
+
+42
+00:00:47,144 --> 00:00:48,524
+parfaitement… mais tout le
+
+43
+00:00:48,544 --> 00:00:49,384
+monde verra qu’elle date
+
+44
+00:00:49,404 --> 00:00:50,734
+de l’an dernier !
+
+45
+00:00:50,884 --> 00:00:51,804
+Mais elle marche encore
+
+46
+00:00:51,824 --> 00:00:52,884
+très bien !
+
+47
+00:00:53,634 --> 00:00:54,714
+Oui. Ce n’est pas
+
+48
+00:00:54,734 --> 00:00:55,414
+la voiture qui est
+
+49
+00:00:55,434 --> 00:00:56,634
+usée. C’est l’envie qu’on
+
+50
+00:00:56,654 --> 00:00:57,484
+a fabriquée.
+
+51
+00:00:58,052 --> 00:00:58,572
+Dans les années vingt,
+
+52
+00:00:58,592 --> 00:01:00,752
+General Motors popularise ce
+
+53
+00:01:00,772 --> 00:01:02,082
+nouveau modèle chaque année.
+
+54
+00:01:03,306 --> 00:01:04,226
+On l’appelle l’obsolescence
+
+55
+00:01:04,246 --> 00:01:05,146
+par la mode :
+
+56
+00:01:05,166 --> 00:01:05,786
+on remplace un objet
+
+57
+00:01:05,806 --> 00:01:06,666
+qui fonctionne parce qu’il
+
+58
+00:01:06,686 --> 00:01:08,101
+paraît dépassé.
+
+59
+00:01:08,251 --> 00:01:08,831
+Je ne vends pas
+
+60
+00:01:08,851 --> 00:01:09,831
+des voitures.
+
+61
+00:01:09,851 --> 00:01:10,671
+Je vends l’envie de
+
+62
+00:01:10,691 --> 00:01:11,291
+ne pas paraître en
+
+63
+00:01:11,311 --> 00:01:12,132
+retard !
+
+64
+00:01:12,882 --> 00:01:14,202
+Aujourd’hui : téléphones,
+
+65
+00:01:14,222 --> 00:01:15,362
+vêtements, consoles,
+
+66
+00:01:15,382 --> 00:01:16,942
+ordinateurs. Chaque année,
+
+67
+00:01:16,962 --> 00:01:17,842
+un nouveau modèle qui
+
+68
+00:01:17,862 --> 00:01:18,702
+rend l’ancien un peu
+
+69
+00:01:18,722 --> 00:01:19,332
+honteux.
+
+70
+00:01:19,865 --> 00:01:21,165
+Parfois, le progrès est
+
+71
+00:01:21,185 --> 00:01:22,765
+réel. Souvent, c’est surtout
+
+72
+00:01:22,785 --> 00:01:23,715
+la couleur qui change.
+
+73
+00:01:25,018 --> 00:01:26,338
+Donc mon téléphone peut
+
+74
+00:01:26,358 --> 00:01:27,608
+encore durer longtemps ?
+
+75
+00:01:27,974 --> 00:01:28,794
+S’il fait ce dont
+
+76
+00:01:28,814 --> 00:01:29,974
+tu as besoin, oui.
+
+77
+00:01:29,994 --> 00:01:30,754
+Ça t’évite une grosse
+
+78
+00:01:30,774 --> 00:01:31,504
+dépense.
+
+79
+00:01:32,705 --> 00:01:33,825
+Avant d’acheter, on peut
+
+80
+00:01:33,845 --> 00:01:34,525
+lister ce qui manque
+
+81
+00:01:34,545 --> 00:01:35,575
+vraiment à l’ancien.
+
+82
+00:01:36,370 --> 00:01:36,910
+Si la liste est
+
+83
+00:01:36,930 --> 00:01:37,970
+vide, c’est sans doute
+
+84
+00:01:37,990 --> 00:01:39,180
+la publicité qui parle.
+
+85
+00:01:40,426 --> 00:01:41,426
+Ce qui est démodé
+
+86
+00:01:41,446 --> 00:01:42,996
+marche souvent encore.
+
+87
+00:01:44,291 --> 00:01:45,221
+Retour au salon.
+
+88
+00:01:46,362 --> 00:01:47,902
+La prochaine fois, je
+
+89
+00:01:47,922 --> 00:01:48,742
+fais la liste de
+
+90
+00:01:48,762 --> 00:01:49,302
+ce qui ne marche
+
+91
+00:01:49,322 --> 00:01:50,472
+plus avant d’acheter.
+
+92
+00:01:51,042 --> 00:01:51,802
+Bonne idée.
+
+93
+00:01:51,822 --> 00:01:52,662
+Si la liste est
+
+94
+00:01:52,682 --> 00:01:53,752
+vide, garde-le.
+
+95
+00:01:54,284 --> 00:01:55,144
+Il est cassé, ou
+
+96
+00:01:55,164 --> 00:01:55,804
+juste plus à la
+
+97
+00:01:55,824 --> 00:01:56,519
+mode ?
+
+98
+00:01:56,770 --> 00:01:58,250
+Voilà. L’envie de nouveau
+
+99
+00:01:58,270 --> 00:01:59,360
+se fabrique aussi.
+
+100
+00:02:00,634 --> 00:02:01,634
+Arrête de suivre les
+
+101
+00:02:01,654 --> 00:02:02,654
+moutons. Suis le renard…
+
+102
+00:02:02,674 --> 00:02:04,764
+et pense par toi-même !
+
