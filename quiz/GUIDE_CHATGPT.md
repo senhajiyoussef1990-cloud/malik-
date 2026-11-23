@@ -94,7 +94,7 @@ puis redonne le JSON complet.
 | `theme` | `foot`, `logique` ou `culture` : choisit les couleurs et le fond |
 | `accroche` | Dite dans l'intro, après « Bienvenue dans Chrono Quiz ! Spécial … » |
 | `titre_youtube` | Titre proposé dans le texte de publication |
-| `pause_par_question` | `true` : après chaque question, la voix dit « Besoin de réfléchir ? Mets pause ! » |
+| `pause_par_question` | `true` : après chaque question, la voix dit « Besoin de réfléchir ? Appuie sur pause ! » |
 | `questions[].question` | Texte de la question (lu par la voix) |
 | `questions[].choix` | Les 4 réponses A, B, C, D |
 | `questions[].reponse` | Position de la bonne réponse, en partant de 0 |

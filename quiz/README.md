@@ -21,7 +21,7 @@ La photo de profil et la bannière sortent dans `marque/`.
 - `numero`, `theme` : `foot` (fond terrain vert), `logique` (fond violet) ou `culture` (culture générale, fond bleu)
 - `accroche` : phrase dite dans l'intro, après « Bienvenue dans Chrono Quiz ! Spécial … »
 - `titre_youtube` : titre proposé pour la publication
-- `pause_par_question` : `true` = après chaque question, la voix dit « Besoin de réfléchir ? Mets pause ! » (logique), `false` = rien (foot, culture)
+- `pause_par_question` : `true` = après chaque question, la voix dit « Besoin de réfléchir ? Appuie sur pause ! » (logique), `false` = rien (foot, culture)
 - `questions` : 5 questions, chacune avec
   - `choix` : 4 réponses
   - `reponse` : numéro de la bonne réponse, **en partant de 0** (0 = A, 1 = B, 2 = C, 3 = D)

@@ -453,7 +453,7 @@ def generer(chemin):
                      [(0.0, son_whoosh()), (0.3, v)]))
 
     pause_q = ep.get("pause_par_question", False)
-    v_pause = tts(ep.get("pause", "Besoin de réfléchir ? Mets pause !")) if pause_q else None
+    v_pause = tts(ep.get("pause", "Besoin de réfléchir ? Appuie sur pause !")) if pause_q else None
     tic, tic2, ding = son_tic(), son_tic(True), son_bonne_reponse()
 
     for iq, q in enumerate(ep["questions"]):
@@ -466,7 +466,7 @@ def generer(chemin):
 
         statique = image_question(base, ep, iq, "pose")
         if pause_q:
-            dessiner_pause(statique, "Besoin de réfléchir ? Mets pause")
+            dessiner_pause(statique, "Besoin de réfléchir ? Appuie sur pause")
 
         def compte(t, _s=statique):
             im = _s.copy()
