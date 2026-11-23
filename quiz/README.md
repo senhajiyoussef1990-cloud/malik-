@@ -31,10 +31,22 @@ La photo de profil et la bannière sortent dans `marque/`.
 
 ## Voix
 
-Par défaut : voix française gratuite Microsoft (`fr-FR-RemyMultilingualNeural`).
-Autre voix : `QUIZ_VOIX_EDGE=fr-FR-HenriNeural`. ElevenLabs : `QUIZ_TTS=eleven` (compte payant).
+Par défaut : voix française gratuite Microsoft `fr-FR-HenriNeural`.
+Ne pas utiliser les voix « Multilingual » : elles prennent un accent espagnol ou portugais
+sur certains mots (Espagne, Cristiano Ronaldo…).
+Autre voix française : `QUIZ_VOIX_EDGE=fr-FR-DeniseNeural`. ElevenLabs : `QUIZ_TTS=eleven` (compte payant).
 
 Rotation des épisodes : foot → logique → culture générale. Des épisodes prêts en avance sont rangés dans `episodes/reserve/`.
+
+## Vérifier la voix avant de publier
+
+```bash
+pip install faster-whisper
+python3 outils/verifier_voix.py --tous
+```
+
+Chaque phrase est écoutée par une reconnaissance vocale. Les phrases qui ne sonnent pas
+françaises ou qui sont mal prononcées sont listées à la fin.
 
 ## Plan et ChatGPT
 

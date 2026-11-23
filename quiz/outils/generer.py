@@ -34,7 +34,12 @@ SR = 44100
 DUREE_COMPTE = 4
 VOIX_ID = os.environ.get("QUIZ_VOIX", "GPAQQPp9dazaB2bl4zg9")
 MODELE = "eleven_multilingual_v2"
-VOIX_EDGE = os.environ.get("QUIZ_VOIX_EDGE", "fr-FR-RemyMultilingualNeural")
+# Voix uniquement française : les voix « Multilingual » changent d'accent toutes seules
+# sur les mots qui ressemblent à de l'espagnol ou du portugais (Espagne, Barça, Seleção…).
+VOIX_EDGE = os.environ.get("QUIZ_VOIX_EDGE", "fr-FR-HenriNeural")
+PHRASE_PAUSE = "Besoin de réfléchir ? Appuie sur pause !"
+PHRASE_FIN = ("Alors, combien de bonnes réponses ? Écris ton score en commentaire et abonne-toi "
+              "à Chrono Quiz pour le prochain quiz !")
 
 # ---------------------------------------------------------------- identité visuelle
 MARQUE = "CHRONO QUIZ"
@@ -430,6 +435,15 @@ def image_fin(base, ep, t):
 
 
 # ---------------------------------------------------------------- montage
+def phrase_reponse(q):
+    """Phrase dite à la révélation. Le point après la lettre force une pause : sans lui,
+    « Réponse A : Athènes » est prononcé « Réponds-ça à Taine »."""
+    phrase = f"Réponse {LETTRES[q['reponse']]}. {q['choix'][q['reponse']]} !"
+    if q.get("explication"):
+        phrase += " " + q["explication"]
+    return phrase
+
+
 def publication(ep):
     th = THEMES[ep["theme"]].get("court", THEMES[ep["theme"]]["nom"].lower())
     tags = {"foot": "#foot #football #quizfoot", "logique": "#logique #enigme #cassetete",
@@ -453,7 +467,7 @@ def generer(chemin):
                      [(0.0, son_whoosh()), (0.3, v)]))
 
     pause_q = ep.get("pause_par_question", False)
-    v_pause = tts(ep.get("pause", "Besoin de réfléchir ? Appuie sur pause !")) if pause_q else None
+    v_pause = tts(ep.get("pause", PHRASE_PAUSE)) if pause_q else None
     tic, tic2, ding = son_tic(), son_tic(True), son_bonne_reponse()
 
     for iq, q in enumerate(ep["questions"]):
@@ -475,15 +489,11 @@ def generer(chemin):
         segments.append((DUREE_COMPTE, compte,
                          [(k, tic2 if k == DUREE_COMPTE - 1 else tic) for k in range(DUREE_COMPTE)]))
 
-        phrase = f"Réponse {LETTRES[q['reponse']]} : {q['choix'][q['reponse']]} !"
-        if q.get("explication"):
-            phrase += " " + q["explication"]
-        v2 = tts(phrase)
+        v2 = tts(phrase_reponse(q))
         revele = image_question(base, ep, iq, "revele")
         segments.append((len(v2) / SR + 0.8, lambda t, _r=revele: _r, [(0.0, ding), (0.35, v2)]))
 
-    vf = tts(ep.get("fin", "Alors, combien de bonnes réponses ? Écris ton score en commentaire et abonne-toi "
-                           "à Chrono Quiz pour le prochain quiz !"))
+    vf = tts(ep.get("fin", PHRASE_FIN))
     segments.append((len(vf) / SR + 1.0, lambda t: image_fin(base, ep, t), [(0.2, vf)]))
 
     total = sum(s[0] for s in segments)
