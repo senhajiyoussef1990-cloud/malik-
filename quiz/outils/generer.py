@@ -86,11 +86,17 @@ def tts(texte):
     voix = VOIX_ID if moteur == "eleven" else VOIX_EDGE
     cle = hashlib.sha1(f"{moteur}|{voix}|{texte}".encode()).hexdigest()[:16]
     mp3 = os.path.join(CACHE, cle + ".mp3")
-    if not os.path.exists(mp3):
-        (_eleven if moteur == "eleven" else _edge)(texte, mp3)
-    brut = subprocess.run(["ffmpeg", "-v", "error", "-i", mp3, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
-                          capture_output=True, check=True).stdout
-    return np.frombuffer(brut, dtype=np.float32)
+    for essai in range(3):
+        if not os.path.exists(mp3):
+            tmp = mp3 + ".tmp.mp3"
+            (_eleven if moteur == "eleven" else _edge)(texte, tmp)
+            os.replace(tmp, mp3)  # jamais de fichier à moitié écrit dans le cache
+        r = subprocess.run(["ffmpeg", "-v", "error", "-i", mp3, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
+                           capture_output=True)
+        if r.returncode == 0 and r.stdout:
+            return np.frombuffer(r.stdout, dtype=np.float32)
+        os.remove(mp3)  # fichier illisible : on refait la voix
+    raise RuntimeError(f"Voix impossible à générer : {texte!r}")
 
 
 def son_tic(aigu=False):
@@ -149,8 +155,11 @@ def police(chemin, taille):
 
 
 def couper(texte, fnt, largeur, d):
+    # espaces insécables : jamais de « ? », « ! », « : » ou guillemet seul en début de ligne
+    for a, b in ((" ?", "\u00a0?"), (" !", "\u00a0!"), (" :", "\u00a0:"), ("« ", "«\u00a0"), (" »", "\u00a0»")):
+        texte = texte.replace(a, b)
     lignes, cur = [], ""
-    for mot in texte.split():
+    for mot in texte.split(" "):
         essai = (cur + " " + mot).strip()
         if d.textlength(essai, font=fnt) <= largeur:
             cur = essai
