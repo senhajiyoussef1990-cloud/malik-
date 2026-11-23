@@ -91,6 +91,15 @@ def son_tic():
     return (0.35 * np.sin(2 * np.pi * 1200 * t) * np.exp(-t * 60)).astype(np.float32)
 
 
+def son_whoosh():
+    n = int(SR * 0.45)
+    t = np.arange(n) / SR
+    bruit = np.random.default_rng(1).standard_normal(n)
+    env = np.sin(np.pi * t / t[-1]) ** 2
+    lisse = np.convolve(bruit, np.ones(12) / 12, mode="same")
+    return (0.25 * lisse * env).astype(np.float32)
+
+
 def son_bonne_reponse():
     sortie = np.zeros(int(SR * 0.7), dtype=np.float32)
     for i, f in enumerate([880, 1320]):
@@ -267,6 +276,31 @@ def dessiner_timer(im, m, reste, total, accent):
     d.text((cx, cy), n, font=f, fill=BLANC, anchor="mm")
 
 
+def image_intro(m, data, t):
+    """Titre qui arrive en grossissant, puis la phrase d'accroche."""
+    th = THEMES[data["theme"]]
+    im = BASE.copy()
+    d = ImageDraw.Draw(im, "RGBA")
+    p = min(1.0, t / 0.35)
+    echelle = 1 + 0.6 * (1 - p) ** 3
+    fg = police(FONT_TITRE, int((170 if not m.long else 150) * echelle))
+    cy = m.H / 2 - (150 if not m.long else 90)
+    lignes = couper(data["titre"], fg, m.W - 120, d)
+    h = len(lignes) * fg.size * 1.05
+    y = texte_centre(d, lignes, fg, m.W / 2, cy - h / 2, th["accent"] + (int(255 * p),), 1.05)
+    # trait sous le titre
+    if t > 0.3:
+        q = min(1.0, (t - 0.3) / 0.25)
+        lw = 260 * q
+        d.rounded_rectangle([m.W / 2 - lw, y + fg.size * 0.5, m.W / 2 + lw, y + fg.size * 0.5 + 14], radius=7, fill=BLANC)
+    if t > 0.55:
+        q = min(1.0, (t - 0.55) / 0.3)
+        fp = police(FONT_TEXTE, 66 if not m.long else 58)
+        lp = couper(data["accroche"], fp, m.W - 180, d)
+        texte_centre(d, lp, fp, m.W / 2, y + fg.size * 0.5 + 70 + (1 - q) * 40, (255, 255, 255, int(255 * q)), 1.25)
+    return im
+
+
 PAUSE_COURT = "Besoin de réfléchir ? Mets pause"
 PAUSE_LONG = "Besoin de réfléchir ? Mets pause"
 
@@ -320,11 +354,15 @@ def main():
     duree_compte = 8 if args.long else 4
 
     segments = []  # (durée, fonction_image(t), [(décalage, son)])
-    pause = data.get("pause", "Si tu as besoin de réfléchir, mets pause !")
-    voix = tts(data["accroche"] + " " + pause)
-    segments.append((len(voix) / SR + 0.7,
-                     lambda t, _i=image_texte(m, data, data["titre"], data["accroche"], extra=pause): _i,
-                     [(0.2, voix)]))
+    # Intro rapide : « Bienvenue dans le quiz… » + une phrase qui accroche, puis on enchaîne.
+    bienvenue = data.get("bienvenue", f"Bienvenue dans le {data['titre'].lower()} !")
+    voix = tts(bienvenue + " " + data["accroche"])
+    d_intro = len(voix) / SR + 0.3
+    segments.append((d_intro, lambda t: image_intro(m, data, t), [(0.0, son_whoosh()), (0.25, voix)]))
+
+    pause_question = data.get("pause_par_question", False)
+    phrase_pause = data.get("pause", "Besoin de réfléchir ? Mets pause !")
+    voix_pause = tts(phrase_pause) if pause_question else None
     statique_pause = PAUSE_COURT if not args.long else PAUSE_LONG
 
     tic, ding = son_tic(), son_bonne_reponse()
@@ -333,14 +371,18 @@ def main():
         if args.long:
             texte_voix += " " + " ; ".join(f"{LETTRES[i]} : {c}" for i, c in enumerate(q["choix"]))
         v = tts(texte_voix)
+        sons = [(0.15, v)]
         d_pose = len(v) / SR + 0.4
-        segments.append((d_pose, lambda t, _iq=iq: image_question(m, data, _iq, "pose", min(1, t / 0.9)),
-                         [(0.15, v)]))
+        if voix_pause is not None:
+            sons.append((d_pose, voix_pause))
+            d_pose += len(voix_pause) / SR + 0.2
+        segments.append((d_pose, lambda t, _iq=iq: image_question(m, data, _iq, "pose", min(1, t / 0.9)), sons))
         statique = image_question(m, data, iq, "pose")
 
         def compte(t, _s=statique):
             im = _s.copy()
-            dessiner_pause(im, m, statique_pause)
+            if pause_question:
+                dessiner_pause(im, m, statique_pause)
             dessiner_timer(im, m, duree_compte - t, duree_compte, accent)
             return im
         segments.append((duree_compte, compte, [(k, tic) for k in range(duree_compte)]))

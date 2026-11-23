@@ -1,32 +1,59 @@
 {
   "theme": "foot",
   "titre": "QUIZ FOOT",
+  "bienvenue": "Bienvenue dans le quiz du foot !",
   "accroche": "Seulement 10 % des fans trouvent les 5 réponses !",
+  "pause_par_question": false,
   "fin": "Combien tu as eu de bonnes réponses ? Écris ton score en commentaire et abonne-toi pour le prochain quiz !",
   "questions": [
     {
       "question": "Combien de joueurs par équipe sur le terrain ?",
-      "choix": ["9", "10", "11", "12"],
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
       "reponse": 2
     },
     {
       "question": "Combien de temps dure un match, sans les prolongations ?",
-      "choix": ["80 minutes", "90 minutes", "100 minutes", "120 minutes"],
+      "choix": [
+        "80 minutes",
+        "90 minutes",
+        "100 minutes",
+        "120 minutes"
+      ],
       "reponse": 1
     },
     {
       "question": "En quelle année la France a gagné sa première Coupe du monde ?",
-      "choix": ["1986", "1994", "1998", "2006"],
+      "choix": [
+        "1986",
+        "1994",
+        "1998",
+        "2006"
+      ],
       "reponse": 2
     },
     {
       "question": "Quel pays a gagné le plus de Coupes du monde ?",
-      "choix": ["Allemagne", "Italie", "Argentine", "Brésil"],
+      "choix": [
+        "Allemagne",
+        "Italie",
+        "Argentine",
+        "Brésil"
+      ],
       "reponse": 3
     },
     {
       "question": "Quel joueur a gagné le plus de Ballons d'Or ?",
-      "choix": ["Cristiano Ronaldo", "Lionel Messi", "Michel Platini", "Zinédine Zidane"],
+      "choix": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Michel Platini",
+        "Zinédine Zidane"
+      ],
       "reponse": 1
     }
   ]

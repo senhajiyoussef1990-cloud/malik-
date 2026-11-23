@@ -1,7 +1,9 @@
 {
   "theme": "logique",
   "titre": "QUIZ LOGIQUE",
+  "bienvenue": "Bienvenue dans le quiz logique !",
   "accroche": "99 % des gens se trompent à la question 3 !",
+  "pause_par_question": true,
   "fin": "Combien tu as eu de bonnes réponses ? Écris ton score en commentaire et abonne-toi pour le prochain quiz !",
   "questions": [
     {
