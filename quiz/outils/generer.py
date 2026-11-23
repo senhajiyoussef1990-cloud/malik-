@@ -267,7 +267,30 @@ def dessiner_timer(im, m, reste, total, accent):
     d.text((cx, cy), n, font=f, fill=BLANC, anchor="mm")
 
 
-def image_texte(m, data, gros, petit, accent_gros=True):
+PAUSE_COURT = "Besoin de réfléchir ? Mets pause"
+PAUSE_LONG = "Besoin de réfléchir ? Mets pause"
+
+
+def dessiner_pause(im, m, texte, cy=None):
+    """Bandeau « mets pause » avec l'icône pause, pendant le compte à rebours."""
+    d = ImageDraw.Draw(im, "RGBA")
+    f = police(FONT_TEXTE, 40 if not m.long else 36)
+    w = d.textlength(texte, font=f)
+    h = 66 if not m.long else 60
+    icone = h * 0.42
+    larg = w + icone + 26 + 56
+    if cy is None:
+        cy = 735 if not m.long else 40 + h / 2 + 8
+    x0 = m.W / 2 - larg / 2
+    d.rounded_rectangle([x0, cy - h / 2, x0 + larg, cy + h / 2], radius=h // 2, fill=(0, 0, 0, 120))
+    ix = x0 + 28
+    bw = icone * 0.32
+    d.rectangle([ix, cy - icone / 2, ix + bw, cy + icone / 2], fill=BLANC)
+    d.rectangle([ix + icone - bw, cy - icone / 2, ix + icone, cy + icone / 2], fill=BLANC)
+    d.text((ix + icone + 18, cy), texte, font=f, fill=BLANC, anchor="lm")
+
+
+def image_texte(m, data, gros, petit, accent_gros=True, extra=None):
     im = BASE.copy()
     d = ImageDraw.Draw(im, "RGBA")
     fg = police(FONT_TITRE, 150 if not m.long else 140)
@@ -277,7 +300,9 @@ def image_texte(m, data, gros, petit, accent_gros=True):
     h = len(lg) * fg.size * 1.1 + 60 + len(lp) * fp.size * 1.25
     y = m.H / 2 - h / 2 - (80 if not m.long else 0)
     y = texte_centre(d, lg, fg, m.W / 2, y, THEMES[data["theme"]]["accent"] if accent_gros else BLANC, 1.1)
-    texte_centre(d, lp, fp, m.W / 2, y + 60, BLANC, 1.25)
+    y = texte_centre(d, lp, fp, m.W / 2, y + 60, BLANC, 1.25)
+    if extra:
+        dessiner_pause(im, m, extra, cy=y + 90)
     return im
 
 
@@ -295,9 +320,12 @@ def main():
     duree_compte = 8 if args.long else 4
 
     segments = []  # (durée, fonction_image(t), [(décalage, son)])
-    voix = tts(data["accroche"])
+    pause = data.get("pause", "Si tu as besoin de réfléchir, mets pause !")
+    voix = tts(data["accroche"] + " " + pause)
     segments.append((len(voix) / SR + 0.7,
-                     lambda t, _i=image_texte(m, data, data["titre"], data["accroche"]): _i, [(0.2, voix)]))
+                     lambda t, _i=image_texte(m, data, data["titre"], data["accroche"], extra=pause): _i,
+                     [(0.2, voix)]))
+    statique_pause = PAUSE_COURT if not args.long else PAUSE_LONG
 
     tic, ding = son_tic(), son_bonne_reponse()
     for iq, q in enumerate(data["questions"]):
@@ -312,6 +340,7 @@ def main():
 
         def compte(t, _s=statique):
             im = _s.copy()
+            dessiner_pause(im, m, statique_pause)
             dessiner_timer(im, m, duree_compte - t, duree_compte, accent)
             return im
         segments.append((duree_compte, compte, [(k, tic) for k in range(duree_compte)]))

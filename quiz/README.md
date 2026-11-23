@@ -20,6 +20,7 @@ Copier un fichier de `questions/` et changer le texte :
 - `theme` : `foot` (fond terrain vert) ou `logique` (fond violet)
 - `reponse` : numéro de la bonne réponse, **en partant de 0** (0 = A, 1 = B, 2 = C, 3 = D)
 - `explication` (facultatif) : phrase dite après la réponse
+- `pause` (facultatif) : phrase « mets pause » de l'intro (par défaut : « Si tu as besoin de réfléchir, mets pause ! »)
 
 ## Voix
 
