@@ -1,3 +1,4 @@
 cache/
 sortie/*.f32
 __pycache__/
+*.zip
