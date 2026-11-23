@@ -1,10 +1,9 @@
 {
+  "numero": 1,
   "theme": "foot",
-  "titre": "QUIZ FOOT",
-  "bienvenue": "Bienvenue dans le quiz du foot !",
   "accroche": "Seulement 10 % des fans trouvent les 5 réponses !",
+  "titre_youtube": "Quiz foot : 10 % des fans trouvent les 5 réponses ⚽",
   "pause_par_question": false,
-  "fin": "Combien tu as eu de bonnes réponses ? Écris ton score en commentaire et abonne-toi pour le prochain quiz !",
   "questions": [
     {
       "question": "Combien de joueurs par équipe sur le terrain ?",
@@ -14,7 +13,8 @@
         "11",
         "12"
       ],
-      "reponse": 2
+      "reponse": 2,
+      "niveau": "facile"
     },
     {
       "question": "Combien de temps dure un match, sans les prolongations ?",
@@ -24,7 +24,8 @@
         "100 minutes",
         "120 minutes"
       ],
-      "reponse": 1
+      "reponse": 1,
+      "niveau": "facile"
     },
     {
       "question": "En quelle année la France a gagné sa première Coupe du monde ?",
@@ -34,17 +35,19 @@
         "1998",
         "2006"
       ],
-      "reponse": 2
+      "reponse": 2,
+      "niveau": "moyen"
     },
     {
-      "question": "Quel pays a gagné le plus de Coupes du monde ?",
+      "question": "Quel pays a organisé la Coupe du monde 2018 ?",
       "choix": [
-        "Allemagne",
-        "Italie",
-        "Argentine",
-        "Brésil"
+        "Qatar",
+        "Russie",
+        "Brésil",
+        "Allemagne"
       ],
-      "reponse": 3
+      "reponse": 1,
+      "niveau": "moyen"
     },
     {
       "question": "Quel joueur a gagné le plus de Ballons d'Or ?",
@@ -54,7 +57,9 @@
         "Michel Platini",
         "Zinédine Zidane"
       ],
-      "reponse": 1
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Il en a gagné 8 !"
     }
   ]
 }

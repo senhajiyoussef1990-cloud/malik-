@@ -1,0 +1,65 @@
+{
+  "numero": 3,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Tu connais vraiment le foot ? 5 questions pour le prouver ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle couleur de carton exclut un joueur du match ?",
+      "choix": [
+        "Jaune",
+        "Rouge",
+        "Vert",
+        "Bleu"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de points gagne une équipe pour une victoire en championnat ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel pays se trouve le club du Bayern Munich ?",
+      "choix": [
+        "Autriche",
+        "Allemagne",
+        "Suisse",
+        "Pays-Bas"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a organisé la Coupe du monde 2014 ?",
+      "choix": [
+        "Brésil",
+        "Russie",
+        "Allemagne",
+        "Afrique du Sud"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a gagné la toute première Coupe du monde, en 1930 ?",
+      "choix": [
+        "Brésil",
+        "Uruguay",
+        "Italie",
+        "Argentine"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "L'Uruguay a gagné chez lui, en 1930."
+    }
+  ]
+}

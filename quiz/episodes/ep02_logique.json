@@ -1,10 +1,9 @@
 {
+  "numero": 2,
   "theme": "logique",
-  "titre": "QUIZ LOGIQUE",
-  "bienvenue": "Bienvenue dans le quiz logique !",
   "accroche": "99 % des gens se trompent à la question 3 !",
+  "titre_youtube": "99 % des gens se trompent à la question 3 🧠",
   "pause_par_question": true,
-  "fin": "Combien tu as eu de bonnes réponses ? Écris ton score en commentaire et abonne-toi pour le prochain quiz !",
   "questions": [
     {
       "question": "Quel nombre continue la suite : 2, 4, 8, 16… ?",
@@ -15,6 +14,7 @@
         "36"
       ],
       "reponse": 2,
+      "niveau": "facile",
       "explication": "Chaque nombre est le double du précédent."
     },
     {
@@ -26,6 +26,7 @@
         "Dernier"
       ],
       "reponse": 1,
+      "niveau": "facile",
       "explication": "Tu prends sa place : tu es donc 2e, pas 1er !"
     },
     {
@@ -37,6 +38,7 @@
         "Nanou"
       ],
       "reponse": 2,
+      "niveau": "moyen",
       "explication": "C'est la fille du père de Marie… c'est Marie elle-même !"
     },
     {
@@ -48,7 +50,8 @@
         "300"
       ],
       "reponse": 0,
-      "explication": "Chaque chat attrape une souris toutes les 3 minutes, donc en 100 minutes, 3 chats en attrapent 100."
+      "niveau": "moyen",
+      "explication": "Chaque chat attrape une souris toutes les 3 minutes : en 100 minutes, 3 chats en attrapent 100."
     },
     {
       "question": "Quel nombre continue la suite : 1, 1, 2, 3, 5, 8… ?",
@@ -59,6 +62,7 @@
         "15"
       ],
       "reponse": 2,
+      "niveau": "difficile",
       "explication": "Chaque nombre est la somme des deux précédents : 5 plus 8 font 13."
     }
   ]

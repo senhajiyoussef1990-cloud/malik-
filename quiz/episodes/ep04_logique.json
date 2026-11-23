@@ -1,0 +1,69 @@
+{
+  "numero": 4,
+  "theme": "logique",
+  "accroche": "La question 5 piège presque tout le monde !",
+  "titre_youtube": "Cette question piège presque tout le monde 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Quel nombre continue la suite : 5, 10, 15, 20… ?",
+      "choix": [
+        "22",
+        "25",
+        "30",
+        "35"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "On ajoute 5 à chaque fois."
+    },
+    {
+      "question": "Combien de mois ont 28 jours ?",
+      "choix": [
+        "1",
+        "2",
+        "6",
+        "12"
+      ],
+      "reponse": 3,
+      "niveau": "facile",
+      "explication": "Tous les mois ont au moins 28 jours !"
+    },
+    {
+      "question": "Un fermier a 15 moutons. Tous sauf 8 s'enfuient. Combien lui en reste-t-il ?",
+      "choix": [
+        "0",
+        "7",
+        "8",
+        "15"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Tous sauf 8 s'enfuient : il en reste donc 8."
+    },
+    {
+      "question": "Quel nombre continue la suite : 1, 4, 9, 16… ?",
+      "choix": [
+        "20",
+        "23",
+        "25",
+        "32"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Ce sont les carrés : 1, 2 fois 2, 3 fois 3, 4 fois 4… et 5 fois 5 font 25."
+    },
+    {
+      "question": "Une batte et une balle coûtent 1,10 € en tout. La batte coûte 1 € de plus que la balle. Combien coûte la balle ?",
+      "choix": [
+        "5 centimes",
+        "10 centimes",
+        "15 centimes",
+        "1 euro"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "La balle coûte 5 centimes et la batte 1,05 € : 1,05 plus 0,05 font bien 1,10."
+    }
+  ]
+}

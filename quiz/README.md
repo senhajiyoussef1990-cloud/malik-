@@ -1,31 +1,35 @@
-# Quiz YouTube — foot et logique
+# Chrono Quiz — Shorts YouTube (foot et logique)
 
-Génère automatiquement des vidéos de quiz à choix multiples (A, B, C, D) :
-voix off, compte à rebours, révélation de la bonne réponse et écran de fin.
+Génère automatiquement des Shorts de quiz à choix multiples (A, B, C, D) avec l'identité
+**Chrono Quiz** : intro animée, voix off, compte à rebours de 4 secondes, révélation de la
+réponse, écran de fin « Ton score ? / Abonne-toi ».
 
-## Fabriquer une vidéo
+## Fabriquer les vidéos
 
 ```bash
-pip install edge-tts numpy pillow      # une seule fois (ffmpeg doit être installé)
-python3 outils/generer.py questions/foot_01.json          # Short vertical 1080x1920
-python3 outils/generer.py questions/foot_01.json --long   # vidéo longue 1920x1080
+pip install edge-tts numpy pillow       # une seule fois (ffmpeg doit être installé)
+python3 outils/generer.py --tous                     # les 10 épisodes
+python3 outils/generer.py episodes/ep03_foot.json    # un seul épisode
+python3 outils/marque.py                             # photo de profil + bannière de la chaîne
 ```
 
-La vidéo sort dans `sortie/`.
+Les vidéos et un texte de publication (titre, description, hashtags) sortent dans `sortie/`.
+La photo de profil et la bannière sortent dans `marque/`.
 
-## Ajouter un quiz
+## Fichier d'un épisode (`episodes/`)
 
-Copier un fichier de `questions/` et changer le texte :
-
-- `theme` : `foot` (fond terrain vert) ou `logique` (fond violet)
-- `reponse` : numéro de la bonne réponse, **en partant de 0** (0 = A, 1 = B, 2 = C, 3 = D)
-- `explication` (facultatif) : phrase dite après la réponse
-- `bienvenue` : phrase d'entrée (ex. « Bienvenue dans le quiz du foot ! »), suivie de `accroche`
-- `pause_par_question` : `true` = après chaque question la voix dit « Besoin de réfléchir ? Mets pause ! » (logique), `false` = rien (foot)
-- `pause` (facultatif) : pour changer cette phrase
+- `numero`, `theme` : `foot` (fond terrain vert) ou `logique` (fond violet)
+- `accroche` : phrase dite dans l'intro, après « Bienvenue dans Chrono Quiz ! Spécial … »
+- `titre_youtube` : titre proposé pour la publication
+- `pause_par_question` : `true` = après chaque question, la voix dit « Besoin de réfléchir ? Mets pause ! » (logique), `false` = rien (foot)
+- `questions` : 5 questions, chacune avec
+  - `choix` : 4 réponses
+  - `reponse` : numéro de la bonne réponse, **en partant de 0** (0 = A, 1 = B, 2 = C, 3 = D)
+  - `niveau` : `facile`, `moyen` ou `difficile` (affiché dans la vidéo, et servira à
+    assembler plus tard les vidéos longues facile / moyen / difficile)
+  - `explication` (facultatif) : phrase dite après la réponse
 
 ## Voix
 
 Par défaut : voix française gratuite Microsoft (`fr-FR-RemyMultilingualNeural`).
-Autre voix : `QUIZ_VOIX_EDGE=fr-FR-HenriNeural`. ElevenLabs : `QUIZ_TTS=eleven`
-(compte payant nécessaire).
+Autre voix : `QUIZ_VOIX_EDGE=fr-FR-HenriNeural`. ElevenLabs : `QUIZ_TTS=eleven` (compte payant).

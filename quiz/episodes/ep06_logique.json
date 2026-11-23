@@ -1,0 +1,69 @@
+{
+  "numero": 6,
+  "theme": "logique",
+  "accroche": "Ton cerveau va chauffer à la question 4 !",
+  "titre_youtube": "Ton cerveau va chauffer à la question 4 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Quel jour vient après le lendemain de lundi ?",
+      "choix": [
+        "Mardi",
+        "Mercredi",
+        "Jeudi",
+        "Dimanche"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "Le lendemain de lundi, c'est mardi. Et après mardi, c'est mercredi."
+    },
+    {
+      "question": "Quel nombre continue la suite : 3, 6, 9, 12… ?",
+      "choix": [
+        "13",
+        "14",
+        "15",
+        "18"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "On ajoute 3 à chaque fois."
+    },
+    {
+      "question": "Qu'est-ce qui est le plus lourd : 1 kilo de plumes ou 1 kilo de plomb ?",
+      "choix": [
+        "Les plumes",
+        "Le plomb",
+        "C'est pareil",
+        "Ça dépend"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Un kilo, c'est un kilo !"
+    },
+    {
+      "question": "Combien de fois peut-on enlever 5 à 25 ?",
+      "choix": [
+        "1 fois",
+        "4 fois",
+        "5 fois",
+        "25 fois"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "Une seule fois : après, ce n'est plus 25, c'est 20 !"
+    },
+    {
+      "question": "Quel nombre continue la suite : 2, 3, 5, 7, 11… ?",
+      "choix": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Ce sont les nombres premiers : ils ne se divisent que par 1 et par eux-mêmes."
+    }
+  ]
+}

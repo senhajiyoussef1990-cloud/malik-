@@ -1,0 +1,65 @@
+{
+  "numero": 9,
+  "theme": "foot",
+  "accroche": "5 questions, 4 secondes chacune. Tu tiens le rythme ?",
+  "titre_youtube": "5 questions foot, 4 secondes chacune ⏱️⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Comment s'appelle le tir accordé après une faute dans la surface de réparation ?",
+      "choix": [
+        "Un corner",
+        "Un penalty",
+        "Une touche",
+        "Un dégagement"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Comment s'appelle le stade du PSG ?",
+      "choix": [
+        "Stade de France",
+        "Parc des Princes",
+        "Vélodrome",
+        "Groupama Stadium"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel pays est surnommé « la Seleção » ?",
+      "choix": [
+        "Argentine",
+        "Portugal",
+        "Brésil",
+        "Espagne"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club joue au stade Vélodrome ?",
+      "choix": [
+        "PSG",
+        "Olympique de Marseille",
+        "Olympique Lyonnais",
+        "LOSC Lille"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel club a gagné le plus de Ligues des champions ?",
+      "choix": [
+        "AC Milan",
+        "Bayern Munich",
+        "Liverpool",
+        "Real Madrid"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "Le Real Madrid est loin devant tout le monde !"
+    }
+  ]
+}

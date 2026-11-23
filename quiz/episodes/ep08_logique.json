@@ -1,0 +1,69 @@
+{
+  "numero": 8,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Presque personne ne trouve la dernière question 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Quelle lettre continue la suite : A, C, E, G… ?",
+      "choix": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "On saute une lettre à chaque fois."
+    },
+    {
+      "question": "Si hier c'était dimanche, quel jour serons-nous demain ?",
+      "choix": [
+        "Lundi",
+        "Mardi",
+        "Mercredi",
+        "Samedi"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "Aujourd'hui c'est lundi, donc demain c'est mardi."
+    },
+    {
+      "question": "Il y a 3 pommes. Tu en prends 2. Combien de pommes as-tu ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Tu as les 2 pommes que tu as prises !"
+    },
+    {
+      "question": "Quel nombre continue la suite : 1, 2, 4, 7, 11… ?",
+      "choix": [
+        "14",
+        "15",
+        "16",
+        "18"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "On ajoute 1, puis 2, puis 3, puis 4… et maintenant 5 : 11 plus 5 font 16."
+    },
+    {
+      "question": "Un nénuphar double de taille chaque jour. Il couvre tout l'étang en 30 jours. En combien de jours en couvre-t-il la moitié ?",
+      "choix": [
+        "15 jours",
+        "20 jours",
+        "28 jours",
+        "29 jours"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "Il double chaque jour : la veille du 30e jour, il en couvrait la moitié."
+    }
+  ]
+}
