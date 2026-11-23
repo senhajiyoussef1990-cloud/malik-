@@ -1,0 +1,66 @@
+{
+  "numero": 76,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Coupe du monde 1998 ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quel pays s'est jouée la Coupe du monde 1998 ?",
+      "choix": [
+        "France",
+        "Italie",
+        "États-Unis",
+        "Allemagne"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel stade s'est jouée la finale de la Coupe du monde 1998 ?",
+      "choix": [
+        "Parc des Princes",
+        "Vélodrome",
+        "Stade Gerland",
+        "Stade de France"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel défenseur français a marqué 2 buts en demi-finale contre la Croatie ?",
+      "choix": [
+        "Laurent Blanc",
+        "Marcel Desailly",
+        "Lilian Thuram",
+        "Bixente Lizarazu"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Les deux seuls buts de sa carrière en équipe de France !"
+    },
+    {
+      "question": "Quel joueur français a été exclu pendant la finale contre le Brésil ?",
+      "choix": [
+        "Laurent Blanc",
+        "Marcel Desailly",
+        "Lilian Thuram",
+        "Christian Karembeu"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel joueur a marqué le but en or contre le Paraguay, en huitième de finale ?",
+      "choix": [
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Youri Djorkaeff"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "Le premier but en or de l'histoire de la Coupe du monde."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "numero": 94,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Arbitrage et cartons ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel carton reçoit un joueur pour un avertissement ?",
+      "choix": [
+        "Le carton rouge",
+        "Le carton vert",
+        "Le carton jaune",
+        "Le carton blanc"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Avec quoi l'arbitre central signale-t-il une faute ?",
+      "choix": [
+        "Un drapeau",
+        "Un sifflet",
+        "Une cloche",
+        "Un klaxon"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel arbitre tient un drapeau le long de la ligne de touche ?",
+      "choix": [
+        "L'arbitre assistant",
+        "L'arbitre central",
+        "Le quatrième arbitre",
+        "Le délégué"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Que fait l'arbitre après une faute dans la surface de réparation ?",
+      "choix": [
+        "Il donne un corner",
+        "Il siffle une touche",
+        "Il arrête le match",
+        "Il siffle un penalty"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Peut-on être hors-jeu sur une rentrée de touche ?",
+      "choix": [
+        "Oui",
+        "Seulement en finale",
+        "Non",
+        "Seulement le gardien"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Sur une rentrée de touche, il n'y a jamais de hors-jeu."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "numero": 73,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Entraîneurs célèbres ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Qui était le sélectionneur des Bleus champions du monde en 2018 ?",
+      "choix": [
+        "Aimé Jacquet",
+        "Laurent Blanc",
+        "Zinédine Zidane",
+        "Didier Deschamps"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Qui était le sélectionneur des Bleus champions du monde en 1998 ?",
+      "choix": [
+        "Michel Hidalgo",
+        "Roger Lemerre",
+        "Aimé Jacquet",
+        "Raymond Domenech"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel entraîneur français a gagné 3 Ligues des champions de suite avec le Real Madrid ?",
+      "choix": [
+        "Didier Deschamps",
+        "Zinédine Zidane",
+        "Arsène Wenger",
+        "Rudi Garcia"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "En 2016, 2017 et 2018."
+    },
+    {
+      "question": "Quel entraîneur français est resté 22 ans à la tête d'Arsenal ?",
+      "choix": [
+        "Arsène Wenger",
+        "Gérard Houllier",
+        "Claude Puel",
+        "Rudi Garcia"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel entraîneur écossais a dirigé Manchester United pendant 26 ans ?",
+      "choix": [
+        "Matt Busby",
+        "Kenny Dalglish",
+        "David Moyes",
+        "Alex Ferguson"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

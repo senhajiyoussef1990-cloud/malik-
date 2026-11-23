@@ -480,7 +480,7 @@ def generer(chemin):
     tic, tic2, ding = son_tic(), son_tic(True), son_bonne_reponse()
 
     for iq, q in enumerate(ep["questions"]):
-        v = tts(q["question"])
+        v = tts(q.get("voix", q["question"]))
         sons, d_pose = [(0.15, v)], len(v) / SR + 0.4
         if v_pause is not None:
             sons.append((d_pose, v_pause))

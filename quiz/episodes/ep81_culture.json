@@ -1,0 +1,64 @@
+{
+  "numero": 81,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Cuisine du monde 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "De quel pays vient la pizza ?",
+      "choix": [
+        "France",
+        "Espagne",
+        "Grèce",
+        "Italie"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "De quel pays viennent les sushis ?",
+      "choix": [
+        "Chine",
+        "Corée",
+        "Japon",
+        "Thaïlande"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel pays mange-t-on traditionnellement la paella ?",
+      "choix": [
+        "Portugal",
+        "Espagne",
+        "Italie",
+        "Mexique"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel fromage met-on sur une vraie pizza margherita ?",
+      "choix": [
+        "La mozzarella",
+        "L'emmental",
+        "Le comté",
+        "Le roquefort"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "De quel pays vient le plat appelé goulash ?",
+      "choix": [
+        "Pologne",
+        "Autriche",
+        "Roumanie",
+        "Hongrie"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

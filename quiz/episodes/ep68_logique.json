@@ -1,0 +1,68 @@
+{
+  "numero": 68,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Pair ou impair 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Le nombre 7 est-il pair ou impair ?",
+      "choix": [
+        "Impair",
+        "Pair",
+        "Les deux",
+        "Ni l'un ni l'autre"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Lequel de ces nombres est pair ?",
+      "choix": [
+        "13",
+        "21",
+        "24",
+        "35"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "Un nombre pair se termine par 0, 2, 4, 6 ou 8."
+    },
+    {
+      "question": "Un nombre pair plus un nombre pair, ça donne toujours un nombre… ?",
+      "choix": [
+        "Impair",
+        "Ça dépend",
+        "Pair",
+        "Premier"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Par exemple, 2 plus 4 font 6."
+    },
+    {
+      "question": "Un nombre impair plus un nombre impair, ça donne toujours un nombre… ?",
+      "choix": [
+        "Impair",
+        "Pair",
+        "Ça dépend",
+        "Négatif"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Par exemple, 3 plus 5 font 8 : c'est pair !"
+    },
+    {
+      "question": "Combien y a-t-il de nombres pairs entre 1 et 20, en comptant 20 ?",
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "20"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "2, 4, 6, 8, 10, 12, 14, 16, 18 et 20 : 10 nombres."
+    }
+  ]
+}

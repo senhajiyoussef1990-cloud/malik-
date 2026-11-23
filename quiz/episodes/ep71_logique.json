@@ -1,0 +1,67 @@
+{
+  "numero": 71,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Recettes et proportions 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Une recette pour 2 personnes demande 4 œufs. Combien d'œufs pour 4 personnes ?",
+      "choix": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "Deux fois plus de personnes, donc deux fois plus d'œufs."
+    },
+    {
+      "question": "Il faut 2 citrons pour 1 litre de citronnade. Combien de citrons pour 3 litres ?",
+      "choix": [
+        "3",
+        "5",
+        "6",
+        "9"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Un gâteau pour 6 personnes demande 300 grammes de farine. Combien pour 2 personnes ?",
+      "choix": [
+        "50 grammes",
+        "100 grammes",
+        "150 grammes",
+        "200 grammes"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "2 personnes, c'est 3 fois moins : 300 divisé par 3 font 100."
+    },
+    {
+      "question": "Un paquet de pâtes de 500 grammes nourrit 5 personnes. Combien de personnes avec 2 paquets ?",
+      "choix": [
+        "5",
+        "7",
+        "10",
+        "20"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Une recette pour 4 personnes demande 6 cuillères de sucre. Combien de cuillères pour 6 personnes ?",
+      "choix": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Une cuillère et demie par personne : 6 fois une et demie font 9."
+    }
+  ]
+}

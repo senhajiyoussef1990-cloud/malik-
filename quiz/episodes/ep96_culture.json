@@ -1,0 +1,71 @@
+{
+  "numero": 96,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Chiffres romains et maths de base 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel nombre s'écrit V en chiffres romains ?",
+      "choix": [
+        "1",
+        "5",
+        "10",
+        "50"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "voix": "Quel nombre s'écrit avec la lettre vé, en chiffres romains ?"
+    },
+    {
+      "question": "Quel nombre s'écrit X en chiffres romains ?",
+      "choix": [
+        "5",
+        "10",
+        "20",
+        "100"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "voix": "Quel nombre s'écrit avec la lettre iks, en chiffres romains ?"
+    },
+    {
+      "question": "Quel nombre s'écrit XII en chiffres romains ?",
+      "choix": [
+        "7",
+        "11",
+        "12",
+        "21"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "voix": "Quel nombre s'écrit iks, i, i, en chiffres romains ?",
+      "explication": "X vaut 10, et chaque I ajoute 1 : 12."
+    },
+    {
+      "question": "Quel nombre s'écrit L en chiffres romains ?",
+      "choix": [
+        "5",
+        "50",
+        "100",
+        "500"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "voix": "Quel nombre s'écrit avec la lettre èle, en chiffres romains ?"
+    },
+    {
+      "question": "Quel nombre s'écrit MMXXVI en chiffres romains ?",
+      "choix": [
+        "1526",
+        "2016",
+        "2026",
+        "2106"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "voix": "Quel nombre s'écrit èm, èm, iks, iks, vé, i, en chiffres romains ?",
+      "explication": "M M font 2000, X X font 20, et V I font 6 : 2026, cette année !"
+    }
+  ]
+}

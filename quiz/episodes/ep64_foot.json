@@ -1,0 +1,65 @@
+{
+  "numero": 64,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Couleurs des maillots ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "De quelle couleur est le maillot principal de l'équipe de France ?",
+      "choix": [
+        "Bleu",
+        "Blanc",
+        "Rouge",
+        "Vert"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "De quelle couleur est le maillot principal du Brésil ?",
+      "choix": [
+        "Vert",
+        "Bleu",
+        "Blanc",
+        "Jaune"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "De quelle couleur est le maillot principal de l'Olympique de Marseille ?",
+      "choix": [
+        "Bleu",
+        "Jaune",
+        "Blanc",
+        "Rouge"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelles sont les couleurs du maillot de l'Argentine ?",
+      "choix": [
+        "Rouge et blanc",
+        "Bleu ciel et blanc",
+        "Jaune et vert",
+        "Bleu et rouge"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "De quelle couleur est le maillot principal des Pays-Bas ?",
+      "choix": [
+        "Orange",
+        "Rouge",
+        "Jaune",
+        "Bleu"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "L'orange, la couleur de la famille royale néerlandaise."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "numero": 72,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Sciences et chimie 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la formule chimique de l'eau ?",
+      "choix": [
+        "H2O",
+        "CO2",
+        "O2",
+        "NaCl"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "À quelle température l'eau bout-elle, au niveau de la mer ?",
+      "choix": [
+        "50 degrés",
+        "80 degrés",
+        "100 degrés",
+        "120 degrés"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel gaz les plantes rejettent-elles grâce à la lumière du soleil ?",
+      "choix": [
+        "Le gaz carbonique",
+        "L'azote",
+        "L'oxygène",
+        "L'hélium"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel métal est liquide à température ambiante ?",
+      "choix": [
+        "Le fer",
+        "Le mercure",
+        "L'aluminium",
+        "Le cuivre"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le gaz le plus abondant dans l'air que l'on respire ?",
+      "choix": [
+        "L'azote",
+        "L'oxygène",
+        "Le gaz carbonique",
+        "L'hélium"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "Ce n'est pas l'oxygène : l'air contient environ 78 % d'azote !"
+    }
+  ]
+}

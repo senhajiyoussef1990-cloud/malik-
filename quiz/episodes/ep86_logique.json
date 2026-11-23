@@ -1,0 +1,68 @@
+{
+  "numero": 86,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Énigmes d'animaux 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien de pattes ont 2 chats et 1 oiseau ?",
+      "choix": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "2 chats font 8 pattes, plus 2 pattes d'oiseau : 10."
+    },
+    {
+      "question": "Une araignée a 8 pattes. Combien de pattes ont 2 araignées ?",
+      "choix": [
+        "10",
+        "12",
+        "16",
+        "18"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Qui marche à 4 pattes le matin, sur 2 jambes à midi et sur 3 le soir ?",
+      "choix": [
+        "L'humain",
+        "Le chat",
+        "Le chien",
+        "Le kangourou"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "Bébé à 4 pattes, adulte sur 2 jambes, puis avec une canne en vieillissant."
+    },
+    {
+      "question": "Un chien est attaché à une corde de 3 mètres. Il attrape un os à 5 mètres. Comment ?",
+      "choix": [
+        "Il saute très loin",
+        "La corde casse",
+        "Il tire le poteau",
+        "La corde est libre"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "La corde n'est attachée à rien d'autre qu'au chien !"
+    },
+    {
+      "question": "Deux canards devant un canard, deux canards derrière un canard, un canard au milieu. Combien de canards ?",
+      "choix": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "Trois canards en file : celui du milieu a un canard devant et un derrière."
+    }
+  ]
+}

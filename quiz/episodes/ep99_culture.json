@@ -1,0 +1,66 @@
+{
+  "numero": 99,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Spécial expert culture G 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel est le plus petit pays du monde ?",
+      "choix": [
+        "Monaco",
+        "Le Vatican",
+        "Malte",
+        "Saint-Marin"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la capitale de l'Australie ?",
+      "choix": [
+        "Canberra",
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "reponse": 0,
+      "niveau": "facile",
+      "explication": "Ce n'est pas Sydney : c'est Canberra !"
+    },
+    {
+      "question": "Quel est l'élément chimique le plus léger ?",
+      "choix": [
+        "L'hélium",
+        "L'oxygène",
+        "Le carbone",
+        "L'hydrogène"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "En quelle année est tombé le mur de Berlin ?",
+      "choix": [
+        "1979",
+        "1985",
+        "1989",
+        "1991"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a le plus de fuseaux horaires, grâce à ses territoires d'outre-mer ?",
+      "choix": [
+        "Russie",
+        "France",
+        "États-Unis",
+        "Chine"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Grâce à l'outre-mer, la France en a plus que la Russie ou les États-Unis !"
+    }
+  ]
+}

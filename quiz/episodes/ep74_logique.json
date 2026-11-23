@@ -1,0 +1,66 @@
+{
+  "numero": 74,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Argent et monnaie 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Tu paies un livre de 7 euros avec un billet de 10 euros. Combien te rend-on ?",
+      "choix": [
+        "2 euros",
+        "3 euros",
+        "4 euros",
+        "7 euros"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de pièces de 50 centimes faut-il pour faire 2 euros ?",
+      "choix": [
+        "2",
+        "4",
+        "5",
+        "10"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "2 pièces de 50 centimes font 1 euro, donc 4 pour 2 euros."
+    },
+    {
+      "question": "Un stylo coûte 2 euros. Combien coûtent 6 stylos ?",
+      "choix": [
+        "8 euros",
+        "10 euros",
+        "12 euros",
+        "14 euros"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Un jeu coûte 40 euros. Il est soldé à moitié prix. Combien coûte-t-il maintenant ?",
+      "choix": [
+        "10 euros",
+        "20 euros",
+        "30 euros",
+        "35 euros"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Tu achètes un objet 10 euros et le revends 15. Puis tu le rachètes 20 et le revends 25. Combien as-tu gagné ?",
+      "choix": [
+        "5 euros",
+        "10 euros",
+        "15 euros",
+        "20 euros"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "5 euros la première fois, et encore 5 euros la deuxième : 10 euros."
+    }
+  ]
+}

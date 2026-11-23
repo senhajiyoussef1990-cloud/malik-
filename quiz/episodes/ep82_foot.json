@@ -1,0 +1,65 @@
+{
+  "numero": 82,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Foot féminin ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Combien de joueuses par équipe y a-t-il sur le terrain ?",
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel pays a gagné la Coupe du monde féminine 2023 ?",
+      "choix": [
+        "Angleterre",
+        "Espagne",
+        "États-Unis",
+        "Suède"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club a gagné le plus de Ligues des champions féminines ?",
+      "choix": [
+        "Olympique Lyonnais",
+        "Paris Saint-Germain",
+        "FC Barcelone",
+        "Wolfsburg"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "L'OL l'a gagnée 8 fois !"
+    },
+    {
+      "question": "Quelle joueuse norvégienne a gagné le tout premier Ballon d'Or féminin, en 2018 ?",
+      "choix": [
+        "Alexia Putellas",
+        "Megan Rapinoe",
+        "Marta",
+        "Ada Hegerberg"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle joueuse brésilienne a marqué 17 buts en Coupe du monde, un record ?",
+      "choix": [
+        "Formiga",
+        "Cristiane",
+        "Marta",
+        "Debinha"
+      ],
+      "reponse": 2,
+      "niveau": "difficile"
+    }
+  ]
+}

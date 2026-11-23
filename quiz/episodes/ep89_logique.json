@@ -1,0 +1,68 @@
+{
+  "numero": 89,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Spécial pièges 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Un bus part avec 10 passagers. 3 descendent et 5 montent. Combien de passagers maintenant ?",
+      "choix": [
+        "8",
+        "12",
+        "13",
+        "18"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "10 moins 3 font 7, plus 5 font 12."
+    },
+    {
+      "question": "De quelle couleur est le cheval blanc d'Henri IV ?",
+      "choix": [
+        "Noir",
+        "Gris",
+        "Blanc",
+        "Marron"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "La réponse est dans la question !"
+    },
+    {
+      "question": "Combien de fois la lettre A apparaît-elle dans le mot ABRACADABRA ?",
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans une course, tu dépasses le dernier. À quelle place es-tu ?",
+      "choix": [
+        "C'est impossible",
+        "Dernier",
+        "Avant-dernier",
+        "Premier"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "On ne peut pas dépasser le dernier : personne n'est derrière lui !"
+    },
+    {
+      "question": "Un docteur te donne 3 pilules, une toutes les demi-heures. Combien de temps vont-elles durer ?",
+      "choix": [
+        "30 minutes",
+        "1 heure 30",
+        "2 heures",
+        "1 heure"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "La 1re tout de suite, la 2e après 30 minutes, la 3e après 1 heure."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "numero": 87,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Pays d'Afrique 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel est le plus long fleuve d'Afrique ?",
+      "choix": [
+        "Le Congo",
+        "Le Nil",
+        "Le Niger",
+        "Le Zambèze"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Marrakech ?",
+      "choix": [
+        "Maroc",
+        "Algérie",
+        "Tunisie",
+        "Égypte"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel est le pays le plus peuplé d'Afrique ?",
+      "choix": [
+        "Égypte",
+        "Éthiopie",
+        "RD Congo",
+        "Nigeria"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quel pays d'Afrique parle-t-on officiellement portugais ?",
+      "choix": [
+        "Sénégal",
+        "Kenya",
+        "Angola",
+        "Ghana"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays est entièrement entouré par l'Afrique du Sud ?",
+      "choix": [
+        "Eswatini",
+        "Lesotho",
+        "Botswana",
+        "Namibie"
+      ],
+      "reponse": 1,
+      "niveau": "difficile"
+    }
+  ]
+}

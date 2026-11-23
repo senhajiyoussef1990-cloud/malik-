@@ -1,0 +1,65 @@
+{
+  "numero": 90,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Mers et îles 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle île française se trouve en mer Méditerranée ?",
+      "choix": [
+        "La Réunion",
+        "La Martinique",
+        "La Corse",
+        "Tahiti"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle mer sépare la France de l'Angleterre ?",
+      "choix": [
+        "La mer du Nord",
+        "La Manche",
+        "La Méditerranée",
+        "La mer Baltique"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la plus grande île du monde ?",
+      "choix": [
+        "Le Groenland",
+        "Madagascar",
+        "Bornéo",
+        "L'Australie"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "L'Australie est considérée comme un continent, pas comme une île."
+    },
+    {
+      "question": "Dans quel océan se trouve l'île de La Réunion ?",
+      "choix": [
+        "L'Atlantique",
+        "Le Pacifique",
+        "L'Arctique",
+        "L'océan Indien"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quelle mer, très salée, peut-on flotter sans faire aucun effort ?",
+      "choix": [
+        "La mer Rouge",
+        "La mer Noire",
+        "La mer Morte",
+        "La mer Caspienne"
+      ],
+      "reponse": 2,
+      "niveau": "difficile"
+    }
+  ]
+}

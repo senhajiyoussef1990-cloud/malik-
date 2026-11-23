@@ -1,0 +1,66 @@
+{
+  "numero": 70,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Records historiques ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel est le seul pays à avoir joué toutes les Coupes du monde ?",
+      "choix": [
+        "Allemagne",
+        "Italie",
+        "Brésil",
+        "Argentine"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel joueur argentin a soulevé la Coupe du monde 2022 comme capitaine ?",
+      "choix": [
+        "Angel Di Maria",
+        "Lionel Messi",
+        "Sergio Agüero",
+        "Emiliano Martinez"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel Français a marqué le tout premier but de l'histoire de la Coupe du monde, en 1930 ?",
+      "choix": [
+        "Lucien Laurent",
+        "Just Fontaine",
+        "Raymond Kopa",
+        "Michel Platini"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel Français détient le record de 13 buts dans une seule Coupe du monde ?",
+      "choix": [
+        "Thierry Henry",
+        "Kylian Mbappé",
+        "Michel Platini",
+        "Just Fontaine"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Il a marqué ces 13 buts en 1958, en Suède."
+    },
+    {
+      "question": "Quelle équipe a gagné un match de Coupe du monde 10 à 1, en 1982 ?",
+      "choix": [
+        "Allemagne",
+        "Brésil",
+        "Hongrie",
+        "Espagne"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Contre le Salvador : c'est le plus gros score de l'histoire de la Coupe du monde."
+    }
+  ]
+}

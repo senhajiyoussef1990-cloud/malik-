@@ -1,0 +1,69 @@
+{
+  "numero": 80,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Vrai ou faux logique 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Vrai ou faux : un nombre multiplié par 0 donne toujours 0.",
+      "choix": [
+        "Vrai",
+        "Faux",
+        "Parfois",
+        "On ne peut pas savoir"
+      ],
+      "reponse": 0,
+      "niveau": "facile",
+      "explication": "Zéro fois n'importe quel nombre, ça fait toujours zéro."
+    },
+    {
+      "question": "Vrai ou faux : tous les oiseaux savent voler.",
+      "choix": [
+        "Vrai",
+        "Faux",
+        "Parfois",
+        "On ne peut pas savoir"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "L'autruche et le manchot sont des oiseaux, mais ils ne volent pas !"
+    },
+    {
+      "question": "Vrai ou faux : tous les carrés sont des rectangles.",
+      "choix": [
+        "Vrai",
+        "Faux",
+        "Parfois",
+        "On ne peut pas savoir"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "Un carré a 4 angles droits : c'est un rectangle avec 4 côtés égaux."
+    },
+    {
+      "question": "Vrai ou faux : si tous les chats sont des animaux, alors tous les animaux sont des chats.",
+      "choix": [
+        "Vrai",
+        "Faux",
+        "Parfois",
+        "On ne peut pas savoir"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Un chien est un animal, mais ce n'est pas un chat !"
+    },
+    {
+      "question": "Vrai ou faux : 0,5 est plus grand que 0,45.",
+      "choix": [
+        "Vrai",
+        "Faux",
+        "Parfois",
+        "On ne peut pas savoir"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "0,5, c'est 0,50 : c'est plus grand que 0,45."
+    }
+  ]
+}

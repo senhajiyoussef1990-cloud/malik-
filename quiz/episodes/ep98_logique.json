@@ -1,0 +1,68 @@
+{
+  "numero": 98,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Spécial expert logique 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Quel nombre continue la suite : 1, 4, 7, 10… ?",
+      "choix": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "On ajoute 3 à chaque fois."
+    },
+    {
+      "question": "2 crayons coûtent 1 euro. Combien coûtent 10 crayons ?",
+      "choix": [
+        "2 euros",
+        "5 euros",
+        "10 euros",
+        "20 euros"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel nombre continue la suite : 2, 5, 11, 23… ?",
+      "choix": [
+        "35",
+        "46",
+        "47",
+        "48"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "On multiplie par 2 et on ajoute 1 : 23 fois 2 font 46, plus 1 font 47."
+    },
+    {
+      "question": "J'ai 2 pièces qui font 30 centimes. L'une n'est pas une pièce de 10. Quelles sont-elles ?",
+      "choix": [
+        "10 et 10 centimes",
+        "15 et 15 centimes",
+        "20 et 10 centimes",
+        "25 et 5 centimes"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "L'une n'est pas une pièce de 10… mais l'autre, si !"
+    },
+    {
+      "question": "5 machines font 5 objets en 5 minutes. Combien de temps pour que 100 machines fassent 100 objets ?",
+      "choix": [
+        "1 minute",
+        "5 minutes",
+        "20 minutes",
+        "100 minutes"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Chaque machine fait 1 objet en 5 minutes, donc 100 machines font 100 objets en 5 minutes."
+    }
+  ]
+}

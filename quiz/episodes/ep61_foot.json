@@ -1,0 +1,65 @@
+{
+  "numero": 61,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Postes et vocabulaire du foot ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Comment s'appelle le joueur dont le rôle principal est de marquer des buts ?",
+      "choix": [
+        "Le défenseur",
+        "Le gardien",
+        "Le libéro",
+        "L'attaquant"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Comment appelle-t-on un tir joué depuis le coin du terrain ?",
+      "choix": [
+        "Une touche",
+        "Un penalty",
+        "Un corner",
+        "Un dégagement"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Comment appelle-t-on un but marqué dans ses propres filets ?",
+      "choix": [
+        "Un coup du chapeau",
+        "Un but contre son camp",
+        "Une lucarne",
+        "Un petit pont"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Comment appelle-t-on le fait de faire passer le ballon entre les jambes d'un adversaire ?",
+      "choix": [
+        "Un petit pont",
+        "Un grand pont",
+        "Une roulette",
+        "Un sombrero"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Que veut dire « mettre le ballon en lucarne » ?",
+      "choix": [
+        "Au ras du sol",
+        "Sur la barre",
+        "Hors du terrain",
+        "Dans le coin haut du but"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "La lucarne, c'est l'angle entre le poteau et la barre."
+    }
+  ]
+}

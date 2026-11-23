@@ -1,0 +1,68 @@
+{
+  "numero": 83,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Suites mélangées 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Quel nombre continue la suite : 10, 20, 30, 40… ?",
+      "choix": [
+        "45",
+        "50",
+        "60",
+        "80"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel nombre continue la suite : 2, 4, 6, 8… ?",
+      "choix": [
+        "9",
+        "10",
+        "12",
+        "16"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "Ce sont les nombres pairs : on ajoute 2."
+    },
+    {
+      "question": "Quel nombre continue la suite : 3, 5, 9, 15… ?",
+      "choix": [
+        "21",
+        "23",
+        "25",
+        "27"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "On ajoute 2, puis 4, puis 6… et maintenant 8 : 15 plus 8 font 23."
+    },
+    {
+      "question": "Quel nombre continue la suite : 81, 27, 9, 3… ?",
+      "choix": [
+        "0",
+        "1",
+        "2",
+        "6"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "On divise par 3 à chaque fois."
+    },
+    {
+      "question": "Quel nombre continue la suite : 1, 2, 6, 24… ?",
+      "choix": [
+        "48",
+        "96",
+        "120",
+        "144"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "On multiplie par 2, puis par 3, puis par 4… et maintenant par 5 : 24 fois 5 font 120."
+    }
+  ]
+}

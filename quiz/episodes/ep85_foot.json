@@ -1,0 +1,65 @@
+{
+  "numero": 85,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Surnoms des sélections nationales ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle équipe nationale est surnommée « la Roja » ?",
+      "choix": [
+        "Portugal",
+        "Italie",
+        "Mexique",
+        "Espagne"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle équipe nationale est surnommée « les Trois Lions » ?",
+      "choix": [
+        "Écosse",
+        "Pays de Galles",
+        "Angleterre",
+        "Irlande"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle équipe nationale est surnommée « la Mannschaft » ?",
+      "choix": [
+        "Autriche",
+        "Allemagne",
+        "Suisse",
+        "Pays-Bas"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle équipe nationale est surnommée « les Diables rouges » ?",
+      "choix": [
+        "Belgique",
+        "Espagne",
+        "Suisse",
+        "Danemark"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle équipe nationale est surnommée « la Céleste » ?",
+      "choix": [
+        "Argentine",
+        "Grèce",
+        "Italie",
+        "Uruguay"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "À cause de son maillot bleu ciel."
+    }
+  ]
+}

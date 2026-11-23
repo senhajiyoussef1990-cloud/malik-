@@ -1,0 +1,64 @@
+{
+  "numero": 63,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Cinéma et dessins animés 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Comment s'appelle la souris la plus célèbre de Disney ?",
+      "choix": [
+        "Jerry",
+        "Mickey",
+        "Speedy",
+        "Stuart"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans « Le Roi Lion », comment s'appelle le lionceau héros de l'histoire ?",
+      "choix": [
+        "Simba",
+        "Mufasa",
+        "Scar",
+        "Nala"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel personnage de dessin animé est une éponge qui vit sous la mer ?",
+      "choix": [
+        "Patrick",
+        "Carlo",
+        "Plankton",
+        "Bob l'éponge"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel ogre vert vit dans un marais avec un âne qui parle ?",
+      "choix": [
+        "Hulk",
+        "Le Grinch",
+        "Shrek",
+        "Fiona"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel a été le tout premier long métrage de Disney, en 1937 ?",
+      "choix": [
+        "Pinocchio",
+        "Blanche-Neige",
+        "Cendrillon",
+        "Bambi"
+      ],
+      "reponse": 1,
+      "niveau": "difficile"
+    }
+  ]
+}

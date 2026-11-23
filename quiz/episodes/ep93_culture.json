@@ -1,0 +1,64 @@
+{
+  "numero": 93,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Météo et climat 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel instrument mesure la température ?",
+      "choix": [
+        "Le baromètre",
+        "L'anémomètre",
+        "Le sismographe",
+        "Le thermomètre"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Comment appelle-t-on les petites billes de glace qui tombent du ciel ?",
+      "choix": [
+        "La neige",
+        "La pluie",
+        "La grêle",
+        "Le brouillard"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel instrument mesure la vitesse du vent ?",
+      "choix": [
+        "Le baromètre",
+        "L'anémomètre",
+        "Le thermomètre",
+        "L'hygromètre"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "En quelle saison les jours sont-ils les plus longs en France ?",
+      "choix": [
+        "L'été",
+        "Le printemps",
+        "L'automne",
+        "L'hiver"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Comment s'appelle le vent froid qui souffle dans la vallée du Rhône ?",
+      "choix": [
+        "La tramontane",
+        "Le sirocco",
+        "Le foehn",
+        "Le mistral"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

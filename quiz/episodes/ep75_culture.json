@@ -1,0 +1,66 @@
+{
+  "numero": 75,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Langues du monde 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle langue parle-t-on au Brésil ?",
+      "choix": [
+        "L'espagnol",
+        "Le portugais",
+        "Le brésilien",
+        "L'italien"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "Ce n'est pas l'espagnol : c'est le portugais !"
+    },
+    {
+      "question": "Quelle langue parle-t-on au Mexique ?",
+      "choix": [
+        "L'espagnol",
+        "Le portugais",
+        "L'anglais",
+        "Le mexicain"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de langues officielles a la Suisse ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "L'allemand, le français, l'italien et le romanche."
+    },
+    {
+      "question": "Que veut dire « gracias » en espagnol ?",
+      "choix": [
+        "Bonjour",
+        "Au revoir",
+        "Merci",
+        "S'il te plaît"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle est la langue officielle de l'Égypte ?",
+      "choix": [
+        "L'égyptien",
+        "L'arabe",
+        "Le turc",
+        "Le copte"
+      ],
+      "reponse": 1,
+      "niveau": "difficile"
+    }
+  ]
+}

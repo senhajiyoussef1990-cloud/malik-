@@ -1,0 +1,68 @@
+{
+  "numero": 62,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Partages et fractions 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Tu partages 12 bonbons entre 3 amis. Combien chacun en reçoit-il ?",
+      "choix": [
+        "3",
+        "4",
+        "6",
+        "9"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "12 divisé par 3 font 4."
+    },
+    {
+      "question": "Quelle est la moitié de 50 ?",
+      "choix": [
+        "20",
+        "25",
+        "30",
+        "100"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Une pizza est coupée en 8 parts. Tu en manges 2. Quelle part de la pizza reste-t-il ?",
+      "choix": [
+        "Les trois quarts",
+        "La moitié",
+        "Le quart",
+        "Les deux tiers"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "Il reste 6 parts sur 8, c'est-à-dire les trois quarts."
+    },
+    {
+      "question": "Combien fait la moitié de la moitié de 40 ?",
+      "choix": [
+        "5",
+        "10",
+        "20",
+        "80"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "La moitié de 40, c'est 20, et la moitié de 20, c'est 10."
+    },
+    {
+      "question": "Tu donnes la moitié de tes billes à Léa, puis la moitié du reste à Tom. Il t'en reste 5. Combien en avais-tu ?",
+      "choix": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "20, puis 10 après Léa, puis 5 après Tom."
+    }
+  ]
+}

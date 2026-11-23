@@ -1,0 +1,64 @@
+{
+  "numero": 79,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Coupe du monde 2018 ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel jeune Français a marqué en finale de la Coupe du monde 2018, à 19 ans ?",
+      "choix": [
+        "Ousmane Dembélé",
+        "Kylian Mbappé",
+        "Antoine Griezmann",
+        "Paul Pogba"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel a été le score de la finale France-Croatie en 2018 ?",
+      "choix": [
+        "4 à 2",
+        "2 à 1",
+        "3 à 1",
+        "4 à 3"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel joueur croate a gagné le Ballon d'Or 2018 ?",
+      "choix": [
+        "Ivan Rakitic",
+        "Mario Mandzukic",
+        "Ivan Perisic",
+        "Luka Modric"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel défenseur français a marqué le but de la victoire en demi-finale contre la Belgique ?",
+      "choix": [
+        "Raphaël Varane",
+        "Benjamin Pavard",
+        "Samuel Umtiti",
+        "Lucas Hernandez"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel Français a marqué une volée célèbre contre l'Argentine, en huitième de finale ?",
+      "choix": [
+        "Lucas Hernandez",
+        "Benjamin Pavard",
+        "Blaise Matuidi",
+        "Paul Pogba"
+      ],
+      "reponse": 1,
+      "niveau": "difficile"
+    }
+  ]
+}

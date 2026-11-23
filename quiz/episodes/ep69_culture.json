@@ -1,0 +1,65 @@
+{
+  "numero": 69,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Quiz culture générale : Mythologie grecque 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Qui est le roi des dieux dans la mythologie grecque ?",
+      "choix": [
+        "Apollon",
+        "Poséidon",
+        "Hadès",
+        "Zeus"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel dieu grec règne sur la mer ?",
+      "choix": [
+        "Zeus",
+        "Arès",
+        "Poséidon",
+        "Hermès"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel héros grec devait accomplir 12 travaux ?",
+      "choix": [
+        "Ulysse",
+        "Héraclès",
+        "Achille",
+        "Persée"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "Les Romains l'appelaient Hercule."
+    },
+    {
+      "question": "Quel héros grec avait un seul point faible, au talon ?",
+      "choix": [
+        "Achille",
+        "Ulysse",
+        "Héraclès",
+        "Thésée"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel monstre qui changeait en pierre d'un seul regard a été vaincu par Persée ?",
+      "choix": [
+        "L'Hydre",
+        "Le Minotaure",
+        "Le Cyclope",
+        "Méduse"
+      ],
+      "reponse": 3,
+      "niveau": "difficile"
+    }
+  ]
+}

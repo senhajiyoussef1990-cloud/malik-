@@ -1,0 +1,66 @@
+{
+  "numero": 77,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Combien en tout ? 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Il y a 3 vélos. Chacun a 2 roues. Combien de roues en tout ?",
+      "choix": [
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Tu as 5 billes et ton ami en a 7. Combien de billes avez-vous en tout ?",
+      "choix": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans une ferme, il y a 3 poules et 2 vaches. Combien de pattes en tout ?",
+      "choix": [
+        "10",
+        "12",
+        "14",
+        "20"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "3 poules font 6 pattes, 2 vaches font 8 pattes : 14 en tout."
+    },
+    {
+      "question": "Combien de jours y a-t-il dans 2 semaines et 3 jours ?",
+      "choix": [
+        "14",
+        "15",
+        "17",
+        "23"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Combien de fois écrit-on le chiffre 9 pour écrire tous les nombres de 1 à 100 ?",
+      "choix": [
+        "10",
+        "11",
+        "19",
+        "20"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "10 fois comme chiffre des unités, et 10 fois dans les nombres de 90 à 99 : 20 fois."
+    }
+  ]
+}

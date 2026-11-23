@@ -1,0 +1,65 @@
+{
+  "numero": 78,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Monnaies du monde 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la monnaie de la France ?",
+      "choix": [
+        "Le franc",
+        "Le dollar",
+        "L'euro",
+        "La livre"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la monnaie des États-Unis ?",
+      "choix": [
+        "L'euro",
+        "Le dollar",
+        "Le peso",
+        "La livre"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la monnaie du Royaume-Uni ?",
+      "choix": [
+        "La livre sterling",
+        "L'euro",
+        "Le dollar",
+        "Le franc"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle est la monnaie du Japon ?",
+      "choix": [
+        "Le yuan",
+        "Le won",
+        "La roupie",
+        "Le yen"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle est la monnaie du Maroc ?",
+      "choix": [
+        "Le dinar",
+        "Le riyal",
+        "Le dirham",
+        "La livre"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Ce n'est pas le dinar, la monnaie de l'Algérie et de la Tunisie : c'est le dirham."
+    }
+  ]
+}

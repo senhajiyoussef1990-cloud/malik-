@@ -1,0 +1,65 @@
+{
+  "numero": 97,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Ballons et mascottes de Coupe du monde ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Comment s'appelait la mascotte de la Coupe du monde 1998, un coq bleu ?",
+      "choix": [
+        "Footy",
+        "Coco",
+        "Gallix",
+        "Footix"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle marque fabrique les ballons officiels de la Coupe du monde depuis 1970 ?",
+      "choix": [
+        "Nike",
+        "Puma",
+        "Adidas",
+        "Umbro"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel animal était Goleo, la mascotte de la Coupe du monde 2006 ?",
+      "choix": [
+        "Un ours",
+        "Un lion",
+        "Un aigle",
+        "Un loup"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel ballon noir et blanc célèbre est apparu à la Coupe du monde 1970 ?",
+      "choix": [
+        "Le Telstar",
+        "Le Tango",
+        "Le Jabulani",
+        "Le Brazuca"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel ballon de la Coupe du monde 2010 a été très critiqué par les gardiens ?",
+      "choix": [
+        "Le Brazuca",
+        "Le Telstar",
+        "Le Tango",
+        "Le Jabulani"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "Sa trajectoire était imprévisible !"
+    }
+  ]
+}

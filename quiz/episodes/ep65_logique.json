@@ -1,0 +1,67 @@
+{
+  "numero": 65,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Vitesse et trajets 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Une voiture roule à 60 kilomètres par heure. Quelle distance fait-elle en 2 heures ?",
+      "choix": [
+        "60 km",
+        "100 km",
+        "120 km",
+        "180 km"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "60 kilomètres chaque heure, donc 120 en 2 heures."
+    },
+    {
+      "question": "Tu marches 3 kilomètres en 1 heure. Combien de temps te faut-il pour 6 kilomètres ?",
+      "choix": [
+        "1 heure",
+        "2 heures",
+        "3 heures",
+        "6 heures"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Un train part à 10 heures et arrive à 13 heures 30. Combien de temps dure le trajet ?",
+      "choix": [
+        "2 h 30",
+        "3 h 30",
+        "3 h",
+        "4 h"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Paul fait 10 tours de piste en 20 minutes. Combien de temps met-il pour 1 tour ?",
+      "choix": [
+        "1 minute",
+        "2 minutes",
+        "5 minutes",
+        "10 minutes"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "20 minutes divisées par 10 tours : 2 minutes par tour."
+    },
+    {
+      "question": "Deux trains à 100 kilomètres l'un de l'autre roulent l'un vers l'autre, à 50 kilomètres par heure chacun. Quand se croisent-ils ?",
+      "choix": [
+        "Au bout de 30 minutes",
+        "Au bout de 2 heures",
+        "Au bout de 4 heures",
+        "Au bout d'1 heure"
+      ],
+      "reponse": 3,
+      "niveau": "difficile",
+      "explication": "Chacun fait 50 kilomètres en 1 heure : à eux deux, 100 kilomètres."
+    }
+  ]
+}

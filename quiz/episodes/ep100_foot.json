@@ -1,0 +1,64 @@
+{
+  "numero": 100,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Spécial expert foot ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel Portugais a soulevé l'Euro 2016 comme capitaine ?",
+      "choix": [
+        "Cristiano Ronaldo",
+        "Nani",
+        "Pepe",
+        "Ricardo Quaresma"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel pays a organisé la Coupe du monde 2022 ?",
+      "choix": [
+        "Arabie saoudite",
+        "Émirats arabes unis",
+        "Russie",
+        "Qatar"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel club a gagné la première Ligue des champions de son histoire en 2025 ?",
+      "choix": [
+        "Arsenal",
+        "Inter Milan",
+        "Paris Saint-Germain",
+        "Aston Villa"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel joueur a marqué le but de la victoire de l'Espagne en finale de la Coupe du monde 2010 ?",
+      "choix": [
+        "Xavi",
+        "Andrés Iniesta",
+        "David Villa",
+        "Fernando Torres"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel Néerlandais a marqué une volée légendaire en finale de l'Euro 1988 ?",
+      "choix": [
+        "Marco van Basten",
+        "Ruud Gullit",
+        "Frank Rijkaard",
+        "Ronald Koeman"
+      ],
+      "reponse": 0,
+      "niveau": "difficile"
+    }
+  ]
+}

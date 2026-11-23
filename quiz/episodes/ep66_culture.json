@@ -1,0 +1,65 @@
+{
+  "numero": 66,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Monuments du monde 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Dans quelle ville se trouve le Colisée ?",
+      "choix": [
+        "Athènes",
+        "Paris",
+        "Rome",
+        "Madrid"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quel pays se trouvent les pyramides de Gizeh ?",
+      "choix": [
+        "Mexique",
+        "Égypte",
+        "Pérou",
+        "Maroc"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Dans quelle ville se trouve la statue de la Liberté ?",
+      "choix": [
+        "New York",
+        "Washington",
+        "Paris",
+        "Los Angeles"
+      ],
+      "reponse": 0,
+      "niveau": "moyen",
+      "explication": "C'est un cadeau de la France aux États-Unis."
+    },
+    {
+      "question": "Dans quel pays se trouve le Taj Mahal ?",
+      "choix": [
+        "Pakistan",
+        "Iran",
+        "Turquie",
+        "Inde"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quelle ville se trouve la Sagrada Familia ?",
+      "choix": [
+        "Madrid",
+        "Séville",
+        "Barcelone",
+        "Lisbonne"
+      ],
+      "reponse": 2,
+      "niveau": "difficile"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "numero": 84,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Jeux olympiques 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Combien d'anneaux y a-t-il sur le drapeau olympique ?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle ville a accueilli les Jeux olympiques d'été 2024 ?",
+      "choix": [
+        "Londres",
+        "Los Angeles",
+        "Tokyo",
+        "Paris"
+      ],
+      "reponse": 3,
+      "niveau": "facile"
+    },
+    {
+      "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+      "choix": [
+        "2 ans",
+        "3 ans",
+        "4 ans",
+        "5 ans"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Dans quel pays sont nés les Jeux olympiques de l'Antiquité ?",
+      "choix": [
+        "Italie",
+        "Grèce",
+        "Égypte",
+        "Turquie"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel Français a relancé les Jeux olympiques modernes, en 1896 ?",
+      "choix": [
+        "Pierre de Coubertin",
+        "Jules Rimet",
+        "Gustave Eiffel",
+        "Louis Pasteur"
+      ],
+      "reponse": 0,
+      "niveau": "difficile"
+    }
+  ]
+}

@@ -39,7 +39,7 @@ def textes_voix(ep):
     if ep.get("pause_par_question", False):
         out.append(ep.get("pause", g.PHRASE_PAUSE))
     for q in ep["questions"]:
-        out.append(q["question"])
+        out.append(q.get("voix", q["question"]))
         out.append(g.phrase_reponse(q))
     out.append(ep.get("fin", g.PHRASE_FIN))
     return out

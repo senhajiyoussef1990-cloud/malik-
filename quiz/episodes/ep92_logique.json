@@ -1,0 +1,66 @@
+{
+  "numero": 92,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Défis de calcul 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien font 8 fois 7 ?",
+      "choix": [
+        "48",
+        "54",
+        "56",
+        "63"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien font 100 moins 37 ?",
+      "choix": [
+        "53",
+        "63",
+        "67",
+        "73"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien font 12 fois 12 ?",
+      "choix": [
+        "124",
+        "132",
+        "144",
+        "154"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le tiers de 90 ?",
+      "choix": [
+        "20",
+        "30",
+        "45",
+        "60"
+      ],
+      "reponse": 1,
+      "niveau": "moyen",
+      "explication": "90 divisé par 3 font 30."
+    },
+    {
+      "question": "Combien font 1 plus 2 plus 3, et ainsi de suite jusqu'à 10 ?",
+      "choix": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "1 plus 10, 2 plus 9, 3 plus 8… 5 paires de 11 : 55."
+    }
+  ]
+}
