@@ -1,0 +1,404 @@
+1
+00:00:00,300 --> 00:00:01,179
+C’est fou !
+
+2
+00:00:01,199 --> 00:00:02,179
+J’ai parlé de chaussures
+
+3
+00:00:02,199 --> 00:00:03,099
+de course hier, et
+
+4
+00:00:03,119 --> 00:00:04,040
+ce matin, j’ai vu
+
+5
+00:00:04,059 --> 00:00:04,680
+une pub pour des
+
+6
+00:00:04,700 --> 00:00:05,852
+chaussures de course !
+
+7
+00:00:06,102 --> 00:00:06,682
+Coïncidence ?
+
+8
+00:00:06,702 --> 00:00:07,902
+Ou quelqu’un qui sait
+
+9
+00:00:07,922 --> 00:00:08,442
+très bien ce que
+
+10
+00:00:08,462 --> 00:00:09,487
+tu cherches ?
+
+11
+00:00:10,137 --> 00:00:10,977
+Mais comment il pourrait
+
+12
+00:00:10,997 --> 00:00:11,787
+savoir ?
+
+13
+00:00:12,126 --> 00:00:13,786
+Allons voir un marchand
+
+14
+00:00:13,806 --> 00:00:14,936
+qui écoute aux portes.
+
+15
+00:00:15,852 --> 00:00:16,772
+Entrons dans une petite
+
+16
+00:00:16,792 --> 00:00:18,312
+ville d’autrefois, chez un
+
+17
+00:00:18,332 --> 00:00:19,172
+marchand ambulant très
+
+18
+00:00:19,192 --> 00:00:19,982
+attentif.
+
+19
+00:00:20,840 --> 00:00:22,400
+Chaque soir, il passe
+
+20
+00:00:22,420 --> 00:00:23,400
+dans les rues et
+
+21
+00:00:23,420 --> 00:00:24,730
+écoute derrière les portes.
+
+22
+00:00:25,185 --> 00:00:25,745
+Il note tout dans
+
+23
+00:00:25,765 --> 00:00:26,665
+son carnet : qui
+
+24
+00:00:26,685 --> 00:00:27,385
+a froid, qui attend
+
+25
+00:00:27,405 --> 00:00:28,025
+un bébé, qui a
+
+26
+00:00:28,045 --> 00:00:28,955
+perdu son chapeau.
+
+27
+00:00:30,495 --> 00:00:31,355
+Madame Martin a parlé
+
+28
+00:00:31,375 --> 00:00:32,755
+de son vieux manteau.
+
+29
+00:00:32,775 --> 00:00:33,875
+Demain matin, je frappe
+
+30
+00:00:33,895 --> 00:00:34,455
+chez elle avec un
+
+31
+00:00:34,475 --> 00:00:35,578
+manteau neuf !
+
+32
+00:00:35,728 --> 00:00:37,068
+Le lendemain, il frappe
+
+33
+00:00:37,088 --> 00:00:37,928
+à la bonne porte,
+
+34
+00:00:37,948 --> 00:00:39,228
+au bon moment, avec
+
+35
+00:00:39,248 --> 00:00:40,118
+le bon produit.
+
+36
+00:00:41,717 --> 00:00:42,377
+Les habitants sont
+
+37
+00:00:42,397 --> 00:00:43,537
+impressionnés. Ce marchand
+
+38
+00:00:43,557 --> 00:00:44,137
+semble lire dans les
+
+39
+00:00:44,157 --> 00:00:44,747
+pensées.
+
+40
+00:00:45,278 --> 00:00:46,678
+En échange, il offre
+
+41
+00:00:46,698 --> 00:00:47,318
+des petits services
+
+42
+00:00:47,338 --> 00:00:48,478
+gratuits, pour entrer
+
+43
+00:00:48,498 --> 00:00:48,968
+partout.
+
+44
+00:00:50,457 --> 00:00:51,237
+Comment savait-il que
+
+45
+00:00:51,257 --> 00:00:51,897
+j’avais besoin d’un
+
+46
+00:00:51,917 --> 00:00:52,857
+parapluie ?
+
+47
+00:00:52,877 --> 00:00:54,247
+Quel marchand formidable !
+
+48
+00:00:54,462 --> 00:00:56,272
+Mais il les espionne !
+
+49
+00:00:57,213 --> 00:00:58,373
+Oui. Ce qu’il vend
+
+50
+00:00:58,393 --> 00:00:58,973
+de mieux, ce n’est
+
+51
+00:00:58,993 --> 00:00:59,973
+pas sa marchandise.
+
+52
+00:00:59,993 --> 00:01:00,533
+C’est ce qu’il sait
+
+53
+00:01:00,553 --> 00:01:00,983
+d’eux.
+
+54
+00:01:01,553 --> 00:01:02,973
+Aujourd’hui, nos clics, nos
+
+55
+00:01:02,993 --> 00:01:03,613
+recherches et nos
+
+56
+00:01:03,633 --> 00:01:04,653
+déplacements laissent des
+
+57
+00:01:04,673 --> 00:01:05,103
+traces.
+
+58
+00:01:06,754 --> 00:01:07,674
+Ces traces servent à
+
+59
+00:01:07,694 --> 00:01:08,274
+te montrer la bonne
+
+60
+00:01:08,294 --> 00:01:09,924
+publicité, au bon moment.
+
+61
+00:01:10,759 --> 00:01:12,279
+Mes services sont gratuits.
+
+62
+00:01:12,299 --> 00:01:13,579
+Le vrai trésor, c’est
+
+63
+00:01:13,599 --> 00:01:14,640
+mon carnet !
+
+64
+00:01:15,390 --> 00:01:16,130
+Beaucoup d’applications
+
+65
+00:01:16,150 --> 00:01:17,050
+gratuites vivent de la
+
+66
+00:01:17,070 --> 00:01:18,370
+publicité, et donc de
+
+67
+00:01:18,390 --> 00:01:19,010
+ce qu’elles savent sur
+
+68
+00:01:19,030 --> 00:01:19,460
+toi.
+
+69
+00:01:20,413 --> 00:01:21,193
+Une chercheuse, Shoshana
+
+70
+00:01:21,213 --> 00:01:23,233
+Zuboff, appelle cela le
+
+71
+00:01:23,253 --> 00:01:24,523
+capitalisme de surveillance.
+
+72
+00:01:26,115 --> 00:01:27,595
+Donc mon téléphone sait
+
+73
+00:01:27,615 --> 00:01:28,977
+que j’aime courir ?
+
+74
+00:01:29,228 --> 00:01:30,468
+Probablement. Et il le
+
+75
+00:01:30,488 --> 00:01:31,248
+dit à ceux qui
+
+76
+00:01:31,268 --> 00:01:32,068
+veulent te vendre quelque
+
+77
+00:01:32,088 --> 00:01:32,738
+chose.
+
+78
+00:01:33,880 --> 00:01:34,720
+On peut regarder les
+
+79
+00:01:34,740 --> 00:01:36,380
+réglages, refuser certains
+
+80
+00:01:36,400 --> 00:01:37,960
+suivis, et réfléchir avant
+
+81
+00:01:37,980 --> 00:01:38,710
+d’accepter.
+
+82
+00:01:39,557 --> 00:01:40,397
+Quand un service ne
+
+83
+00:01:40,417 --> 00:01:41,517
+coûte rien, il faut
+
+84
+00:01:41,537 --> 00:01:42,687
+se demander qui paie.
+
+85
+00:01:44,110 --> 00:01:45,330
+Si c’est gratuit, c’est
+
+86
+00:01:45,350 --> 00:01:46,160
+toi qu’on vend.
+
+87
+00:01:47,399 --> 00:01:48,329
+Retour au salon.
+
+88
+00:01:49,471 --> 00:01:50,851
+La prochaine fois, je
+
+89
+00:01:50,871 --> 00:01:51,611
+regarde ce que les
+
+90
+00:01:51,631 --> 00:01:52,591
+applications ont le droit
+
+91
+00:01:52,611 --> 00:01:53,241
+de savoir.
+
+92
+00:01:53,784 --> 00:01:54,664
+Bonne idée.
+
+93
+00:01:54,684 --> 00:01:55,504
+Et tu refuses ce
+
+94
+00:01:55,524 --> 00:01:56,634
+qui n’est pas utile.
+
+95
+00:01:57,210 --> 00:01:57,890
+Qui paie ce service
+
+96
+00:01:57,910 --> 00:01:59,720
+gratuit, et avec quoi ?
+
+97
+00:02:00,087 --> 00:02:01,427
+Voilà. Tes informations ont
+
+98
+00:02:01,447 --> 00:02:01,977
+un prix.
+
+99
+00:02:03,220 --> 00:02:04,220
+Arrête de suivre les
+
+100
+00:02:04,240 --> 00:02:05,240
+moutons. Suis le renard…
+
+101
+00:02:05,260 --> 00:02:07,350
+et pense par toi-même !
+
