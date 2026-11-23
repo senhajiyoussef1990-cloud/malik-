@@ -1,0 +1,412 @@
+1
+00:00:00,300 --> 00:00:01,179
+Mon horoscope dit que
+
+2
+00:00:01,199 --> 00:00:02,060
+je suis généreux mais
+
+3
+00:00:02,080 --> 00:00:03,239
+parfois trop exigeant avec
+
+4
+00:00:03,259 --> 00:00:04,790
+moi-même. C’est tout moi !
+
+5
+00:00:05,136 --> 00:00:05,776
+Et ça ne te
+
+6
+00:00:05,796 --> 00:00:06,776
+ressemble pas un peu
+
+7
+00:00:06,796 --> 00:00:07,866
+à tout le monde ?
+
+8
+00:00:08,648 --> 00:00:09,448
+Non, non.
+
+9
+00:00:09,468 --> 00:00:10,508
+C’est vraiment moi.
+
+10
+00:00:10,528 --> 00:00:11,618
+Comment ils savent ?
+
+11
+00:00:11,995 --> 00:00:13,395
+Allons voir une voyante
+
+12
+00:00:13,415 --> 00:00:14,435
+qui connaît tout le
+
+13
+00:00:14,455 --> 00:00:15,815
+village… sans connaître
+
+14
+00:00:15,835 --> 00:00:16,465
+personne.
+
+15
+00:00:17,315 --> 00:00:18,275
+Entrons dans un village
+
+16
+00:00:18,295 --> 00:00:19,615
+d’autrefois, sous la tente
+
+17
+00:00:19,635 --> 00:00:20,405
+d’une voyante.
+
+18
+00:00:21,258 --> 00:00:22,238
+Un à un, les
+
+19
+00:00:22,258 --> 00:00:23,198
+villageois s’assoient devant
+
+20
+00:00:23,218 --> 00:00:24,408
+sa boule de cristal.
+
+21
+00:00:24,688 --> 00:00:25,828
+À chacun, elle dit
+
+22
+00:00:25,848 --> 00:00:26,788
+presque exactement la même
+
+23
+00:00:26,808 --> 00:00:27,258
+chose.
+
+24
+00:00:28,562 --> 00:00:29,222
+Je vois en vous
+
+25
+00:00:29,242 --> 00:00:30,462
+une grande force…
+
+26
+00:00:30,482 --> 00:00:31,362
+mais aussi des doutes
+
+27
+00:00:31,382 --> 00:00:32,162
+que vous cachez aux
+
+28
+00:00:32,182 --> 00:00:32,712
+autres.
+
+29
+00:00:33,194 --> 00:00:34,034
+Chaque villageois sort
+
+30
+00:00:34,054 --> 00:00:35,194
+émerveillé. Elle a
+
+31
+00:00:35,214 --> 00:00:35,974
+parfaitement décrit sa
+
+32
+00:00:35,994 --> 00:00:36,844
+personnalité.
+
+33
+00:00:38,034 --> 00:00:38,694
+Mais ces phrases vont
+
+34
+00:00:38,714 --> 00:00:39,194
+à tout le monde.
+
+35
+00:00:39,214 --> 00:00:40,014
+Qui n’a pas de
+
+36
+00:00:40,034 --> 00:00:42,072
+force, et quelques doutes ?
+
+37
+00:00:42,222 --> 00:00:43,222
+Chacun garde ce qui
+
+38
+00:00:43,242 --> 00:00:44,522
+lui ressemble, et oublie
+
+39
+00:00:44,542 --> 00:00:45,132
+le reste.
+
+40
+00:00:46,591 --> 00:00:47,371
+Elle a tout deviné
+
+41
+00:00:47,391 --> 00:00:48,091
+sur moi !
+
+42
+00:00:48,111 --> 00:00:48,671
+Elle a un vrai
+
+43
+00:00:48,691 --> 00:00:49,479
+don !
+
+44
+00:00:49,630 --> 00:00:50,350
+Mais elle dit la
+
+45
+00:00:50,370 --> 00:00:51,050
+même chose à tout
+
+46
+00:00:51,070 --> 00:00:51,970
+le monde !
+
+47
+00:00:52,719 --> 00:00:54,079
+Exactement. Une phrase
+
+48
+00:00:54,100 --> 00:00:55,759
+floue, c’est un miroir.
+
+49
+00:00:55,780 --> 00:00:56,699
+Chacun y voit son
+
+50
+00:00:56,719 --> 00:00:57,810
+propre visage.
+
+51
+00:00:58,340 --> 00:00:58,520
+En mille neuf cent
+
+52
+00:00:58,540 --> 00:00:59,780
+quarante-huit, un
+
+53
+00:00:59,800 --> 00:01:01,620
+psychologue, Bertram Forer,
+
+54
+00:01:01,640 --> 00:01:02,590
+fait une expérience.
+
+55
+00:01:04,246 --> 00:01:04,746
+Il donne à ses
+
+56
+00:01:04,766 --> 00:01:06,126
+étudiants le même portrait.
+
+57
+00:01:06,146 --> 00:01:07,046
+Presque tous le trouvent
+
+58
+00:01:07,066 --> 00:01:07,936
+très juste pour eux.
+
+59
+00:01:08,826 --> 00:01:09,406
+Je ne lis pas
+
+60
+00:01:09,426 --> 00:01:10,946
+l’avenir. Je lis seulement
+
+61
+00:01:10,966 --> 00:01:11,526
+ce que tout le
+
+62
+00:01:11,546 --> 00:01:13,177
+monde a envie d’entendre !
+
+63
+00:01:13,927 --> 00:01:14,567
+On appelle ça l’effet
+
+64
+00:01:14,587 --> 00:01:16,307
+Barnum. On le retrouve
+
+65
+00:01:16,327 --> 00:01:17,127
+dans les horoscopes,
+
+66
+00:01:17,147 --> 00:01:17,807
+certains tests de
+
+67
+00:01:17,827 --> 00:01:18,927
+personnalité, et des
+
+68
+00:01:18,947 --> 00:01:20,337
+publicités très flatteuses.
+
+69
+00:01:20,884 --> 00:01:21,684
+Plus une phrase est
+
+70
+00:01:21,704 --> 00:01:23,024
+vague, plus elle semble
+
+71
+00:01:23,044 --> 00:01:23,824
+parler de nous.
+
+72
+00:01:24,600 --> 00:01:25,860
+Donc mon horoscope va
+
+73
+00:01:25,880 --> 00:01:26,730
+à tout le monde ?
+
+74
+00:01:27,112 --> 00:01:28,072
+Essaie de lire celui
+
+75
+00:01:28,092 --> 00:01:29,252
+d’un autre signe.
+
+76
+00:01:29,272 --> 00:01:30,352
+Il te ira sûrement
+
+77
+00:01:30,372 --> 00:01:30,902
+aussi.
+
+78
+00:01:32,052 --> 00:01:33,072
+Une description vraiment
+
+79
+00:01:33,092 --> 00:01:34,172
+personnelle dit des choses
+
+80
+00:01:34,192 --> 00:01:35,512
+précises, qu’on peut
+
+81
+00:01:35,532 --> 00:01:36,162
+vérifier.
+
+82
+00:01:36,762 --> 00:01:37,542
+Si elle peut convenir
+
+83
+00:01:37,562 --> 00:01:38,582
+à n’importe qui, elle
+
+84
+00:01:38,602 --> 00:01:39,372
+ne prouve rien.
+
+85
+00:01:40,766 --> 00:01:42,086
+Une phrase qui va
+
+86
+00:01:42,106 --> 00:01:42,646
+à tout le monde
+
+87
+00:01:42,666 --> 00:01:43,936
+ne parle de personne.
+
+88
+00:01:45,205 --> 00:01:46,135
+Retour au salon.
+
+89
+00:01:47,276 --> 00:01:48,656
+La prochaine fois, je
+
+90
+00:01:48,676 --> 00:01:49,456
+lirai aussi les autres
+
+91
+00:01:49,476 --> 00:01:50,606
+signes pour comparer.
+
+92
+00:01:51,224 --> 00:01:51,924
+Bonne idée.
+
+93
+00:01:51,944 --> 00:01:52,584
+Tu verras qu’ils se
+
+94
+00:01:52,604 --> 00:01:53,454
+ressemblent beaucoup.
+
+95
+00:01:54,023 --> 00:01:54,883
+Est-ce que cette phrase
+
+96
+00:01:54,903 --> 00:01:55,783
+irait aussi à mon
+
+97
+00:01:55,803 --> 00:01:56,593
+voisin ?
+
+98
+00:01:57,005 --> 00:01:58,525
+Voilà. Le flou flatte,
+
+99
+00:01:58,545 --> 00:01:59,525
+mais il ne prouve
+
+100
+00:01:59,545 --> 00:02:00,075
+rien.
+
+101
+00:02:01,340 --> 00:02:02,340
+Arrête de suivre les
+
+102
+00:02:02,360 --> 00:02:03,360
+moutons. Suis le renard…
+
+103
+00:02:03,380 --> 00:02:05,470
+et pense par toi-même !
+

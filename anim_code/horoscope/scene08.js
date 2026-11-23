@@ -1,6 +1,6 @@
 // SCÈNE 08 — TV + héros, puis TV. 
 const A = L.s08a, B = L.s08b, DUREE = B[0] + B[1] + .8;
-const XA = ((cc, t, u) => miroir(cc, t, u)), XB = ((cc, t, u) => forer(cc, t, u));
+const XA = ((cc, t, u) => miroirFlou(cc, t, u)), XB = ((cc, t, u) => forer(cc, t, u));
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const la = t - A[0], lb = t - B[0];

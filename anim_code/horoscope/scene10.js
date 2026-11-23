@@ -1,6 +1,6 @@
 // SCÈNE 10 — TV. 
 const A = L.s10a, B = L.s10b, DUREE = B[0] + B[1] + .7;
-const XA = ((cc, t, u) => douzeSignes(cc, t, u)), XB = ((cc, t, u) => miroir(cc, t, u));
+const XA = ((cc, t, u) => douzeSignes(cc, t, u)), XB = ((cc, t, u) => miroirFlou(cc, t, u));
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const la = t - A[0], lb = t - B[0];

@@ -1,6 +1,6 @@
 // SCÈNE 13 — la morale du renard. 
 const A = L.s13a, DUREE = A[0] + A[1] + .9;
-const X = ((cc, t, u) => miroir(cc, t, u));
+const X = ((cc, t, u) => miroirFlou(cc, t, u));
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const la = t - A[0];
