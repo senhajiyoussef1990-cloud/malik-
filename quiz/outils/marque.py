@@ -43,15 +43,16 @@ def banniere():
     cy = H / 2
     g.logo(d, W / 2, cy - 60, 170)
     f, ft = g.police(g.FONT_TEXTE, 52), g.police(g.FONT_TEXTE, 46)
-    wa = d.textlength("FOOT", font=f) + 80
-    wb = d.textlength("LOGIQUE", font=f) + 80
+    etiquettes = [("FOOT", "foot"), ("LOGIQUE", "logique"), ("CULTURE G", "culture")]
+    larg = [d.textlength(t, font=f) + 80 for t, _ in etiquettes]
     wc = d.textlength("1 quiz par jour", font=ft)
-    esp = 30
-    x = W / 2 - (wa + wb + wc + 2 * esp) / 2
+    esp = 26
+    x = W / 2 - (sum(larg) + wc + len(etiquettes) * esp) / 2
     y = cy + 110
-    g.pastille(d, x + wa / 2, y, "FOOT", f, g.THEMES["foot"]["accent"], g.SOMBRE, pad=40, h=84)
-    g.pastille(d, x + wa + esp + wb / 2, y, "LOGIQUE", f, g.THEMES["logique"]["accent"], g.SOMBRE, pad=40, h=84)
-    d.text((x + wa + wb + 2 * esp, y), "1 quiz par jour", font=ft, fill=g.BLANC, anchor="lm")
+    for (t, th), w in zip(etiquettes, larg):
+        g.pastille(d, x + w / 2, y, t, f, g.THEMES[th]["accent"], g.SOMBRE, pad=40, h=84)
+        x += w + esp
+    d.text((x, y), "1 quiz par jour", font=ft, fill=g.BLANC, anchor="lm")
     im.save(os.path.join(DOSSIER, "banniere.png"))
 
 

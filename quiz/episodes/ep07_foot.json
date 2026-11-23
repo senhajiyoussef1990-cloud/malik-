@@ -1,65 +1,65 @@
 {
   "numero": 7,
   "theme": "foot",
-  "accroche": "Ce quiz va séparer les fans des experts !",
-  "titre_youtube": "Fan ou expert ? Ce quiz foot va te le dire ⚽",
+  "accroche": "Seuls les vrais fans auront 5 sur 5 !",
+  "titre_youtube": "Seuls les vrais fans de foot auront 5/5 ⚽",
   "pause_par_question": false,
   "questions": [
     {
-      "question": "Comment s'appelle le joueur qui garde les buts ?",
+      "question": "Combien de temps dure une mi-temps ?",
       "choix": [
-        "Le défenseur",
-        "Le gardien",
-        "L'attaquant",
-        "L'arbitre"
+        "30 minutes",
+        "45 minutes",
+        "50 minutes",
+        "60 minutes"
       ],
       "reponse": 1,
       "niveau": "facile"
     },
     {
-      "question": "Avec quelle partie du corps un joueur de champ n'a pas le droit de toucher le ballon ?",
+      "question": "Quel joueur est surnommé « CR7 » ?",
       "choix": [
-        "La tête",
-        "La poitrine",
-        "La main",
-        "Le genou"
+        "Neymar",
+        "Cristiano Ronaldo",
+        "Kylian Mbappé",
+        "Karim Benzema"
       ],
-      "reponse": 2,
+      "reponse": 1,
       "niveau": "facile"
     },
     {
-      "question": "Dans quel pays se trouve le club de la Juventus ?",
+      "question": "Quel club est surnommé « le Barça » ?",
       "choix": [
-        "Espagne",
-        "Italie",
-        "Portugal",
-        "Allemagne"
+        "Real Madrid",
+        "FC Barcelone",
+        "Juventus",
+        "Paris Saint-Germain"
       ],
       "reponse": 1,
       "niveau": "moyen"
     },
     {
-      "question": "Quel Français a marqué deux buts de la tête en finale de la Coupe du monde 1998 ?",
+      "question": "Quel pays a gagné la Coupe du monde 2022 ?",
       "choix": [
-        "Thierry Henry",
-        "Zinédine Zidane",
-        "Emmanuel Petit",
-        "Didier Deschamps"
+        "France",
+        "Argentine",
+        "Croatie",
+        "Maroc"
       ],
       "reponse": 1,
       "niveau": "moyen"
     },
     {
-      "question": "Combien de buts Kylian Mbappé a-t-il marqués en finale de la Coupe du monde 2022 ?",
+      "question": "Quel est le premier pays africain à avoir atteint une demi-finale de Coupe du monde ?",
       "choix": [
-        "1",
-        "2",
-        "3",
-        "4"
+        "Cameroun",
+        "Sénégal",
+        "Ghana",
+        "Maroc"
       ],
-      "reponse": 2,
+      "reponse": 3,
       "niveau": "difficile",
-      "explication": "Un triplé en finale !"
+      "explication": "Le Maroc l'a fait en 2022, au Qatar."
     }
   ]
 }

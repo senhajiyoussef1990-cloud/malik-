@@ -1,4 +1,4 @@
-# Chrono Quiz — Shorts YouTube (foot et logique)
+# Chrono Quiz — Shorts YouTube (foot, logique, culture générale)
 
 Génère automatiquement des Shorts de quiz à choix multiples (A, B, C, D) avec l'identité
 **Chrono Quiz** : intro animée, voix off, compte à rebours de 4 secondes, révélation de la
@@ -18,10 +18,10 @@ La photo de profil et la bannière sortent dans `marque/`.
 
 ## Fichier d'un épisode (`episodes/`)
 
-- `numero`, `theme` : `foot` (fond terrain vert) ou `logique` (fond violet)
+- `numero`, `theme` : `foot` (fond terrain vert), `logique` (fond violet) ou `culture` (culture générale, fond bleu)
 - `accroche` : phrase dite dans l'intro, après « Bienvenue dans Chrono Quiz ! Spécial … »
 - `titre_youtube` : titre proposé pour la publication
-- `pause_par_question` : `true` = après chaque question, la voix dit « Besoin de réfléchir ? Mets pause ! » (logique), `false` = rien (foot)
+- `pause_par_question` : `true` = après chaque question, la voix dit « Besoin de réfléchir ? Mets pause ! » (logique), `false` = rien (foot, culture)
 - `questions` : 5 questions, chacune avec
   - `choix` : 4 réponses
   - `reponse` : numéro de la bonne réponse, **en partant de 0** (0 = A, 1 = B, 2 = C, 3 = D)
@@ -33,3 +33,5 @@ La photo de profil et la bannière sortent dans `marque/`.
 
 Par défaut : voix française gratuite Microsoft (`fr-FR-RemyMultilingualNeural`).
 Autre voix : `QUIZ_VOIX_EDGE=fr-FR-HenriNeural`. ElevenLabs : `QUIZ_TTS=eleven` (compte payant).
+
+Rotation des épisodes : foot → logique → culture générale. Des épisodes prêts en avance sont rangés dans `episodes/reserve/`.

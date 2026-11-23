@@ -1,0 +1,65 @@
+{
+  "numero": 9,
+  "theme": "culture",
+  "accroche": "La dernière question est la plus dure !",
+  "titre_youtube": "Culture générale : la dernière question est la plus dure 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la capitale du Japon ?",
+      "choix": [
+        "Pékin",
+        "Séoul",
+        "Tokyo",
+        "Bangkok"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de côtés a un hexagone ?",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel est le plus grand pays du monde ?",
+      "choix": [
+        "Chine",
+        "Canada",
+        "États-Unis",
+        "Russie"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Qui a écrit « Les Misérables » ?",
+      "choix": [
+        "Victor Hugo",
+        "Émile Zola",
+        "Molière",
+        "Balzac"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le symbole chimique de l'or ?",
+      "choix": [
+        "Or",
+        "Au",
+        "Ag",
+        "Go"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Au, qui vient du latin aurum."
+    }
+  ]
+}

@@ -52,6 +52,8 @@ THEMES = {
     "foot": {"nom": "FOOT", "haut": (6, 46, 24), "bas": (16, 102, 48), "accent": JAUNE, "motif": "terrain"},
     "logique": {"nom": "LOGIQUE", "haut": (24, 12, 60), "bas": (58, 36, 136), "accent": (34, 211, 238),
                 "motif": "points"},
+    "culture": {"nom": "CULTURE GÉNÉRALE", "court": "culture générale", "haut": (8, 30, 64),
+                "bas": (14, 74, 120), "accent": (251, 146, 60), "motif": "questions"},
 }
 
 
@@ -116,6 +118,27 @@ def son_bonne_reponse():
 
 # ---------------------------------------------------------------- outils de dessin
 _polices = {}
+
+
+class Dessin:
+    """ImageDraw qui respecte aussi la transparence du texte (Pillow l'ignore sur une image RGB)."""
+
+    def __init__(self, im):
+        self.im = im
+        self.d = ImageDraw.Draw(im, "RGBA")
+
+    def __getattr__(self, nom):
+        return getattr(self.d, nom)
+
+    def text(self, xy, texte, fill=BLANC, **kw):
+        if len(fill) == 4 and fill[3] < 255:
+            if fill[3] <= 0:
+                return
+            masque = Image.new("L", self.im.size, 0)
+            ImageDraw.Draw(masque).text(xy, texte, fill=fill[3], **kw)
+            self.im.paste(fill[:3], mask=masque)
+        else:
+            self.d.text(xy, texte, fill=fill[:3], **kw)
 
 
 def police(chemin, taille):
@@ -199,7 +222,7 @@ def fond(theme):
     dist = np.sqrt(((xx - W / 2) / (W * 0.75)) ** 2 + ((yy - H * 0.45) / (H * 0.7)) ** 2)
     img = img * np.clip(1.15 - 0.55 * dist, 0.45, 1.0)[:, :, None]
     im = Image.fromarray(img.clip(0, 255).astype(np.uint8), "RGB")
-    d = ImageDraw.Draw(im, "RGBA")
+    d = Dessin(im)
     if th["motif"] == "terrain":
         bande = H // 12
         for i in range(0, H, bande * 2):
@@ -207,6 +230,11 @@ def fond(theme):
         r = W * 0.36
         d.ellipse([W / 2 - r, H * 0.5 - r, W / 2 + r, H * 0.5 + r], outline=(255, 255, 255, 22), width=6)
         d.line([0, H * 0.5, W, H * 0.5], fill=(255, 255, 255, 22), width=6)
+    elif th["motif"] == "questions":
+        fq = police(FONT_TITRE, 90)
+        for j, y in enumerate(range(60, H, 210)):
+            for i, x in enumerate(range(60 + (j % 2) * 120, W, 240)):
+                d.text((x, y), "?", font=fq, fill=(255, 255, 255, 13), anchor="mm")
     else:
         for x in range(30, W, 60):
             for y in range(30, H, 60):
@@ -307,7 +335,7 @@ def pied(d):
 
 def image_question(base, ep, iq, etat, apparition=1.0):
     im = base.copy()
-    d = ImageDraw.Draw(im, "RGBA")
+    d = Dessin(im)
     entete(d, ep, iq + (1 if etat == "revele" else 0))
     carte_question(d, ep, iq)
     dessiner_choix(d, ep, iq, etat, apparition)
@@ -316,7 +344,7 @@ def image_question(base, ep, iq, etat, apparition=1.0):
 
 
 def dessiner_timer(im, reste, accent):
-    d = ImageDraw.Draw(im, "RGBA")
+    d = Dessin(im)
     cx, cy, r = TIMER
     couleur = ROUGE if reste <= 1.5 else JAUNE
     chrono(d, cx, cy, r, couleur, aiguille=False, fond=NUIT + (230,), epaisseur=10)
@@ -329,7 +357,7 @@ def dessiner_timer(im, reste, accent):
 
 
 def dessiner_pause(im, texte, cy=Y_PAUSE):
-    d = ImageDraw.Draw(im, "RGBA")
+    d = Dessin(im)
     f = police(FONT_TEXTE, 36)
     h, icone = 62, 26
     w = d.textlength(texte, font=f)
@@ -345,7 +373,7 @@ def dessiner_pause(im, texte, cy=Y_PAUSE):
 def image_intro(base, ep, t):
     th = THEMES[ep["theme"]]
     im = base.copy()
-    d = ImageDraw.Draw(im, "RGBA")
+    d = Dessin(im)
     p = min(1.0, t / 0.4)
     ech = 1 + 0.5 * (1 - p) ** 3
     r = 150 * ech
@@ -372,7 +400,7 @@ def image_intro(base, ep, t):
 
 def image_fin(base, ep, t):
     im = base.copy()
-    d = ImageDraw.Draw(im, "RGBA")
+    d = Dessin(im)
     logo(d, W / 2, 300, 80)
     p = min(1.0, t / 0.35)
     f = police(FONT_TITRE, int(170 * (1 + 0.3 * (1 - p) ** 3)))
@@ -394,8 +422,9 @@ def image_fin(base, ep, t):
 
 # ---------------------------------------------------------------- montage
 def publication(ep):
-    th = THEMES[ep["theme"]]["nom"].lower()
-    tags = {"foot": "#foot #football #quizfoot", "logique": "#logique #enigme #casse-tete"}[ep["theme"]]
+    th = THEMES[ep["theme"]].get("court", THEMES[ep["theme"]]["nom"].lower())
+    tags = {"foot": "#foot #football #quizfoot", "logique": "#logique #enigme #cassetete",
+            "culture": "#culturegenerale #culture #quizculture"}[ep["theme"]]
     return (f"TITRE :\n{ep.get('titre_youtube', ep['accroche'])} #shorts\n\n"
             f"DESCRIPTION :\n{ep['accroche']}\nQuiz {th} n°{ep['numero']} : {len(ep['questions'])} questions, "
             f"de facile à difficile, {DUREE_COMPTE} secondes pour répondre.\n"
@@ -409,7 +438,7 @@ def generer(chemin):
     base = fond(ep["theme"])
     segments = []  # (durée, image(t), [(décalage, son)])
 
-    bienvenue = ep.get("bienvenue", f"Bienvenue dans Chrono Quiz ! Spécial {th['nom'].lower()}.")
+    bienvenue = ep.get("bienvenue", f"Bienvenue dans Chrono Quiz ! Spécial {th.get('court', th['nom'].lower())}.")
     v = tts(bienvenue + " " + ep["accroche"])
     segments.append((max(2.6, len(v) / SR + 0.3), lambda t: image_intro(base, ep, t),
                      [(0.0, son_whoosh()), (0.3, v)]))

@@ -1,0 +1,65 @@
+{
+  "numero": 3,
+  "theme": "culture",
+  "accroche": "Seulement 1 personne sur 10 trouve tout !",
+  "titre_youtube": "Culture générale : 1 personne sur 10 a 5/5 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la capitale de l'Italie ?",
+      "choix": [
+        "Milan",
+        "Rome",
+        "Venise",
+        "Naples"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de jours compte une année normale ?",
+      "choix": [
+        "360",
+        "365",
+        "366",
+        "370"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle planète est surnommée « la planète rouge » ?",
+      "choix": [
+        "Vénus",
+        "Jupiter",
+        "Mars",
+        "Saturne"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Qui a peint la Joconde ?",
+      "choix": [
+        "Picasso",
+        "Van Gogh",
+        "Léonard de Vinci",
+        "Claude Monet"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est le plus long fleuve de France ?",
+      "choix": [
+        "La Seine",
+        "Le Rhône",
+        "La Loire",
+        "La Garonne"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "La Loire fait plus de 1000 kilomètres !"
+    }
+  ]
+}

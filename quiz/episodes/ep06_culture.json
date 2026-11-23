@@ -1,0 +1,65 @@
+{
+  "numero": 6,
+  "theme": "culture",
+  "accroche": "Teste ta culture générale en 1 minute !",
+  "titre_youtube": "Teste ta culture générale en 1 minute 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "choix": [
+        "Barcelone",
+        "Madrid",
+        "Séville",
+        "Valence"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de pattes a une araignée ?",
+      "choix": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel est le plus grand océan du monde ?",
+      "choix": [
+        "Atlantique",
+        "Indien",
+        "Pacifique",
+        "Arctique"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+      "choix": [
+        "1959",
+        "1969",
+        "1979",
+        "1989"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel est l'os le plus long du corps humain ?",
+      "choix": [
+        "Le tibia",
+        "Le fémur",
+        "L'humérus",
+        "Le radius"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Le fémur, l'os de la cuisse."
+    }
+  ]
+}
