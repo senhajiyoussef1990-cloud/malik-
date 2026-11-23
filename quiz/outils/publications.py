@@ -15,7 +15,7 @@ import glob
 import json
 import os
 
-HEURE = "12 h"   # heure de publication de Chrono Quiz dans le calendrier
+from planning import horaire
 
 THEME = {
     "foot": {"nom": "foot", "emoji": "⚽", "tags": ["#Foot", "#Football", "#QuizFoot", "#FootballQuiz"],
@@ -54,7 +54,8 @@ def pub(ep):
                f"{tags} #Shorts")
     tt_titre = f"{ep['accroche']} {t['emoji']}⏱️"
     tt_desc = f"Quiz {t['nom']} n°{n} : ton score en commentaire 👇\n\n" + " ".join(COMMUNS + t["tags"] + TIKTOK)
-    story = f"NOUVEAU QUIZ {t['emoji']}\n{t['nom'].upper()} · ÉPISODE {n}\nAUJOURD'HUI À {HEURE.upper()}"
+    heure = horaire(n, ep["theme"])[1]
+    story = f"NOUVEAU QUIZ {t['emoji']}\n{t['nom'].upper()} · ÉPISODE {n}\nAUJOURD'HUI À {heure.upper()}"
     return {
         "meta": [["Titre", meta_titre], ["Description", meta_desc]],
         "yt": [["Titre", yt_titre], ["Description", yt_desc]],
@@ -72,7 +73,8 @@ LIGNE = "═" * 42
 def texte(ep, video):
     f = pub(ep)
     t = [f"CHRONO QUIZ — ÉPISODE {ep['numero']} ({THEME[ep['theme']]['nom']})",
-         f"Vidéo : {video} (9:16, 1080×1920) · publication à {HEURE}", ""]
+         f"Vidéo : {video} (9:16, 1080×1920) · publication le {horaire(ep['numero'], ep['theme'])[0]} à "
+         f"{horaire(ep['numero'], ep['theme'])[1]}", ""]
     for cle, nom in NOMS:
         t += [LIGNE, nom, LIGNE]
         for lab, txt in f[cle]:

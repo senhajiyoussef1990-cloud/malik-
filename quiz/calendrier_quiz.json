@@ -4,8 +4,8 @@
   "id": "quiz-1",
   "num": 1,
   "titre": "Foot : Les bases (règles, Coupe du monde, Ballon d'Or)",
-  "date": "2026-11-24",
-  "heure": "12 h",
+  "date": "2026-11-23",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep01_foot.mp4 · Story : ep01_foot_story.png",
   "f": {
    "meta": [
@@ -41,13 +41,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ ⚽\nFOOT · ÉPISODE 1\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ ⚽\nFOOT · ÉPISODE 1\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ ⚽\nFOOT · ÉPISODE 1\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ ⚽\nFOOT · ÉPISODE 1\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -57,8 +57,8 @@
   "id": "quiz-2",
   "num": 2,
   "titre": "Logique : Suites, pièges et devinettes",
-  "date": "2026-11-25",
-  "heure": "12 h",
+  "date": "2026-11-23",
+  "heure": "21 h",
   "fichiers": "Vidéo : ep02_logique.mp4 · Story : ep02_logique_story.png",
   "f": {
    "meta": [
@@ -94,13 +94,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 2\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 2\nAUJOURD'HUI À 21 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 2\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 2\nAUJOURD'HUI À 21 H"
     ]
    ]
   }
@@ -110,8 +110,8 @@
   "id": "quiz-3",
   "num": 3,
   "titre": "Culture générale : Capitales, planètes, peinture",
-  "date": "2026-11-26",
-  "heure": "12 h",
+  "date": "2026-11-23",
+  "heure": "22 h",
   "fichiers": "Vidéo : ep03_culture.mp4 · Story : ep03_culture_story.png",
   "f": {
    "meta": [
@@ -147,13 +147,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 3\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 3\nAUJOURD'HUI À 22 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 3\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 3\nAUJOURD'HUI À 22 H"
     ]
    ]
   }
@@ -163,7 +163,7 @@
   "id": "quiz-4",
   "num": 4,
   "titre": "Foot : Cartons, clubs, Coupe du monde",
-  "date": "2026-11-27",
+  "date": "2026-11-24",
   "heure": "12 h",
   "fichiers": "Vidéo : ep04_foot.mp4 · Story : ep04_foot_story.png",
   "f": {
@@ -216,8 +216,8 @@
   "id": "quiz-5",
   "num": 5,
   "titre": "Logique : Suites, mois, moutons, batte et balle",
-  "date": "2026-11-28",
-  "heure": "12 h",
+  "date": "2026-11-24",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep05_logique.mp4 · Story : ep05_logique_story.png",
   "f": {
    "meta": [
@@ -253,13 +253,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 5\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 5\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 5\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 5\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -269,8 +269,8 @@
   "id": "quiz-6",
   "num": 6,
   "titre": "Culture générale : Capitales, océans, corps humain",
-  "date": "2026-11-29",
-  "heure": "12 h",
+  "date": "2026-11-24",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep06_culture.mp4 · Story : ep06_culture_story.png",
   "f": {
    "meta": [
@@ -306,13 +306,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 6\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 6\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 6\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 6\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -322,7 +322,7 @@
   "id": "quiz-7",
   "num": 7,
   "titre": "Foot : Surnoms, mi-temps, Maroc 2022",
-  "date": "2026-11-30",
+  "date": "2026-11-25",
   "heure": "12 h",
   "fichiers": "Vidéo : ep07_foot.mp4 · Story : ep07_foot_story.png",
   "f": {
@@ -375,8 +375,8 @@
   "id": "quiz-8",
   "num": 8,
   "titre": "Logique : Suites, poules, escargot dans le puits",
-  "date": "2026-12-01",
-  "heure": "12 h",
+  "date": "2026-11-25",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep08_logique.mp4 · Story : ep08_logique_story.png",
   "f": {
    "meta": [
@@ -412,13 +412,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 8\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 8\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 8\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 8\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -428,8 +428,8 @@
   "id": "quiz-9",
   "num": 9,
   "titre": "Culture générale : Japon, Russie, Victor Hugo",
-  "date": "2026-12-02",
-  "heure": "12 h",
+  "date": "2026-11-25",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep09_culture.mp4 · Story : ep09_culture_story.png",
   "f": {
    "meta": [
@@ -465,13 +465,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 9\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 9\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 9\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 9\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -481,7 +481,7 @@
   "id": "quiz-10",
   "num": 10,
   "titre": "Foot : Gardien, Juventus, Zidane 1998, Mbappé 2022",
-  "date": "2026-12-03",
+  "date": "2026-11-26",
   "heure": "12 h",
   "fichiers": "Vidéo : ep10_foot.mp4 · Story : ep10_foot_story.png",
   "f": {
@@ -534,8 +534,8 @@
   "id": "quiz-11",
   "num": 11,
   "titre": "Logique : Suites de nombres",
-  "date": "2026-12-04",
-  "heure": "12 h",
+  "date": "2026-11-26",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep11_logique.mp4 · Story : ep11_logique_story.png",
   "f": {
    "meta": [
@@ -571,13 +571,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 11\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 11\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 11\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 11\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -587,8 +587,8 @@
   "id": "quiz-12",
   "num": 12,
   "titre": "Culture générale : Capitales d'Europe",
-  "date": "2026-12-05",
-  "heure": "12 h",
+  "date": "2026-11-26",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep12_culture.mp4 · Story : ep12_culture_story.png",
   "f": {
    "meta": [
@@ -624,13 +624,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 12\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 12\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 12\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 12\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -640,7 +640,7 @@
   "id": "quiz-13",
   "num": 13,
   "titre": "Foot : Les règles du jeu",
-  "date": "2026-12-06",
+  "date": "2026-11-27",
   "heure": "12 h",
   "fichiers": "Vidéo : ep13_foot.mp4 · Story : ep13_foot_story.png",
   "f": {
@@ -693,8 +693,8 @@
   "id": "quiz-14",
   "num": 14,
   "titre": "Logique : Devinettes classiques",
-  "date": "2026-12-07",
-  "heure": "12 h",
+  "date": "2026-11-27",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep14_logique.mp4 · Story : ep14_logique_story.png",
   "f": {
    "meta": [
@@ -730,13 +730,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 14\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 14\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 14\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 14\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -746,8 +746,8 @@
   "id": "quiz-15",
   "num": 15,
   "titre": "Culture générale : Capitales d'Afrique",
-  "date": "2026-12-08",
-  "heure": "12 h",
+  "date": "2026-11-27",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep15_culture.mp4 · Story : ep15_culture_story.png",
   "f": {
    "meta": [
@@ -783,13 +783,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 15\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 15\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 15\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 15\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -799,7 +799,7 @@
   "id": "quiz-16",
   "num": 16,
   "titre": "Foot : Coupe du monde : les vainqueurs",
-  "date": "2026-12-09",
+  "date": "2026-11-28",
   "heure": "12 h",
   "fichiers": "Vidéo : ep16_foot.mp4 · Story : ep16_foot_story.png",
   "f": {
@@ -852,8 +852,8 @@
   "id": "quiz-17",
   "num": 17,
   "titre": "Logique : Pièges de lecture",
-  "date": "2026-12-10",
-  "heure": "12 h",
+  "date": "2026-11-28",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep17_logique.mp4 · Story : ep17_logique_story.png",
   "f": {
    "meta": [
@@ -889,13 +889,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 17\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 17\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 17\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 17\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -905,8 +905,8 @@
   "id": "quiz-18",
   "num": 18,
   "titre": "Culture générale : Capitales d'Asie",
-  "date": "2026-12-11",
-  "heure": "12 h",
+  "date": "2026-11-28",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep18_culture.mp4 · Story : ep18_culture_story.png",
   "f": {
    "meta": [
@@ -942,13 +942,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 18\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 18\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 18\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 18\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -958,7 +958,7 @@
   "id": "quiz-19",
   "num": 19,
   "titre": "Foot : Équipe de France : les Bleus",
-  "date": "2026-12-12",
+  "date": "2026-11-29",
   "heure": "12 h",
   "fichiers": "Vidéo : ep19_foot.mp4 · Story : ep19_foot_story.png",
   "f": {
@@ -1011,8 +1011,8 @@
   "id": "quiz-20",
   "num": 20,
   "titre": "Logique : Calcul mental rapide",
-  "date": "2026-12-13",
-  "heure": "12 h",
+  "date": "2026-11-29",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep20_logique.mp4 · Story : ep20_logique_story.png",
   "f": {
    "meta": [
@@ -1048,13 +1048,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 20\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 20\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 20\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 20\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -1064,8 +1064,8 @@
   "id": "quiz-21",
   "num": 21,
   "titre": "Culture générale : Capitales des Amériques",
-  "date": "2026-12-14",
-  "heure": "12 h",
+  "date": "2026-11-29",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep21_culture.mp4 · Story : ep21_culture_story.png",
   "f": {
    "meta": [
@@ -1101,13 +1101,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 21\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 21\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 21\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 21\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -1117,7 +1117,7 @@
   "id": "quiz-22",
   "num": 22,
   "titre": "Foot : Clubs et surnoms",
-  "date": "2026-12-15",
+  "date": "2026-11-30",
   "heure": "12 h",
   "fichiers": "Vidéo : ep22_foot.mp4 · Story : ep22_foot_story.png",
   "f": {
@@ -1170,8 +1170,8 @@
   "id": "quiz-23",
   "num": 23,
   "titre": "Logique : Jours et calendrier",
-  "date": "2026-12-16",
-  "heure": "12 h",
+  "date": "2026-11-30",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep23_logique.mp4 · Story : ep23_logique_story.png",
   "f": {
    "meta": [
@@ -1207,13 +1207,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 23\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 23\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 23\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 23\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -1223,8 +1223,8 @@
   "id": "quiz-24",
   "num": 24,
   "titre": "Culture générale : Géographie de la France",
-  "date": "2026-12-17",
-  "heure": "12 h",
+  "date": "2026-11-30",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep24_culture.mp4 · Story : ep24_culture_story.png",
   "f": {
    "meta": [
@@ -1260,13 +1260,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 24\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 24\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 24\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 24\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -1276,7 +1276,7 @@
   "id": "quiz-25",
   "num": 25,
   "titre": "Foot : Stades célèbres",
-  "date": "2026-12-18",
+  "date": "2026-12-01",
   "heure": "12 h",
   "fichiers": "Vidéo : ep25_foot.mp4 · Story : ep25_foot_story.png",
   "f": {
@@ -1329,8 +1329,8 @@
   "id": "quiz-26",
   "num": 26,
   "titre": "Logique : Énigmes d'âge",
-  "date": "2026-12-19",
-  "heure": "12 h",
+  "date": "2026-12-01",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep26_logique.mp4 · Story : ep26_logique_story.png",
   "f": {
    "meta": [
@@ -1366,13 +1366,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 26\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 26\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 26\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 26\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -1382,8 +1382,8 @@
   "id": "quiz-27",
   "num": 27,
   "titre": "Culture générale : Fleuves et océans",
-  "date": "2026-12-20",
-  "heure": "12 h",
+  "date": "2026-12-01",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep27_culture.mp4 · Story : ep27_culture_story.png",
   "f": {
    "meta": [
@@ -1419,13 +1419,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 27\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 27\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 27\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 27\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -1435,7 +1435,7 @@
   "id": "quiz-28",
   "num": 28,
   "titre": "Foot : Ligue des champions : l'histoire",
-  "date": "2026-12-21",
+  "date": "2026-12-02",
   "heure": "12 h",
   "fichiers": "Vidéo : ep28_foot.mp4 · Story : ep28_foot_story.png",
   "f": {
@@ -1488,8 +1488,8 @@
   "id": "quiz-29",
   "num": 29,
   "titre": "Logique : Suites de lettres",
-  "date": "2026-12-22",
-  "heure": "12 h",
+  "date": "2026-12-02",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep29_logique.mp4 · Story : ep29_logique_story.png",
   "f": {
    "meta": [
@@ -1525,13 +1525,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 29\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 29\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 29\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 29\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -1541,8 +1541,8 @@
   "id": "quiz-30",
   "num": 30,
   "titre": "Culture générale : Montagnes et volcans",
-  "date": "2026-12-23",
-  "heure": "12 h",
+  "date": "2026-12-02",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep30_culture.mp4 · Story : ep30_culture_story.png",
   "f": {
    "meta": [
@@ -1578,13 +1578,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 30\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 30\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 30\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 30\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -1594,7 +1594,7 @@
   "id": "quiz-31",
   "num": 31,
   "titre": "Foot : Ballon d'Or : l'histoire",
-  "date": "2026-12-24",
+  "date": "2026-12-03",
   "heure": "12 h",
   "fichiers": "Vidéo : ep31_foot.mp4 · Story : ep31_foot_story.png",
   "f": {
@@ -1647,8 +1647,8 @@
   "id": "quiz-32",
   "num": 32,
   "titre": "Logique : Horloges et heures",
-  "date": "2026-12-25",
-  "heure": "12 h",
+  "date": "2026-12-03",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep32_logique.mp4 · Story : ep32_logique_story.png",
   "f": {
    "meta": [
@@ -1684,13 +1684,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 32\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 32\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 32\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 32\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -1700,8 +1700,8 @@
   "id": "quiz-33",
   "num": 33,
   "titre": "Culture générale : Le corps humain",
-  "date": "2026-12-26",
-  "heure": "12 h",
+  "date": "2026-12-03",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep33_culture.mp4 · Story : ep33_culture_story.png",
   "f": {
    "meta": [
@@ -1737,13 +1737,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 33\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 33\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 33\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 33\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -1753,7 +1753,7 @@
   "id": "quiz-34",
   "num": 34,
   "titre": "Foot : Légendes du foot (Pelé, Maradona, Zidane…)",
-  "date": "2026-12-27",
+  "date": "2026-12-04",
   "heure": "12 h",
   "fichiers": "Vidéo : ep34_foot.mp4 · Story : ep34_foot_story.png",
   "f": {
@@ -1806,8 +1806,8 @@
   "id": "quiz-35",
   "num": 35,
   "titre": "Logique : Qui ment ?",
-  "date": "2026-12-28",
-  "heure": "12 h",
+  "date": "2026-12-04",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep35_logique.mp4 · Story : ep35_logique_story.png",
   "f": {
    "meta": [
@@ -1843,13 +1843,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 35\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 35\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 35\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 35\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -1859,8 +1859,8 @@
   "id": "quiz-36",
   "num": 36,
   "titre": "Culture générale : L'espace et les planètes",
-  "date": "2026-12-29",
-  "heure": "12 h",
+  "date": "2026-12-04",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep36_culture.mp4 · Story : ep36_culture_story.png",
   "f": {
    "meta": [
@@ -1896,13 +1896,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 36\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 36\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 36\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 36\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -1912,7 +1912,7 @@
   "id": "quiz-37",
   "num": 37,
   "titre": "Foot : Ligue 1 : clubs et villes",
-  "date": "2026-12-30",
+  "date": "2026-12-05",
   "heure": "12 h",
   "fichiers": "Vidéo : ep37_foot.mp4 · Story : ep37_foot_story.png",
   "f": {
@@ -1965,8 +1965,8 @@
   "id": "quiz-38",
   "num": 38,
   "titre": "Logique : Liens de famille",
-  "date": "2026-12-31",
-  "heure": "12 h",
+  "date": "2026-12-05",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep38_logique.mp4 · Story : ep38_logique_story.png",
   "f": {
    "meta": [
@@ -2002,13 +2002,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 38\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 38\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 38\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 38\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -2018,8 +2018,8 @@
   "id": "quiz-39",
   "num": 39,
   "titre": "Culture générale : Les animaux",
-  "date": "2027-01-01",
-  "heure": "12 h",
+  "date": "2026-12-05",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep39_culture.mp4 · Story : ep39_culture_story.png",
   "f": {
    "meta": [
@@ -2055,13 +2055,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 39\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 39\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 39\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 39\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -2071,7 +2071,7 @@
   "id": "quiz-40",
   "num": 40,
   "titre": "Foot : Premier League : clubs et villes",
-  "date": "2027-01-02",
+  "date": "2026-12-06",
   "heure": "12 h",
   "fichiers": "Vidéo : ep40_foot.mp4 · Story : ep40_foot_story.png",
   "f": {
@@ -2124,8 +2124,8 @@
   "id": "quiz-41",
   "num": 41,
   "titre": "Logique : Poids et mesures",
-  "date": "2027-01-03",
-  "heure": "12 h",
+  "date": "2026-12-06",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep41_logique.mp4 · Story : ep41_logique_story.png",
   "f": {
    "meta": [
@@ -2161,13 +2161,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 41\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 41\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 41\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 41\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -2177,8 +2177,8 @@
   "id": "quiz-42",
   "num": 42,
   "titre": "Culture générale : Records de la nature",
-  "date": "2027-01-04",
-  "heure": "12 h",
+  "date": "2026-12-06",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep42_culture.mp4 · Story : ep42_culture_story.png",
   "f": {
    "meta": [
@@ -2214,13 +2214,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 42\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 42\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 42\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 42\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -2230,7 +2230,7 @@
   "id": "quiz-43",
   "num": 43,
   "titre": "Foot : Liga espagnole",
-  "date": "2027-01-05",
+  "date": "2026-12-07",
   "heure": "12 h",
   "fichiers": "Vidéo : ep43_foot.mp4 · Story : ep43_foot_story.png",
   "f": {
@@ -2283,8 +2283,8 @@
   "id": "quiz-44",
   "num": 44,
   "titre": "Logique : Formes et figures",
-  "date": "2027-01-06",
-  "heure": "12 h",
+  "date": "2026-12-07",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep44_logique.mp4 · Story : ep44_logique_story.png",
   "f": {
    "meta": [
@@ -2320,13 +2320,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 44\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 44\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 44\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 44\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -2336,8 +2336,8 @@
   "id": "quiz-45",
   "num": 45,
   "titre": "Culture générale : Les dinosaures",
-  "date": "2027-01-07",
-  "heure": "12 h",
+  "date": "2026-12-07",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep45_culture.mp4 · Story : ep45_culture_story.png",
   "f": {
    "meta": [
@@ -2373,13 +2373,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 45\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 45\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 45\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 45\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -2389,7 +2389,7 @@
   "id": "quiz-46",
   "num": 46,
   "titre": "Foot : Serie A italienne",
-  "date": "2027-01-08",
+  "date": "2026-12-08",
   "heure": "12 h",
   "fichiers": "Vidéo : ep46_foot.mp4 · Story : ep46_foot_story.png",
   "f": {
@@ -2442,8 +2442,8 @@
   "id": "quiz-47",
   "num": 47,
   "titre": "Logique : Probabilités simples",
-  "date": "2027-01-09",
-  "heure": "12 h",
+  "date": "2026-12-08",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep47_logique.mp4 · Story : ep47_logique_story.png",
   "f": {
    "meta": [
@@ -2479,13 +2479,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 47\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 47\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 47\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 47\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -2495,8 +2495,8 @@
   "id": "quiz-48",
   "num": 48,
   "titre": "Culture générale : Histoire de France",
-  "date": "2027-01-10",
-  "heure": "12 h",
+  "date": "2026-12-08",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep48_culture.mp4 · Story : ep48_culture_story.png",
   "f": {
    "meta": [
@@ -2532,13 +2532,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 48\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 48\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 48\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 48\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -2548,7 +2548,7 @@
   "id": "quiz-49",
   "num": 49,
   "titre": "Foot : Bundesliga allemande",
-  "date": "2027-01-11",
+  "date": "2026-12-09",
   "heure": "12 h",
   "fichiers": "Vidéo : ep49_foot.mp4 · Story : ep49_foot_story.png",
   "f": {
@@ -2601,8 +2601,8 @@
   "id": "quiz-50",
   "num": 50,
   "titre": "Logique : Codes secrets (A = 1, B = 2…)",
-  "date": "2027-01-12",
-  "heure": "12 h",
+  "date": "2026-12-09",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep50_logique.mp4 · Story : ep50_logique_story.png",
   "f": {
    "meta": [
@@ -2638,13 +2638,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 50\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 50\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 50\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 50\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -2654,8 +2654,8 @@
   "id": "quiz-51",
   "num": 51,
   "titre": "Culture générale : Inventions et inventeurs",
-  "date": "2027-01-13",
-  "heure": "12 h",
+  "date": "2026-12-09",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep51_culture.mp4 · Story : ep51_culture_story.png",
   "f": {
    "meta": [
@@ -2691,13 +2691,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 51\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 51\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 51\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 51\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -2707,7 +2707,7 @@
   "id": "quiz-52",
   "num": 52,
   "titre": "Foot : Euro : les vainqueurs",
-  "date": "2027-01-14",
+  "date": "2026-12-10",
   "heure": "12 h",
   "fichiers": "Vidéo : ep52_foot.mp4 · Story : ep52_foot_story.png",
   "f": {
@@ -2760,8 +2760,8 @@
   "id": "quiz-53",
   "num": 53,
   "titre": "Logique : Classements et déductions",
-  "date": "2027-01-15",
-  "heure": "12 h",
+  "date": "2026-12-10",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep53_logique.mp4 · Story : ep53_logique_story.png",
   "f": {
    "meta": [
@@ -2797,13 +2797,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 53\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 53\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 53\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 53\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -2813,8 +2813,8 @@
   "id": "quiz-54",
   "num": 54,
   "titre": "Culture générale : Peintres célèbres",
-  "date": "2027-01-16",
-  "heure": "12 h",
+  "date": "2026-12-10",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep54_culture.mp4 · Story : ep54_culture_story.png",
   "f": {
    "meta": [
@@ -2850,13 +2850,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 54\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 54\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 54\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 54\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -2866,7 +2866,7 @@
   "id": "quiz-55",
   "num": 55,
   "titre": "Foot : Coupe d'Afrique des nations",
-  "date": "2027-01-17",
+  "date": "2026-12-11",
   "heure": "12 h",
   "fichiers": "Vidéo : ep55_foot.mp4 · Story : ep55_foot_story.png",
   "f": {
@@ -2919,8 +2919,8 @@
   "id": "quiz-56",
   "num": 56,
   "titre": "Logique : Mots et lettres",
-  "date": "2027-01-18",
-  "heure": "12 h",
+  "date": "2026-12-11",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep56_logique.mp4 · Story : ep56_logique_story.png",
   "f": {
    "meta": [
@@ -2956,13 +2956,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 56\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 56\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 56\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 56\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -2972,8 +2972,8 @@
   "id": "quiz-57",
   "num": 57,
   "titre": "Culture générale : Écrivains et livres",
-  "date": "2027-01-19",
-  "heure": "12 h",
+  "date": "2026-12-11",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep57_culture.mp4 · Story : ep57_culture_story.png",
   "f": {
    "meta": [
@@ -3009,13 +3009,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 57\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 57\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 57\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 57\nAUJOURD'HUI À 20 H"
     ]
    ]
   }
@@ -3025,7 +3025,7 @@
   "id": "quiz-58",
   "num": 58,
   "titre": "Foot : Gardiens légendaires",
-  "date": "2027-01-20",
+  "date": "2026-12-12",
   "heure": "12 h",
   "fichiers": "Vidéo : ep58_foot.mp4 · Story : ep58_foot_story.png",
   "f": {
@@ -3078,8 +3078,8 @@
   "id": "quiz-59",
   "num": 59,
   "titre": "Logique : Questions pièges",
-  "date": "2027-01-21",
-  "heure": "12 h",
+  "date": "2026-12-12",
+  "heure": "16 h",
   "fichiers": "Vidéo : ep59_logique.mp4 · Story : ep59_logique_story.png",
   "f": {
    "meta": [
@@ -3115,13 +3115,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 59\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 59\nAUJOURD'HUI À 16 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 59\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🧠\nLOGIQUE · ÉPISODE 59\nAUJOURD'HUI À 16 H"
     ]
    ]
   }
@@ -3131,8 +3131,8 @@
   "id": "quiz-60",
   "num": 60,
   "titre": "Culture générale : Musique",
-  "date": "2027-01-22",
-  "heure": "12 h",
+  "date": "2026-12-12",
+  "heure": "20 h",
   "fichiers": "Vidéo : ep60_culture.mp4 · Story : ep60_culture_story.png",
   "f": {
    "meta": [
@@ -3168,13 +3168,13 @@
    "story": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 60\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 60\nAUJOURD'HUI À 20 H"
     ]
    ],
    "storytt": [
     [
      "Texte de la story",
-     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 60\nAUJOURD'HUI À 12 H"
+     "NOUVEAU QUIZ 🌍\nCULTURE GÉNÉRALE · ÉPISODE 60\nAUJOURD'HUI À 20 H"
     ]
    ]
   }

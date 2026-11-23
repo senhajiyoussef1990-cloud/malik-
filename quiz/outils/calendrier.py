@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""Entrées Chrono Quiz du « Calendrier des chaînes » : un épisode par jour à 12 h.
+"""Entrées Chrono Quiz du « Calendrier des chaînes » : 3 épisodes par jour (voir planning.py).
 
 Usage : python3 quiz/outils/calendrier.py   → quiz/calendrier_quiz.json
 Chaque entrée a le même format que les autres chaînes du calendrier
 (serie, id, num, titre, date, heure, fichiers, f = textes par réseau).
 """
-import datetime as dt
 import glob
 import json
 import os
 
 import generer as g
-from publications import HEURE, THEME, pub
-
-DEBUT = dt.date(2026, 11, 24)   # épisode 1 ; ensuite un épisode par jour
+from planning import horaire
+from publications import THEME, pub
 
 
 def sujets():
@@ -36,7 +34,7 @@ def entrees():
         out.append({
             "serie": "quiz", "id": f"quiz-{n}", "num": n,
             "titre": f"{theme[0].upper() + theme[1:]} : {S.get(n, ep['accroche'])}",
-            "date": (DEBUT + dt.timedelta(days=n - 1)).isoformat(), "heure": HEURE,
+            "date": horaire(n, ep["theme"])[0], "heure": horaire(n, ep["theme"])[1],
             "fichiers": f"Vidéo : {nom}.mp4 · Story : {nom}_story.png",
             "f": pub(ep),
         })

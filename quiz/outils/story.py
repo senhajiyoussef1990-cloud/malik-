@@ -9,7 +9,7 @@ import json
 import os
 
 import generer as g
-from publications import HEURE
+from planning import horaire
 
 
 def story(ep):
@@ -26,7 +26,7 @@ def story(ep):
     fq = g.police(g.FONT_TEXTE, 50)
     g.texte_centre(d, g.couper(ep["accroche"], fq, g.W - 200, d), fq, g.W / 2, 1390, g.BLANC, 1.25)
     d.rounded_rectangle([g.W / 2 - 300, 1600, g.W / 2 + 300, 1700], radius=50, fill=g.ROUGE)
-    d.text((g.W / 2, 1650), f"AUJOURD'HUI À {HEURE.upper()}", font=g.police(g.FONT_TITRE, 54), fill=g.BLANC,
+    d.text((g.W / 2, 1650), f"AUJOURD'HUI À {horaire(ep['numero'], ep['theme'])[1].upper()}", font=g.police(g.FONT_TITRE, 54), fill=g.BLANC,
            anchor="mm")
     return im
 
