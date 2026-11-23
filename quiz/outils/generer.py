@@ -436,9 +436,9 @@ def image_fin(base, ep, t):
 
 # ---------------------------------------------------------------- montage
 def phrase_reponse(q):
-    """Phrase dite à la révélation. Le point après la lettre force une pause : sans lui,
-    « Réponse A : Athènes » est prononcé « Réponds-ça à Taine »."""
-    phrase = f"Réponse {LETTRES[q['reponse']]}. {q['choix'][q['reponse']]} !"
+    """Phrase dite à la révélation. « Réponse A : Athènes » était prononcé « Réponds-ça à Taine » ;
+    cette formule est celle que la reconnaissance vocale comprend le mieux (testée sur 5 formules)."""
+    phrase = f"C'était la réponse {LETTRES[q['reponse']]} : {q['choix'][q['reponse']]} !"
     if q.get("explication"):
         phrase += " " + q["explication"]
     return phrase
