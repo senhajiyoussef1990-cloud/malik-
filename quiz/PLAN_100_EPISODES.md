@@ -3,7 +3,7 @@
 Rotation fixe : **foot → logique → culture générale**, puis on recommence.
 Épisode n : foot si n = 1, 4, 7…, logique si n = 2, 5, 8…, culture générale si n = 3, 6, 9…
 
-Total : 34 foot, 33 logique, 33 culture générale. Les épisodes 1 à 10 sont déjà faits.
+Total : 34 foot, 33 logique, 33 culture générale. Les épisodes 1 à 20 sont déjà faits.
 
 Pour écrire les questions d'un épisode avec ChatGPT : voir [`GUIDE_CHATGPT.md`](GUIDE_CHATGPT.md).
 Quand un épisode est fait, remplacer « À faire » par « ✅ Fait ».
@@ -22,16 +22,16 @@ Les épisodes de réserve (`episodes/reserve/`) peuvent remplacer un épisode «
 | 008 | Logique | Suites, poules, escargot dans le puits | Le dernier défi est le plus dur de la série ! | Le défi logique le plus dur de la série 🧠 #shorts | ✅ Fait (`episodes/ep08_logique.json`) |
 | 009 | Culture générale | Japon, Russie, Victor Hugo | La dernière question est la plus dure ! | Culture générale : la dernière question est la plus dure 🌍 #shorts | ✅ Fait (`episodes/ep09_culture.json`) |
 | 010 | Foot | Gardien, Juventus, Zidane 1998, Mbappé 2022 | Ce quiz va séparer les fans des experts ! | Fan ou expert ? Ce quiz foot va te le dire ⚽ #shorts | ✅ Fait (`episodes/ep10_foot.json`) |
-| 011 | Logique | Suites de nombres | Presque personne ne trouve la dernière ! | Quiz logique : Suites de nombres 🧠 #shorts | À faire |
-| 012 | Culture générale | Capitales d'Europe | Même les profs se trompent à la question 4 ! | Quiz culture générale : Capitales d'Europe 🌍 #shorts | À faire |
-| 013 | Foot | Les règles du jeu | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Les règles du jeu ⚽ #shorts | À faire |
-| 014 | Logique | Devinettes classiques | Teste ton cerveau en 1 minute ! | Quiz logique : Devinettes classiques 🧠 #shorts | À faire |
-| 015 | Culture générale | Capitales d'Afrique | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Capitales d'Afrique 🌍 #shorts | À faire |
-| 016 | Foot | Coupe du monde : les vainqueurs | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Coupe du monde : les vainqueurs ⚽ #shorts | À faire |
-| 017 | Logique | Pièges de lecture | Presque personne ne trouve la dernière ! | Quiz logique : Pièges de lecture 🧠 #shorts | À faire |
-| 018 | Culture générale | Capitales d'Asie | Même les profs se trompent à la question 4 ! | Quiz culture générale : Capitales d'Asie 🌍 #shorts | À faire |
-| 019 | Foot | Équipe de France : les Bleus | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Équipe de France : les Bleus ⚽ #shorts | À faire |
-| 020 | Logique | Calcul mental rapide | Teste ton cerveau en 1 minute ! | Quiz logique : Calcul mental rapide 🧠 #shorts | À faire |
+| 011 | Logique | Suites de nombres | Presque personne ne trouve la dernière ! | Quiz logique : Suites de nombres 🧠 #shorts | ✅ Fait (`episodes/ep11_logique.json`) |
+| 012 | Culture générale | Capitales d'Europe | Même les profs se trompent à la question 4 ! | Quiz culture générale : Capitales d'Europe 🌍 #shorts | ✅ Fait (`episodes/ep12_culture.json`) |
+| 013 | Foot | Les règles du jeu | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Les règles du jeu ⚽ #shorts | ✅ Fait (`episodes/ep13_foot.json`) |
+| 014 | Logique | Devinettes classiques | Teste ton cerveau en 1 minute ! | Quiz logique : Devinettes classiques 🧠 #shorts | ✅ Fait (`episodes/ep14_logique.json`) |
+| 015 | Culture générale | Capitales d'Afrique | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Capitales d'Afrique 🌍 #shorts | ✅ Fait (`episodes/ep15_culture.json`) |
+| 016 | Foot | Coupe du monde : les vainqueurs | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Coupe du monde : les vainqueurs ⚽ #shorts | ✅ Fait (`episodes/ep16_foot.json`) |
+| 017 | Logique | Pièges de lecture | Presque personne ne trouve la dernière ! | Quiz logique : Pièges de lecture 🧠 #shorts | ✅ Fait (`episodes/ep17_logique.json`) |
+| 018 | Culture générale | Capitales d'Asie | Même les profs se trompent à la question 4 ! | Quiz culture générale : Capitales d'Asie 🌍 #shorts | ✅ Fait (`episodes/ep18_culture.json`) |
+| 019 | Foot | Équipe de France : les Bleus | Fais mieux que tes potes : vise le 5 sur 5 ! | Quiz foot : Équipe de France : les Bleus ⚽ #shorts | ✅ Fait (`episodes/ep19_foot.json`) |
+| 020 | Logique | Calcul mental rapide | Teste ton cerveau en 1 minute ! | Quiz logique : Calcul mental rapide 🧠 #shorts | ✅ Fait (`episodes/ep20_logique.json`) |
 | 021 | Culture générale | Capitales des Amériques | Seulement 1 personne sur 10 trouve tout ! | Quiz culture générale : Capitales des Amériques 🌍 #shorts | À faire |
 | 022 | Foot | Clubs et surnoms | Tu connais vraiment le foot ? Prouve-le ! | Quiz foot : Clubs et surnoms ⚽ #shorts | À faire |
 | 023 | Logique | Jours et calendrier | Presque personne ne trouve la dernière ! | Quiz logique : Jours et calendrier 🧠 #shorts | À faire |

@@ -1,0 +1,65 @@
+{
+  "numero": 19,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Équipe de France : les Bleus ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel est le surnom de l'équipe de France de football ?",
+      "choix": [
+        "Les Bleus",
+        "Les Rouges",
+        "Les Lions",
+        "Les Verts"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel animal est sur le logo de l'équipe de France ?",
+      "choix": [
+        "Un lion",
+        "Un aigle",
+        "Un coq",
+        "Un loup"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Qui était le capitaine des Bleus champions du monde en 1998 ?",
+      "choix": [
+        "Zinédine Zidane",
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Marcel Desailly"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Contre quel pays la France a gagné la finale de la Coupe du monde 2018 ?",
+      "choix": [
+        "Belgique",
+        "Argentine",
+        "Brésil",
+        "Croatie"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel a été le score de la finale France-Brésil en 1998 ?",
+      "choix": [
+        "1-0",
+        "2-0",
+        "3-0",
+        "3-1"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Trois à zéro : deux buts de Zidane et un d'Emmanuel Petit."
+    }
+  ]
+}

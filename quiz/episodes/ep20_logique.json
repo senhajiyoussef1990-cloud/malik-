@@ -1,0 +1,68 @@
+{
+  "numero": 20,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Calcul mental rapide 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien font 15 plus 27 ?",
+      "choix": [
+        "32",
+        "42",
+        "43",
+        "52"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien font 9 fois 6 ?",
+      "choix": [
+        "54",
+        "45",
+        "56",
+        "63"
+      ],
+      "reponse": 0,
+      "niveau": "facile",
+      "explication": "9 fois 6 font 54."
+    },
+    {
+      "question": "Combien font 25 fois 4 ?",
+      "choix": [
+        "75",
+        "90",
+        "100",
+        "125"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "4 fois 25 font 100, comme 4 pièces de 25 centimes font 1 euro."
+    },
+    {
+      "question": "Quel est le double de 37 ?",
+      "choix": [
+        "64",
+        "72",
+        "77",
+        "74"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "37 plus 37 font 74."
+    },
+    {
+      "question": "1000 plus 40, plus 1000, plus 30, plus 1000, plus 20, plus 1000, plus 10 : combien ça fait ?",
+      "choix": [
+        "5000",
+        "4100",
+        "4000",
+        "4200"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "4 fois 1000 font 4000, et 40 plus 30 plus 20 plus 10 font 100 : 4100."
+    }
+  ]
+}

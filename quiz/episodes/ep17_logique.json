@@ -1,0 +1,69 @@
+{
+  "numero": 17,
+  "theme": "logique",
+  "accroche": "Presque personne ne trouve la dernière !",
+  "titre_youtube": "Quiz logique : Pièges de lecture 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Combien d'animaux de chaque espèce Moïse a-t-il pris dans son arche ?",
+      "choix": [
+        "1",
+        "2",
+        "Aucun",
+        "7"
+      ],
+      "reponse": 2,
+      "niveau": "facile",
+      "explication": "Aucun : c'est Noé qui avait une arche, pas Moïse !"
+    },
+    {
+      "question": "Un avion s'écrase à la frontière de deux pays. Où enterre-t-on les survivants ?",
+      "choix": [
+        "Nulle part",
+        "Dans le 1er pays",
+        "Dans le 2e pays",
+        "À la frontière"
+      ],
+      "reponse": 0,
+      "niveau": "facile",
+      "explication": "On n'enterre pas des survivants !"
+    },
+    {
+      "question": "Un coq pond un œuf sur un toit. De quel côté tombe l'œuf ?",
+      "choix": [
+        "À gauche",
+        "À droite",
+        "Au milieu",
+        "Un coq ne pond pas"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Ce sont les poules qui pondent, pas les coqs !"
+    },
+    {
+      "question": "Dans le noir, avec une bougie, une lampe et une allumette, tu allumes quoi en premier ?",
+      "choix": [
+        "La bougie",
+        "La lampe",
+        "L'allumette",
+        "La lumière"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "Il faut d'abord allumer l'allumette !"
+    },
+    {
+      "question": "Un médecin a un frère, mais ce frère n'a pas de frère. Comment est-ce possible ?",
+      "choix": [
+        "Il ment",
+        "Le médecin est une femme",
+        "Ils sont cousins",
+        "Le frère est adopté"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Le médecin est sa sœur !"
+    }
+  ]
+}

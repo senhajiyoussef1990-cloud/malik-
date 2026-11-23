@@ -1,0 +1,69 @@
+{
+  "numero": 14,
+  "theme": "logique",
+  "accroche": "Teste ton cerveau en 1 minute !",
+  "titre_youtube": "Quiz logique : Devinettes classiques 🧠",
+  "pause_par_question": true,
+  "questions": [
+    {
+      "question": "Qu'est-ce qui monte et descend sans jamais bouger ?",
+      "choix": [
+        "Un ascenseur",
+        "Un escalier",
+        "Une balle",
+        "Un oiseau"
+      ],
+      "reponse": 1,
+      "niveau": "facile",
+      "explication": "L'escalier monte et descend… mais il ne bouge pas !"
+    },
+    {
+      "question": "Qu'est-ce qui a des dents mais ne mord jamais ?",
+      "choix": [
+        "Un peigne",
+        "Un requin",
+        "Un chien",
+        "Un crocodile"
+      ],
+      "reponse": 0,
+      "niveau": "facile",
+      "explication": "Le peigne a des dents, mais il ne mord personne !"
+    },
+    {
+      "question": "Qu'est-ce qui est à toi, mais que les autres utilisent plus que toi ?",
+      "choix": [
+        "Ta voiture",
+        "Ton téléphone",
+        "Ta maison",
+        "Ton prénom"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Ton prénom : ce sont surtout les autres qui le disent !"
+    },
+    {
+      "question": "Qu'est-ce qui a un cou mais pas de tête ?",
+      "choix": [
+        "Une girafe",
+        "Un serpent",
+        "Une bouteille",
+        "Un pull"
+      ],
+      "reponse": 2,
+      "niveau": "moyen",
+      "explication": "La bouteille a un cou, le goulot, mais pas de tête."
+    },
+    {
+      "question": "Je suis plein de trous, mais je retiens l'eau. Qui suis-je ?",
+      "choix": [
+        "Une éponge",
+        "Un filet",
+        "Une passoire",
+        "Un seau"
+      ],
+      "reponse": 0,
+      "niveau": "difficile",
+      "explication": "L'éponge est pleine de trous, et pourtant elle garde l'eau."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "numero": 12,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Capitales d'Europe 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la capitale du Portugal ?",
+      "choix": [
+        "Porto",
+        "Lisbonne",
+        "Madrid",
+        "Faro"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la capitale de l'Allemagne ?",
+      "choix": [
+        "Munich",
+        "Francfort",
+        "Berlin",
+        "Hambourg"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la capitale de la Grèce ?",
+      "choix": [
+        "Athènes",
+        "Sparte",
+        "Thessalonique",
+        "Corinthe"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle est la capitale de la Suisse ?",
+      "choix": [
+        "Zurich",
+        "Genève",
+        "Bâle",
+        "Berne"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Ce n'est ni Zurich ni Genève : c'est Berne !"
+    },
+    {
+      "question": "Quelle est la capitale de la Hongrie ?",
+      "choix": [
+        "Bucarest",
+        "Budapest",
+        "Belgrade",
+        "Vienne"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Attention à ne pas confondre avec Bucarest, la capitale de la Roumanie !"
+    }
+  ]
+}

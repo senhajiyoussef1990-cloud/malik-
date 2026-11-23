@@ -1,0 +1,65 @@
+{
+  "numero": 13,
+  "theme": "foot",
+  "accroche": "Fais mieux que tes potes : vise le 5 sur 5 !",
+  "titre_youtube": "Quiz foot : Les règles du jeu ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quand le ballon sort sur le côté du terrain, qu'est-ce qu'on joue ?",
+      "choix": [
+        "Une touche",
+        "Un corner",
+        "Un penalty",
+        "Un coup franc"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Combien de buts faut-il marquer dans un match pour réussir un triplé ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "À quelle distance du but se trouve le point de penalty ?",
+      "choix": [
+        "9 mètres",
+        "11 mètres",
+        "13 mètres",
+        "16 mètres"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Combien de cartons jaunes dans un même match donnent un carton rouge ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": 1,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Combien de temps dure chaque période de prolongation ?",
+      "choix": [
+        "10 minutes",
+        "20 minutes",
+        "15 minutes",
+        "30 minutes"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "Deux fois 15 minutes, soit 30 minutes en tout."
+    }
+  ]
+}

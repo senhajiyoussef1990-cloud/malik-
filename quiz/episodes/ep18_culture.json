@@ -1,0 +1,66 @@
+{
+  "numero": 18,
+  "theme": "culture",
+  "accroche": "Même les profs se trompent à la question 4 !",
+  "titre_youtube": "Quiz culture générale : Capitales d'Asie 🌍",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quelle est la capitale de la Chine ?",
+      "choix": [
+        "Shanghai",
+        "Pékin",
+        "Hong Kong",
+        "Canton"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la capitale de la Corée du Sud ?",
+      "choix": [
+        "Séoul",
+        "Busan",
+        "Pyongyang",
+        "Tokyo"
+      ],
+      "reponse": 0,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quelle est la capitale de l'Inde ?",
+      "choix": [
+        "Bombay",
+        "Calcutta",
+        "New Delhi",
+        "Bangalore"
+      ],
+      "reponse": 2,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quelle est la capitale de la Turquie ?",
+      "choix": [
+        "Istanbul",
+        "Izmir",
+        "Antalya",
+        "Ankara"
+      ],
+      "reponse": 3,
+      "niveau": "moyen",
+      "explication": "Ce n'est pas Istanbul : c'est Ankara !"
+    },
+    {
+      "question": "Quelle est la capitale du Vietnam ?",
+      "choix": [
+        "Hô Chi Minh-Ville",
+        "Hanoï",
+        "Da Nang",
+        "Bangkok"
+      ],
+      "reponse": 1,
+      "niveau": "difficile",
+      "explication": "Hanoï, au nord du pays."
+    }
+  ]
+}

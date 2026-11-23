@@ -1,0 +1,65 @@
+{
+  "numero": 16,
+  "theme": "foot",
+  "accroche": "Tu connais vraiment le foot ? Prouve-le !",
+  "titre_youtube": "Quiz foot : Coupe du monde : les vainqueurs ⚽",
+  "pause_par_question": false,
+  "questions": [
+    {
+      "question": "Quel pays a gagné la Coupe du monde 2018 ?",
+      "choix": [
+        "Croatie",
+        "Belgique",
+        "France",
+        "Angleterre"
+      ],
+      "reponse": 2,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel pays a gagné la Coupe du monde 2010 ?",
+      "choix": [
+        "Pays-Bas",
+        "Espagne",
+        "Allemagne",
+        "Brésil"
+      ],
+      "reponse": 1,
+      "niveau": "facile"
+    },
+    {
+      "question": "Quel pays a gagné la Coupe du monde 2014 ?",
+      "choix": [
+        "Allemagne",
+        "Argentine",
+        "Brésil",
+        "Pays-Bas"
+      ],
+      "reponse": 0,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a gagné la Coupe du monde 2006 ?",
+      "choix": [
+        "France",
+        "Allemagne",
+        "Portugal",
+        "Italie"
+      ],
+      "reponse": 3,
+      "niveau": "moyen"
+    },
+    {
+      "question": "Quel pays a gagné la Coupe du monde 1966, à domicile ?",
+      "choix": [
+        "Allemagne",
+        "Brésil",
+        "Angleterre",
+        "Portugal"
+      ],
+      "reponse": 2,
+      "niveau": "difficile",
+      "explication": "C'est la seule Coupe du monde gagnée par l'Angleterre."
+    }
+  ]
+}
