@@ -1,0 +1,57 @@
+name: Chrono Quiz - Episodes 91 a 100
+
+on:
+  push:
+    branches: [quiz]
+    paths:
+      - '.github/workflows/chrono-quiz-91-100.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    name: Episode ${{ matrix.episode }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        episode: [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+    steps:
+      - name: Recuperer la branche quiz
+        uses: actions/checkout@v4
+        with:
+          ref: quiz
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer les dependances du generateur existant
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install edge-tts numpy pillow certifi
+      - name: Produire le MP4 sans modifier le generateur
+        env:
+          QUIZ_TTS: edge
+          QUIZ_VOIX_EDGE: fr-FR-HenriNeural
+        run: |
+          set -euo pipefail
+          FILE=$(find quiz/episodes -maxdepth 1 -type f -name "ep${{ matrix.episode }}_*.json" -print -quit)
+          test -n "$FILE"
+          python quiz/outils/generer.py "$FILE"
+          test -s "quiz/sortie/$(basename "${FILE%.json}").mp4"
+      - name: Mettre a disposition la video et la publication
+        uses: actions/upload-artifact@v4
+        with:
+          name: chrono-quiz-episode-${{ matrix.episode }}
+          path: |
+            quiz/sortie/ep${{ matrix.episode }}_*.mp4
+            quiz/sortie/ep${{ matrix.episode }}_*_publication.txt
+            quiz/sortie/ep${{ matrix.episode }}_*_story.png
+          if-no-files-found: error
+          retention-days: 30
