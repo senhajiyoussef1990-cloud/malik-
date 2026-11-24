@@ -1,0 +1,225 @@
+{
+  "ep": "s2_56",
+  "nom": "EP56_L_abonnement_labyrinthe",
+  "badge": "ÉPISODE 56",
+  "titre": "L'ABONNEMENT LABYRINTHE",
+  "sous": "« Trouve la sortie »",
+  "accroche": "Un clic pour entrer, dix étapes pour sortir ?",
+  "apres": "s2_55",
+  "noms": {
+    "aubergiste": "AUBERGISTE",
+    "voyageur": "VOYAGEUR"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "J'ai pris un abonnement en dix secondes. Ça fait vingt minutes que je cherche comment l'arrêter !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tu as trouvé la procédure de résiliation ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Pas encore. J'ai des offres, des questions, des menus…"
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "On dirait l'auberge de notre prochaine fable."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Imaginons une auberge des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Une grande porte s'ouvre directement sur un salon chaleureux."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Les nouveaux clients entrent sans attendre et signent un petit registre."
+    ],
+    [
+      "s05a",
+      5,
+      "aubergiste",
+      0.5,
+      "Entrez, entrez ! Vous serez installés en un instant !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Un voyageur souhaite repartir. Il cherche la sortie."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "On lui indique un couloir, puis un bureau, puis un escalier."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "À chaque étape, on lui propose de rester un jour de plus."
+    ],
+    [
+      "s07a",
+      7,
+      "voyageur",
+      0.5,
+      "Mais je veux simplement rentrer chez moi !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Pourquoi la sortie n'est-elle pas à côté de l'entrée ?"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Parce que les obstacles peuvent décourager ceux qui veulent partir."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le voyageur se fatigue, puis pense remettre son départ au lendemain."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Une journée supplémentaire est ajoutée à sa facture."
+    ],
+    [
+      "s09b",
+      9,
+      "aubergiste",
+      0.5,
+      "Tant qu'il hésite à sortir, sa chambre reste occupée !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "En ligne, certaines démarches de résiliation sont inutilement compliquées."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Un abonnement utile reste un abonnement que tu dois pouvoir gérer facilement."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si je veux essayer un nouveau service ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Vérifie d'abord le prix, la reconduction et les conditions de résiliation."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Note la date de renouvellement et conserve les confirmations."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Si tu résilies, vérifie que tu as bien reçu une preuve de la demande."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Regarde la porte de sortie avant d'entrer."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais noter où se trouve le bouton de résiliation avant de m'abonner."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Bonne idée. Et garde une trace de tes démarches."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "La prochaine auberge devra me montrer sa sortie."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Un client libre peut choisir de rester."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

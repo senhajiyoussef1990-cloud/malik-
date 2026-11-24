@@ -1,0 +1,225 @@
+{
+  "ep": "s2_51",
+  "nom": "EP51_Le_defilement_sans_fin",
+  "badge": "ÉPISODE 51",
+  "titre": "LE DÉFILEMENT SANS FIN",
+  "sous": "« Une vidéo de plus »",
+  "accroche": "Tu voulais cinq minutes… où est passée ton heure ?",
+  "apres": "horoscope",
+  "noms": {
+    "forain": "FORAIN",
+    "joueur": "JOUEUR"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Je voulais regarder une seule vidéo. Ça fait déjà trois quarts d'heure !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Et à quel moment ton téléphone t'a proposé de t'arrêter ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Jamais ! Mais la prochaine vidéo sera peut-être géniale."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Viens voir un forain qui a compris ce petit secret."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Imaginons une fête foraine des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un forain installe une rangée de tiroirs à surprises."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "À chaque ouverture, le visiteur découvre un petit objet, parfois rien du tout."
+    ],
+    [
+      "s05a",
+      5,
+      "forain",
+      0.5,
+      "Approchez ! Le prochain tiroir contient peut-être le gros lot !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Un joueur ouvre un tiroir : un bouton. Puis un autre : un bout de ficelle."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Au troisième, il trouve une jolie broche. Il sourit."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Mais le forain lui montre aussitôt un nouveau tiroir."
+    ],
+    [
+      "s07a",
+      7,
+      "joueur",
+      0.5,
+      "Encore un ! Je vais finir par tomber sur le meilleur !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Il ne sait jamais quand il aura une bonne surprise !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Exactement. L'incertitude peut donner envie de recommencer."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le forain ajoute des tiroirs au fur et à mesure que le joueur avance."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le visiteur ne rencontre jamais de véritable point d'arrêt."
+    ],
+    [
+      "s09b",
+      9,
+      "forain",
+      0.5,
+      "Tant qu'il ouvre les tiroirs, il reste devant mon stand !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Sur certains fils d'actualité, le contenu se charge automatiquement."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Une vidéo drôle de temps en temps suffit parfois à relancer l'envie de défiler."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Alors le problème, ce n'est pas seulement la vidéo ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Non. C'est aussi la façon dont les vidéos s'enchaînent."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Pour reprendre la main, décide de la durée avant d'ouvrir l'application."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Un minuteur ou une pause volontaire peut créer le point d'arrêt qui manque."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Ce qui n'a pas de fin ne te laisse jamais partir."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais mettre un minuteur de dix minutes."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et quand il sonne, tu fermes le fil. Même si la prochaine vidéo semble intéressante."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je choisis mon temps, pas le tiroir suivant."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Regarder par plaisir, c'est différent de regarder par réflexe."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

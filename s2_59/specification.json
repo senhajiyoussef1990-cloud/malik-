@@ -1,0 +1,225 @@
+{
+  "ep": "s2_59",
+  "nom": "EP59_12_personnes_regardent_cet_hotel",
+  "badge": "ÉPISODE 59",
+  "titre": "12 PERSONNES REGARDENT CET HÔTEL",
+  "sous": "« La foule invisible »",
+  "accroche": "La dernière chambre est-elle vraiment sur le point de disparaître ?",
+  "apres": "s2_58",
+  "noms": {
+    "aubergiste": "AUBERGISTE",
+    "voyageur": "VOYAGEUR"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Douze personnes regardent cet hôtel ! Je dois réserver tout de suite !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tu sais si ces personnes regardent vraiment la même chambre ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Non, mais j'ai peur qu'elle disparaisse pendant que je réfléchis."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Regarde cette auberge où les voyageurs sont un peu trop pressés."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Imaginons une auberge dans un village des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "L'aubergiste place un panneau indiquant qu'il reste une chambre."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Des voyageurs attendent devant son comptoir."
+    ],
+    [
+      "s05a",
+      5,
+      "aubergiste",
+      0.5,
+      "Dépêchez-vous ! Douze personnes veulent cette chambre !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Deux hommes de la file sont en réalité des amis de l'aubergiste."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Ils font semblant de demander la dernière clé, puis reculent."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Un vrai voyageur voit la scène et pose immédiatement son argent sur le comptoir."
+    ],
+    [
+      "s07a",
+      7,
+      "voyageur",
+      0.5,
+      "Je prends la chambre avant qu'on me la vole !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Il n'a même pas demandé si le lit était confortable !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "La pression du groupe, ajoutée à l'urgence, peut réduire le temps de réflexion."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Dans cette fable, la file est organisée pour produire cette impression."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "L'aubergiste remet sa clé en place pour le prochain voyageur."
+    ],
+    [
+      "s09b",
+      9,
+      "aubergiste",
+      0.5,
+      "Quand ils croient que les autres se pressent, ils se pressent aussi !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Sur certains sites, les compteurs de visiteurs ou messages de disponibilité peuvent avoir des définitions différentes."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Ils peuvent être réels, mais ne signifient pas toujours que plusieurs personnes vont acheter la même offre."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Donc je ne dois pas ignorer la disponibilité, mais la remettre en contexte ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Oui. Vérifie les dates, les chambres, le prix total et l'annulation."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Compare une ou deux offres avant de réserver si le temps le permet."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Si tu as vraiment besoin de réserver rapidement, décide d'après tes besoins, pas seulement le compteur."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "La foule qu'on t'annonce n'est pas toujours là."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je viens de vérifier : cet hôtel ne correspond même pas à mes dates !"
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Mieux vaut le découvrir avant de payer."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je ne réserverai plus juste parce qu'un chiffre me presse."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Une réservation doit répondre à ton besoin."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "ep": "s2_53",
+  "nom": "EP53_La_lecture_automatique",
+  "badge": "ÉPISODE 53",
+  "titre": "LA LECTURE AUTOMATIQUE",
+  "sous": "« La suite sans demander »",
+  "accroche": "Tu voulais regarder un épisode, pas toute la saison !",
+  "apres": "s2_52",
+  "noms": {
+    "animateur": "ANIMATEUR",
+    "spectatrice": "SPECTATRICE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Je devais regarder un épisode avant de dormir. J'en ai vu quatre !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tu as choisi de lancer chacun d'eux ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Non. Le suivant démarrait avant même que j'aie posé la télécommande."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Imagine un conteur qui ne laisse jamais son public applaudir."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Entrons dans un petit théâtre imaginaire des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un conteur termine son histoire devant un public assis."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Habituellement, le rideau tombe et chacun peut se lever."
+    ],
+    [
+      "s05a",
+      5,
+      "animateur",
+      0.5,
+      "Et maintenant, sans attendre, voici la suite de notre aventure !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Le rideau remonte aussitôt. Les spectateurs restent assis."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Une dame prend son manteau, puis s'arrête pour entendre le début."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "À la fin du deuxième conte, un troisième commence déjà."
+    ],
+    [
+      "s07a",
+      7,
+      "spectatrice",
+      0.5,
+      "Je voulais rentrer, mais maintenant je veux connaître la suite !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Le public n'a même pas le temps de choisir !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "C'est le principe de l'option par défaut : continuer ne demande aucun effort."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Pour partir, il faut interrompre une histoire qui vient de commencer."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le conteur enchaîne les récits et la salle reste occupée."
+    ],
+    [
+      "s09b",
+      9,
+      "animateur",
+      0.5,
+      "Si je ne fais aucune pause, ils auront moins d'occasions de sortir !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "La lecture automatique peut fonctionner de manière comparable."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Elle est pratique quand tu veux vraiment continuer, moins quand tu veux t'arrêter."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Je pourrais laisser la lecture automatique désactivée ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Bien sûr. Tu décideras toi-même si tu veux lancer le suivant."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Cherche le réglage de lecture automatique sur le service que tu utilises."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Prévois un épisode, puis laisse le générique se terminer tranquillement."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Si tu ne choisis pas d'arrêter, on choisit de continuer pour toi."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Ce soir, je désactive la lecture automatique."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu pourras toujours relancer un épisode si tu en as envie."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Mais cette fois, c'est moi qui appuierai sur lecture."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Une pause rend le choix possible."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}
