@@ -1,0 +1,56 @@
+name: Saison 2 — voix des épisodes 51 à 60
+on:
+  push:
+    branches: [production/saison2-51-60]
+    paths: [.github/workflows/saison2-voix.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  voix:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 355
+    strategy:
+      max-parallel: 2
+      fail-fast: true
+      matrix:
+        numero: [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    env:
+      EP: s2_${{ matrix.numero }}
+      HF_HUB_DISABLE_XET: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Préparer les scènes et références
+        run: |
+          python outils_commun/preparer_saison2.py "${{ matrix.numero }}"
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg libsndfile1
+      - name: Installer les outils de la série
+        run: |
+          python -m venv .venv-voix
+          .venv-voix/bin/pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          .venv-voix/bin/pip install chatterbox-tts==0.1.7
+          python -m pip install faster-whisper==1.2.1 noisereduce==3.0.3 numpy scipy
+      - name: Produire et contrôler les trente répliques
+        run: |
+          export CB_PY="$PWD/.venv-voix/bin/python"
+          sh outils_commun/voix_episodes.sh "$EP"
+          test -s "$EP/travail/choix_voix.txt"
+          python - <<'PY'
+          from pathlib import Path
+          import os, json, subprocess
+          ep = Path(os.environ['EP'])
+          lines = json.loads((ep / 'lignes.json').read_text())
+          assert len(lines) == 30
+          for line in lines:
+              subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(ep/'voix'/(line['id']+'.mp3')),'-f','null','-'],check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: voix-${{ matrix.numero }}
+          path: |
+            ${{ env.EP }}/voix/*.mp3
+            ${{ env.EP }}/travail/choix_voix.txt
+            ${{ env.EP }}/travail/*.log
