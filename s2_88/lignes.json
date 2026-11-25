@@ -1,0 +1,242 @@
+[
+  {
+    "id": "s01a",
+    "plan": 1,
+    "scene": 1,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Depuis le nouveau réglage, mon appareil rame. Il est bon à jeter ?"
+  },
+  {
+    "id": "s01b",
+    "plan": 2,
+    "scene": 1,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Quand as-tu remarqué le changement ?"
+  },
+  {
+    "id": "s02a",
+    "plan": 3,
+    "scene": 2,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Juste après la mise à jour. Je voudrais comprendre."
+  },
+  {
+    "id": "s02b",
+    "plan": 4,
+    "scene": 2,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Écoute les deux horloges. Elles ne sonnent déjà plus ensemble."
+  },
+  {
+    "id": "s03a",
+    "plan": 5,
+    "scene": 3,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voyageons dans une fable des années trente. Direction : l'atelier d'horlogerie."
+  },
+  {
+    "id": "s04a",
+    "plan": 6,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Un horloger vient ajouter un carillon aux horloges de la place."
+  },
+  {
+    "id": "s04b",
+    "plan": 7,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Sur une ancienne pendule, le nouveau mécanisme frotte contre le balancier."
+  },
+  {
+    "id": "s05a",
+    "plan": 8,
+    "scene": 5,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Écoutez cette merveilleuse sonnerie !"
+  },
+  {
+    "id": "s05b",
+    "plan": 9,
+    "scene": 5,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "L'horloge sonne joliment, mais l'aiguille prend du retard."
+  },
+  {
+    "id": "s06a",
+    "plan": 10,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "La couturière compare sa vieille pendule avec celle de la gare."
+  },
+  {
+    "id": "s06b",
+    "plan": 11,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Elle rappelle l'horloger et lui montre la pièce qui frotte."
+  },
+  {
+    "id": "s07a",
+    "plan": 12,
+    "scene": 7,
+    "who": "figurante",
+    "pause": 0.5,
+    "text": "Avant d'en acheter une neuve, pouvez-vous vérifier ce réglage ?"
+  },
+  {
+    "id": "s07b",
+    "plan": 13,
+    "scene": 7,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Si je ne regardais que le cadran, je vendrais la pendule trop vite."
+  },
+  {
+    "id": "s08a",
+    "plan": 14,
+    "scene": 8,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Une chronologie donne une piste. Elle ne prouve pas l'intention de l'horloger."
+  },
+  {
+    "id": "s08b",
+    "plan": 15,
+    "scene": 8,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Le carillon sonne juste alors que l'aiguille indique la mauvaise heure."
+  },
+  {
+    "id": "s09a",
+    "plan": 16,
+    "scene": 9,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Il ajuste la pièce, puis compare les deux aiguilles pendant une heure."
+  },
+  {
+    "id": "s09b",
+    "plan": 17,
+    "scene": 9,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Le carillon a pris trop de place dans ce modèle."
+  },
+  {
+    "id": "s10a",
+    "plan": 18,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Comparer avant et après aide à décrire un problème, puis il faut en chercher la cause."
+  },
+  {
+    "id": "s10b",
+    "plan": 19,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voici ce que le Mouton en retient : « Une mise à jour peut apporter des correctifs et modifier les performances. »"
+  },
+  {
+    "id": "s11a",
+    "plan": 20,
+    "scene": 11,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Une baisse de vitesse prouve qu'on veut me vendre un appareil ?"
+  },
+  {
+    "id": "s11b",
+    "plan": 21,
+    "scene": 11,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Il faut chercher ce qui explique la baisse avant d'attribuer une intention."
+  },
+  {
+    "id": "s12a",
+    "plan": 22,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Premier geste : « Je vérifie les informations pour mon modèle et les solutions proposées. »"
+  },
+  {
+    "id": "s12b",
+    "plan": 23,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Et cette réflexion : « Je note la version et ce qui a changé avant de contacter l'assistance. »"
+  },
+  {
+    "id": "s13a",
+    "plan": 24,
+    "scene": 13,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Une mise à jour peut aussi servir à vendre."
+  },
+  {
+    "id": "s14a",
+    "plan": 25,
+    "scene": 14,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Retour au salon."
+  },
+  {
+    "id": "s15a",
+    "plan": 26,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "J'ai retrouvé mon modèle et la date où j'ai remarqué le problème."
+  },
+  {
+    "id": "s15b",
+    "plan": 27,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Tu as noté un exemple précis ?"
+  },
+  {
+    "id": "s15c",
+    "plan": 28,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Oui. Cette application met bien plus longtemps à s'ouvrir qu'avant."
+  },
+  {
+    "id": "s15d",
+    "plan": 29,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Cette description aidera davantage que « tout est cassé »."
+  },
+  {
+    "id": "s16a",
+    "plan": 30,
+    "scene": 16,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  }
+]

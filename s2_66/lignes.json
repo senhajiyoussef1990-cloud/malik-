@@ -1,0 +1,242 @@
+[
+  {
+    "id": "s01a",
+    "plan": 1,
+    "scene": 1,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Il promet de doubler ma mise. Mon voisin a vraiment reçu son argent !"
+  },
+  {
+    "id": "s01b",
+    "plan": 2,
+    "scene": 1,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "D'où vient ce qu'il a reçu ?"
+  },
+  {
+    "id": "s02a",
+    "plan": 3,
+    "scene": 2,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Ça, je ne lui ai pas demandé."
+  },
+  {
+    "id": "s02b",
+    "plan": 4,
+    "scene": 2,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Dans ce poulailler, il se passe quelque chose de curieux."
+  },
+  {
+    "id": "s03a",
+    "plan": 5,
+    "scene": 3,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voyageons dans une fable des années trente. Direction : le poulailler."
+  },
+  {
+    "id": "s04a",
+    "plan": 6,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Dans la fable, un fermier promet deux œufs pour chaque œuf confié."
+  },
+  {
+    "id": "s04b",
+    "plan": 7,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Son poulailler est pourtant vide."
+  },
+  {
+    "id": "s05a",
+    "plan": 8,
+    "scene": 5,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Apportez votre œuf. Revenez demain avec votre panier !"
+  },
+  {
+    "id": "s05b",
+    "plan": 9,
+    "scene": 5,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Lundi, Rose apporte le sien. Mardi, deux voisins arrivent."
+  },
+  {
+    "id": "s06a",
+    "plan": 10,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Le fermier donne leurs deux œufs à Rose, qui le remercie."
+  },
+  {
+    "id": "s06b",
+    "plan": 11,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Mercredi, deux paniers attendent derrière la porte fermée."
+  },
+  {
+    "id": "s07a",
+    "plan": 12,
+    "scene": 7,
+    "who": "figurante",
+    "pause": 0.5,
+    "text": "Si personne ne vient aujourd'hui, comment nous rendre quatre œufs ?"
+  },
+  {
+    "id": "s07b",
+    "plan": 13,
+    "scene": 7,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Je comprends pourquoi Rose a cru que ça marchait."
+  },
+  {
+    "id": "s08a",
+    "plan": 14,
+    "scene": 8,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Regarde sous la paille. Pas une poule."
+  },
+  {
+    "id": "s08b",
+    "plan": 15,
+    "scene": 8,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Ce panier est plein parce qu'un autre vient de se vider."
+  },
+  {
+    "id": "s09a",
+    "plan": 16,
+    "scene": 9,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Rose revient en courant avec son reçu, mais son reçu ne pond pas."
+  },
+  {
+    "id": "s09b",
+    "plan": 17,
+    "scene": 9,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Je comptais sur les gens de jeudi…"
+  },
+  {
+    "id": "s10a",
+    "plan": 18,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Il faut distinguer un bénéfice produit et une somme simplement transférée."
+  },
+  {
+    "id": "s10b",
+    "plan": 19,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voici ce que le Mouton en retient : « Le premier paiement a convaincu tout le village. »"
+  },
+  {
+    "id": "s11a",
+    "plan": 20,
+    "scene": 11,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Même si c'est mon voisin qui me recommande l'affaire ?"
+  },
+  {
+    "id": "s11b",
+    "plan": 21,
+    "scene": 11,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Il peut être sincère et ignorer d'où vient son paiement."
+  },
+  {
+    "id": "s12a",
+    "plan": 22,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Premier geste : « Je cherche quelle activité produit réellement le gain annoncé. »"
+  },
+  {
+    "id": "s12b",
+    "plan": 23,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Et cette réflexion : « Une photo de paiement ne répond pas à cette question. »"
+  },
+  {
+    "id": "s13a",
+    "plan": 24,
+    "scene": 13,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Un rendement trop beau se paie avec l'argent des derniers arrivés."
+  },
+  {
+    "id": "s14a",
+    "plan": 25,
+    "scene": 14,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Retour au salon."
+  },
+  {
+    "id": "s15a",
+    "plan": 26,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Je vais lui poser la même question, sans l'accuser."
+  },
+  {
+    "id": "s15b",
+    "plan": 27,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Et s'il te montre encore son reçu ?"
+  },
+  {
+    "id": "s15c",
+    "plan": 28,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Je regarderai aussi d'où venaient les deux œufs."
+  },
+  {
+    "id": "s15d",
+    "plan": 29,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Cette fois, tu regardes des deux côtés de la caisse."
+  },
+  {
+    "id": "s16a",
+    "plan": 30,
+    "scene": 16,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  }
+]

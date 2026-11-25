@@ -1,0 +1,242 @@
+[
+  {
+    "id": "s01a",
+    "plan": 1,
+    "scene": 1,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Regarde, il a gagné la médaille de la qualité supérieure !"
+  },
+  {
+    "id": "s01b",
+    "plan": 2,
+    "scene": 1,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Qui était dans le jury ?"
+  },
+  {
+    "id": "s02a",
+    "plan": 3,
+    "scene": 2,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Il y avait un jury ?"
+  },
+  {
+    "id": "s02b",
+    "plan": 4,
+    "scene": 2,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Le village de notre télé a justement organisé un bien curieux concours."
+  },
+  {
+    "id": "s03a",
+    "plan": 5,
+    "scene": 3,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voyageons dans une fable des années trente. Direction : le concours du village."
+  },
+  {
+    "id": "s04a",
+    "plan": 6,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Un marchand monte avant l'aube sur une petite estrade."
+  },
+  {
+    "id": "s04b",
+    "plan": 7,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Il ouvre un écrin, en sort une médaille et se l'épingle lui-même."
+  },
+  {
+    "id": "s05a",
+    "plan": 8,
+    "scene": 5,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Le grand prix de la maison est attribué… à la maison !"
+  },
+  {
+    "id": "s05b",
+    "plan": 9,
+    "scene": 5,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Sur le ruban, il écrit « sélection exceptionnelle »."
+  },
+  {
+    "id": "s06a",
+    "plan": 10,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Une écolière retourne la médaille pour lire le nom du concours."
+  },
+  {
+    "id": "s06b",
+    "plan": 11,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Au dos, elle reconnaît le tampon de la boutique."
+  },
+  {
+    "id": "s07a",
+    "plan": 12,
+    "scene": 7,
+    "who": "figurante",
+    "pause": 0.5,
+    "text": "Vous avez signé des deux côtés ?"
+  },
+  {
+    "id": "s07b",
+    "plan": 13,
+    "scene": 7,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Une signature de chaque côté et une seule main pour écrire !"
+  },
+  {
+    "id": "s08a",
+    "plan": 14,
+    "scene": 8,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Elle a trouvé la bonne question en retournant l'objet."
+  },
+  {
+    "id": "s08b",
+    "plan": 15,
+    "scene": 8,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Le ruban dit « grand prix », mais ne donne aucun nom de juré."
+  },
+  {
+    "id": "s09a",
+    "plan": 16,
+    "scene": 9,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Le marchand accroche désormais à côté le règlement de son prix maison."
+  },
+  {
+    "id": "s09b",
+    "plan": 17,
+    "scene": 9,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Pour les félicitations du jury, je me débrouille aussi !"
+  },
+  {
+    "id": "s10a",
+    "plan": 18,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Certains labels sont contrôlés. D'autres signes sont créés par les vendeurs."
+  },
+  {
+    "id": "s10b",
+    "plan": 19,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voici ce que le Mouton en retient : « Je cherche qui délivre le label et selon quels critères. »"
+  },
+  {
+    "id": "s11a",
+    "plan": 20,
+    "scene": 11,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Où est-ce que je cherche le nom du jury ?"
+  },
+  {
+    "id": "s11b",
+    "plan": 21,
+    "scene": 11,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Commence par le nom du label et son règlement publié."
+  },
+  {
+    "id": "s12a",
+    "plan": 22,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Premier geste : « Je vérifie si un organisme indépendant contrôle le produit. »"
+  },
+  {
+    "id": "s12b",
+    "plan": 23,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Et cette réflexion : « Une jolie médaille peut aussi être le logo du vendeur. »"
+  },
+  {
+    "id": "s13a",
+    "plan": 24,
+    "scene": 13,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Demande qui a donné la médaille."
+  },
+  {
+    "id": "s14a",
+    "plan": 25,
+    "scene": 14,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Retour au salon."
+  },
+  {
+    "id": "s15a",
+    "plan": 26,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Tiens, sur cette boîte, le règlement est accessible."
+  },
+  {
+    "id": "s15b",
+    "plan": 27,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Tu as trouvé un nom différent de celui de la marque ?"
+  },
+  {
+    "id": "s15c",
+    "plan": 28,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Sur celui-ci, oui. Je peux aller lire les critères."
+  },
+  {
+    "id": "s15d",
+    "plan": 29,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Voilà qui vaut mieux qu'un simple ruban doré."
+  },
+  {
+    "id": "s16a",
+    "plan": 30,
+    "scene": 16,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  }
+]

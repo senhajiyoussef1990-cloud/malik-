@@ -1,0 +1,242 @@
+[
+  {
+    "id": "s01a",
+    "plan": 1,
+    "scene": 1,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Ces bottes, je peux repartir avec pour quinze euros !"
+  },
+  {
+    "id": "s01b",
+    "plan": 2,
+    "scene": 1,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Et les trois lignes en dessous ?"
+  },
+  {
+    "id": "s02a",
+    "plan": 3,
+    "scene": 2,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Tiens, il y a encore trois dates."
+  },
+  {
+    "id": "s02b",
+    "plan": 4,
+    "scene": 2,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "J'ai connu un colporteur qui vendait ses bottes avec un calendrier. Regarde."
+  },
+  {
+    "id": "s03a",
+    "plan": 5,
+    "scene": 3,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voyageons dans une fable des années trente. Direction : la boutique du colporteur."
+  },
+  {
+    "id": "s04a",
+    "plan": 6,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Le colporteur délace une paire de bottes et les tend à Léon."
+  },
+  {
+    "id": "s04b",
+    "plan": 7,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Sur sa tablette, quatre cases attendent une croix."
+  },
+  {
+    "id": "s05a",
+    "plan": 8,
+    "scene": 5,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Une petite signature et vous repartez chaussé !"
+  },
+  {
+    "id": "s05b",
+    "plan": 9,
+    "scene": 5,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Léon pose quinze francs. Le marchand marque la première case."
+  },
+  {
+    "id": "s06a",
+    "plan": 10,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Un mois plus tard, les semelles portent déjà des traces."
+  },
+  {
+    "id": "s06b",
+    "plan": 11,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "La deuxième case, elle, est toute neuve."
+  },
+  {
+    "id": "s07a",
+    "plan": 12,
+    "scene": 7,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Mais j'ai déjà payé ces bottes !"
+  },
+  {
+    "id": "s07b",
+    "plan": 13,
+    "scene": 7,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Comment l'achat peut-il être terminé si les paiements commencent à peine ?"
+  },
+  {
+    "id": "s08a",
+    "plan": 14,
+    "scene": 8,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Il a payé un quart. Ses pieds ont reçu le tout."
+  },
+  {
+    "id": "s08b",
+    "plan": 15,
+    "scene": 8,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Ce n'est que le premier trait sur la tablette."
+  },
+  {
+    "id": "s09a",
+    "plan": 16,
+    "scene": 9,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Le marchand retourne la tablette pour montrer les trois cases restantes."
+  },
+  {
+    "id": "s09b",
+    "plan": 17,
+    "scene": 9,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Même si vous les laissez au placard, je repasse mardi."
+  },
+  {
+    "id": "s10a",
+    "plan": 18,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Les petites sommes de plusieurs achats peuvent tomber le même jour."
+  },
+  {
+    "id": "s10b",
+    "plan": 19,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voici ce que le Mouton en retient : « Quatre fois quinze, ça fait soixante. »"
+  },
+  {
+    "id": "s11a",
+    "plan": 20,
+    "scene": 11,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Et si j'additionne plusieurs petites mensualités ?"
+  },
+  {
+    "id": "s11b",
+    "plan": 21,
+    "scene": 11,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Chaque achat a sa ligne, mais tu n'as qu'un porte-monnaie."
+  },
+  {
+    "id": "s12a",
+    "plan": 22,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Premier geste : « Je regarde chaque échéance sur mon calendrier. »"
+  },
+  {
+    "id": "s12b",
+    "plan": 23,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Et cette réflexion : « Mon autre achat tombe le même mardi ! »"
+  },
+  {
+    "id": "s13a",
+    "plan": 24,
+    "scene": 13,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Payer plus tard, c'est toujours payer."
+  },
+  {
+    "id": "s14a",
+    "plan": 25,
+    "scene": 14,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Retour au salon."
+  },
+  {
+    "id": "s15a",
+    "plan": 26,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Tu me passes le calendrier ? Je vais y noter les dates."
+  },
+  {
+    "id": "s15b",
+    "plan": 27,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Les dates sont là. Laquelle tombe le jour du loyer ?"
+  },
+  {
+    "id": "s15c",
+    "plan": 28,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Celle-ci. Elle m'avait complètement échappé."
+  },
+  {
+    "id": "s15d",
+    "plan": 29,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Cette case-là compte autant que le gros chiffre de la vitrine."
+  },
+  {
+    "id": "s16a",
+    "plan": 30,
+    "scene": 16,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  }
+]

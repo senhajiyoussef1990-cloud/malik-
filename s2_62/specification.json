@@ -1,0 +1,225 @@
+{
+  "ep": "s2_62",
+  "nom": "EP62_Seulement_un_euro_par_jour",
+  "badge": "ÉPISODE 62",
+  "titre": "« SEULEMENT UN EURO PAR JOUR »",
+  "sous": "« Un sou par jour »",
+  "accroche": "Un euro par jour ? Ça, je peux me le permettre.",
+  "apres": "s2_61",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Un euro par jour ? Ça, je peux me le permettre."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Pendant combien de jours ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Ah. Il faut déplier le papier pour le lire."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Écoute plutôt le prix d'une vieille charrette."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le hangar du charron."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Au marché, un charron accroche une pièce au timon d'une charrette."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Les passants la font tinter du doigt."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Un sou par jour et elle est à vous !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une cliente demande une craie et s'accroupit près de la roue."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Elle trace trente cases sur le sol, puis douze rangées."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Le marchand précise enfin que son offre dure dix ans."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Dix ans ? Il va me falloir une place plus grande !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Ce qu'il manque sur la pancarte, c'est la durée."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "L'écriteau tient sur une pièce. Le calendrier remplit la cour."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le sou qui pend au timon n'a pas changé de taille."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "La cliente demande au charron d'inscrire aussi le prix comptant."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "À la journée, ça tenait mieux sur mon panneau."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Un prix journalier et un prix mensuel ne se comparent pas directement."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « À un euro pendant 365 jours, je dépense 365 euros. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Donc je dois d'abord retrouver le prix entier ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Et la durée pendant laquelle tu t'engages."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je compare les deux offres sur la même durée. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « L'autre indique le mois. Je vais sortir ma calculatrice. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Multiplie avant d'acheter."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "365 euros, ça dépasse largement ma première impression."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu compares sur un mois ou sur un an ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Sur un an. Sinon je retombe dans le même piège."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Alors remets aussi l'autre offre sur douze mois."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "ep": "s2_73",
+  "nom": "EP73_La_portion_de_l_emballage",
+  "badge": "ÉPISODE 73",
+  "titre": "LA PORTION DE L'EMBALLAGE",
+  "sous": "« Une seule bouchée »",
+  "accroche": "C'est écrit « par portion ». Je viens de finir le sachet.",
+  "apres": "s2_72",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "C'est écrit « par portion ». Je viens de finir le sachet."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "La portion et le sachet pèsent la même chose ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Le sachet fait quatre-vingt-dix grammes. La portion, trente."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Le pâtissier du marché a justement une toute petite ardoise."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la pâtisserie."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Sur son étal, un pâtissier empile trois petits gâteaux."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Une ardoise indique la quantité pour une bouchée."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Une bouchée ? Presque rien, regardez !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une cliente mange le premier gâteau en trois bouchées."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Le pâtissier efface les miettes, sans toucher à l'ardoise."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Elle aligne neuf miettes pour représenter ses neuf bouchées."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Votre ardoise parle de laquelle ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Ce n'est pas le gâteau qui a rétréci, c'est l'unité choisie !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "L'ardoise est juste pour une bouchée. Elle ne sait pas combien tu en as pris."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "La petite ardoise est restée la même à chaque bouchée."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "La cliente demande qu'on mette aussi le poids du gâteau entier."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Ça, même ma balance peut vous le dire !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "La portion indiquée sur le paquet peut différer de celle qu'on se sert."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Dans mon sachet, il y avait trois portions indiquées. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si je n'ai mangé que la moitié du sachet ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Alors pars de cette quantité. Le paquet ne décide pas de ta portion."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je multiplie la valeur d'une portion par trois. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Et pour comparer deux paquets, je prends la colonne pour cent grammes. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Compte ce que tu manges vraiment, pas ce qu'on imagine."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je n'avais pas vu la petite balance à côté du tableau."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Il en reste combien, de tes biscuits ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Aucun. Cette fois, c'est facile à compter."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Et la prochaine fois, tu sauras lire la boîte avant la dernière miette."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

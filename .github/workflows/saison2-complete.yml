@@ -1,0 +1,123 @@
+name: Ne suis pas les moutons — saison 2 complète
+on:
+  push:
+    branches: [production/saison2-51-60]
+    paths: [.github/workflows/saison2-complete.yml]
+  workflow_dispatch:
+    inputs:
+      debut: {description: "Premier épisode à fabriquer", default: '53', required: true}
+      fin: {description: "Dernier épisode à fabriquer", default: '90', required: true}
+permissions:
+  actions: read
+  contents: read
+jobs:
+  preparer:
+    runs-on: ubuntu-22.04
+    outputs:
+      numeros: ${{ steps.liste.outputs.numeros }}
+    steps:
+      - id: liste
+        env:
+          DEBUT: ${{ inputs.debut || '53' }}
+          FIN: ${{ inputs.fin || '90' }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          a,b=int(os.environ['DEBUT']),int(os.environ['FIN'])
+          assert 51 <= a <= b <= 90
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              print('numeros='+json.dumps(list(range(a,b+1))),file=f)
+          PY
+  episode:
+    needs: preparer
+    runs-on: ubuntu-22.04
+    timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        numero: ${{ fromJSON(needs.preparer.outputs.numeros) }}
+    env:
+      EP: s2_${{ matrix.numero }}
+      HF_HUB_DISABLE_XET: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Préparer les dessins, personnages et outils
+        run: |
+          python outils_commun/preparer_saison2.py "${{ matrix.numero }}"
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg zip libsndfile1 fonts-dejavu fonts-liberation
+          python -m pip install faster-whisper==1.2.1 noisereduce==3.0.3 pillow numpy scipy
+      - name: Récupérer les voix déjà produites pour le 51 ou le 52
+        if: matrix.numero == 51 || matrix.numero == 52
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: 45499684959
+          name: voix-${{ matrix.numero }}
+          path: pistes
+      - name: Installer les pistes existantes
+        if: matrix.numero == 51 || matrix.numero == 52
+        run: cp pistes/voix/*.mp3 "$EP/voix/"
+      - name: Produire les répliques avec les voix de la série
+        if: matrix.numero > 52
+        run: |
+          python -m venv .venv-voix
+          .venv-voix/bin/pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          .venv-voix/bin/pip install chatterbox-tts==0.1.7
+          mkdir -p "$EP/travail"
+          export CB_PY="$PWD/.venv-voix/bin/python"
+          sh outils_commun/voix_episodes.sh "$EP"
+          test -s "$EP/travail/choix_voix.txt"
+      - name: Contrôler les trente fichiers de voix
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import os,json,subprocess
+          ep=Path(os.environ['EP'])
+          lines=json.loads((ep/'lignes.json').read_text())
+          assert len(lines)==30
+          for line in lines:
+              subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(ep/'voix'/(line['id']+'.mp3')),'-f','null','-'],check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voix-${{ matrix.numero }}
+          path: |
+            ${{ env.EP }}/voix/*.mp3
+            ${{ env.EP }}/travail/choix_voix.txt
+      - name: Monter et exporter cet épisode
+        run: |
+          (cd anim_code && npm install --no-audit --no-fund && npx playwright install --with-deps chromium)
+          sh "outils_commun/fin_${EP}.sh"
+          python - <<'PY'
+          from pathlib import Path
+          import json,os,subprocess,zipfile
+          ep=Path(os.environ['EP']);nom=json.loads((ep/'specification.json').read_text())['nom'];out=ep/'sortie';mp4=out/(nom+'.mp4')
+          assert (out/(nom+'.mp4.fin')).is_file()
+          with zipfile.ZipFile(out/(nom+'.zip')) as z:
+              assert z.testzip() is None
+              assert all(z.getinfo(nom+s).file_size for s in ['.mp4','_couverture.png','_story.png','_publications.txt'])
+          streams=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-of','json',mp4]))['streams']
+          assert any(s.get('width')==1080 and s.get('height')==1920 for s in streams)
+          assert any(s['codec_type']=='audio' for s in streams)
+          subprocess.run(['ffmpeg','-v','error','-xerror','-i',mp4,'-f','null','-'],check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Episode-${{ matrix.numero }}
+          path: ${{ env.EP }}/sortie/*.zip
+          if-no-files-found: error
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: diagnostic-${{ matrix.numero }}
+          path: |
+            ${{ env.EP }}/travail/*.log
+            anim_code/travail/*.log

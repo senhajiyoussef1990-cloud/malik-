@@ -1,0 +1,225 @@
+{
+  "ep": "s2_80",
+  "nom": "EP80_Le_titre_qui_fait_cliquer",
+  "badge": "ÉPISODE 80",
+  "titre": "LE TITRE QUI FAIT CLIQUER",
+  "sous": "« La grande nouvelle »",
+  "accroche": "« Vous ne devinerez jamais ce qui a traversé la place ! »",
+  "apres": "s2_79",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "« Vous ne devinerez jamais ce qui a traversé la place ! »"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Avant de cliquer, qu'as-tu appris ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Justement, rien. Ça me démange."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Avant de cliquer, écoute le crieur sur son escabeau."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : l'imprimerie du crieur."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Le crieur installe un escabeau au milieu du marché."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Un chien passe tranquillement derrière ses jambes."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Incroyable apparition sur la grande place !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Les habitants abandonnent leurs paniers pour acheter le feuillet."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Un enfant retourne le papier. Il lit : « Le chien a retrouvé son maître »."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Le chien, lui, dort déjà sous l'escabeau."
+    ],
+    [
+      "s07a",
+      7,
+      "figurant",
+      0.5,
+      "Pourquoi vous n'avez pas dit « chien » tout de suite ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Il avait toute la place pour écrire « chien » !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Le mot manquant était précisément ce qu'il vendait."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Un détail essentiel reste caché avant l'achat du feuillet."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "L'enfant écrit un titre clair et le colle sur son panier."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Alors là, vous me gâchez tout mon suspense !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Le manque d'information peut piquer la curiosité et déclencher le clic."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Certains titres me donnent une émotion avant de me donner un fait. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si le titre cache tout jusqu'au dernier paragraphe ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "À toi de décider si cette curiosité mérite ton temps."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je cherche qui, quoi et où avant de partager. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Si je ne peux pas résumer la nouvelle, je n'en connais que le titre. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Plus le titre crie, plus il faut lire calmement."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Pour le chien, je crois que j'ai toute l'histoire."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu partagerais quoi, en une phrase ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Un chien a retrouvé son maître sur la place."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Simple, précis, et le chien n'a même pas eu à aboyer."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "s01a",
+    "plan": 1,
+    "scene": 1,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Tout le monde pense comme moi. Regarde mon fil !"
+  },
+  {
+    "id": "s01b",
+    "plan": 2,
+    "scene": 1,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Tout le monde, ou les comptes que ton fil te montre ?"
+  },
+  {
+    "id": "s02a",
+    "plan": 3,
+    "scene": 2,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "J'aimerais voir celui du voisin."
+  },
+  {
+    "id": "s02b",
+    "plan": 4,
+    "scene": 2,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Dans cette rue, le crieur transporte deux versions de la même journée."
+  },
+  {
+    "id": "s03a",
+    "plan": 5,
+    "scene": 3,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voyageons dans une fable des années trente. Direction : les maisons de la place."
+  },
+  {
+    "id": "s04a",
+    "plan": 6,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Un crieur frappe à deux maisons de la même rue."
+  },
+  {
+    "id": "s04b",
+    "plan": 7,
+    "scene": 4,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "À la première, il déplie la page des partisans du nouveau pont."
+  },
+  {
+    "id": "s05a",
+    "plan": 8,
+    "scene": 5,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Je vous ai gardé les nouvelles qui vous plaisent !"
+  },
+  {
+    "id": "s05b",
+    "plan": 9,
+    "scene": 5,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "À l'autre porte, il lit seulement les critiques du pont."
+  },
+  {
+    "id": "s06a",
+    "plan": 10,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Les voisins se retrouvent au puits, persuadés chacun d'être majoritaires."
+  },
+  {
+    "id": "s06b",
+    "plan": 11,
+    "scene": 6,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Ils échangent leurs deux feuilles et découvrent les passages manquants."
+  },
+  {
+    "id": "s07a",
+    "plan": 12,
+    "scene": 7,
+    "who": "figurante",
+    "pause": 0.5,
+    "text": "On habite la même rue et on n'a pas entendu la même histoire ?"
+  },
+  {
+    "id": "s07b",
+    "plan": 13,
+    "scene": 7,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Si je regarde seulement ma feuille, comment remarquer celle qui manque ?"
+  },
+  {
+    "id": "s08a",
+    "plan": 14,
+    "scene": 8,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Le crieur a appris à quelle porte on applaudit quelle nouvelle."
+  },
+  {
+    "id": "s08b",
+    "plan": 15,
+    "scene": 8,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Le crieur n'a pas distribué les mêmes pages aux mêmes portes."
+  },
+  {
+    "id": "s09a",
+    "plan": 16,
+    "scene": 9,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Les voisins prennent désormais aussi la feuille entière."
+  },
+  {
+    "id": "s09b",
+    "plan": 17,
+    "scene": 9,
+    "who": "figurant",
+    "pause": 0.5,
+    "text": "Ça me fera une page de plus à porter !"
+  },
+  {
+    "id": "s10a",
+    "plan": 18,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Un fil personnalisé présente une sélection de ce qui se publie."
+  },
+  {
+    "id": "s10b",
+    "plan": 19,
+    "scene": 10,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Voici ce que le Mouton en retient : « Les clics et les abonnements peuvent influencer ce qu'un fil propose. »"
+  },
+  {
+    "id": "s11a",
+    "plan": 20,
+    "scene": 11,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Comment sortir d'une sélection que je ne remarque même pas ?"
+  },
+  {
+    "id": "s11b",
+    "plan": 21,
+    "scene": 11,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Tu viens de faire le premier pas en comparant deux points de vue."
+  },
+  {
+    "id": "s12a",
+    "plan": 22,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Premier geste : « Je vais aussi lire des sources que mon fil ne me sert pas. »"
+  },
+  {
+    "id": "s12b",
+    "plan": 23,
+    "scene": 12,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Et cette réflexion : « Et je distingue « je le vois souvent » de « tout le monde le pense ». »"
+  },
+  {
+    "id": "s13a",
+    "plan": 24,
+    "scene": 13,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Si tout le monde pense comme toi, regarde qui a choisi ton monde."
+  },
+  {
+    "id": "s14a",
+    "plan": 25,
+    "scene": 14,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Retour au salon."
+  },
+  {
+    "id": "s15a",
+    "plan": 26,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Je vais ouvrir directement le journal plutôt que son seul extrait."
+  },
+  {
+    "id": "s15b",
+    "plan": 27,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Ça change quoi, sur la première page ?"
+  },
+  {
+    "id": "s15c",
+    "plan": 28,
+    "scene": 15,
+    "who": "mouton",
+    "pause": 0.5,
+    "text": "Il y a tout un débat dont je ne voyais qu'un côté."
+  },
+  {
+    "id": "s15d",
+    "plan": 29,
+    "scene": 15,
+    "who": "renard",
+    "pause": 0.5,
+    "text": "Tu viens d'agrandir ta place du village."
+  },
+  {
+    "id": "s16a",
+    "plan": 30,
+    "scene": 16,
+    "who": "narr",
+    "pause": 0.4,
+    "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  }
+]

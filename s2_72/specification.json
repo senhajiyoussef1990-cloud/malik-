@@ -1,0 +1,225 @@
+{
+  "ep": "s2_72",
+  "nom": "EP72_95_sans_matiere_grasse",
+  "badge": "ÉPISODE 72",
+  "titre": "« 95 % SANS MATIÈRE GRASSE »",
+  "sous": "« Le fromage à trous »",
+  "accroche": "Celui-ci est à 95 % sans matière grasse !",
+  "apres": "s2_71",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Celui-ci est à 95 % sans matière grasse !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Et si tu lisais la même proportion dans l'autre sens ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Il reste cinq sur cent. Ah."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "J'ai une drôle de démonstration au fromage pour toi."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la fromagerie."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un fromager découpe deux tranches dans la même meule."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Il place une pancarte différente devant chacune."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Ici, quatre-vingt-quinze pour cent de fromage sans trous !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Sa fille écrit sur l'autre : cinq pour cent de trous."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Une cliente préfère aussitôt la première tranche."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "La fille retourne les deux tranches et leurs bords s'emboîtent."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Mais… c'est le même fromage !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Je prendrais bien les deux pour les comparer… avec du pain."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Changer la phrase n'a pas changé un seul trou."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Sur le comptoir, seules les pancartes diffèrent."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "La cliente met les tranches sur la balance, ensemble cette fois."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Je vous les coupe comment, votre pourcentage ?"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Lire les deux formulations aide à retrouver la proportion réelle."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Au magasin aussi, le chiffre peut être présenté sous deux angles. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Si je retourne la phrase, je retrouve donc le même produit ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Exactement, tant que tu gardes la même base de comparaison."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je compare pour la même quantité de produit. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Cinq grammes sur cent, je vois mieux ce que ça représente. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Retourne la phrase pour voir ce qu'elle cache."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Mes deux morceaux de fromage vont finir sur la même tartine."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu veux cinq parts sur cent ou quatre-vingt-quinze parts sur cent sans ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je veux surtout qu'on arrête de faire attendre la tartine !"
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Alors à table, mathématicien."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "ep": "s2_75",
+  "nom": "EP75_La_cure_detox",
+  "badge": "ÉPISODE 75",
+  "titre": "LA CURE DÉTOX",
+  "sous": "« La fiole mystérieuse »",
+  "accroche": "Après le week-end, on me conseille une cure pour me « nettoyer ».",
+  "apres": "s2_74",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Après le week-end, on me conseille une cure pour me « nettoyer »."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Nettoyer quoi exactement ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "L'affiche dit juste « les toxines »."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Ce flacon me rappelle une histoire de bassines. Ouvre l'œil."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la roulotte du guérisseur."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un guérisseur agite un flacon trouble devant une bassine."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Sous la table, une deuxième bassine contient de l'eau claire."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Regardez comme tout devient limpide !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Il tire un rideau, échange les bassines et reprend son sourire."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Une blanchisseuse a vu les pieds de la table bouger."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Elle lui tend les deux bassines et lui demande de recommencer devant elle."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Quel rapport avec ce qui se passe dans mon corps ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Je sais ce qu'il y a dans la bassine, pas ce qu'il prétend avoir fait !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Son tour répond à une question de couleur, pas à ta question."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le flacon brille. La question de la blanchisseuse demeure."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le public se penche. Aucune substance précise ne figure sur la fiole."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Disons que ça fait une bien jolie démonstration…"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Les promesses vagues rendent difficile toute vérification de l'effet annoncé."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Une image spectaculaire ne suffit pas à prouver une promesse de santé. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si une publicité promet de me remettre à neuf ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Demande ce qu'elle entend par là et comment cet effet a été mesuré."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je cherche ce que le fabricant affirme précisément. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « J'ai surtout envie d'une tasse de menthe, pour son goût. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Ton corps fait le ménage gratuitement."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je mets l'eau à chauffer. Une tasse te ferait plaisir ?"
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Volontiers. Qu'est-ce que ta menthe est censée faire ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Sentir bon et réchauffer mes mains. Pour ça, j'ai des preuves !"
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Je prends la tasse bleue."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

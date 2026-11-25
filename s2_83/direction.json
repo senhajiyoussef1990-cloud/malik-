@@ -1,0 +1,154 @@
+{
+  "ep": "s2_83",
+  "n": 83,
+  "place": "Le salon du photographe",
+  "sign": "La pose",
+  "prop": "Une seconde sur cent",
+  "carnet": [
+    "Photo choisie",
+    "Instant publié",
+    "Ce qui manque",
+    "Ma journée"
+  ],
+  "moral": "Tu compares ta vie entière à leurs plus belles photos.",
+  "scenes": [
+    {
+      "scene": 1,
+      "univers": "salon couleur",
+      "dialogues": [
+        "s01a",
+        "s01b"
+      ]
+    },
+    {
+      "scene": 2,
+      "univers": "salon couleur",
+      "dialogues": [
+        "s02a",
+        "s02b"
+      ]
+    },
+    {
+      "scene": 3,
+      "univers": "transition TV",
+      "dialogues": [
+        "s03a"
+      ]
+    },
+    {
+      "scene": 4,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s04a",
+        "s04b"
+      ]
+    },
+    {
+      "scene": 5,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s05a",
+        "s05b"
+      ]
+    },
+    {
+      "scene": 6,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s06a",
+        "s06b"
+      ]
+    },
+    {
+      "scene": 7,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s07a",
+        "s07b"
+      ]
+    },
+    {
+      "scene": 8,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s08a",
+        "s08b"
+      ]
+    },
+    {
+      "scene": 9,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s09a",
+        "s09b"
+      ]
+    },
+    {
+      "scene": 10,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s10a",
+        "s10b"
+      ]
+    },
+    {
+      "scene": 11,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s11a",
+        "s11b"
+      ]
+    },
+    {
+      "scene": 12,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s12a",
+        "s12b"
+      ]
+    },
+    {
+      "scene": 13,
+      "univers": "TV noir et blanc années 30",
+      "dialogues": [
+        "s13a"
+      ]
+    },
+    {
+      "scene": 14,
+      "univers": "transition TV",
+      "dialogues": [
+        "s14a"
+      ]
+    },
+    {
+      "scene": 15,
+      "univers": "salon couleur",
+      "dialogues": [
+        "s15a",
+        "s15b",
+        "s15c",
+        "s15d"
+      ]
+    },
+    {
+      "scene": 16,
+      "univers": "salon couleur",
+      "dialogues": [
+        "s16a"
+      ]
+    }
+  ],
+  "labels": [
+    "La pose",
+    "Le portrait",
+    "La tasse",
+    "Le hors-champ"
+  ],
+  "modern": [
+    "Photo choisie",
+    "Instant publié",
+    "Ce qui manque",
+    "Ma journée"
+  ]
+}

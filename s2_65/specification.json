@@ -1,0 +1,225 @@
+{
+  "ep": "s2_65",
+  "nom": "EP65_La_tulipomanie",
+  "badge": "ÉPISODE 65",
+  "titre": "LA TULIPOMANIE",
+  "sous": "« Le dernier bulbe »",
+  "accroche": "Hier cinq, aujourd'hui dix ! Je dois l'acheter avant demain.",
+  "apres": "s2_64",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Hier cinq, aujourd'hui dix ! Je dois l'acheter avant demain."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tu veux la fleur ou le prochain acheteur ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Pour être honnête, je n'ai même pas de jardin."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Regarde bien ce bulbe : il va changer de mains sans jamais toucher la terre."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le marché aux fleurs."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Imaginons un marché où un même bulbe change plusieurs fois de panier."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Personne ne prend la peine de le planter."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "À qui le tour ? Regardez le prix d'hier !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une boulangère l'achète et brandit le dernier reçu."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Son voisin propose davantage, convaincu de pouvoir le revendre à midi."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "À midi, tout le monde tient un reçu et personne ne lève la main."
+    ],
+    [
+      "s07a",
+      7,
+      "figurant",
+      0.5,
+      "Qui veut ma tulipe ? J'avais pourtant déjà compté mon bénéfice !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Ah ! Un prix annoncé et une vente, ce sont deux choses différentes."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "L'encre sur le reçu ne fait pas pousser un acheteur."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Tout le monde surveille les enchères, personne ne regarde les racines."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le jardinier fait une offre modeste, juste pour avoir la fleur."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Mais hier on m'en donnait trois fois plus !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "La perspective d'une revente peut prendre le dessus sur l'intérêt pour l'objet."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Ce qui a monté hier peut aussi baisser. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Une foule prête à acheter, ça peut disparaître ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Oui. Elle ne te doit aucune offre le jour où tu veux vendre."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je me demande ce qui lui donne de la valeur. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Si personne ne la rachète, qu'est-ce que j'en fais ? »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Quand on achète parce que ça monte, on oublie ce que ça vaut."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je viens de retirer l'alerte qui me pressait d'acheter."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu as éteint la courbe des prix ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. On voyait à peine la fleur derrière."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Une fleur à regarder, c'est déjà une autre histoire."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "ep": "s2_63",
+  "nom": "EP63_L_imprimante_pas_chere",
+  "badge": "ÉPISODE 63",
+  "titre": "L'IMPRIMANTE PAS CHÈRE",
+  "sous": "« La lampe offerte »",
+  "accroche": "L'imprimante coûte moins cher que mes courses !",
+  "apres": "s2_62",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "L'imprimante coûte moins cher que mes courses !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qu'est-ce qu'elle boit, ton imprimante ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "De l'encre. Et je ne connais pas le prix de la cartouche."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Rallume le poste. Cette histoire commence avec une lampe gratuite."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : chez le marchand de lampes."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Le marchand pose une lampe gratuite devant chaque maison."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Un bidon d'huile reste derrière son comptoir."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Prenez la lampe, je vous l'offre !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Le soir, les fenêtres brillent. Trois jours après, la rue s'assombrit."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Une voisine revient remplir la lampe avec son bidon ordinaire."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Le goulot ne rentre pas dans le réservoir."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Il n'y a que votre bouteille qui va dedans ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "L'encre, c'est l'huile de mon imprimante !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Regarde le prix inscrit sur la bouteille, juste derrière lui."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "L'offre s'arrête à la lampe vide."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le carnet du marchand compte bien plus de bouteilles que de lampes."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Les lampes, je les donne une seule fois !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Plus on imprime, plus le prix des consommables compte."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « La recharge revient à chaque fois que j'imprime. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si les recharges coûtent plus que la machine ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Tu peux estimer ce que coûtera ton usage sur une année."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde le coût des cartouches et le nombre de pages annoncé. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Je n'imprime presque jamais en couleur. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Regarde ce que coûte la suite, pas seulement le début."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Regarde, le prix par page est écrit dans la fiche technique."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu as trouvé les cartouches qui vont avec ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. Une recharge coûte presque le prix de la machine."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà un chiffre qui mérite une place sur l'étiquette."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "ep": "s2_71",
+  "nom": "EP71_Sans_sucres_ajoutes",
+  "badge": "ÉPISODE 71",
+  "titre": "« SANS SUCRES AJOUTÉS »",
+  "sous": "« Le pain du boulanger »",
+  "accroche": "Sans sucres ajoutés ! Donc la bouteille ne contient aucun sucre ?",
+  "apres": "s2_70",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Sans sucres ajoutés ! Donc la bouteille ne contient aucun sucre ?"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tu as vu le mot « ajoutés » ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Je crois que mes yeux ont sauté la moitié de la phrase."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Le boulanger du vieux poste va te montrer ça avec une salière."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la boulangerie."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Au fournil, le boulanger exhibe sa salière encore pleine."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Il tranche un morceau de jambon et le glisse dans la pâte."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Pas un grain de ma salière dans ce pain !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une cliente goûte la croûte et fronce le nez."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Le boulanger lui montre le jambon qu'il a utilisé."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Il était déjà salé avant de passer la porte du fournil."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Ah ! Je regardais la salière, pas la recette."
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Mais le jambon n'est pas entré dans le fournil les mains vides !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Une phrase peut être exacte et répondre à une autre question que la tienne."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Aucun grain n'est sorti de cette salière."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "La cliente relit la liste des ingrédients avec lui."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Je peux vous montrer toute la recette, si vous voulez."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "La ligne des sucres totaux peut inclure des sucres naturellement présents."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Un fruit contient déjà des sucres avant qu'on en fasse du jus. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Est-ce que je dois remettre le jus en rayon ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "C'est ton choix. Tu sais maintenant quelles informations regarder."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde la ligne « dont sucres » pour la quantité. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Maintenant je sais ce que le fabricant a ajouté et ce qu'il y a dedans. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Lis ce qu'il y a dedans, pas ce qu'il n'y a pas."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'avais transformé deux mots précis en une promesse différente."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Les mots que tu avais sautés, tu les vois maintenant ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. Je vais lire la ligne entière, jusqu'au bout."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Même les deux plus petits mots peuvent changer la question."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

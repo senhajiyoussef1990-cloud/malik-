@@ -1,0 +1,225 @@
+{
+  "ep": "s2_74",
+  "nom": "EP74_Le_superaliment",
+  "badge": "ÉPISODE 74",
+  "titre": "LE SUPERALIMENT",
+  "sous": "« La baie centenaire »",
+  "accroche": "Une poudre « superaliment ». Le petit pot coûte le prix de mon panier !",
+  "apres": "s2_73",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Une poudre « superaliment ». Le petit pot coûte le prix de mon panier !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Que promet le pot, mot pour mot ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Il dit surtout « super », en très grand."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Écoute l'histoire d'un nombre brodé en or sur un bout de tissu."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le marché aux baies."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Le colporteur ouvre une boîte de baies rares."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Sur une étoffe dorée, il a brodé le nombre cent."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Les baies de mon arrière-grand-père, cent ans tout rond !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une dame demande si c'est l'âge du grand-père ou la promesse de la baie."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Le colporteur déplie l'étoffe. Au dos figure une date de naissance."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Il connaissait aussi une centenaire qui détestait ces baies."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Alors, qu'est-ce qu'on sait de la baie elle-même ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "On m'a raconté une vie entière pour me vendre une cuillerée."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "On peut aimer son goût sans acheter la légende autour."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le mot « cent » occupe presque toute l'étoffe."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "La dame en goûte une et demande le prix au kilo."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Au kilo ? Attendez, je vais chercher une plus grande ardoise."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Une anecdote sur une personne ne démontre pas un effet de l'aliment."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Je peux choisir un aliment pour ce qu'il apporte ou pour son goût. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Je peux aimer ces baies sans croire à une promesse de longévité ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Évidemment. Le plaisir de les goûter se suffit à lui-même."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je cherche ce que la promesse précise et sur quoi elle s'appuie. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Les myrtilles ordinaires me plaisent aussi. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Un aliment n'est pas une potion."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'achète une petite poignée pour voir si elles me plaisent."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et si tu n'aimes pas leur goût ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je n'aurai pas acheté tout le sac pour une belle histoire."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "La dégustation a au moins répondu à ta vraie question."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

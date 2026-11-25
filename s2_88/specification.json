@@ -1,0 +1,225 @@
+{
+  "ep": "s2_88",
+  "nom": "EP88_L_obsolescence_par_mise_a_jour",
+  "badge": "ÉPISODE 88",
+  "titre": "L'OBSOLESCENCE PAR MISE À JOUR",
+  "sous": "« Le nouveau mécanisme »",
+  "accroche": "Depuis le nouveau réglage, mon appareil rame. Il est bon à jeter ?",
+  "apres": "s2_87",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Depuis le nouveau réglage, mon appareil rame. Il est bon à jeter ?"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Quand as-tu remarqué le changement ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Juste après la mise à jour. Je voudrais comprendre."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Écoute les deux horloges. Elles ne sonnent déjà plus ensemble."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : l'atelier d'horlogerie."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un horloger vient ajouter un carillon aux horloges de la place."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Sur une ancienne pendule, le nouveau mécanisme frotte contre le balancier."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Écoutez cette merveilleuse sonnerie !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "L'horloge sonne joliment, mais l'aiguille prend du retard."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "La couturière compare sa vieille pendule avec celle de la gare."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Elle rappelle l'horloger et lui montre la pièce qui frotte."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Avant d'en acheter une neuve, pouvez-vous vérifier ce réglage ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Si je ne regardais que le cadran, je vendrais la pendule trop vite."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Une chronologie donne une piste. Elle ne prouve pas l'intention de l'horloger."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le carillon sonne juste alors que l'aiguille indique la mauvaise heure."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Il ajuste la pièce, puis compare les deux aiguilles pendant une heure."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Le carillon a pris trop de place dans ce modèle."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Comparer avant et après aide à décrire un problème, puis il faut en chercher la cause."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Une mise à jour peut apporter des correctifs et modifier les performances. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Une baisse de vitesse prouve qu'on veut me vendre un appareil ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Il faut chercher ce qui explique la baisse avant d'attribuer une intention."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je vérifie les informations pour mon modèle et les solutions proposées. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Je note la version et ce qui a changé avant de contacter l'assistance. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Une mise à jour peut aussi servir à vendre."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'ai retrouvé mon modèle et la date où j'ai remarqué le problème."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu as noté un exemple précis ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. Cette application met bien plus longtemps à s'ouvrir qu'avant."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Cette description aidera davantage que « tout est cassé »."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

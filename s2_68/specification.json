@@ -1,0 +1,225 @@
+{
+  "ep": "s2_68",
+  "nom": "EP68_Le_premier_pari_offert",
+  "badge": "ÉPISODE 68",
+  "titre": "LE PREMIER PARI OFFERT",
+  "sous": "« Le jeton cadeau »",
+  "accroche": "Le premier pari est offert. Ça ne me coûtera rien !",
+  "apres": "s2_67",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Le premier pari est offert. Ça ne me coûtera rien !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Et le deuxième ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "J'avais déjà commencé à l'imaginer."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Viens à la foire. Garde les mains dans tes poches et regarde le premier jeton."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le tripot de la foire."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "À la foire, un joueur reçoit un jeton au lieu d'un ticket d'entrée."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Le guichet des autres jetons est juste à côté."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Celui-ci est pour vous, essayez la roue !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La roue tourne, ralentit et s'arrête tout près du numéro choisi."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Le joueur tend la main pour recommencer."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Cette fois, le guichetier désigne le prix."
+    ],
+    [
+      "s07a",
+      7,
+      "figurant",
+      0.5,
+      "J'ai presque gagné. Je pensais que la roue s'en souvenait !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Et si j'avais déjà perdu mes propres pièces en tête ?"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "La roue n'a ni carnet ni mémoire."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Ce jeton offert porte le même dessin qu'une pièce payée."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Dans sa poche, le joueur sépare le jeton offert de ses vraies pièces."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Un deuxième tour ? Celui-là passe par la caisse."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Un gain passé ou une case voisine ne garantit aucune issue au tour suivant."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Le cadeau m'avait déjà fait entrer dans la partie. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Ils me renvoient déjà une invitation à rejouer."
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Tu peux la laisser passer. La première partie est terminée."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je lis les conditions avant de toucher un bonus. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Et une quasi-victoire ne rend pas le tour suivant plus sûr. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Le cadeau du casino, c'est l'hameçon."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je ferme la fenêtre du bonus."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Ils ont écrit « presque gagné », tu as vu ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. Dans mon porte-monnaie, « presque » ne rajoute rien."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Tu peux fermer la partie sur cette observation."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

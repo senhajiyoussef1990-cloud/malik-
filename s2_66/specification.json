@@ -1,0 +1,225 @@
+{
+  "ep": "s2_66",
+  "nom": "EP66_La_pyramide_de_Ponzi",
+  "badge": "ÉPISODE 66",
+  "titre": "LA PYRAMIDE DE PONZI",
+  "sous": "« Deux œufs pour un »",
+  "accroche": "Il promet de doubler ma mise. Mon voisin a vraiment reçu son argent !",
+  "apres": "s2_65",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Il promet de doubler ma mise. Mon voisin a vraiment reçu son argent !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "D'où vient ce qu'il a reçu ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Ça, je ne lui ai pas demandé."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Dans ce poulailler, il se passe quelque chose de curieux."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le poulailler."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Dans la fable, un fermier promet deux œufs pour chaque œuf confié."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Son poulailler est pourtant vide."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Apportez votre œuf. Revenez demain avec votre panier !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Lundi, Rose apporte le sien. Mardi, deux voisins arrivent."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Le fermier donne leurs deux œufs à Rose, qui le remercie."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Mercredi, deux paniers attendent derrière la porte fermée."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Si personne ne vient aujourd'hui, comment nous rendre quatre œufs ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Je comprends pourquoi Rose a cru que ça marchait."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Regarde sous la paille. Pas une poule."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Ce panier est plein parce qu'un autre vient de se vider."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Rose revient en courant avec son reçu, mais son reçu ne pond pas."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Je comptais sur les gens de jeudi…"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Il faut distinguer un bénéfice produit et une somme simplement transférée."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Le premier paiement a convaincu tout le village. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Même si c'est mon voisin qui me recommande l'affaire ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Il peut être sincère et ignorer d'où vient son paiement."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je cherche quelle activité produit réellement le gain annoncé. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Une photo de paiement ne répond pas à cette question. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Un rendement trop beau se paie avec l'argent des derniers arrivés."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais lui poser la même question, sans l'accuser."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et s'il te montre encore son reçu ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je regarderai aussi d'où venaient les deux œufs."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Cette fois, tu regardes des deux côtés de la caisse."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

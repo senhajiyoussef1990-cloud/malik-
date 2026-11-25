@@ -1,0 +1,225 @@
+{
+  "ep": "s2_89",
+  "nom": "EP89_L_objet_qu_on_ne_peut_pas_reparer",
+  "badge": "ÉPISODE 89",
+  "titre": "L'OBJET QU'ON NE PEUT PAS RÉPARER",
+  "sous": "« Une mèche prisonnière »",
+  "accroche": "Seul le petit bouton est cassé. Pourquoi me propose-t-on un appareil entier ?",
+  "apres": "s2_88",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Seul le petit bouton est cassé. Pourquoi me propose-t-on un appareil entier ?"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Est-ce qu'on peut atteindre la pièce ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Je ne trouve ni vis ni référence."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Regarde cette réparatrice. Elle a deux lanternes et une seule petite mèche."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la fabrique de lanternes."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Dans l'atelier, deux lanternes s'éteignent le même soir."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "La première a un loquet. La deuxième est sertie tout autour."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Mes lanternes sont bien fermées, regardez cette finition !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La réparatrice ouvre le loquet et remplace la première mèche."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Pour atteindre la deuxième, il faudrait plier toute la carcasse."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Elle pose sur la table deux mèches qui coûtent le même prix."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Comment une pièce si petite peut-elle condamner une si grande lanterne ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Le verre et le métal sont encore en bon état !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Le prix de la pièce et le moyen d'y accéder sont deux questions différentes."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "La première mèche est déjà changée pendant qu'on examine encore la seconde lanterne."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le fabricant étudie le loquet de la lanterne réparée."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Cette charnière pourrait nous servir au prochain modèle."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "La conception d'un objet peut simplifier ou compliquer une petite réparation."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Avant un achat, je peux chercher les pièces et les possibilités de réparation. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "La réparatrice peut donc m'aider à choisir même avant la panne ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Elle peut te renseigner sur les pièces qu'on arrive réellement à trouver."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde aussi leur prix et la disponibilité d'un réparateur. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Pour mon bouton, je vais demander un devis. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Ce qu'on ne peut pas ouvrir, on finit par le jeter."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'ai noté la référence exacte de mon bouton."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "La pièce existe séparément ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Elle figure sur le dessin de l'atelier. Je vais demander sa disponibilité."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Un petit bouton, et déjà une piste concrète."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

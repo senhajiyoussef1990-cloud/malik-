@@ -1,0 +1,225 @@
+{
+  "ep": "s2_85",
+  "nom": "EP85_Le_graphique_qui_exagere",
+  "badge": "ÉPISODE 85",
+  "titre": "LE GRAPHIQUE QUI EXAGÈRE",
+  "sous": "« Le bas de la feuille »",
+  "accroche": "La barre a doublé ! Ils vendent deux fois plus ?",
+  "apres": "s2_84",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "La barre a doublé ! Ils vendent deux fois plus ?"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Lis les nombres au pied et au sommet."
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Hier cent. Aujourd'hui cent un. Ça ne fait qu'un de plus !"
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "J'ai gardé la feuille d'un marchand. Regarde ce qui arrive quand on la déplie."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le bureau du marchand."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Au bureau, un marchand dessine deux colonnes sur du papier quadrillé."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "La première monte à cent caisses, la deuxième à cent une."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Admirez cette hausse spectaculaire !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Il replie la feuille juste au niveau de quatre-vingt-dix-neuf."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Du haut des deux colonnes, on ne voit plus qu'une case et deux cases."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Une livreuse déplie la feuille devant tout le monde."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Sur mon chariot, ça fait toujours une seule caisse de plus."
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Mais la livreuse n'a pas rechargé son chariot !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "L'écart est réel. C'est sa taille apparente qui a changé."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "La hauteur visible a changé dès qu'on a replié le papier."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Elle entoure les deux valeurs et écrit « une caisse » entre elles."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "J'aurais dû laisser les graduations bien visibles !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Il faut lire l'échelle avant d'interpréter la hauteur de deux barres."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Un axe resserré peut aider à voir un petit écart. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Je dois toujours me méfier des courbes qui montent ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Demande d'abord de combien elles montent, et sur quelle période."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde son point de départ, ses unités et les valeurs. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Je peux décrire ce qui a changé avec des mots et des nombres. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Regarde où commence l'échelle."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais écrire cent et cent un directement au-dessus des barres."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et ton titre pour présenter ces ventes ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Une caisse de plus qu'hier. Pas deux fois plus."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "La livreuse te remercie, son dos aussi."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

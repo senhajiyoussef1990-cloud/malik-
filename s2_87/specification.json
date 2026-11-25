@@ -1,0 +1,225 @@
+{
+  "ep": "s2_87",
+  "nom": "EP87_Le_sondage_oriente",
+  "badge": "ÉPISODE 87",
+  "titre": "LE SONDAGE ORIENTÉ",
+  "sous": "« Le bulletin du maire »",
+  "accroche": "Le sondage dit que presque tout le monde veut ce projet.",
+  "apres": "s2_86",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Le sondage dit que presque tout le monde veut ce projet."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Comment la question était-elle posée ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "« Pour la fontaine ou contre l'eau au village ? » Drôle de choix."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Viens voter sur la place du village. Tu vas voir les deux urnes."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la place de la fontaine."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Le maire pose deux urnes devant la vieille fontaine."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "L'une dit « belle fontaine », l'autre « mourir de soif »."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Choisissez librement, braves gens !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une jardinière prend un bulletin, puis regarde le robinet qui fonctionne."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Elle veut réparer le bassin sans construire une nouvelle fontaine."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Aucune des deux urnes ne porte sa réponse."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Et si je veux une troisième solution ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "On pourrait lui faire dire oui alors qu'elle propose autre chose."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Les mots ont tracé la route avant même le premier vote."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "La jardinière a bien un avis. Elle ne trouve simplement pas sa case."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Elle propose une question neutre avec plusieurs options précises."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Il va nous falloir un peu plus de papier !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Le choix des mots et des réponses peut influencer un résultat."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Je cherche le libellé exact du sondage. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si ma réponse ne figure dans aucune case ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Ça aussi, c'est une information sur la façon dont le sondage a été construit."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde aussi à qui on a posé la question et quels choix étaient proposés. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « J'avais lu le chiffre sans lire la question. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Avant la réponse, regarde la question."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'aimerais bien voir le résultat avec « réparer la fontaine »."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Quelle question mettrais-tu sur ton bulletin ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Que souhaitez-vous faire pour cette fontaine ? Et je laisse plusieurs choix."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "La jardinière pourra enfin répondre ce qu'elle pense."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

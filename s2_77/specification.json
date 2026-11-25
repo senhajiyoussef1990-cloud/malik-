@@ -1,0 +1,225 @@
+{
+  "ep": "s2_77",
+  "nom": "EP77_Le_vert_peint_sur_l_emballage",
+  "badge": "ÉPISODE 77",
+  "titre": "LE VERT PEINT SUR L'EMBALLAGE",
+  "sous": "« Le tonneau vert »",
+  "accroche": "Cette boîte est couverte de feuilles. Elle a l'air écologique.",
+  "apres": "s2_76",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Cette boîte est couverte de feuilles. Elle a l'air écologique."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qu'est-ce qui a changé dans la boîte ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Pour l'instant, je vois surtout ce qui a changé dessus."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Suis le pinceau de ce tonnelier. Il travaille vite."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la tonnellerie."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un tonnelier aligne deux fûts de sa fabrication."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Il plonge un pinceau dans un gros pot de peinture verte."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Voici mon tout nouveau tonneau nature !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Le premier garde ses planches brunes. Le second sèche au soleil."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Une cliente passe la main sous les deux fonds."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Elle y trouve le même tampon de la même scierie."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "La peinture a changé. Et le bois, lui ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "J'aimerais voir ce qu'il y a sous la peinture."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "C'est sur le bois qu'elle veut une réponse."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le pinceau a bien travaillé. Les planches sont restées les mêmes."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le tonnelier sort la facture de ses planches pour lui montrer leur origine."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Cette ligne-là raconte plus que mon pot de peinture."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Une affirmation précise est plus facile à vérifier qu'une ambiance de forêt."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Je cherche une information précise sur la matière ou la fabrication. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Si c'est écrit en vert plutôt qu'en noir, ça ne change rien ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "La couleur peut attirer ton regard. C'est la précision de la phrase qui compte."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde ce qu'elle couvre et comment on la vérifie. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Une feuille dessinée ne suffit pas à répondre. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Une couleur n'est pas une preuve."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je garde la boîte en main et je lis le côté."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Les planches viennent d'où, finalement ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "C'est écrit à côté du dessin, sur la ligne que j'avais sautée."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Le plus petit texte nous aura appris le plus de choses."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

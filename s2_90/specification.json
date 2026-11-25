@@ -1,0 +1,225 @@
+{
+  "ep": "s2_90",
+  "nom": "EP90_Le_probleme_qu_on_te_vend_avec_la_solution",
+  "badge": "ÉPISODE 90",
+  "titre": "LE PROBLÈME QU'ON TE VEND AVEC LA SOLUTION",
+  "sous": "« Le bruit derrière la porte »",
+  "accroche": "Depuis que j'ai vu cette publicité, j'ai l'impression qu'il me manque une protection.",
+  "apres": "s2_89",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Depuis que j'ai vu cette publicité, j'ai l'impression qu'il me manque une protection."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qui t'a parlé du danger en premier ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Le même qui veut me vendre la solution."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Le serrurier de notre village savait raconter de très bonnes histoires de voleurs."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la boutique du serrurier."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Dans la fable, un serrurier affiche une silhouette inquiétante près du puits."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Au-dessous, il annonce une démonstration de ses nouveaux cadenas."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Entendez-vous ces pas, la nuit, dans la ruelle ?"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La rumeur fait le tour du marché avant le coucher du soleil."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Une voisine demande qui a vraiment vu la silhouette."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Le boulanger reconnaît sur l'affiche son propre tablier suspendu à un clou."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "On a acheté trois cadenas pour un tablier ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Le tablier a fini par porter un chapeau dans mon imagination !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Il reste une bonne question : de quelle protection avez-vous réellement besoin ?"
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Chaque voisin a ajouté un détail à la première silhouette."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "La voisine retire l'affiche et examine calmement sa propre porte."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Je peux vous montrer la serrure sans vous raconter d'histoire."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Une publicité peut amplifier un souci pour rendre un achat plus pressant."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Une inquiétude peut être réelle, artificielle ou amplifiée. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Alors je dois ignorer toutes les alertes ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Prends le temps de vérifier le risque et de comparer tes options."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je vérifie le problème auprès d'une source indépendante. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Si j'ai vraiment besoin d'une solution, je pourrai les comparer. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Méfie-toi de celui qui te fait peur et te vend le remède."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "C'est curieux. Le cadenas a la même taille, mais il paraît déjà moins urgent."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et ce drôle de bruit derrière notre porte ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "C'est mon manteau qui frotte. Je viens de vérifier !"
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Alors accroche-le bien. Pour une fois, le mystère est résolu."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

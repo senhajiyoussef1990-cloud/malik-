@@ -1,0 +1,225 @@
+{
+  "ep": "s2_79",
+  "nom": "EP79_La_bulle_de_filtres",
+  "badge": "ÉPISODE 79",
+  "titre": "LA BULLE DE FILTRES",
+  "sous": "« Deux nouvelles à deux portes »",
+  "accroche": "Tout le monde pense comme moi. Regarde mon fil !",
+  "apres": "s2_78",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Tout le monde pense comme moi. Regarde mon fil !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tout le monde, ou les comptes que ton fil te montre ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "J'aimerais voir celui du voisin."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Dans cette rue, le crieur transporte deux versions de la même journée."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : les maisons de la place."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un crieur frappe à deux maisons de la même rue."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "À la première, il déplie la page des partisans du nouveau pont."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Je vous ai gardé les nouvelles qui vous plaisent !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "À l'autre porte, il lit seulement les critiques du pont."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Les voisins se retrouvent au puits, persuadés chacun d'être majoritaires."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Ils échangent leurs deux feuilles et découvrent les passages manquants."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "On habite la même rue et on n'a pas entendu la même histoire ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Si je regarde seulement ma feuille, comment remarquer celle qui manque ?"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Le crieur a appris à quelle porte on applaudit quelle nouvelle."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le crieur n'a pas distribué les mêmes pages aux mêmes portes."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Les voisins prennent désormais aussi la feuille entière."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Ça me fera une page de plus à porter !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Un fil personnalisé présente une sélection de ce qui se publie."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Les clics et les abonnements peuvent influencer ce qu'un fil propose. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Comment sortir d'une sélection que je ne remarque même pas ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Tu viens de faire le premier pas en comparant deux points de vue."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je vais aussi lire des sources que mon fil ne me sert pas. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Et je distingue « je le vois souvent » de « tout le monde le pense ». »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Si tout le monde pense comme toi, regarde qui a choisi ton monde."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais ouvrir directement le journal plutôt que son seul extrait."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Ça change quoi, sur la première page ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Il y a tout un débat dont je ne voyais qu'un côté."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Tu viens d'agrandir ta place du village."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

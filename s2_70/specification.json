@@ -1,0 +1,225 @@
+{
+  "ep": "s2_70",
+  "nom": "EP70_La_carte_de_fidelite",
+  "badge": "ÉPISODE 70",
+  "titre": "LA CARTE DE FIDÉLITÉ",
+  "sous": "« Le cahier à bonbons »",
+  "accroche": "Une carte gratuite et des points à chaque passage !",
+  "apres": "s2_69",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Une carte gratuite et des points à chaque passage !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qu'est-ce qui est inscrit de l'autre côté de la carte ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Mon nom et chacun de mes achats, peut-être ?"
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Il y avait un épicier qui n'oubliait jamais les confitures de ses clients."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : l'épicerie."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "L'épicier offre un caramel et sort son grand cahier."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Il dessine un petit signe à côté de chaque produit acheté."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Un caramel pour votre passage, madame Rose !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La semaine suivante, il glisse un prospectus de confiture dans son panier."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "À son voisin, il tend plutôt une publicité pour du café."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Rose ouvre le cahier à la page qui porte son prénom."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Vous saviez déjà que je reviendrais pour la confiture ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Le caramel lui a donné une raison de revenir, aussi."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Il a remarqué une habitude. La carte lui permet de la suivre."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le cadeau disparaît vite, mais la page reste dans le cahier."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Rose lit les règles et demande à acheter son pain sans faire inscrire l'achat."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Bien sûr. Pour le pain, la carte est facultative."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Selon le programme, les achats associés à une carte peuvent personnaliser les offres."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Je regarde ce que les points rapportent vraiment. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Un point gratuit, c'est donc aussi une trace de mon passage ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Ça dépend du programme. C'est ce que ses règles doivent te préciser."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Et je vérifie quelles données sont enregistrées. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « J'avais quatre cartes dont je ne dépensais jamais les points. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "La fidélité qu'on récompense est surtout celle qu'on observe."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Ce caramel-là m'aura fait lire quelques lignes."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et ton pain, tu as choisi comment le payer ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Aujourd'hui, je laisse la carte dans ma poche."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Le pain aura le même goût."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

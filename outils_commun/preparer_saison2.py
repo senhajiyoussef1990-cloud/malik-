@@ -1,6 +1,6 @@
-"""Préparation des sources EP51-60 à partir des modèles du dépôt.
+"""Préparation des sources EP51-90 à partir des modèles du dépôt.
 Ne génère ni voix ni MP4 ; vérifier les aperçus avant la fabrication complète.
-Usage: python3 outils_commun/preparer_saison2.py [51 ... 60]
+Usage: python3 outils_commun/preparer_saison2.py [51 ... 90]
 """
 from pathlib import Path
 import sys, json, re, shutil, shlex, subprocess
@@ -29,7 +29,10 @@ def prepare(n):
     D=A/ep
     S=json.loads((E/'specification.json').read_text())
     V=json.loads((E/'direction.json').read_text())
-    place,kind,labels,modern=CFG[n-51]
+    if n <= 60:
+        place,kind,labels,modern=CFG[n-51]
+    else:
+        place,kind,labels,modern=V['place'].upper(),'objet',V['labels'],V['modern']
     for d in ['audio','fonts','voix/refs']:
         if not (E/d).exists(): shutil.copytree(R/'modele'/d,E/d)
     for d in ['outils','sortie','voix']: (E/d).mkdir(exist_ok=True,parents=True)
@@ -37,8 +40,8 @@ def prepare(n):
     if not (E/'voix/s16a.mp3').exists(): shutil.copy2(R/'modele/voix/s16a.mp3',E/'voix/s16a.mp3')
     commun=(A/'modele/commun.js').read_text().replace('La mauvaise haleine',S['titre']).replace("c.fillText('2 ANS', 0, -90);",f'c.fillText({js(modern[0])}, 0, -90, 68);')
     put(D/'commun.js',commun)
-    config=dict(place=place,kind=kind,labels=labels,modern=modern)
-    put(D/'tv.js',(A/'modele/tv.js').read_text()+'\nconst S2 = '+js(config)+';\n'+(R/'outils_commun/saison2_tv.js').read_text())
+    config=dict(numero=n,place=place,kind=kind,labels=labels,modern=modern)
+    put(D/'tv.js',(A/'modele/tv.js').read_text()+'\nconst S2 = '+js(config)+';\n'+(R/'outils_commun/saison2_tv.js').read_text()+'\n'+(R/'outils_commun/saison2_objets.js').read_text())
     for k in range(1,17):
         name=f'scene{k:02d}.js'
         src=(A/'modele'/name).read_text()
@@ -70,6 +73,7 @@ def prepare(n):
         for f in D.glob('*.js'): subprocess.run(['node','--check',str(f)],check=True)
     print(ep,'16 scènes préparées ; voix et aperçus à fabriquer')
 if __name__=='__main__':
-    for n in map(int,sys.argv[1:] or range(51,61)):
-        if n not in range(51,61): raise SystemExit('Numéro attendu : 51 à 60')
+    for n in map(int,sys.argv[1:] or range(51,91)):
+        if n not in range(51,91): raise SystemExit('Numéro attendu : 51 à 90')
         prepare(n)
+

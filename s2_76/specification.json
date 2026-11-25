@@ -1,0 +1,225 @@
+{
+  "ep": "s2_76",
+  "nom": "EP76_Le_faux_label",
+  "badge": "ÉPISODE 76",
+  "titre": "LE FAUX LABEL",
+  "sous": "« La médaille maison »",
+  "accroche": "Regarde, il a gagné la médaille de la qualité supérieure !",
+  "apres": "s2_75",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Regarde, il a gagné la médaille de la qualité supérieure !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qui était dans le jury ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Il y avait un jury ?"
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Le village de notre télé a justement organisé un bien curieux concours."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le concours du village."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un marchand monte avant l'aube sur une petite estrade."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Il ouvre un écrin, en sort une médaille et se l'épingle lui-même."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Le grand prix de la maison est attribué… à la maison !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Sur le ruban, il écrit « sélection exceptionnelle »."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Une écolière retourne la médaille pour lire le nom du concours."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Au dos, elle reconnaît le tampon de la boutique."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Vous avez signé des deux côtés ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Une signature de chaque côté et une seule main pour écrire !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Elle a trouvé la bonne question en retournant l'objet."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le ruban dit « grand prix », mais ne donne aucun nom de juré."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le marchand accroche désormais à côté le règlement de son prix maison."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Pour les félicitations du jury, je me débrouille aussi !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Certains labels sont contrôlés. D'autres signes sont créés par les vendeurs."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Je cherche qui délivre le label et selon quels critères. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Où est-ce que je cherche le nom du jury ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Commence par le nom du label et son règlement publié."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je vérifie si un organisme indépendant contrôle le produit. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Une jolie médaille peut aussi être le logo du vendeur. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Demande qui a donné la médaille."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Tiens, sur cette boîte, le règlement est accessible."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu as trouvé un nom différent de celui de la marque ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Sur celui-ci, oui. Je peux aller lire les critères."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà qui vaut mieux qu'un simple ruban doré."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

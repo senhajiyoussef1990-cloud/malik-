@@ -1,0 +1,225 @@
+{
+  "ep": "s2_82",
+  "nom": "EP82_La_pub_deguisee",
+  "badge": "ÉPISODE 82",
+  "titre": "LA PUB DÉGUISÉE",
+  "sous": "« L'éloge du savon »",
+  "accroche": "Trois pages pour expliquer que ce savon est formidable. Quel reportage !",
+  "apres": "s2_81",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Trois pages pour expliquer que ce savon est formidable. Quel reportage !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qui a payé ces trois pages ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "La signature est tout en bas, je ne l'avais pas vue."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Dans cette imprimerie, surveille l'enveloppe près du savon."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la rédaction du journal."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "À la rédaction, le marchand de savon apporte une enveloppe."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Le rédacteur pose un gros titre au-dessus d'un pain de savon."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Une découverte exceptionnelle pour notre village !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "L'apprenti imprime le texte juste à côté des nouvelles du marché."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Aucune ligne ne dit qui a commandé cet éloge."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Il retrouve le bon de commande sous le pot d'encre."
+    ],
+    [
+      "s07a",
+      7,
+      "figurant",
+      0.5,
+      "Les lecteurs vont croire que c'est votre propre enquête !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "L'encre a la même couleur partout !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Même papier, même police : il leur manque une information."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "On a payé une place dans le journal, près des informations."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "L'apprenti ajoute une mention bien visible près du titre."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Cette fois, mes clients sauront que c'est moi qui parle."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "L'identité du financeur aide à comprendre pourquoi un produit est mis en avant."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Je cherche si le contenu est sponsorisé et par qui. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Est-ce qu'un produit sponsorisé est forcément mauvais ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "La mention te dit qui paie. Il reste à juger le produit sur d'autres éléments."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je peux aussi consulter des essais indépendants. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Maintenant je sais qui me présente le savon. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Si c'est payé, ce n'est pas un conseil."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais aussi regarder un essai qui explique ses critères."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu as trouvé le nom du commanditaire ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. C'est le fabricant. Je peux enfin lire l'article en le sachant."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "La signature a retrouvé sa place dans ta lecture."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

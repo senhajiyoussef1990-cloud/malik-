@@ -1,0 +1,225 @@
+{
+  "ep": "s2_67",
+  "nom": "EP67_Deviens_riche_depuis_ton_canape",
+  "badge": "ÉPISODE 67",
+  "titre": "« DEVIENS RICHE DEPUIS TON CANAPÉ »",
+  "sous": "« La carte au trésor »",
+  "accroche": "Il filme sa voiture et vend un cours pour devenir riche.",
+  "apres": "s2_66",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Il filme sa voiture et vend un cours pour devenir riche."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Sa voiture nous dit-elle comment il l'a payée ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Non. J'ai juste fait le lien tout seul."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Viens compter les pelles avec moi, à la boutique du prospecteur."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la boutique du prospecteur."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un marchand déroule une carte couverte de croix dorées."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Devant la boutique, une pépite brille sous une cloche."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Toute ma méthode est dans cette enveloppe !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Dix prospecteurs repartent avec dix copies de la même carte."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Un seul revient avec un petit éclat brillant."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Le marchand l'invite sur l'estrade et laisse les neuf autres derrière le rideau."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Pourquoi ma pelle vide n'a pas droit à la photo ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Moi aussi, j'avais regardé la pépite avant de compter les pelles."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Le photographe a cadré le seul panier qui brille."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le décor cache neuf pelles couvertes de poussière."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "La caisse du marchand contient déjà le prix des dix cartes."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "De l'or ? Moi, je vends du papier !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Un témoignage choisi ne renseigne pas sur les chances de l'ensemble des clients."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Une réussite à l'écran, mais combien d'essais hors champ ? »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et les neuf autres, je ne verrai jamais leurs résultats ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Un montage peut tout simplement les laisser hors de l'image."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde le coût, le contenu et les résultats de l'ensemble du groupe. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Je croyais voir une démonstration. C'était une vitrine. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Celui qui s'enrichit, c'est souvent celui qui vend la méthode."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je ne confonds plus une belle vitrine avec les comptes du magasin."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Combien de clients vois-tu sur cette publicité ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Un. Et je ne connais toujours pas le nombre d'inscrits."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà le chiffre que sa photo a laissé hors champ."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

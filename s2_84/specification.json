@@ -1,0 +1,225 @@
+{
+  "ep": "s2_84",
+  "nom": "EP84_Le_filtre_beaute",
+  "badge": "ÉPISODE 84",
+  "titre": "LE FILTRE BEAUTÉ",
+  "sous": "« Le nez du peintre »",
+  "accroche": "Sur mes photos, je préfère tellement la version filtrée…",
+  "apres": "s2_83",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Sur mes photos, je préfère tellement la version filtrée…"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Montre-moi ce que fait le curseur quand tu le déplaces."
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Oh. Il a changé mon nez avant même que je m'en aperçoive."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Le peintre du village avait lui aussi un réglage préféré."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : l'atelier des portraits."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un peintre aligne tous les portraits de sa rue."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Sur chaque toile, il affine discrètement le nez du modèle."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "C'est ma petite touche. Personne ne la remarque !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une fille cherche sa grand-mère sur la rangée de tableaux."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Sans son grand nez familier, elle passe deux fois devant elle."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "La grand-mère éclate de rire et pose de profil."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Redonnez-moi mon nez, ma petite-fille en a besoin !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Du coup, c'est le vrai nez qui paraît inhabituel."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Une habitude de dessin était devenue la règle pour tout le village."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le peintre a répété le même changement sur chaque toile."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le peintre reprend son pinceau en regardant vraiment son modèle."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Cette fois, même votre petite-fille signera le portrait."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Quand un effet devient familier, il peut déplacer le point de comparaison."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Un filtre change l'image et peut habituer mon œil à cette version. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si j'ai juste envie de jouer avec le filtre ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Tu peux t'amuser avec un effet en sachant qu'il transforme l'image."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je peux regarder à quoi ressemble le réglage désactivé. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Cette petite bosse, c'est aussi le nez de mon grand-père. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Ton visage n'est pas une erreur à corriger."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Tiens, je remets l'original à côté du portrait."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Lequel reconnais-tu le plus vite ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Celui de gauche. On dirait mon grand-père quand il riait."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Cette ressemblance-là mérite son cadre."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

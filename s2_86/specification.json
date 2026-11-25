@@ -1,0 +1,225 @@
+{
+  "ep": "s2_86",
+  "nom": "EP86_Les_cigognes_et_les_bebes",
+  "badge": "ÉPISODE 86",
+  "titre": "LES CIGOGNES ET LES BÉBÉS",
+  "sous": "« Les toits et les berceaux »",
+  "accroche": "Sur cette carte, plus il y a de cigognes, plus il y a de bébés !",
+  "apres": "s2_85",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Sur cette carte, plus il y a de cigognes, plus il y a de bébés !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Et combien de familles habitent dans chaque village ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "La carte ne le dit pas."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Prenons les cartes du secrétaire et le carnet de la factrice."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la mairie aux cigognes."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Le secrétaire colle des plumes et des berceaux sur deux cartes."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Le gros bourg reçoit bien plus de gommettes que le petit hameau."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Regardez ! Les plumes annoncent les naissances !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La factrice compte les toits sur sa tournée."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Dans le gros bourg, il y a davantage de cheminées et davantage d'habitants."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Elle dépose les deux listes sous les cartes."
+    ],
+    [
+      "s07a",
+      7,
+      "figurant",
+      0.5,
+      "Si je compte aussi les boîtes aux lettres, elles apportent les bébés ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Et il raconte bien plus que ce qu'il a compté."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "La taille du village peut faire monter plusieurs comptes à la fois."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le secrétaire compte correctement ce qu'il a dessiné."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le secrétaire reprend ses notes avant d'annoncer une cause."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Les cigognes pourront garder leur après-midi libre."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Une association observée n'explique pas à elle seule le lien entre deux phénomènes."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Deux courbes qui évoluent ensemble soulèvent une question. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Si deux choses vont ensemble, ça ne sert donc à rien de le remarquer ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Si. Ça donne une piste à explorer, à condition de vérifier l'explication."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je cherche une autre explication et les éléments qui la départagent. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Cette carte est un point de départ, pas une preuve de livraison. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Deux choses qui vont ensemble ne se causent pas forcément."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "La prochaine fois, je demanderai aussi combien il y a d'habitants."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et si une autre carte monte aussi ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je chercherai d'abord ce que les deux listes peuvent avoir en commun."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Les cigognes approuvent. Elles avaient déjà assez de courrier."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

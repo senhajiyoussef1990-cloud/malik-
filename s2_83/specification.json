@@ -1,0 +1,225 @@
+{
+  "ep": "s2_83",
+  "nom": "EP83_La_vie_parfaite_des_autres",
+  "badge": "ÉPISODE 83",
+  "titre": "LA VIE PARFAITE DES AUTRES",
+  "sous": "« Une seconde sur cent »",
+  "accroche": "Leur maison est toujours nickel. Chez moi, regarde cette table !",
+  "apres": "s2_82",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Leur maison est toujours nickel. Chez moi, regarde cette table !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Combien de temps dure la photo que tu compares à ta journée ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Une seconde. Ma journée, un peu plus."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Entre chez le photographe, et surtout regarde derrière le fauteuil."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le salon du photographe."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Chez le photographe, une famille enfile ses habits de fête."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Juste hors cadre, un oncle cherche sa chaussure."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Un sourire… ne bougez plus !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La plaque garde le sourire. Une seconde après, l'enfant éternue."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "La mère ramasse sa manche dans une flaque de thé."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Sur la cheminée, le portrait ne garde rien de tout cela."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Si je regarde seulement le cadre, je les imagine toujours comme ça."
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "La tasse renversée aurait fait une autre photo !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Leur photo est vraie. Ce qui manque, ce sont les heures autour."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Un instant précieusement choisi tient dans le cadre."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "L'oncle retrouve enfin sa chaussure derrière le fauteuil."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "On la prendra en photo une autre fois !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Un moment heureux publié ne représente pas toutes les heures de la journée."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Un fil peut rassembler la meilleure seconde de cent journées. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Tu crois qu'ils renversent aussi du thé chez eux ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Je n'en sais rien. Leur photo ne raconte pas le reste de leur journée."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je me rappelle ce que je laisse moi-même hors du cadre. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Sur ma photo d'hier, on ne voit pas la pile d'assiettes. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Tu compares ta vie entière à leurs plus belles photos."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais peut-être ranger les tasses, mais pour avoir de la place."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu veux que je t'aide avec les assiettes ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. Et cette fois, tu as le droit de photographier la vaisselle !"
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "D'accord. Mais d'abord, passe-moi le torchon."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

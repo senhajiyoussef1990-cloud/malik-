@@ -1,0 +1,225 @@
+{
+  "ep": "s2_78",
+  "nom": "EP78_Fabrique_ici_presque",
+  "badge": "ÉPISODE 78",
+  "titre": "« FABRIQUÉ ICI »… PRESQUE",
+  "sous": "« Le dernier pli »",
+  "accroche": "Sur ce paquet il y a le clocher d'ici. C'est forcément local !",
+  "apres": "s2_77",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Sur ce paquet il y a le clocher d'ici. C'est forcément local !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Lis le verbe juste avant le nom du village."
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "« Emballé ». Tiens, je pensais avoir lu « fabriqué »."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Regarde ce chariot qui descend de la vallée."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la boutique du fromager."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un chariot descend la vallée avec des meules déjà faites."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Au village, le marchand déplie des feuilles ornées du clocher."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Approchez, voici notre fromage du village !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La factrice reconnaît le chariot qu'elle a croisé ce matin."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Elle suit la meule, du chariot jusqu'au papier."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Ici, la seule étape qu'elle a vue, c'est le dernier pli."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Où était le lait avant d'arriver dans ce papier ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Le clocher est bien d'ici. Le papier aussi, peut-être."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Elle sépare trois étapes : le lait, le fromage et l'emballage."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "La petite étiquette a fait moins de chemin que le fromage."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le marchand écrit les trois lieux sur sa petite ardoise."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Cette fois, même mon clocher sait où il habite !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Emballer, transformer et produire les ingrédients sont des étapes distinctes."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Une adresse peut être celle de l'emballeur. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Une seule adresse ne raconte donc pas tout le trajet ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Exact. Suis l'ingrédient qui compte pour toi."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je cherche le lieu correspondant à l'étape qui m'intéresse. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Et si ce n'est pas indiqué, je peux le demander. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Demande où c'est fait, pas où c'est emballé."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Le prochain paquet, je le retourne avant de regarder le clocher."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu viens de suivre les trois étapes ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Oui. Cette petite meule a davantage voyagé que son papier."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Et son adresse raconte enfin quelque chose de précis."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

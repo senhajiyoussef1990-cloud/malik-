@@ -1,0 +1,225 @@
+{
+  "ep": "s2_81",
+  "nom": "EP81_La_fausse_video",
+  "badge": "ÉPISODE 81",
+  "titre": "LA FAUSSE VIDÉO",
+  "sous": "« Le tableau du pont »",
+  "accroche": "J'ai vu la vidéo du maire qui saute dans la rivière !",
+  "apres": "s2_80",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "J'ai vu la vidéo du maire qui saute dans la rivière !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qui a filmé et qui a publié l'original ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Je vois seulement quelqu'un qui l'a repartagée."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Un portraitiste a déjà mis notre village en émoi avec un simple pinceau."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : l'atelier du portraitiste."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un peintre trace un pont, puis ajoute le maire au-dessus de l'eau."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Un beau cadre et une date complètent le tableau."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Voici le fameux plongeon de dimanche !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Une passante reconnaît le foulard du maire et raconte le plongeon au café."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Le cantonnier montre alors son registre de travaux."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Dimanche, le pont n'avait même plus son tablier."
+    ],
+    [
+      "s07a",
+      7,
+      "figurante",
+      0.5,
+      "Mais le foulard, lui, est vraiment ressemblant !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Moi aussi, j'aurais reconnu le foulard en une seconde."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Un détail familier peut rendre une scène inventée très convaincante."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le cadre est neuf, mais le peintre a sali les bords exprès."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le peintre retourne la toile : il avait commencé avant dimanche."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Je l'avais imaginé, ce plongeon !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "La familiarité d'un visage ne suffit pas à authentifier une séquence."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Une image ou une voix ressemblante demande aussi une source. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Je peux envoyer la vidéo juste pour demander si elle est vraie ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Commence par chercher sa source. La repartager peut faire circuler l'erreur."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je cherche la publication d'origine et des témoignages indépendants. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Je garde le partage en brouillon pendant que je vérifie. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Voir n'est plus toujours croire."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je viens de retrouver la version complète dans le compte d'origine."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et qu'est-ce qu'on voit autour de l'extrait ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Le créateur explique son trucage à la fin. Cette partie avait été coupée."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Ce bout d'image changeait toute l'histoire."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -28,7 +28,8 @@ function s2modern(c,t,stage){
 }
 function s2props(c,t,stage,u){
  const k=S2.kind,n=Math.min(3,Math.floor((stage+1)/3));
- if(k==='drawers'){
+ if(k==='objet'){s2counter(c);objetFable(c,S2.numero,t,stage,u);
+ }else if(k==='drawers'){
   s2rect(c,355,245,370,365,'#857564','#46392b',5);
   for(let i=0;i<9;i++){let x=370+i%3*115,y=270+Math.floor(i/3)*100,o=i===stage%9?u:0;s2rect(c,x,y,108,80,'#b6a58e');s2rect(c,x-16*o,y+14*o,108,65,o>.1?'#dfd3ba':'#a69278');s2circle(c,x+54-16*o,y+40+14*o,8,'#44372b');if(o>.4){if(stage%3===0)s2circle(c,x+52,y+32,15,'#ddd4bc');else if(stage%3===1)s2line(c,x+24,y+24,x+80,y+53,'#4d4032',5);}}
  }else if(k==='bell'){
@@ -71,3 +72,4 @@ function s2Fable(c,t,u,stage,id){
  else{s2person(c,t,215+([4,6].includes(stage)?u*30:0),false,null,1,move,.48);s2person(c,t,855,true,m?id:null,-1,move,.5);}
  if(S2.kind==='queue'&&[3,4,5].includes(stage)){s2person(c,t,115,false,null,1,0,.31);s2person(c,t,310,false,null,1,0,.33);}
 }
+

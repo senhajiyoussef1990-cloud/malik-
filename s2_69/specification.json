@@ -1,0 +1,225 @@
+{
+  "ep": "s2_69",
+  "nom": "EP69_Les_coffres_surprises_des_jeux",
+  "badge": "ÉPISODE 69",
+  "titre": "LES COFFRES SURPRISES DES JEUX",
+  "sous": "« Le coffre aux boutons »",
+  "accroche": "J'ai encore des cristaux. Juste un coffre de plus !",
+  "apres": "s2_68",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "J'ai encore des cristaux. Juste un coffre de plus !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Combien coûte ce « juste un » en euros ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Attends, j'ai acheté les cristaux par paquet."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Ouvre plutôt cette histoire de pochettes et de boutons."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : le stand de pochettes."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Une foraine échange des pièces contre des jetons étoilés."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Trois jetons ouvrent une pochette."
+    ],
+    [
+      "s05a",
+      5,
+      "figurante",
+      0.5,
+      "Dans l'une d'elles, une figurine dorée !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "La première contient un bouton gris. La deuxième aussi."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Le garçon compte ses boutons, puis fouille dans ses poches."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Il retrouve le ticket où figure le prix des jetons."
+    ],
+    [
+      "s07a",
+      7,
+      "figurant",
+      0.5,
+      "J'ai payé six jetons pour deux boutons ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Je poursuivais une figurine sans regarder mon ticket."
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Les étoiles ont changé de nom, mais tes pièces ont quitté ta poche."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le bouton ne dit rien sur le contenu de la pochette suivante."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Il inscrit le prix d'une pochette sur le ticket avant de repartir."
+    ],
+    [
+      "s09b",
+      9,
+      "figurante",
+      0.5,
+      "La surprise reste une surprise, même après dix boutons !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Les lots de monnaie virtuelle peuvent rendre le coût d'un achat moins évident."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Je traduis le prix du coffre en argent. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Il me reste des cristaux. Ça me donne envie d'en racheter."
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Un reste sur un écran ne t'oblige pas à compléter le paquet."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je choisis avant d'ouvrir combien je veux dépenser. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Et si je veux cet objet précis, le hasard ne le promet pas. »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Les jetons font oublier les vrais sous."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'ai mis le prix en euros à côté du prix en cristaux."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Tu cherchais quoi, au départ ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Une figurine précise. Pas une collection de boutons."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Alors regarde s'il existe un moyen de la choisir directement."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

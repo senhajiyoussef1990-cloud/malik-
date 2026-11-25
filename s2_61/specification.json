@@ -1,0 +1,225 @@
+{
+  "ep": "s2_61",
+  "nom": "EP61_Achete_maintenant_paie_plus_tard",
+  "badge": "ÉPISODE 61",
+  "titre": "« ACHÈTE MAINTENANT, PAIE PLUS TARD »",
+  "sous": "« Une croix, quatre passages »",
+  "accroche": "Ces bottes, je peux repartir avec pour quinze euros !",
+  "apres": "s2_60",
+  "noms": {
+    "figurant": "HABITANT",
+    "figurante": "HABITANTE"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Ces bottes, je peux repartir avec pour quinze euros !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Et les trois lignes en dessous ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Tiens, il y a encore trois dates."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "J'ai connu un colporteur qui vendait ses bottes avec un calendrier. Regarde."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voyageons dans une fable des années trente. Direction : la boutique du colporteur."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Le colporteur délace une paire de bottes et les tend à Léon."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Sur sa tablette, quatre cases attendent une croix."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Une petite signature et vous repartez chaussé !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Léon pose quinze francs. Le marchand marque la première case."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Un mois plus tard, les semelles portent déjà des traces."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "La deuxième case, elle, est toute neuve."
+    ],
+    [
+      "s07a",
+      7,
+      "figurant",
+      0.5,
+      "Mais j'ai déjà payé ces bottes !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Comment l'achat peut-il être terminé si les paiements commencent à peine ?"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Il a payé un quart. Ses pieds ont reçu le tout."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Ce n'est que le premier trait sur la tablette."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le marchand retourne la tablette pour montrer les trois cases restantes."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Même si vous les laissez au placard, je repasse mardi."
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Les petites sommes de plusieurs achats peuvent tomber le même jour."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Voici ce que le Mouton en retient : « Quatre fois quinze, ça fait soixante. »"
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Et si j'additionne plusieurs petites mensualités ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Chaque achat a sa ligne, mais tu n'as qu'un porte-monnaie."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Premier geste : « Je regarde chaque échéance sur mon calendrier. »"
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Et cette réflexion : « Mon autre achat tombe le même mardi ! »"
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Payer plus tard, c'est toujours payer."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Tu me passes le calendrier ? Je vais y noter les dates."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Les dates sont là. Laquelle tombe le jour du loyer ?"
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Celle-ci. Elle m'avait complètement échappé."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Cette case-là compte autant que le gros chiffre de la vitrine."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}
