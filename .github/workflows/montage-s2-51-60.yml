@@ -1,0 +1,83 @@
+name: Montage prioritaire — épisode 51
+on:
+  push:
+    branches: [production/saison2-51-60]
+    paths: [.github/workflows/montage-s2-51-60.yml]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  montage:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        numero: [51]
+    env:
+      EP: s2_${{ matrix.numero }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 9bb72a75c6bd1bbcb8cc50199e7ab883a562d040
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Préparer les scènes
+        run: python outils_commun/preparer_saison2.py "${{ matrix.numero }}"
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: 45499684959
+          name: voix-${{ matrix.numero }}
+          path: pistes
+      - name: Vérifier les pistes et installer le moteur de rendu
+        run: |
+          python - <<'PY'
+          import os, json, shutil
+          from pathlib import Path
+          ep = Path(os.environ['EP'])
+          for ligne in json.loads((ep/'lignes.json').read_text()):
+              nom = ligne['id']+'.mp3'
+              shutil.copyfile(Path('pistes/voix')/nom, ep/'voix'/nom)
+          PY
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg zip fonts-dejavu fonts-liberation
+          cd anim_code
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          python -m pip install faster-whisper==1.2.1 pillow numpy scipy noisereduce
+      - name: Monter et vérifier le ZIP
+        run: |
+          sh "outils_commun/fin_${EP}.sh"
+          python - <<'PY'
+          import json, os, subprocess, zipfile
+          from pathlib import Path
+          ep = Path(os.environ['EP'])
+          nom = json.loads((ep/'specification.json').read_text())['nom']
+          sortie = ep/'sortie'
+          assert (sortie/(nom+'.mp4.fin')).is_file(), 'Carton final manquant'
+          with zipfile.ZipFile(sortie/(nom+'.zip')) as z:
+              assert z.testzip() is None
+              assert all(z.getinfo(nom+suffix).file_size for suffix in ('.mp4','_story.png','_couverture.png','_publications.txt'))
+          video = sortie/(nom+'.mp4')
+          streams = json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-of','json',video]))['streams']
+          assert any(s.get('width')==1080 and s.get('height')==1920 for s in streams)
+          assert any(s['codec_type']=='audio' for s in streams)
+          subprocess.run(['ffmpeg','-v','error','-xerror','-i',video,'-f','null','-'],check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Episode-${{ matrix.numero }}
+          path: ${{ env.EP }}/sortie/*.zip
+          if-no-files-found: error
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: diagnostic-montage-${{ matrix.numero }}
+          path: |
+            anim_code/travail/*.log
+            ${{ env.EP }}/travail/*.log
+          if-no-files-found: ignore
