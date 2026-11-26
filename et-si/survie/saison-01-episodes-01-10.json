@@ -1,0 +1,703 @@
+{
+  "series": "Et si ? — Saurais-tu survivre ?",
+  "season": 1,
+  "status": "draft_for_safety_review",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "episodes": [
+    {
+      "id": "EP01",
+      "title": "Et si ta voiture tombe dans l’eau ?",
+      "sources": [
+        "https://doi.org/10.1177/10806032241227460",
+        "https://doi.org/10.1016/J.WEM.2019.06.007"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Ta voiture tombe dans un canal. N’attends surtout pas qu’elle se remplisse d’eau.",
+          "visual": "Voiture entrant dans canal, vue intérieure",
+          "sfx": "Splash",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Détache immédiatement ta ceinture et ouvre une vitre latérale tant que c’est possible.",
+          "visual": "Gros plans ceinture et bouton vitre",
+          "sfx": "Clic",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Si elle bloque, utilise un brise-vitre adapté au verre trempé. Le verre feuilleté résiste à ces outils.",
+          "visual": "Outil et schéma comparatif des vitrages",
+          "sfx": "Tintement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Libère les enfants et fais-les sortir avant toi, en les aidant selon leur âge.",
+          "visual": "Adulte aidant des enfants par vitre ouverte",
+          "sfx": "Eau",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Sors sans attendre. Ne perds pas de temps à récupérer ton téléphone ou à forcer une porte.",
+          "visual": "Sortie par vitre, téléphone laissé",
+          "sfx": "Souffle",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Rejoins un endroit sûr ou agrippe-toi à un support flottant. Appelle les secours dès que possible.",
+          "visual": "Personnage hors véhicule, secours alertés",
+          "sfx": "Ambiance calme",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si ta voiture tombe dans l’eau ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://doi.org/10.1177/10806032241227460\nhttps://doi.org/10.1016/J.WEM.2019.06.007\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP02",
+      "title": "Et si tes freins lâchent sur l’autoroute ?",
+      "sources": [
+        "https://qr.dmv.ca.gov/portal/driver-education-and-safety/special-interest-driver-guides/teen-drivers/"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Tu roules sur l’autoroute et la pédale de frein ne répond plus. Garde le contrôle du volant.",
+          "visual": "Habitacle, pédale, route",
+          "sfx": "Tension",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Relâche l’accélérateur, allume les feux de détresse et avertis les autres si nécessaire.",
+          "visual": "Pied et bouton warning",
+          "sfx": "Clignotant",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Avec un freinage ABS, appuie fermement sur la pédale. Ne confonds pas vibrations et panne.",
+          "visual": "Pédale et schéma ABS",
+          "sfx": "Vibration",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Rétrograde progressivement si ton véhicule le permet. Ne coupe pas le moteur en roulant.",
+          "visual": "Sélecteur et baisse vitesse",
+          "sfx": "Moteur",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Utilise prudemment le frein de stationnement selon le manuel du véhicule. Évite de bloquer les roues.",
+          "visual": "Illustration frein mécanique et électrique distincts",
+          "sfx": "Tension",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Cherche une zone dégagée pour t’arrêter. Une fois en sécurité, appelle les secours ou l’assistance.",
+          "visual": "Arrêt hors circulation",
+          "sfx": "Résolution",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si tes freins lâchent sur l’autoroute ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://qr.dmv.ca.gov/portal/driver-education-and-safety/special-interest-driver-guides/teen-drivers/\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP03",
+      "title": "Et si tu t’étouffes alors que tu es seul ?",
+      "sources": [
+        "https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Tu avales de travers et personne n’est là. Si tu peux encore tousser fortement, continue de tousser.",
+          "visual": "Adulte à table, toux",
+          "sfx": "Toux",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Si tu ne peux plus parler, respirer ou tousser efficacement, c’est une urgence vitale.",
+          "visual": "Schéma obstruction complète",
+          "sfx": "Pulsation",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Appelle immédiatement le 112 si possible, même si tu ne peux pas parler. Attire l’attention autour de toi.",
+          "visual": "Téléphone en appel, porte voisine",
+          "sfx": "Bip",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Place ton poing juste au-dessus du nombril, sous le sternum. Saisis-le avec l’autre main.",
+          "visual": "Démonstration anatomique adulte",
+          "sfx": "Ambiance neutre",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Effectue des poussées rapides vers l’intérieur et le haut. Ou appuie cette zone contre un dossier solide non tranchant.",
+          "visual": "Démonstration sur mannequin, dossier stable",
+          "sfx": "Impact doux",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Continue jusqu’à expulsion ou arrivée de l’aide. Fais-toi examiner après des poussées abdominales.",
+          "visual": "Secouriste et adulte, schéma rappel",
+          "sfx": "Résolution",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si tu t’étouffes alors que tu es seul ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP04",
+      "title": "Et si un requin s’approche de toi ?",
+      "sources": [
+        "https://www.floridamuseum.ufl.edu/shark-attacks/reduce-risk/quick-tips/"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Un requin s’approche pendant que tu nages. Une morsure reste rare, mais voici comment réagir.",
+          "visual": "Nageur et requin à distance",
+          "sfx": "Ambiance marine",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Évite les grands mouvements désordonnés et les éclaboussures. Garde le requin dans ton champ de vision.",
+          "visual": "Nageur calme",
+          "sfx": "Eau",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Éloigne-toi progressivement, sans lui tourner le dos si possible. Rejoins la plage ou le bateau.",
+          "visual": "Trajectoire vers sortie",
+          "sfx": "Souffle",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Si le requin tente de te mordre, défends-toi. Ne fais pas le mort.",
+          "visual": "Silhouette défensive non graphique",
+          "sfx": "Tension",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "En cas d’attaque, les yeux et les branchies sont des zones sensibles. Repousse-le pour pouvoir t’échapper.",
+          "visual": "Schéma anatomique requin, aucun contact graphique",
+          "sfx": "Impact",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Sors de l’eau et alerte les secours. En cas de morsure, comprime directement la plaie qui saigne.",
+          "visual": "Nageur sur rive, aide et compression",
+          "sfx": "Résolution",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si un requin s’approche de toi ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.floridamuseum.ufl.edu/shark-attacks/reduce-risk/quick-tips/\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP05",
+      "title": "Et si ta maison prend feu pendant ton sommeil ?",
+      "sources": [
+        "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+        "https://www.usfa.fema.gov/downloads/pdf/publications/fire_safety_trailer_curriculum.pdf",
+        "https://www.usfa.fema.gov/prevention/fief/index.html"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Le détecteur de fumée te réveille. Ne cherche pas tes affaires : prépare-toi à évacuer immédiatement.",
+          "visual": "Chambre nocturne, alarme",
+          "sfx": "Alarme",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Si la porte est fermée, vérifie sa chaleur avec le dos de la main. Si elle est chaude, ne l’ouvre pas.",
+          "visual": "Main près porte, pictogramme",
+          "sfx": "Tension",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Prends une autre sortie sûre. Si tu dois traverser de la fumée pour sortir, reste près du sol.",
+          "visual": "Couloir, déplacement bas",
+          "sfx": "Crépitement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Ferme les portes derrière toi si possible. Dans un immeuble, n’utilise pas l’ascenseur.",
+          "visual": "Porte fermée, escalier sûr",
+          "sfx": "Clic",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Si aucune sortie n’est praticable, reste derrière une porte fermée, appelle le 112 et signale ta position.",
+          "visual": "Pièce refuge, appel",
+          "sfx": "Bip",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Une fois dehors, reste dehors. Indique aux pompiers si quelqu’un manque à l’appel.",
+          "visual": "Famille au point de rassemblement",
+          "sfx": "Sirène lointaine",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si ta maison prend feu pendant ton sommeil ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/\nhttps://www.usfa.fema.gov/downloads/pdf/publications/fire_safety_trailer_curriculum.pdf\nhttps://www.usfa.fema.gov/prevention/fief/index.html\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP06",
+      "title": "Et si tu tombes dans un lac gelé ?",
+      "sources": [
+        "https://www.dnr.state.mn.us/safety/ice/survival.html"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "La glace cède sous tes pieds. L’eau glacée peut perturber immédiatement ta respiration.",
+          "visual": "Rupture glace, vue large",
+          "sfx": "Craquement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Garde la tête hors de l’eau, maîtrise ta respiration autant que possible et appelle à l’aide.",
+          "visual": "Personnage agrippé bord",
+          "sfx": "Souffle",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Ne retire pas tes vêtements dans l’eau. Tourne-toi vers le chemin par lequel tu es arrivé.",
+          "visual": "Flèche retour",
+          "sfx": "Eau",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Pose tes avant-bras sur la glace, bats des jambes et utilise des pics de glace si tu en as.",
+          "visual": "Démonstration latérale",
+          "sfx": "Frottement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Une fois sorti, reste allongé et roule loin du trou pour répartir ton poids.",
+          "visual": "Vue du dessus, roulade",
+          "sfx": "Glissement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Rejoins un abri, retire les vêtements mouillés, couvre-toi et demande une aide médicale urgente.",
+          "visual": "Abri et couverture sèche",
+          "sfx": "Résolution",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si tu tombes dans un lac gelé ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.dnr.state.mn.us/safety/ice/survival.html\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP07",
+      "title": "Et si un tsunami arrive sur la plage ?",
+      "sources": [
+        "https://www.weather.gov/safety/tsunami-during"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "La mer se retire anormalement. Ce n’est pas le moment de descendre sur le sable pour filmer.",
+          "visual": "Plage, retrait eau",
+          "sfx": "Grave",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Un fort séisme, un grondement inhabituel ou une variation soudaine de la mer peuvent annoncer un tsunami.",
+          "visual": "Trois pictogrammes",
+          "sfx": "Pulsation",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Si le sol tremble, protège-toi pendant les secousses. Dès que tu peux bouger, éloigne-toi du littoral.",
+          "visual": "Protection puis évacuation",
+          "sfx": "Grondement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Pars immédiatement vers les hauteurs ou l’intérieur des terres. N’attends pas une alerte officielle.",
+          "visual": "Carte, flèches vers colline",
+          "sfx": "Pas",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Suis les itinéraires d’évacuation. Ne retourne pas chercher des affaires et ne reste pas observer les vagues.",
+          "visual": "Panneaux et foule calme",
+          "sfx": "Vent",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "La première vague n’est pas forcément la plus forte. Reste hors de la zone jusqu’au feu vert des autorités.",
+          "visual": "Vagues successives en schéma, zone sûre",
+          "sfx": "Résolution",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si un tsunami arrive sur la plage ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.weather.gov/safety/tsunami-during\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP08",
+      "title": "Et si ton avion doit amerrir en urgence ?",
+      "sources": [
+        "https://www.easa.europa.eu/en/the-agency/faqs/passengers",
+        "https://www.faa.gov/evacuations"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Le personnel annonce un amerrissage d’urgence. Écoute les consignes : elles sont essentielles.",
+          "visual": "Cabine et équipage",
+          "sfx": "Annonce",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Repère les sorties et consulte la fiche de sécurité de ton appareil. La sortie la plus proche peut être derrière toi.",
+          "visual": "Fiche et éclairage sorties",
+          "sfx": "Clic",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Attache correctement ta ceinture et adopte la position de protection indiquée par l’équipage.",
+          "visual": "Mannequin assis, consigne contextualisée",
+          "sfx": "Tension",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Mets ton gilet selon les instructions. Ne le gonfle pas à l’intérieur de la cabine.",
+          "visual": "Gilet non gonflé",
+          "sfx": "Frottement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Au signal de l’équipage, évacue par une sortie utilisable. Laisse absolument tous tes bagages.",
+          "visual": "Passagers sans sacs",
+          "sfx": "Ambiance cabine",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Gonfle le gilet à l’extérieur selon les consignes, rejoins le radeau si disponible et suis les instructions des secours.",
+          "visual": "Radeau et passagers",
+          "sfx": "Eau",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si ton avion doit amerrir en urgence ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.easa.europa.eu/en/the-agency/faqs/passengers\nhttps://www.faa.gov/evacuations\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP09",
+      "title": "Et si un chien agressif fonce sur toi ?",
+      "sources": [
+        "https://www.cdc.gov/healthy-pets/about/dogs.html"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Un chien inconnu grogne et fonce vers toi. Ton premier réflexe pourrait être de courir. Évite-le.",
+          "visual": "Chien approche, personne immobile",
+          "sfx": "Grognement",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Reste calme, immobile si possible, et évite de crier ou d’agiter les bras.",
+          "visual": "Personnage stable",
+          "sfx": "Souffle",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Place-toi légèrement de côté et évite de fixer directement ses yeux.",
+          "visual": "Vue latérale, regard détourné",
+          "sfx": "Ambiance",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Quand c’est possible, recule lentement. Ne cherche pas à caresser ou provoquer le chien.",
+          "visual": "Recul lent, distance",
+          "sfx": "Pas",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Si tu es renversé, recroqueville-toi et protège ta tête et ton cou.",
+          "visual": "Mannequin en position protectrice",
+          "sfx": "Impact doux",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Une morsure doit être lavée et évaluée médicalement. Si le saignement est grave, comprime et appelle le 112.",
+          "visual": "Lavage, compression et secours",
+          "sfx": "Résolution",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si un chien agressif fonce sur toi ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.cdc.gov/healthy-pets/about/dogs.html\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    },
+    {
+      "id": "EP10",
+      "title": "Et si un courant marin t’emporte ?",
+      "sources": [
+        "https://www.weather.gov/safety/ripcurrent-surviving",
+        "https://www.weather.gov/tae/ripcurrentawareness"
+      ],
+      "scenes": [
+        {
+          "start": 0,
+          "end": 9,
+          "voiceover": "Tu nages vers la plage, mais tu t’en éloignes. Tu es peut-être pris dans un courant d’arrachement.",
+          "visual": "Vue aérienne, courant vers large",
+          "sfx": "Vagues",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "voiceover": "Ne lutte pas directement contre le courant : tu risques de t’épuiser.",
+          "visual": "Flèche opposée barrée",
+          "sfx": "Tension",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 18,
+          "end": 27,
+          "voiceover": "Flotte ou maintiens-toi à la surface pour économiser tes forces. Respire calmement.",
+          "visual": "Nageur flottant sur dos",
+          "sfx": "Eau",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 27,
+          "end": 36,
+          "voiceover": "Si tu peux nager efficacement, déplace-toi parallèlement à la plage pour sortir du courant.",
+          "visual": "Carte animée flèche parallèle",
+          "sfx": "Whoosh",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 36,
+          "end": 45,
+          "voiceover": "Une fois sorti du courant, retourne vers la rive si tu en as la force. Sinon, continue de flotter.",
+          "visual": "Trajectoire vers plage",
+          "sfx": "Vagues",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 45,
+          "end": 54,
+          "voiceover": "Crie et fais signe aux sauveteurs dès que possible. Depuis la plage, alerte les secours plutôt que d’entrer sans formation.",
+          "visual": "Sauveteur avec matériel flottant",
+          "sfx": "Résolution",
+          "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+        },
+        {
+          "start": 54,
+          "end": 60,
+          "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+          "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+          "sfx": "Signature musicale"
+        }
+      ],
+      "youtube": {
+        "title": "Et si un courant marin t’emporte ? #Shorts",
+        "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.weather.gov/safety/ripcurrent-surviving\nhttps://www.weather.gov/tae/ripcurrentawareness\n#EtSi #Survie #Sécurité #Shorts"
+      }
+    }
+  ]
+}
