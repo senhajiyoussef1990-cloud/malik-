@@ -1,0 +1,61 @@
+{
+  "id": "EP05",
+  "title": "Incendie pendant le sommeil",
+  "source": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+  "source_status": "à confirmer directement",
+  "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "voix": "Le détecteur de fumée te réveille. Ne récupère pas tes affaires.",
+      "visuel": "Alarme",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Alarme. Aucun geste ajouté.",
+      "son": "Ambiance domestique, accent de tension"
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "voix": "Si la porte est chaude, ne l’ouvre pas. Cherche une autre sortie sûre.",
+      "visuel": "Porte",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Porte. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "voix": "Si tu dois passer dans la fumée pour sortir, reste près du sol. N’utilise pas l’ascenseur.",
+      "visuel": "Sortie basse",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Sortie basse. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 31,
+      "end": 43,
+      "voix": "Si tu es bloqué, ferme la porte, appelle le 112 et signale où tu te trouves.",
+      "visuel": "Pièce refuge",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Pièce refuge. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "voix": "Une fois dehors, reste dehors et informe les pompiers si quelqu’un manque.",
+      "visuel": "Rassemblement",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Rassemblement. Aucun geste ajouté.",
+      "son": "Ambiance calme"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "visuel": "Logo choisi, partage et abonnement",
+      "son": "Signature musicale"
+    }
+  ],
+  "publication": {
+    "titre": "Et si… Incendie pendant le sommeil ? #Shorts",
+    "description": "Simulation éducative Incendie pendant le sommeil. Suis les consignes des secours. Source à valider avant publication : https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+    "social": "Incendie pendant le sommeil : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+  }
+}
