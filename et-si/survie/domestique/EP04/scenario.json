@@ -1,0 +1,61 @@
+{
+  "id": "EP04",
+  "title": "Téléphone qui prend feu",
+  "source": "https://www.london-fire.gov.uk/safety/lithium-batteries/",
+  "source_status": "à confirmer directement",
+  "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "voix": "Ton téléphone chauffe anormalement, gonfle ou fume ? Ne l’ignore pas.",
+      "visuel": "Téléphone gonflé",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Téléphone gonflé. Aucun geste ajouté.",
+      "son": "Ambiance domestique, accent de tension"
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "voix": "Arrête de l’utiliser. Débranche l’alimentation uniquement si cela ne te met pas en danger.",
+      "visuel": "Prise accessible",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Prise accessible. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "voix": "S’il fume ou brûle, ne le manipule pas et ne respire pas les fumées.",
+      "visuel": "Fumée, mains éloignées",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Fumée, mains éloignées. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 31,
+      "end": 43,
+      "voix": "Évacue le logement, avertis les autres et ferme les portes si possible.",
+      "visuel": "Évacuation",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Évacuation. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "voix": "Appelle le 112 dehors. Ne retourne pas chercher l’appareil.",
+      "visuel": "Appel",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+      "son": "Ambiance calme"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "visuel": "Logo choisi, partage et abonnement",
+      "son": "Signature musicale"
+    }
+  ],
+  "publication": {
+    "titre": "Et si… Téléphone qui prend feu ? #Shorts",
+    "description": "Simulation éducative Téléphone qui prend feu. Suis les consignes des secours. Source à valider avant publication : https://www.london-fire.gov.uk/safety/lithium-batteries/",
+    "social": "Téléphone qui prend feu : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+  }
+}
