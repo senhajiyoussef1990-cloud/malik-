@@ -1,0 +1,61 @@
+{
+  "id": "EP02",
+  "title": "Étouffement seul",
+  "source": "https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking",
+  "source_status": "auto-secours à confirmer",
+  "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "voix": "Tu avales de travers et tu es seul. Peux-tu encore tousser ?",
+      "visuel": "Adulte à table",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Adulte à table. Aucun geste ajouté.",
+      "son": "Ambiance domestique, accent de tension"
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "voix": "Si ta toux est efficace, continue de tousser.",
+      "visuel": "Toux efficace",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Toux efficace. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "voix": "Si tu ne peux plus respirer ou parler, appelle le 112 si possible et cherche immédiatement de l’aide.",
+      "visuel": "Téléphone haut-parleur et voisin",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Téléphone haut-parleur et voisin. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 31,
+      "end": 43,
+      "voix": "Pour un adulte seul, des poussées abdominales sur soi-même peuvent être envisagées : fais-toi former à ce geste.",
+      "visuel": "Mannequin sans démonstration non validée",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Mannequin sans démonstration non validée. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "voix": "Après des poussées abdominales, demande un examen médical.",
+      "visuel": "Consultation",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Consultation. Aucun geste ajouté.",
+      "son": "Ambiance calme"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "visuel": "Logo choisi, partage et abonnement",
+      "son": "Signature musicale"
+    }
+  ],
+  "publication": {
+    "titre": "Et si… Étouffement seul ? #Shorts",
+    "description": "Simulation éducative Étouffement seul. Suis les consignes des secours. Source à valider avant publication : https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking",
+    "social": "Étouffement seul : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+  }
+}
