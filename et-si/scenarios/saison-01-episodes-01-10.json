@@ -15,7 +15,7 @@
     "timing": "10 blocs indicatifs de 5,5 s ; enregistrer la voix puis recaler le montage sur les durées réelles, micro-coupes toutes les 2 à 3 s.",
     "audio": "Cible indicative -14 LUFS intégrés, crête vraie <= -1 dBTP ; vérifier intelligibilité et éviter saturation.",
     "publication": "3 Shorts/jour après contrôle humain ; pas de publication automatique sans validation. Mentionner simulation et signaler les images synthétiques réalistes si nécessaire.",
-    "editorial": "Faits séparés des hypothèses. Les sources sont des références scientifiques de départ ; les conséquences spéculatives doivent rester conditionnelles. Pas de gore, pas de fausse précision."
+    "editorial": "Faits séparés des hypothèses. Les sources sont des références scientifiques de départ ; les conséquences spéculatives doivent rester conditionnelles. Pas de gore, pas de fausse précision. Règle d'ouverture : chaque épisode commence par sa question « Et si … ? », dite et affichée dès la première seconde, avant toute autre phrase. Règle d'outro : la scène 10 annonce l'épisode suivant (question complète) puis appelle à s'abonner « pour voir la suite »."
   },
   "episodes": [
     {
@@ -33,8 +33,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Une seconde suffit pour transformer la Terre en un monde méconnaissable. Et si elle arrêtait de tourner ?",
-          "visual": "Plan orbital Terre en rotation, arrêt brutal du globe, texte ET SI ?",
+          "narration": "Et si la Terre s'arrêtait de tourner ? En une seconde, tout changerait.",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Plan orbital Terre en rotation, arrêt brutal du globe, texte ET SI ?",
           "sfx": "Impact grave, coupure musicale",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -114,16 +114,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Tu ne sens jamais la rotation terrestre. Pourtant, c'est elle qui rythme ta vie. Quel scénario ensuite ?",
-          "visual": "Retour au globe initial en rotation, boucle visuelle, logo Et si ?",
-          "sfx": "Résolution musicale",
+          "narration": "Prochain épisode : et si la gravité disparaissait pendant cinq secondes ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? a gravité disparaissait pendant 5 secondes ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Une seconde suffit pour transformer la Terre en un monde méconnaissable. Et si elle arrêtait de tourner ? À l'équateur, tu te déplaces déjà à environ mille six cent soixante-dix kilomètres par heure. Tu ne le sens pas, parce que le sol et l'air tournent normalement avec toi. Mais si le sol s'immobilisait, tout ce qui n'est pas fixé continuerait vers l'est. L'atmosphère garderait aussi son mouvement. Des vents dévastateurs balaieraient de vastes régions. Les océans continueraient leur course, provoquant d'immenses inondations près des côtes. Près des pôles, les effets de la vitesse initiale seraient moins violents. Et la gravité ? Elle ne disparaîtrait pas. La Terre resterait en orbite autour du Soleil. À long terme, une journée solaire durerait environ une année, bouleversant les climats. Tu ne sens jamais la rotation terrestre. Pourtant, c'est elle qui rythme ta vie. Quel scénario ensuite ?",
+      "narration": "Et si la Terre s'arrêtait de tourner ? En une seconde, tout changerait. À l'équateur, tu te déplaces déjà à environ mille six cent soixante-dix kilomètres par heure. Tu ne le sens pas, parce que le sol et l'air tournent normalement avec toi. Mais si le sol s'immobilisait, tout ce qui n'est pas fixé continuerait vers l'est. L'atmosphère garderait aussi son mouvement. Des vents dévastateurs balaieraient de vastes régions. Les océans continueraient leur course, provoquant d'immenses inondations près des côtes. Près des pôles, les effets de la vitesse initiale seraient moins violents. Et la gravité ? Elle ne disparaîtrait pas. La Terre resterait en orbite autour du Soleil. À long terme, une journée solaire durerait environ une année, bouleversant les climats. Prochain épisode : et si la gravité disparaissait pendant cinq secondes ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si la Terre s'arrêtait soudainement de tourner ? #Shorts",
-        "description": "Et si la Terre s'arrêtait soudainement de tourner ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://science.nasa.gov/earth/facts/\nhttps://nssdc.gsfc.nasa.gov/planetary/factsheet/\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si la Terre s'arrêtait soudainement de tourner ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si la gravité disparaissait pendant 5 secondes ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://science.nasa.gov/earth/facts/\nhttps://nssdc.gsfc.nasa.gov/planetary/factsheet/\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI la Terre s'arrêtait soudainement de tourner ?"
     },
@@ -142,8 +142,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Cinq secondes sans gravité. Tu crois que tu t'envolerais directement dans l'espace ?",
-          "visual": "Cuisine, tasse en suspension, compteur 5 secondes",
+          "narration": "Et si la gravité disparaissait pendant cinq secondes ? Tu t'envolerais vraiment dans l'espace ?",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Cuisine, tasse en suspension, compteur 5 secondes",
           "sfx": "Bip sec",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -223,16 +223,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Le vrai danger ne serait donc pas forcément de s'envoler, mais le retour brutal du poids. Et si ?",
-          "visual": "Tasse retrouvant le plan de travail, boucle du compteur",
-          "sfx": "Impact final",
+          "narration": "Prochain épisode : et si le Soleil disparaissait pendant vingt-quatre heures ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? e Soleil disparaissait pendant 24 heures ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Cinq secondes sans gravité. Tu crois que tu t'envolerais directement dans l'espace ? La gravité maintient normalement tes pieds au sol et retient les océans autour de la Terre. À la première seconde, ton poids disparaîtrait. Mais ton corps conserverait sa masse. Tu ne serais pas automatiquement projeté vers le ciel. Ton mouvement dépendrait de ta vitesse initiale. La Terre continuerait de tourner sous toi. Le contact avec le sol pourrait se perdre. Les gouttes d'eau, les objets lancés et les personnes en mouvement suivraient des trajectoires inhabituelles. L'air et les océans commenceraient à réagir à cette disparition soudaine de leur poids. Mais cinq secondes seraient trop courtes pour que toute l'atmosphère disparaisse dans l'espace. Quand la gravité reviendrait, les objets séparés du sol retomberaient, avec des risques de collisions. Le vrai danger ne serait donc pas forcément de s'envoler, mais le retour brutal du poids. Et si ?",
+      "narration": "Et si la gravité disparaissait pendant cinq secondes ? Tu t'envolerais vraiment dans l'espace ? La gravité maintient normalement tes pieds au sol et retient les océans autour de la Terre. À la première seconde, ton poids disparaîtrait. Mais ton corps conserverait sa masse. Tu ne serais pas automatiquement projeté vers le ciel. Ton mouvement dépendrait de ta vitesse initiale. La Terre continuerait de tourner sous toi. Le contact avec le sol pourrait se perdre. Les gouttes d'eau, les objets lancés et les personnes en mouvement suivraient des trajectoires inhabituelles. L'air et les océans commenceraient à réagir à cette disparition soudaine de leur poids. Mais cinq secondes seraient trop courtes pour que toute l'atmosphère disparaisse dans l'espace. Quand la gravité reviendrait, les objets séparés du sol retomberaient, avec des risques de collisions. Prochain épisode : et si le Soleil disparaissait pendant vingt-quatre heures ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si la gravité disparaissait pendant 5 secondes ? #Shorts",
-        "description": "Et si la gravité disparaissait pendant 5 secondes ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://science.nasa.gov/earth/facts/\nhttps://spaceplace.nasa.gov/what-is-gravity/en/\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si la gravité disparaissait pendant 5 secondes ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si le Soleil disparaissait pendant 24 heures ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://science.nasa.gov/earth/facts/\nhttps://spaceplace.nasa.gov/what-is-gravity/en/\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI la gravité disparaissait pendant 5 secondes ?"
     },
@@ -251,8 +251,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Si le Soleil disparaissait maintenant, tu ne le remarquerais pas tout de suite. Pourquoi ?",
-          "visual": "Soleil s'efface, ville encore éclairée",
+          "narration": "Et si le Soleil disparaissait pendant vingt-quatre heures ? Au début, tu ne remarquerais rien.",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Soleil s'efface, ville encore éclairée",
           "sfx": "Impact puis silence",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -332,16 +332,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Mais l'orbite terrestre aurait changé. Même une journée sans Soleil ne serait pas sans conséquences. Et si ?",
-          "visual": "Deux orbites superposées, retour au Soleil initial",
-          "sfx": "Impact final",
+          "narration": "Prochain épisode : et si tu tombais dans un trou noir ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? u tombais dans un trou noir ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Si le Soleil disparaissait maintenant, tu ne le remarquerais pas tout de suite. Pourquoi ? Sa lumière met environ huit minutes et vingt secondes à atteindre la Terre. Pendant ce délai, le ciel resterait normal. Même son attraction nous influencerait encore. Puis la nuit tomberait sur toute la planète. La Lune perdrait aussi sa lumière réfléchie. Sans attraction solaire, la Terre quitterait progressivement sa trajectoire orbitale habituelle. Les températures commenceraient à baisser, mais les océans stockent énormément de chaleur. En seulement vingt-quatre heures, les océans ne gèleraient pas entièrement et la planète resterait habitable par endroits. Les plantes ne pourraient plus faire de photosynthèse pendant cette nuit exceptionnelle. Si le Soleil revenait, sa lumière nous atteindrait encore avec le même retard. Mais l'orbite terrestre aurait changé. Même une journée sans Soleil ne serait pas sans conséquences. Et si ?",
+      "narration": "Et si le Soleil disparaissait pendant vingt-quatre heures ? Au début, tu ne remarquerais rien. Sa lumière met environ huit minutes et vingt secondes à atteindre la Terre. Pendant ce délai, le ciel resterait normal. Même son attraction nous influencerait encore. Puis la nuit tomberait sur toute la planète. La Lune perdrait aussi sa lumière réfléchie. Sans attraction solaire, la Terre quitterait progressivement sa trajectoire orbitale habituelle. Les températures commenceraient à baisser, mais les océans stockent énormément de chaleur. En seulement vingt-quatre heures, les océans ne gèleraient pas entièrement et la planète resterait habitable par endroits. Les plantes ne pourraient plus faire de photosynthèse pendant cette nuit exceptionnelle. Si le Soleil revenait, sa lumière nous atteindrait encore avec le même retard. Prochain épisode : et si tu tombais dans un trou noir ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si le Soleil disparaissait pendant 24 heures ? #Shorts",
-        "description": "Et si le Soleil disparaissait pendant 24 heures ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-deep-fields/\nhttps://science.nasa.gov/earth/facts/\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si le Soleil disparaissait pendant 24 heures ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si tu tombais dans un trou noir ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-deep-fields/\nhttps://science.nasa.gov/earth/facts/\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI le Soleil disparaissait pendant 24 heures ?"
     },
@@ -360,8 +360,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Tu tombes vers un trou noir. Le plus étrange, c'est que ton ami ne te verrait jamais franchir sa frontière de la même façon que toi.",
-          "visual": "Astronaute miniature, trou noir, observateur lointain",
+          "narration": "Et si tu tombais dans un trou noir ? Ton ami ne verrait pas du tout la même chose que toi.",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Astronaute miniature, trou noir, observateur lointain",
           "sfx": "Grave spatial",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -441,16 +441,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "La physique ne décrit pas complètement ce qui se passe au cœur. C'est l'une des grandes frontières de la science. Et si ?",
-          "visual": "Zoom vers noir, retour au disque initial",
-          "sfx": "Réverbération",
+          "narration": "Prochain épisode : et si les dinosaures n'avaient jamais disparu ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? es dinosaures n'avaient jamais disparu ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Tu tombes vers un trou noir. Le plus étrange, c'est que ton ami ne te verrait jamais franchir sa frontière de la même façon que toi. La lumière des étoiles serait déformée autour de lui par la courbure de l'espace-temps. En approchant, la gravité pourrait tirer davantage sur tes pieds que sur ta tête. Cette différence étirerait ton corps dans un phénomène appelé spaghettification. Près d'un petit trou noir, ces forces pourraient devenir mortelles avant même sa frontière. Un trou noir supermassif pourrait te laisser franchir cette frontière sans effet local immédiatement spectaculaire. Pour toi, le temps continuerait normalement. Tu traverserais l'horizon en un temps fini. Pour ton ami lointain, ton image semblerait ralentir, rougir, puis s'effacer. Une fois l'horizon franchi, même un message lumineux ne pourrait plus atteindre l'extérieur. La physique ne décrit pas complètement ce qui se passe au cœur. C'est l'une des grandes frontières de la science. Et si ?",
+      "narration": "Et si tu tombais dans un trou noir ? Ton ami ne verrait pas du tout la même chose que toi. La lumière des étoiles serait déformée autour de lui par la courbure de l'espace-temps. En approchant, la gravité pourrait tirer davantage sur tes pieds que sur ta tête. Cette différence étirerait ton corps dans un phénomène appelé spaghettification. Près d'un petit trou noir, ces forces pourraient devenir mortelles avant même sa frontière. Un trou noir supermassif pourrait te laisser franchir cette frontière sans effet local immédiatement spectaculaire. Pour toi, le temps continuerait normalement. Tu traverserais l'horizon en un temps fini. Pour ton ami lointain, ton image semblerait ralentir, rougir, puis s'effacer. Une fois l'horizon franchi, même un message lumineux ne pourrait plus atteindre l'extérieur. Prochain épisode : et si les dinosaures n'avaient jamais disparu ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si tu tombais dans un trou noir ? #Shorts",
-        "description": "Et si tu tombais dans un trou noir ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://science.nasa.gov/universe/what-happens-when-something-gets-too-close-to-a-black-hole/\nhttps://science.nasa.gov/universe/black-holes/\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si tu tombais dans un trou noir ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si les dinosaures n'avaient jamais disparu ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://science.nasa.gov/universe/what-happens-when-something-gets-too-close-to-a-black-hole/\nhttps://science.nasa.gov/universe/black-holes/\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI tu tombais dans un trou noir ?"
     },
@@ -469,8 +469,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Et si les dinosaures avaient survécu ? Le plus surprenant, c'est que nous n'existerions peut-être même pas.",
-          "visual": "T. rex traversant une forêt, fondu vers ville imaginaire",
+          "narration": "Et si les dinosaures n'avaient jamais disparu ? Nous n'existerions peut-être même pas.",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : T. rex traversant une forêt, fondu vers ville imaginaire",
           "sfx": "Rugissement lointain",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -550,16 +550,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Mais une surprise t'attend : les oiseaux sont des dinosaures vivants. Tu en vois probablement tous les jours. Et si ?",
-          "visual": "Transition plume fossile vers pigeon moderne",
-          "sfx": "Battements d'ailes",
+          "narration": "Prochain épisode : et si tous les humains disparaissaient du jour au lendemain ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? ous les humains disparaissaient du jour au lendemain ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Et si les dinosaures avaient survécu ? Le plus surprenant, c'est que nous n'existerions peut-être même pas. Il y a environ soixante-six millions d'années, une extinction a bouleversé la vie sur Terre. Les dinosaures non aviens disparaissent, tandis que certains oiseaux et mammifères survivent. Les mammifères occupent progressivement des niches écologiques devenues disponibles. Sans cette extinction, leur évolution aurait probablement suivi un chemin très différent. Les dinosaures auraient eux aussi évolué pendant des millions d'années, plutôt que de rester identiques. Il n'est donc pas certain qu'un tyrannosaure moderne ressemblerait à celui des fossiles. Et les humains ? Notre apparition dépend d'une longue succession de changements évolutifs. Une civilisation humaine entourée de dinosaures serait surtout une fiction amusante. Mais une surprise t'attend : les oiseaux sont des dinosaures vivants. Tu en vois probablement tous les jours. Et si ?",
+      "narration": "Et si les dinosaures n'avaient jamais disparu ? Nous n'existerions peut-être même pas. Il y a environ soixante-six millions d'années, une extinction a bouleversé la vie sur Terre. Les dinosaures non aviens disparaissent, tandis que certains oiseaux et mammifères survivent. Les mammifères occupent progressivement des niches écologiques devenues disponibles. Sans cette extinction, leur évolution aurait probablement suivi un chemin très différent. Les dinosaures auraient eux aussi évolué pendant des millions d'années, plutôt que de rester identiques. Il n'est donc pas certain qu'un tyrannosaure moderne ressemblerait à celui des fossiles. Et les humains ? Notre apparition dépend d'une longue succession de changements évolutifs. Une civilisation humaine entourée de dinosaures serait surtout une fiction amusante. Prochain épisode : et si tous les humains disparaissaient du jour au lendemain ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si les dinosaures n'avaient jamais disparu ? #Shorts",
-        "description": "Et si les dinosaures n'avaient jamais disparu ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://www.amnh.org/dinosaurs\nhttps://www.amnh.org/dinosaurs/dinosaur-facts\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si les dinosaures n'avaient jamais disparu ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si tous les humains disparaissaient du jour au lendemain ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://www.amnh.org/dinosaurs\nhttps://www.amnh.org/dinosaurs/dinosaur-facts\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI les dinosaures n'avaient jamais disparu ?"
     },
@@ -578,8 +578,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Imagine demain : plus aucun humain sur Terre. La première transformation commencerait sans même qu'un arbre pousse.",
-          "visual": "Ville animée devenant vide, voitures stationnées",
+          "narration": "Et si tous les humains disparaissaient du jour au lendemain ? La planète changerait aussitôt.",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Ville animée devenant vide, voitures stationnées",
           "sfx": "Ambiance qui se coupe",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -659,16 +659,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "La Terre continuerait sans nous. Mais notre empreinte ne disparaîtrait pas du jour au lendemain. Et si ?",
-          "visual": "Panorama ville végétalisée, retour rue initiale",
-          "sfx": "Résolution",
+          "narration": "Prochain épisode : et si Jupiter remplaçait la Lune ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? upiter remplaçait la Lune ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Imagine demain : plus aucun humain sur Terre. La première transformation commencerait sans même qu'un arbre pousse. Sans opérateurs, de nombreux réseaux électriques finiraient par s'arrêter, à des vitesses différentes. Les pompes cesseraient progressivement de fonctionner. Certains tunnels et sous-sols se rempliraient d'eau. Les animaux dépendants de nous seraient en difficulté. Certains pourraient s'échapper, d'autres non. Dans les rues, des graines germeraient dans les fissures où l'humidité le permet. Après des années, des plantes et des animaux coloniseraient de nombreuses zones abandonnées. Les bâtiments sans entretien se dégraderaient, surtout avec l'eau, le gel et la corrosion. Mais la nature ne retrouverait pas partout son état d'origine. Les espèces invasives pourraient prospérer. Les plastiques, les polluants persistants et certaines infrastructures laisseraient des traces longtemps après nous. La Terre continuerait sans nous. Mais notre empreinte ne disparaîtrait pas du jour au lendemain. Et si ?",
+      "narration": "Et si tous les humains disparaissaient du jour au lendemain ? La planète changerait aussitôt. Sans opérateurs, de nombreux réseaux électriques finiraient par s'arrêter, à des vitesses différentes. Les pompes cesseraient progressivement de fonctionner. Certains tunnels et sous-sols se rempliraient d'eau. Les animaux dépendants de nous seraient en difficulté. Certains pourraient s'échapper, d'autres non. Dans les rues, des graines germeraient dans les fissures où l'humidité le permet. Après des années, des plantes et des animaux coloniseraient de nombreuses zones abandonnées. Les bâtiments sans entretien se dégraderaient, surtout avec l'eau, le gel et la corrosion. Mais la nature ne retrouverait pas partout son état d'origine. Les espèces invasives pourraient prospérer. Les plastiques, les polluants persistants et certaines infrastructures laisseraient des traces longtemps après nous. Prochain épisode : et si Jupiter remplaçait la Lune ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si tous les humains disparaissaient du jour au lendemain ? #Shorts",
-        "description": "Et si tous les humains disparaissaient du jour au lendemain ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://www.usgs.gov/programs/ecosystems\nhttps://www.nps.gov/subjects/invasive/index.htm\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si tous les humains disparaissaient du jour au lendemain ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si Jupiter remplaçait la Lune ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://www.usgs.gov/programs/ecosystems\nhttps://www.nps.gov/subjects/invasive/index.htm\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI tous les humains disparaissaient du jour au lendemain ?"
     },
@@ -687,8 +687,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Regarde le ciel : imagine Jupiter à la place de la Lune. Ce spectacle annoncerait de sérieux problèmes.",
-          "visual": "Horizon terrestre, Jupiter gigantesque remplace Lune",
+          "narration": "Et si Jupiter remplaçait la Lune ? Le spectacle serait magnifique… et inquiétant.",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Horizon terrestre, Jupiter gigantesque remplace Lune",
           "sfx": "Grave spectaculaire",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -768,16 +768,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Le ciel serait magnifique, mais notre monde serait en danger. Mieux vaut garder notre petite Lune. Et si ?",
-          "visual": "Retour Lune normale au-dessus du paysage",
-          "sfx": "Musique résolue",
+          "narration": "Prochain épisode : et si les fourmis avaient la taille des humains ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? es fourmis avaient la taille des humains ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Regarde le ciel : imagine Jupiter à la place de la Lune. Ce spectacle annoncerait de sérieux problèmes. À cette distance, Jupiter occuperait une portion immense du ciel, bien plus grande que notre Lune. Mais le vrai problème serait sa masse : environ trois cent dix-huit fois celle de la Terre. Son attraction serait immensément supérieure à celle de notre satellite naturel. Les forces de marée déformeraient les océans et exerceraient aussi des contraintes sur la croûte. Notre planète commencerait à se déplacer fortement vers Jupiter. La vitesse actuelle de la Lune serait insuffisante pour maintenir ce nouveau couple sur une orbite circulaire stable. Selon les conditions initiales, la Terre pourrait subir une rencontre extrêmement destructive avec la planète géante. Jupiter n'aurait donc rien d'une lune géante décorative. Sa gravité dominerait le système. Le ciel serait magnifique, mais notre monde serait en danger. Mieux vaut garder notre petite Lune. Et si ?",
+      "narration": "Et si Jupiter remplaçait la Lune ? Le spectacle serait magnifique… et inquiétant. À cette distance, Jupiter occuperait une portion immense du ciel, bien plus grande que notre Lune. Mais le vrai problème serait sa masse : environ trois cent dix-huit fois celle de la Terre. Son attraction serait immensément supérieure à celle de notre satellite naturel. Les forces de marée déformeraient les océans et exerceraient aussi des contraintes sur la croûte. Notre planète commencerait à se déplacer fortement vers Jupiter. La vitesse actuelle de la Lune serait insuffisante pour maintenir ce nouveau couple sur une orbite circulaire stable. Selon les conditions initiales, la Terre pourrait subir une rencontre extrêmement destructive avec la planète géante. Jupiter n'aurait donc rien d'une lune géante décorative. Sa gravité dominerait le système. Prochain épisode : et si les fourmis avaient la taille des humains ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si Jupiter remplaçait la Lune ? #Shorts",
-        "description": "Et si Jupiter remplaçait la Lune ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html\nhttps://nssdc.gsfc.nasa.gov/planetary/factsheet/\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si Jupiter remplaçait la Lune ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si les fourmis avaient la taille des humains ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html\nhttps://nssdc.gsfc.nasa.gov/planetary/factsheet/\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI Jupiter remplaçait la Lune ?"
     },
@@ -796,8 +796,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Une fourmi de ta taille pourrait-elle soulever une voiture ? Les lois de la physique donnent une réponse étonnante.",
-          "visual": "Fourmi immense près d'une voiture, texte MYTHE OU RÉALITÉ ?",
+          "narration": "Et si les fourmis avaient la taille des humains ? Pourraient-elles soulever une voiture ?",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Fourmi immense près d'une voiture, texte MYTHE OU RÉALITÉ ?",
           "sfx": "Impact",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -877,16 +877,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Le superpouvoir des fourmis dépend justement de leur petite taille. Plus grand ne veut pas toujours dire plus fort. Et si ?",
-          "visual": "Retour macro à la fourmi portant sa miette",
-          "sfx": "Impact final",
+          "narration": "Prochain épisode : et si tu retirais ton casque dans l'espace ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? u retirais ton casque dans l'espace ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Une fourmi de ta taille pourrait-elle soulever une voiture ? Les lois de la physique donnent une réponse étonnante. Une petite fourmi peut porter plusieurs fois son propre poids. Mais agrandir un animal change les proportions physiques. Si sa longueur était multipliée par dix, sa masse serait environ mille fois plus grande. En revanche, la section de ses muscles ne serait multipliée que par cent. Son poids augmenterait donc bien plus vite que sa capacité à le supporter. Autre obstacle : les insectes respirent grâce à un réseau de tubes qui transporte l'oxygène. À cette taille, ce système devrait être profondément adapté pour alimenter ses tissus. Une fourmi agrandie sans modification aurait probablement beaucoup de mal à se déplacer et à survivre. Des insectes géants imaginaires auraient besoin d'un corps repensé, pas simplement plus grand. Le superpouvoir des fourmis dépend justement de leur petite taille. Plus grand ne veut pas toujours dire plus fort. Et si ?",
+      "narration": "Et si les fourmis avaient la taille des humains ? Pourraient-elles soulever une voiture ? Une petite fourmi peut porter plusieurs fois son propre poids. Mais agrandir un animal change les proportions physiques. Si sa longueur était multipliée par dix, sa masse serait environ mille fois plus grande. En revanche, la section de ses muscles ne serait multipliée que par cent. Son poids augmenterait donc bien plus vite que sa capacité à le supporter. Autre obstacle : les insectes respirent grâce à un réseau de tubes qui transporte l'oxygène. À cette taille, ce système devrait être profondément adapté pour alimenter ses tissus. Une fourmi agrandie sans modification aurait probablement beaucoup de mal à se déplacer et à survivre. Des insectes géants imaginaires auraient besoin d'un corps repensé, pas simplement plus grand. Prochain épisode : et si tu retirais ton casque dans l'espace ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si les fourmis avaient la taille des humains ? #Shorts",
-        "description": "Et si les fourmis avaient la taille des humains ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange\nhttps://www.amnh.org/exhibitions/creatures-of-light/insects\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si les fourmis avaient la taille des humains ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si tu retirais ton casque dans l'espace ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange\nhttps://www.amnh.org/exhibitions/creatures-of-light/insects\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI les fourmis avaient la taille des humains ?"
     },
@@ -905,8 +905,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Les films mentent souvent : dans le vide spatial, ton corps n'exploserait pas instantanément. Mais le danger serait immédiat.",
-          "visual": "Astronaute avec casque, coupe vers silhouette et croix sur EXPLOSION",
+          "narration": "Et si tu retirais ton casque dans l'espace ? Non, ton corps n'exploserait pas. Mais le danger serait immédiat.",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Astronaute avec casque, coupe vers silhouette et croix sur EXPLOSION",
           "sfx": "Impact",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -986,16 +986,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Une combinaison spatiale est donc bien plus qu'un vêtement : c'est un environnement de survie. Et si ?",
-          "visual": "Retour au casque intact, reflet de la Terre",
-          "sfx": "Résolution",
+          "narration": "Prochain épisode : et si tous les humains sautaient en même temps ? Abonne-toi pour voir la suite.",
+          "visual": "Outro : globe qui repart, carte PROCHAIN ÉPISODE avec « ET SI ? ous les humains sautaient en même temps ? » et visuel teaser, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Les films mentent souvent : dans le vide spatial, ton corps n'exploserait pas instantanément. Mais le danger serait immédiat. Sur Terre, l'air exerce une pression autour de nous. Dans l'espace, cette pression est presque inexistante. Sans casque pressurisé, tu perdrais rapidement ton apport en oxygène. La chute de pression pourrait aussi endommager tes poumons et faire gonfler certains tissus. À très basse pression, l'humidité exposée pourrait commencer à se vaporiser. Mais ta peau empêcherait ton corps d'éclater comme un ballon. Tu ne gèlerais pas non plus instantanément : dans le vide, la chaleur ne se transmet pas comme dans l'air. La perte de conscience pourrait survenir en quelques secondes, notamment faute d'oxygène. Sans secours immédiat et rétablissement de la pression, cette exposition pourrait être mortelle. Une combinaison spatiale est donc bien plus qu'un vêtement : c'est un environnement de survie. Et si ?",
+      "narration": "Et si tu retirais ton casque dans l'espace ? Non, ton corps n'exploserait pas. Mais le danger serait immédiat. Sur Terre, l'air exerce une pression autour de nous. Dans l'espace, cette pression est presque inexistante. Sans casque pressurisé, tu perdrais rapidement ton apport en oxygène. La chute de pression pourrait aussi endommager tes poumons et faire gonfler certains tissus. À très basse pression, l'humidité exposée pourrait commencer à se vaporiser. Mais ta peau empêcherait ton corps d'éclater comme un ballon. Tu ne gèlerais pas non plus instantanément : dans le vide, la chaleur ne se transmet pas comme dans l'air. La perte de conscience pourrait survenir en quelques secondes, notamment faute d'oxygène. Sans secours immédiat et rétablissement de la pression, cette exposition pourrait être mortelle. Prochain épisode : et si tous les humains sautaient en même temps ? Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si tu retirais ton casque dans l'espace ? #Shorts",
-        "description": "Et si tu retirais ton casque dans l'espace ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://imagine.gsfc.nasa.gov/ask_astro/space_travel.html\nhttps://www.nasa.gov/reference/jsc-space-suits/\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si tu retirais ton casque dans l'espace ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nProchain épisode : Et si tous les humains sautaient en même temps ?\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://imagine.gsfc.nasa.gov/ask_astro/space_travel.html\nhttps://www.nasa.gov/reference/jsc-space-suits/\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI tu retirais ton casque dans l'espace ?"
     },
@@ -1014,8 +1014,8 @@
           "scene": 1,
           "start_seconds": 0,
           "end_seconds": 5.5,
-          "narration": "Si plus de huit milliards de personnes sautaient ensemble, pourraient-elles déplacer la Terre ?",
-          "visual": "Globe puis foule stylisée, compte à rebours",
+          "narration": "Et si tous les humains sautaient en même temps ? Huit milliards de personnes pourraient-elles déplacer la Terre ?",
+          "visual": "Titre ET SI ? dès la première image + question de l'épisode à l'écran ; puis : Globe puis foule stylisée, compte à rebours",
           "sfx": "Impact",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         },
@@ -1095,16 +1095,16 @@
           "scene": 10,
           "start_seconds": 49.5,
           "end_seconds": 55,
-          "narration": "Même toute l'humanité réunie ne fait pas le poids face à sa planète. Alors, quel autre défi impossible ?",
-          "visual": "Foule atterrissant, retour au globe initial",
-          "sfx": "Résolution",
+          "narration": "La saison deux arrive avec des scénarios encore plus fous. Abonne-toi pour voir la suite.",
+          "visual": "Outro : logo ET SI ?, carte SAISON 2 BIENTÔT, bouton ABONNE-TOI pulsé",
+          "sfx": "Résolution musicale + ding sur ABONNE-TOI",
           "motion": "Mouvement de caméra ou animation des éléments selon le plan, raccord avec le plan précédent ; pas de texte IA illisible."
         }
       ],
-      "narration": "Si plus de huit milliards de personnes sautaient ensemble, pourraient-elles déplacer la Terre ? Pour maximiser l'effet, imaginons tout le monde au même endroit, sautant exactement au même instant. Supposons que chacun pèse soixante kilos en moyenne et saute de trente centimètres. La masse totale représenterait plusieurs centaines de milliards de kilos. Impressionnant, non ? Mais la Terre pèse environ six millions de milliards de milliards de kilos. Quand les humains poussent sur le sol, notre planète recule elle aussi, mais d'une quantité infime. Même avec ce saut parfaitement synchronisé, le déplacement serait bien inférieur à la taille d'un atome. Quand tout le monde retomberait, des vibrations locales pourraient être produites. Mais il n'y aurait ni changement durable de l'orbite ni séisme planétaire provoqué par ce seul saut. Même toute l'humanité réunie ne fait pas le poids face à sa planète. Alors, quel autre défi impossible ?",
+      "narration": "Et si tous les humains sautaient en même temps ? Huit milliards de personnes pourraient-elles déplacer la Terre ? Pour maximiser l'effet, imaginons tout le monde au même endroit, sautant exactement au même instant. Supposons que chacun pèse soixante kilos en moyenne et saute de trente centimètres. La masse totale représenterait plusieurs centaines de milliards de kilos. Impressionnant, non ? Mais la Terre pèse environ six millions de milliards de milliards de kilos. Quand les humains poussent sur le sol, notre planète recule elle aussi, mais d'une quantité infime. Même avec ce saut parfaitement synchronisé, le déplacement serait bien inférieur à la taille d'un atome. Quand tout le monde retomberait, des vibrations locales pourraient être produites. Mais il n'y aurait ni changement durable de l'orbite ni séisme planétaire provoqué par ce seul saut. La saison deux arrive avec des scénarios encore plus fous. Abonne-toi pour voir la suite.",
       "youtube": {
         "title": "Et si tous les humains sautaient en même temps ? #Shorts",
-        "description": "Et si tous les humains sautaient en même temps ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nAbonne-toi à Et si ? pour la prochaine expérience.\nSources :\nhttps://science.nasa.gov/earth/facts/\nhttps://whatif.xkcd.com/8/\n#EtSi #Science #Curiosité #Shorts"
+        "description": "Et si tous les humains sautaient en même temps ?\nUne expérience de pensée illustrée : découvrez les conséquences possibles et la science derrière cette hypothèse. Les images sont des simulations.\nLa saison 2 arrive bientôt.\nAbonne-toi à Et si ? pour voir la suite.\nSources :\nhttps://science.nasa.gov/earth/facts/\nhttps://whatif.xkcd.com/8/\n#EtSi #Science #Curiosité #Shorts"
       },
       "thumbnail_text": "ET SI tous les humains sautaient en même temps ?"
     }

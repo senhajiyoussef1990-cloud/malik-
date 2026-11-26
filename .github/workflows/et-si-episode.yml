@@ -1,0 +1,55 @@
+name: Et si ? — épisode avec voix
+on:
+  push:
+    branches: [et-si]
+    paths:
+      - 'et-si/**'
+      - '.github/workflows/et-si-episode.yml'
+  workflow_dispatch:
+    inputs:
+      episode: { description: "Numéro d'épisode", default: "1" }
+      voix: { description: "Voix edge-tts", default: "fr-FR-RemyMultilingualNeural" }
+      debit: { description: "Débit (ex. +6%)", default: "+6%" }
+permissions:
+  contents: read
+concurrency:
+  group: et-si-episode
+  cancel-in-progress: true
+jobs:
+  episode:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    env:
+      EPISODE: ${{ github.event.inputs.episode || '1' }}
+      VOIX: ${{ github.event.inputs.voix || 'fr-FR-RemyMultilingualNeural' }}
+      DEBIT: ${{ github.event.inputs.debit || '+6%' }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Installer les outils
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+          python -m pip install edge-tts playwright numpy scipy
+          python -m playwright install --with-deps chromium
+      - name: Voix et calage
+        run: |
+          N=$(printf '%02d' "$EPISODE")
+          echo "N=$N" >> "$GITHUB_ENV"
+          python et-si/moteur/voix.py --ep "$EPISODE" --out "sortie/ep$N" --voice "$VOIX" --rate="$DEBIT"
+      - name: Rendu vidéo
+        run: python et-si/moteur/render.py --anim "et-si/episodes/ep$N/anim.html" --out "sortie/ep$N"
+      - name: Musique, mixage et MP4 final
+        run: |
+          python et-si/moteur/audio.py --out "sortie/ep$N"
+          python et-si/moteur/assembler.py --out "sortie/ep$N"
+          ffmpeg -hide_banner -i sortie/ep$N/EP*.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -12
+      - uses: actions/upload-artifact@v4
+        with:
+          name: et-si-ep${{ env.N }}
+          path: |
+            sortie/ep${{ env.N }}/EP*.mp4
+            sortie/ep${{ env.N }}/timing.json
+            sortie/ep${{ env.N }}/voix/*.mp3
+          retention-days: 14

@@ -1,0 +1,38 @@
+"""Rendu vidéo d'un épisode « Et si ? » à partir de timing.json (une vidéo par scène, puis concat)."""
+import argparse, base64, json, os, shutil, subprocess
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+ap = argparse.ArgumentParser()
+ap.add_argument('--anim', required=True)
+ap.add_argument('--out', required=True)
+ap.add_argument('--chrome', default=os.environ.get('CHROME_PATH'))
+a = ap.parse_args()
+out = Path(a.out); tm = json.load(open(out / 'timing.json')); FPS = 30
+parts = out / 'parts'; parts.mkdir(exist_ok=True)
+with sync_playwright() as p:
+    kw = {'args': ['--allow-file-access-from-files']}
+    if a.chrome: kw['executable_path'] = a.chrome
+    br = p.chromium.launch(**kw)
+    pg = br.new_page(viewport={'width': 1080, 'height': 1920})
+    pg.goto(Path(a.anim).resolve().as_uri())
+    pg.wait_for_function('window.READY'); pg.evaluate('READY')
+    outro = tm['scenes'][-1]['start']
+    pg.evaluate(f"setCaptions({json.dumps(tm['captions'])},{outro})")
+    pg.evaluate(f"setCues({json.dumps({int(k): v for k, v in tm['cues'].items()})})")
+    lst = []
+    for si, s in enumerate(tm['scenes']):
+        n = round(s['dur'] * FPS); tmp = parts / f's{si+1:02d}.tmp.mp4'; fin = parts / f's{si+1:02d}.mp4'
+        ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', str(FPS), '-c:v', 'mjpeg',
+                               '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18', '-pix_fmt', 'yuv420p',
+                               '-r', str(FPS), str(tmp)], stdin=subprocess.PIPE)
+        for f in range(n):
+            lt = f / FPS
+            url = pg.evaluate(f"render({s['start'] + lt},{si},{lt},{s['dur']})")
+            ff.stdin.write(base64.b64decode(url.split(',')[1]))
+        ff.stdin.close(); assert ff.wait() == 0
+        os.replace(tmp, fin); lst.append(f"file '{fin.resolve()}'"); print('scène', si + 1, 'ok', flush=True)
+    br.close()
+(parts / 'list.txt').write_text('\n'.join(lst) + '\n')
+subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(parts / 'list.txt'),
+                '-c', 'copy', str(out / 'video.mp4')], check=True)
