@@ -1,0 +1,144 @@
+{
+  "id": "EP07",
+  "title": "Et si un tsunami arrive sur la plage ?",
+  "sources": [
+    "https://www.weather.gov/safety/tsunami-during"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "La mer se retire anormalement. Ce n’est pas le moment de descendre sur le sable pour filmer.",
+      "visual": "Plage, retrait eau",
+      "sfx": "Grave",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Un fort séisme, un grondement inhabituel ou une variation soudaine de la mer peuvent annoncer un tsunami.",
+      "visual": "Trois pictogrammes",
+      "sfx": "Pulsation",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Si le sol tremble, protège-toi pendant les secousses. Dès que tu peux bouger, éloigne-toi du littoral.",
+      "visual": "Protection puis évacuation",
+      "sfx": "Grondement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Pars immédiatement vers les hauteurs ou l’intérieur des terres. N’attends pas une alerte officielle.",
+      "visual": "Carte, flèches vers colline",
+      "sfx": "Pas",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Suis les itinéraires d’évacuation. Ne retourne pas chercher des affaires et ne reste pas observer les vagues.",
+      "visual": "Panneaux et foule calme",
+      "sfx": "Vent",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "La première vague n’est pas forcément la plus forte. Reste hors de la zone jusqu’au feu vert des autorités.",
+      "visual": "Vagues successives en schéma, zone sûre",
+      "sfx": "Résolution",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si un tsunami arrive sur la plage ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.weather.gov/safety/tsunami-during\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "La mer se retire anormalement. Ce n’est pas le moment de descendre sur le sable pour filmer.\n\nUn fort séisme, un grondement inhabituel ou une variation soudaine de la mer peuvent annoncer un tsunami.\n\nSi le sol tremble, protège-toi pendant les secousses. Dès que tu peux bouger, éloigne-toi du littoral.\n\nPars immédiatement vers les hauteurs ou l’intérieur des terres. N’attends pas une alerte officielle.\n\nSuis les itinéraires d’évacuation. Ne retourne pas chercher des affaires et ne reste pas observer les vagues.\n\nLa première vague n’est pas forcément la plus forte. Reste hors de la zone jusqu’au feu vert des autorités.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nLa mer se retire anormalement. Ce n’est pas le moment de descendre sur le sable pour filmer.\n\n00:09 – 00:18\nUn fort séisme, un grondement inhabituel ou une variation soudaine de la mer peuvent annoncer un tsunami.\n\n00:18 – 00:27\nSi le sol tremble, protège-toi pendant les secousses. Dès que tu peux bouger, éloigne-toi du littoral.\n\n00:27 – 00:36\nPars immédiatement vers les hauteurs ou l’intérieur des terres. N’attends pas une alerte officielle.\n\n00:36 – 00:45\nSuis les itinéraires d’évacuation. Ne retourne pas chercher des affaires et ne reste pas observer les vagues.\n\n00:45 – 00:54\nLa première vague n’est pas forcément la plus forte. Reste hors de la zone jusqu’au feu vert des autorités.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Plage, retrait eau. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Plage, retrait eau. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Grave",
+      "subtitle": "La mer se retire anormalement. Ce n’est pas le moment de descendre sur le sable pour filmer."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Trois pictogrammes. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Trois pictogrammes. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Pulsation",
+      "subtitle": "Un fort séisme, un grondement inhabituel ou une variation soudaine de la mer peuvent annoncer un tsunami."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Protection puis évacuation. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Protection puis évacuation. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Grondement",
+      "subtitle": "Si le sol tremble, protège-toi pendant les secousses. Dès que tu peux bouger, éloigne-toi du littoral."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Carte, flèches vers colline. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Carte, flèches vers colline. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Pas",
+      "subtitle": "Pars immédiatement vers les hauteurs ou l’intérieur des terres. N’attends pas une alerte officielle."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Panneaux et foule calme. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Panneaux et foule calme. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Vent",
+      "subtitle": "Suis les itinéraires d’évacuation. Ne retourne pas chercher des affaires et ne reste pas observer les vagues."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Vagues successives en schéma, zone sûre. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Vagues successives en schéma, zone sûre. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Résolution",
+      "subtitle": "La première vague n’est pas forcément la plus forte. Reste hors de la zone jusqu’au feu vert des autorités."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si un tsunami arrive sur la plage ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si un tsunami arrive sur la plage ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si un tsunami arrive sur la plage ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
