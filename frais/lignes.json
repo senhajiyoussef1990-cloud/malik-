@@ -1,0 +1,122 @@
+[
+ {
+  "id": "h1",
+  "plan": 1,
+  "scene": 1,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Ce repas était affiché deux sous. Le voyageur en a payé cinq… sans discuter."
+ },
+ {
+  "id": "s02a",
+  "plan": 2,
+  "scene": 2,
+  "who": "mouton",
+  "pause": 0.35,
+  "text": "Un concert à trente euros ! Je réserve… Attends. Quarante-cinq euros ?!"
+ },
+ {
+  "id": "s02b",
+  "plan": 3,
+  "scene": 2,
+  "who": "renard",
+  "pause": 0.35,
+  "text": "Bienvenue dans le piège de la dernière page."
+ },
+ {
+  "id": "s03a",
+  "plan": 4,
+  "scene": 3,
+  "who": "aubergiste",
+  "pause": 0.3,
+  "text": "Repas complet, deux sous seulement ! Entrez, entrez !"
+ },
+ {
+  "id": "s03b",
+  "plan": 5,
+  "scene": 3,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Le voyageur s’installe et mange. Puis l’addition arrive."
+ },
+ {
+  "id": "s04a",
+  "plan": 6,
+  "scene": 4,
+  "who": "aubergiste",
+  "pause": 0.3,
+  "text": "La chaise, un sou. La bougie, un sou. Et la cuillère, encore un sou !"
+ },
+ {
+  "id": "s04b",
+  "plan": 7,
+  "scene": 4,
+  "who": "mouton",
+  "pause": 0.35,
+  "text": "Mais il a déjà mangé ! Il ne peut plus partir !"
+ },
+ {
+  "id": "s05a",
+  "plan": 8,
+  "scene": 5,
+  "who": "renard",
+  "pause": 0.35,
+  "text": "À ton avis : pourquoi les frais n’arrivent-ils qu’à la toute fin ?"
+ },
+ {
+  "id": "s06a",
+  "plan": 9,
+  "scene": 6,
+  "who": "renard",
+  "pause": 0.35,
+  "text": "Réponse B. Quand tu as tout choisi, tu n’oses plus faire demi-tour."
+ },
+ {
+  "id": "s06b",
+  "plan": 10,
+  "scene": 6,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "On appelle ça le prix découpé : un petit prix pour attirer, les frais pour la fin."
+ },
+ {
+  "id": "s07a",
+  "plan": 11,
+  "scene": 7,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Billets, hôtels, livraisons : les frais apparaissent souvent au dernier écran."
+ },
+ {
+  "id": "s08a",
+  "plan": 12,
+  "scene": 8,
+  "who": "mouton",
+  "pause": 0.35,
+  "text": "Donc je compare les prix… de la dernière page ?"
+ },
+ {
+  "id": "s08b",
+  "plan": 13,
+  "scene": 8,
+  "who": "renard",
+  "pause": 0.35,
+  "text": "Exactement. Le vrai prix, c’est celui de la dernière page."
+ },
+ {
+  "id": "s09a",
+  "plan": 14,
+  "scene": 9,
+  "who": "renard",
+  "pause": 0.35,
+  "text": "Et toi, quels frais cachés t’ont déjà surpris ? Dis-le en commentaire !"
+ },
+ {
+  "id": "s16a",
+  "plan": 15,
+  "scene": 10,
+  "who": "narr",
+  "pause": 0.3,
+  "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+ }
+]

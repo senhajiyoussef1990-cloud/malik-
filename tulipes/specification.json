@@ -1,0 +1,121 @@
+{
+ "ep": "tulipes",
+ "nom": "EP65_La_folie_des_tulipes",
+ "badge": "ÉPISODE 65",
+ "titre": "LA FOLIE DES TULIPES",
+ "sous": "« Un prix n’est pas une valeur »",
+ "accroche": "Un bulbe au prix d’une maison ?",
+ "apres": "aucun",
+ "noms": {
+  "marchand": "MARCHAND",
+  "acheteur": "ACHETEUR"
+ },
+ "lignes": [
+  [
+   "h1",
+   1,
+   "narr",
+   0.3,
+   "En mille six cent trente-sept, un simple oignon de fleur valait le prix d’une maison."
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.35,
+   "Cette monnaie a doublé en un mois ! Si j’achète maintenant, je suis riche !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.35,
+   "C’est exactement ce qu’ils disaient… des tulipes."
+  ],
+  [
+   "s03a",
+   3,
+   "marchand",
+   0.3,
+   "Dix florins le mois dernier, cent aujourd’hui ! Demain, mille !"
+  ],
+  [
+   "s03b",
+   3,
+   "narr",
+   0.3,
+   "Plus personne n’achète des fleurs pour les planter. On achète parce que le prix monte."
+  ],
+  [
+   "s04a",
+   4,
+   "acheteur",
+   0.3,
+   "J’ai vendu ma vache pour un bulbe ! Je le revends la semaine prochaine !"
+  ],
+  [
+   "s04b",
+   4,
+   "mouton",
+   0.35,
+   "Et si plus personne ne veut le racheter ?"
+  ],
+  [
+   "s05a",
+   5,
+   "renard",
+   0.35,
+   "À ton avis : que s’est-il passé, un matin de février ?"
+  ],
+  [
+   "s06a",
+   6,
+   "renard",
+   0.35,
+   "Réponse B. Les acheteurs ne sont plus venus. Et les prix se sont effondrés."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.3,
+   "C’est une bulle : un prix qui monte surtout parce qu’on espère qu’il montera encore."
+  ],
+  [
+   "s07a",
+   7,
+   "narr",
+   0.3,
+   "Depuis, d’autres bulles ont éclaté : actions, maisons, cryptomonnaies."
+  ],
+  [
+   "s08a",
+   8,
+   "mouton",
+   0.35,
+   "Donc ce qui monte très vite peut s’écrouler aussi vite ?"
+  ],
+  [
+   "s08b",
+   8,
+   "renard",
+   0.35,
+   "Oui. Quand on achète parce que ça monte, on oublie ce que ça vaut."
+  ],
+  [
+   "s09a",
+   9,
+   "renard",
+   0.35,
+   "Et toi, tu as déjà acheté un truc juste parce que tout le monde en parlait ? Raconte-nous !"
+  ],
+  [
+   "s16a",
+   10,
+   "narr",
+   0.3,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ],
+ "format": "court"
+}

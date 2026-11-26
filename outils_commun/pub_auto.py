@@ -8,7 +8,7 @@ def pub(ep, emoji, resume, points, question, partage, tiktok, yt_titre, yt_desc,
     num = S["badge"].split()[-1]; titre = S["titre"]; sous = S["sous"].strip("« »")
     M = [m.replace(" ", "") for m in mots]
     P = {"ep": ep, "nom": S["nom"], "num": num, "titre": titre, "sous": sous, "emoji": emoji, "accroche": S["accroche"], "resume": resume, "points": points,
-         "morale": L["s13a"], "morale2": L["s15d"].replace("Voilà. ", ""), "question": question, "partage": partage, "tiktok": tiktok, "yt_titre": yt_titre + " #Shorts", "yt_desc": yt_desc,
+         "morale": L.get("s13a", L.get("s08b", "")), "morale2": L.get("s15d", L.get("s08b", "")).replace("Voilà. ", "").replace("Exactement. ", "").replace("Oui. ", "").replace("Bonne idée. ", ""), "question": question, "partage": partage, "tiktok": tiktok, "yt_titre": yt_titre + " #Shorts", "yt_desc": yt_desc,
          "tags_fb": " ".join(["#NeSuisPasLesMoutons"] + ["#" + m for m in M] + ["#HistoireVraie", "#EspritCritique", "#DessinAnimé", "#PenseParToiMême", "#LeSaviezVous"]),
          "tags_insta": " ".join(["#nesuispaslesmoutons"] + ["#" + sans_acc(m).lower() for m in M] + ["#histoirevraie", "#lesaviezvous", "#espritcritique", "#dessinanime", "#animation", "#pensepartoimeme", "#reelsfrance", "#lerenardetlemouton"]),
          "tags_tiktok": " ".join(["#NeSuisPasLesMoutons"] + ["#" + m for m in M] + ["#LeSaviezVous", "#EspritCritique", "#DessinAnimé", "#ApprendreSurTikTok", "#PourToi", "#fyp", "#foryou"]),
