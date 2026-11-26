@@ -1,0 +1,73 @@
+{
+  "id": "012",
+  "title": "Et si ton enfant avalait un produit ménager ?",
+  "format": "1080x1920,30fps,65s indicatives",
+  "status": "Vérification documentaire effectuée le 2026-11-27, relecture professionnelle indépendante requise avant publication",
+  "sources": [
+    "https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf",
+    "https://www.centreantipoisons.be/quand-appeler/"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "voix": "Et si ton enfant avalait un produit ménager ?",
+      "sous_titre": "Et si ton enfant avalait un produit ménager ?",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Flacon générique ouvert, ingestion non montrée",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Accroche sonore courte"
+    },
+    {
+      "start": 5,
+      "end": 16,
+      "voix": "Tu retrouves ton enfant à côté d’un flacon ouvert. Tu soupçonnes une ingestion.",
+      "sous_titre": "Tu retrouves ton enfant à côté d’un flacon ouvert. Tu soupçonnes une ingestion.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Flacon générique ouvert, ingestion non montrée",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 16,
+      "end": 27,
+      "voix": "Ne cherche pas à le faire vomir et ne lui donne pas de lait comme antidote.",
+      "sous_titre": "Ne cherche pas à le faire vomir et ne lui donne pas de lait comme antidote.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Pictogrammes vomissement et lait barrés",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 27,
+      "end": 40,
+      "voix": "En Belgique, appelle le Centre Antipoisons au 070 245 245 sans attendre les symptômes. Garde l’emballage à portée de main.",
+      "sous_titre": "En Belgique, appelle le Centre Antipoisons au 070 245 245 sans attendre les symptômes. Garde l’emballage à portée de main.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Parent appelle, étiquette lisible et numéro belge",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 40,
+      "end": 53,
+      "voix": "S’il perd connaissance, convulse ou présente de graves difficultés respiratoires, appelle immédiatement le 112.",
+      "sous_titre": "S’il perd connaissance, convulse ou présente de graves difficultés respiratoires, appelle immédiatement le 112.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Écran urgence 112, simulation non graphique",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 53,
+      "end": 65,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "sous_titre": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Logo officiel et sources",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Signature musicale"
+    }
+  ],
+  "voix_off": "Et si ton enfant avalait un produit ménager ?\nTu retrouves ton enfant à côté d’un flacon ouvert. Tu soupçonnes une ingestion.\nNe cherche pas à le faire vomir et ne lui donne pas de lait comme antidote.\nEn Belgique, appelle le Centre Antipoisons au 070 245 245 sans attendre les symptômes. Garde l’emballage à portée de main.\nS’il perd connaissance, convulse ou présente de graves difficultés respiratoires, appelle immédiatement le 112.\nMaintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+  "publication": {
+    "titre": "Et si ton enfant avalait un produit ménager ?",
+    "description": "Simulation éducative. Sources officielles : https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf ; https://www.centreantipoisons.be/quand-appeler/",
+    "hashtags": "#EtSi #Prevention #PremiersSecours"
+  },
+  "claude": "Respecter strictement les textes. Recaler les sous-titres sur la voix. Ne pas ajouter de conseils ni générer avant validation professionnelle."
+}
