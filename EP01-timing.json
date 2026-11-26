@@ -1,0 +1,861 @@
+{
+ "episode": 1,
+ "id": "EP01",
+ "slug": "terre-arret",
+ "voice": [
+  "fr-FR-RemyMultilingualNeural"
+ ],
+ "rate": "+6%",
+ "duration": 54.5,
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "dur": 4.9333,
+   "voix": "s01.mp3",
+   "voix_dur": 4.224
+  },
+  {
+   "scene": 2,
+   "start": 4.933,
+   "dur": 5.7333,
+   "voix": "s02.mp3",
+   "voix_dur": 5.04
+  },
+  {
+   "scene": 3,
+   "start": 10.667,
+   "dur": 4.4,
+   "voix": "s03.mp3",
+   "voix_dur": 3.696
+  },
+  {
+   "scene": 4,
+   "start": 15.067,
+   "dur": 4.9333,
+   "voix": "s04.mp3",
+   "voix_dur": 4.224
+  },
+  {
+   "scene": 5,
+   "start": 20.0,
+   "dur": 6.0,
+   "voix": "s05.mp3",
+   "voix_dur": 5.304
+  },
+  {
+   "scene": 6,
+   "start": 26.0,
+   "dur": 5.3,
+   "voix": "s06.mp3",
+   "voix_dur": 4.608
+  },
+  {
+   "scene": 7,
+   "start": 31.3,
+   "dur": 4.6,
+   "voix": "s07.mp3",
+   "voix_dur": 3.912
+  },
+  {
+   "scene": 8,
+   "start": 35.9,
+   "dur": 6.3333,
+   "voix": "s08.mp3",
+   "voix_dur": 5.64
+  },
+  {
+   "scene": 9,
+   "start": 42.233,
+   "dur": 5.4333,
+   "voix": "s09.mp3",
+   "voix_dur": 4.728
+  },
+  {
+   "scene": 10,
+   "start": 47.667,
+   "dur": 6.8333,
+   "voix": "s10.mp3",
+   "voix_dur": 6.144
+  }
+ ],
+ "captions": [
+  {
+   "s": 2.361,
+   "toks": [
+    {
+     "w": "En",
+     "k": false
+    },
+    {
+     "w": "une",
+     "k": false
+    },
+    {
+     "w": "seconde,",
+     "k": true
+    }
+   ],
+   "e": 3.481
+  },
+  {
+   "s": 3.481,
+   "toks": [
+    {
+     "w": "tout",
+     "k": false
+    },
+    {
+     "w": "changerait.",
+     "k": false
+    }
+   ],
+   "e": 4.883
+  },
+  {
+   "s": 5.266,
+   "toks": [
+    {
+     "w": "À",
+     "k": false
+    },
+    {
+     "w": "l'équateur,",
+     "k": true
+    }
+   ],
+   "e": 6.386
+  },
+  {
+   "s": 6.386,
+   "toks": [
+    {
+     "w": "tu",
+     "k": false
+    },
+    {
+     "w": "te",
+     "k": false
+    },
+    {
+     "w": "déplaces",
+     "k": false
+    },
+    {
+     "w": "déjà",
+     "k": false
+    }
+   ],
+   "e": 7.389
+  },
+  {
+   "s": 7.389,
+   "toks": [
+    {
+     "w": "à",
+     "k": false
+    },
+    {
+     "w": "environ",
+     "k": false
+    },
+    {
+     "w": "1 670 km/h",
+     "k": true
+    },
+    {
+     "w": ".",
+     "k": false
+    }
+   ],
+   "e": 9.989
+  },
+  {
+   "s": 11.011,
+   "toks": [
+    {
+     "w": "Tu",
+     "k": false
+    },
+    {
+     "w": "ne",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "sens",
+     "k": false
+    },
+    {
+     "w": "pas,",
+     "k": false
+    }
+   ],
+   "e": 12.096
+  },
+  {
+   "s": 12.096,
+   "toks": [
+    {
+     "w": "parce",
+     "k": false
+    },
+    {
+     "w": "que",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "sol",
+     "k": false
+    }
+   ],
+   "e": 12.744
+  },
+  {
+   "s": 12.744,
+   "toks": [
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "l'air",
+     "k": false
+    },
+    {
+     "w": "tournent",
+     "k": false
+    }
+   ],
+   "e": 13.299
+  },
+  {
+   "s": 13.299,
+   "toks": [
+    {
+     "w": "normalement",
+     "k": false
+    },
+    {
+     "w": "avec",
+     "k": false
+    },
+    {
+     "w": "toi.",
+     "k": false
+    }
+   ],
+   "e": 15.017
+  },
+  {
+   "s": 15.411,
+   "toks": [
+    {
+     "w": "Mais",
+     "k": false
+    },
+    {
+     "w": "si",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "sol",
+     "k": false
+    }
+   ],
+   "e": 16.036
+  },
+  {
+   "s": 16.036,
+   "toks": [
+    {
+     "w": "s'immobilisait,",
+     "k": false
+    }
+   ],
+   "e": 17.144
+  },
+  {
+   "s": 17.144,
+   "toks": [
+    {
+     "w": "tout",
+     "k": false
+    },
+    {
+     "w": "ce",
+     "k": false
+    },
+    {
+     "w": "qui",
+     "k": false
+    },
+    {
+     "w": "n'est",
+     "k": true
+    },
+    {
+     "w": "pas",
+     "k": false
+    }
+   ],
+   "e": 17.687
+  },
+  {
+   "s": 17.687,
+   "toks": [
+    {
+     "w": "fixé",
+     "k": false
+    },
+    {
+     "w": "continuerait",
+     "k": false
+    }
+   ],
+   "e": 18.524
+  },
+  {
+   "s": 18.524,
+   "toks": [
+    {
+     "w": "vers",
+     "k": false
+    },
+    {
+     "w": "l'est.",
+     "k": true
+    }
+   ],
+   "e": 19.95
+  },
+  {
+   "s": 20.344,
+   "toks": [
+    {
+     "w": "L'atmosphère",
+     "k": true
+    },
+    {
+     "w": "garderait",
+     "k": false
+    }
+   ],
+   "e": 21.465
+  },
+  {
+   "s": 21.465,
+   "toks": [
+    {
+     "w": "aussi",
+     "k": false
+    },
+    {
+     "w": "son",
+     "k": false
+    },
+    {
+     "w": "mouvement.",
+     "k": false
+    }
+   ],
+   "e": 22.703
+  },
+  {
+   "s": 22.703,
+   "toks": [
+    {
+     "w": "Des",
+     "k": false
+    },
+    {
+     "w": "vents",
+     "k": true
+    },
+    {
+     "w": "dévastateurs",
+     "k": false
+    }
+   ],
+   "e": 23.917
+  },
+  {
+   "s": 23.917,
+   "toks": [
+    {
+     "w": "balaieraient",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "vastes",
+     "k": false
+    }
+   ],
+   "e": 24.696
+  },
+  {
+   "s": 24.696,
+   "toks": [
+    {
+     "w": "régions.",
+     "k": false
+    }
+   ],
+   "e": 25.95
+  },
+  {
+   "s": 26.344,
+   "toks": [
+    {
+     "w": "Les",
+     "k": false
+    },
+    {
+     "w": "océans",
+     "k": true
+    }
+   ],
+   "e": 26.957
+  },
+  {
+   "s": 26.957,
+   "toks": [
+    {
+     "w": "continueraient",
+     "k": false
+    },
+    {
+     "w": "leur",
+     "k": false
+    }
+   ],
+   "e": 27.571
+  },
+  {
+   "s": 27.571,
+   "toks": [
+    {
+     "w": "course,",
+     "k": false
+    }
+   ],
+   "e": 28.361
+  },
+  {
+   "s": 28.361,
+   "toks": [
+    {
+     "w": "provoquant",
+     "k": false
+    },
+    {
+     "w": "d'immenses",
+     "k": false
+    }
+   ],
+   "e": 29.151
+  },
+  {
+   "s": 29.151,
+   "toks": [
+    {
+     "w": "inondations",
+     "k": true
+    }
+   ],
+   "e": 29.764
+  },
+  {
+   "s": 29.764,
+   "toks": [
+    {
+     "w": "près",
+     "k": false
+    },
+    {
+     "w": "des",
+     "k": false
+    },
+    {
+     "w": "côtes.",
+     "k": false
+    }
+   ],
+   "e": 31.25
+  },
+  {
+   "s": 31.6,
+   "toks": [
+    {
+     "w": "Près",
+     "k": false
+    },
+    {
+     "w": "des",
+     "k": false
+    },
+    {
+     "w": "pôles,",
+     "k": true
+    }
+   ],
+   "e": 32.708
+  },
+  {
+   "s": 32.708,
+   "toks": [
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "effets",
+     "k": false
+    }
+   ],
+   "e": 33.086
+  },
+  {
+   "s": 33.086,
+   "toks": [
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "vitesse",
+     "k": false
+    },
+    {
+     "w": "initiale",
+     "k": false
+    }
+   ],
+   "e": 34.206
+  },
+  {
+   "s": 34.206,
+   "toks": [
+    {
+     "w": "seraient",
+     "k": false
+    },
+    {
+     "w": "moins",
+     "k": false
+    }
+   ],
+   "e": 34.666
+  },
+  {
+   "s": 34.666,
+   "toks": [
+    {
+     "w": "violents.",
+     "k": false
+    }
+   ],
+   "e": 35.85
+  },
+  {
+   "s": 36.2,
+   "toks": [
+    {
+     "w": "Et",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "gravité ?",
+     "k": true
+    }
+   ],
+   "e": 37.541
+  },
+  {
+   "s": 37.541,
+   "toks": [
+    {
+     "w": "Elle",
+     "k": false
+    },
+    {
+     "w": "ne",
+     "k": false
+    },
+    {
+     "w": "disparaîtrait",
+     "k": false
+    }
+   ],
+   "e": 38.39
+  },
+  {
+   "s": 38.39,
+   "toks": [
+    {
+     "w": "pas.",
+     "k": false
+    }
+   ],
+   "e": 39.074
+  },
+  {
+   "s": 39.074,
+   "toks": [
+    {
+     "w": "La",
+     "k": false
+    },
+    {
+     "w": "Terre",
+     "k": true
+    },
+    {
+     "w": "resterait",
+     "k": false
+    }
+   ],
+   "e": 40.006
+  },
+  {
+   "s": 40.006,
+   "toks": [
+    {
+     "w": "en",
+     "k": false
+    },
+    {
+     "w": "orbite",
+     "k": true
+    },
+    {
+     "w": "autour",
+     "k": false
+    }
+   ],
+   "e": 40.761
+  },
+  {
+   "s": 40.761,
+   "toks": [
+    {
+     "w": "du",
+     "k": false
+    },
+    {
+     "w": "Soleil.",
+     "k": true
+    }
+   ],
+   "e": 42.183
+  },
+  {
+   "s": 42.578,
+   "toks": [
+    {
+     "w": "À",
+     "k": false
+    },
+    {
+     "w": "long",
+     "k": false
+    },
+    {
+     "w": "terme,",
+     "k": false
+    }
+   ],
+   "e": 43.58
+  },
+  {
+   "s": 43.58,
+   "toks": [
+    {
+     "w": "une",
+     "k": false
+    },
+    {
+     "w": "journée",
+     "k": false
+    },
+    {
+     "w": "solaire",
+     "k": false
+    }
+   ],
+   "e": 44.394
+  },
+  {
+   "s": 44.394,
+   "toks": [
+    {
+     "w": "durerait",
+     "k": false
+    },
+    {
+     "w": "environ",
+     "k": false
+    }
+   ],
+   "e": 45.125
+  },
+  {
+   "s": 45.125,
+   "toks": [
+    {
+     "w": "une",
+     "k": false
+    },
+    {
+     "w": "année,",
+     "k": true
+    }
+   ],
+   "e": 45.903
+  },
+  {
+   "s": 45.903,
+   "toks": [
+    {
+     "w": "bouleversant",
+     "k": false
+    }
+   ],
+   "e": 46.351
+  },
+  {
+   "s": 46.351,
+   "toks": [
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "climats.",
+     "k": false
+    }
+   ],
+   "e": 47.616
+  },
+  {
+   "s": 47.967,
+   "toks": [
+    {
+     "w": "Prochain",
+     "k": true
+    },
+    {
+     "w": "épisode :",
+     "k": true
+    }
+   ],
+   "e": 49.441
+  },
+  {
+   "s": 49.441,
+   "toks": [
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "si",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "gravité",
+     "k": true
+    }
+   ],
+   "e": 50.16
+  },
+  {
+   "s": 50.16,
+   "toks": [
+    {
+     "w": "disparaissait",
+     "k": false
+    }
+   ],
+   "e": 50.797
+  },
+  {
+   "s": 50.797,
+   "toks": [
+    {
+     "w": "pendant",
+     "k": false
+    },
+    {
+     "w": "5 secondes ?",
+     "k": true
+    }
+   ],
+   "e": 52.15
+  },
+  {
+   "s": 52.15,
+   "toks": [
+    {
+     "w": "Abonne-toi",
+     "k": true
+    },
+    {
+     "w": "pour",
+     "k": false
+    },
+    {
+     "w": "voir",
+     "k": false
+    }
+   ],
+   "e": 53.07
+  },
+  {
+   "s": 53.07,
+   "toks": [
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "suite.",
+     "k": true
+    }
+   ],
+   "e": 54.45
+  }
+ ],
+ "cues": {
+  "0": 1.016,
+  "7": 3.328,
+  "9": 4.484
+ }
+}
