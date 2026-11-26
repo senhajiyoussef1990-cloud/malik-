@@ -3,13 +3,15 @@ on:
   push:
     branches: [et-si]
     paths:
-      - 'et-si/**'
+      - 'et-si/moteur/**'
+      - 'et-si/survie/episodes/**'
       - '.github/workflows/et-si-episode.yml'
   workflow_dispatch:
     inputs:
-      episode: { description: "Numéro d'épisode", default: "1" }
+      kit: { description: "Kit vérifié", default: "et-si/survie/kits-verification/EP001.json" }
+      dossier: { description: "Dossier animation", default: "et-si/survie/episodes/EP001" }
       voix: { description: "Voix edge-tts", default: "fr-FR-RemyMultilingualNeural" }
-      debit: { description: "Débit (ex. +6%)", default: "+6%" }
+      debit: { description: "Débit (ex. +4%)", default: "+4%" }
 permissions:
   contents: write
 concurrency:
@@ -20,9 +22,10 @@ jobs:
     runs-on: ubuntu-22.04
     timeout-minutes: 60
     env:
-      EPISODE: ${{ github.event.inputs.episode || '1' }}
+      KIT: ${{ github.event.inputs.kit || 'et-si/survie/kits-verification/EP001.json' }}
+      EPDIR: ${{ github.event.inputs.dossier || 'et-si/survie/episodes/EP001' }}
       VOIX: ${{ github.event.inputs.voix || 'fr-FR-RemyMultilingualNeural' }}
-      DEBIT: ${{ github.event.inputs.debit || '+6%' }}
+      DEBIT: ${{ github.event.inputs.debit || '+4%' }}
     steps:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
@@ -35,25 +38,23 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Voix et calage
         run: |
-          N=$(printf '%02d' "$EPISODE")
-          echo "N=$N" >> "$GITHUB_ENV"
-          python -m pip show edge-tts | head -2
-          edge-tts --list-voices | grep -E "^fr-|Name: fr-" | head -20 || true
-          python et-si/moteur/voix.py --ep "$EPISODE" --out "sortie/ep$N" --voice "$VOIX" --rate="$DEBIT"
+          ID=EP$(python -c "import json,sys;print(json.load(open(sys.argv[1]))['id'])" "$KIT")
+          echo "ID=$ID" >> "$GITHUB_ENV"
+          python et-si/moteur/voix.py --kit "$KIT" --out "sortie/$ID" --voice "$VOIX" --rate="$DEBIT" --mini 5
       - name: Rendu vidéo
-        run: python et-si/moteur/render.py --anim "et-si/episodes/ep$N/anim.html" --out "sortie/ep$N"
-      - name: Musique, mixage et MP4 final
+        run: python et-si/moteur/render.py --anim "$EPDIR/anim.html" --out "sortie/$ID"
+      - name: Son, mixage et MP4 final
         run: |
-          python et-si/moteur/audio.py --out "sortie/ep$N"
-          python et-si/moteur/assembler.py --out "sortie/ep$N"
-          ffmpeg -hide_banner -i sortie/ep$N/EP*.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -12
+          if [ -f "$EPDIR/audio.py" ]; then python "$EPDIR/audio.py" --out "sortie/$ID"; else python et-si/moteur/audio.py --out "sortie/$ID"; fi
+          python et-si/moteur/assembler.py --out "sortie/$ID"
+          ffmpeg -hide_banner -i sortie/$ID/EP*.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -12
       - uses: actions/upload-artifact@v4
         with:
-          name: et-si-ep${{ env.N }}
+          name: et-si-${{ env.ID }}
           path: |
-            sortie/ep${{ env.N }}/EP*.mp4
-            sortie/ep${{ env.N }}/timing.json
-            sortie/ep${{ env.N }}/voix/*.mp3
+            sortie/${{ env.ID }}/EP*.mp4
+            sortie/${{ env.ID }}/timing.json
+            sortie/${{ env.ID }}/voix/*.mp3
           retention-days: 14
       - name: Publier sur la branche et-si-sorties
         env:
@@ -61,9 +62,9 @@ jobs:
         run: |
           URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git clone -q --depth 1 -b et-si-sorties "$URL" pub || { mkdir pub && cd pub && git init -q && git checkout -q -b et-si-sorties && cd ..; }
-          cp sortie/ep$N/EP*.mp4 pub/
-          cp sortie/ep$N/timing.json "pub/EP$N-timing.json"
+          cp sortie/$ID/EP*.mp4 pub/
+          cp sortie/$ID/timing.json "pub/$ID-timing.json"
           cd pub
           git add -A
-          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "EP$N : rendu ${GITHUB_SHA::7}" || exit 0
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "$ID : rendu ${GITHUB_SHA::7}" || exit 0
           git push -q "$URL" et-si-sorties

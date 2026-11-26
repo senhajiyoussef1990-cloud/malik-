@@ -19,7 +19,7 @@ with sync_playwright() as p:
     pg.wait_for_function('window.READY'); pg.evaluate('READY')
     outro = tm['scenes'][-1]['start']
     pg.evaluate(f"setCaptions({json.dumps(tm['captions'])},{outro})")
-    pg.evaluate(f"setCues({json.dumps({int(k): v for k, v in tm['cues'].items()})})")
+    pg.evaluate(f"setCues({json.dumps(tm['cues'])})")
     lst = []
     for si, s in enumerate(tm['scenes']):
         n = round(s['dur'] * FPS); tmp = parts / f's{si+1:02d}.tmp.mp4'; fin = parts / f's{si+1:02d}.mp4'

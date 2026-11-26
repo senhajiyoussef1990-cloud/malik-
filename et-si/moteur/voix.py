@@ -18,13 +18,17 @@ AFFICHAGE = {
     'vingt-quatre heures': '24 heures',
     'huit milliards': '8 milliards',
 }
-MOTS_CLES = {'terre', 'tourner', 'équateur', 'est', 'atmosphère', 'vents', 'océans', 'inondations', 'pôles',
+SLUG = {'001': 'casserole-huile-feu'}
+MOTS_CLES = {'feu', 'casserole', 'jamais', 'eau', 'chaleur', 'danger', 'secours', 'dehors', 'porte', 'sors', 'partage', 'proches', 'quitte', 'avertis', 'flammes', 'boule', 'terre', 'tourner', 'équateur', 'est', 'atmosphère', 'vents', 'océans', 'inondations', 'pôles',
              'gravité', 'orbite', 'soleil', 'année', 'rotation', 'scénario', 'seconde', 'prochain', 'épisode',
              'abonne-toi', 'suite', 'lune', 'jupiter', 'dinosaures', 'fourmis', 'casque', 'espace', 'trou', 'noir'}
 PETITS = {'pour', 'à', 'tout', 'ce', 'de', 'la', 'le', 'les', 'du', 'des', 'et', 'un', 'une', 'en', 'au', 'tu',
           'ne', 'se', 'qui', 'près', 'vers', 'sont', "c'est", 'elle', 'si', 'pendant'}
 # repères d'animation : scène (index 0) -> début du mot qui déclenche l'effet
-REPERES = {1: {0: "arrêt", 7: "Terre", 9: "Abonne"}}
+REPERES = {'EP01': [(0, 0, "arrêt"), (7, 7, "Terre"), (9, 9, "Abonne")],
+           'EP001': [(1, 'recule', 'déplace'), (2, 'croix', 'jamais'), (3, 'coupe', 'Coupe'),
+                     (4, 'porte', 'ferme'), (4, 'avertis', 'avertis'), (4, 'sors', 'sors.'),
+                     (4, 'appel', 'Appelle'), (5, 'partage', 'Partage'), (5, 'abonne', 'abonne')]}
 
 
 def duree(f):
@@ -135,8 +139,15 @@ def main():
     ap.add_argument('--voice', default='fr-FR-RemyMultilingualNeural')
     ap.add_argument('--rate', default='+6%')
     ap.add_argument('--simulate', action='store_true')
+    ap.add_argument('--kit', help='kit de vérification (format survie)')
+    ap.add_argument('--mini', type=float, default=3.2, help='durée minimale d\'une scène')
     a = ap.parse_args()
-    ep = json.load(open(SCENARIOS))['episodes'][a.ep - 1]
+    if a.kit:
+        k = json.load(open(a.kit))
+        ep = {'id': 'EP' + k['id'], 'slug': SLUG.get(k['id'], 'episode'),
+              'scenes': [{'narration': x['voix']} for x in k['scenes']]}
+    else:
+        ep = json.load(open(SCENARIOS))['episodes'][a.ep - 1]
     out = Path(a.out); (out / 'voix').mkdir(parents=True, exist_ok=True)
     scenes, caps, cues, t = [], [], {}, 0.0
     PAD_AV, PAD_AP = 0.25, 0.45
@@ -145,14 +156,14 @@ def main():
         f = out / 'voix' / f's{si+1:02d}.mp3'
         mots = simule(texte, f) if a.simulate else dire(texte, a, f)
         dv = duree(f)
-        mini = {0: 4.0, len(ep['scenes']) - 1: 5.5}.get(si, 3.2)
+        mini = {0: 4.0, len(ep['scenes']) - 1: 6.5 if a.kit else 5.5}.get(si, a.mini)
         d = round(round(max(mini, PAD_AV + dv + PAD_AP) * 30) / 30, 4)
         us, rep = caler(texte, mots, t + PAD_AV)
-        for si2, mot in REPERES.get(a.ep, {}).items():
+        for si2, cle, mot in REPERES.get(ep['id'], []):
             if si2 == si:
                 for k, ta, tb, w in rep:
-                    if mot.lower() in w.lower():
-                        cues[si] = round(PAD_AV + ta, 3); break
+                    if mot.lower().strip('.') in w.lower():
+                        cues[cle] = round(PAD_AV + ta, 3); break
         if si == 0:  # la question est déjà à l'écran : pas de sous-titre pour elle
             us = [u for u in us if u['pos'] > texte.find('?')]
         for c in morceaux(us):
