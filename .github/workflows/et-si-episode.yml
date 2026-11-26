@@ -11,7 +11,7 @@ on:
       voix: { description: "Voix edge-tts", default: "fr-FR-RemyMultilingualNeural" }
       debit: { description: "Débit (ex. +6%)", default: "+6%" }
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: et-si-episode
   cancel-in-progress: true
@@ -55,3 +55,15 @@ jobs:
             sortie/ep${{ env.N }}/timing.json
             sortie/ep${{ env.N }}/voix/*.mp3
           retention-days: 14
+      - name: Publier sur la branche et-si-sorties
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone -q --depth 1 -b et-si-sorties "$URL" pub || { mkdir pub && cd pub && git init -q && git checkout -q -b et-si-sorties && cd ..; }
+          cp sortie/ep$N/EP*.mp4 pub/
+          cp sortie/ep$N/timing.json "pub/EP$N-timing.json"
+          cd pub
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "EP$N : rendu ${GITHUB_SHA::7}" || exit 0
+          git push -q "$URL" et-si-sorties
