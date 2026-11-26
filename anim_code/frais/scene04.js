@@ -18,7 +18,7 @@ function frame(c, t) {
   if (p >= 0) { M.tilt += Math.sin(t * 5) * .06; R.look = [0, 0]; R.sourire = .9; }
   nbEtCouleur(c, t, [[0, 540, 405, 1.0], [DUREE, 540, 405, 1.04]], (cc) => carteQuiz(cc, t, false), (cc) => heros(cc, R, M));
   if (p >= 0 && p < PAUSE) { const n = 3 - Math.floor(p / (PAUSE / 3)), f = (p % (PAUSE / 3)) / (PAUSE / 3);
-    c.setTransform(1, 0, 0, 1, 0, 0); c.save(); c.globalAlpha = 1 - f * .6; c.translate(W / 2, H / 2 + 60); c.scale(1.4 - f * .5, 1.4 - f * .5);
+    c.setTransform(1, 0, 0, 1, 0, 0); c.save(); c.globalAlpha = 1 - f * .6; c.translate(W - 150, 150); c.scale(.9 - f * .3, .9 - f * .3);
     F(c, ell(0, -40, 110, 110), 'rgba(255,210,58,.95)', 6); c.fillStyle = '#141210'; c.font = 'bold 140px Georgia'; c.textAlign = 'center'; c.fillText(String(n), 0, 8); c.restore(); }
   debutFlash(c, t);
 }
