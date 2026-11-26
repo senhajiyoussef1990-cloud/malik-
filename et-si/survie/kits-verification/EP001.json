@@ -1,0 +1,69 @@
+{
+  "id": "001",
+  "title": "Et si ta casserole d’huile prenait feu ?",
+  "status": "Sources britanniques officielles consultées le 2026-11-27 ; conformité belge/UE et relecture professionnelle encore requises ; publication bloquée",
+  "format": "1080x1920,30fps, ~65s, recaler sur voix sans accélérer les gestes",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "voix": "Et si ta casserole d’huile prenait feu ?",
+      "sous_titre": "Et si ta casserole d’huile prenait feu ?",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Plan rapproché casserole en flammes",
+      "animation": "Plan rapproché casserole en flammes ; mouvement naturel, aucun geste supplémentaire",
+      "son": "accent dramatique discret"
+    },
+    {
+      "start": 5,
+      "end": 16,
+      "voix": "Ne tente pas de combattre le feu toi-même. Ne déplace pas la casserole.",
+      "sous_titre": "Ne tente pas de combattre le feu toi-même. Ne déplace pas la casserole.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Personnage recule, casserole immobile",
+      "animation": "Personnage recule, casserole immobile ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 16,
+      "end": 28,
+      "voix": "Ne verse jamais d’eau sur les flammes : elle peut provoquer une boule de feu.",
+      "sous_titre": "Ne verse jamais d’eau sur les flammes : elle peut provoquer une boule de feu.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Pictogramme eau barrée, aucune expérience réelle",
+      "animation": "Pictogramme eau barrée, aucune expérience réelle ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 28,
+      "end": 40,
+      "voix": "Coupe la chaleur uniquement si tu peux le faire sans danger.",
+      "sous_titre": "Coupe la chaleur uniquement si tu peux le faire sans danger.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Commande accessible sans approche des flammes",
+      "animation": "Commande accessible sans approche des flammes ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 40,
+      "end": 52,
+      "voix": "Quitte la pièce, ferme la porte, avertis les autres et sors. Appelle les secours depuis dehors.",
+      "sous_titre": "Quitte la pièce, ferme la porte, avertis les autres et sors. Appelle les secours depuis dehors.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Évacuation et appel extérieur",
+      "animation": "Évacuation et appel extérieur ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 52,
+      "end": 65,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "animation": "Logo officiel fourni par utilisateur, carton final sources",
+      "son": "signature douce"
+    }
+  ],
+  "sources": [
+    "https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires/"
+  ],
+  "publication": {
+    "titre": "Et si ta casserole d’huile prenait feu ? #Shorts",
+    "description": "Simulation éducative. Sources officielles : https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires/ . #EtSi #Prevention #PremiersSecours",
+    "hashtags": "#EtSi #Prevention #PremiersSecours"
+  },
+  "controle": "Claude ne doit ajouter aucun conseil ni modifier les gestes. Vérifier la concordance des images, le timing, la réglementation locale et faire relire par professionnel avant publication."
+}
