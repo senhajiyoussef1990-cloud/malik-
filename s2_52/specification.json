@@ -1,0 +1,225 @@
+{
+  "ep": "s2_52",
+  "nom": "EP52_La_pastille_rouge",
+  "badge": "ÉPISODE 52",
+  "titre": "LA PASTILLE ROUGE",
+  "sous": "« Tout n'est pas urgent »",
+  "accroche": "Une pastille rouge suffit à te faire ouvrir ton téléphone ?",
+  "apres": "s2_51",
+  "noms": {
+    "crieur": "CRIEUR",
+    "passant": "PASSANT"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "J'ai vingt-sept notifications ! Il faut absolument que je les lise."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Pourquoi absolument ? Est-ce que tu attends une nouvelle importante ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Non, mais ce rouge me donne l'impression d'être en retard."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Regardons ce que ferait un crieur public avec une cloche."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Voici une fable dans un village des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Le crieur annonce normalement les événements importants de la journée."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Les habitants accourent dès qu'ils entendent sa cloche."
+    ],
+    [
+      "s05a",
+      5,
+      "crieur",
+      0.5,
+      "Ding, ding ! Une nouvelle extraordinaire !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "En réalité, il annonce simplement qu'un marchand a changé sa vitrine."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Les habitants retournent à leur travail, puis la cloche retentit encore."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Le crieur recommence même quand il n'a presque rien à annoncer."
+    ],
+    [
+      "s07a",
+      7,
+      "passant",
+      0.5,
+      "J'ai laissé mon repas refroidir pour apprendre ça ?"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Il finit par courir sans même savoir pourquoi !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "La cloche est devenue un signal d'urgence, même sans urgence réelle."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "À force de sonner, le crieur attire des regards vers sa place."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Les marchands espèrent ainsi que les passants s'arrêteront devant leurs étals."
+    ],
+    [
+      "s09b",
+      9,
+      "crieur",
+      0.5,
+      "Dès qu'ils entendent ma cloche, ils reviennent !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Aujourd'hui, un point rouge ou une vibration peuvent jouer le même rôle."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Certaines alertes sont utiles. D'autres signalent seulement une nouveauté ou une publicité."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Je peux donc garder les messages importants sans toutes les autres alertes ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Oui. Choisis celles qui méritent vraiment ton attention."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Dans les réglages, coupe les notifications promotionnelles non nécessaires."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Garde les appels, les messages et les rappels dont tu as besoin."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Tout ce qui sonne n'est pas important."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je viens de désactiver les alertes de mes jeux."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et le monde ne s'est pas arrêté de tourner."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je regarderai mes messages quand je l'aurai décidé."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Ton attention t'appartient."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

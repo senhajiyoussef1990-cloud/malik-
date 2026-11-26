@@ -1,0 +1,225 @@
+{
+  "ep": "s2_57",
+  "nom": "EP57_Les_frais_qui_apparaissent_a_la_fin",
+  "badge": "ÉPISODE 57",
+  "titre": "LES FRAIS QUI APPARAISSENT À LA FIN",
+  "sous": "« Le vrai prix »",
+  "accroche": "Ton panier à vingt euros finit à trente-cinq ?",
+  "apres": "s2_56",
+  "noms": {
+    "aubergiste": "AUBERGISTE",
+    "client": "CLIENT"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Ce billet coûtait vingt euros. À la dernière page, il est à trente-cinq !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Qu'est-ce qui s'est ajouté ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Des frais de dossier, de service et de réservation. Je n'avais rien vu venir."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Allons dîner dans une auberge très inventive."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Imaginons une auberge des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Sur la devanture, un repas est annoncé à dix francs."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Un client entre, s'assoit et commande le plat affiché."
+    ],
+    [
+      "s05a",
+      5,
+      "aubergiste",
+      0.5,
+      "Dix francs le repas, une affaire formidable !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Le client reçoit une assiette, une cuillère et une bougie pour sa table."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "À la fin du repas, l'aubergiste déroule une longue addition."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Le plat coûte dix francs, mais la chaise, la cuillère et la bougie sont facturées en plus."
+    ],
+    [
+      "s07a",
+      7,
+      "client",
+      0.5,
+      "Vous auriez pu m'annoncer le prix complet avant que je commande !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Le repas n'était donc pas vraiment à dix francs !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Le prix initial attire. Les frais tardifs rendent ensuite le départ plus difficile."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le client a déjà choisi, attendu et consommé son repas."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Il hésite à protester et paie finalement une somme bien supérieure."
+    ],
+    [
+      "s09b",
+      9,
+      "aubergiste",
+      0.5,
+      "Sur mon affiche, c'est le petit prix que tout le monde retient !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "En ligne, des frais obligatoires peuvent parfois apparaître tard dans le parcours."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "D'autres options sont facultatives : il faut distinguer les deux."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Je devrais comparer les prix finaux, et pas seulement les annonces ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Exactement. Compare le total pour les mêmes prestations."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Avant de payer, vérifie chaque ligne du récapitulatif."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Supprime les options que tu n'as pas choisies et reviens en arrière si nécessaire."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Le vrai prix, c'est celui de la dernière page."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'ai trouvé un autre billet à vingt-huit euros, tout compris."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Il est moins cher que celui annoncé à vingt euros."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Le petit prix n'était pas la meilleure affaire."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Compare le total, pas l'affiche."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "ep": "s2_60",
+  "nom": "EP60_Les_fausses_promos_du_Black_Friday",
+  "badge": "ÉPISODE 60",
+  "titre": "LES FAUSSES PROMOS DU BLACK FRIDAY",
+  "sous": "« Le prix barré »",
+  "accroche": "Une réduction de cinquante pour cent… par rapport à quel prix ?",
+  "apres": "s2_59",
+  "noms": {
+    "marchand": "MARCHAND",
+    "client": "CLIENT"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Regarde, ce casque est à cinquante pour cent de réduction ! Une affaire !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Quel était son vrai prix avant la promotion ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Le prix barré indique cent euros. Ça suffit, non ?"
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Voyons un marchand qui prépare la grande foire du village."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Imaginons une foire des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Un marchand vend habituellement un chapeau à cinquante francs."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Quelques jours avant la foire, il change son étiquette pour cent francs."
+    ],
+    [
+      "s05a",
+      5,
+      "marchand",
+      0.5,
+      "Préparez les grandes affiches : demain, tout sera à moitié prix !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Le jour de la foire, il barre cent francs et écrit cinquante en grand."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "La foule voit la réduction et accourt vers son étal."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Un habitué sort son ancien reçu : le même chapeau coûtait déjà cinquante francs."
+    ],
+    [
+      "s07a",
+      7,
+      "client",
+      0.5,
+      "Mais c'est exactement le prix de la semaine dernière !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Alors il n'a pas vraiment économisé cinquante francs !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "C'est un faux ancrage : le prix barré peut donner une impression d'économie artificielle."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Dans notre fable, le marchand a augmenté son prix pour fabriquer une promotion."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "L'habitué montre son reçu aux autres clients, qui commencent à comparer."
+    ],
+    [
+      "s09b",
+      9,
+      "marchand",
+      0.5,
+      "Mes grosses affiches marchent mieux quand personne ne connaît l'ancien prix !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Pendant le Black Friday, beaucoup d'offres sont réelles, mais certaines réductions méritent d'être vérifiées.",
+      "Pendant le Black fraïdé, beaucoup d'offres sont réelles, mais certaines réductions méritent d'être vérifiées."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Un historique de prix peut révéler si un article coûtait déjà autant auparavant."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Donc je peux faire une bonne affaire, mais je dois vérifier ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Oui. Regarde aussi le modèle exact, les frais et ce dont tu as vraiment besoin."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Note à l'avance les prix des produits que tu souhaites acheter."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Compare l'historique et le prix final avant de te laisser impressionner par un pourcentage."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Une réduction se mesure au vrai prix d'avant."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "J'ai vérifié : le casque était déjà à cinquante euros le mois dernier !"
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Alors tu peux attendre ou chercher une véritable baisse."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je n'achète plus un pourcentage. J'achète un produit."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Une promotion n'est une affaire que si elle te convient."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

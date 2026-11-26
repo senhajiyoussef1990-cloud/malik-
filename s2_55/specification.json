@@ -1,0 +1,225 @@
+{
+  "ep": "s2_55",
+  "nom": "EP55_Le_bouton_Tout_accepter",
+  "badge": "ÉPISODE 55",
+  "titre": "LE BOUTON TOUT ACCEPTER",
+  "sous": "« Le choix caché »",
+  "accroche": "Pourquoi refuser est-il parfois plus compliqué qu'accepter ?",
+  "apres": "s2_54",
+  "noms": {
+    "figurant": "GARDIEN",
+    "voyageur": "VOYAGEUR"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "J'ai accepté tous les cookies. Je voulais juste lire la recette !"
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tu voulais vraiment tout accepter, ou c'était le bouton le plus visible ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "L'autre choix était caché dans des réglages. Je n'avais pas le temps."
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Viens visiter un château qui a deux entrées très différentes."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Imaginons un château dans une fable rétro."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Une immense porte accueille les visiteurs avec un tapis et des fleurs."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Une porte discrète permet de passer sans laisser d'informations inutiles."
+    ],
+    [
+      "s05a",
+      5,
+      "figurant",
+      0.5,
+      "Par ici, mes amis ! L'entrée principale est grande ouverte !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Les voyageurs passent devant un registre où l'on demande plusieurs renseignements."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Un voyageur aperçoit une petite porte derrière un paravent."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Pour y accéder, il doit contourner le comptoir et demander son chemin."
+    ],
+    [
+      "s07a",
+      7,
+      "voyageur",
+      0.5,
+      "Je veux juste visiter la cour, pas remplir tout ce registre !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Les deux chemins existent, mais l'un est beaucoup plus facile !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "C'est une interface trompeuse quand elle pousse un choix par sa présentation plutôt que par un consentement éclairé."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le gardien déplace encore le panneau qui indique l'autre entrée."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le visiteur pressé choisit souvent le premier chemin qu'il voit."
+    ],
+    [
+      "s09b",
+      9,
+      "figurant",
+      0.5,
+      "Plus ils passent par ma grande porte, plus mon registre se remplit !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Sur un site, un bouton d'acceptation très visible peut jouer le même rôle."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Les cookies nécessaires et les cookies publicitaires n'ont pas toujours la même fonction."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Je peux donc chercher le choix de refus des cookies facultatifs ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Oui. Et si le site ne te convient pas, tu peux aussi le quitter."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Prends quelques secondes pour lire les options avant de cliquer."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Ne confonds pas une couleur vive avec une recommandation pour toi."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Le bouton le plus facile n'est pas toujours le tien."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Cette fois, je vais chercher les options de confidentialité."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Et tu acceptes seulement ce que tu veux réellement partager."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Je ne suis plus obligé de cliquer sur le plus gros bouton."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Un vrai choix doit rester compréhensible."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}

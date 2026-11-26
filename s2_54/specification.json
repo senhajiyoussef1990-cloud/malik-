@@ -1,0 +1,225 @@
+{
+  "ep": "s2_54",
+  "nom": "EP54_La_flamme_a_ne_pas_perdre",
+  "badge": "ÉPISODE 54",
+  "titre": "LA FLAMME À NE PAS PERDRE",
+  "sous": "« Le piège de la série »",
+  "accroche": "Tu joues encore parce que tu aimes ça… ou pour sauver ta flamme ?",
+  "apres": "s2_53",
+  "noms": {
+    "boulanger": "BOULANGER",
+    "client": "CLIENT"
+  },
+  "lignes": [
+    [
+      "s01a",
+      1,
+      "mouton",
+      0.5,
+      "Vite, il est presque minuit ! Je dois sauver ma série de soixante jours."
+    ],
+    [
+      "s01b",
+      1,
+      "renard",
+      0.5,
+      "Tu as envie de jouer, ou tu as peur de perdre ton compteur ?"
+    ],
+    [
+      "s02a",
+      2,
+      "mouton",
+      0.5,
+      "Aujourd'hui je suis fatigué. Mais perdre soixante jours, jamais !"
+    ],
+    [
+      "s02b",
+      2,
+      "renard",
+      0.5,
+      "Je connais un boulanger qui aurait adoré ce système."
+    ],
+    [
+      "s03a",
+      3,
+      "narr",
+      0.4,
+      "Imaginons une boulangerie des années trente."
+    ],
+    [
+      "s04a",
+      4,
+      "narr",
+      0.4,
+      "Chaque matin, le boulanger donne un tampon aux visiteurs."
+    ],
+    [
+      "s04b",
+      4,
+      "narr",
+      0.4,
+      "Le carnet se remplit : un point, puis deux, puis dix."
+    ],
+    [
+      "s05a",
+      5,
+      "boulanger",
+      0.5,
+      "Un point de plus chaque jour ! Ne manquez surtout pas votre visite !"
+    ],
+    [
+      "s05b",
+      5,
+      "narr",
+      0.4,
+      "Le client vient même les jours où il a déjà du pain."
+    ],
+    [
+      "s06a",
+      6,
+      "narr",
+      0.4,
+      "Il aime voir la colonne de tampons grandir."
+    ],
+    [
+      "s06b",
+      6,
+      "narr",
+      0.4,
+      "Un matin, malade, il ne peut pas venir. Le carnet est remis à zéro."
+    ],
+    [
+      "s07a",
+      7,
+      "client",
+      0.5,
+      "Oh non, mes trente tampons ! Je les avais gagnés un par un !"
+    ],
+    [
+      "s07b",
+      7,
+      "mouton",
+      0.5,
+      "Il a pourtant toujours acheté son pain les jours précédents !"
+    ],
+    [
+      "s08a",
+      8,
+      "renard",
+      0.5,
+      "Oui. Mais perdre un compteur peut sembler plus douloureux que ne pas en avoir."
+    ],
+    [
+      "s08b",
+      8,
+      "narr",
+      0.4,
+      "Le boulanger transforme une visite libre en rendez-vous obligatoire."
+    ],
+    [
+      "s09a",
+      9,
+      "narr",
+      0.4,
+      "Le client revient par peur de perdre ses points plutôt que par besoin de pain."
+    ],
+    [
+      "s09b",
+      9,
+      "boulanger",
+      0.5,
+      "Un carnet plein, et mes clients reviennent tous les jours !"
+    ],
+    [
+      "s10a",
+      10,
+      "narr",
+      0.4,
+      "Dans certaines applications, flammes et badges récompensent des jours consécutifs."
+    ],
+    [
+      "s10b",
+      10,
+      "narr",
+      0.4,
+      "Cela peut motiver un objectif utile, mais aussi créer une obligation inutile."
+    ],
+    [
+      "s11a",
+      11,
+      "mouton",
+      0.5,
+      "Si je rate un jour, tout ce que j'ai appris n'est pas perdu ?"
+    ],
+    [
+      "s11b",
+      11,
+      "renard",
+      0.5,
+      "Exactement. Ton progrès réel ne disparaît pas avec un chiffre."
+    ],
+    [
+      "s12a",
+      12,
+      "narr",
+      0.4,
+      "Fixe-toi un objectif qui t'appartient et accepte les jours de repos."
+    ],
+    [
+      "s12b",
+      12,
+      "narr",
+      0.4,
+      "Si un compteur te stresse, désactive le rappel ou laisse-le repartir."
+    ],
+    [
+      "s13a",
+      13,
+      "renard",
+      0.5,
+      "Une série ne mesure pas ton plaisir, seulement ton habitude."
+    ],
+    [
+      "s14a",
+      14,
+      "narr",
+      0.4,
+      "Retour au salon."
+    ],
+    [
+      "s15a",
+      15,
+      "mouton",
+      0.5,
+      "Je vais dormir. Tant pis pour ma flamme."
+    ],
+    [
+      "s15b",
+      15,
+      "renard",
+      0.5,
+      "Demain, tu reprendras si tu le souhaites."
+    ],
+    [
+      "s15c",
+      15,
+      "mouton",
+      0.5,
+      "Mes soixante jours ont existé, même sans le badge."
+    ],
+    [
+      "s15d",
+      15,
+      "renard",
+      0.5,
+      "Voilà. Le compteur ne décide pas de ta valeur."
+    ],
+    [
+      "s16a",
+      16,
+      "narr",
+      0.4,
+      "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+    ]
+  ]
+}
