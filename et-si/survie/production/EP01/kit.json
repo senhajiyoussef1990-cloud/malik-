@@ -1,0 +1,145 @@
+{
+  "id": "EP01",
+  "title": "Et si ta voiture tombe dans l’eau ?",
+  "sources": [
+    "https://doi.org/10.1177/10806032241227460",
+    "https://doi.org/10.1016/J.WEM.2019.06.007"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "Ta voiture tombe dans un canal. N’attends surtout pas qu’elle se remplisse d’eau.",
+      "visual": "Voiture entrant dans canal, vue intérieure",
+      "sfx": "Splash",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Détache immédiatement ta ceinture et ouvre une vitre latérale tant que c’est possible.",
+      "visual": "Gros plans ceinture et bouton vitre",
+      "sfx": "Clic",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Si elle bloque, utilise un brise-vitre adapté au verre trempé. Le verre feuilleté résiste à ces outils.",
+      "visual": "Outil et schéma comparatif des vitrages",
+      "sfx": "Tintement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Libère les enfants et fais-les sortir avant toi, en les aidant selon leur âge.",
+      "visual": "Adulte aidant des enfants par vitre ouverte",
+      "sfx": "Eau",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Sors sans attendre. Ne perds pas de temps à récupérer ton téléphone ou à forcer une porte.",
+      "visual": "Sortie par vitre, téléphone laissé",
+      "sfx": "Souffle",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "Rejoins un endroit sûr ou agrippe-toi à un support flottant. Appelle les secours dès que possible.",
+      "visual": "Personnage hors véhicule, secours alertés",
+      "sfx": "Ambiance calme",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si ta voiture tombe dans l’eau ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://doi.org/10.1177/10806032241227460\nhttps://doi.org/10.1016/J.WEM.2019.06.007\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "Ta voiture tombe dans un canal. N’attends surtout pas qu’elle se remplisse d’eau.\n\nDétache immédiatement ta ceinture et ouvre une vitre latérale tant que c’est possible.\n\nSi elle bloque, utilise un brise-vitre adapté au verre trempé. Le verre feuilleté résiste à ces outils.\n\nLibère les enfants et fais-les sortir avant toi, en les aidant selon leur âge.\n\nSors sans attendre. Ne perds pas de temps à récupérer ton téléphone ou à forcer une porte.\n\nRejoins un endroit sûr ou agrippe-toi à un support flottant. Appelle les secours dès que possible.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nTa voiture tombe dans un canal. N’attends surtout pas qu’elle se remplisse d’eau.\n\n00:09 – 00:18\nDétache immédiatement ta ceinture et ouvre une vitre latérale tant que c’est possible.\n\n00:18 – 00:27\nSi elle bloque, utilise un brise-vitre adapté au verre trempé. Le verre feuilleté résiste à ces outils.\n\n00:27 – 00:36\nLibère les enfants et fais-les sortir avant toi, en les aidant selon leur âge.\n\n00:36 – 00:45\nSors sans attendre. Ne perds pas de temps à récupérer ton téléphone ou à forcer une porte.\n\n00:45 – 00:54\nRejoins un endroit sûr ou agrippe-toi à un support flottant. Appelle les secours dès que possible.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Voiture entrant dans canal, vue intérieure. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Voiture entrant dans canal, vue intérieure. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Splash",
+      "subtitle": "Ta voiture tombe dans un canal. N’attends surtout pas qu’elle se remplisse d’eau."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Gros plans ceinture et bouton vitre. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Gros plans ceinture et bouton vitre. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Clic",
+      "subtitle": "Détache immédiatement ta ceinture et ouvre une vitre latérale tant que c’est possible."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Outil et schéma comparatif des vitrages. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Outil et schéma comparatif des vitrages. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Tintement",
+      "subtitle": "Si elle bloque, utilise un brise-vitre adapté au verre trempé. Le verre feuilleté résiste à ces outils."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Adulte aidant des enfants par vitre ouverte. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Adulte aidant des enfants par vitre ouverte. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Eau",
+      "subtitle": "Libère les enfants et fais-les sortir avant toi, en les aidant selon leur âge."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Sortie par vitre, téléphone laissé. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Sortie par vitre, téléphone laissé. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Souffle",
+      "subtitle": "Sors sans attendre. Ne perds pas de temps à récupérer ton téléphone ou à forcer une porte."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Personnage hors véhicule, secours alertés. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Personnage hors véhicule, secours alertés. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Ambiance calme",
+      "subtitle": "Rejoins un endroit sûr ou agrippe-toi à un support flottant. Appelle les secours dès que possible."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si ta voiture tombe dans l’eau ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si ta voiture tombe dans l’eau ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si ta voiture tombe dans l’eau ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
