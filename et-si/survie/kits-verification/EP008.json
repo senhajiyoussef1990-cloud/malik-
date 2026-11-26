@@ -1,0 +1,72 @@
+{
+  "id": "008",
+  "title": "Et si ton enfant avalait une pile bouton ?",
+  "format": "1080x1920,30fps,65s indicatives",
+  "status": "Vérification documentaire effectuée le 2026-11-27, relecture professionnelle indépendante requise avant publication",
+  "sources": [
+    "https://www.centreantipoisons.be/tox-infos/les-piles-boutons/"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "voix": "Et si ton enfant avalait une pile bouton ?",
+      "sous_titre": "Et si ton enfant avalait une pile bouton ?",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Télécommande ouverte, pile manquante",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Accroche sonore courte"
+    },
+    {
+      "start": 5,
+      "end": 16,
+      "voix": "Tu remarques qu’une pile manque dans la télécommande. Tu soupçonnes ton enfant de l’avoir avalée.",
+      "sous_titre": "Tu remarques qu’une pile manque dans la télécommande. Tu soupçonnes ton enfant de l’avoir avalée.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Télécommande ouverte, pile manquante",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 16,
+      "end": 27,
+      "voix": "Même s’il semble aller bien, des lésions graves peuvent déjà se développer.",
+      "sous_titre": "Même s’il semble aller bien, des lésions graves peuvent déjà se développer.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Schéma simple de l’œsophage sans lésion graphique",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 27,
+      "end": 40,
+      "voix": "Rends-toi immédiatement aux urgences. En cas de symptômes graves ou de difficultés respiratoires, appelle le 112.",
+      "sous_titre": "Rends-toi immédiatement aux urgences. En cas de symptômes graves ou de difficultés respiratoires, appelle le 112.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Parent et enfant aux urgences, écran 112 conditionnel",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 40,
+      "end": 53,
+      "voix": "Ne provoque pas de vomissement et ne donne pas de nourriture. Le miel fait l’objet de conditions médicales strictes : demande conseil sans retarder le départ.",
+      "sous_titre": "Ne provoque pas de vomissement et ne donne pas de nourriture. Le miel fait l’objet de conditions médicales strictes : demande conseil sans retarder le départ.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Pictogramme vomissement barré, aucun remède illustré",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Ambiance discrète sous la voix"
+    },
+    {
+      "start": 53,
+      "end": 65,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "sous_titre": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "prompt_image": "Vertical 9:16, animation 3D semi-réaliste originale, personnages et décor cohérents. Logo officiel et sources",
+      "animation": "Caméra douce, mouvement naturel, aucun geste médical ajouté.",
+      "bruitage": "Signature musicale"
+    }
+  ],
+  "voix_off": "Et si ton enfant avalait une pile bouton ?\nTu remarques qu’une pile manque dans la télécommande. Tu soupçonnes ton enfant de l’avoir avalée.\nMême s’il semble aller bien, des lésions graves peuvent déjà se développer.\nRends-toi immédiatement aux urgences. En cas de symptômes graves ou de difficultés respiratoires, appelle le 112.\nNe provoque pas de vomissement et ne donne pas de nourriture. Le miel fait l’objet de conditions médicales strictes : demande conseil sans retarder le départ.\nMaintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+  "publication": {
+    "titre": "Et si ton enfant avalait une pile bouton ?",
+    "description": "Simulation éducative. Sources officielles : https://www.centreantipoisons.be/tox-infos/les-piles-boutons/",
+    "hashtags": "#EtSi #Prevention #PremiersSecours"
+  },
+  "claude": "Respecter strictement les textes. Recaler les sous-titres sur la voix. Ne pas ajouter de conseils ni générer avant validation professionnelle."
+}
