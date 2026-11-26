@@ -1,0 +1,1227 @@
+{
+  "format": "1080x1920, 30 fps, 60 secondes cible, timeline indicative à recaler, voix française, sous-titres",
+  "priority": "remplace l’ordre éditorial précédent sans supprimer les fichiers",
+  "safety": "Aucun rendu ou publication avant validation des sources spécifiques, relecture professionnelle et contrôle des gestes. Les références à confirmer ne sont pas vérifiées. Numéro 112 UE, antipoisons belge uniquement. Ne pas raccourcir les gestes pour tenir la durée.",
+  "episodes": [
+    {
+      "id": "EP01",
+      "title": "Casserole d’huile en feu",
+      "source": "https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "L’huile de ta casserole s’enflamme. Ne verse jamais d’eau dessus !",
+          "visuel": "Flammes en cuisine",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Flammes en cuisine. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Ne déplace pas la casserole : tu risques de répandre le feu.",
+          "visuel": "Eau barrée, casserole immobile",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Eau barrée, casserole immobile. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Coupe la chaleur seulement si tu peux le faire sans danger.",
+          "visuel": "Commande accessible sans flamme",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Commande accessible sans flamme. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Éloigne-toi, avertis les occupants et évacue. Ferme les portes si possible.",
+          "visuel": "Sortie et porte",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Sortie et porte. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Appelle le 112 depuis dehors. Ne retourne pas dans le logement.",
+          "visuel": "Appel extérieur",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel extérieur. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Casserole d’huile en feu ? #Shorts",
+        "description": "Simulation éducative Casserole d’huile en feu. Suis les consignes des secours. Source à valider avant publication : https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires",
+        "social": "Casserole d’huile en feu : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP02",
+      "title": "Étouffement seul",
+      "source": "https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking",
+      "source_status": "auto-secours à confirmer",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Tu avales de travers et tu es seul. Peux-tu encore tousser ?",
+          "visuel": "Adulte à table",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Adulte à table. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Si ta toux est efficace, continue de tousser.",
+          "visuel": "Toux efficace",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Toux efficace. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Si tu ne peux plus respirer ou parler, appelle le 112 si possible et cherche immédiatement de l’aide.",
+          "visuel": "Téléphone haut-parleur et voisin",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Téléphone haut-parleur et voisin. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Pour un adulte seul, des poussées abdominales sur soi-même peuvent être envisagées : fais-toi former à ce geste.",
+          "visuel": "Mannequin sans démonstration non validée",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Mannequin sans démonstration non validée. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Après des poussées abdominales, demande un examen médical.",
+          "visuel": "Consultation",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Consultation. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Étouffement seul ? #Shorts",
+        "description": "Simulation éducative Étouffement seul. Suis les consignes des secours. Source à valider avant publication : https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking",
+        "social": "Étouffement seul : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP03",
+      "title": "Bébé qui s’étouffe",
+      "source": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines",
+      "source_status": "source consultée, algorithme obstruction à contrôler",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Ton bébé ne peut plus pleurer, tousser efficacement ou respirer ? C’est une urgence.",
+          "visuel": "Bébé mannequin",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Bébé mannequin. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Fais appeler le 112. Si tu es seul, utilise le haut-parleur.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Soutiens sa tête, place-le face vers le bas, tête plus basse, et donne jusqu’à cinq tapes entre les omoplates.",
+          "visuel": "Tapes sur mannequin",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Tapes sur mannequin. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Si cela échoue, retourne-le en soutenant sa tête et réalise jusqu’à cinq compressions thoraciques. Alterne les séries. Jamais de poussées abdominales.",
+          "visuel": "Compressions sur mannequin, technique ERC à valider",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Compressions sur mannequin, technique ERC à valider. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "S’il perd connaissance, commence la réanimation guidée par le 112. Ne fouille jamais sa bouche à l’aveugle.",
+          "visuel": "Opérateur secours",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Opérateur secours. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Bébé qui s’étouffe ? #Shorts",
+        "description": "Simulation éducative Bébé qui s’étouffe. Suis les consignes des secours. Source à valider avant publication : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines",
+        "social": "Bébé qui s’étouffe : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP04",
+      "title": "Téléphone qui prend feu",
+      "source": "https://www.london-fire.gov.uk/safety/lithium-batteries/",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Ton téléphone chauffe anormalement, gonfle ou fume ? Ne l’ignore pas.",
+          "visuel": "Téléphone gonflé",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Téléphone gonflé. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Arrête de l’utiliser. Débranche l’alimentation uniquement si cela ne te met pas en danger.",
+          "visuel": "Prise accessible",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Prise accessible. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "S’il fume ou brûle, ne le manipule pas et ne respire pas les fumées.",
+          "visuel": "Fumée, mains éloignées",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Fumée, mains éloignées. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Évacue le logement, avertis les autres et ferme les portes si possible.",
+          "visuel": "Évacuation",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Évacuation. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Appelle le 112 dehors. Ne retourne pas chercher l’appareil.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Téléphone qui prend feu ? #Shorts",
+        "description": "Simulation éducative Téléphone qui prend feu. Suis les consignes des secours. Source à valider avant publication : https://www.london-fire.gov.uk/safety/lithium-batteries/",
+        "social": "Téléphone qui prend feu : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP05",
+      "title": "Incendie pendant le sommeil",
+      "source": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Le détecteur de fumée te réveille. Ne récupère pas tes affaires.",
+          "visuel": "Alarme",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Alarme. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Si la porte est chaude, ne l’ouvre pas. Cherche une autre sortie sûre.",
+          "visuel": "Porte",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Porte. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Si tu dois passer dans la fumée pour sortir, reste près du sol. N’utilise pas l’ascenseur.",
+          "visuel": "Sortie basse",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Sortie basse. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Si tu es bloqué, ferme la porte, appelle le 112 et signale où tu te trouves.",
+          "visuel": "Pièce refuge",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Pièce refuge. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Une fois dehors, reste dehors et informe les pompiers si quelqu’un manque.",
+          "visuel": "Rassemblement",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Rassemblement. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Incendie pendant le sommeil ? #Shorts",
+        "description": "Simulation éducative Incendie pendant le sommeil. Suis les consignes des secours. Source à valider avant publication : https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+        "social": "Incendie pendant le sommeil : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP06",
+      "title": "Brûlure à l’eau bouillante",
+      "source": "https://www.nhs.uk/conditions/Burns-and-scalds/",
+      "source_status": "consultée",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Tu renverses de l’eau bouillante sur ton bras. Refroidis la zone sans attendre.",
+          "visuel": "Tasse renversée",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Tasse renversée. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Passe la brûlure sous de l’eau courante fraîche pendant vingt minutes. Pas de glace.",
+          "visuel": "Robinet et minuterie",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Robinet et minuterie. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Retire bijoux et vêtements proches, sauf ceux collés à la peau. Garde le reste du corps au chaud.",
+          "visuel": "Bijoux",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Bijoux. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Après refroidissement, protège la zone avec une couverture propre non adhérente. Pas de beurre ni de crème.",
+          "visuel": "Protection non serrée",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Protection non serrée. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Une brûlure profonde, étendue ou du visage nécessite des soins urgents. Appelle le 112 si grave.",
+          "visuel": "Secours",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Secours. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Brûlure à l’eau bouillante ? #Shorts",
+        "description": "Simulation éducative Brûlure à l’eau bouillante. Suis les consignes des secours. Source à valider avant publication : https://www.nhs.uk/conditions/Burns-and-scalds/",
+        "social": "Brûlure à l’eau bouillante : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP07",
+      "title": "Fuite de gaz",
+      "source": "https://www.sibelga.be/fr",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Tu sens une odeur de gaz chez toi ? Évite toute étincelle.",
+          "visuel": "Cuisine",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Cuisine. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "N’actionne aucun interrupteur, appareil ou téléphone à l’intérieur. N’allume aucune flamme.",
+          "visuel": "Interrupteur barré",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Interrupteur barré. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Si c’est immédiatement possible sans risque, ouvre les fenêtres et ferme l’arrivée de gaz. Ne retarde pas ta sortie.",
+          "visuel": "Fenêtre accessible",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Fenêtre accessible. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Fais sortir les occupants. Ne prends pas l’ascenseur.",
+          "visuel": "Sortie",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Sortie. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Depuis dehors, appelle le service d’urgence gaz ou le 112 en cas de danger. Ne rentre pas sans autorisation.",
+          "visuel": "Appel extérieur",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel extérieur. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Fuite de gaz ? #Shorts",
+        "description": "Simulation éducative Fuite de gaz. Suis les consignes des secours. Source à valider avant publication : https://www.sibelga.be/fr",
+        "social": "Fuite de gaz : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP08",
+      "title": "Pile bouton avalée",
+      "source": "https://www.centreantipoisons.be/tox-infos/les-piles-boutons/",
+      "source_status": "consultée",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Une pile bouton a disparu et ton enfant pourrait l’avoir avalée ? N’attends pas.",
+          "visuel": "Télécommande",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Télécommande. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Même sans douleur, une pile coincée peut abîmer gravement les tissus.",
+          "visuel": "Schéma œsophage",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Schéma œsophage. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Pars immédiatement aux urgences. Si ton enfant respire mal ou présente des signes graves, appelle le 112.",
+          "visuel": "Départ urgences",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Départ urgences. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Ne le fais pas vomir. Ne donne pas d’aliment sans avis spécialisé ; le miel relève de conditions strictes.",
+          "visuel": "Pictogramme vomissement barré",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Pictogramme vomissement barré. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "N’attends pas de retrouver la pile. Emporte son emballage si disponible sans perdre de temps.",
+          "visuel": "Emballage",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Emballage. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Pile bouton avalée ? #Shorts",
+        "description": "Simulation éducative Pile bouton avalée. Suis les consignes des secours. Source à valider avant publication : https://www.centreantipoisons.be/tox-infos/les-piles-boutons/",
+        "social": "Pile bouton avalée : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP09",
+      "title": "Coupure profonde",
+      "source": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+      "source_status": "consultée",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Une coupure saigne abondamment et ne s’arrête pas ? Agis tout de suite.",
+          "visuel": "Couteau posé, plaie simulée",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Couteau posé, plaie simulée. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Appelle le 112, idéalement en haut-parleur.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Appuie fermement directement sur la plaie avec une compresse ou un tissu propre.",
+          "visuel": "Compression mannequin",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Compression mannequin. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Maintiens la pression sans vérifier sans cesse. Si un objet est planté, ne le retire pas ; comprime autour.",
+          "visuel": "Pression continue",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Pression continue. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Reste avec la victime, garde-la au chaud et suis les consignes du 112.",
+          "visuel": "Attente secours",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Attente secours. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Coupure profonde ? #Shorts",
+        "description": "Simulation éducative Coupure profonde. Suis les consignes des secours. Source à valider avant publication : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+        "social": "Coupure profonde : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP10",
+      "title": "Électrisation",
+      "source": "https://www.redcross.org/take-a-class/resources/learn-first-aid",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Quelqu’un est en contact avec du courant électrique. Ne le touche pas !",
+          "visuel": "Appareil électrique",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appareil électrique. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Coupe l’électricité au disjoncteur si tu peux le faire sans danger.",
+          "visuel": "Disjoncteur",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Disjoncteur. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Si la source reste active, éloigne-toi et appelle le 112. Ne tente pas de déplacer la victime.",
+          "visuel": "Distance",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Distance. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Une fois le danger écarté, vérifie si elle réagit et respire normalement.",
+          "visuel": "Évaluation",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Évaluation. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Si elle ne respire pas normalement, commence la réanimation guidée par le 112. Un choc électrique nécessite un avis médical.",
+          "visuel": "Mannequin RCP",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Mannequin RCP. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Électrisation ? #Shorts",
+        "description": "Simulation éducative Électrisation. Suis les consignes des secours. Source à valider avant publication : https://www.redcross.org/take-a-class/resources/learn-first-aid",
+        "social": "Électrisation : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP11",
+      "title": "Monoxyde de carbone",
+      "source": "https://www.centreantipoisons.be/",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Plusieurs personnes ont mal à la tête ou des nausées chez toi ? Pense au monoxyde de carbone.",
+          "visuel": "Famille mal à l’aise",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Famille mal à l’aise. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Ce gaz est invisible et sans odeur. Ne reste pas pour chercher la cause.",
+          "visuel": "Gaz en schéma",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Gaz en schéma. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Sors immédiatement à l’air libre et fais sortir les autres sans te mettre en danger.",
+          "visuel": "Sortie",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Sortie. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Appelle le 112 depuis l’extérieur. Ne retourne pas dans le logement.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Fais contrôler les appareils de chauffage et installe des détecteurs adaptés.",
+          "visuel": "Détecteur",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Détecteur. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Monoxyde de carbone ? #Shorts",
+        "description": "Simulation éducative Monoxyde de carbone. Suis les consignes des secours. Source à valider avant publication : https://www.centreantipoisons.be/",
+        "social": "Monoxyde de carbone : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP12",
+      "title": "Produit ménager avalé",
+      "source": "https://www.centreantipoisons.be/",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Ton enfant a avalé un produit ménager ? Ne le fais pas vomir.",
+          "visuel": "Flacon fermé",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Flacon fermé. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Éloigne le produit et garde son emballage pour identifier le contenu.",
+          "visuel": "Étiquette",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Étiquette. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Ne lui donne rien à boire ou à manger sans consigne du Centre Antipoisons.",
+          "visuel": "Verre barré",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Verre barré. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "En Belgique, appelle le 070 245 245. En cas de difficulté respiratoire, perte de connaissance ou danger vital, appelle le 112.",
+          "visuel": "Numéro belge et 112",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Numéro belge et 112. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Suis les instructions du spécialiste, même si ton enfant semble aller bien.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Produit ménager avalé ? #Shorts",
+        "description": "Simulation éducative Produit ménager avalé. Suis les consignes des secours. Source à valider avant publication : https://www.centreantipoisons.be/",
+        "social": "Produit ménager avalé : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP13",
+      "title": "Arrêt cardiaque adulte",
+      "source": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines",
+      "source_status": "consultée",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Une personne s’effondre et ne répond plus. Appelle immédiatement le 112.",
+          "visuel": "Chute non graphique",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Chute non graphique. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Mets le téléphone en haut-parleur. Vérifie sa respiration avec l’aide de l’opérateur.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Si elle ne respire pas normalement, commence les compressions au centre de la poitrine.",
+          "visuel": "Mannequin",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Mannequin. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Chez l’adulte, vise cent à cent vingt compressions par minute, profondeur cinq à six centimètres, en laissant remonter le thorax.",
+          "visuel": "Métronome et profondeur",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Métronome et profondeur. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Fais apporter un défibrillateur et suis ses instructions. Continue selon les consignes des secours.",
+          "visuel": "DAE",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : DAE. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Arrêt cardiaque adulte ? #Shorts",
+        "description": "Simulation éducative Arrêt cardiaque adulte. Suis les consignes des secours. Source à valider avant publication : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines",
+        "social": "Arrêt cardiaque adulte : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP14",
+      "title": "Enfant tombé dans la piscine",
+      "source": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+      "source_status": "consultée avec recommandations pédiatriques",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Ton enfant est en difficulté dans la piscine. Appelle à l’aide, sans te mettre toi-même en danger.",
+          "visuel": "Piscine",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Piscine. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Depuis le bord, utilise une aide flottante ou tends un objet si possible. Fais appeler le 112.",
+          "visuel": "Perche et appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Perche et appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Une fois l’enfant hors de l’eau, vérifie sa réaction et sa respiration.",
+          "visuel": "Mannequin enfant au sol",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Mannequin enfant au sol. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "S’il ne respire pas normalement, donne cinq insufflations initiales si tu sais les faire, puis commence la réanimation guidée par le 112.",
+          "visuel": "Réanimation mannequin",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Réanimation mannequin. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Ne tente pas de vider ses poumons en le secouant. Surveille sa respiration et suis les consignes médicales.",
+          "visuel": "Secours",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Secours. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Enfant tombé dans la piscine ? #Shorts",
+        "description": "Simulation éducative Enfant tombé dans la piscine. Suis les consignes des secours. Source à valider avant publication : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+        "social": "Enfant tombé dans la piscine : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP15",
+      "title": "Mélange de produits ménagers",
+      "source": "https://www.centreantipoisons.be/tox-infos/eau-de-javel/",
+      "source_status": "prévention consultée, conduite à confirmer",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Tu nettoies la salle de bain et des vapeurs irritantes apparaissent.",
+          "visuel": "Flacons séparés",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Flacons séparés. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Ne mélange jamais l’eau de Javel avec un autre nettoyant.",
+          "visuel": "Interdiction de mélange",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Interdiction de mélange. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Quitte immédiatement la pièce et respire de l’air frais. Ne retourne pas respirer les vapeurs pour nettoyer.",
+          "visuel": "Sortie",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Sortie. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Si tu respires difficilement, appelle le 112. Sinon demande rapidement conseil au Centre Antipoisons.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Garde les produits dans leurs emballages et utilise-les séparément selon leurs notices.",
+          "visuel": "Rangement",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Rangement. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Mélange de produits ménagers ? #Shorts",
+        "description": "Simulation éducative Mélange de produits ménagers. Suis les consignes des secours. Source à valider avant publication : https://www.centreantipoisons.be/tox-infos/eau-de-javel/",
+        "social": "Mélange de produits ménagers : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP16",
+      "title": "Crise d’épilepsie",
+      "source": "https://www.redcross.org/content/dam/redcross/uncategorized/6/CPro_PM_digital.pdf",
+      "source_status": "critères d’appel consultés, gestes à confirmer",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Une personne convulse devant toi. Écarte les objets qui pourraient la blesser.",
+          "visuel": "Personne au sol",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Personne au sol. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Protège sa tête avec quelque chose de souple et note l’heure de début.",
+          "visuel": "Coussin et chrono",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Coussin et chrono. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Ne la retiens pas et ne place rien dans sa bouche.",
+          "visuel": "Mains éloignées",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Mains éloignées. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Après les convulsions, si elle respire normalement, place-la sur le côté si aucun traumatisme ne l’interdit.",
+          "visuel": "Position latérale",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Position latérale. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Appelle le 112 si première crise, durée de cinq minutes ou plus, crises répétées, blessure ou respiration anormale. Suis les consignes.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Crise d’épilepsie ? #Shorts",
+        "description": "Simulation éducative Crise d’épilepsie. Suis les consignes des secours. Source à valider avant publication : https://www.redcross.org/content/dam/redcross/uncategorized/6/CPro_PM_digital.pdf",
+        "social": "Crise d’épilepsie : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP17",
+      "title": "Enfant tombé dans les escaliers",
+      "source": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "source_status": "consultée",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Ton enfant tombe dans les escaliers et se cogne la tête. Ne le relève pas précipitamment.",
+          "visuel": "Escaliers",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Escaliers. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Vérifie s’il réagit et respire normalement. Évite de bouger son cou si tu suspectes une blessure.",
+          "visuel": "Évaluation",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Évaluation. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Appelle le 112 en cas de perte de connaissance persistante, convulsions, somnolence anormale ou chute importante.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Des vomissements ou un changement de comportement nécessitent une évaluation médicale urgente.",
+          "visuel": "Signes d’alerte",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Signes d’alerte. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Reste auprès de lui et suis les consignes des secours. Surveille toute aggravation.",
+          "visuel": "Surveillance",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Surveillance. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Enfant tombé dans les escaliers ? #Shorts",
+        "description": "Simulation éducative Enfant tombé dans les escaliers. Suis les consignes des secours. Source à valider avant publication : https://www.nhs.uk/conditions/head-injury-and-concussion/",
+        "social": "Enfant tombé dans les escaliers : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP18",
+      "title": "Réaction allergique grave",
+      "source": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+      "source_status": "consultée",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Après un repas, ta gorge gonfle ou tu respires difficilement ? Une allergie grave est possible.",
+          "visuel": "Repas",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Repas. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Appelle immédiatement le 112.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Utilise sans attendre ton auto-injecteur d’adrénaline prescrit, sur la face externe de la cuisse, selon sa notice.",
+          "visuel": "Auto-injecteur générique et mannequin",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Auto-injecteur générique et mannequin. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Allonge-toi ; si respirer est difficile, assieds-toi jambes étendues. Ne te lève pas pour marcher.",
+          "visuel": "Positions adaptées",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Positions adaptées. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Si les symptômes persistent après cinq minutes, utilise un second auto-injecteur disponible selon les consignes. Attends les secours.",
+          "visuel": "Chrono",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Chrono. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Réaction allergique grave ? #Shorts",
+        "description": "Simulation éducative Réaction allergique grave. Suis les consignes des secours. Source à valider avant publication : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+        "social": "Réaction allergique grave : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP19",
+      "title": "AVC",
+      "source": "https://www.redcross.org/content/dam/redcross/training-services/no-index/First%20Aid-CPR-AED-Participant%27s%20Manual.pdf",
+      "source_status": "signes consultés",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Le visage d’un proche devient soudain asymétrique. Reconnais les signes d’un AVC.",
+          "visuel": "Visage asymétrique",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Visage asymétrique. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Demande-lui de sourire, de lever les deux bras et de répéter une phrase simple.",
+          "visuel": "Test bras et parole",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Test bras et parole. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Un seul signe soudain suffit pour appeler le 112, même s’il disparaît.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Note l’heure du début des signes ou la dernière heure où la personne allait bien.",
+          "visuel": "Horloge",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Horloge. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Ne donne ni nourriture, ni boisson, ni médicament sans consigne. Surveille sa respiration en attendant les secours.",
+          "visuel": "Attente",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Attente. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… AVC ? #Shorts",
+        "description": "Simulation éducative AVC. Suis les consignes des secours. Source à valider avant publication : https://www.redcross.org/content/dam/redcross/training-services/no-index/First%20Aid-CPR-AED-Participant%27s%20Manual.pdf",
+        "social": "AVC : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP20",
+      "title": "Four en feu",
+      "source": "https://www.nfpa.org/education-and-research/home-fire-safety/cooking",
+      "source_status": "à confirmer directement",
+      "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 8,
+          "voix": "Tu aperçois des flammes dans ton four. N’ouvre pas la porte.",
+          "visuel": "Four vitré",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Four vitré. Aucun geste ajouté.",
+          "son": "Ambiance domestique, accent de tension"
+        },
+        {
+          "start": 8,
+          "end": 18,
+          "voix": "Garde-la fermée et coupe le four seulement si les commandes sont accessibles sans danger.",
+          "visuel": "Commande",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Commande. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 18,
+          "end": 31,
+          "voix": "Ne verse pas d’eau et ne cherche pas à sortir le plat brûlant.",
+          "visuel": "Eau barrée",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Eau barrée. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 31,
+          "end": 43,
+          "voix": "Si le feu persiste, si la fumée se répand ou si tu as un doute, évacue immédiatement.",
+          "visuel": "Évacuation",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Évacuation. Aucun geste ajouté.",
+          "son": "Bruitages synchronisés discrets"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "voix": "Appelle le 112 depuis dehors et laisse les pompiers intervenir.",
+          "visuel": "Appel",
+          "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+          "son": "Ambiance calme"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo choisi, partage et abonnement",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si… Four en feu ? #Shorts",
+        "description": "Simulation éducative Four en feu. Suis les consignes des secours. Source à valider avant publication : https://www.nfpa.org/education-and-research/home-fire-safety/cooking",
+        "social": "Four en feu : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    }
+  ]
+}
