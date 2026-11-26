@@ -1,0 +1,144 @@
+{
+  "id": "EP03",
+  "title": "Et si tu t’étouffes alors que tu es seul ?",
+  "sources": [
+    "https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "Tu avales de travers et personne n’est là. Si tu peux encore tousser fortement, continue de tousser.",
+      "visual": "Adulte à table, toux",
+      "sfx": "Toux",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Si tu ne peux plus parler, respirer ou tousser efficacement, c’est une urgence vitale.",
+      "visual": "Schéma obstruction complète",
+      "sfx": "Pulsation",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Appelle immédiatement le 112 si possible, même si tu ne peux pas parler. Attire l’attention autour de toi.",
+      "visual": "Téléphone en appel, porte voisine",
+      "sfx": "Bip",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Place ton poing juste au-dessus du nombril, sous le sternum. Saisis-le avec l’autre main.",
+      "visual": "Démonstration anatomique adulte",
+      "sfx": "Ambiance neutre",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Effectue des poussées rapides vers l’intérieur et le haut. Ou appuie cette zone contre un dossier solide non tranchant.",
+      "visual": "Démonstration sur mannequin, dossier stable",
+      "sfx": "Impact doux",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "Continue jusqu’à expulsion ou arrivée de l’aide. Fais-toi examiner après des poussées abdominales.",
+      "visual": "Secouriste et adulte, schéma rappel",
+      "sfx": "Résolution",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si tu t’étouffes alors que tu es seul ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "Tu avales de travers et personne n’est là. Si tu peux encore tousser fortement, continue de tousser.\n\nSi tu ne peux plus parler, respirer ou tousser efficacement, c’est une urgence vitale.\n\nAppelle immédiatement le 112 si possible, même si tu ne peux pas parler. Attire l’attention autour de toi.\n\nPlace ton poing juste au-dessus du nombril, sous le sternum. Saisis-le avec l’autre main.\n\nEffectue des poussées rapides vers l’intérieur et le haut. Ou appuie cette zone contre un dossier solide non tranchant.\n\nContinue jusqu’à expulsion ou arrivée de l’aide. Fais-toi examiner après des poussées abdominales.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nTu avales de travers et personne n’est là. Si tu peux encore tousser fortement, continue de tousser.\n\n00:09 – 00:18\nSi tu ne peux plus parler, respirer ou tousser efficacement, c’est une urgence vitale.\n\n00:18 – 00:27\nAppelle immédiatement le 112 si possible, même si tu ne peux pas parler. Attire l’attention autour de toi.\n\n00:27 – 00:36\nPlace ton poing juste au-dessus du nombril, sous le sternum. Saisis-le avec l’autre main.\n\n00:36 – 00:45\nEffectue des poussées rapides vers l’intérieur et le haut. Ou appuie cette zone contre un dossier solide non tranchant.\n\n00:45 – 00:54\nContinue jusqu’à expulsion ou arrivée de l’aide. Fais-toi examiner après des poussées abdominales.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Adulte à table, toux. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Adulte à table, toux. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Toux",
+      "subtitle": "Tu avales de travers et personne n’est là. Si tu peux encore tousser fortement, continue de tousser."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Schéma obstruction complète. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Schéma obstruction complète. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Pulsation",
+      "subtitle": "Si tu ne peux plus parler, respirer ou tousser efficacement, c’est une urgence vitale."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Téléphone en appel, porte voisine. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Téléphone en appel, porte voisine. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Bip",
+      "subtitle": "Appelle immédiatement le 112 si possible, même si tu ne peux pas parler. Attire l’attention autour de toi."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Démonstration anatomique adulte. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Démonstration anatomique adulte. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Ambiance neutre",
+      "subtitle": "Place ton poing juste au-dessus du nombril, sous le sternum. Saisis-le avec l’autre main."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Démonstration sur mannequin, dossier stable. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Démonstration sur mannequin, dossier stable. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Impact doux",
+      "subtitle": "Effectue des poussées rapides vers l’intérieur et le haut. Ou appuie cette zone contre un dossier solide non tranchant."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Secouriste et adulte, schéma rappel. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Secouriste et adulte, schéma rappel. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Résolution",
+      "subtitle": "Continue jusqu’à expulsion ou arrivée de l’aide. Fais-toi examiner après des poussées abdominales."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si tu t’étouffes alors que tu es seul ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si tu t’étouffes alors que tu es seul ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si tu t’étouffes alors que tu es seul ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
