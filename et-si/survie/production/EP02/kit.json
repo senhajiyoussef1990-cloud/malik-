@@ -1,0 +1,144 @@
+{
+  "id": "EP02",
+  "title": "Et si tes freins lâchent sur l’autoroute ?",
+  "sources": [
+    "https://qr.dmv.ca.gov/portal/driver-education-and-safety/special-interest-driver-guides/teen-drivers/"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "Tu roules sur l’autoroute et la pédale de frein ne répond plus. Garde le contrôle du volant.",
+      "visual": "Habitacle, pédale, route",
+      "sfx": "Tension",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Relâche l’accélérateur, allume les feux de détresse et avertis les autres si nécessaire.",
+      "visual": "Pied et bouton warning",
+      "sfx": "Clignotant",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Avec un freinage ABS, appuie fermement sur la pédale. Ne confonds pas vibrations et panne.",
+      "visual": "Pédale et schéma ABS",
+      "sfx": "Vibration",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Rétrograde progressivement si ton véhicule le permet. Ne coupe pas le moteur en roulant.",
+      "visual": "Sélecteur et baisse vitesse",
+      "sfx": "Moteur",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Utilise prudemment le frein de stationnement selon le manuel du véhicule. Évite de bloquer les roues.",
+      "visual": "Illustration frein mécanique et électrique distincts",
+      "sfx": "Tension",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "Cherche une zone dégagée pour t’arrêter. Une fois en sécurité, appelle les secours ou l’assistance.",
+      "visual": "Arrêt hors circulation",
+      "sfx": "Résolution",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si tes freins lâchent sur l’autoroute ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://qr.dmv.ca.gov/portal/driver-education-and-safety/special-interest-driver-guides/teen-drivers/\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "Tu roules sur l’autoroute et la pédale de frein ne répond plus. Garde le contrôle du volant.\n\nRelâche l’accélérateur, allume les feux de détresse et avertis les autres si nécessaire.\n\nAvec un freinage ABS, appuie fermement sur la pédale. Ne confonds pas vibrations et panne.\n\nRétrograde progressivement si ton véhicule le permet. Ne coupe pas le moteur en roulant.\n\nUtilise prudemment le frein de stationnement selon le manuel du véhicule. Évite de bloquer les roues.\n\nCherche une zone dégagée pour t’arrêter. Une fois en sécurité, appelle les secours ou l’assistance.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nTu roules sur l’autoroute et la pédale de frein ne répond plus. Garde le contrôle du volant.\n\n00:09 – 00:18\nRelâche l’accélérateur, allume les feux de détresse et avertis les autres si nécessaire.\n\n00:18 – 00:27\nAvec un freinage ABS, appuie fermement sur la pédale. Ne confonds pas vibrations et panne.\n\n00:27 – 00:36\nRétrograde progressivement si ton véhicule le permet. Ne coupe pas le moteur en roulant.\n\n00:36 – 00:45\nUtilise prudemment le frein de stationnement selon le manuel du véhicule. Évite de bloquer les roues.\n\n00:45 – 00:54\nCherche une zone dégagée pour t’arrêter. Une fois en sécurité, appelle les secours ou l’assistance.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Habitacle, pédale, route. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Habitacle, pédale, route. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Tension",
+      "subtitle": "Tu roules sur l’autoroute et la pédale de frein ne répond plus. Garde le contrôle du volant."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Pied et bouton warning. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Pied et bouton warning. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Clignotant",
+      "subtitle": "Relâche l’accélérateur, allume les feux de détresse et avertis les autres si nécessaire."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Pédale et schéma ABS. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Pédale et schéma ABS. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Vibration",
+      "subtitle": "Avec un freinage ABS, appuie fermement sur la pédale. Ne confonds pas vibrations et panne."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Sélecteur et baisse vitesse. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Sélecteur et baisse vitesse. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Moteur",
+      "subtitle": "Rétrograde progressivement si ton véhicule le permet. Ne coupe pas le moteur en roulant."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Illustration frein mécanique et électrique distincts. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Illustration frein mécanique et électrique distincts. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Tension",
+      "subtitle": "Utilise prudemment le frein de stationnement selon le manuel du véhicule. Évite de bloquer les roues."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Arrêt hors circulation. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Arrêt hors circulation. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Résolution",
+      "subtitle": "Cherche une zone dégagée pour t’arrêter. Une fois en sécurité, appelle les secours ou l’assistance."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si tes freins lâchent sur l’autoroute ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si tes freins lâchent sur l’autoroute ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si tes freins lâchent sur l’autoroute ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
