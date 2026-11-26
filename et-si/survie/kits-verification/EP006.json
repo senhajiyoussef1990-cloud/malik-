@@ -1,0 +1,71 @@
+{
+  "id": "006",
+  "title": "Et si tu te brûlais avec de l’eau bouillante ?",
+  "status": "Sources britanniques officielles consultées le 2026-11-27 ; conformité belge/UE et relecture professionnelle encore requises ; publication bloquée",
+  "format": "1080x1920,30fps, ~65s, recaler sur voix sans accélérer les gestes",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "voix": "Et si tu te brûlais avec de l’eau bouillante ?",
+      "sous_titre": "Et si tu te brûlais avec de l’eau bouillante ?",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Tasse renversée, aucune plaie graphique",
+      "animation": "Tasse renversée, aucune plaie graphique ; mouvement naturel, aucun geste supplémentaire",
+      "son": "accent dramatique discret"
+    },
+    {
+      "start": 5,
+      "end": 16,
+      "voix": "Refroidis immédiatement la zone brûlée sous l’eau courante fraîche pendant vingt minutes. Pas de glace.",
+      "sous_titre": "Refroidis immédiatement la zone brûlée sous l’eau courante fraîche pendant vingt minutes. Pas de glace.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Bras sous robinet, minuterie 20 minutes",
+      "animation": "Bras sous robinet, minuterie 20 minutes ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 16,
+      "end": 28,
+      "voix": "Retire les bijoux et vêtements proches, sauf ce qui colle à la peau.",
+      "sous_titre": "Retire les bijoux et vêtements proches, sauf ce qui colle à la peau.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Retrait bracelet non collé",
+      "animation": "Retrait bracelet non collé ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 28,
+      "end": 40,
+      "voix": "Garde le reste du corps au chaud. N’applique ni beurre ni crème.",
+      "sous_titre": "Garde le reste du corps au chaud. N’applique ni beurre ni crème.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Serviette sur épaules, pictogramme crème barrée",
+      "animation": "Serviette sur épaules, pictogramme crème barrée ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 40,
+      "end": 52,
+      "voix": "Protège la brûlure refroidie avec un tissu propre non pelucheux, sans serrer. Demande un avis médical si elle est importante.",
+      "sous_titre": "Protège la brûlure refroidie avec un tissu propre non pelucheux, sans serrer. Demande un avis médical si elle est importante.",
+      "prompt_image": "3D semi-réaliste, vertical, même adulte et même cuisine : Protection propre non serrée",
+      "animation": "Protection propre non serrée ; mouvement naturel, aucun geste supplémentaire",
+      "son": "ambiance et bruitages appropriés sous narration"
+    },
+    {
+      "start": 52,
+      "end": 65,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "animation": "Logo officiel fourni par utilisateur, carton final sources",
+      "son": "signature douce"
+    }
+  ],
+  "sources": [
+    "https://www.nhs.uk/conditions/Burns-and-scalds/",
+    "https://www.qvh.nhs.uk/our-services/plastic-surgery-and-burns/burns-first-aid-and-prevention/",
+    "https://southwest-burncare-network.nhs.uk/_common/getdocument?id=294981"
+  ],
+  "publication": {
+    "titre": "Et si tu te brûlais avec de l’eau bouillante ? #Shorts",
+    "description": "Simulation éducative. Sources officielles : https://www.nhs.uk/conditions/Burns-and-scalds/ ; https://www.qvh.nhs.uk/our-services/plastic-surgery-and-burns/burns-first-aid-and-prevention/ ; https://southwest-burncare-network.nhs.uk/_common/getdocument?id=294981 . #EtSi #Prevention #PremiersSecours",
+    "hashtags": "#EtSi #Prevention #PremiersSecours"
+  },
+  "controle": "Claude ne doit ajouter aucun conseil ni modifier les gestes. Vérifier la concordance des images, le timing, la réglementation locale et faire relire par professionnel avant publication."
+}
