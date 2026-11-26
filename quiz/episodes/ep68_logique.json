@@ -6,7 +6,7 @@
   "pause_par_question": true,
   "questions": [
     {
-      "question": "Le nombre 7 est-il pair ou impair ?",
+      "question": "Le nombre 7, c'est un nombre pair ou impair ?",
       "choix": [
         "Impair",
         "Pair",

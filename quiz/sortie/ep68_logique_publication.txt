@@ -10,7 +10,7 @@ TITRE :
 DESCRIPTION :
 Quiz logique n°68 : 5 questions, de facile à difficile. ⏱️ 4 secondes pour répondre !
 Besoin de réfléchir ? Appuie sur pause ⏸️
-Première question : Le nombre 7 est-il pair ou impair ?
+Première question : Le nombre 7, c'est un nombre pair ou impair ?
 Écris ton score sur 5 en commentaire 👇
 Envoie-le à quelqu'un qui pense être super malin 😏
 
