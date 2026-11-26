@@ -1,0 +1,145 @@
+{
+  "id": "EP08",
+  "title": "Et si ton avion doit amerrir en urgence ?",
+  "sources": [
+    "https://www.easa.europa.eu/en/the-agency/faqs/passengers",
+    "https://www.faa.gov/evacuations"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "Le personnel annonce un amerrissage d’urgence. Écoute les consignes : elles sont essentielles.",
+      "visual": "Cabine et équipage",
+      "sfx": "Annonce",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Repère les sorties et consulte la fiche de sécurité de ton appareil. La sortie la plus proche peut être derrière toi.",
+      "visual": "Fiche et éclairage sorties",
+      "sfx": "Clic",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Attache correctement ta ceinture et adopte la position de protection indiquée par l’équipage.",
+      "visual": "Mannequin assis, consigne contextualisée",
+      "sfx": "Tension",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Mets ton gilet selon les instructions. Ne le gonfle pas à l’intérieur de la cabine.",
+      "visual": "Gilet non gonflé",
+      "sfx": "Frottement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Au signal de l’équipage, évacue par une sortie utilisable. Laisse absolument tous tes bagages.",
+      "visual": "Passagers sans sacs",
+      "sfx": "Ambiance cabine",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "Gonfle le gilet à l’extérieur selon les consignes, rejoins le radeau si disponible et suis les instructions des secours.",
+      "visual": "Radeau et passagers",
+      "sfx": "Eau",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si ton avion doit amerrir en urgence ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.easa.europa.eu/en/the-agency/faqs/passengers\nhttps://www.faa.gov/evacuations\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "Le personnel annonce un amerrissage d’urgence. Écoute les consignes : elles sont essentielles.\n\nRepère les sorties et consulte la fiche de sécurité de ton appareil. La sortie la plus proche peut être derrière toi.\n\nAttache correctement ta ceinture et adopte la position de protection indiquée par l’équipage.\n\nMets ton gilet selon les instructions. Ne le gonfle pas à l’intérieur de la cabine.\n\nAu signal de l’équipage, évacue par une sortie utilisable. Laisse absolument tous tes bagages.\n\nGonfle le gilet à l’extérieur selon les consignes, rejoins le radeau si disponible et suis les instructions des secours.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nLe personnel annonce un amerrissage d’urgence. Écoute les consignes : elles sont essentielles.\n\n00:09 – 00:18\nRepère les sorties et consulte la fiche de sécurité de ton appareil. La sortie la plus proche peut être derrière toi.\n\n00:18 – 00:27\nAttache correctement ta ceinture et adopte la position de protection indiquée par l’équipage.\n\n00:27 – 00:36\nMets ton gilet selon les instructions. Ne le gonfle pas à l’intérieur de la cabine.\n\n00:36 – 00:45\nAu signal de l’équipage, évacue par une sortie utilisable. Laisse absolument tous tes bagages.\n\n00:45 – 00:54\nGonfle le gilet à l’extérieur selon les consignes, rejoins le radeau si disponible et suis les instructions des secours.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Cabine et équipage. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Cabine et équipage. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Annonce",
+      "subtitle": "Le personnel annonce un amerrissage d’urgence. Écoute les consignes : elles sont essentielles."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Fiche et éclairage sorties. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Fiche et éclairage sorties. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Clic",
+      "subtitle": "Repère les sorties et consulte la fiche de sécurité de ton appareil. La sortie la plus proche peut être derrière toi."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Mannequin assis, consigne contextualisée. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Mannequin assis, consigne contextualisée. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Tension",
+      "subtitle": "Attache correctement ta ceinture et adopte la position de protection indiquée par l’équipage."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Gilet non gonflé. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Gilet non gonflé. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Frottement",
+      "subtitle": "Mets ton gilet selon les instructions. Ne le gonfle pas à l’intérieur de la cabine."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Passagers sans sacs. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Passagers sans sacs. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Ambiance cabine",
+      "subtitle": "Au signal de l’équipage, évacue par une sortie utilisable. Laisse absolument tous tes bagages."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Radeau et passagers. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Radeau et passagers. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Eau",
+      "subtitle": "Gonfle le gilet à l’extérieur selon les consignes, rejoins le radeau si disponible et suis les instructions des secours."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si ton avion doit amerrir en urgence ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si ton avion doit amerrir en urgence ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si ton avion doit amerrir en urgence ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
