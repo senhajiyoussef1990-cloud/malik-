@@ -1,12 +1,24 @@
-// SCÈNE 04 — TV + héros : la victime, le mouton réagit.
-const A = L.s04a, B = L.s04b, DUREE = B[0] + B[1] + .4;
-const X = ((cc, t, u) => marche(cc, t, { prix: '3 000', derriere: (c2) => { vache(c2, 860, 760, .9); dessine(c2, voix(ACHETEUR2(t, 640, { face: 1, look: [.5, -.1], sourire: 1.3, handL: [-120, -560], poseL: 'poing', handR: [140, -620], poseR: 'ouverte' }), ['s04a'], t)); bulbe(c2, 586, 520, .6); } }));
+// SCÈNE 05 — QUIZ : le renard pose la question au spectateur, deux réponses, compte à rebours.
+const A = L.s05a, PAUSE = 3.0, DUREE = A[0] + A[1] + PAUSE + .5;
+const Q = {"q": ["Un matin de février 1637,", "que s’est-il passé ?"], "A": ["Le prix a encore doublé"], "B": ["Plus personne", "n’est venu acheter"], "bonne": "B"};
+function carteQuiz(cc, t, rev) {
+  cc.fillStyle = GRIS.clair; cc.fillRect(0, 0, W, H); cc.textAlign = 'center'; cc.fillStyle = GRIS.noir;
+  cc.font = 'bold 46px Georgia'; cc.fillText('À TON AVIS ?', 540, 100); cc.font = 'italic bold 30px Georgia'; Q.q.forEach((l, i) => cc.fillText(l, 540, 160 + i * 40));
+  ['A', 'B'].forEach((k, i) => { const y = 300 + i * 190, ok = rev && Q.bonne === k;
+    F(cc, poly([[150, y], [930, y], [930, y + 150], [150, y + 150]]), ok ? GRIS.noir : GRIS.blanc, 5);
+    F(cc, ell(230, y + 75, 46, 46), ok ? GRIS.blanc : GRIS.noir, 0); cc.fillStyle = ok ? GRIS.noir : GRIS.blanc; cc.font = 'bold 50px Georgia'; cc.fillText(k, 230, y + 93);
+    cc.textAlign = 'left'; cc.fillStyle = ok ? GRIS.blanc : GRIS.noir; cc.font = 'bold 34px Georgia'; Q[k].forEach((l, j) => cc.fillText(l, 310, y + 70 + j * 42 - (Q[k].length - 1) * 21)); cc.textAlign = 'center'; });
+}
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
-  const la = t - A[0], lb = t - B[0];
-  const [R, M] = herosTV(t, 150, 330); voix(M, ['s04b'], t);
-  R.look = [.9, 0]; M.look = [.9, 0];
-  if (lb >= 0) { M.look = [-.7, -.2]; M.face = -1; M.handR = [140, -620]; M.poseR = 'ouverte'; M.sourcil = 1.2; M.froncer = .3; R.look = [.6, .1]; R.sourire = .5; }
-  nbEtCouleur(c, t, [[0, 600, 420, 1.1], [DUREE, 620, 420, 1.15]], (cc) => X(cc, t, seg(la, 0, A[1])), (cc) => heros(cc, R, M));
+  const la = t - A[0], fin = A[0] + A[1], p = t - fin;
+  const [R, M] = herosTV(t, 130, 950); voix(R, ['s05a'], t);
+  R.face = 1; R.look = [.4, .1]; M.face = -1; M.look = [-.6, -.3]; M.sourcil = 1; M.froncer = .4;
+  if (la >= 0 && p < 0) { R.handR = [190, -660]; R.poseR = 'pointe'; R.sourcil = .7; }
+  if (p >= 0) { M.tilt += Math.sin(t * 5) * .06; R.look = [0, 0]; R.sourire = .9; }
+  nbEtCouleur(c, t, [[0, 540, 405, 1.0], [DUREE, 540, 405, 1.04]], (cc) => carteQuiz(cc, t, false), (cc) => heros(cc, R, M));
+  if (p >= 0 && p < PAUSE) { const n = 3 - Math.floor(p / (PAUSE / 3)), f = (p % (PAUSE / 3)) / (PAUSE / 3);
+    c.setTransform(1, 0, 0, 1, 0, 0); c.save(); c.globalAlpha = 1 - f * .6; c.translate(W / 2, H / 2 + 60); c.scale(1.4 - f * .5, 1.4 - f * .5);
+    F(c, ell(0, -40, 110, 110), 'rgba(255,210,58,.95)', 6); c.fillStyle = '#141210'; c.font = 'bold 140px Georgia'; c.textAlign = 'center'; c.fillText(String(n), 0, 8); c.restore(); }
   debutFlash(c, t);
 }

@@ -14,3 +14,4 @@ QUIZ = {"q": ["Pourquoi les pastilles", "des applications sont-elles rouges ?"],
 X06B = "(cc, t, u) => concentration(cc, t, u)"
 X07 = "(cc, t, u) => reglagesNotif(cc, t, u)"
 CARNET = ["qui veut", "que je regarde,", "et pourquoi", "maintenant ?"]
+SANS_HOOK = 1

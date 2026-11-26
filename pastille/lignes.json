@@ -1,120 +1,112 @@
 [
  {
-  "id": "h1",
+  "id": "s02a",
   "plan": 1,
   "scene": 1,
-  "who": "narr",
-  "pause": 0.3,
-  "text": "Ce crieur sonnait sa cloche cinquante fois par jour… pour annoncer des croissants."
- },
- {
-  "id": "s02a",
-  "plan": 2,
-  "scene": 2,
   "who": "mouton",
   "pause": 0.35,
-  "text": "Attends, une notification. Encore une ! Et une autre ! Je dois tout lire, tout de suite !"
+  "text": "J’ai lu mes vingt-trois notifications, une par une. Tout de suite, dès qu’elles ont sonné !"
  },
  {
   "id": "s02b",
-  "plan": 3,
-  "scene": 2,
+  "plan": 2,
+  "scene": 1,
   "who": "renard",
   "pause": 0.35,
-  "text": "Vingt-trois pastilles rouges. Et combien de vraies urgences ?"
+  "text": "Ah, tu crois que tout ce qui sonne est urgent ?"
  },
  {
   "id": "s03a",
-  "plan": 4,
-  "scene": 3,
+  "plan": 3,
+  "scene": 2,
   "who": "crieur",
   "pause": 0.3,
   "text": "Oyez, oyez ! Le boulanger a des croissants ! Oyez, oyez !"
  },
  {
   "id": "s03b",
-  "plan": 5,
-  "scene": 3,
+  "plan": 4,
+  "scene": 2,
   "who": "narr",
   "pause": 0.3,
   "text": "À chaque coup de cloche, tout le village lâche ce qu’il fait et court sur la place."
  },
  {
   "id": "s04a",
-  "plan": 6,
-  "scene": 4,
+  "plan": 5,
+  "scene": 3,
   "who": "villageoise",
   "pause": 0.3,
   "text": "J’ai encore laissé brûler ma soupe ! Mais si c’était important ?"
  },
  {
   "id": "s04b",
-  "plan": 7,
-  "scene": 4,
+  "plan": 6,
+  "scene": 3,
   "who": "mouton",
   "pause": 0.35,
   "text": "Le jour d’un vrai danger, plus personne ne saura quoi écouter !"
  },
  {
   "id": "s05a",
-  "plan": 8,
-  "scene": 5,
+  "plan": 7,
+  "scene": 4,
   "who": "renard",
   "pause": 0.35,
   "text": "À ton avis : pourquoi les pastilles des applications sont-elles rouges ?"
  },
  {
   "id": "s06a",
-  "plan": 9,
-  "scene": 6,
+  "plan": 8,
+  "scene": 5,
   "who": "renard",
   "pause": 0.35,
   "text": "Réponse B. Le rouge, c’est la couleur de l’alerte. Même pour une simple pub."
  },
  {
   "id": "s06b",
-  "plan": 10,
-  "scene": 6,
+  "plan": 9,
+  "scene": 5,
   "who": "narr",
   "pause": 0.3,
   "text": "Chaque interruption casse la concentration, et il faut du temps pour la retrouver."
  },
  {
   "id": "s07a",
-  "plan": 11,
-  "scene": 7,
+  "plan": 10,
+  "scene": 6,
   "who": "narr",
   "pause": 0.3,
   "text": "Dans les réglages, tu peux choisir qui a le droit de sonner. Et couper le reste."
  },
  {
   "id": "s08a",
-  "plan": 12,
-  "scene": 8,
+  "plan": 11,
+  "scene": 7,
   "who": "mouton",
   "pause": 0.35,
   "text": "Alors je garde seulement les vraies personnes, et je coupe tout le reste."
  },
  {
   "id": "s08b",
-  "plan": 13,
-  "scene": 8,
+  "plan": 12,
+  "scene": 7,
   "who": "renard",
   "pause": 0.35,
   "text": "Bonne idée. Tout ce qui sonne n’est pas important."
  },
  {
   "id": "s09a",
-  "plan": 14,
-  "scene": 9,
+  "plan": 13,
+  "scene": 8,
   "who": "renard",
   "pause": 0.35,
   "text": "Et toi, combien de pastilles rouges sur ton écran, là, maintenant ? Dis-le en commentaire !"
  },
  {
   "id": "s16a",
-  "plan": 15,
-  "scene": 10,
+  "plan": 14,
+  "scene": 9,
   "who": "narr",
   "pause": 0.3,
   "text": "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"

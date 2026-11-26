@@ -14,3 +14,4 @@ QUIZ = {"q": ["Un matin de février 1637,", "que s’est-il passé ?"], "A": ["L
 X06B = "(cc, t, u) => courbe(cc, t, u, {})"
 X07 = "(cc, t, u) => bulles(cc, t, u)"
 CARNET = ["je l’achète", "pour ce qu’il", "vaut, ou pour", "ce qu’on espère ?"]
+SANS_HOOK = 1

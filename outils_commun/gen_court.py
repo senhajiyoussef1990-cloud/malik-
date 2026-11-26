@@ -151,6 +151,8 @@ function frame(c, t) {{
 os.makedirs(D, exist_ok=True)
 for f in os.listdir(D):
     if f.startswith("scene") and f.endswith(".js"): os.remove(f"{D}/{f}")
-for n, s in S.items(): open(f"{D}/scene{n:02d}.js", "w").write(s)
-shutil.copy(f"{RAC}/anim_code/bacon/scene16.js", f"{D}/scene10.js")
-print("ok", EP, "format court,", len(S) + 1, "scènes")
+if P.get("SANS_HOOK"): S.pop(1)   # le mouton ouvre la vidéo (pas de narrateur en premier)
+ordre = sorted(S)
+for k, n in enumerate(ordre, 1): open(f"{D}/scene{k:02d}.js", "w").write(S[n])
+shutil.copy(f"{RAC}/anim_code/bacon/scene16.js", f"{D}/scene{len(ordre) + 1:02d}.js")
+print("ok", EP, "format court,", len(ordre) + 1, "scènes")

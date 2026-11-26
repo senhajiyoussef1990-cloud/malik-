@@ -118,11 +118,11 @@ def son():
             flt.append(f"[{k}]adelay={d}|{d},aformat=channel_layouts=stereo[v{k}]"); k += 1
     nv = k
     sfx = []
-    TV = {1, 3, 4, 5, 6, 7}   # format court
+    TV = {2, 3, 4, 5, 6}   # format court, sans hook
     for s in plans:
         n, t0 = s["n"], s["t0"]
-        if n > 1 and ((n in TV) != ((n - 1) in TV)) and n != 3: sfx.append(("swish", t0, 0.4))
-        if n == 2: sfx.append(("tele", t0 + s["dur"] - 1.1, 0.5))
+        if n > 1 and ((n in TV) != ((n - 1) in TV)) and n != 2: sfx.append(("swish", t0, 0.4))
+        if n == 1: sfx.append(("tele", t0 + s["dur"] - 1.1, 0.5))
     for name, t, g in sfx:
         inp += ["-i", P(f"audio/sfx_{name}.wav")]; d = int(t * 1000)
         flt.append(f"[{k}]volume={g},adelay={d}|{d},aformat=channel_layouts=stereo[x{k}]"); k += 1

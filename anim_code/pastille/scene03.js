@@ -1,9 +1,12 @@
-// SCÈNE 03 — TV. le personnage de la fable
-const A = L.s03a, B = L.s03b, DUREE = B[0] + B[1] + .35;
-const XA = ((cc, t, u) => crieurCloche(cc, t, ['s03a'], {})), XB = ((cc, t, u) => crieurCloche(cc, t, null, { foule: 1 }));
+// SCÈNE 04 — TV + héros : la victime, le mouton réagit.
+const A = L.s04a, B = L.s04b, DUREE = B[0] + B[1] + .4;
+const X = ((cc, t, u) => soupe(cc, t, ['s04a']));
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
   const la = t - A[0], lb = t - B[0];
-  enNoirEtBlanc(c, t, (cc) => { if (lb < 0) { cam(cc, t, [[0, 540, 405, 1.06], [B[0], 540, 405, 1.0]]); XA(cc, t, seg(la, 0, A[1])); } else { cam(cc, t, [[B[0], 540, 405, 1.0], [DUREE, 540, 405, 1.07]]); XB(cc, t, seg(lb, 0, B[1])); } });
+  const [R, M] = herosTV(t, 150, 330); voix(M, ['s04b'], t);
+  R.look = [.9, 0]; M.look = [.9, 0];
+  if (lb >= 0) { M.look = [-.7, -.2]; M.face = -1; M.handR = [140, -620]; M.poseR = 'ouverte'; M.sourcil = 1.2; M.froncer = .3; R.look = [.6, .1]; R.sourire = .5; }
+  nbEtCouleur(c, t, [[0, 600, 420, 1.1], [DUREE, 620, 420, 1.15]], (cc) => X(cc, t, seg(la, 0, A[1])), (cc) => heros(cc, R, M));
   debutFlash(c, t);
 }

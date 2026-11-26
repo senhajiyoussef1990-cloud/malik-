@@ -12,106 +12,99 @@
  },
  "lignes": [
   [
-   "h1",
-   1,
-   "narr",
-   0.3,
-   "Ce crieur sonnait sa cloche cinquante fois par jour… pour annoncer des croissants."
-  ],
-  [
    "s02a",
-   2,
+   1,
    "mouton",
    0.35,
-   "Attends, une notification. Encore une ! Et une autre ! Je dois tout lire, tout de suite !"
+   "J’ai lu mes vingt-trois notifications, une par une. Tout de suite, dès qu’elles ont sonné !"
   ],
   [
    "s02b",
-   2,
+   1,
    "renard",
    0.35,
-   "Vingt-trois pastilles rouges. Et combien de vraies urgences ?"
+   "Ah, tu crois que tout ce qui sonne est urgent ?"
   ],
   [
    "s03a",
-   3,
+   2,
    "crieur",
    0.3,
    "Oyez, oyez ! Le boulanger a des croissants ! Oyez, oyez !"
   ],
   [
    "s03b",
-   3,
+   2,
    "narr",
    0.3,
    "À chaque coup de cloche, tout le village lâche ce qu’il fait et court sur la place."
   ],
   [
    "s04a",
-   4,
+   3,
    "villageoise",
    0.3,
    "J’ai encore laissé brûler ma soupe ! Mais si c’était important ?"
   ],
   [
    "s04b",
-   4,
+   3,
    "mouton",
    0.35,
    "Le jour d’un vrai danger, plus personne ne saura quoi écouter !"
   ],
   [
    "s05a",
-   5,
+   4,
    "renard",
    0.35,
    "À ton avis : pourquoi les pastilles des applications sont-elles rouges ?"
   ],
   [
    "s06a",
-   6,
+   5,
    "renard",
    0.35,
    "Réponse B. Le rouge, c’est la couleur de l’alerte. Même pour une simple pub."
   ],
   [
    "s06b",
-   6,
+   5,
    "narr",
    0.3,
    "Chaque interruption casse la concentration, et il faut du temps pour la retrouver."
   ],
   [
    "s07a",
-   7,
+   6,
    "narr",
    0.3,
    "Dans les réglages, tu peux choisir qui a le droit de sonner. Et couper le reste."
   ],
   [
    "s08a",
-   8,
+   7,
    "mouton",
    0.35,
    "Alors je garde seulement les vraies personnes, et je coupe tout le reste."
   ],
   [
    "s08b",
-   8,
+   7,
    "renard",
    0.35,
    "Bonne idée. Tout ce qui sonne n’est pas important."
   ],
   [
    "s09a",
-   9,
+   8,
    "renard",
    0.35,
    "Et toi, combien de pastilles rouges sur ton écran, là, maintenant ? Dis-le en commentaire !"
   ],
   [
    "s16a",
-   10,
+   9,
    "narr",
    0.3,
    "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"

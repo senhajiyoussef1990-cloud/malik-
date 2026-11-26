@@ -1,14 +1,16 @@
-// SCÈNE 01 — HOOK : l'image choc de la fable + le chiffre en grand, dès la première seconde.
-const A = L.h1, DUREE = A[0] + A[1] + .35;
-const X = ((cc, t, u) => crieurCloche(cc, t, null, { foule: 1 })), HT = ["50 COUPS DE CLOCHE PAR JOUR", "… pour des croissants"];
+// SCÈNE 02 — salon : le mouton tombe dans le piège ; le renard pique ; on plonge dans la télé.
+const A = L.s02a, B = L.s02b, ZD = 1.0, Z0 = B[0] + B[1] + .1, DUREE = Z0 + ZD + .05;
+const XI = ((cc, t, u) => crieurCloche(cc, t, ['s03a'], {}));
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
-  enNoirEtBlanc(c, t, (cc) => { cam(cc, t, [[0, 540, 405, 1.12], [DUREE, 540, 405, 1.0]]); X(cc, t, seg(t, 0, DUREE)); });
-  c.setTransform(1, 0, 0, 1, 0, 0);
-  const k = ease(seg(t, .05, .35)), s = .6 + .4 * k + .03 * Math.sin(t * 7);
-  c.save(); c.translate(W / 2, 175); c.scale(s, s); c.globalAlpha = k; c.textAlign = 'center';
-  HT.forEach((l, i) => { let fs = i ? 52 : 78; c.font = `bold ${fs}px Georgia`; while (c.measureText(l).width > 960 && fs > 30) { fs -= 2; c.font = `bold ${fs}px Georgia`; } const w = c.measureText(l).width + 50, y = i * 92;
-    c.fillStyle = i ? 'rgba(20,18,16,.85)' : '#ffd23a'; c.fillRect(-w / 2, y - (i ? 52 : 74), w, i ? 70 : 96);
-    c.fillStyle = i ? '#fff' : '#141210'; c.fillText(l, 0, y); });
-  c.restore();
+  if (t > Z0 + ZD) { enNoirEtBlanc(c, t, (cc) => { cam(cc, t, [[0, 540, 405, 1.0]]); XI(cc, t, 0); }); return; }
+  const R = voix(renardBase(t), ['s02b'], t), M = voix(moutonBase(t), ['s02a'], t), la = t - A[0], lb = t - B[0];
+  M.x = 718; M.look = [-.4, .2]; M.sourire = 1; M.sourcil = .9; M.handL = [-150, -660]; M.poseL = 'ouverte';
+  if (la > A[1] * .55 && lb < 0) { M.sourire = -.2; M.froncer = .8; M.sourcil = 1.2; M.tilt += Math.sin(t * 22) * .03; }
+  R.x = 345; R.look = [.9, .2]; R.lid = .5;
+  if (lb >= 0) { const k = ease(seg(lb, 0, .4)); R.lid = .3; R.sourcil = .8 * k; R.sourire = .8; R.handL = [lerp(-104, -260, k), lerp(-440, -620, k)]; R.poseL = 'pointe'; R.look = [lerp(.9, -1, k), -.1]; M.look = [-1, 0]; }
+  const z = ease(seg(t, Z0, Z0 + ZD)), de = [380, 440, 1.3];
+  c.save(); if (z > 0) camEcran(c, z, de); else cam(c, t, [[0, 600, 440, 1.36], [B[0], 520, 430, 1.34], [Z0, de[0], de[1], de[2]]]);
+  dessineSalon(c, t, R, M, { tv: clamp((t - B[0]) / .4), ecran: (cc, tt) => { XI(cc, tt, 0); plaqueEpoque(cc, 'Un village — autrefois', 1); }, derriere: (cc) => tablePetitDej(cc, { tasse: 1, objet: 1, t }) }, (cc) => { if (lb < 0) { if (lb < 0) { const a = mainScene(M, -1); objetCouleur(cc, a[0], a[1] + 110, .55, -.08); } } });
+  c.restore(); flash(c, ease(seg(t, Z0 + ZD - .2, Z0 + ZD)));
 }

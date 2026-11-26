@@ -1,16 +1,13 @@
-// SCÈNE 08 — retour au salon (sans réplique) ; le mouton a compris, la morale du renard + le carnet.
-const A = L.s08a, B = L.s08b, ZD = 1.0, DUREE = B[0] + B[1] + .7;
-const X = ((cc, t, u) => dernierEcran(cc, t, u));
+// SCÈNE 09 — le renard parle au spectateur : question en commentaire, clin d'œil.
+const A = L.s09a, DUREE = A[0] + A[1] + .9;
 function frame(c, t) {
   c.setTransform(1, 0, 0, 1, 0, 0);
-  const R = voix(renardBase(t), ['s08b'], t), M = voix(moutonBase(t), ['s08a'], t), la = t - A[0], lb = t - B[0];
-  M.x = 718; M.look = [-.7, -.1]; M.sourcil = .8; R.x = 345; R.look = [.9, .1];
-  if (la >= 0 && lb < 0) { M.handL = [-60, -720]; M.poseL = 'pointe'; M.sourire = .5; }
-  if (lb >= 0) { R.handR = [200, -600]; R.poseR = 'ouverte'; R.sourire = .8; M.look = [-.9, 0]; M.sourire = .9; }
-  const z = ease(seg(t, 0, ZD)), u = seg(lb, 0, B[1]);
-  c.save(); if (z < 1) camEcran(c, 1 - z, [520, 430, 1.3]); else cam(c, t, [[ZD, 520, 430, 1.3], [DUREE, 540, 440, 1.24]]);
-  dessineSalon(c, t, R, M, { tv: 1, ecran: (cc, tt) => X(cc, tt, 1), derriere: (cc) => tablePetitDej(cc, { tasse: 1, objet: 1, t }) }, (cc) => {
-    if (lb >= 0) { const r = mainScene(R, -1); carnet(cc, r[0] + 40, r[1] + 40, .6, [['combien je', clamp(u * 3)], ['paie vraiment,', clamp(u * 3 - .6)], ['au total,', clamp(u * 3 - 1.4)], ['à la fin ?', clamp(u * 3 - 2)]], 1, -.04); }
-  });
-  c.restore(); flash(c, 1 - ease(seg(t, 0, .25)));
+  const R = voix(renardBase(t), ['s09a'], t), M = moutonBase(t), la = t - A[0];
+  R.x = 430; R.look = [0, 0]; R.sourire = 1; R.handR = [200, -660]; R.poseR = 'pointe'; M.x = 760; M.look = [-.6, -.1]; M.sourire = 1;
+  if (la > A[1] + .1 && la < A[1] + .5) R.wink = 1;
+  c.save(); cam(c, t, [[0, 470, 420, 1.45], [DUREE, 470, 400, 1.55]]);
+  dessineSalon(c, t, R, M, { derriere: (cc) => tablePetitDej(cc, { tasse: 1, objet: 1, t }) });
+  c.restore();
+  const k = ease(seg(la, A[1] * .4, A[1] * .4 + .4)); if (k > 0) { c.setTransform(1, 0, 0, 1, 0, 0); c.save(); c.globalAlpha = k; c.translate(W / 2, 95 + (1 - k) * 30);
+    c.font = 'bold 40px Georgia'; c.textAlign = 'center'; const s = 'DIS-LE EN COMMENTAIRE ↓', w = c.measureText(s).width + 50; c.fillStyle = '#ffd23a'; c.fillRect(-w / 2, -48, w, 66); c.fillStyle = '#141210'; c.fillText(s, 0, 0); c.restore(); }
 }

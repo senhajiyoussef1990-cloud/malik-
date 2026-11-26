@@ -11,106 +11,99 @@
  },
  "lignes": [
   [
-   "h1",
-   1,
-   "narr",
-   0.3,
-   "Ce repas était affiché deux sous. Le voyageur en a payé cinq… sans discuter."
-  ],
-  [
    "s02a",
-   2,
+   1,
    "mouton",
    0.35,
-   "Un concert à trente euros ! Je réserve… Attends. Quarante-cinq euros ?!"
+   "J’ai trouvé un concert à trente euros ! Je l’ai réservé tout de suite… pour quarante-cinq euros."
   ],
   [
    "s02b",
-   2,
+   1,
    "renard",
    0.35,
-   "Bienvenue dans le piège de la dernière page."
+   "Ah, tu crois vraiment que trente euros, c’était le prix ?"
   ],
   [
    "s03a",
-   3,
+   2,
    "aubergiste",
    0.3,
    "Repas complet, deux sous seulement ! Entrez, entrez !"
   ],
   [
    "s03b",
-   3,
+   2,
    "narr",
    0.3,
    "Le voyageur s’installe et mange. Puis l’addition arrive."
   ],
   [
    "s04a",
-   4,
+   3,
    "aubergiste",
    0.3,
    "La chaise, un sou. La bougie, un sou. Et la cuillère, encore un sou !"
   ],
   [
    "s04b",
-   4,
+   3,
    "mouton",
    0.35,
    "Mais il a déjà mangé ! Il ne peut plus partir !"
   ],
   [
    "s05a",
-   5,
+   4,
    "renard",
    0.35,
    "À ton avis : pourquoi les frais n’arrivent-ils qu’à la toute fin ?"
   ],
   [
    "s06a",
-   6,
+   5,
    "renard",
    0.35,
    "Réponse B. Quand tu as tout choisi, tu n’oses plus faire demi-tour."
   ],
   [
    "s06b",
-   6,
+   5,
    "narr",
    0.3,
    "On appelle ça le prix découpé : un petit prix pour attirer, les frais pour la fin."
   ],
   [
    "s07a",
-   7,
+   6,
    "narr",
    0.3,
    "Billets, hôtels, livraisons : les frais apparaissent souvent au dernier écran."
   ],
   [
    "s08a",
-   8,
+   7,
    "mouton",
    0.35,
    "Donc je compare les prix… de la dernière page ?"
   ],
   [
    "s08b",
-   8,
+   7,
    "renard",
    0.35,
    "Exactement. Le vrai prix, c’est celui de la dernière page."
   ],
   [
    "s09a",
-   9,
+   8,
    "renard",
    0.35,
    "Et toi, quels frais cachés t’ont déjà surpris ? Dis-le en commentaire !"
   ],
   [
    "s16a",
-   10,
+   9,
    "narr",
    0.3,
    "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"

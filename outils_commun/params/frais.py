@@ -14,3 +14,4 @@ QUIZ = {"q": ["Pourquoi les frais arrivent-ils", "seulement à la fin ?"], "A": 
 X06B = "(cc, t, u) => decoupe(cc, t, u)"
 X07 = "(cc, t, u) => dernierEcran(cc, t, u)"
 CARNET = ["combien je", "paie vraiment,", "au total,", "à la fin ?"]
+SANS_HOOK = 1

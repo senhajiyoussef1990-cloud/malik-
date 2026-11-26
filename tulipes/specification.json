@@ -12,106 +12,99 @@
  },
  "lignes": [
   [
-   "h1",
-   1,
-   "narr",
-   0.3,
-   "En mille six cent trente-sept, un simple oignon de fleur valait le prix d’une maison."
-  ],
-  [
    "s02a",
-   2,
+   1,
    "mouton",
    0.35,
-   "Cette monnaie a doublé en un mois ! Si j’achète maintenant, je suis riche !"
+   "J’ai mis toutes mes économies dans une nouvelle monnaie ! Elle a doublé en un mois !"
   ],
   [
    "s02b",
-   2,
+   1,
    "renard",
    0.35,
-   "C’est exactement ce qu’ils disaient… des tulipes."
+   "Ah, tu crois que ce qui monte comme ça monte pour toujours ?"
   ],
   [
    "s03a",
-   3,
+   2,
    "marchand",
    0.3,
    "Dix florins le mois dernier, cent aujourd’hui ! Demain, mille !"
   ],
   [
    "s03b",
-   3,
+   2,
    "narr",
    0.3,
    "Plus personne n’achète des fleurs pour les planter. On achète parce que le prix monte."
   ],
   [
    "s04a",
-   4,
+   3,
    "acheteur",
    0.3,
    "J’ai vendu ma vache pour un bulbe ! Je le revends la semaine prochaine !"
   ],
   [
    "s04b",
-   4,
+   3,
    "mouton",
    0.35,
    "Et si plus personne ne veut le racheter ?"
   ],
   [
    "s05a",
-   5,
+   4,
    "renard",
    0.35,
    "À ton avis : que s’est-il passé, un matin de février ?"
   ],
   [
    "s06a",
-   6,
+   5,
    "renard",
    0.35,
    "Réponse B. Les acheteurs ne sont plus venus. Et les prix se sont effondrés."
   ],
   [
    "s06b",
-   6,
+   5,
    "narr",
    0.3,
    "C’est une bulle : un prix qui monte surtout parce qu’on espère qu’il montera encore."
   ],
   [
    "s07a",
-   7,
+   6,
    "narr",
    0.3,
    "Depuis, d’autres bulles ont éclaté : actions, maisons, cryptomonnaies."
   ],
   [
    "s08a",
-   8,
+   7,
    "mouton",
    0.35,
    "Donc ce qui monte très vite peut s’écrouler aussi vite ?"
   ],
   [
    "s08b",
-   8,
+   7,
    "renard",
    0.35,
    "Oui. Quand on achète parce que ça monte, on oublie ce que ça vaut."
   ],
   [
    "s09a",
-   9,
+   8,
    "renard",
    0.35,
    "Et toi, tu as déjà acheté un truc juste parce que tout le monde en parlait ? Raconte-nous !"
   ],
   [
    "s16a",
-   10,
+   9,
    "narr",
    0.3,
    "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
