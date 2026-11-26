@@ -1,0 +1,144 @@
+{
+  "id": "EP09",
+  "title": "Et si un chien agressif fonce sur toi ?",
+  "sources": [
+    "https://www.cdc.gov/healthy-pets/about/dogs.html"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "Un chien inconnu grogne et fonce vers toi. Ton premier réflexe pourrait être de courir. Évite-le.",
+      "visual": "Chien approche, personne immobile",
+      "sfx": "Grognement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Reste calme, immobile si possible, et évite de crier ou d’agiter les bras.",
+      "visual": "Personnage stable",
+      "sfx": "Souffle",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Place-toi légèrement de côté et évite de fixer directement ses yeux.",
+      "visual": "Vue latérale, regard détourné",
+      "sfx": "Ambiance",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Quand c’est possible, recule lentement. Ne cherche pas à caresser ou provoquer le chien.",
+      "visual": "Recul lent, distance",
+      "sfx": "Pas",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Si tu es renversé, recroqueville-toi et protège ta tête et ton cou.",
+      "visual": "Mannequin en position protectrice",
+      "sfx": "Impact doux",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "Une morsure doit être lavée et évaluée médicalement. Si le saignement est grave, comprime et appelle le 112.",
+      "visual": "Lavage, compression et secours",
+      "sfx": "Résolution",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si un chien agressif fonce sur toi ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.cdc.gov/healthy-pets/about/dogs.html\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "Un chien inconnu grogne et fonce vers toi. Ton premier réflexe pourrait être de courir. Évite-le.\n\nReste calme, immobile si possible, et évite de crier ou d’agiter les bras.\n\nPlace-toi légèrement de côté et évite de fixer directement ses yeux.\n\nQuand c’est possible, recule lentement. Ne cherche pas à caresser ou provoquer le chien.\n\nSi tu es renversé, recroqueville-toi et protège ta tête et ton cou.\n\nUne morsure doit être lavée et évaluée médicalement. Si le saignement est grave, comprime et appelle le 112.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nUn chien inconnu grogne et fonce vers toi. Ton premier réflexe pourrait être de courir. Évite-le.\n\n00:09 – 00:18\nReste calme, immobile si possible, et évite de crier ou d’agiter les bras.\n\n00:18 – 00:27\nPlace-toi légèrement de côté et évite de fixer directement ses yeux.\n\n00:27 – 00:36\nQuand c’est possible, recule lentement. Ne cherche pas à caresser ou provoquer le chien.\n\n00:36 – 00:45\nSi tu es renversé, recroqueville-toi et protège ta tête et ton cou.\n\n00:45 – 00:54\nUne morsure doit être lavée et évaluée médicalement. Si le saignement est grave, comprime et appelle le 112.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Chien approche, personne immobile. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Chien approche, personne immobile. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Grognement",
+      "subtitle": "Un chien inconnu grogne et fonce vers toi. Ton premier réflexe pourrait être de courir. Évite-le."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Personnage stable. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Personnage stable. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Souffle",
+      "subtitle": "Reste calme, immobile si possible, et évite de crier ou d’agiter les bras."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Vue latérale, regard détourné. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Vue latérale, regard détourné. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Ambiance",
+      "subtitle": "Place-toi légèrement de côté et évite de fixer directement ses yeux."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Recul lent, distance. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Recul lent, distance. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Pas",
+      "subtitle": "Quand c’est possible, recule lentement. Ne cherche pas à caresser ou provoquer le chien."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Mannequin en position protectrice. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Mannequin en position protectrice. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Impact doux",
+      "subtitle": "Si tu es renversé, recroqueville-toi et protège ta tête et ton cou."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Lavage, compression et secours. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Lavage, compression et secours. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Résolution",
+      "subtitle": "Une morsure doit être lavée et évaluée médicalement. Si le saignement est grave, comprime et appelle le 112."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si un chien agressif fonce sur toi ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si un chien agressif fonce sur toi ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si un chien agressif fonce sur toi ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
