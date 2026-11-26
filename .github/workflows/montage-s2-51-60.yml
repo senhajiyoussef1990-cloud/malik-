@@ -16,13 +16,13 @@ jobs:
       fail-fast: false
       max-parallel: 2
       matrix:
-        numero: [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+        numero: [53, 54, 55, 56, 57, 58, 59, 60]
     env:
       EP: s2_${{ matrix.numero }}
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 9bb72a75c6bd1bbcb8cc50199e7ab883a562d040
+          ref: 8b388611b040594432912a573caba82b801955bb
           persist-credentials: false
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
