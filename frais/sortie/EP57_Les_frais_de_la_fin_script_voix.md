@@ -1,52 +1,48 @@
 # NE SUIS PAS LES MOUTONS — LES FRAIS DE LA FIN
 *« Le vrai prix est sur la dernière page »*
 
-Durée finale : 1 min 12.2 s
+Durée finale : 1 min 07.3 s
 
-## Scène 01 — SCÈNE 01  (00:00 – 00:05)
+## Scène 01 — SCÈNE 01  (00:00 – 00:09)
 
-- `00:00,30` **NARRATEUR** : « Ce repas était affiché deux sous. Le voyageur en a payé cinq… sans discuter. »
+- `00:00,30` **MOUTON** : « J’ai trouvé un concert à trente euros ! Je l’ai réservé tout de suite… pour quarante-cinq euros. »
+- `00:05,09` **RENARD** : « Ah, tu crois vraiment que trente euros, c’était le prix ? »
 
-## Scène 02 — SCÈNE 02  (00:05 – 00:14)
+## Scène 02 — SCÈNE 02  (00:09 – 00:17)
 
-- `00:06,22` **MOUTON** : « Un concert à trente euros ! Je réserve… Attends. Quarante-cinq euros ?! »
-- `00:10,49` **RENARD** : « Bienvenue dans le piège de la dernière page. »
+- `00:09,36` **AUBERGISTE** : « Repas complet, deux sous seulement ! Entrez, entrez ! »
+- `00:13,11` **NARRATEUR** : « Le voyageur s’installe et mange. Puis l’addition arrive. »
 
-## Scène 03 — SCÈNE 03  (00:14 – 00:22)
+## Scène 03 — SCÈNE 03  (00:17 – 00:25)
 
-- `00:14,32` **AUBERGISTE** : « Repas complet, deux sous seulement ! Entrez, entrez ! »
-- `00:18,07` **NARRATEUR** : « Le voyageur s’installe et mange. Puis l’addition arrive. »
+- `00:17,60` **AUBERGISTE** : « La chaise, un sou. La bougie, un sou. Et la cuillère, encore un sou ! »
+- `00:22,62` **MOUTON** : « Mais il a déjà mangé ! Il ne peut plus partir ! »
 
-## Scène 04 — SCÈNE 04  (00:22 – 00:30)
+## Scène 04 — SCÈNE 04  (00:25 – 00:32)
 
-- `00:22,56` **AUBERGISTE** : « La chaise, un sou. La bougie, un sou. Et la cuillère, encore un sou ! »
-- `00:27,58` **MOUTON** : « Mais il a déjà mangé ! Il ne peut plus partir ! »
+- `00:25,88` **RENARD** : « À ton avis : pourquoi les frais n’arrivent-ils qu’à la toute fin ? »
 
-## Scène 05 — SCÈNE 05  (00:30 – 00:37)
+## Scène 05 — SCÈNE 05  (00:32 – 00:42)
 
-- `00:30,84` **RENARD** : « À ton avis : pourquoi les frais n’arrivent-ils qu’à la toute fin ? »
+- `00:32,79` **RENARD** : « Réponse B. Quand tu as tout choisi, tu n’oses plus faire demi-tour. »
+- `00:37,16` **NARRATEUR** : « On appelle ça le prix découpé : un petit prix pour attirer, les frais pour la fin. »
 
-## Scène 06 — SCÈNE 06  (00:37 – 00:47)
+## Scène 06 — SCÈNE 06  (00:42 – 00:47)
 
-- `00:37,75` **RENARD** : « Réponse B. Quand tu as tout choisi, tu n’oses plus faire demi-tour. »
-- `00:42,12` **NARRATEUR** : « On appelle ça le prix découpé : un petit prix pour attirer, les frais pour la fin. »
+- `00:42,36` **NARRATEUR** : « Billets, hôtels, livraisons : les frais apparaissent souvent au dernier écran. »
 
-## Scène 07 — SCÈNE 07  (00:47 – 00:52)
+## Scène 07 — SCÈNE 07  (00:47 – 00:55)
 
-- `00:47,32` **NARRATEUR** : « Billets, hôtels, livraisons : les frais apparaissent souvent au dernier écran. »
+- `00:47,89` **MOUTON** : « Donc je compare les prix… de la dernière page ? »
+- `00:51,45` **RENARD** : « Exactement. Le vrai prix, c’est celui de la dernière page. »
 
-## Scène 08 — SCÈNE 08  (00:52 – 01:00)
+## Scène 08 — SCÈNE 08  (00:55 – 01:00)
 
-- `00:52,85` **MOUTON** : « Donc je compare les prix… de la dernière page ? »
-- `00:56,41` **RENARD** : « Exactement. Le vrai prix, c’est celui de la dernière page. »
+- `00:55,82` **RENARD** : « Et toi, quels frais cachés t’ont déjà surpris ? Dis-le en commentaire ! »
 
-## Scène 09 — SCÈNE 09  (01:00 – 01:05)
+## Scène 09 — SCÈNE 09  (01:00 – 01:07)
 
-- `01:00,78` **RENARD** : « Et toi, quels frais cachés t’ont déjà surpris ? Dis-le en commentaire ! »
-
-## Scène 10 — SCÈNE 10  (01:05 – 01:12)
-
-- `01:06,05` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
+- `01:01,09` **NARRATEUR** : « Arrête de suivre les moutons. Suis le renard… et pense par toi-même ! »
 
 **ÉCRAN FINAL** : NE SUIS PAS LES MOUTONS
 
