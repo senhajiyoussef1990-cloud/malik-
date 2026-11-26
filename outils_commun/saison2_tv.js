@@ -65,6 +65,9 @@ function s2props(c,t,stage,u){
 }
 function s2Fable(c,t,u,stage,id){
  if([13,14,16,17].includes(stage)){s2modern(c,t,stage===13?0:stage===14?1:stage===16?2:3);return;}
+ if(S2.numero>=53 && S2.numero<=60 && id===([55,56].includes(S2.numero)?'s06a':'s06b') && u>.08 && u<.97){
+   s2back(c,t,S2.kind); preuveFable(c,(u-.08)/.89); return;
+ }
  s2back(c,t,S2.kind);s2sign(c,305,28,470,78,S2.place);s2props(c,t,stage,u);
  const m=id==='s05a'||id==='s09b',v=id==='s07a',move=[2,5,8].includes(stage)?1:0;
  if(stage===7)s2person(c,t,795,false,v?id:null,-1,1,.46);
@@ -73,3 +76,87 @@ function s2Fable(c,t,u,stage,id){
  if(S2.kind==='queue'&&[3,4,5].includes(stage)){s2person(c,t,115,false,null,1,0,.31);s2person(c,t,310,false,null,1,0,.33);}
 }
 
+
+// Accessoire du salon. Les deux états suivent la première phrase du mouton.
+const ecransSalon = {
+  53: ['EN LECTURE', 'Épisode 1', 'Épisode 4', 'Lecture automatique'],
+  54: ['SÉRIE EN COURS', '23 h 58', '23 h 59', '60 jours de suite'],
+  55: ['LA RECETTE', 'Voir la recette', 'Tout accepter', 'Gérer mes préférences'],
+  56: ['MON ABONNEMENT', 'Abonné ✓', 'Aide › Compte › …', 'Où est la sortie ?'],
+  57: ['MON BILLET', '20 €', '35 €', 'Prix à payer'],
+  58: ['MÊME TRAJET', '15 €', '22 €', 'Tarif affiché'],
+  59: ['RÉSERVATION', 'Cet hôtel', '12 visiteurs', 'Voir les dates'],
+  60: ['LE CASQUE', '100 €', '−50 %', 'Offre du jour']
+};
+
+function ecranSalon(c, x, y, scale, rotation, second) {
+  const [titre, avant, apres, pied] = ecransSalon[S2.numero];
+  c.save(); c.translate(x, y); c.rotate(rotation); c.scale(scale, scale);
+  const box = (x, y, w, h, radius, color) => {
+    c.fillStyle = color; c.beginPath(); c.roundRect(x, y, w, h, radius); c.fill();
+  };
+  box(-172,-215,344,430,30,'#312928');
+  box(-159,-200,318,397,20,'#fff0d8');
+  box(-44,-193,88,9,5,'#514244');
+  s2text(c,0,-123,titre,24,'#66493c',285);
+  box(-143,-64,286,121,14,second ? '#873f31' : '#215951');
+  s2text(c,0,-3,second ? apres : avant,47,'#fff5d8',262);
+  s2text(c,0,112,pied,23,'#473a34',285);
+  c.restore();
+}
+
+// Gros plan de la preuve au moment de la révélation dans la fable.
+function preuveFable(c, u) {
+  const noir='#332e28', papier='#eee4ce', gris='#9e9584';
+  const p=Math.max(0,Math.min(1,(u-.16)/.62));
+  c.save(); c.translate(540,410);
+  const rect=(x,y,w,h,col)=>s2rect(c,x,y,w,h,col,noir,5);
+  const mot=(x,y,s,size)=>s2text(c,x,y,s,size,noir,620);
+  switch (S2.numero) {
+    case 53:
+      rect(-315,-175,630,340,papier); mot(0,0,p>.5?'CONTE Nº 3':'FIN DU CONTE',48);
+      for(const sens of [-1,1]) {
+        const largeur=35+248*Math.sin(Math.PI*p);
+        rect(sens<0?-315:315-largeur,-175,largeur,340,gris);
+      }
+      break;
+    case 54:
+      rect(-300,-164,600,328,papier);
+      for(let i=0;i<30;i++) s2circle(c,-240+(i%10)*53,-96+Math.floor(i/10)*53,16,gris);
+      c.save(); c.translate(0,-260+260*Math.min(1,p*2)); c.rotate(-.12);
+      rect(-170,-43,340,86,papier); mot(0,0,'REMIS À ZÉRO',37); c.restore(); break;
+    case 55:
+      rect(-240,-145,245,315,gris); mot(-118,-40,'ENTRÉE',34);
+      rect(80,-65,115,235,papier); mot(137,40,'COUR',27);
+      rect(58+p*165,-145,172,317,gris); break;
+    case 56:
+      for(let i=0;i<3;i++) {
+        const x=-208+i*195, visible=p>=i*.32;
+        rect(x,-62,170,124,visible?papier:gris);
+        if(visible) mot(x+85,0,['COULOIR','BUREAU','ESCALIER'][i],24);
+      }
+      break;
+    case 57:
+      rect(-200,-175,400,98+234*p,papier); mot(0,-125,'REPAS   10 F',37);
+      ['+ CHAISE','+ CUILLÈRE','+ BOUGIE'].forEach((s,i)=>{
+        if(p>(i+1)*.24) mot(0,-58+i*62,s,34);
+      }); break;
+    case 58:
+      for(let i=0;i<2;i++) {
+        const x=-145+i*290; rect(x-92,-65,184,116,gris);
+        c.beginPath();c.arc(x,-64,55,Math.PI,2*Math.PI);c.stroke();
+        rect(x-82,63,164,73,papier); mot(x,100,i&&p>.45?'8 F':'5 F',45);
+      } break;
+    case 59:
+      rect(-225,-150,450,300,papier); mot(0,-91,'DERNIÈRE CLÉ',39);
+      s2circle(c,-75,10,35,gris);s2line(c,-42,10,99,10,noir,13);
+      s2line(c,78,10,78,38,noir,12);
+      for(let i=0;i<4;i++)if(p>i*.23)s2circle(c,-78+i*52,106,20,gris);
+      break;
+    case 60:
+      rect(-255,-150,510,195,gris); mot(0,-68,'AUJOURD’HUI   50 F',42);
+      c.translate(0,190*(1-p));c.rotate(-.065);
+      rect(-176,38,352,114,papier);mot(0,75,'ANCIEN REÇU',27);mot(0,119,'CHAPEAU   50 F',34); break;
+  }
+  c.restore();
+}

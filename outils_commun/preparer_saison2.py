@@ -57,6 +57,25 @@ def prepare(n):
         if k==15:
             old=["il est cassé,","ou juste","plus à la","mode ?"]
             for a,b in zip(old,V['carnet']): src=src.replace("'"+a+"'",js(b))
+        if 53 <= n <= 60 and k == 1:
+            src = src.replace('objetCouleur(cc, a[0], a[1] + 110, .55, -.08)',
+                              'ecranSalon(cc, a[0], a[1] + 54, .24, -.08, true)')
+            src = src.replace('  c.restore();\n}', '''  c.restore();
+  const finInsert = Math.min(B[0], 2.1);
+  if (t < finInsert) {
+    c.save();
+    ecranSalon(c, W*.30, H*.52, 1.46, -.035, t > finInsert*.45);
+    c.restore();
+  }
+}''')
+        if 53 <= n <= 60 and k == 15:
+            src = src.replace('  c.save(); cam(c,', '''  if (lb >= 0 && lc < 0) {
+    const reaction = Math.sin(Math.PI * Math.min(1, lb / .85));
+    M.tilt -= .11 * reaction; M.sourcil = .9 * reaction;
+    M.handR = [124 + reaction * 36, -445 - reaction * 135];
+    M.poseR = 'ouverte';
+  }
+  c.save(); cam(c,''')
         put(D/name,src)
     m=(R/'modele/outils/montage.py').read_text()
     m=re.sub(r'^TITRE, SOUS = .*$','TITRE, SOUS = '+js(S['titre'])+', '+js(S['sous']),m,flags=re.M)
