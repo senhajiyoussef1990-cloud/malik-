@@ -1,0 +1,61 @@
+{
+  "id": "EP01",
+  "title": "Casserole d’huile en feu",
+  "source": "https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires",
+  "source_status": "à confirmer directement",
+  "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "voix": "L’huile de ta casserole s’enflamme. Ne verse jamais d’eau dessus !",
+      "visuel": "Flammes en cuisine",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Flammes en cuisine. Aucun geste ajouté.",
+      "son": "Ambiance domestique, accent de tension"
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "voix": "Ne déplace pas la casserole : tu risques de répandre le feu.",
+      "visuel": "Eau barrée, casserole immobile",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Eau barrée, casserole immobile. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "voix": "Coupe la chaleur seulement si tu peux le faire sans danger.",
+      "visuel": "Commande accessible sans flamme",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Commande accessible sans flamme. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 31,
+      "end": 43,
+      "voix": "Éloigne-toi, avertis les occupants et évacue. Ferme les portes si possible.",
+      "visuel": "Sortie et porte",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Sortie et porte. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "voix": "Appelle le 112 depuis dehors. Ne retourne pas dans le logement.",
+      "visuel": "Appel extérieur",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel extérieur. Aucun geste ajouté.",
+      "son": "Ambiance calme"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "visuel": "Logo choisi, partage et abonnement",
+      "son": "Signature musicale"
+    }
+  ],
+  "publication": {
+    "titre": "Et si… Casserole d’huile en feu ? #Shorts",
+    "description": "Simulation éducative Casserole d’huile en feu. Suis les consignes des secours. Source à valider avant publication : https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires",
+    "social": "Casserole d’huile en feu : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+  }
+}
