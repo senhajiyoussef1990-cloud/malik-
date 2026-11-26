@@ -1,0 +1,61 @@
+{
+  "id": "EP03",
+  "title": "Bébé qui s’étouffe",
+  "source": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines",
+  "source_status": "source consultée, algorithme obstruction à contrôler",
+  "status": "BLOQUÉ avant validation professionnelle et contrôle documentaire complet",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "voix": "Ton bébé ne peut plus pleurer, tousser efficacement ou respirer ? C’est une urgence.",
+      "visuel": "Bébé mannequin",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Bébé mannequin. Aucun geste ajouté.",
+      "son": "Ambiance domestique, accent de tension"
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "voix": "Fais appeler le 112. Si tu es seul, utilise le haut-parleur.",
+      "visuel": "Appel",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Appel. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "voix": "Soutiens sa tête, place-le face vers le bas, tête plus basse, et donne jusqu’à cinq tapes entre les omoplates.",
+      "visuel": "Tapes sur mannequin",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Tapes sur mannequin. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 31,
+      "end": 43,
+      "voix": "Si cela échoue, retourne-le en soutenant sa tête et réalise jusqu’à cinq compressions thoraciques. Alterne les séries. Jamais de poussées abdominales.",
+      "visuel": "Compressions sur mannequin, technique ERC à valider",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Compressions sur mannequin, technique ERC à valider. Aucun geste ajouté.",
+      "son": "Bruitages synchronisés discrets"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "voix": "S’il perd connaissance, commence la réanimation guidée par le 112. Ne fouille jamais sa bouche à l’aveugle.",
+      "visuel": "Opérateur secours",
+      "prompt": "Animation 3D semi-réaliste verticale, décor et personnage continus, simulation non graphique : Opérateur secours. Aucun geste ajouté.",
+      "son": "Ambiance calme"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+      "visuel": "Logo choisi, partage et abonnement",
+      "son": "Signature musicale"
+    }
+  ],
+  "publication": {
+    "titre": "Et si… Bébé qui s’étouffe ? #Shorts",
+    "description": "Simulation éducative Bébé qui s’étouffe. Suis les consignes des secours. Source à valider avant publication : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines",
+    "social": "Bébé qui s’étouffe : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+  }
+}
