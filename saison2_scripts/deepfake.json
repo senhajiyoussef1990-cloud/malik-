@@ -1,0 +1,225 @@
+{
+ "ep": "deepfake",
+ "nom": "EP81_La_fausse_video",
+ "badge": "ÉPISODE 81",
+ "titre": "LA FAUSSE VIDÉO",
+ "sous": "« Voir n’est plus toujours croire »",
+ "accroche": "Je l’ai vu de mes yeux !",
+ "apres": "putaclic",
+ "noms": {
+  "portraitiste": "PORTRAITISTE",
+  "villageois": "VILLAGEOIS"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai vu une vidéo du président qui danse en pyjama ! Je l’ai vue de mes propres yeux, c’est donc vrai !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "De tes propres yeux, sur un écran. Tu sais qui a fabriqué cette vidéo ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Non. Mais une vidéo, ça ne ment pas, si ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un peintre qui peignait des scènes qui n’avaient jamais eu lieu."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, dans l’atelier d’un portraitiste très talentueux."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Ses tableaux sont si réalistes qu’on les prend pour des scènes vraies."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un jour, un riche marchand lui commande une peinture très particulière."
+  ],
+  [
+   "s05a",
+   5,
+   "portraitiste",
+   0.4,
+   "Vous voulez que je peigne votre rival en train de voler des poules ? Facile, je n’ai même pas besoin qu’il pose !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le tableau est exposé sur la place. Le rival n’a jamais volé de poules. Mais tout le monde l’a vu."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le village est en colère. Le rival a beau protester, l’image est plus forte que ses mots."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Personne ne pense à demander qui a commandé le tableau."
+  ],
+  [
+   "s07a",
+   7,
+   "villageois",
+   0.4,
+   "Je l’ai vu sur le tableau ! Il volait les poules ! On ne peut pas nier une image !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais rien de tout ça n’est arrivé !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Le tableau est faux. Mais il est si réaliste que les gens y croient."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Aujourd’hui, des logiciels peuvent fabriquer des vidéos et des voix très réalistes de vraies personnes. On les appelle des hypertrucages, ou deepfakes."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Ces outils peuvent faire dire ou faire n’importe quoi à n’importe qui."
+  ],
+  [
+   "s09b",
+   9,
+   "portraitiste",
+   0.4,
+   "Je ne peins pas ce qui est arrivé. Je peins ce qu’on me paie pour faire croire !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Fausses vidéos de personnalités, faux appels avec une voix imitée, fausses photos d’événements : les exemples se multiplient."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Elles servent parfois à faire rire, mais aussi à tromper, à arnaquer, ou à salir quelqu’un."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je ne peux plus croire aucune vidéo ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Tu peux. Mais il faut vérifier d’où elle vient, et si des médias sérieux en parlent."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Chercher la source, comparer avec d’autres informations et se méfier des images trop choquantes aide beaucoup."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Plus une vidéo provoque une émotion forte, plus il faut prendre le temps de vérifier."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Voir n’est plus toujours croire."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche la source avant de partager une vidéo choquante."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu attends un peu : les fausses vidéos sont souvent démenties vite."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui a publié cette vidéo en premier, et pourquoi ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une image se fabrique aussi."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

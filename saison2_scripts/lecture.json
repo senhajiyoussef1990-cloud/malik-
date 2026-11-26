@@ -1,0 +1,225 @@
+{
+ "ep": "lecture",
+ "nom": "EP53_La_lecture_automatique",
+ "badge": "ÉPISODE 53",
+ "titre": "LA LECTURE AUTOMATIQUE",
+ "sous": "« Choisis d’arrêter »",
+ "accroche": "L’épisode suivant dans cinq secondes…",
+ "apres": "pastille",
+ "noms": {
+  "conteur": "CONTEUR",
+  "enfant": "ENFANT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Je voulais regarder un seul épisode. J’en ai regardé six !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Six ? Tu as choisi de lancer les cinq autres ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Ils se sont lancés tout seuls. Je n’ai rien eu à faire."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Justement. Allons voir un conteur qui ne laissait jamais le temps de se lever."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, au coin du feu, un soir d’hiver."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un conteur raconte des histoires aux enfants, et chaque soir ils doivent rentrer se coucher."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un jour, il change sa façon de faire."
+  ],
+  [
+   "s05a",
+   5,
+   "conteur",
+   0.4,
+   "Et là, le dragon ouvre la porte… Mais ça, c’est l’histoire suivante ! Ne bougez pas, elle commence !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il ne s’arrête jamais à la fin d’une histoire. Il enchaîne directement avec la suivante."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Pour partir, il faudrait se lever, au milieu d’un suspense. Personne n’ose."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les enfants rentrent de plus en plus tard, épuisés."
+  ],
+  [
+   "s07a",
+   7,
+   "enfant",
+   0.4,
+   "Je voulais partir, mais ça recommençait déjà… Je n’ai pas eu le temps de dire non !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais personne n’a choisi de rester !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Rester, c’était le choix par défaut. Partir demandait un effort."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Quand on ne fait rien, on suit souvent l’option déjà choisie pour nous."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça la force de l’option par défaut."
+  ],
+  [
+   "s09b",
+   9,
+   "conteur",
+   0.4,
+   "Je ne les retiens pas. Je les empêche juste de remarquer la fin !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les plateformes lancent l’épisode suivant avec un compte à rebours de quelques secondes."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Pour arrêter, il faut agir vite. Pour continuer, il suffit de ne rien faire."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je peux désactiver la lecture automatique ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui, souvent dans les réglages. Et là, c’est toi qui décides de continuer."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un petit effort pour continuer suffit souvent à retrouver le choix."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "La fin d’un épisode est un bon moment pour se demander : j’en veux vraiment un autre ?"
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Si tu ne choisis pas d’arrêter, on choisit de continuer pour toi."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je coupe la lecture automatique."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu décides avant de commencer combien d’épisodes tu regardes."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que je l’ai choisi, ou est-ce que je l’ai laissé faire ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Ne rien faire, c’est aussi choisir."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

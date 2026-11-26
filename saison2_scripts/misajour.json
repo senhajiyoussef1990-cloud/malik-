@@ -1,0 +1,225 @@
+{
+ "ep": "misajour",
+ "nom": "EP88_La_mise_a_jour_qui_ralentit",
+ "badge": "ÉPISODE 88",
+ "titre": "LA MISE À JOUR QUI RALENTIT",
+ "sous": "« Une mise à jour peut aussi vendre »",
+ "accroche": "Mon téléphone ralentit… tout seul ?",
+ "apres": "sondage",
+ "noms": {
+  "horloger": "HORLOGER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Depuis la dernière mise à jour, mon téléphone est tout lent ! Je crois qu’il est temps d’en acheter un nouveau…"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Il était rapide avant la mise à jour ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Oui, très bien ! C’est juste depuis la mise à jour…"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Tiens donc. Allons voir un horloger qui revenait régler les vieilles horloges."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, chez un horloger qui vend de belles horloges."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Ses horloges sont solides. Elles durent des dizaines d’années."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Alors l’horloger propose un service gratuit : venir les régler chaque année."
+  ],
+  [
+   "s05a",
+   5,
+   "horloger",
+   0.4,
+   "Je passe régler votre horloge, gratuitement ! Pour qu’elle reste parfaite…"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Après sa visite, les vieilles horloges retardent un peu. Puis de plus en plus."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Et justement, il a un nouveau modèle dans sa boutique, bien plus précis."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les clients pensent que leur horloge est devenue trop vieille."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Mon horloge ne marche plus comme avant… Je vais acheter le nouveau modèle !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est lui qui a déréglé l’horloge !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le réglage devait l’aider. En réalité, il la vieillissait."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On parle d’obsolescence logicielle quand des mises à jour rendent un appareil plus lent ou moins utile."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Parfois, c’est pour protéger une batterie usée. Mais l’utilisateur doit en être informé."
+  ],
+  [
+   "s09b",
+   9,
+   "horloger",
+   0.4,
+   "Je ne vends pas des réglages. Je vends le besoin d’une nouvelle horloge !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "En deux mille vingt, en France, une grande marque de téléphones a reçu une amende de vingt-cinq millions d’euros pour ne pas avoir informé que ses mises à jour pouvaient ralentir d’anciens modèles."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les mises à jour corrigent souvent aussi des failles de sécurité. Elles restent donc importantes."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois faire les mises à jour, mais réfléchir avant de changer de téléphone ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Exactement. Une batterie neuve ou un nettoyage suffit parfois à lui redonner de la vitesse."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Avant de remplacer un appareil, on peut chercher pourquoi il ralentit, et s’il se répare."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un appareil lent n’est pas forcément un appareil fini."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une mise à jour peut aussi servir à vendre."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je vérifie la batterie avant d’acheter un nouveau téléphone."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Ça coûte bien moins cher."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Pourquoi ralentit-il, et peut-on le réparer ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Lent ne veut pas dire mort."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "reparation",
+ "nom": "EP89_L_objet_impossible_a_reparer",
+ "badge": "ÉPISODE 89",
+ "titre": "L’OBJET IMPOSSIBLE À RÉPARER",
+ "sous": "« Ce qu’on ne peut ouvrir, on le jette »",
+ "accroche": "Pas réparable… vraiment ?",
+ "apres": "misajour",
+ "noms": {
+  "lanternier": "LANTERNIER",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Mes écouteurs ne marchent plus. On ne peut pas changer la batterie, tout est collé ! Je dois en racheter…"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tout est collé. Tu crois que c’est un hasard ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Je ne sais pas… Peut-être que c’est plus joli comme ça ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Peut-être. Allons voir un fabricant de lanternes qui scellait tout."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, dans l’atelier d’un fabricant de lanternes."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Autrefois, on changeait simplement la mèche quand elle était usée."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais le lanternier a une nouvelle idée."
+  ],
+  [
+   "s05a",
+   5,
+   "lanternier",
+   0.4,
+   "Je soude toutes mes lanternes ! Quand la mèche est usée, il faudra en acheter une nouvelle !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il utilise des vis spéciales que personne ne peut ouvrir, et il refuse de vendre des mèches."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les réparateurs du village ne peuvent plus rien faire."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Chaque année, des tas de lanternes encore belles finissent à la décharge."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Ma lanterne est encore toute neuve, mais la mèche est usée… Je dois en racheter une entière !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il suffisait de changer la mèche !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. L’objet n’est pas cassé. Il est fait pour qu’on ne puisse pas le réparer."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On parle d’obsolescence par conception : pièces collées, vis spéciales, pièces détachées introuvables."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Un objet difficile à réparer est remplacé plus vite, ce qui fait vendre plus."
+  ],
+  [
+   "s09b",
+   9,
+   "lanternier",
+   0.4,
+   "Je ne vends pas des lanternes. Je vends des lanternes à jeter !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, en France, un indice de réparabilité, et parfois de durabilité, doit être affiché sur certains appareils."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "L’Union européenne a aussi adopté un droit à la réparation, pour faciliter les réparations après la garantie."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je peux choisir des objets plus faciles à réparer ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Regarde la note de réparabilité, et si les pièces détachées existent."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Des ateliers de réparation et des cafés réparation aident aussi à prolonger la vie des objets."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un objet qu’on peut ouvrir est un objet qu’on peut sauver."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ce qu’on ne peut pas ouvrir, on finit par le jeter."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je regarde l’indice de réparabilité avant d’acheter."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu essaies de réparer avant de jeter."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce qu’on peut l’ouvrir et changer les pièces ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Réparer, c’est aussi résister."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

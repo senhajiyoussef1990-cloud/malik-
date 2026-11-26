@@ -1,0 +1,225 @@
+{
+ "ep": "portion",
+ "nom": "EP73_La_portion_de_l_emballage",
+ "badge": "ÉPISODE 73",
+ "titre": "LA PORTION DE L’EMBALLAGE",
+ "sous": "« Compte ce que tu manges vraiment »",
+ "accroche": "Cent calories… pour combien ?",
+ "apres": "sansgras",
+ "noms": {
+  "patissier": "PÂTISSIER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ces chips n’ont que cent quarante calories ! J’ai mangé tout le paquet, ce n’est pas grave !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Cent quarante calories pour combien de chips ? Regarde bien la ligne du dessous."
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Pour trente grammes… Et le paquet en fait cent cinquante !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un pâtissier qui vendait ses gâteaux « pour une bouchée »."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une pâtisserie d’autrefois, à l’heure du goûter."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les dames de la ville font attention à leur ligne. Le pâtissier a une idée."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Sur chaque gâteau, il accroche une petite étiquette."
+  ],
+  [
+   "s05a",
+   5,
+   "patissier",
+   0.4,
+   "Mon gâteau : presque rien ! Une bouchée, c’est léger comme une plume !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "C’est vrai : une seule bouchée est légère. Mais personne ne mange une seule bouchée."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "On mange le gâteau entier. Dix bouchées. Et ce n’est plus léger du tout."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "L’étiquette n’a pas menti. Elle a simplement choisi une portion que personne ne mange."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Presque rien ! Je peux bien en prendre deux, alors !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais elle va manger bien plus qu’une bouchée !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le chiffre est vrai pour une portion imaginaire."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les valeurs nutritionnelles sont souvent données pour une petite portion, plus petite que ce qu’on mange vraiment."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les grands chiffres deviennent petits, et la conscience est tranquille."
+  ],
+  [
+   "s09b",
+   9,
+   "patissier",
+   0.4,
+   "Je ne mens pas sur les calories. Je mens sur la taille de la faim !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : céréales pour trente grammes, chips pour une poignée, boissons pour un verre au lieu de la bouteille."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En Europe, les valeurs doivent aussi être indiquées pour cent grammes. C’est la ligne qui permet de comparer."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois regarder la colonne pour cent grammes ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et multiplier par ce que tu manges vraiment."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Peser une fois sa portion habituelle peut être très surprenant."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une petite portion sur l’étiquette n’empêche pas une grande portion dans l’assiette."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Compte ce que tu manges vraiment, pas ce qu’on imagine."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je regarde les valeurs pour cent grammes."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. C’est la seule ligne qui ne triche pas sur la portion."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Pour quelle quantité ce chiffre est-il donné ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une portion, c’est souvent un mirage."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "defilement",
+ "nom": "EP51_Le_defilement_sans_fin",
+ "badge": "ÉPISODE 51",
+ "titre": "LE DÉFILEMENT SANS FIN",
+ "sous": "« Ce qui n’a pas de fin ne te lâche pas »",
+ "accroche": "Juste une dernière vidéo… vraiment ?",
+ "apres": "horoscope",
+ "noms": {
+  "forain": "FORAIN",
+  "joueur": "JOUEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Je voulais regarder une seule vidéo. Il est deux heures du matin…"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et tu t’es arrêté quand ? À la fin ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Il n’y a jamais de fin. Il y a toujours une vidéo de plus !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Justement. Allons voir un forain qui a compris ce truc bien avant ton téléphone."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une fête foraine d’autrefois, devant un étrange tiroir à surprises."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Pour un sou, on ouvre un tiroir. Parfois il y a un bonbon. Souvent, il n’y a rien."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Et le tiroir suivant est déjà là, juste à côté."
+  ],
+  [
+   "s05a",
+   5,
+   "forain",
+   0.4,
+   "Encore un ! Le prochain est peut-être le bon ! Personne ne s’arrête sur un tiroir vide !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les joueurs ne savent jamais quand vient le cadeau. Alors ils continuent."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Une récompense imprévisible attache plus qu’une récompense sûre."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les heures passent. Personne ne remarque que la fête est presque finie."
+  ],
+  [
+   "s07a",
+   7,
+   "joueur",
+   0.4,
+   "Juste un dernier tiroir… Bon, encore un, et j’arrête !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il ne s’arrête jamais !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Le tiroir n’a pas de fond. Et sans fond, on ne sait pas quand partir."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les psychologues ont observé que les surprises au hasard créent l’habitude la plus forte."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "C’est le même principe que les machines à sous."
+  ],
+  [
+   "s09b",
+   9,
+   "forain",
+   0.4,
+   "Je ne vends pas des bonbons. Je vends l’espoir du prochain tiroir !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les fils d’actualité n’ont pas de bas de page. Chaque vidéo en appelle une autre."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Parfois, on tombe sur une vidéo géniale. Souvent, sur rien. Et le pouce continue."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon téléphone est un tiroir sans fond ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "En quelque sorte. Il est conçu pour que tu ne trouves jamais la sortie."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut se fixer une limite avant de commencer, ou poser le téléphone loin de soi."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un livre, un film ou un match ont une fin. C’est ce qui permet de s’arrêter."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ce qui n’a pas de fin ne te laisse jamais partir."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je me fixe une heure avant de commencer."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et quand l’heure sonne, tu poses le téléphone."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce moi qui choisis d’arrêter, ou est-ce que rien ne m’arrête ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Choisis ta fin, avant qu’on la choisisse pour toi."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

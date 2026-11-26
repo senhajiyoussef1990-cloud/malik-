@@ -1,0 +1,225 @@
+{
+ "ep": "pastille",
+ "nom": "EP52_La_pastille_rouge",
+ "badge": "ÉPISODE 52",
+ "titre": "LA PASTILLE ROUGE",
+ "sous": "« Tout ce qui sonne n’est pas important »",
+ "accroche": "Encore une notification… urgente ?",
+ "apres": "defilement",
+ "noms": {
+  "crieur": "CRIEUR",
+  "villageoise": "VILLAGEOISE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai vingt-trois notifications ! Il faut que je les regarde toutes, tout de suite !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tout de suite ? Et il y en a combien de vraiment importantes ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Aucune, peut-être. Mais le petit rond rouge me stresse !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un crieur qui sonnait sa cloche pour un rien."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, où un crieur annonce les nouvelles avec sa cloche."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Au début, il ne sonne que pour les choses graves : un incendie, une inondation."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Puis on le paie pour sonner plus souvent. Pour un marché, une foire, un nouveau chapeau."
+  ],
+  [
+   "s05a",
+   5,
+   "crieur",
+   0.4,
+   "Oyez, oyez ! Grande nouvelle : le boulanger a des croissants ! Oyez !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "À chaque coup de cloche, tout le village lâche ce qu’il fait et se précipite."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les gens ne finissent plus rien. Ils attendent la prochaine cloche."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le jour où il y a un vrai danger, plus personne ne sait ce qui est urgent."
+  ],
+  [
+   "s07a",
+   7,
+   "villageoise",
+   0.4,
+   "J’ai encore laissé brûler ma soupe ! Mais si c’était important ?"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais presque tout ce qu’il annonce n’est pas urgent !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Mais la cloche, elle, sonne toujours pareil. C’est ça le piège."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Un signal qui interrompt donne l’impression que ce qu’il annonce est important."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les applications utilisent des sons, des vibrations et des pastilles rouges pour attirer l’attention."
+  ],
+  [
+   "s09b",
+   9,
+   "crieur",
+   0.4,
+   "Plus je sonne, plus on me regarde. Et plus on me regarde, plus on me paie !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, le rouge des notifications a été choisi parce qu’il donne une impression d’alerte."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Chaque interruption casse la concentration, et il faut du temps pour la retrouver."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je peux faire taire la cloche ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Dans les réglages, tu choisis qui a le droit de sonner."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Garder seulement les notifications des vraies personnes, et couper le reste, change beaucoup de choses."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ce qui est vraiment urgent trouve toujours un moyen de te joindre."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Tout ce qui sonne n’est pas important."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je coupe les notifications des applications inutiles."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu regardes ton téléphone quand toi, tu le décides."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui veut que je regarde, et pourquoi maintenant ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Ton attention n’est pas une sonnette."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

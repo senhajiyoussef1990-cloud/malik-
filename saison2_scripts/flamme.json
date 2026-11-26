@@ -1,0 +1,225 @@
+{
+ "ep": "flamme",
+ "nom": "EP54_La_flamme_a_ne_pas_perdre",
+ "badge": "ÉPISODE 54",
+ "titre": "LA FLAMME À NE PAS PERDRE",
+ "sous": "« Une série n’est qu’une habitude »",
+ "accroche": "Ta série va s’éteindre !",
+ "apres": "lecture",
+ "noms": {
+  "boulanger": "BOULANGER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Vite, je dois envoyer un message à Léa ! Sinon notre flamme va s’éteindre !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Une flamme ? Tu avais quelque chose à lui dire ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais ça fait cent jours de suite, je ne peux pas tout perdre !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un boulanger qui donnait des bons points."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, dans la boulangerie de la place."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le boulanger donne un carnet à chaque client. Chaque jour où l’on achète du pain, il colle une étoile."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais il a ajouté une règle."
+  ],
+  [
+   "s05a",
+   5,
+   "boulanger",
+   0.4,
+   "Si vous manquez un seul jour, j’arrache toutes vos étoiles ! Il faut revenir chaque matin !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les clients reviennent tous les jours, même quand ils n’ont pas besoin de pain."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Plus le carnet est rempli, plus on a peur de le perdre."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Certains achètent du pain qu’ils jettent, juste pour garder leurs étoiles."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Quatre-vingts étoiles ! Je viendrai même malade, je ne veux pas tout perdre !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais elle n’a même plus faim !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Elle ne vient plus pour le pain. Elle vient pour ne pas perdre."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Perdre fait plus mal que gagner ne fait plaisir. On appelle ça l’aversion à la perte."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Plus une série est longue, plus on a peur de la casser."
+  ],
+  [
+   "s09b",
+   9,
+   "boulanger",
+   0.4,
+   "Je ne vends pas du pain. Je vends la peur de casser la série !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les applications utilisent des flammes, des séries de jours, des badges et des trophées."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Ils transforment une habitude en obligation."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc si la flamme s’éteint, il ne se passe rien de grave ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Rien du tout. Léa sera toujours ton amie."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut se demander : est-ce que je le fais parce que j’en ai envie, ou pour ne pas perdre un compteur ?"
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une vraie amitié n’a pas besoin d’un chiffre pour exister."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une série ne mesure pas ton plaisir, seulement ton habitude."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, j’écris à Léa quand j’ai vraiment quelque chose à lui dire."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Ce sera un bien meilleur message."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Je le fais par envie, ou par peur de perdre ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Ne laisse pas un compteur décider pour toi."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

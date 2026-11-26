@@ -1,0 +1,225 @@
+{
+ "ep": "dynamique",
+ "nom": "EP58_Le_prix_qui_change",
+ "badge": "ÉPISODE 58",
+ "titre": "LE PRIX QUI CHANGE",
+ "sous": "« Compare avant de croire que c’est le prix »",
+ "accroche": "Pourquoi le même billet est plus cher ?",
+ "apres": "frais",
+ "noms": {
+  "marchand": "MARCHAND",
+  "voyageuse": "VOYAGEUSE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Hier, le billet de train coûtait quarante euros. Ce matin, soixante ! C’est le même train !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Le même train, le même siège. Et un autre prix. Étrange, non ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Peut-être qu’il reste moins de places ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Peut-être. Allons voir un marchand qui regardait tes chaussures avant de dire son prix."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons sur un marché d’autrefois, devant l’étal d’un marchand de tissus."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Aucun prix n’est écrit. Le marchand observe chaque client avant de parler."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Belles chaussures, chapeau neuf, air pressé : le prix monte."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Pour vous, madame, ce tissu est à huit sous. Pour le monsieur aux sabots, il est à cinq."
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le jour de la foire, quand tout le monde a besoin de tissu, il double tous ses prix."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le soir, quand il veut vider son étal, il les baisse."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Personne ne sait vraiment ce que vaut le tissu. Chacun croit payer le juste prix."
+  ],
+  [
+   "s07a",
+   7,
+   "voyageuse",
+   0.4,
+   "Huit sous ? Mon amie l’a payé cinq ce matin ! Pourquoi pas moi ?"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est le même tissu !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le prix ne dépend plus du tissu. Il dépend de ce que le marchand pense que tu acceptes de payer."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça le prix dynamique : le prix change selon la demande, l’heure ou le client."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Parfois, ça permet de payer moins aux heures creuses. Parfois, ça fait payer plus ceux qui sont pressés."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne vends pas du tissu. Je vends au prix de votre impatience !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : billets de train et d’avion, hôtels, taxis, concerts. Les prix bougent selon les jours, les heures et la demande."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les algorithmes ajustent les prix en permanence, parfois plusieurs fois par jour."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut comparer à différents moments ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et ne pas se laisser presser par un compteur ou par la peur que le prix monte."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Réserver tôt, comparer les jours et les horaires, ou attendre peut changer beaucoup."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un prix qui bouge tout le temps n’est pas forcément le juste prix."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Compare avant de croire que c’est le prix."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je regarde plusieurs dates avant de réserver."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. La patience est souvent la meilleure réduction."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Ce prix dépend de l’objet, ou de moi ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le prix affiché n’est qu’une proposition."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

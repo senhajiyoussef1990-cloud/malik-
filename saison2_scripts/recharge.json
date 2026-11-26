@@ -1,0 +1,225 @@
+{
+ "ep": "recharge",
+ "nom": "EP63_L_imprimante_pas_chere",
+ "badge": "ÉPISODE 63",
+ "titre": "L’IMPRIMANTE PAS CHÈRE",
+ "sous": "« Regarde ce que coûte la suite »",
+ "accroche": "Pas chère… et les cartouches ?",
+ "apres": "eurojour",
+ "noms": {
+  "marchand": "MARCHAND",
+  "villageois": "VILLAGEOIS"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai acheté une imprimante à trente euros ! Et une cartouche d’encre coûte… quarante euros ?"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Plus cher que l’imprimante. Étrange, non ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Oui ! Pourquoi l’imprimante est-elle si bon marché ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un marchand qui offrait des lampes à tout le village."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, à l’arrivée d’un marchand de lampes à huile."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Il fait une annonce incroyable : ses lampes sont presque gratuites."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Tout le monde en veut une."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Prenez une lampe, elle ne coûte presque rien ! Mais attention, elle ne marche qu’avec mon huile spéciale !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "L’huile ordinaire ne rentre pas dans la lampe. Il faut acheter la sienne, très chère."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Chaque semaine, les habitants reviennent acheter de l’huile."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Au bout d’un an, ils ont payé leur lampe dix fois."
+  ],
+  [
+   "s07a",
+   7,
+   "villageois",
+   0.4,
+   "Une lampe presque gratuite… mais je dépense tout mon argent en huile !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est l’huile qui coûte cher !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. La lampe est l’hameçon. L’huile est le vrai commerce."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça le modèle du produit d’appel : vendre l’appareil peu cher, et gagner sur ce qu’il faut racheter."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Parfois, des puces ou des formes spéciales empêchent d’utiliser d’autres recharges."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je perds de l’argent sur chaque lampe. Et j’en gagne beaucoup sur chaque goutte !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : imprimantes et cartouches, machines à café et capsules, rasoirs et lames, consoles et jeux."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Le prix de départ ne dit pas ce que l’objet coûtera vraiment sur plusieurs années."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois regarder le prix des cartouches avant d’acheter l’imprimante ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et calculer le coût par page, ou par tasse, pas seulement le prix de la machine."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Une machine un peu plus chère peut coûter beaucoup moins sur la durée."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Le vrai prix d’un objet, c’est son prix d’achat plus tout ce qu’il faudra lui donner ensuite."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Regarde ce que coûte la suite, pas seulement le début."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je regarde le prix des recharges avant d’acheter."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Le prix du début n’est souvent qu’un appât."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Combien me coûtera cet objet dans un an ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Regarde la facture complète."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

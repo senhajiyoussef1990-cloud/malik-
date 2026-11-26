@@ -1,0 +1,225 @@
+{
+ "ep": "putaclic",
+ "nom": "EP80_Le_titre_qui_crie",
+ "badge": "ÉPISODE 80",
+ "titre": "LE TITRE QUI CRIE",
+ "sous": "« Plus il crie, plus lis calmement »",
+ "accroche": "Vous n’allez pas croire la suite !",
+ "apres": "bulle",
+ "noms": {
+  "crieur": "CRIEUR",
+  "passant": "PASSANT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai cliqué sur « Vous n’allez jamais croire ce que cette star a fait ! » Elle a juste changé de coiffure…"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et le titre t’avait promis quoi ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Quelque chose d’incroyable ! J’étais tellement curieux !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un crieur qui criait « incroyable » pour un rien."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons sur la place d’une ville d’autrefois, où un crieur vend un journal d’une page."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Il est payé à chaque journal vendu. Alors il crie le plus fort possible."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Ce matin, la seule nouvelle, c’est qu’un chien s’est perdu."
+  ],
+  [
+   "s05a",
+   5,
+   "crieur",
+   0.4,
+   "Incroyable ! Drame dans la ville ! Ce qui est arrivé ce matin va vous choquer ! Achetez vite !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les passants se précipitent, inquiets, et paient leur journal."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "À l’intérieur : un chien perdu, retrouvé une heure plus tard."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Ils sont déçus. Mais le lendemain, ils achètent encore, au cas où."
+  ],
+  [
+   "s07a",
+   7,
+   "passant",
+   0.4,
+   "Encore une fois, rien d’important ! Mais s’il y avait vraiment quelque chose demain ?"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il n’y avait rien d’incroyable !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Le titre ne sert pas à informer. Il sert à faire acheter."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les titres qui laissent une question en suspens créent une forte envie de savoir. On parle de curiosité forcée."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Plus on clique, plus la publicité rapporte à celui qui a écrit le titre."
+  ],
+  [
+   "s09b",
+   9,
+   "crieur",
+   0.4,
+   "Je ne vends pas des nouvelles. Je vends l’envie de savoir la suite !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : « Vous ne devinerez jamais… », « Le numéro sept va vous surprendre », « Ce médecin révèle un secret »."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Ces titres exagèrent souvent, et les contenus déçoivent presque toujours."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc un titre qui crie cache souvent une petite nouvelle ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Souvent, oui. Les vraies informations n’ont pas besoin de hurler."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Avant de cliquer, on peut se demander : qu’est-ce que ce titre essaie de me faire ressentir ?"
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un titre qui promet trop est rarement à la hauteur."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Plus le titre crie, plus il faut lire calmement."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je me méfie des titres qui promettent l’incroyable."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu gardes ton clic pour les vraies informations."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Que veut me faire ressentir ce titre, avant de m’informer ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le cri n’est pas une preuve."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

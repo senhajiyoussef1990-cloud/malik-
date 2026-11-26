@@ -1,0 +1,225 @@
+{
+ "ep": "label",
+ "nom": "EP76_Le_faux_label",
+ "badge": "ÉPISODE 76",
+ "titre": "LE FAUX LABEL",
+ "sous": "« Demande qui a donné la médaille »",
+ "accroche": "Médaille d’or… décernée par qui ?",
+ "apres": "detox",
+ "noms": {
+  "marchand": "MARCHAND",
+  "acheteuse": "ACHETEUSE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ce miel a une médaille d’or et un label « qualité supérieure » ! Il doit être excellent !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Une médaille d’or. Décernée par qui ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Il n’y a pas écrit. Mais c’est une médaille, c’est forcément sérieux !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un marchand qui s’était décerné sa propre médaille."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une foire d’autrefois, où chaque marchand veut se faire remarquer."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un vendeur de confitures n’a jamais gagné aucun concours."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Alors il fabrique lui-même une grande médaille dorée."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Médaille d’or du Grand Concours ! Le Grand Concours, c’est moi qui l’organise, mais chut !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il invente aussi un sceau : « Confiture d’excellence ». Il le colle sur tous ses pots."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les clients voient la médaille et le sceau. Ils pensent qu’un jury a goûté et choisi."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "En réalité, personne n’a rien vérifié."
+  ],
+  [
+   "s07a",
+   7,
+   "acheteuse",
+   0.4,
+   "Une médaille d’or ! Ça ne peut être que la meilleure confiture de la foire !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est lui-même qui s’est donné la médaille !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Une médaille ne vaut que ce que vaut celui qui la donne."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les logos, les médailles et les sceaux donnent une impression d’autorité, même quand ils ne garantissent rien."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Certains labels sont contrôlés par des organismes indépendants. D’autres sont inventés par la marque elle-même."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne fabrique pas la meilleure confiture. Je fabrique la meilleure médaille !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : « qualité supérieure », « recette d’exception », « élu produit de l’année », logos verts et sceaux dorés."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Certains prix sont attribués après des votes payants, ou à des produits qui ont payé pour participer."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut chercher qui contrôle le label ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Un vrai label explique ses règles et qui les vérifie."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les labels officiels sont souvent reconnaissables et contrôlés par des organismes indépendants."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Si on ne sait pas qui décerne une récompense, elle ne prouve rien."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Demande qui a donné la médaille."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche qui a créé le label avant de le croire."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Ça prend une minute, et ça évite bien des pièges."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui a contrôlé, et selon quelles règles ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une médaille sans jury n’est qu’une décoration."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

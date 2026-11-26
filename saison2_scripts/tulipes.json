@@ -1,0 +1,225 @@
+{
+ "ep": "tulipes",
+ "nom": "EP65_La_folie_des_tulipes",
+ "badge": "ÉPISODE 65",
+ "titre": "LA FOLIE DES TULIPES",
+ "sous": "« Quand ça monte, on oublie ce que ça vaut »",
+ "accroche": "Un bulbe au prix d’une maison ?",
+ "apres": "garantie",
+ "noms": {
+  "marchand": "MARCHAND",
+  "acheteur": "ACHETEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Tout le monde achète cette nouvelle monnaie sur Internet ! Elle a doublé ce mois-ci ! Je dois m’y mettre !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et tu sais ce qu’elle vaut vraiment, en dehors de son prix ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais si ça monte, c’est que c’est bien, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un marché où l’on achetait des fleurs comme des trésors."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons aux Pays-Bas, en mille six cent trente-sept, sur un marché aux tulipes."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les tulipes sont à la mode. Certains bulbes rares deviennent très recherchés."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Chaque semaine, leur prix monte. Alors on achète, pour revendre plus cher."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Ce bulbe valait dix florins le mois dernier ! Aujourd’hui cent ! Demain, mille !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "On n’achète plus des fleurs pour les planter. On les achète parce que le prix monte."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Selon certains récits, un bulbe rare se serait échangé contre le prix d’une maison."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Puis un jour de février, des acheteurs ne se présentent plus. Les prix s’effondrent."
+  ],
+  [
+   "s07a",
+   7,
+   "acheteur",
+   0.4,
+   "J’ai vendu ma vache pour un bulbe… et maintenant, personne n’en veut !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais un bulbe, ce n’est qu’un oignon de fleur !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Quand tout le monde achète parce que ça monte, plus personne ne se demande ce que ça vaut."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça une bulle spéculative : un prix qui monte surtout parce que les gens espèrent qu’il montera encore."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les historiens discutent encore de l’ampleur exacte de cette crise. Mais l’histoire est devenue un symbole."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne vends pas des fleurs. Je vends l’espoir de devenir riche avant les autres !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Depuis, des bulles sont apparues avec les actions, les maisons, les cryptomonnaies ou certains objets à collectionner."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "La peur de rater l’occasion pousse à acheter au plus haut, juste avant la chute."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il ne faut jamais acheter quelque chose juste parce que son prix monte ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Exactement. Et ne jamais mettre de l’argent qu’on ne peut pas se permettre de perdre."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Avant d’investir, on peut se demander : qu’est-ce que j’achète vraiment ? Et qui me le revend ?"
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ce qui monte très vite peut aussi descendre très vite."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Quand on achète parce que ça monte, on oublie ce que ça vaut."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je me demande ce que je possède vraiment avant d’acheter."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu te méfies quand tout le monde parle de la même affaire."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que je l’achète pour ce qu’il est, ou pour ce qu’on espère ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un prix n’est pas une valeur."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

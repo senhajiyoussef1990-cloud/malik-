@@ -1,0 +1,225 @@
+{
+ "ep": "labyrinthe",
+ "nom": "EP56_L_abonnement_labyrinthe",
+ "badge": "ÉPISODE 56",
+ "titre": "L’ABONNEMENT LABYRINTHE",
+ "sous": "« Regarde la sortie avant d’entrer »",
+ "accroche": "Facile d’entrer… et pour sortir ?",
+ "apres": "cookies",
+ "noms": {
+  "aubergiste": "AUBERGISTE",
+  "voyageur": "VOYAGEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Je veux arrêter mon abonnement à la salle de sport. Ça fait une heure que je cherche comment faire !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et pour t’inscrire, ça t’avait pris combien de temps ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Trente secondes ! Un seul clic !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Tiens donc. Allons voir une auberge très accueillante… à l’entrée."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, devant une grande auberge."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "L’entrée est immense, éclairée, avec un tapis rouge et un sourire à chaque marche."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Pour sortir, c’est une autre histoire."
+  ],
+  [
+   "s05a",
+   5,
+   "aubergiste",
+   0.4,
+   "Vous voulez partir ? Il faut remplir ce papier, le faire signer au troisième étage, puis revenir le lundi, avant midi !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les couloirs tournent, les portes sont fermées, le bureau des départs n’ouvre jamais."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Beaucoup de voyageurs abandonnent et paient une nuit de plus. Puis une autre."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Ce n’est pas une erreur. Le labyrinthe a été construit exprès."
+  ],
+  [
+   "s07a",
+   7,
+   "voyageur",
+   0.4,
+   "Je voulais rester une nuit. Ça fait trois semaines que je cherche la sortie !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est fait exprès pour qu’il reste !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Plus la sortie est compliquée, plus on paie longtemps."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça une friction volontaire : rendre un geste pénible pour qu’on y renonce."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "On l’appelle aussi le piège à cafards : facile d’entrer, presque impossible de sortir."
+  ],
+  [
+   "s09b",
+   9,
+   "aubergiste",
+   0.4,
+   "Mes chambres ne sont pas meilleures. Mais ma sortie est plus difficile à trouver !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, de nombreux abonnements se prennent en un clic, mais se résilient par courrier, par téléphone, ou après plusieurs écrans."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En France, depuis deux mille vingt-trois, les abonnements souscrits en ligne doivent pouvoir se résilier en ligne, en quelques clics."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il existe un bouton pour partir ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Souvent, oui. Cherche « résilier » dans ton espace client, ou le bouton de résiliation."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Avant de s’abonner, on peut regarder comment on se désabonne. C’est un bon indice sur l’entreprise."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une maison honnête montre sa porte de sortie aussi clairement que son entrée."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Regarde la porte de sortie avant d’entrer."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je vérifie comment résilier avant de m’abonner."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu notes la date pour ne pas l’oublier."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce aussi facile de partir que d’arriver ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une porte qu’on cache dit tout de la maison."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "ponzi",
+ "nom": "EP66_La_pyramide_de_Ponzi",
+ "badge": "ÉPISODE 66",
+ "titre": "LA PYRAMIDE DE PONZI",
+ "sous": "« Payé avec l’argent des suivants »",
+ "accroche": "Deux œufs pour un… vraiment ?",
+ "apres": "tulipes",
+ "noms": {
+  "fermier": "FERMIER",
+  "voisine": "VOISINE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Un ami m’a proposé un placement incroyable : je double mon argent en trois mois ! Et il faut juste recruter deux amis !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Doubler en trois mois ? Et d’où vient cet argent ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Je ne sais pas… Mais lui, il a déjà été payé !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un fermier qui promettait deux œufs pour un."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, chez un fermier qui fait une promesse étonnante."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Donnez-lui un œuf aujourd’hui, et il vous en rendra deux dans un mois."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Ses poules ne pondent pourtant pas plus que les autres."
+  ],
+  [
+   "s05a",
+   5,
+   "fermier",
+   0.4,
+   "Un œuf aujourd’hui, deux œufs le mois prochain ! Et amenez vos voisins !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les premiers reçoivent bien deux œufs. Mais ces œufs viennent… des nouveaux arrivants."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Pour payer tout le monde, il faut toujours plus de nouveaux. La pyramide grandit."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Un jour, il n’y a plus de voisins à recruter. Le fermier disparaît avec le panier."
+  ],
+  [
+   "s07a",
+   7,
+   "voisine",
+   0.4,
+   "J’ai donné tous mes œufs, et j’ai amené ma sœur… Il ne reste plus rien !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il ne produisait rien du tout !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Il payait les premiers avec l’argent des suivants. Ça marche… jusqu’à ce que ça s’arrête."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Dans les années mille neuf cent vingt, aux États-Unis, Charles Ponzi promet des gains énormes en quelques semaines."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Il paie les anciens investisseurs avec l’argent des nouveaux. Le système s’effondre en mille neuf cent vingt."
+  ],
+  [
+   "s09b",
+   9,
+   "fermier",
+   0.4,
+   "Mes œufs ne viennent pas de mes poules. Ils viennent de vos voisins !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, on retrouve ce schéma dans certains placements en ligne, certaines cryptomonnaies et des réseaux de vente pyramidaux."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les signes d’alerte : des gains très élevés et garantis, et l’obligation de recruter d’autres personnes."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon ami a été payé avec l’argent des autres ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "C’est possible. Et les derniers arrivés, comme toi, risquent de tout perdre."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un placement honnête explique d’où viennent ses gains et ne promet jamais l’impossible."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Si tu dois recruter pour gagner, c’est souvent toi le produit."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un rendement trop beau se paie avec l’argent des derniers arrivés."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je demande d’où viennent les gains avant de placer mon argent."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu te méfies de tout ce qui demande de recruter tes amis."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "D’où vient vraiment l’argent qu’on me promet ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Rien ne double tout seul."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "fidelite",
+ "nom": "EP70_La_carte_de_fidelite",
+ "badge": "ÉPISODE 70",
+ "titre": "LA CARTE DE FIDÉLITÉ",
+ "sous": "« La fidélité qu’on récompense est observée »",
+ "accroche": "Des points… en échange de quoi ?",
+ "apres": "coffres",
+ "noms": {
+  "epicier": "EPICIER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai des cartes de fidélité partout ! Des points, des réductions, des cadeaux ! C’est génial !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Génial. Et en échange, le magasin sait quoi sur toi ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Ce que j’achète ? Ce n’est pas grave, si ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un épicier qui offrait un bonbon à chaque visite."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une épicerie d’autrefois, au coin d’une rue animée."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "À chaque achat, l’épicier offre un petit bonbon, et un tampon sur une carte."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Dix tampons, et l’on reçoit un pot de confiture."
+  ],
+  [
+   "s05a",
+   5,
+   "epicier",
+   0.4,
+   "Revenez chez moi, et seulement chez moi ! Et je vous offrirai la confiture !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Mais derrière son comptoir, l’épicier tient un grand cahier."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Il y note tout : qui achète quoi, quand, combien, et ce qui manque chez chacun."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Il sait qui attend un bébé, qui suit un régime, qui a des invités le samedi."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Comme il est gentil ! Il me propose toujours exactement ce dont j’ai besoin !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il sait tout sur elle !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le bonbon est petit. Ce qu’il apprend sur elle vaut beaucoup plus."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les cartes de fidélité servent à faire revenir les clients. Mais aussi à collecter leurs habitudes."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Ces informations aident à fixer les prix, à placer les produits et à envoyer des publicités ciblées."
+  ],
+  [
+   "s09b",
+   9,
+   "epicier",
+   0.4,
+   "Ma confiture coûte quelques sous. Mon cahier vaut une fortune !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les cartes et les applications de fidélité enregistrent tes achats, parfois tes déplacements."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En Europe, tu as le droit de savoir quelles données sont gardées, et de demander qu’elles soient supprimées."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mes points de fidélité, je les paie avec mes informations ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "En partie. Ce n’est pas forcément mal. Mais il faut le savoir."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut lire ce qu’on accepte, refuser certaines options, et garder seulement les cartes vraiment utiles."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une récompense a toujours un prix, même quand il ne se compte pas en sous."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "La fidélité qu’on récompense est surtout celle qu’on observe."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je garde seulement les cartes des magasins où je vais vraiment."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu regardes ce que tu donnes en échange."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qu’est-ce que le magasin apprend sur moi, avec cette carte ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Les cadeaux ont souvent un prix caché."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

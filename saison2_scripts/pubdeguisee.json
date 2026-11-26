@@ -1,0 +1,225 @@
+{
+ "ep": "pubdeguisee",
+ "nom": "EP82_La_pub_deguisee",
+ "badge": "ÉPISODE 82",
+ "titre": "LA PUB DÉGUISÉE",
+ "sous": "« Si c’est payé, ce n’est pas un conseil »",
+ "accroche": "Un conseil sincère… ou payé ?",
+ "apres": "deepfake",
+ "noms": {
+  "redacteur": "RÉDACTEUR",
+  "lectrice": "LECTRICE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Mon influenceuse préférée adore cette crème ! Elle dit que c’est la meilleure, je l’achète !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Elle l’adore… ou on la paie pour l’adorer ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Elle n’a rien dit sur ça. Elle avait l’air sincère !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un journal qui faisait l’éloge d’un marchand… payé par le marchand."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, dans les bureaux du journal local."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un marchand de chaussures vient voir le rédacteur avec une bourse bien remplie."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il ne veut pas une publicité. Il veut un article."
+  ],
+  [
+   "s05a",
+   5,
+   "redacteur",
+   0.4,
+   "Pour cette somme, j’écris un bel article : « Notre journaliste a testé les meilleures chaussures de la ville » !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "L’article ressemble à une vraie information. Il n’y a écrit nulle part qu’il a été payé."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les lecteurs font confiance au journal. Ils croient à un avis sincère."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le lendemain, la boutique est pleine."
+  ],
+  [
+   "s07a",
+   7,
+   "lectrice",
+   0.4,
+   "Le journal recommande ces chaussures ! Ce n’est pas une pub, c’est un article, donc c’est sérieux !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’était une publicité cachée !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Une pub qu’on reconnaît, on s’en méfie. Une pub déguisée, on la croit."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça la publicité native, ou le contenu sponsorisé : une publicité qui ressemble à un article ou à un conseil."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Elle marche mieux qu’une pub classique, justement parce qu’on ne la reconnaît pas."
+  ],
+  [
+   "s09b",
+   9,
+   "redacteur",
+   0.4,
+   "Je ne vends pas des publicités. Je vends la confiance de mes lecteurs !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : placements de produits dans les vidéos, articles sponsorisés, influenceurs payés pour recommander."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En France, depuis deux mille vingt-trois, les influenceurs doivent indiquer clairement quand une publication est une publicité ou une collaboration."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut chercher les mots « partenariat » ou « publicité » ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et te méfier quand quelqu’un adore tous les produits qu’il montre."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un vrai avis montre aussi les défauts. Un avis payé en montre rarement."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Se demander qui finance un contenu change souvent la façon de le lire."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Si c’est payé, ce n’est pas un conseil."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche la mention « partenariat » avant de croire."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu compares avec des avis qui ne sont pas payés."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui a payé pour que je voie ce conseil ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une pub déguisée reste une pub."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

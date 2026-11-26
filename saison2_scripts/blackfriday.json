@@ -1,0 +1,225 @@
+{
+ "ep": "blackfriday",
+ "nom": "EP60_Les_fausses_promos",
+ "badge": "ÉPISODE 60",
+ "titre": "LES FAUSSES PROMOS",
+ "sous": "« Une réduction se mesure au vrai prix »",
+ "accroche": "Moins cinquante pour cent… sur quoi ?",
+ "apres": "compteur",
+ "noms": {
+  "marchand": "MARCHAND",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "C’est le Black Friday ! Cette télé est à moins quarante pour cent ! Je l’achète !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Moins quarante pour cent par rapport à quel prix ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Le prix barré, là. Il est écrit juste au-dessus."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Et la semaine dernière, elle coûtait combien ? Allons voir la veille d’une grande foire."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, la veille de la grande foire de l’année."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un marchand de chaussures prépare ses étiquettes pour le lendemain."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais avant d’écrire les réductions, il fait quelque chose d’étrange."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Ce soir, je monte tous mes prix ! Demain, je les barrerai et j’écrirai : grande réduction !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les chaussures à dix sous passent à quinze. Le lendemain, elles sont annoncées à dix, « moins un tiers »."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le prix est exactement le même qu’avant. Seule l’étiquette a changé."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "La foule se presse, persuadée de faire l’affaire de l’année."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Moins un tiers ! J’en prends trois paires, c’est donné !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est le même prix qu’avant !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. La réduction est réelle sur l’étiquette, pas dans ton porte-monnaie."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Le prix barré sert d’ancre : il donne un point de comparaison, même s’il est gonflé."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les grandes journées de promotion ajoutent l’urgence et la foule."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne baisse pas mes prix. Je baisse seulement des prix que j’ai montés hier !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, des associations de consommateurs observent chaque année des prix gonflés juste avant le Black Friday."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En Europe, le prix de référence doit normalement être le plus bas des trente derniers jours. Ce n’est pas toujours respecté."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut connaître le prix avant les soldes ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Il existe des outils qui montrent l’historique des prix d’un produit."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Noter le prix quelques semaines avant permet de voir si la réduction est vraie."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une vraie bonne affaire, c’est quand on avait déjà besoin de l’objet."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une réduction se mesure au vrai prix d’avant."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je regarde l’historique des prix avant d’acheter."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu te demandes si tu en as vraiment besoin."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Moins combien, par rapport à quel prix réel ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le pourcentage seul ne dit pas tout."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

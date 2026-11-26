@@ -1,0 +1,225 @@
+{
+ "ep": "graphique",
+ "nom": "EP85_Le_graphique_qui_exagere",
+ "badge": "ÉPISODE 85",
+ "titre": "LE GRAPHIQUE QUI EXAGÈRE",
+ "sous": "« Regarde où commence l’échelle »",
+ "accroche": "Une hausse énorme… vraiment ?",
+ "apres": "filtrebeaute",
+ "noms": {
+  "marchand": "MARCHAND",
+  "acheteur": "ACHETEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Regarde ce graphique : les ventes de cette marque ont explosé ! La barre est trois fois plus haute !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Trois fois plus haute. Et les chiffres, ils disent quoi ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Cent, puis cent cinq. Ah. Ce n’est presque rien, en fait."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un marchand qui coupait le bas de ses dessins."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons sur une place de marché d’autrefois, devant l’étal d’un marchand de grain."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Il veut convaincre les paysans que son grain se vend de mieux en mieux."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Ses ventes ont un tout petit peu augmenté. Alors il prend un papier et un crayon."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Regardez mon dessin ! L’an dernier, une petite colonne. Cette année, une colonne géante !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Mais son dessin ne commence pas à zéro. Il commence juste en dessous des chiffres de l’an dernier."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Une petite différence devient une montagne."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les paysans ne lisent pas les chiffres sur le côté. Ils regardent la taille des colonnes."
+  ],
+  [
+   "s07a",
+   7,
+   "acheteur",
+   0.4,
+   "Ses ventes ont triplé ! Son grain doit être le meilleur, j’en prends un sac de plus !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais l’échelle ne commence pas à zéro !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Couper le bas du graphique, c’est grossir la différence."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Un axe qui ne commence pas à zéro peut faire paraître énorme une petite variation."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "On peut aussi tromper en choisissant les dates, en écrasant une période, ou en changeant d’échelle en route."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne mens jamais sur les chiffres. Je change seulement la taille du dessin !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, on trouve des graphiques trompeurs dans les publicités, les journaux, les discours politiques et les réseaux sociaux."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Un graphique sans chiffres, ou sans échelle visible, doit toujours inviter à la prudence."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois toujours regarder les chiffres sur le côté ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et vérifier où commence l’échelle, et quelle période on montre."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un bon graphique permet de voir la vraie taille des différences."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Les images frappent plus vite que les chiffres. C’est pour ça qu’on les truque."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Regarde où commence l’échelle."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je lis les chiffres avant de regarder la taille des barres."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Le dessin impressionne, les chiffres informent."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Où commence l’échelle, et que montre-t-on vraiment ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un graphique aussi peut mentir."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

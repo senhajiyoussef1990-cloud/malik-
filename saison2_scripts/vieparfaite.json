@@ -1,0 +1,225 @@
+{
+ "ep": "vieparfaite",
+ "nom": "EP83_La_vie_parfaite_des_autres",
+ "badge": "ÉPISODE 83",
+ "titre": "LA VIE PARFAITE DES AUTRES",
+ "sous": "« Leurs plus belles photos, ta vie entière »",
+ "accroche": "Pourquoi leur vie est plus belle ?",
+ "apres": "pubdeguisee",
+ "noms": {
+  "peintre": "PEINTRE",
+  "paysanne": "PAYSANNE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Tous mes amis sont en vacances, au restaurant, à la plage ! Moi, je suis sur mon canapé… Ma vie est nulle !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Et tes amis, tu crois qu’ils publient aussi leurs mauvais jours ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Non. Je ne vois que leurs meilleurs moments."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir les portraits des nobles d’autrefois."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un château d’autrefois, dans la grande galerie des portraits."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les nobles se font peindre dans leurs plus beaux habits, souriants, entourés de richesses."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Jamais malades, jamais fatigués, jamais en train de se disputer."
+  ],
+  [
+   "s05a",
+   5,
+   "peintre",
+   0.4,
+   "Monseigneur, souriez ! J’enlève votre rhume, j’ajoute une couronne et un beau cheval !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les paysans qui visitent la galerie voient ces portraits et se sentent bien misérables."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Ils comparent leurs journées de travail aux plus beaux moments des nobles."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Pourtant, les nobles aussi ont des soucis. Simplement, on ne les peint pas."
+  ],
+  [
+   "s07a",
+   7,
+   "paysanne",
+   0.4,
+   "Quelle vie parfaite ils ont ! Et nous, nous n’avons que la boue et la fatigue…"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais les tableaux ne montrent que les beaux moments !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. On compare toute sa vie à leurs meilleures images."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les psychologues parlent de comparaison sociale : on se juge en se comparant aux autres."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Quand on ne voit que le meilleur des autres, notre propre vie paraît moins bien."
+  ],
+  [
+   "s09b",
+   9,
+   "peintre",
+   0.4,
+   "Je ne peins pas la vie des nobles. Je peins ce qu’ils voudraient qu’on croie !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, sur les réseaux sociaux, chacun choisit les photos qu’il montre, les retouche, et cache le reste."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Des études ont observé que passer beaucoup de temps à comparer sa vie à celle des autres peut faire baisser le moral."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mes amis aussi ont des jours sur le canapé ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Bien sûr. Simplement, ils ne les publient pas."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut se rappeler que les réseaux montrent une sélection, pas la réalité complète."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Et passer plus de temps avec les gens en vrai, sans filtre, aide à garder la mesure."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Tu compares ta vie entière à leurs plus belles photos."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je me rappelle que je ne vois que leurs meilleurs moments."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et ton canapé a aussi ses bons côtés."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que je vois leur vie, ou seulement leur vitrine ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une vitrine n’est pas une maison."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "cookies",
+ "nom": "EP55_Le_bouton_tout_accepter",
+ "badge": "ÉPISODE 55",
+ "titre": "LE BOUTON TOUT ACCEPTER",
+ "sous": "« Le plus facile n’est pas toujours le tien »",
+ "accroche": "Tu as lu avant de cliquer ?",
+ "apres": "flamme",
+ "noms": {
+  "seigneur": "SEIGNEUR",
+  "voyageur": "VOYAGEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Chaque site me demande si j’accepte les cookies. Je clique toujours sur « Tout accepter », c’est plus rapide !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Plus rapide, oui. Et tu sais ce que tu acceptes ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais le bouton refuser, je ne le trouve jamais !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Justement. Allons voir un château avec deux portes très différentes."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, devant les portes d’un château."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Pour traverser la ville, les voyageurs doivent passer par la cour du seigneur."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il y a deux sorties. Une grande porte dorée, et une toute petite porte cachée derrière un buisson."
+  ],
+  [
+   "s05a",
+   5,
+   "seigneur",
+   0.4,
+   "Par la grande porte, je note votre nom, d’où vous venez et ce que vous transportez. Mais c’est si joli !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "La petite porte ne demande rien. Mais il faut la chercher, se baisser, passer sous les ronces."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Presque tout le monde prend la grande porte. Pas parce qu’ils le veulent, mais parce que c’est plus facile."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le soir, le seigneur sait tout de tout le monde."
+  ],
+  [
+   "s07a",
+   7,
+   "voyageur",
+   0.4,
+   "La petite porte ? Je ne l’ai même pas vue ! J’étais pressé."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais le choix était truqué dès le départ !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Les deux portes existent. Mais l’une est faite pour qu’on ne la prenne pas."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça une interface truquée : on te laisse le choix, mais on le rend difficile."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Couleurs vives, gros boutons, textes longs et options cachées : tout pousse dans la même direction."
+  ],
+  [
+   "s09b",
+   9,
+   "seigneur",
+   0.4,
+   "Je ne force personne. Je rends juste le refus plus fatigant !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "En Europe, la loi demande que refuser soit aussi simple qu’accepter. Ce n’est pas toujours respecté."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Ces petites fenêtres décident pourtant de qui peut suivre ce que tu fais sur Internet."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je peux refuser ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Cherche « Tout refuser » ou « Continuer sans accepter ». Ça prend quelques secondes de plus."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Quelques secondes contre des années de données : c’est souvent un bon échange."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Quand un choix est très facile d’un côté et très difficile de l’autre, quelqu’un l’a voulu ainsi."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Le bouton le plus facile n’est pas toujours le tien."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche le bouton refuser avant de cliquer."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu verras, il est souvent là, juste plus discret."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Pourquoi ce bouton est-il si gros, et l’autre si petit ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un choix truqué n’est pas un vrai choix."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

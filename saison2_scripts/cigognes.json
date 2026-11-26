@@ -1,0 +1,225 @@
+{
+ "ep": "cigognes",
+ "nom": "EP86_Les_cigognes_et_les_bebes",
+ "badge": "ÉPISODE 86",
+ "titre": "LES CIGOGNES ET LES BÉBÉS",
+ "sous": "« Aller ensemble n’est pas causer »",
+ "accroche": "Plus de cigognes, plus de bébés ?",
+ "apres": "graphique",
+ "noms": {
+  "maire": "MAIRE",
+  "villageoise": "VILLAGEOISE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai lu que ceux qui boivent du café vivent plus longtemps ! Donc le café fait vivre plus longtemps ! J’en bois cinq par jour !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Ils vivent plus longtemps. Et c’est sûr que c’est à cause du café ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… C’est ce que dit l’article. Ils vont ensemble, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Aller ensemble, ce n’est pas la même chose. Allons voir des cigognes très célèbres."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une région d’autrefois, où les cigognes font leurs nids sur les toits."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le maire remarque quelque chose : dans les villages avec beaucoup de cigognes, il naît beaucoup de bébés."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il en tire une conclusion rapide."
+  ],
+  [
+   "s05a",
+   5,
+   "maire",
+   0.4,
+   "C’est prouvé : les cigognes apportent les bébés ! Protégeons les cigognes, et nous aurons plus d’enfants !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "En réalité, les cigognes vivent surtout à la campagne, où il y a plus de toits et de champs."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Et à la campagne, les familles ont souvent plus d’enfants qu’en ville."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les cigognes et les bébés vont ensemble. Mais l’un ne cause pas l’autre."
+  ],
+  [
+   "s07a",
+   7,
+   "villageoise",
+   0.4,
+   "Je vais construire un nid sur mon toit ! Comme ça, j’aurai enfin un bébé !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais les cigognes n’apportent pas les bébés !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Les deux viennent d’une troisième chose : la campagne."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça la confusion entre corrélation et causalité : deux choses qui vont ensemble ne se causent pas forcément."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Souvent, une troisième cause explique les deux, ou c’est un simple hasard."
+  ],
+  [
+   "s09b",
+   9,
+   "maire",
+   0.4,
+   "Je ne cherche pas pourquoi. Je trouve deux choses qui se ressemblent, et je décide !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Des statisticiens ont réellement montré des liens amusants entre le nombre de cigognes et les naissances dans certaines régions."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, beaucoup d’articles annoncent qu’un aliment ou une habitude « protège » ou « rend malade », à partir d’un simple lien."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc peut-être que les buveurs de café ont juste une vie plus calme ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Peut-être. Ou plus d’argent, ou une meilleure santé au départ. Il faut chercher la troisième cause."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Pour prouver qu’une chose en cause une autre, il faut des études plus solides qu’une simple comparaison."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un lien est une piste, pas une preuve."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Deux choses qui vont ensemble ne se causent pas forcément."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche s’il n’y a pas une troisième cause."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu reviens à deux cafés par jour."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que l’un cause l’autre, ou est-ce qu’ils vont juste ensemble ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un lien n’est pas une cause."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "vert",
+ "nom": "EP77_Le_vert_peint",
+ "badge": "ÉPISODE 77",
+ "titre": "LE VERT PEINT",
+ "sous": "« Une couleur n’est pas une preuve »",
+ "accroche": "Vert, naturel, éco… vraiment ?",
+ "apres": "label",
+ "noms": {
+  "tonnelier": "TONNELIER",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’achète cette lessive : l’emballage est tout vert, avec des feuilles ! Elle est forcément écologique !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Des feuilles sur l’emballage. Et dans la lessive, il y a quoi ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Je n’ai regardé que les feuilles, en fait."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un tonnelier qui peignait ses tonneaux en vert."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, chez un tonnelier qui fabrique des tonneaux."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les habitants commencent à se plaindre : son atelier coupe beaucoup d’arbres de la forêt."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Le tonnelier ne change rien à son travail. Mais il change ses tonneaux."
+  ],
+  [
+   "s05a",
+   5,
+   "tonnelier",
+   0.4,
+   "Mes tonneaux sont verts maintenant, avec des feuilles peintes ! Ils sont amis de la forêt !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Il coupe toujours autant d’arbres. Mais ses tonneaux ressemblent à des arbres."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Il accroche même une pancarte : « Tonneaux naturels ». Le bois, après tout, est naturel."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les habitants sont rassurés et achètent plus de tonneaux que jamais."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Des tonneaux verts et naturels ! Enfin un artisan qui pense à la forêt !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il coupe toujours autant d’arbres !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Il a peint ses tonneaux, pas changé ses habitudes."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça l’écoblanchiment, ou greenwashing : se donner une image écologique sans vraiment l’être."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Couleur verte, feuilles, mots comme « naturel », « éco » ou « responsable » : ils ne prouvent rien à eux seuls."
+  ],
+  [
+   "s09b",
+   9,
+   "tonnelier",
+   0.4,
+   "Je ne protège pas la forêt. Je protège mon image !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : emballages verts, produits « naturels », entreprises « neutres en carbone » qui compensent ailleurs ce qu’elles polluent ici."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "L’Union européenne a adopté des règles pour interdire les allégations écologiques vagues et non prouvées."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois chercher des preuves, pas des feuilles ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Des chiffres précis, des labels contrôlés, et ce qu’il y a vraiment dans le produit."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Une promesse écologique sérieuse explique ce qui a changé, et combien."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Plus une promesse est vague, plus il faut se méfier."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Une couleur n’est pas une preuve."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche ce qui a vraiment changé dans le produit."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Le vert de la boîte n’est pas celui de la forêt."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qu’est-ce qui est prouvé, derrière ce mot « éco » ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Peindre en vert ne plante aucun arbre."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

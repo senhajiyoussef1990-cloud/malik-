@@ -1,0 +1,225 @@
+{
+ "ep": "peurvendue",
+ "nom": "EP90_Le_probleme_qu_on_te_vend",
+ "badge": "ÉPISODE 90",
+ "titre": "LE PROBLÈME QU’ON TE VEND",
+ "sous": "« Méfie-toi de celui qui fait peur et vend le remède »",
+ "accroche": "Et si c’était dangereux ?",
+ "apres": "reparation",
+ "noms": {
+  "serrurier": "SERRURIER",
+  "villageoise": "VILLAGEOISE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Cette pub dit que ma maison est pleine de microbes dangereux ! J’ai acheté trois sprays désinfectants !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Pleine de microbes dangereux. Et qui vend les sprays, dans cette pub ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Ceux qui ont fait la pub. Oh."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un serrurier qui répandait une rumeur."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, où personne ne ferme sa porte à clé."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un nouveau serrurier s’installe. Mais personne n’a besoin de cadenas."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Alors, un soir, il raconte une histoire à la taverne."
+  ],
+  [
+   "s05a",
+   5,
+   "serrurier",
+   0.4,
+   "Il paraît qu’un voleur rôde dans la région ! Il entre dans les maisons sans cadenas !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le lendemain, tout le village a peur. Chacun court acheter un cadenas."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Personne n’a jamais vu le voleur. Mais tout le monde en parle."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le serrurier vend tous ses cadenas en une semaine, puis des verrous, puis des chaînes."
+  ],
+  [
+   "s07a",
+   7,
+   "villageoise",
+   0.4,
+   "Trois cadenas sur ma porte ! Au moins, le voleur ne m’aura pas !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il n’y a jamais eu de voleur !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Le serrurier a vendu la peur d’abord, et le cadenas ensuite."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Créer une inquiétude, puis proposer la solution : c’est l’une des techniques de vente les plus anciennes."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Une peur vague est difficile à vérifier. Elle pousse à acheter vite, sans réfléchir."
+  ],
+  [
+   "s09b",
+   9,
+   "serrurier",
+   0.4,
+   "Je ne vends pas des cadenas. Je vends la fin d’une peur que j’ai créée !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : microbes partout, rides, odeurs, ondes, carences, dangers invisibles, présentés juste avant le produit qui les combat."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les vrais risques existent. Mais ceux qu’on te présente avec leur solution à vendre méritent d’être vérifiés."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut vérifier le danger auprès de quelqu’un qui ne vend rien ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Exactement. Une source indépendante, un médecin, ou un organisme public."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Quand la personne qui t’inquiète est aussi celle qui te vend le remède, il faut se poser des questions."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "La peur fait acheter. La vérification fait économiser."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Méfie-toi de celui qui te fait peur et te vend le remède."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je vérifie le danger avant d’acheter la solution."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et l’eau et le savon suffisent souvent."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui me fait peur, et que veut-il me vendre ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Une peur vendue avec son remède est souvent fabriquée."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

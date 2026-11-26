@@ -1,0 +1,225 @@
+{
+ "ep": "local",
+ "nom": "EP78_Fabrique_ici_presque",
+ "badge": "ÉPISODE 78",
+ "titre": "FABRIQUÉ ICI… PRESQUE",
+ "sous": "« Où c’est fait, pas où c’est emballé »",
+ "accroche": "Produit du village… vraiment ?",
+ "apres": "vert",
+ "noms": {
+  "fromager": "FROMAGER",
+  "touriste": "TOURISTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai acheté un fromage « fabriqué en France », avec un joli drapeau ! C’est local, c’est bien !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Fabriqué en France. Et le lait, il vient d’où ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Il n’y a rien d’écrit sur le lait. Juste le drapeau."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un fromager très fier de son village."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un petit village d’autrefois, célèbre pour son fromage."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les voyageurs viennent de loin pour acheter « le vrai fromage du village »."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais le fromager a trop de clients. Il a une idée."
+  ],
+  [
+   "s05a",
+   5,
+   "fromager",
+   0.4,
+   "J’achète les fromages de la vallée d’à côté, je les emballe ici, et je colle mon étiquette du village !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le fromage n’est pas fabriqué au village. Il y est seulement emballé."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais l’étiquette, elle, porte fièrement le nom et le clocher du village."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les voyageurs paient plus cher pour un fromage qu’ils croient local."
+  ],
+  [
+   "s07a",
+   7,
+   "touriste",
+   0.4,
+   "Le vrai fromage du village ! Je le reconnais à son étiquette, j’en prends cinq !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il vient d’ailleurs !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. L’étiquette dit où il a été emballé. Pas où il a été fait."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les règles sur l’origine sont complexes. Un produit peut porter un nom de lieu après une seule étape de transformation."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Drapeaux, clochers, photos de prairies : les images suggèrent une origine sans la prouver."
+  ],
+  [
+   "s09b",
+   9,
+   "fromager",
+   0.4,
+   "Je ne mens pas sur l’étiquette. Je laisse juste les images parler !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : drapeaux sur les emballages, « élaboré en France », « assemblé en Europe », noms qui sonnent régional."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Certains labels protègent vraiment l’origine, avec un cahier des charges et des contrôles, comme les appellations d’origine protégée."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut regarder l’origine des ingrédients ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et chercher les labels d’origine contrôlés, pas seulement les drapeaux."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "« Fabriqué » et « emballé » ne veulent pas dire la même chose."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une image de prairie ne dit pas où la vache a brouté."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Demande où c’est fait, pas où c’est emballé."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche l’origine du lait avant de croire le drapeau."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Les vraies origines sont souvent écrites en petit."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Où a été fait ce produit, et pas seulement emballé ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un drapeau n’est pas une adresse."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

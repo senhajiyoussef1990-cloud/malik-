@@ -1,0 +1,225 @@
+{
+ "ep": "sondage",
+ "nom": "EP87_Le_sondage_oriente",
+ "badge": "ÉPISODE 87",
+ "titre": "LE SONDAGE ORIENTÉ",
+ "sous": "« Avant la réponse, regarde la question »",
+ "accroche": "Quatre-vingt-dix pour cent des gens sont d’accord ?",
+ "apres": "cigognes",
+ "noms": {
+  "maire": "MAIRE",
+  "villageois": "VILLAGEOIS"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Un sondage dit que quatre-vingt-dix pour cent des gens veulent cette nouvelle loi ! C’est donc ce que tout le monde veut !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Quatre-vingt-dix pour cent. Et tu sais quelle question on leur a posée ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Non. Seulement le résultat."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un maire qui posait ses questions d’une façon très particulière."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, où le maire veut construire une grande fontaine très chère."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Les habitants hésitent : il faudra payer un nouvel impôt."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Alors le maire organise une consultation. Et il prépare sa question avec soin."
+  ],
+  [
+   "s05a",
+   5,
+   "maire",
+   0.4,
+   "Voulez-vous la fontaine, ou préférez-vous que vos enfants meurent de soif ?"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Personne ne veut que ses enfants meurent de soif. Presque tout le monde répond : la fontaine."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le maire affiche le résultat sur la place : « Quatre-vingt-quinze pour cent pour la fontaine ! »"
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Personne ne parle de l’impôt. Et la question a disparu du résultat."
+  ],
+  [
+   "s07a",
+   7,
+   "villageois",
+   0.4,
+   "Quatre-vingt-quinze pour cent ! Si tout le monde est d’accord, je ne vais pas m’y opposer…"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais la question était truquée !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le résultat dépend surtout de la façon de demander."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les mots choisis, l’ordre des questions et les réponses proposées peuvent orienter les réponses."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Et qui a été interrogé compte aussi : quelques voisins choisis ne représentent pas tout un village."
+  ],
+  [
+   "s09b",
+   9,
+   "maire",
+   0.4,
+   "Je ne triche pas sur les réponses. Je triche seulement sur la question !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, on lit tous les jours des chiffres de sondages, d’enquêtes en ligne et de consultations."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Les instituts sérieux publient leur question exacte, le nombre de personnes interrogées et leur méthode."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut toujours lire la question exacte ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et savoir combien de personnes ont répondu, et comment elles ont été choisies."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Un sondage en ligne où chacun clique s’il le veut ne représente souvent que les plus motivés."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un chiffre sans sa question ne veut presque rien dire."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Avant la réponse, regarde la question."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je cherche la question exacte du sondage."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Elle est souvent cachée tout en bas."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Quelle question a-t-on posée, et à qui ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. La question fait souvent la réponse."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

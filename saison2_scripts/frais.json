@@ -1,0 +1,225 @@
+{
+ "ep": "frais",
+ "nom": "EP57_Les_frais_de_la_fin",
+ "badge": "ÉPISODE 57",
+ "titre": "LES FRAIS DE LA FIN",
+ "sous": "« Le vrai prix est sur la dernière page »",
+ "accroche": "Trente euros… et à la fin ?",
+ "apres": "labyrinthe",
+ "noms": {
+  "aubergiste": "AUBERGISTE",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai trouvé un billet de concert à trente euros ! Bon… à la fin, il coûtait quarante-cinq."
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Quarante-cinq ? D’où viennent les quinze euros de plus ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Des frais de service, des frais de dossier, des frais d’envoi… Je n’ai pas tout compris."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un aubergiste qui faisait la même chose avec ses additions."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une auberge d’autrefois, sur une route de campagne."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Sur la porte, une ardoise annonce : repas complet, deux sous seulement !"
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Les voyageurs entrent, s’installent et mangent. Puis vient l’addition."
+  ],
+  [
+   "s05a",
+   5,
+   "aubergiste",
+   0.4,
+   "Le repas, deux sous. La chaise, un sou. La bougie, un sou. La cuillère et le service, encore un sou !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Au total, le repas à deux sous en coûte cinq."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais à ce moment-là, le voyageur a déjà mangé. Il ne va pas partir."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le prix affiché attire. Le vrai prix arrive quand il est trop tard pour reculer."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Cinq sous ? Bon… J’ai déjà mangé. Et puis, je ne vais pas chercher une autre auberge."
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais le prix affiché était faux !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Pas faux. Incomplet. Et c’est exactement ce qui le rend efficace."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça le prix découpé : on montre un petit prix, puis on ajoute des frais au fur et à mesure."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Plus on a passé de temps à choisir, plus on a du mal à abandonner."
+  ],
+  [
+   "s09b",
+   9,
+   "aubergiste",
+   0.4,
+   "Je n’augmente jamais mes prix. J’ajoute seulement des petites choses !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : billets de concert, réservations d’hôtel, livraisons de repas, billets d’avion avec bagages en plus."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En Europe, le prix final doit normalement être indiqué clairement. Mais les frais apparaissent souvent tard."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois comparer le prix de la dernière page ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Le prix total, avec tous les frais, juste avant de payer."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Comparer les prix affichés ne suffit pas. Il faut comparer les prix finaux."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un prix d’appel est souvent conçu pour te faire entrer, pas pour te faire payer moins."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Le vrai prix, c’est celui de la dernière page."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je vais jusqu’au dernier écran avant de comparer."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu n’as pas peur de faire demi-tour."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Combien je paie vraiment, au total ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le premier prix n’est qu’une invitation."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

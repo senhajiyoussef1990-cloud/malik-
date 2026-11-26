@@ -1,0 +1,225 @@
+{
+ "ep": "coffres",
+ "nom": "EP69_Les_coffres_surprises",
+ "badge": "ÉPISODE 69",
+ "titre": "LES COFFRES SURPRISES",
+ "sous": "« Les jetons font oublier les vrais sous »",
+ "accroche": "Et si le prochain coffre était le bon ?",
+ "apres": "pari",
+ "noms": {
+  "forain": "FORAIN",
+  "enfant": "ENFANT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Dans mon jeu, j’ai acheté des gemmes pour ouvrir des coffres. Je cherche le personnage rare !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Combien de vrais euros as-tu dépensés en gemmes ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Je ne sais pas. Ce sont des gemmes, pas des euros !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Justement. Allons voir une fête foraine avec des pochettes surprises."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une fête foraine d’autrefois, devant un stand de pochettes surprises."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Pour acheter une pochette, il faut d’abord échanger ses sous contre des jetons colorés."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Dans chaque pochette, il y a un jouet. Presque toujours un petit jouet sans valeur."
+  ],
+  [
+   "s05a",
+   5,
+   "forain",
+   0.4,
+   "Peut-être le grand ours doré dans la prochaine pochette ! Encore un jeton, et c’est peut-être la bonne !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "L’ours doré existe. Mais il n’y en a qu’un pour des centaines de pochettes."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Avec des jetons, on ne compte plus vraiment ses sous."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les enfants vident leur tirelire sans s’en rendre compte."
+  ],
+  [
+   "s07a",
+   7,
+   "enfant",
+   0.4,
+   "Encore une ! J’ai déjà vingt petits sifflets, il me faut l’ours doré !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il a dépensé une fortune en jetons !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Les jetons cachent le vrai prix. Et le hasard pousse à recommencer."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Une monnaie virtuelle éloigne de l’argent réel. On sent moins la dépense."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Et une récompense au hasard pousse à rejouer, comme une machine à sous."
+  ],
+  [
+   "s09b",
+   9,
+   "forain",
+   0.4,
+   "Je ne vends pas des jouets. Je vends l’espoir de l’ours doré !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, beaucoup de jeux vidéo vendent des coffres, des cartes ou des tirages au contenu aléatoire."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Certains pays, comme la Belgique, ont interdit une partie de ces coffres payants, en les considérant comme des jeux de hasard."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je peux savoir combien j’ai vraiment dépensé ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Regarde l’historique de tes achats, en vrais euros."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Convertir les gemmes en euros, et fixer un budget, aide à garder le contrôle."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Pour les plus jeunes, les parents peuvent bloquer les achats dans les jeux."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Les jetons font oublier les vrais sous."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je calcule le prix en euros avant d’acheter des gemmes."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu te fixes une limite pour le mois."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Combien d’euros vaut vraiment ce coffre ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le hasard payant reste un pari."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "bulle",
+ "nom": "EP79_La_bulle_de_filtres",
+ "badge": "ÉPISODE 79",
+ "titre": "LA BULLE DE FILTRES",
+ "sous": "« Regarde qui a choisi ton monde »",
+ "accroche": "Tout le monde pense comme moi ?",
+ "apres": "local",
+ "noms": {
+  "crieur": "CRIEUR",
+  "habitante": "HABITANTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Sur mon fil d’actualité, tout le monde pense comme moi ! Donc j’ai raison, c’est évident !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tout le monde sur ton fil. Et qui a choisi ce que tu vois sur ton fil ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Je ne sais pas. Ça s’affiche tout seul."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un crieur qui ne racontait à chacun que ce qu’il voulait entendre."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, divisée en deux quartiers qui ne s’entendent pas."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Un crieur passe chaque matin dans chaque rue pour annoncer les nouvelles."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais il a remarqué que les gens lui donnent plus de pièces quand les nouvelles leur plaisent."
+  ],
+  [
+   "s05a",
+   5,
+   "crieur",
+   0.4,
+   "Dans le quartier du haut, je dis que ceux d’en bas ont tort. Et en bas, je dis le contraire !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Chaque quartier n’entend que des nouvelles qui confirment ce qu’il pense déjà."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Bientôt, chacun croit que toute la ville est d’accord avec lui."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Et quand les deux quartiers se rencontrent, ils ne se comprennent plus du tout."
+  ],
+  [
+   "s07a",
+   7,
+   "habitante",
+   0.4,
+   "Tout le monde dit comme nous ! Ceux d’en bas sont vraiment fous !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il raconte des choses différentes à chaque quartier !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Chacun vit dans sa bulle, et pense que la bulle, c’est le monde entier."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "En deux mille onze, Eli Pariser décrit la bulle de filtres : les algorithmes nous montrent surtout ce qui nous ressemble."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Nous aimons aussi naturellement ce qui confirme nos idées. On appelle ça le biais de confirmation."
+  ],
+  [
+   "s09b",
+   9,
+   "crieur",
+   0.4,
+   "Je ne mens pas. Je trie seulement ce que chacun préfère entendre !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les réseaux sociaux choisissent ce qu’ils montrent selon ce qui nous fait réagir, aimer ou rester."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Plus on clique sur un type d’idée, plus on en voit. Et l’autre côté disparaît peu à peu."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il y a plein de gens qui pensent autrement, mais je ne les vois pas ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Exactement. Ils existent, mais ton fil les a rangés hors de ta vue."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut aller chercher des sources variées, et lire de temps en temps des avis opposés."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ce qu’on voit tous les jours n’est pas forcément ce que pense le monde."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Si tout le monde pense comme toi, regarde qui a choisi ton monde."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je lis aussi des avis qui ne sont pas les miens."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Comprendre l’autre n’oblige pas à être d’accord."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui a choisi ce que je vois, et ce que je ne vois pas ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Ta bulle n’est pas le monde."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "sanssucre",
+ "nom": "EP71_Sans_sucres_ajoutes",
+ "badge": "ÉPISODE 71",
+ "titre": "SANS SUCRES AJOUTÉS",
+ "sous": "« Lis ce qu’il y a dedans »",
+ "accroche": "Sans sucres ajoutés… et sans sucre ?",
+ "apres": "fidelite",
+ "noms": {
+  "boulanger": "BOULANGER",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai pris ce jus « sans sucres ajoutés ». Donc il n’y a pas de sucre, c’est parfait pour moi !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Sans sucres ajoutés. Ça ne veut pas dire sans sucre. Tu as lu l’étiquette ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Vingt-quatre grammes de sucre ? Comment c’est possible ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un boulanger très fier de son pain « sans sel ajouté »."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une boulangerie d’autrefois, où le médecin du village a conseillé de manger moins salé."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le boulanger veut garder ses clients. Il colle une belle étiquette sur son pain."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Mais il ne change presque rien à sa recette."
+  ],
+  [
+   "s05a",
+   5,
+   "boulanger",
+   0.4,
+   "Pain sans sel ajouté ! Juste du jambon salé, des olives et du fromage dedans !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "C’est vrai : il n’a pas ajouté de sel dans la pâte. Mais ce qu’il a mis dedans est très salé."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le pain contient plus de sel qu’avant. Mais l’étiquette rassure tout le monde."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les clients en achètent même plus, persuadés de faire attention."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "Sans sel ajouté ! Parfait pour mon cœur, j’en prends trois !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il y a plein de sel dedans !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. L’étiquette dit ce qu’il n’a pas fait. Pas ce qu’il y a vraiment."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Une mention peut être vraie et trompeuse à la fois. Elle attire l’œil sur un détail."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Un jus sans sucres ajoutés contient souvent le sucre naturel des fruits, en grande quantité."
+  ],
+  [
+   "s09b",
+   9,
+   "boulanger",
+   0.4,
+   "Je ne mens jamais sur l’étiquette. Je choisis juste ce que j’écris dessus !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : « sans sucres ajoutés », « allégé », « source de fibres », « riche en vitamines »."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Le tableau des valeurs nutritionnelles et la liste des ingrédients disent souvent autre chose que l’avant du paquet."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois retourner le paquet ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Le devant vend, le dos informe."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les ingrédients sont classés du plus présent au moins présent. Les premiers comptent le plus."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Ce qu’un produit n’a pas ne dit rien de ce qu’il a."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Lis ce qu’il y a dedans, pas ce qu’il n’y a pas."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je retourne le paquet avant de croire l’étiquette."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu regardes la ligne des sucres."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qu’est-ce que cette mention ne me dit pas ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le devant du paquet est une publicité."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

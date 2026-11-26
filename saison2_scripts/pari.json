@@ -1,0 +1,225 @@
+{
+ "ep": "pari",
+ "nom": "EP68_Le_premier_pari_offert",
+ "badge": "ÉPISODE 68",
+ "titre": "LE PREMIER PARI OFFERT",
+ "sous": "« Le cadeau du casino, c’est l’hameçon »",
+ "accroche": "Ton premier pari est offert !",
+ "apres": "methode",
+ "noms": {
+  "tenancier": "TENANCIER",
+  "joueur": "JOUEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Une application de paris m’offre cinquante euros pour mon premier pari ! C’est de l’argent gratuit !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Gratuit ? Et pourquoi un parieur professionnel te donnerait-il de l’argent ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Pour être gentil ? Pour me souhaiter la bienvenue ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un tripot qui offrait toujours la première partie."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, au fond d’une salle de jeux enfumée."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Chaque nouveau venu reçoit un jeton gratuit à l’entrée."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Et la première partie, curieusement, est souvent gagnante."
+  ],
+  [
+   "s05a",
+   5,
+   "tenancier",
+   0.4,
+   "Bienvenue, mon ami ! Ta première partie est offerte ! Et regarde, tu as gagné !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Le joueur repart heureux. Il revient le lendemain, avec son propre argent."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Il pense avoir de la chance, ou un talent. Il mise plus."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Au bout d’un mois, il a perdu bien plus que le jeton offert."
+  ],
+  [
+   "s07a",
+   7,
+   "joueur",
+   0.4,
+   "J’ai gagné la première fois ! Je sais comment ça marche, je vais me refaire !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais le jeton gratuit l’a fait revenir !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Le cadeau n’est pas un cadeau. C’est un hameçon."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Un cadeau crée une envie de rendre. Et une victoire au début donne l’illusion de savoir jouer."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Dans les jeux d’argent, sur la durée, c’est presque toujours la maison qui gagne."
+  ],
+  [
+   "s09b",
+   9,
+   "tenancier",
+   0.4,
+   "J’offre un jeton à chacun. Et je récupère tout le reste !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : paris sportifs et casinos en ligne offrent des bonus de bienvenue et des paris remboursés."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Souvent, ces bonus ne peuvent être retirés qu’après avoir parié de nombreuses fois."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc les cinquante euros servent surtout à me faire parier plus ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et à te faire croire que tu peux gagner facilement."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Les jeux d’argent peuvent créer une vraie dépendance. Il existe des numéros d’aide pour ceux qui ont du mal à arrêter."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Fixer une limite avant de jouer, et ne jamais courir après ses pertes, est essentiel."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Le cadeau du casino, c’est l’hameçon."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je me demande ce que le cadeau doit me faire faire."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Personne ne t’offre de l’argent sans raison."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Pourquoi la maison m’offre-t-elle ce premier pari ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. À la fin, la maison gagne."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "filtrebeaute",
+ "nom": "EP84_Le_filtre_beaute",
+ "badge": "ÉPISODE 84",
+ "titre": "LE FILTRE BEAUTÉ",
+ "sous": "« Ton visage n’est pas une erreur »",
+ "accroche": "Sans filtre, je suis moche ?",
+ "apres": "vieparfaite",
+ "noms": {
+  "portraitiste": "PORTRAITISTE",
+  "jeunefille": "JEUNE FILLE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Avec le filtre, j’ai la peau parfaite et de grands yeux ! Sans filtre, je me trouve moche maintenant…"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Le filtre change ton visage. Est-ce que ton vrai visage a changé, lui ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais à force de voir le filtre, je ne me reconnais plus sans."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un portraitiste qui affinait tous les nez du village."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, chez le seul portraitiste de la région."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Pour plaire à ses clients, il embellit un peu chaque visage."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un nez plus fin, des yeux plus grands, une peau sans aucune tache."
+  ],
+  [
+   "s05a",
+   5,
+   "portraitiste",
+   0.4,
+   "Je vous affine le nez, je vous agrandis les yeux… Voilà, vous êtes parfaite !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Tout le village se fait peindre. Bientôt, tous les portraits se ressemblent."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les vrais visages, avec leurs nez et leurs taches de rousseur, paraissent soudain étranges."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les jeunes filles se regardent dans le miroir et se trouvent ratées."
+  ],
+  [
+   "s07a",
+   7,
+   "jeunefille",
+   0.4,
+   "Mon portrait est si beau… Pourquoi mon miroir est-il si méchant avec moi ?"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est le portrait qui est faux, pas son visage !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Le peintre a inventé un visage que personne n’a. Et maintenant, tout le monde se compare à lui."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Quand on voit sans cesse des visages retouchés, ils finissent par sembler normaux."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les vrais visages, avec leurs particularités, paraissent alors imparfaits."
+  ],
+  [
+   "s09b",
+   9,
+   "portraitiste",
+   0.4,
+   "Je ne peins pas les gens. Je peins ce qu’ils n’arriveront jamais à être !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, les filtres des applications lissent la peau, affinent le visage et agrandissent les yeux en un instant."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En France, depuis deux mille dix-sept, les photos commerciales retouchées de mannequins doivent porter la mention « photographie retouchée »."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc beaucoup des visages que je vois ne sont pas vrais ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Beaucoup sont retouchés, oui. Même ceux qui ont l’air naturels."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut se rappeler que les filtres effacent ce qui rend chaque visage unique."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Les taches, les rides et les formes font partie de chaque personne."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ton visage n’est pas une erreur à corriger."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je publie aussi des photos sans filtre."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu verras qu’on t’aime pareil."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Ce visage est-il vrai, ou fabriqué par un filtre ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le vrai toi n’a pas besoin de retouche."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

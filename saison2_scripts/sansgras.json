@@ -1,0 +1,225 @@
+{
+ "ep": "sansgras",
+ "nom": "EP72_Quatre_vingt_quinze_pour_cent_sans_gras",
+ "badge": "ÉPISODE 72",
+ "titre": "QUATRE-VINGT-QUINZE POUR CENT SANS GRAS",
+ "sous": "« Retourne la phrase »",
+ "accroche": "Sans gras… et avec quoi ?",
+ "apres": "sanssucre",
+ "noms": {
+  "fromager": "FROMAGER",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Ce yaourt est à quatre-vingt-quinze pour cent sans matière grasse ! C’est presque de l’eau, je peux en manger dix !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Quatre-vingt-quinze pour cent sans gras. Donc cinq pour cent de gras. Et combien de sucre ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Beaucoup, apparemment. Mais il est sans gras !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un fromager qui savait tourner ses phrases."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une fromagerie d’autrefois, un jour de marché."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Le fromager vend un fromage plein de trous. Les clients trouvent qu’il n’y a pas assez de fromage."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Alors il change sa pancarte."
+  ],
+  [
+   "s05a",
+   5,
+   "fromager",
+   0.4,
+   "Mon fromage est à quatre-vingt-quinze pour cent sans trous ! Le meilleur de la ville !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Cinq pour cent de trous, ou quatre-vingt-quinze pour cent sans trous : c’est la même chose."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais la deuxième phrase sonne beaucoup mieux."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Les clients oublient complètement de regarder le prix au kilo."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Quatre-vingt-quinze pour cent sans trous ! Quelle qualité ! J’en prends deux livres !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais c’est exactement le même fromage qu’hier !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. Seule la phrase a changé. Et la phrase change tout."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On appelle ça l’effet de cadrage : la même information, présentée autrement, change notre jugement."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Une opération réussie à quatre-vingt-dix pour cent rassure plus qu’un échec dans dix pour cent des cas."
+  ],
+  [
+   "s09b",
+   9,
+   "fromager",
+   0.4,
+   "Je ne change pas mon fromage. Je change seulement le côté de la phrase !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : « quatre-vingt-quinze pour cent sans gras », « quatre-vingt-dix-neuf pour cent naturel », « élimine quatre-vingt-dix-neuf virgule neuf pour cent des bactéries »."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Un produit pauvre en gras peut être riche en sucre, et l’inverse."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il faut retourner la phrase ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et regarder ce qu’elle ne mentionne pas."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Quatre-vingt-quinze pour cent sans gras, c’est cinq pour cent de gras. Et peut-être beaucoup d’autre chose."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un chiffre flatteur choisit toujours son point de vue."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Retourne la phrase pour voir ce qu’elle cache."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je retourne le pourcentage avant de croire l’étiquette."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu regardes aussi le sucre et le sel."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Et dit à l’envers, ça donne quoi ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le cadrage fait la moitié de la vente."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

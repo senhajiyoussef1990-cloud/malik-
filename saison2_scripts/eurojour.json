@@ -1,0 +1,225 @@
+{
+ "ep": "eurojour",
+ "nom": "EP62_Un_euro_par_jour",
+ "badge": "ÉPISODE 62",
+ "titre": "UN EURO PAR JOUR",
+ "sous": "« Multiplie avant d’acheter »",
+ "accroche": "Seulement un euro par jour…",
+ "apres": "credit",
+ "noms": {
+  "marchand": "MARCHAND",
+  "paysan": "PAYSAN"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Cette application ne coûte qu’un euro par jour ! Un euro, ce n’est rien !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Un euro par jour. Et sur un an, ça fait combien ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Trois cent soixante-cinq euros ? Ah. C’est beaucoup, en fait."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un marchand qui vendait ses charrettes au sou près."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons sur un marché d’autrefois, devant une belle charrette neuve."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Elle coûte très cher. Personne ne peut l’acheter d’un coup."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Alors le marchand a une idée : ne jamais dire le prix total."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Cette charrette ? Seulement un sou par jour ! Moins cher qu’une miche de pain !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Un sou par jour, ça paraît minuscule. Les paysans hochent la tête."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais le contrat dure dix ans. Un sou par jour, pendant dix ans."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "À la fin, la charrette a coûté trois fois son prix."
+  ],
+  [
+   "s07a",
+   7,
+   "paysan",
+   0.4,
+   "Un sou par jour ? Je dépense plus pour mon tabac ! Je signe tout de suite !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il ne sait pas combien il va payer au total !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Le marchand a découpé le prix en morceaux si petits qu’on ne les voit plus."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Les spécialistes appellent ça le découpage du prix : présenter un gros montant comme une suite de petites sommes."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Comparer avec un café ou un pain rend la dépense banale."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne dis jamais le prix. Je dis seulement le prix d’une journée !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : abonnements à quelques euros par mois, assurances à quelques centimes par jour, applications et services en ligne."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Additionnés, tous ces petits abonnements peuvent représenter une grosse somme chaque année."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois toujours calculer le prix sur un an ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et faire la liste de tous tes abonnements. Tu risques d’être surpris."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Multiplier par trois cent soixante-cinq ou par douze donne souvent une autre image."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un petit prix répété longtemps devient un grand prix."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Multiplie avant d’acheter."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je calcule le prix sur un an avant de m’abonner."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu fais le ménage dans les abonnements que tu n’utilises plus."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Combien ça me coûte vraiment, sur un an ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Les petits sous font les grosses factures."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "garantie",
+ "nom": "EP64_La_garantie_prolongee",
+ "badge": "ÉPISODE 64",
+ "titre": "LA GARANTIE PROLONGÉE",
+ "sous": "« On t’assure contre ta peur »",
+ "accroche": "Et si ça tombait en panne ?",
+ "apres": "recharge",
+ "noms": {
+  "vendeur": "VENDEUR",
+  "cliente": "CLIENTE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Le vendeur m’a proposé une garantie de trois ans pour mon grille-pain. J’ai dit oui, au cas où !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Au cas où quoi ? Et elle coûtait combien, cette garantie ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Presque la moitié du prix du grille-pain… Mais s’il tombe en panne !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un vendeur qui assurait les chapeaux contre la chute de la lune."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une chapellerie d’autrefois, au moment où une cliente vient d’acheter un chapeau."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Elle est contente, elle vient de payer. C’est le moment que le vendeur attendait."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il se penche vers elle, l’air inquiet."
+  ],
+  [
+   "s05a",
+   5,
+   "vendeur",
+   0.4,
+   "Et si la lune tombait sur votre chapeau ? Pour quelques sous de plus, je vous assure contre ça !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "La lune ne tombera jamais. Mais au moment de l’achat, on veut protéger ce qu’on vient de payer."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le vendeur gagne presque autant sur ses assurances que sur ses chapeaux."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Et les rares pannes réelles sont souvent déjà couvertes par la garantie normale."
+  ],
+  [
+   "s07a",
+   7,
+   "cliente",
+   0.4,
+   "La lune ? Je n’y avais pas pensé ! Je préfère être tranquille, je prends l’assurance !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais la lune ne va jamais tomber !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Mais la peur, elle, est bien là. Et c’est elle qu’on lui vend."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "On a tendance à surestimer les risques rares, surtout quand on vient d’acheter quelque chose."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "La proposition arrive au pire moment pour réfléchir : à la caisse, quand on est pressé."
+  ],
+  [
+   "s09b",
+   9,
+   "vendeur",
+   0.4,
+   "Je ne vends pas une protection. Je vends le soulagement de ne plus s’inquiéter !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : garanties prolongées sur l’électroménager, assurances pour téléphones, protections en tout genre."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En France et en Europe, la loi prévoit déjà au moins deux ans de garantie légale de conformité pour les produits neufs."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc mon grille-pain était déjà garanti deux ans ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui, gratuitement. La garantie payante couvre souvent peu de chose en plus."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Avant d’accepter, on peut se demander : combien coûterait la réparation, et quelle est la chance de panne ?"
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Pour un petit appareil, il vaut souvent mieux garder l’argent de l’assurance."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "On ne t’assure pas contre le risque, on t’assure contre ta peur."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je vérifie la garantie légale avant de payer une garantie en plus."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu prends le temps de réfléchir, loin de la caisse."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Ce risque est-il vraiment probable, ou juste effrayant ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. La peur est un très bon vendeur."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

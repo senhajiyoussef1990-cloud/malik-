@@ -1,0 +1,225 @@
+{
+ "ep": "compteur",
+ "nom": "EP59_Les_douze_qui_regardent",
+ "badge": "ÉPISODE 59",
+ "titre": "LES DOUZE QUI REGARDENT",
+ "sous": "« La foule annoncée n’est pas toujours là »",
+ "accroche": "Plus qu’une chambre… vraiment ?",
+ "apres": "dynamique",
+ "noms": {
+  "aubergiste": "AUBERGISTE",
+  "voyageur": "VOYAGEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Vite ! Le site dit que douze personnes regardent cet hôtel en ce moment, et qu’il ne reste qu’une chambre !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Douze personnes ? Tu les as vues ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Non… Mais c’est écrit en rouge ! Je réserve tout de suite !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Attends. Allons voir un aubergiste qui savait faire semblant d’être complet."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans une ville d’autrefois, devant une auberge un peu vide."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "L’aubergiste a beaucoup de chambres libres. Mais il a une idée."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il paie quelques amis pour traîner devant sa porte et parler fort."
+  ],
+  [
+   "s05a",
+   5,
+   "aubergiste",
+   0.4,
+   "Plus qu’une chambre ! Trois voyageurs la veulent déjà ! Décidez-vous vite !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les amis font semblant de compter leurs sous, comme s’ils allaient la prendre."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Les vrais voyageurs paniquent et réservent sans comparer."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le soir, il reste toujours plusieurs chambres vides. Et la même phrase sera répétée demain."
+  ],
+  [
+   "s07a",
+   7,
+   "voyageur",
+   0.4,
+   "J’ai payé le double, mais au moins, je l’ai eue avant les autres !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais il n’y avait personne d’autre !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. La foule était jouée. Mais la peur, elle, était bien réelle."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Ce mélange s’appuie sur deux leviers : la preuve sociale et la rareté."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Si d’autres le veulent et qu’il en reste peu, on a peur de rater sa chance."
+  ],
+  [
+   "s09b",
+   9,
+   "aubergiste",
+   0.4,
+   "Je n’ai pas besoin de clients. J’ai besoin qu’ils croient que les autres arrivent !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : « douze personnes regardent », « réservé il y a trois minutes », « plus que deux en stock »."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Des enquêtes en Europe ont montré que certains de ces messages étaient trompeurs ou impossibles à vérifier."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc le compteur rouge peut mentir ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Il peut. Et même s’il dit vrai, ce n’est pas une raison pour ne pas comparer."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "On peut ouvrir un autre site, ou revenir dans une heure. Souvent, la chambre est toujours là."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Une bonne affaire résiste à quelques minutes de réflexion."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "La foule qu’on t’annonce n’est pas toujours là."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je compare même quand c’est écrit en rouge."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Le rouge sert à te presser, pas à t’informer."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qui me dit que les autres existent vraiment ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. L’urgence des autres peut être un décor."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

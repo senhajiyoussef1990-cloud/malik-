@@ -1,0 +1,225 @@
+{
+ "ep": "credit",
+ "nom": "EP61_Paye_plus_tard",
+ "badge": "ÉPISODE 61",
+ "titre": "PAYE PLUS TARD",
+ "sous": "« Payer plus tard, c’est toujours payer »",
+ "accroche": "Quatre fois sans frais… et après ?",
+ "apres": "blackfriday",
+ "noms": {
+  "colporteur": "COLPORTEUR",
+  "villageoise": "VILLAGEOISE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai acheté une console, des baskets et un manteau ! Je paierai en quatre fois, c’est indolore !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Indolore aujourd’hui. Et le mois prochain, tu paies combien en tout ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Je n’ai pas fait le calcul. Ça faisait juste des petits montants."
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un colporteur qui ne demandait jamais d’argent tout de suite."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, au passage d’un colporteur avec sa grosse valise."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Il vend des draps, des casseroles, des rubans, des horloges."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Et il ne demande jamais de payer le jour même."
+  ],
+  [
+   "s05a",
+   5,
+   "colporteur",
+   0.4,
+   "Ne payez rien aujourd’hui ! Juste une petite croix ici. Je repasserai chaque mois !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Une croix, ça ne fait pas mal. Alors on en signe une, puis deux, puis cinq."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Chaque mois, le colporteur repasse. Toutes les petites sommes s’additionnent."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Et quand on ne peut plus payer, il ajoute des pénalités."
+  ],
+  [
+   "s07a",
+   7,
+   "villageoise",
+   0.4,
+   "Je croyais que c’était presque gratuit… Je lui dois plus que mon salaire !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais elle a tout acheté sans le sentir !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Payer plus tard enlève la douleur du moment. Pas le prix."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Quand on paie tout de suite, on ressent la dépense. C’est ce qui nous fait réfléchir."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les spécialistes parlent de douleur de payer. Repousser le paiement la fait disparaître."
+  ],
+  [
+   "s09b",
+   9,
+   "colporteur",
+   0.4,
+   "Je ne vends pas des casseroles. Je vends l’oubli de payer !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui, le paiement fractionné est proposé partout, en un clic, même pour un tee-shirt."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Plusieurs petits paiements en même temps peuvent vite dépasser ce qu’on peut payer, avec des frais en cas de retard."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je dois additionner toutes mes petites échéances ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et te demander : est-ce que je l’achèterais si je payais tout aujourd’hui ?"
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Si la réponse est non, c’est sans doute que l’on ne peut pas se l’offrir maintenant."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un crédit, même petit, reste une dette."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Payer plus tard, c’est toujours payer."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je fais le total avant de payer en plusieurs fois."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu gardes une liste de tout ce qui reste à payer."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Est-ce que je l’achèterais si je payais tout aujourd’hui ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. La facture finit toujours par arriver."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

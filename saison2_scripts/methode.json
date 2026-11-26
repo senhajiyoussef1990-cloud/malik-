@@ -1,0 +1,225 @@
+{
+ "ep": "methode",
+ "nom": "EP67_La_methode_pour_devenir_riche",
+ "badge": "ÉPISODE 67",
+ "titre": "LA MÉTHODE POUR DEVENIR RICHE",
+ "sous": "« Celui qui s’enrichit vend la méthode »",
+ "accroche": "Riche depuis ton canapé ?",
+ "apres": "ponzi",
+ "noms": {
+  "marchand": "MARCHAND",
+  "chercheur": "CHERCHEUR"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai vu une vidéo : un jeune homme gagne dix mille euros par mois depuis son canapé ! Il vend sa formation, je l’achète !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Il gagne de l’argent grâce à sa méthode… ou grâce à ceux qui achètent sa méthode ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Je ne sais pas. Mais il a une belle voiture !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir la ruée vers l’or, et ceux qui y sont vraiment devenus riches."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons en Californie, en mille huit cent quarante-neuf, pendant la ruée vers l’or."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Des milliers de chercheurs d’or arrivent de partout, rêvant de fortune."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Un marchand installe sa boutique au bord de la rivière."
+  ],
+  [
+   "s05a",
+   5,
+   "marchand",
+   0.4,
+   "Achetez ma méthode secrète pour trouver de l’or ! Et mes pelles, mes tamis, mes pantalons solides !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "La plupart des chercheurs trouvent très peu d’or. Certains repartent ruinés."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Le marchand, lui, ne cherche jamais d’or. Il vend des outils à tous ceux qui en cherchent."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "À la fin, c’est souvent lui le plus riche de la rivière."
+  ],
+  [
+   "s07a",
+   7,
+   "chercheur",
+   0.4,
+   "Je n’ai trouvé que trois pépites… mais j’ai payé la pelle, la méthode et le tamis !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais le marchand n’a jamais trouvé d’or !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Non. Il a trouvé mieux : des gens qui rêvent d’or."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Pendant les ruées vers l’or, les vendeurs d’outils et de services étaient souvent ceux qui gagnaient le plus sûrement."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "On ne voit que ceux qui réussissent. On oublie tous ceux qui ont échoué."
+  ],
+  [
+   "s09b",
+   9,
+   "marchand",
+   0.4,
+   "Je ne creuse pas. Je vends la promesse de creuser au bon endroit !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : formations pour devenir riche, méthodes de trading faciles, revenus passifs, voitures de luxe louées pour les vidéos."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Souvent, le principal revenu de ces vendeurs, c’est la formation elle-même."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc il est riche parce que des gens comme moi achètent sa formation ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Probablement. Demande-toi pourquoi il partage son secret au lieu de l’utiliser."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Une vraie méthode qui rapporte beaucoup n’a pas besoin d’être vendue à des milliers d’inconnus."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Les promesses rapides et faciles cachent souvent des pertes rapides et faciles."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Celui qui s’enrichit, c’est souvent celui qui vend la méthode."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je me demande d’où vient vraiment l’argent du vendeur."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Et tu cherches ceux qui ont essayé et échoué."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Pourquoi me vendrait-il son secret, s’il marchait vraiment ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le vendeur de pelles ne creuse pas."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

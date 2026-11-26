@@ -1,0 +1,225 @@
+{
+ "ep": "detox",
+ "nom": "EP75_La_cure_detox",
+ "badge": "ÉPISODE 75",
+ "titre": "LA CURE DÉTOX",
+ "sous": "« Ton corps fait déjà le ménage »",
+ "accroche": "Nettoyer son corps en sept jours ?",
+ "apres": "superaliment",
+ "noms": {
+  "guerisseur": "GUÉRISSEUR",
+  "client": "CLIENT"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "Je commence une cure détox de sept jours ! Juste des jus verts, pour nettoyer mon corps des toxines !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Quelles toxines, exactement ? Et qui fait le ménage dans ton corps d’habitude ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Euh… Je ne sais pas. Mais j’ai besoin d’être nettoyé, non ?"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un guérisseur qui vendait un sirop pour laver le sang."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons sur une place de village d’autrefois, devant la charrette d’un guérisseur."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Il parle d’un mal mystérieux, invisible, qui salirait le sang de tout le monde."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Fatigue, mal de tête, mauvaise humeur : tout viendrait de là."
+  ],
+  [
+   "s05a",
+   5,
+   "guerisseur",
+   0.4,
+   "Votre sang est sale ! Mon sirop purifiant le lave en sept jours !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Après sept jours de sirop, certains se sentent mieux. Ils ont aussi arrêté de boire du vin et mieux dormi."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais le sirop n’a rien lavé du tout. Le corps fait déjà ce travail, tous les jours."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Le guérisseur repasse chaque printemps pour une nouvelle cure."
+  ],
+  [
+   "s07a",
+   7,
+   "client",
+   0.4,
+   "Je me sens plus léger ! Je reprendrai une cure l’an prochain, c’est sûr !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais son corps se nettoyait déjà tout seul !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Exactement. Le guérisseur a inventé une saleté pour vendre son savon."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Le foie, les reins, les intestins et les poumons éliminent en permanence ce dont le corps n’a pas besoin."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Les produits détox citent rarement quelle toxine ils éliminent, ni comment on le mesure."
+  ],
+  [
+   "s09b",
+   9,
+   "guerisseur",
+   0.4,
+   "Je ne guéris personne. Je vends un problème avec sa solution !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : jus détox, tisanes minceur, patchs pour les pieds, cures de jeûne vendues très cher."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "Se sentir mieux vient souvent de ce qu’on arrête pendant la cure : l’alcool, le sucre, la malbouffe."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc je pourrais juste manger mieux, sans acheter la cure ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Oui. Et en cas de vrai souci, c’est un médecin qu’il faut voir."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Quand on te vend une purification, demande toujours : de quoi, et comment le prouve-t-on ?"
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Un problème vague permet de vendre n’importe quelle solution."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Ton corps fait le ménage gratuitement."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je demande quelle toxine on m’enlève, exactement."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Tu verras que la réponse est souvent très floue."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "De quoi suis-je censé être nettoyé ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Un mal inventé appelle un remède inutile."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "ep": "superaliment",
+ "nom": "EP74_Le_superaliment",
+ "badge": "ÉPISODE 74",
+ "titre": "LE SUPERALIMENT",
+ "sous": "« Un aliment n’est pas une potion »",
+ "accroche": "Une baie qui guérit tout ?",
+ "apres": "portion",
+ "noms": {
+  "colporteur": "COLPORTEUR",
+  "villageoise": "VILLAGEOISE"
+ },
+ "lignes": [
+  [
+   "s01a",
+   1,
+   "mouton",
+   0.5,
+   "J’ai acheté de la poudre de baies d’Amazonie ! C’est un superaliment, ça guérit tout !"
+  ],
+  [
+   "s01b",
+   1,
+   "renard",
+   0.5,
+   "Tout ? Et elle coûte combien, ta poudre magique ?"
+  ],
+  [
+   "s02a",
+   2,
+   "mouton",
+   0.5,
+   "Trente euros le petit pot… Mais c’est la santé, ça n’a pas de prix !"
+  ],
+  [
+   "s02b",
+   2,
+   "renard",
+   0.5,
+   "Allons voir un colporteur avec une baie très rare."
+  ],
+  [
+   "s03a",
+   3,
+   "narr",
+   0.4,
+   "Entrons dans un village d’autrefois, à l’arrivée d’un colporteur venu de très loin."
+  ],
+  [
+   "s04a",
+   4,
+   "narr",
+   0.4,
+   "Il ouvre un coffret mystérieux, rempli de petites baies séchées."
+  ],
+  [
+   "s04b",
+   4,
+   "narr",
+   0.4,
+   "Il raconte qu’elles viennent d’une montagne lointaine, où les gens vivent cent ans."
+  ],
+  [
+   "s05a",
+   5,
+   "colporteur",
+   0.4,
+   "La baie des centenaires ! Une poignée par jour, et vous ne serez plus jamais malades !"
+  ],
+  [
+   "s05b",
+   5,
+   "narr",
+   0.4,
+   "Les baies sont bonnes. Elles contiennent des vitamines, comme beaucoup de fruits."
+  ],
+  [
+   "s06a",
+   6,
+   "narr",
+   0.4,
+   "Mais les pommes et les myrtilles du village en contiennent aussi, pour dix fois moins cher."
+  ],
+  [
+   "s06b",
+   6,
+   "narr",
+   0.4,
+   "Et personne ne vérifie si les gens de la montagne vivent vraiment cent ans."
+  ],
+  [
+   "s07a",
+   7,
+   "villageoise",
+   0.4,
+   "Cent ans ! Je vends mes poules pour en acheter un sac !"
+  ],
+  [
+   "s07b",
+   7,
+   "mouton",
+   0.5,
+   "Mais ce sont juste des fruits séchés !"
+  ],
+  [
+   "s08a",
+   8,
+   "renard",
+   0.5,
+   "Oui. De bons fruits. Mais l’histoire autour vaut plus cher que les fruits."
+  ],
+  [
+   "s08b",
+   8,
+   "narr",
+   0.4,
+   "Le mot « superaliment » n’a pas de définition scientifique précise. C’est surtout un mot de marketing."
+  ],
+  [
+   "s09a",
+   9,
+   "narr",
+   0.4,
+   "Aucun aliment seul ne protège de toutes les maladies. C’est l’ensemble de ce qu’on mange qui compte."
+  ],
+  [
+   "s09b",
+   9,
+   "colporteur",
+   0.4,
+   "Je ne vends pas des baies. Je vends le voyage et la promesse !"
+  ],
+  [
+   "s10a",
+   10,
+   "narr",
+   0.4,
+   "Aujourd’hui : baies exotiques, graines, poudres vertes, algues, vendues avec des promesses spectaculaires."
+  ],
+  [
+   "s10b",
+   10,
+   "narr",
+   0.4,
+   "En Europe, les allégations de santé sur les aliments sont encadrées. Mais le mot superaliment, lui, ne garantit rien."
+  ],
+  [
+   "s11a",
+   11,
+   "mouton",
+   0.5,
+   "Donc des fruits ordinaires peuvent être aussi bons ?"
+  ],
+  [
+   "s11b",
+   11,
+   "renard",
+   0.5,
+   "Souvent, oui. Et bien moins chers."
+  ],
+  [
+   "s12a",
+   12,
+   "narr",
+   0.4,
+   "Varier les fruits et les légumes de saison fait souvent plus que n’importe quelle poudre."
+  ],
+  [
+   "s12b",
+   12,
+   "narr",
+   0.4,
+   "Plus l’histoire est lointaine et magique, plus il faut vérifier."
+  ],
+  [
+   "s13a",
+   13,
+   "renard",
+   0.5,
+   "Un aliment n’est pas une potion."
+  ],
+  [
+   "s14a",
+   14,
+   "narr",
+   0.4,
+   "Retour au salon."
+  ],
+  [
+   "s15a",
+   15,
+   "mouton",
+   0.5,
+   "La prochaine fois, je compare avec les fruits de chez moi."
+  ],
+  [
+   "s15b",
+   15,
+   "renard",
+   0.5,
+   "Bonne idée. Le panier du marché a aussi ses super pouvoirs."
+  ],
+  [
+   "s15c",
+   15,
+   "mouton",
+   0.5,
+   "Qu’est-ce qui est prouvé, et qu’est-ce qui est raconté ?"
+  ],
+  [
+   "s15d",
+   15,
+   "renard",
+   0.5,
+   "Voilà. Le mot « super » n’est pas une preuve."
+  ],
+  [
+   "s16a",
+   16,
+   "narr",
+   0.4,
+   "Arrête de suivre les moutons. Suis le renard… et pense par toi-même !"
+  ]
+ ]
+}
