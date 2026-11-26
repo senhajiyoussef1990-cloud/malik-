@@ -1,0 +1,144 @@
+{
+  "id": "EP06",
+  "title": "Et si tu tombes dans un lac gelé ?",
+  "sources": [
+    "https://www.dnr.state.mn.us/safety/ice/survival.html"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "La glace cède sous tes pieds. L’eau glacée peut perturber immédiatement ta respiration.",
+      "visual": "Rupture glace, vue large",
+      "sfx": "Craquement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Garde la tête hors de l’eau, maîtrise ta respiration autant que possible et appelle à l’aide.",
+      "visual": "Personnage agrippé bord",
+      "sfx": "Souffle",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Ne retire pas tes vêtements dans l’eau. Tourne-toi vers le chemin par lequel tu es arrivé.",
+      "visual": "Flèche retour",
+      "sfx": "Eau",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Pose tes avant-bras sur la glace, bats des jambes et utilise des pics de glace si tu en as.",
+      "visual": "Démonstration latérale",
+      "sfx": "Frottement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Une fois sorti, reste allongé et roule loin du trou pour répartir ton poids.",
+      "visual": "Vue du dessus, roulade",
+      "sfx": "Glissement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "Rejoins un abri, retire les vêtements mouillés, couvre-toi et demande une aide médicale urgente.",
+      "visual": "Abri et couverture sèche",
+      "sfx": "Résolution",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si tu tombes dans un lac gelé ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.dnr.state.mn.us/safety/ice/survival.html\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "La glace cède sous tes pieds. L’eau glacée peut perturber immédiatement ta respiration.\n\nGarde la tête hors de l’eau, maîtrise ta respiration autant que possible et appelle à l’aide.\n\nNe retire pas tes vêtements dans l’eau. Tourne-toi vers le chemin par lequel tu es arrivé.\n\nPose tes avant-bras sur la glace, bats des jambes et utilise des pics de glace si tu en as.\n\nUne fois sorti, reste allongé et roule loin du trou pour répartir ton poids.\n\nRejoins un abri, retire les vêtements mouillés, couvre-toi et demande une aide médicale urgente.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nLa glace cède sous tes pieds. L’eau glacée peut perturber immédiatement ta respiration.\n\n00:09 – 00:18\nGarde la tête hors de l’eau, maîtrise ta respiration autant que possible et appelle à l’aide.\n\n00:18 – 00:27\nNe retire pas tes vêtements dans l’eau. Tourne-toi vers le chemin par lequel tu es arrivé.\n\n00:27 – 00:36\nPose tes avant-bras sur la glace, bats des jambes et utilise des pics de glace si tu en as.\n\n00:36 – 00:45\nUne fois sorti, reste allongé et roule loin du trou pour répartir ton poids.\n\n00:45 – 00:54\nRejoins un abri, retire les vêtements mouillés, couvre-toi et demande une aide médicale urgente.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Rupture glace, vue large. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Rupture glace, vue large. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Craquement",
+      "subtitle": "La glace cède sous tes pieds. L’eau glacée peut perturber immédiatement ta respiration."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Personnage agrippé bord. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Personnage agrippé bord. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Souffle",
+      "subtitle": "Garde la tête hors de l’eau, maîtrise ta respiration autant que possible et appelle à l’aide."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Flèche retour. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Flèche retour. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Eau",
+      "subtitle": "Ne retire pas tes vêtements dans l’eau. Tourne-toi vers le chemin par lequel tu es arrivé."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Démonstration latérale. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Démonstration latérale. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Frottement",
+      "subtitle": "Pose tes avant-bras sur la glace, bats des jambes et utilise des pics de glace si tu en as."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Vue du dessus, roulade. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Vue du dessus, roulade. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Glissement",
+      "subtitle": "Une fois sorti, reste allongé et roule loin du trou pour répartir ton poids."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Abri et couverture sèche. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Abri et couverture sèche. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Résolution",
+      "subtitle": "Rejoins un abri, retire les vêtements mouillés, couvre-toi et demande une aide médicale urgente."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si tu tombes dans un lac gelé ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si tu tombes dans un lac gelé ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si tu tombes dans un lac gelé ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
