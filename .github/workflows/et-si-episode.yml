@@ -37,6 +37,8 @@ jobs:
         run: |
           N=$(printf '%02d' "$EPISODE")
           echo "N=$N" >> "$GITHUB_ENV"
+          python -m pip show edge-tts | head -2
+          edge-tts --list-voices | grep -E "^fr-|Name: fr-" | head -20 || true
           python et-si/moteur/voix.py --ep "$EPISODE" --out "sortie/ep$N" --voice "$VOIX" --rate="$DEBIT"
       - name: Rendu vidéo
         run: python et-si/moteur/render.py --anim "et-si/episodes/ep$N/anim.html" --out "sortie/ep$N"

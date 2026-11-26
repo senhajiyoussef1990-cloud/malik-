@@ -48,6 +48,24 @@ async def tts(texte, voice, rate, out):
     return mots
 
 
+VOIX_SECOURS = ['fr-FR-RemyMultilingualNeural', 'fr-FR-HenriNeural']
+VOIX_UTILISEES = set()
+
+
+def dire(texte, a, f):
+    import time
+    for v in [a.voice] + [x for x in VOIX_SECOURS if x != a.voice]:
+        for essai in range(3):
+            try:
+                mots = asyncio.run(tts(texte, v, a.rate, f))
+                if f.stat().st_size > 1000:
+                    VOIX_UTILISEES.add(v); return mots
+            except Exception as e:
+                print(f'  {v} essai {essai + 1} : {type(e).__name__} {e}', flush=True)
+            time.sleep(3 * (essai + 1))
+    raise SystemExit('Aucune voix edge-tts disponible')
+
+
 def simule(texte, out):
     """Hors ligne : silence de la bonne longueur + mots répartis au prorata."""
     mots_txt = texte.split()
@@ -125,7 +143,7 @@ def main():
     for si, s in enumerate(ep['scenes']):
         texte = s['narration']
         f = out / 'voix' / f's{si+1:02d}.mp3'
-        mots = simule(texte, f) if a.simulate else asyncio.run(tts(texte, a.voice, a.rate, f))
+        mots = simule(texte, f) if a.simulate else dire(texte, a, f)
         dv = duree(f)
         mini = {0: 4.0, len(ep['scenes']) - 1: 5.5}.get(si, 3.2)
         d = round(round(max(mini, PAD_AV + dv + PAD_AP) * 30) / 30, 4)
@@ -149,9 +167,10 @@ def main():
     for c in caps:  # pas de sous-titre qui déborde sur la scène suivante
         sc = [x for x in scenes if x['start'] <= c['s'] + 1e-6][-1]
         c['e'] = min(c['e'], round(sc['start'] + sc['dur'] - 0.05, 3))
-    json.dump({'episode': a.ep, 'id': ep['id'], 'slug': ep['slug'], 'voice': a.voice, 'rate': a.rate,
+    json.dump({'episode': a.ep, 'id': ep['id'], 'slug': ep['slug'], 'voice': sorted(VOIX_UTILISEES) or [a.voice], 'rate': a.rate,
                'duration': round(t, 3), 'scenes': scenes, 'captions': caps, 'cues': cues},
               open(out / 'timing.json', 'w'), ensure_ascii=False, indent=1)
+    print('voix utilisée(s) :', sorted(VOIX_UTILISEES))
     print(f"{ep['id']} : {t:.1f} s, {len(caps)} sous-titres, repères {cues}")
 
 
