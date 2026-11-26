@@ -1,0 +1,146 @@
+{
+  "id": "EP05",
+  "title": "Et si ta maison prend feu pendant ton sommeil ?",
+  "sources": [
+    "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+    "https://www.usfa.fema.gov/downloads/pdf/publications/fire_safety_trailer_curriculum.pdf",
+    "https://www.usfa.fema.gov/prevention/fief/index.html"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "voiceover": "Le détecteur de fumée te réveille. Ne cherche pas tes affaires : prépare-toi à évacuer immédiatement.",
+      "visual": "Chambre nocturne, alarme",
+      "sfx": "Alarme",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "voiceover": "Si la porte est fermée, vérifie sa chaleur avec le dos de la main. Si elle est chaude, ne l’ouvre pas.",
+      "visual": "Main près porte, pictogramme",
+      "sfx": "Tension",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "voiceover": "Prends une autre sortie sûre. Si tu dois traverser de la fumée pour sortir, reste près du sol.",
+      "visual": "Couloir, déplacement bas",
+      "sfx": "Crépitement",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "voiceover": "Ferme les portes derrière toi si possible. Dans un immeuble, n’utilise pas l’ascenseur.",
+      "visual": "Porte fermée, escalier sûr",
+      "sfx": "Clic",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "voiceover": "Si aucune sortie n’est praticable, reste derrière une porte fermée, appelle le 112 et signale ta position.",
+      "visual": "Pièce refuge, appel",
+      "sfx": "Bip",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "voiceover": "Une fois dehors, reste dehors. Indique aux pompiers si quelqu’un manque à l’appel.",
+      "visual": "Famille au point de rassemblement",
+      "sfx": "Sirène lointaine",
+      "animation": "Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "voiceover": "Abonne-toi. Apprends les réflexes qui sauvent.",
+      "visual": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description",
+      "sfx": "Signature musicale"
+    }
+  ],
+  "youtube": {
+    "title": "Et si ta maison prend feu pendant ton sommeil ? #Shorts",
+    "description": "Simulation éducative. Les gestes dépendent de la situation. Suis les consignes des secours et forme-toi aux premiers secours. Sources : https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/\nhttps://www.usfa.fema.gov/downloads/pdf/publications/fire_safety_trailer_curriculum.pdf\nhttps://www.usfa.fema.gov/prevention/fief/index.html\n#EtSi #Survie #Sécurité #Shorts"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_target": 60,
+    "style": "3D semi-réaliste originale, simulation explicite, aucun gore, gestes anatomiquement exacts, pas de générique, micro-coupes toutes les 2 à 3 secondes",
+    "voice": "FR naturel, dynamique mais clair; jamais accélérer au détriment d'un geste",
+    "audio": "voix prioritaire, bruitages sous narration, cible -14 LUFS et -1 dBTP",
+    "watermark": "© Et si ?",
+    "review": "Contrôle humain par personne qualifiée obligatoire avant publication. Conseils contextualisés, numéro local des secours (112 UE), pas de promesse de survie. Ne pas montrer une erreur sans croix explicite. Ne pas présenter ces simulations comme des événements réels. Recaler les horodatages sur la voix réelle. Vérifier particulièrement les vitrages, le type de frein de stationnement et les consignes spécifiques de l'appareil."
+  },
+  "voiceover_full": "Le détecteur de fumée te réveille. Ne cherche pas tes affaires : prépare-toi à évacuer immédiatement.\n\nSi la porte est fermée, vérifie sa chaleur avec le dos de la main. Si elle est chaude, ne l’ouvre pas.\n\nPrends une autre sortie sûre. Si tu dois traverser de la fumée pour sortir, reste près du sol.\n\nFerme les portes derrière toi si possible. Dans un immeuble, n’utilise pas l’ascenseur.\n\nSi aucune sortie n’est praticable, reste derrière une porte fermée, appelle le 112 et signale ta position.\n\nUne fois dehors, reste dehors. Indique aux pompiers si quelqu’un manque à l’appel.\n\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "timeline_text": "00:00 – 00:09\nLe détecteur de fumée te réveille. Ne cherche pas tes affaires : prépare-toi à évacuer immédiatement.\n\n00:09 – 00:18\nSi la porte est fermée, vérifie sa chaleur avec le dos de la main. Si elle est chaude, ne l’ouvre pas.\n\n00:18 – 00:27\nPrends une autre sortie sûre. Si tu dois traverser de la fumée pour sortir, reste près du sol.\n\n00:27 – 00:36\nFerme les portes derrière toi si possible. Dans un immeuble, n’utilise pas l’ascenseur.\n\n00:36 – 00:45\nSi aucune sortie n’est praticable, reste derrière une porte fermée, appelle le 112 et signale ta position.\n\n00:45 – 00:54\nUne fois dehors, reste dehors. Indique aux pompiers si quelqu’un manque à l’appel.\n\n00:54 – 01:00\nAbonne-toi. Apprends les réflexes qui sauvent.",
+  "production": [
+    {
+      "scene": 1,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Chambre nocturne, alarme. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Chambre nocturne, alarme. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Alarme",
+      "subtitle": "Le détecteur de fumée te réveille. Ne cherche pas tes affaires : prépare-toi à évacuer immédiatement."
+    },
+    {
+      "scene": 2,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Main près porte, pictogramme. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Main près porte, pictogramme. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Tension",
+      "subtitle": "Si la porte est fermée, vérifie sa chaleur avec le dos de la main. Si elle est chaude, ne l’ouvre pas."
+    },
+    {
+      "scene": 3,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Couloir, déplacement bas. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Couloir, déplacement bas. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Crépitement",
+      "subtitle": "Prends une autre sortie sûre. Si tu dois traverser de la fumée pour sortir, reste près du sol."
+    },
+    {
+      "scene": 4,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Porte fermée, escalier sûr. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Porte fermée, escalier sûr. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Clic",
+      "subtitle": "Ferme les portes derrière toi si possible. Dans un immeuble, n’utilise pas l’ascenseur."
+    },
+    {
+      "scene": 5,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Pièce refuge, appel. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Pièce refuge, appel. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Bip",
+      "subtitle": "Si aucune sortie n’est praticable, reste derrière une porte fermée, appelle le 112 et signale ta position."
+    },
+    {
+      "scene": 6,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Famille au point de rassemblement. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Famille au point de rassemblement. Animer concrètement le geste, varier le cadrage sans masquer les mains ni les objets. Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Sirène lointaine",
+      "subtitle": "Une fois dehors, reste dehors. Indique aux pompiers si quelqu’un manque à l’appel."
+    },
+    {
+      "scene": 7,
+      "image_prompt": "Vertical 9:16, original semi-realistic cinematic 3D educational simulation, consistent adult protagonist and environment across shots, no gore, no embedded text. Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description. Show only the correct safety action or clearly label a wrong action in editing.",
+      "animation_prompt": "Récapitulatif des gestes clés et logo Et si ?, mention Simulation — sources en description.  Preserve previous shot character and environment continuity where applicable. Use two or three purposeful camera cuts, clearly show hands and safety equipment, no invented actions.",
+      "audio": "Signature musicale",
+      "subtitle": "Abonne-toi. Apprends les réflexes qui sauvent."
+    }
+  ],
+  "social": {
+    "tiktok": "Et si ta maison prend feu pendant ton sommeil ? #EtSi #Survie #Sécurité",
+    "instagram_facebook": "Et si ta maison prend feu pendant ton sommeil ?\nApprends les réflexes qui sauvent. Simulation éducative, sources dans la description YouTube.",
+    "cover": "Et si ta maison prend feu pendant ton sommeil ?"
+  },
+  "approval": {
+    "safety_review": false,
+    "voice_generated": false,
+    "visuals_generated": false,
+    "rendered": false,
+    "published": false
+  }
+}
