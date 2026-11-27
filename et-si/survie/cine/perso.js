@@ -75,7 +75,7 @@ function head2(c, x, y, u, ex, look, col, tilt){const eye = ex.eye ?? 0.6, brow 
   c.bezierCurveTo(0.0*s, -0.16*s, -0.12*s, -0.12*s, -0.16*s, 0.04*s);c.closePath();c.fill();
   if(st === 'C'){c.restore();return;}
   // yeux
-  const lk = look*0.03*s, eh = (0.035+0.04*eye)*s;const eyeAt = (ex0, w)=>{c.fillStyle = '#f4efe9';c.beginPath();c.ellipse(ex0, -0.02*s, w, eh, 0, 0, TAU);c.fill();
+  const lk = look*0.03*s, eh = (0.035+0.04*eye)*s;const eyeAt = (ex0, w)=>{if(eye < 0.15){c.strokeStyle = '#1b120c';c.lineWidth = 0.02*s;c.lineCap = 'round';c.beginPath();c.ellipse(ex0, -0.02*s, w, 0.02*s, 0, 0.1, Math.PI-0.1);c.stroke();return;}c.fillStyle = '#f4efe9';c.beginPath();c.ellipse(ex0, -0.02*s, w, eh, 0, 0, TAU);c.fill();
     c.fillStyle = st === 'B' ? '#1b120c' : col.eye;c.beginPath();c.arc(ex0+lk, -0.02*s, Math.min(w, eh)*0.85, 0, TAU);c.fill();
     if(st === 'A'){c.fillStyle = '#0b0705';c.beginPath();c.arc(ex0+lk, -0.02*s, Math.min(w, eh)*0.4, 0, TAU);c.fill();}
     c.fillStyle = 'rgba(255,255,255,0.9)';c.beginPath();c.arc(ex0+lk+0.012*s, -0.035*s, 0.012*s, 0, TAU);c.fill();

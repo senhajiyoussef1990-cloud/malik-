@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP020 — « Et si tu te trompais de dose de médicament ? » — Texte repris mot pour mot de kits-90s-lot-24.json (EP089), placé en épisode 20 ; fin de la série « … pour plus de conseils ». */
+['confusion','intoxication','symptômes'].forEach(w=>RED_W.add(w));
+['antipoisons','070','245','notice','pharmacien','médecin','prépare','lis'].forEach(w=>GREEN_W.add(w));
+function cuisine(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'cuisine',T,{plaques:false});b.fillStyle='#c9b48a';b.fillRect(300,1150,800,46);return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(735,700,1.0),LAMPE(500,900,0.5,900),LUNE(200,700)],'#4a4a52');
+function boites(b,x,y){for(const [dx,col] of [[0,'#3c8fd0'],[150,'#d33a3a'],[300,'#40b070']]){b.fillStyle='#f2f2f2';b.beginPath();b.roundRect(x+dx,y-120,110,120,10);b.fill();b.fillStyle=col;b.fillRect(x+dx,y-80,110,36);}
+  b.save();b.translate(x+200,y-10);b.scale(0.35,0.35);ICO.pilule(b);b.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=cuisine(t);boites(b,560,1150);const k=ease(seg(t,0.3,1.0));acteur(b,'heros',420,840,200,{look:0.8,ex:{eye:0.6+0.4*k,brow:0.9*k,mouth:0.4*k},near:{to:[420+0.75*200,840-0.35*200],hand:'open',ang:-2.4},far:{bend:-1}});AMB(b);
+  accroche(c,t,d,B,camAt(t,d,{x:700,y:980,z:1.25},{x:710,y:960,z:1.36}),['tu te trompais','de dose de médicament ?']);},
+(c,t,d)=>{const [B,b]=cuisine(t);boites(b,560,1150);acteur(b,'heros',420,840,200,{look:0.9,ex:{eye:0.8,brow:0.6,mouth:0.2},near:{to:[700,1080],hand:'grip'},far:{bend:-1}});AMB(b);show(c,B,{x:720,y:1020,z:1.25});grade(c,t);
+  tag(c,'UNE CONFUSION ENTRE DEUX DOSES',T1,clamp((t-C('confusion',0.4))/0.3),'rouge',38);tag(c,'SURTOUT AVEC PLUSIEURS TRAITEMENTS',T2,clamp((t-C('plusieurs',2.4))/0.3),'jaune',34);},
+(c,t,d)=>{planche(c,t,t,[['antipoison','oui',C('centre',1.6)-0.2,'Centre Antipoisons']],{kicker:'POSSIBLE INTOXICATION ?',y:820,s:1.8});c.save();c.font='900 84px M';c.fillStyle=PAL.etsi;c.textAlign='center';c.globalAlpha=clamp((t-C('numero',3.0))/0.3);c.fillText('070 245 245',W/2,1250);c.restore();tag(c,'CONTACTE-LE IMMÉDIATEMENT',420,clamp((t-C('contacte',0.8))/0.3),'vert',40);},
+(c,t,d)=>{planche(c,t,t,[['coeur','non',0.2,'« je n’ai rien »'],['notice','oui',C('notice',2.0)-0.2,'notice + nom']],{kicker:'NE TE FIE PAS À L’ABSENCE DE SYMPTÔMES',y:860});},
+(c,t,d)=>{planche(c,t,t,[['antipoison','oui',0.2,'les professionnels']],{kicker:'ILS TE DIRONT QUOI FAIRE',y:820,s:1.8});tag(c,'LA CONDUITE ADAPTÉE',1250,clamp((t-C('conduite',2.0))/0.3),'vert',44);},
+(c,t,d)=>planche(c,t,t,[['notice','oui',C('lis',1.4)-0.2,'lis la notice'],['pharmacien','oui',C('pharmacien',2.8)-0.2,'pharmacien ou médecin']],{kicker:'POUR ÉVITER UNE NOUVELLE ERREUR',y:860}),
+(c,t,d)=>fin(c,t,d,[['Erreur de dose : n’attends pas',PAL.rouge],['Centre Antipoisons : 070 245 245',PAL.vert],['Garde la notice et le nom du médicament',PAL.vert],['Demande conseil au pharmacien',PAL.vert]]),
+];
+
+</script></body></html>

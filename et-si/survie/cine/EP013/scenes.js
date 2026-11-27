@@ -1,0 +1,25 @@
+['rouges','clignotent','barrières','referment','train','coincée'].forEach(w=>RED_W.add(w));
+['libre','avance','sortir','éloignez-vous','alerte','sécurité','attends'].forEach(w=>GREEN_W.add(w));
+const LUM=b=>ambiance(b,[{x:760,y:900,r:1300,c:'rgba(200,210,240,0.55)'},LAMPE(700,1300,0.6,900)],'#4a5060');
+function pn(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');passageNiveau(b,T,o);if(o.car!=null)voiture(b,o.car,o.carY??1450,0.85,'#3c8fd0',{phares:true,warning:o.warn,T});
+  if(o.car2!=null)voiture(b,o.car2,1590,0.85,'#8a8e94',{});LUM(b);if(o.feux){b.save();b.globalCompositeOperation='lighter';const on=Math.sin(T*7)>0;b.fillStyle=rg(b,on?152:208,990,0,160,[[0,'rgba(255,60,40,0.6)'],[1,'rgba(255,60,40,0)']]);b.fillRect(0,820,420,340);b.restore();}return B;}
+ICO.panneauSNCF=c=>{c.fillStyle='#f4f6f8';c.beginPath();c.roundRect(-80,-90,160,180,14);c.fill();c.fillStyle='#1a4aa0';c.fillRect(-80,-90,160,50);c.font='900 26px M';c.fillStyle='#fff';c.textAlign='center';c.textBaseline='middle';c.fillText('APPEL',0,-64);c.font='900 30px M';c.fillStyle='#1a1e26';c.fillText('0 800',0,0);c.fillText('XXX XXX',0,40);};
+const SCENES=[
+(c,t,d)=>{const B=pn(t,{feux:true,barriere:1,car:760,warn:true});accroche(c,t,d,B,camAt(t,d,{x:760,y:1250,z:1.2},{x:760,y:1250,z:1.3}),['ta voiture restait','coincée sur des rails ?']);},
+(c,t,d)=>{const k=ease(seg(t,0.2,d));const B=pn(t,{car:lerp(-200,320,k),carY:1600,car2:lerp(700,820,k)});show(c,B,{x:700,y:1300,z:1.0});grade(c,t);tag(c,'UN BOUCHON SE FORME',T1,clamp((t-C('bouchon',0.6))/0.3),'sombre');tag(c,'JUSTE AVANT LES RAILS',T2,clamp((t-C('rails',2.0))/0.3),'rouge',40);},
+(c,t,d)=>{const B=pn(t,{car:-150,carY:1600,car2:1250});show(c,B,{x:700,y:1300,z:1.0});grade(c,t);c.save();camXf(c,{x:700,y:1300,z:1.0});dashArrow(c,[[200,1420],[1000,1420]],seg(t,0.4,1.4),PAL.vert,10);c.restore();
+  tag(c,'AVANT DE TRAVERSER',T1,clamp((t-0.1)/0.3),'sombre');tag(c,'VÉRIFIE QUE LA SORTIE EST LIBRE',T2,clamp((t-C('libre',1.6))/0.3),'vert',38);},
+(c,t,d)=>{const B=pn(t,{feux:t>C('clignotent',1.4)-0.3,car:-150,carY:1600,barriere:0});show(c,B,{x:560,y:1200,z:1.25});grade(c,t);tag(c,'FEUX ROUGES CLIGNOTANTS',T1,clamp((t-C('clignotent',1.4))/0.3),'rouge',40);tag(c,'RESTE AVANT LE PASSAGE',T2,clamp((t-C('reste',2.4))/0.3),'vert',42);},
+(c,t,d)=>{const k=ease(seg(t,C('referment',1.6)-0.4,C('referment',1.6)+0.6));const B=pn(t,{feux:true,barriere:k,car:760,warn:true});const s=shake(t,3*k);show(c,B,{x:760+s.x,y:1300+s.y,z:1.1});grade(c,t);
+  tag(c,'LES BARRIÈRES SE REFERMENT',T1,clamp((t-C('referment',1.6))/0.3),'rouge',40);tag(c,'DÉGAGE LES RAILS IMMÉDIATEMENT',T2,clamp((t-C('degager',3.2))/0.3),'vert',38);},
+(c,t,d)=>{const k=ease(seg(t,0.4,d-0.2));const B=pn(t,{feux:true,barriere:1,car:lerp(760,1380,k),warn:true});show(c,B,{x:900,y:1300,z:1.0});grade(c,t);c.save();camXf(c,{x:900,y:1300,z:1.0});dashArrow(c,[[900,1700],[1400,1700]],seg(t,0.2,0.9),PAL.vert,10);c.restore();
+  tag(c,'TA VOITURE ROULE ENCORE ?',T1,clamp((t-0.1)/0.3),'sombre');tag(c,'FRANCHIS LA BARRIÈRE',T2,clamp((t-C('franchis',1.6))/0.3),'vert',42);},
+(c,t,d)=>{const k=ease(seg(t,C('sortir',1.8)-0.2,d));const B=pn(t,{feux:true,barriere:1,car:760,warn:true}),b=B.getContext('2d');
+  for(const [who,dx,s0] of [['heros',0,0],['femme',90,0.1],['enfant',170,0.2]]){const kk=ease(clamp((k-s0)/0.8));acteur(b,who,lerp(760+dx-200,1300+dx,kk),who==='enfant'?1420:1290,who==='enfant'?90:120,{lean:0.1,look:1,ex:{eye:0.9,brow:0.7,mouth:0.3}});}
+  show(c,B,{x:900,y:1300,z:1.0});grade(c,t);tag(c,'LA VOITURE NE BOUGE PLUS ?',T1,clamp((t-0.1)/0.3),'rouge',38);tag(c,'TOUT LE MONDE SORT ET S’ÉLOIGNE',T2,clamp((t-C('sortir',1.8))/0.3),'vert',36);},
+(c,t,d)=>{planche(c,t,t,[['panneauSNCF','oui',C('alerte',1.4)-0.2,'numéro affiché']],{kicker:'UNE FOIS EN SÉCURITÉ',y:820,s:1.8});tag(c,'ALERTE LE SERVICE FERROVIAIRE',1250,clamp((t-C('alerte',1.4))/0.3),'vert',38);},
+(c,t,d)=>{const B=pn(t,{feux:true,barriere:1,train:seg(t,0.2,d+1.5)});const s=shake(t,5);show(c,B,{x:760+s.x,y:1250+s.y,z:1.1});grade(c,t);tag(c,'UN TRAIN NE PEUT PAS S’ARRÊTER VITE',T1,clamp((t-0.2)/0.3),'rouge',36);tag(c,'IL LUI FAUT UNE DISTANCE ÉNORME',T2,clamp((t-C('distance',1.6))/0.3),'rouge',36);},
+(c,t,d)=>{const op=ease(seg(t,C('extinction',3.4),C('extinction',3.4)+1.0));const B=pn(t,{feux:op<0.5,barriere:1-op,car:-150,carY:1600});show(c,B,{x:560,y:1200,z:1.2});grade(c,t);
+  tag(c,'MÊME APRÈS LE PASSAGE DU TRAIN',T1,clamp((t-0.1)/0.3),'sombre',38);tag(c,'ATTENDS : BARRIÈRES OUVERTES, FEUX ÉTEINTS',T2,clamp((t-C('attends',1.6))/0.3),'vert',32);},
+(c,t,d)=>fin(c,t,d,[['Sortie libre avant de traverser',PAL.vert],['Feux rouges : reste avant',PAL.rouge],['Coincé : avance ou sors et éloigne-toi',PAL.vert],['En sécurité : alerte le numéro affiché',PAL.vert]]),
+];

@@ -1,0 +1,20 @@
+['torrent','débris','submergée','danger','mort'].forEach(w=>RED_W.add(w));
+['limite','éloigné','évacuation','suis','indications','1722.be','112'].forEach(w=>GREEN_W.add(w));
+const AMB=b=>ambiance(b,[{x:1220,y:760,r:900,c:'rgba(255,220,160,0.6)'},LUNE(400,400),LAMPE(600,900,0.5,1000)],'#6a7080');
+function rue(T,k,o={}){const B=buf('w',WB,H),b=B.getContext('2d');rueInondee(b,T,k);if(o.pluie!==false){b.strokeStyle='rgba(180,200,230,0.55)';b.lineWidth=3;for(let i=0;i<180;i++){const r=mulberry(i+9);const x=(r()*WB+T*200)%WB,y=(r()*H+T*1400*(0.8+r()*0.4))%H;b.beginPath();b.moveTo(x,y);b.lineTo(x-14,y+40);b.stroke();}}
+  if(o.car){const y=1600-380*k;voiture(b,o.car,y+10,0.8,'#d0d4d8',{phares:true});b.save();b.globalAlpha=0.55;b.fillStyle='rgba(120,100,70,1)';b.fillRect(0,y+30,WB,H);b.restore();}
+  if(o.fenetre){b.fillStyle='#e6c78a';b.fillRect(470,720,180,180);b.save();b.beginPath();b.rect(470,720,180,180);b.clip();acteur(b,'heros',555,800,70,{look:0.5,ex:{eye:0.7,brow:0.4,mouth:0.1}});b.restore();}
+  AMB(b);return B;}
+ICO.fenetreAbri=c=>{ICO.maison(c);c.fillStyle='#e6c78a';c.fillRect(-46,-20,30,30);c.fillRect(16,-20,30,30);};
+ICO.site=c=>{c.fillStyle='#1a1e26';c.beginPath();c.roundRect(-96,-70,192,140,14);c.fill();c.fillStyle='#2a6fd0';c.fillRect(-84,-58,168,30);c.font='900 34px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText('1722.be',0,18);};
+const SCENES=[
+(c,t,d)=>{const B=rue(t,ease(seg(t,0,d)));const s=shake(t,2);accroche(c,t,d,B,camAt(t,d,{x:620+s.x,y:1100,z:1.0},{x:620,y:1100,z:1.08}),['une crue éclair','traversait ton quartier ?']);},
+(c,t,d)=>{const B=rue(t,0.5+0.5*ease(seg(t,0,d)));show(c,B,{x:620,y:1200,z:1.0});grade(c,t);tag(c,'LA RUE DEVIENT UN TORRENT',T1,clamp((t-C('torrent',1.8))/0.3),'rouge',40);tag(c,'L’EAU TRANSPORTE DES DÉBRIS',T2,clamp((t-C('debris',3.6))/0.3),'rouge',38);},
+(c,t,d)=>{const B=rue(t,1,{fenetre:true});show(c,B,camAt(t,d,{x:620,y:1100,z:1.1},{x:580,y:900,z:1.6}));grade(c,t);tag(c,'LIMITE TES DÉPLACEMENTS',T1,clamp((t-C('limite',0.2))/0.3),'vert',42);tag(c,'RESTE LOIN DES ZONES DANGEREUSES',T2,clamp((t-C('eloigne',1.6))/0.3),'vert',36);},
+(c,t,d)=>{const k=ease(seg(t,0.2,d));const B=rue(t,0.8,{car:lerp(-200,500,k)});show(c,B,{x:620,y:1250,z:1.0});grade(c,t);c.save();camXf(c,{x:620,y:1250,z:1.0});xMark(c,620,1200,140,seg(t,C('traverser',1.2),C('traverser',1.2)+0.4));c.restore();
+  tag(c,'NE TRAVERSE PAS UNE ROUTE INONDÉE',T1,clamp((t-C('traverser',1.2))/0.3),'rouge',36);tag(c,'EN VOITURE',T2,clamp((t-C('voiture',2.4))/0.3),'rouge',46);},
+(c,t,d)=>{planche(c,t,t,[['porteVoix','',0.2,'les secours'],['point','oui',C('suis',1.6)-0.2,'suis leurs indications']],{kicker:'ÉVACUATION DEMANDÉE ?',y:860});},
+(c,t,d)=>{planche(c,t,t,[['site','oui',C('site',2.6)-0.2,'demande non urgente']],{kicker:'EN BELGIQUE',y:820,s:1.8});tag(c,'POMPIERS : 1722.BE',1250,clamp((t-C('site',2.6))/0.3),'vert',44);},
+(c,t,d)=>{planche(c,t,t,[['secours','oui',C('numero',1.6)-0.2,'danger de mort']],{kicker:'QUELQU’UN EST EN DANGER ?',y:820,s:1.8});tag(c,'APPELLE LE 112',1250,clamp((t-C('numero',1.6))/0.3),'vert',50);},
+(c,t,d)=>fin(c,t,d,[['Limite tes déplacements',PAL.vert],['Jamais en voiture dans l’eau',PAL.rouge],['Évacuation : suis les secours',PAL.vert],['Non urgent 1722.be · danger de mort 112',PAL.vert]]),
+];

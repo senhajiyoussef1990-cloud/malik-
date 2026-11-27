@@ -1,0 +1,49 @@
+{
+ "id": "EP011",
+ "title": "Et si tu faisais une crise cardiaque ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/infarctus-myocarde/reconnaitre-infarctus-agir"
+ ],
+ "verification": "Texte officiel consulté le 27 novembre 2026; relecture clinique indépendante non obtenue",
+ "publication": {
+  "titre": "Et si tu faisais une crise cardiaque ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/infarctus-myocarde/reconnaitre-infarctus-agir",
+  "social": "Et si tu faisais une crise cardiaque ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-06.json (EP023), placé en épisode 11 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu faisais une crise cardiaque ?"
+  },
+  {
+   "voix": "Une douleur inhabituelle serre ta poitrine alors que tu es au repos. Cette situation peut être une urgence."
+  },
+  {
+   "voix": "La douleur peut se propager aux bras, au dos ou à la mâchoire."
+  },
+  {
+   "voix": "Des sueurs, des nausées ou un essoufflement peuvent également apparaître."
+  },
+  {
+   "voix": "Mais une crise cardiaque ne provoque pas toujours de douleur caractéristique."
+  },
+  {
+   "voix": "Chez certaines personnes, elle se manifeste surtout par un malaise ou une fatigue inexpliquée."
+  },
+  {
+   "voix": "Si tu suspectes un infarctus, compose immédiatement le 112, même si tu hésites."
+  },
+  {
+   "voix": "Décris clairement ce que tu ressens et réponds aux questions de l’opérateur."
+  },
+  {
+   "voix": "Les secours peuvent organiser une prise en charge médicale rapide."
+  },
+  {
+   "voix": "Ne banalise pas ces symptômes : plus tôt les soins commencent, plus les chances de limiter les lésions augmentent."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+['paupières','lourdes','bâillements','picotent','vigilance','somnolent','coûte'].forEach(w=>RED_W.add(w));
+['arrête-toi','repos','vingt','minutes','pauses','pause','anticipe','vérifie'].forEach(w=>GREEN_W.add(w));
+// conducteur vu de profil dans l'habitacle, route de nuit derrière
+function habitacle(T,k=0,o={}){const B=buf('w',WB,H),b=B.getContext('2d');route(b,T,{vitesse:o.arret?0:900,pluie:false});
+  b.fillStyle='rgba(8,10,16,0.92)';b.fillRect(0,0,WB,320);b.fillRect(0,1480,WB,H-1480);b.fillRect(0,0,180,H);b.fillRect(WB-160,0,160,H);
+  b.fillStyle='rgba(120,160,210,0.12)';b.fillRect(180,320,WB-340,1160);
+  const x=620,y=900,u=220,nod=k*0.5*Math.max(0,Math.sin(T*1.6));
+  acteur(b,'heros',x,y,u,{lean:0.05+0.08*nod,tilt:0.18*nod,look:0.8,ex:{eye:o.dort?0.05:lerp(0.7,0.25,k)-0.2*nod,brow:0,mouth:o.baille?0.8*Math.max(0,Math.sin(T*2)):0},near:o.near||{to:[x+1.35*u,y+1.0*u],hand:'grip',ang:-0.6},far:{to:[x+1.0*u,y+1.15*u],hand:'grip',bend:1}},{light:LT(u,0.6,'rgba(150,180,230,1)')});
+  b.strokeStyle='#1a1a1a';b.lineWidth=26;b.beginPath();b.ellipse(x+1.35*u,y+1.2*u,40,150,0.2,0,TAU);b.stroke();
+  ambiance(b,[{x:900,y:900,r:1100,c:'rgba(150,170,220,0.55)'},LAMPE(700,1100,0.35,700)],'#3a4050');return B;}
+function aire(T){const B=buf('w',WB,H),b=B.getContext('2d');route(b,T,{vitesse:0});b.fillStyle='#2a6fd0';b.beginPath();b.roundRect(1100,700,170,170,20);b.fill();b.font='900 130px M';b.fillStyle='#fff';b.textAlign='center';b.textBaseline='middle';b.fillText('P',1185,792);b.fillStyle='#888';b.fillRect(1178,870,14,260);
+  voiture(b,620,1360,0.95,'#3c8fd0',{});ambiance(b,[{x:1185,y:700,r:900,c:'rgba(255,230,180,0.8)'},LUNE(400,400)],'#3a4050');return B;}
+const SCENES=[
+(c,t,d)=>{const B=habitacle(t,ease(seg(t,0.2,1.6)));accroche(c,t,d,B,camAt(t,d,{x:760,y:1000,z:1.2},{x:760,y:980,z:1.3}),['tu commençais à','t’endormir au volant ?']);},
+(c,t,d)=>{const B=habitacle(t,0.5+0.3*seg(t,0,d));show(c,B,{x:760,y:1000,z:1.2});grade(c,t);tag(c,'TES PAUPIÈRES DEVIENNENT LOURDES',T1,clamp((t-C('paupieres',1.4))/0.3),'rouge',36);},
+(c,t,d)=>{const B=habitacle(t,0.6,{baille:true});show(c,B,{x:760,y:960,z:1.4});grade(c,t);tag(c,'BÂILLEMENTS',T1,clamp((t-C('baillements',0.4))/0.3),'rouge',44);tag(c,'YEUX QUI PICOTENT',T2,clamp((t-C('picotent',1.6))/0.3),'rouge',42);tag(c,'TA VIGILANCE BAISSE',1250,clamp((t-C('vigilance',3.2))/0.3),'rouge',42);},
+(c,t,d)=>{planche(c,t,t,[['voiture','non',0.3,'finir le trajet à tout prix']],{kicker:'NE FORCE PAS',y:820,s:1.8});},
+(c,t,d)=>{const B=aire(t);show(c,B,{x:800,y:1100,z:1.0});grade(c,t);tag(c,'ARRÊTE-TOI DÈS LES PREMIERS SIGNES',T1,clamp((t-C('arrete',0.2))/0.3),'vert',36);tag(c,'DANS UN ENDROIT AUTORISÉ ET SÛR',T2,clamp((t-C('autorise',1.2))/0.3),'vert',36);},
+(c,t,d)=>{const B=habitacle(t,0,{dort:true,arret:true,near:{to:[620+1.0*220,900+2.0*220],hand:'rest'}});show(c,B,{x:760,y:1000,z:1.2});grade(c,t);
+  const k=seg(t,0.3,d);c.save();c.translate(W/2+280,1220);c.fillStyle='rgba(8,11,16,0.85)';c.beginPath();c.arc(0,0,120,0,TAU);c.fill();c.strokeStyle=PAL.vert;c.lineWidth=14;c.beginPath();c.arc(0,0,100,-Math.PI/2,-Math.PI/2+TAU*k);c.stroke();
+  c.font='900 54px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText('20',0,-8);c.font='800 26px M';c.fillText('MIN',0,34);c.restore();tag(c,'AU MOINS 20 MINUTES DE REPOS',T1,clamp((t-C('vingt',1.0))/0.3),'vert',40);},
+(c,t,d)=>{planche(c,t,t,[['voiture','non',C('reprends',1.2)-0.2,'reprendre le volant']],{kicker:'TOUJOURS SOMNOLENT ?',y:820,s:1.8});},
+(c,t,d)=>planche(c,t,t,[['cafe','oui',0.2,'pauses'],['horloge','oui',C('longs',1.4)-0.2,'longs trajets']],{kicker:'PRÉVOIS TES PAUSES',y:860}),
+(c,t,d)=>{planche(c,t,t,[['pause','oui',0.2,'toutes les 2 heures']],{kicker:'AU MINIMUM',y:820,s:1.8});c.save();c.font='900 100px M';c.fillStyle=PAL.etsi;c.textAlign='center';c.globalAlpha=clamp((t-C('deux',1.4))/0.3);c.fillText('2 h',W/2,1310);c.restore();},
+(c,t,d)=>planche(c,t,t,[['horloge','',0.2,'trajets de nuit'],['pilule','',C('medicaments',2.4)-0.2,'médicaments']],{kicker:'ANTICIPE AUSSI',y:860}),
+(c,t,d)=>fin(c,t,d,[['Bâillements, yeux lourds : danger',PAL.rouge],['Arrête-toi dans un endroit sûr',PAL.vert],['Au moins 20 minutes de repos',PAL.vert],['Une pause toutes les 2 heures',PAL.vert]]),
+];

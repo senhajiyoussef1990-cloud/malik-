@@ -1,0 +1,52 @@
+{
+ "id": "EP014",
+ "title": "Et si tu faisais une réaction allergique grave ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/allergie/traitement-allergie",
+  "https://www.ameli.fr/assure/sante/urgence/pathologies/oedeme-quincke"
+ ],
+ "verification": {
+  "status": "Contrôle documentaire partiel effectué sur extraits officiels le 27 novembre 2026; gestes complémentaires et relecture clinique à valider avant publication"
+ },
+ "publication": {
+  "titre": "Et si tu faisais une réaction allergique grave ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/allergie/traitement-allergie",
+  "social": "Et si tu faisais une réaction allergique grave ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-07.json (EP026), placé en épisode 14 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu faisais une réaction allergique grave ?"
+  },
+  {
+   "voix": "Après un repas ou une piqûre, une réaction allergique peut devenir une urgence."
+  },
+  {
+   "voix": "Un gonflement de la langue ou une difficulté respiratoire soudaine doit alerter."
+  },
+  {
+   "voix": "Appelle immédiatement le 112, ou demande à quelqu’un de le faire."
+  },
+  {
+   "voix": "Si un auto-injecteur d’adrénaline t’a été prescrit, utilise-le sans attendre selon ses instructions."
+  },
+  {
+   "voix": "Les dispositifs ne fonctionnent pas tous de la même façon : suis la notice et ta formation."
+  },
+  {
+   "voix": "Même si tu te sens mieux après l’injection, une surveillance médicale est indispensable."
+  },
+  {
+   "voix": "Ne reste pas seul. Suis les instructions de l’opérateur des secours."
+  },
+  {
+   "voix": "Prépare avec ton médecin une trousse d’urgence adaptée à ton allergie."
+  },
+  {
+   "voix": "Apprends à utiliser ton dispositif et montre à tes proches comment t’aider."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

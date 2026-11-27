@@ -20,7 +20,8 @@ AFFICHAGE = {
 }
 SLUG = {'000': 'prototype-poele-feu', '001': 'casserole-huile-feu', '002': 'adulte-etouffement', '003': 'enfant-objet-nez',
         '004': 'monoxyde-carbone', '005': 'feu-pendant-sommeil', '006': 'brulure-eau-bouillante', '007': 'odeur-de-gaz',
-        '008': 'pile-bouton-avalee', '009': 'coupure-profonde', '010': 'saignement-de-nez'}
+        '008': 'pile-bouton-avalee', '009': 'coupure-profonde', '010': 'saignement-de-nez',
+        '011': 'crise-cardiaque', '012': 'avc', '013': 'voiture-sur-rails', '014': 'allergie-grave', '015': 'enfant-piscine', '016': 'endormi-au-volant', '017': 'vetements-en-feu', '018': 'crue-eclair', '019': 'perte-de-connaissance', '020': 'erreur-de-dose'}
 MOTS_CLES = {'feu', 'casserole', 'jamais', 'eau', 'chaleur', 'danger', 'secours', 'dehors', 'porte', 'sors', 'partage', 'proches', 'quitte', 'avertis', 'flammes', 'boule', 'terre', 'tourner', 'équateur', 'est', 'atmosphère', 'vents', 'océans', 'inondations', 'pôles',
              'gravité', 'orbite', 'soleil', 'année', 'rotation', 'scénario', 'seconde', 'prochain', 'épisode',
              'abonne-toi', 'suite', 'lune', 'jupiter', 'dinosaures', 'fourmis', 'casque', 'espace', 'trou', 'noir'}

@@ -1,0 +1,52 @@
+{
+ "id": "EP016",
+ "title": "Et si tu commençais à t’endormir au volant ?",
+ "sources": [
+  "https://modules.securite-routiere.gouv.fr/7engagements/Fatigue/index.html"
+ ],
+ "verification": {
+  "status": "Source officielle consultée; contrôle final des gestes et des règles locales requis",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si tu commençais à t’endormir au volant ? #Shorts",
+  "description": "Simulation éducative. Source : https://modules.securite-routiere.gouv.fr/7engagements/Fatigue/index.html",
+  "social": "Et si tu commençais à t’endormir au volant ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-13.json (EP042), placé en épisode 16 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu commençais à t’endormir au volant ?"
+  },
+  {
+   "voix": "La route défile et tes paupières deviennent lourdes."
+  },
+  {
+   "voix": "Les bâillements et les yeux qui picotent annoncent parfois une perte de vigilance."
+  },
+  {
+   "voix": "Ne cherche pas à terminer ton trajet coûte que coûte."
+  },
+  {
+   "voix": "Arrête-toi dans un endroit autorisé et sûr dès les premiers signes."
+  },
+  {
+   "voix": "Accorde-toi au moins vingt minutes de repos."
+  },
+  {
+   "voix": "Si tu restes somnolent, ne reprends pas le volant."
+  },
+  {
+   "voix": "Prévois tes pauses avant les longs déplacements."
+  },
+  {
+   "voix": "Fais une pause au minimum toutes les deux heures."
+  },
+  {
+   "voix": "Anticipe aussi les trajets nocturnes et vérifie la compatibilité de tes médicaments avec la conduite."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

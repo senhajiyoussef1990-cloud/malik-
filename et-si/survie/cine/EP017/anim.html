@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP017 — « Et si tes vêtements prenaient feu ? » — Texte repris mot pour mot de kits-90s-lot-25.json (EP094), placé en épisode 17 ; fin de la série « … pour plus de conseils ». */
+['brûlent','courir','collés','feu'].forEach(w=>RED_W.add(w));
+['étouffe','couverture','anti-feu','naturel','112','appelle'].forEach(w=>GREEN_W.add(w));
+function jardin(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'dehors',T,{});b.fillStyle='#1e3a1e';b.fillRect(0,1500,WB,H-1500);
+  // barbecue
+  b.fillStyle='#222';b.beginPath();b.ellipse(1150,1340,150,40,0,0,TAU);b.fill();b.fillRect(1000,1330,300,70);b.fillRect(1060,1400,16,180);b.fillRect(1230,1400,16,180);flames(b,1150,1320,200,160,T,0.5,6);return [B,b];}
+const AMB=b=>ambiance(b,[{x:1150,y:1200,r:1100,c:'rgba(255,150,70,0.75)'},LUNE(400,400),LAMPE(600,900,0.6,900)],'#3a3e4a');
+function enFeu(b,T,x,y,u,k,o={}){const R=acteur(b,'ami',x,y,u,{lean:o.lean||0,look:1,ex:{eye:1,brow:1,mouth:0.6},near:o.near||{to:[x+1.2*u,y+0.2*u],hand:'open',ang:-1.2},far:o.far||{to:[x-0.6*u,y+0.4*u],hand:'open',bend:1},legs:true},{light:LT(u,1.2,'rgba(255,140,60,1)')});
+  if(k>0)flames(b,x+0.1*u,y+2.6*u,1.0*u,1.6*u*k,T,k,8);return R;}
+function couverture(b,x,y,w,h,a=1,ang=0){b.save();b.globalAlpha=a;b.translate(x,y);b.rotate(ang);b.fillStyle=lg(b,-w/2,0,w/2,0,[[0,'#a82a2a'],[0.5,'#d84a3a'],[1,'#a82a2a']]);b.beginPath();b.roundRect(-w/2,-h/2,w,h,30);b.fill();
+  b.strokeStyle='rgba(0,0,0,0.2)';b.lineWidth=6;for(let i=1;i<4;i++){b.beginPath();b.moveTo(-w/2+i*w/4,-h/2);b.quadraticCurveTo(-w/2+i*w/4+20,0,-w/2+i*w/4,h/2);b.stroke();}b.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=jardin(t);enFeu(b,t,560,820,200,ease(seg(t,0.2,0.8)));AMB(b);const s=shake(t,3);accroche(c,t,d,B,camAt(t,d,{x:700+s.x,y:1050+s.y,z:1.1},{x:700,y:1030,z:1.2}),['tes vêtements','prenaient feu ?']);},
+(c,t,d)=>{const [B,b]=jardin(t);enFeu(b,t,520,820,200,1);acteur(b,'heros',940,840,200,{lean:-0.1,look:1,ex:{eye:1,brow:0.8,mouth:0.5},near:{to:[940+1.4*200,840+0.4*200],hand:'open',ang:-0.2},legs:true},{mirror:true,light:LT(200,1,'rgba(255,150,70,1)')});AMB(b);
+  show(c,B,{x:740,y:1060,z:1.05});grade(c,t);c.save();camXf(c,{x:740,y:1060,z:1.05});dashArrow(c,[[440,1250],[120,1250]],seg(t,0.3,0.9),PAL.rouge,10);xMark(c,200,1250,70,seg(t,0.9,1.2));c.restore();
+  bubble(c,W/2+120,560,'NE COURS PAS !',clamp((t-C('courir',1.6))/0.3));tag(c,'EMPÊCHE-LA DE COURIR',T1,clamp((t-C('courir',1.6))/0.3),'rouge',42);},
+(c,t,d)=>{const [B,b]=jardin(t);const k=ease(seg(t,C('etouffe',0.4),C('etouffe',0.4)+1.4));enFeu(b,t,520,820,200,1-k);
+  acteur(b,'heros',lerp(940,780,k),840,200,{lean:-0.15,look:1,ex:{eye:0.9,brow:0.6,mouth:0.2},near:{to:[lerp(1180,700,k),lerp(1000,1200,k)],hand:'grip'},far:{to:[lerp(1150,640,k),lerp(900,1100,k)],hand:'grip',bend:1},legs:true},{mirror:true,light:LT(200,1,'rgba(255,150,70,1)')});
+  couverture(b,lerp(1180,560,k),lerp(960,1300,k),lerp(260,420,k),lerp(360,720,k),1,lerp(0.3,0,k));AMB(b);show(c,B,{x:740,y:1060,z:1.05});grade(c,t);
+  tag(c,'ÉTOUFFE LES FLAMMES',T1,clamp((t-C('etouffe',0.4))/0.3),'vert',44);tag(c,'COUVERTURE ANTI-FEU OU TISSU NATUREL',T2,clamp((t-C('couverture',1.8))/0.3),'vert',32);},
+(c,t,d)=>{const [B,b]=jardin(t);couverture(b,560,1300,420,720,1,0);acteur(b,'heros',860,840,200,{look:1,ex:{eye:0.8,brow:0.5,mouth:0.4},near:{to:[860+1.45*200,840+0.6*200],hand:'grip',ang:-1.3},legs:true},{mirror:true,after:f=>phone(f,860+1.45*200+Math.cos(-1.3)*0.34*200,840+0.6*200+Math.sin(-1.3)*0.34*200,-0.12,t,1.1)});AMB(b);
+  show(c,B,{x:740,y:1060,z:1.05});grade(c,t);tag(c,'APPELLE LE 112',T1,clamp((t-0.1)/0.3),'vert',50);},
+(c,t,d)=>{planche(c,t,t,[['couverture','oui',0.2,'flammes étouffées'],['main','non',C('detache',0.6)-0.2,'ne pas détacher']],{kicker:'ENSUITE',y:860});tag(c,'VÊTEMENTS COLLÉS À LA PEAU : NE LES DÉTACHE PAS',1250,clamp((t-C('colles',2.0))/0.3),'rouge',30);},
+(c,t,d)=>fin(c,t,d,[['Empêche la personne de courir',PAL.rouge],['Étouffe avec une couverture anti-feu',PAL.vert],['Appelle le 112',PAL.vert],['Ne détache pas ce qui colle à la peau',PAL.rouge]]),
+];
+ICO.main=c=>{c.fillStyle=rgb(PERSOS.heros.skin);c.beginPath();c.ellipse(0,20,50,60,0,0,TAU);c.fill();for(let i=0;i<4;i++){c.beginPath();c.roundRect(-46+i*24,-80,20,80,10);c.fill();}c.beginPath();c.ellipse(-60,20,16,40,-0.5,0,TAU);c.fill();};
+
+</script></body></html>

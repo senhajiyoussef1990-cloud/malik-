@@ -1,0 +1,1 @@
+[{"s": 2, "a": "langue", "type": "hit", "g": 0.3}, {"s": 2, "a": "langue", "type": "coeur_bed", "s2": 4, "a2": "attendre", "g": 0.08}, {"s": 3, "a": "appelle", "type": "bip", "g": 0.12}, {"s": 4, "a": "attendre", "type": "tic", "g": 0.08, "n": 2, "gap": 0.2}]

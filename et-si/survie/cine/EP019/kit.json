@@ -1,0 +1,51 @@
+{
+ "id": "EP019",
+ "title": "Et si quelqu’un perdait connaissance mais respirait ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/pathologies/perte-connaissance"
+ ],
+ "verification": {
+  "status": "Contrôle documentaire partiel effectué sur extraits officiels le 27 novembre 2026; gestes complémentaires et relecture clinique à valider avant publication"
+ },
+ "publication": {
+  "titre": "Et si quelqu’un perdait connaissance mais respirait ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/perte-connaissance",
+  "social": "Et si quelqu’un perdait connaissance mais respirait ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-07.json (EP027), placé en épisode 19 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si quelqu’un perdait connaissance mais respirait ?"
+  },
+  {
+   "voix": "Une personne s’effondre devant toi. Vérifie que tu peux l’approcher sans danger."
+  },
+  {
+   "voix": "Parle-lui et vérifie si elle réagit. Appelle les secours si elle reste inconsciente."
+  },
+  {
+   "voix": "Vérifie si elle respire normalement. Des halètements irréguliers ne sont pas une respiration normale."
+  },
+  {
+   "voix": "Compose le 112 et active le haut-parleur pour recevoir les instructions."
+  },
+  {
+   "voix": "Si elle respire normalement, l’opérateur peut te guider pour la mettre sur le côté."
+  },
+  {
+   "voix": "En cas de traumatisme violent, signale-le avant de déplacer la personne."
+  },
+  {
+   "voix": "Surveille continuellement sa respiration en attendant l’arrivée des secours."
+  },
+  {
+   "voix": "Si sa respiration devient anormale ou cesse, avertis immédiatement l’opérateur et suis ses instructions de réanimation."
+  },
+  {
+   "voix": "Si elle reprend connaissance, rassure-la et indique aux secours la durée du malaise."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+['avc','faiblesse','asymétrique','mots','nourriture','boisson','médicament'].forEach(w=>RED_W.add(w));
+['112','appelle','retiens','heure','rassure','reste','adresse','installer'].forEach(w=>GREEN_W.add(w));
+function salon(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false});return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#55555e');
+const visage=(c,f)=>{c.fillStyle=rgb(PERSOS.femme.skin);c.beginPath();c.arc(0,0,72,0,TAU);c.fill();c.fillStyle=PERSOS.femme.hair;c.beginPath();c.arc(0,-24,76,Math.PI,0);c.fill();c.fillStyle='#222';c.beginPath();c.arc(-24,4,7,0,TAU);c.arc(24,4,7,0,TAU);c.fill();f(c);};
+ICO.sourire=c=>visage(c,c=>{c.strokeStyle='#5a1a14';c.lineWidth=7;c.lineCap='round';c.beginPath();c.moveTo(-30,30);c.quadraticCurveTo(0,46,30,40);c.lineTo(34,48);c.stroke();c.strokeStyle=PAL.rouge;c.lineWidth=4;c.setLineDash([6,6]);c.beginPath();c.moveTo(-50,28);c.lineTo(50,28);c.stroke();c.setLineDash([]);});
+ICO.bras=c=>{c.fillStyle=rgb(PERSOS.femme.skin);c.save();c.rotate(0.5);c.beginPath();c.roundRect(-20,-90,40,150,20);c.fill();c.restore();c.save();c.rotate(-0.15);c.beginPath();c.roundRect(-20,-90,40,150,20);c.fill();c.restore();c.strokeStyle=PAL.rouge;c.lineWidth=7;c.beginPath();c.moveTo(70,-30);c.lineTo(70,40);c.lineTo(56,26);c.moveTo(70,40);c.lineTo(84,26);c.stroke();};
+ICO.parole=c=>{c.fillStyle='#f4f6f8';c.beginPath();c.roundRect(-90,-60,180,110,24);c.fill();c.beginPath();c.moveTo(-50,48);c.lineTo(-70,86);c.lineTo(-10,50);c.fill();c.font='900 54px M';c.fillStyle=PAL.rouge;c.textAlign='center';c.textBaseline='middle';c.fillText('…?',0,-4);};
+ICO.non3=c=>{for(const [x,n] of [[-56,'pomme'],[0,'verre'],[56,'pilule']]){c.save();c.translate(x,0);c.scale(0.42,0.42);(ICO[n]||ICO.pilule)(c);c.restore();}};
+function deux(b,T,o={}){const vx=760,vy=860,u=200;acteur(b,'heros',380,880,200,{look:1,ex:o.tex||{eye:0.8,brow:0.6,mouth:0.2},near:o.tnear||{},far:{bend:-1}});
+  acteur(b,'femme',vx,vy,u,{lean:o.lean||0,look:0.3,ex:o.vex||{eye:0.6,brow:0.2,mouth:0.1},near:o.vnear||{},far:o.vfar||{bend:-1}},{mirror:true});}
+const SCENES=[
+(c,t,d)=>{const [B,b]=salon(t);deux(b,t,{vex:{eye:0.5,brow:0.6,mouth:0.4},lean:-0.06*ease(seg(t,0.3,1.0)),tex:{eye:1,brow:0.9,mouth:0.4}});AMB(b);accroche(c,t,d,B,camAt(t,d,{x:620,y:960,z:1.25},{x:640,y:940,z:1.36}),['quelqu’un faisait','un AVC devant toi ?']);},
+(c,t,d)=>{const [B,b]=salon(t);const k=seg(t,C('mots',2.6)-0.2,C('mots',2.6)+0.4);deux(b,t,{vex:{eye:0.6,brow:0.5*k,mouth:0.3},lean:-0.04*k});AMB(b);show(c,B,{x:600,y:1050,z:1.15});grade(c,t);
+  bubble(c,W/2+200,620,'…?',clamp((t-C('mots',2.6))/0.3));tag(c,'ELLE NE TROUVE PLUS SES MOTS',T1,clamp((t-C('mots',2.6))/0.3),'rouge',38);tag(c,'SOURIRE ASYMÉTRIQUE',T2,clamp((t-C('sourire',3.8))/0.3),'rouge',40);
+  picto(c,'sourire',W/2+260,1220,0.8,clamp((t-C('sourire',3.8))/0.3),'');},
+(c,t,d)=>{planche(c,t,t,[['bras','',C('faiblesse',0.8)-0.2,'bras faible'],['parole','',C('parler',2.0)-0.2,'parole difficile'],['sourire','',0.2,'visage']],{kicker:'LES SIGNES',cols:3,s:0.95,y:860});tag(c,'UN SEUL SIGNE SUFFIT POUR AGIR',1250,clamp((t-C('seul',3.4))/0.3),'rouge',38);},
+(c,t,d)=>{const [B,b]=salon(t);deux(b,t,{tnear:{to:[380+1.45*200,880+0.6*200],hand:'grip',ang:-1.3},vex:{eye:0.6,brow:0.4,mouth:0.3}});phone(b,380+1.45*200+Math.cos(-1.3)*0.34*200,880+0.6*200+Math.sin(-1.3)*0.34*200,-0.12,t,1.1);AMB(b);
+  show(c,B,{x:600,y:1050,z:1.15});grade(c,t);tag(c,'APPELLE IMMÉDIATEMENT LE 112',T1,clamp((t-C('appelle',0.2))/0.3),'vert',40);tag(c,'N’ATTENDS PAS QU’ELLE AILLE MIEUX',T2,clamp((t-C('attends',1.8))/0.3),'rouge',36);},
+(c,t,d)=>{planche(c,t,t,[['horloge','',0.2,'ça passe ?'],['secours','oui',C('urgence',2.0)-0.2,'toujours urgent']],{kicker:'MÊME SI ÇA PASSE',y:860});},
+(c,t,d)=>{const [B,b]=salon(t);acteur(b,'heros',400,860,200,{look:0.9,ex:{eye:0.7,brow:0.3,mouth:0.1},near:{to:[400+1.4*200,860+1.6*200],hand:'open',ang:0},far:{bend:-1}});assis(b,t,940,880,{who:'femme',u:200,ex:{eye:0.6,brow:0.2,mouth:0.1}});AMB(b);
+  show(c,B,{x:720,y:1100,z:1.05});grade(c,t);tag(c,'AIDE-LA À S’INSTALLER',T1,clamp((t-C('installer',1.6))/0.3),'vert',42);tag(c,'ASSISE OU ALLONGÉE',T2,clamp((t-C('assise',2.8))/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['horloge','oui',C('heure',1.0)-0.2,'l’heure du début']],{kicker:'RETIENS L’HEURE',y:820,s:1.8});c.save();c.font='900 90px M';c.fillStyle=PAL.etsi;c.textAlign='center';c.globalAlpha=clamp((t-C('heure',1.0))/0.3);c.fillText(new Date(2026,10,27,18,42).toTimeString().slice(0,5),W/2,1300);c.restore();tag(c,'ELLE AIDE LES MÉDECINS',1420,clamp((t-C('orienter',3.0))/0.3),'vert',40);},
+(c,t,d)=>planche(c,t,t,[['pomme','non',C('nourriture',0.6)-0.2,'nourriture'],['verre','non',C('boisson',1.2)-0.2,'boisson'],['pilule','non',C('medicament',1.8)-0.2,'médicament']],{kicker:'NE DONNE RIEN',cols:3,s:0.95,y:880}),
+(c,t,d)=>{const [B,b]=salon(t);acteur(b,'heros',400,860,200,{look:0.9,ex:{eye:0.7,brow:0.3,mouth:0.5},near:{to:[400+1.45*200,860+0.6*200],hand:'grip',ang:-1.3},far:{bend:-1}});phone(b,400+1.45*200+Math.cos(-1.3)*0.34*200,860+0.6*200+Math.sin(-1.3)*0.34*200,-0.12,t,1.1);assis(b,t,940,880,{who:'femme',u:200});AMB(b);
+  show(c,B,{x:720,y:1100,z:1.05});grade(c,t);bubble(c,W/2+60,1240,'ADRESSE + SYMPTÔMES',clamp((t-C('adresse',1.2))/0.3));tag(c,'DONNE L’ADRESSE EXACTE',T1,clamp((t-C('adresse',1.2))/0.3),'vert',40);tag(c,'SUIS LEURS INSTRUCTIONS',T2,clamp((t-C('suis',3.4))/0.3),'vert',40);},
+(c,t,d)=>{const [B,b]=salon(t);acteur(b,'heros',440,900,200,{look:0.9,ex:{eye:0.6,brow:0,mouth:0},near:{to:[920,1100],hand:'open',ang:0.2},far:{bend:-1}});assis(b,t,940,880,{who:'femme',u:200,ex:{eye:0.6,brow:0,mouth:0}});AMB(b);
+  show(c,B,{x:740,y:1100,z:1.1});grade(c,t);tag(c,'RASSURE-LA',T1,clamp((t-C('rassure',0.2))/0.3),'vert',46);tag(c,'RESTE AUPRÈS D’ELLE',T2,clamp((t-C('reste',1.6))/0.3),'vert',42);},
+(c,t,d)=>fin(c,t,d,[['Mots, sourire, bras : un seul signe suffit',PAL.rouge],['112 tout de suite, même si ça passe',PAL.vert],['Retiens l’heure du début',PAL.vert],['Rien à manger, à boire, aucun médicament',PAL.rouge]]),
+];

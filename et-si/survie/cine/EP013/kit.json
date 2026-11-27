@@ -1,0 +1,52 @@
+{
+ "id": "EP013",
+ "title": "Et si ta voiture restait coincée sur des rails ?",
+ "sources": [
+  "https://www.securite-routiere.gouv.fr/sites/default/files/2024-10/depliant_les_passages_a_niveaux.pdf"
+ ],
+ "verification": {
+  "status": "Source officielle consultée; contrôle final des gestes et des règles locales requis",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si ta voiture restait coincée sur des rails ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2024-10/depliant_les_passages_a_niveaux.pdf",
+  "social": "Et si ta voiture restait coincée sur des rails ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-13.json (EP041), placé en épisode 13 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ta voiture restait coincée sur des rails ?"
+  },
+  {
+   "voix": "Un bouchon se forme devant toi alors que tu approches des rails."
+  },
+  {
+   "voix": "Avant de traverser, assure-toi que la sortie est libre."
+  },
+  {
+   "voix": "Si les feux rouges clignotent, reste avant le passage."
+  },
+  {
+   "voix": "Si les barrières se referment autour de ta voiture, il faut dégager les rails immédiatement."
+  },
+  {
+   "voix": "Si ton véhicule roule encore, franchis la barrière pour sortir."
+  },
+  {
+   "voix": "Si la voiture ne peut plus avancer, fais sortir tous les occupants et éloignez-vous des voies."
+  },
+  {
+   "voix": "Une fois en sécurité, alerte le service ferroviaire grâce au numéro affiché ou au téléphone dédié."
+  },
+  {
+   "voix": "Un train nécessite une distance considérable pour s’arrêter."
+  },
+  {
+   "voix": "Même après le passage d’un train, attends la réouverture complète et l’extinction du feu avant de traverser."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

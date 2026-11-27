@@ -1,0 +1,37 @@
+{
+ "id": "EP017",
+ "title": "Et si tes vêtements prenaient feu ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau"
+ ],
+ "verification": {
+  "status": "Extraits officiels consultés; validation indépendante non obtenue",
+  "publication_approved": false
+ },
+ "publication": {
+  "titre": "Et si tes vêtements prenaient feu ? #Shorts",
+  "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau",
+  "social": "Et si tes vêtements prenaient feu ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-25.json (EP094), placé en épisode 17 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tes vêtements prenaient feu ?"
+  },
+  {
+   "voix": "Si les vêtements d’une personne brûlent, empêche-la de courir."
+  },
+  {
+   "voix": "Étouffe les flammes avec une couverture anti-feu ou un tissu naturel adapté."
+  },
+  {
+   "voix": "Appelle le 112."
+  },
+  {
+   "voix": "Ne détache pas les vêtements collés à la peau."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

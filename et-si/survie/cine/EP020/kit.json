@@ -1,0 +1,39 @@
+{
+ "id": "EP020",
+ "title": "Et si tu te trompais de dose de médicament ?",
+ "sources": [
+  "https://www.centreantipoisons.be/tox-infos/administration-sure-des-medicaments/"
+ ],
+ "verification": {
+  "status": "Conseils appuyés par les extraits officiels consultés; validation indépendante et vérification finale requises",
+  "publication_approved": false
+ },
+ "publication": {
+  "titre": "Et si tu te trompais de dose de médicament ? #Shorts",
+  "description": "Source officielle : https://www.centreantipoisons.be/tox-infos/administration-sure-des-medicaments/"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-24.json (EP089), placé en épisode 20 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu te trompais de dose de médicament ?"
+  },
+  {
+   "voix": "Une confusion entre deux doses peut arriver, notamment lorsque plusieurs traitements sont utilisés."
+  },
+  {
+   "voix": "En cas de possible intoxication, contacte immédiatement le Centre Antipoisons belge au 070 245 245."
+  },
+  {
+   "voix": "Ne te fie pas à l’absence de symptômes. Prépare la notice et le nom du médicament."
+  },
+  {
+   "voix": "Les professionnels peuvent déterminer la conduite adaptée à la situation."
+  },
+  {
+   "voix": "Pour éviter une nouvelle erreur, lis la notice et demande conseil à ton pharmacien ou à ton médecin."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

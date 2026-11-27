@@ -1,0 +1,1 @@
+[{"s": 0, "a": 0, "type": "feu", "g": 0.12}, {"s": 0, "a": 0.3, "type": "whoosh", "g": 0.3}, {"s": 1, "a": 0, "type": "feu", "g": 0.12}, {"s": 1, "a": "courir", "type": "hit", "g": 0.3}, {"s": 2, "a": "etouffe", "type": "whoosh", "g": 0.25}, {"s": 3, "a": 0.2, "type": "bip", "g": 0.12}]

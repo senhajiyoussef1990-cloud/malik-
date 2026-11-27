@@ -1,0 +1,49 @@
+{
+ "id": "EP012",
+ "title": "Et si quelqu’un faisait un AVC devant toi ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/pathologies/avc"
+ ],
+ "verification": "Texte officiel consulté le 27 novembre 2026; relecture clinique indépendante non obtenue",
+ "publication": {
+  "titre": "Et si quelqu’un faisait un AVC devant toi ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/avc",
+  "social": "Et si quelqu’un faisait un AVC devant toi ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-06.json (EP022), placé en épisode 12 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si quelqu’un faisait un AVC devant toi ?"
+  },
+  {
+   "voix": "Imagine une conversation ordinaire. Soudain, ton interlocuteur ne trouve plus ses mots et son sourire devient asymétrique."
+  },
+  {
+   "voix": "Une faiblesse soudaine du bras ou une difficulté à parler peuvent signaler un AVC. Un seul signe suffit pour agir."
+  },
+  {
+   "voix": "Appelle immédiatement le 112. N’attends pas de voir si la personne va mieux."
+  },
+  {
+   "voix": "Même si les symptômes disparaissent rapidement, l’urgence demeure."
+  },
+  {
+   "voix": "Aide la personne consciente à s’installer confortablement, assise ou allongée."
+  },
+  {
+   "voix": "Retiens l’heure à laquelle les symptômes ont commencé. Ce renseignement peut orienter les soins."
+  },
+  {
+   "voix": "Ne donne ni nourriture, ni boisson, ni médicament."
+  },
+  {
+   "voix": "Communique l’adresse exacte et les symptômes aux secours. Suis leurs instructions."
+  },
+  {
+   "voix": "Rassure la personne et reste auprès d’elle en attendant les professionnels."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

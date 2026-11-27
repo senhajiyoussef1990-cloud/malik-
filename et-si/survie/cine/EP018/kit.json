@@ -1,0 +1,43 @@
+{
+ "id": "EP018",
+ "title": "Et si une crue éclair traversait ton quartier ?",
+ "sources": [
+  "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-pluviale-eaux-de-ruissellement"
+ ],
+ "verification": {
+  "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si une crue éclair traversait ton quartier ? #Shorts",
+  "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-pluviale-eaux-de-ruissellement",
+  "social": "Et si une crue éclair traversait ton quartier ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-18.json (EP064), placé en épisode 18 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si une crue éclair traversait ton quartier ?"
+  },
+  {
+   "voix": "Une pluie intense transforme soudain la rue en torrent. Les eaux peuvent transporter des débris."
+  },
+  {
+   "voix": "Limite tes déplacements et reste éloigné des zones dangereuses."
+  },
+  {
+   "voix": "Ne tente pas de traverser une route submergée en voiture."
+  },
+  {
+   "voix": "Si les secours demandent une évacuation, suis leurs indications."
+  },
+  {
+   "voix": "En Belgique, une demande non urgente aux pompiers peut passer par le site 1722.be."
+  },
+  {
+   "voix": "Si quelqu’un est en danger de mort, le numéro à composer est le 112."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

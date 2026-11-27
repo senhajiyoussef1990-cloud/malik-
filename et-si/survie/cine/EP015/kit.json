@@ -1,0 +1,46 @@
+{
+ "id": "EP015",
+ "title": "Et si ton enfant disparaissait de ton champ de vision à la piscine ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/canicule-chaleur/chaleur-noyade"
+ ],
+ "verification": {
+  "status": "Source officielle lue dans cette session; validation de chaque formulation et relecture indépendante requises",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si ton enfant disparaissait de ton champ de vision à la piscine ? #Shorts",
+  "description": "Prévention. Source : https://www.ameli.fr/assure/sante/themes/canicule-chaleur/chaleur-noyade",
+  "social": "Et si ton enfant disparaissait de ton champ de vision à la piscine ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-22.json (EP083), placé en épisode 15 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton enfant disparaissait de ton champ de vision à la piscine ?"
+  },
+  {
+   "voix": "Tu accompagnes ton enfant à la piscine. Une conversation détourne ton regard. C’est précisément cette distraction que la prévention cherche à éviter."
+  },
+  {
+   "voix": "La surveillance doit être continue. Désigne clairement un adulte responsable de l’enfant, sans supposer qu’un autre le surveille."
+  },
+  {
+   "voix": "Baigne-toi avec lui et choisis un endroit surveillé. La présence de sauveteurs ne remplace pas ton attention."
+  },
+  {
+   "voix": "Apprendre à nager dès que possible fait aussi partie des mesures recommandées pour réduire les risques."
+  },
+  {
+   "voix": "Respecte les restrictions de baignade et les conditions du lieu. Elles peuvent évoluer au cours de la journée."
+  },
+  {
+   "voix": "Si une urgence survient, alerte immédiatement les sauveteurs et les secours au 112."
+  },
+  {
+   "voix": "Le meilleur moment pour organiser cette surveillance est avant d’entrer dans l’eau."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

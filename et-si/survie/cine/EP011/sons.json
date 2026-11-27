@@ -1,0 +1,1 @@
+[{"s": 0, "a": 0.6, "type": "coeur_bed", "s2": 6, "a2": "compose", "g": 0.09}, {"s": 1, "a": "serre", "type": "hit", "g": 0.3}, {"s": 6, "a": "compose", "type": "bip", "g": 0.12}, {"s": 9, "a": 0.3, "type": "tic", "g": 0.05, "n": 6, "gap": 0.5}]
