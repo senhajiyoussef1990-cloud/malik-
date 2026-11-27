@@ -5,7 +5,7 @@ timing.json : début/durée de chaque scène, sous-titres calés sur les mots, r
 d'animation. Usage :
   python voix.py --ep 1 --out sortie/ep01 [--voice fr-FR-RemyMultilingualNeural] [--rate +6%] [--simulate]
 """
-import argparse, asyncio, json, re, subprocess
+import argparse, asyncio, json, os, re, subprocess, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,12 +58,14 @@ VOIX_UTILISEES = set()
 
 def dire(texte, a, f):
     import time
-    for v in [a.voice] + [x for x in VOIX_SECOURS if x != a.voice]:
-        for essai in range(3):
+    reprise = bool(os.environ.get('ETSI_VOIX_REPRISE'))  # reprise : une seule voix, plus d'essais
+    for v in [a.voice] + ([] if reprise else [x for x in VOIX_SECOURS if x != a.voice]):
+        for essai in range(6 if reprise else 3):
             try:
                 mots = asyncio.run(tts(texte, v, a.rate, f))
                 if f.stat().st_size > 1000:
-                    VOIX_UTILISEES.add(v); return mots
+                    VOIX_UTILISEES.add(v); a.voice = v  # la voix de secours devient la voix de la suite
+                    return mots
             except Exception as e:
                 print(f'  {v} essai {essai + 1} : {type(e).__name__} {e}', flush=True)
             time.sleep(3 * (essai + 1))
@@ -199,6 +201,17 @@ def main():
     for c in caps:  # pas de sous-titre qui déborde sur la scène suivante
         sc = [x for x in scenes if x['start'] <= c['s'] + 1e-6][-1]
         c['e'] = min(c['e'], round(sc['start'] + sc['dur'] - 0.05, 3))
+    if len(VOIX_UTILISEES) > 1 and not os.environ.get('ETSI_VOIX_REPRISE'):
+        # une seule voix par épisode : on régénère tout avec la voix qui a fonctionné en dernier
+        print('voix mélangées', sorted(VOIX_UTILISEES), '-> tout refaire avec', a.voice, flush=True)
+        os.environ['ETSI_VOIX_REPRISE'] = '1'
+        args = [x for x in sys.argv[1:]]
+        if '--voice' in args:
+            i = args.index('--voice'); del args[i:i + 2]
+        args = [x for x in args if not x.startswith('--voice=')]
+        os.execv(sys.executable, [sys.executable, __file__] + args + ['--voice', a.voice])
+    if len(VOIX_UTILISEES) > 1:
+        raise SystemExit(f'voix mélangées malgré la reprise : {sorted(VOIX_UTILISEES)}')
     json.dump({'episode': a.ep, 'id': ep['id'], 'slug': ep['slug'], 'voice': sorted(VOIX_UTILISEES) or [a.voice], 'rate': a.rate,
                'duration': round(t, 3), 'scenes': scenes, 'captions': caps, 'cues': cues},
               open(out / 'timing.json', 'w'), ensure_ascii=False, indent=1)
