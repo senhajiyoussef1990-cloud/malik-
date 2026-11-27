@@ -66,7 +66,8 @@ def alarme(sec=1.6):
 def eau(sec=2.0): x = filt(noise(sec), 'band', [400, 5000]); return nrm(x * env(len(x), 0.15, 0.3) * (0.8 + 0.2 * np.sin(np.arange(len(x)) / SR * 23)))
 def gaz(sec=1.5): x = filt(noise(sec), 'high', 3500); return nrm(x * env(len(x), 0.3, 0.5))
 def tic(): tt = np.arange(int(0.05 * SR)) / SR; return nrm(np.sin(2 * np.pi * 2200 * tt) * np.exp(-tt * 90))
-def porte(): return nrm(thud() + 0.3 * filt(noise(0.3), 'band', [200, 2000]) * np.exp(-np.arange(int(0.3 * SR)) / SR * 10))
+def porte():
+    x = thud(); y = filt(noise(0.3), 'band', [200, 2000]) * np.exp(-np.arange(int(0.3 * SR)) / SR * 10); x[:len(y)] += 0.3 * y; return nrm(x)
 def coeur(): return hit(0.25)
 GEN = {'hit': lambda: hit(0.8), 'whoosh': lambda: whoosh(0.6), 'tap': tap, 'clink': clink, 'bip': beep3, 'alarme': alarme, 'eau': eau, 'gaz': gaz,
        'tic': tic, 'porte': porte, 'thud': thud, 'metal': lambda: metal(0.8), 'feu': lambda: fire(2.5, 3), 'vapeur': lambda: nrm(filt(noise(0.8), 'high', 4000) * np.exp(-np.arange(int(0.8 * SR)) / SR * 3)), 'coeur': coeur}
