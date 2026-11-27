@@ -4,7 +4,7 @@ let TITRE='Et si ?';function setTitre(t){if(t)TITRE=t;}
    éclairage de contour, textes sobres, sous-titres. Chaque épisode définit SCENES. */
 const W=1080,H=1920,TAU=Math.PI*2;
 const cv=document.getElementById('c');cv.width=W;cv.height=H;const ctx=cv.getContext('2d');
-let CUES={},CAPS=[],DRAFT=true;
+let CUES={},CAPS=[],DRAFT=false;
 function setCues(c){CUES=c;} function CUE(k,d){return CUES[k]!=null?CUES[k]:d;}
 function setCaptions(c){CAPS=c;} function setDraft(b){DRAFT=b;}
 function mulberry(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
