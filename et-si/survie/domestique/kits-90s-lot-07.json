@@ -1,0 +1,372 @@
+{
+  "instructions": "Claude uniquement. Durées cibles. Ne pas publier avant validation des gestes complémentaires et relecture professionnelle.",
+  "episodes": [
+    {
+      "id": "EP025",
+      "title": "Et si quelqu’un faisait une crise convulsive devant toi ?",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/themes/epilepsie/symptomes-diagnostic"
+      ],
+      "verification": {
+        "status": "Contrôle documentaire partiel effectué sur extraits officiels le 27 novembre 2026; gestes complémentaires et relecture clinique à valider avant publication"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si quelqu’un faisait une crise convulsive devant toi ?",
+          "subtitle": "Et si quelqu’un faisait une crise convulsive devant toi ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : salon, chute non graphique",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Une personne tombe et présente des secousses involontaires. Écarte les meubles et objets dangereux.",
+          "subtitle": "Une personne tombe et présente des secousses involontaires. Écarte les meubles et objets dangereux.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : meubles éloignés",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Protège sa tête avec un vêtement plié, sans bloquer ses mouvements.",
+          "subtitle": "Protège sa tête avec un vêtement plié, sans bloquer ses mouvements.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : vêtement plié près de la tête",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Ne tente pas de retenir ses bras ou ses jambes.",
+          "subtitle": "Ne tente pas de retenir ses bras ou ses jambes.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : mains éloignées",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Ne place aucun objet ni aucun doigt dans sa bouche.",
+          "subtitle": "Ne place aucun objet ni aucun doigt dans sa bouche.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : bouche, symbole interdit",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Ne lui donne rien à boire pendant la crise.",
+          "subtitle": "Ne lui donne rien à boire pendant la crise.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : verre barré",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Note l’heure du début des convulsions et reste auprès de la personne.",
+          "subtitle": "Note l’heure du début des convulsions et reste auprès de la personne.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : chronomètre",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Appelle le 112 si la crise dépasse cinq minutes ou recommence sans récupération. En cas de doute, appelle aussi.",
+          "subtitle": "Appelle le 112 si la crise dépasse cinq minutes ou recommence sans récupération. En cas de doute, appelle aussi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : appel 112",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Après les secousses, contrôle sa respiration et suis les instructions des secours.",
+          "subtitle": "Après les secousses, contrôle sa respiration et suis les instructions des secours.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : surveillance respiratoire",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Si elle respire normalement, les secours peuvent te guider pour la placer sur le côté.",
+          "subtitle": "Si elle respire normalement, les secours peuvent te guider pour la placer sur le côté.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : opérateur, aucune démonstration non validée",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : logo",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si quelqu’un faisait une crise convulsive devant toi ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/epilepsie/symptomes-diagnostic",
+        "social": "Et si quelqu’un faisait une crise convulsive devant toi ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP026",
+      "title": "Et si tu faisais une réaction allergique grave ?",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/themes/allergie/traitement-allergie",
+        "https://www.ameli.fr/assure/sante/urgence/pathologies/oedeme-quincke"
+      ],
+      "verification": {
+        "status": "Contrôle documentaire partiel effectué sur extraits officiels le 27 novembre 2026; gestes complémentaires et relecture clinique à valider avant publication"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu faisais une réaction allergique grave ?",
+          "subtitle": "Et si tu faisais une réaction allergique grave ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : repas familial",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Après un repas ou une piqûre, une réaction allergique peut devenir une urgence.",
+          "subtitle": "Après un repas ou une piqûre, une réaction allergique peut devenir une urgence.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : réaction, schéma discret",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Un gonflement de la langue ou une difficulté respiratoire soudaine doit alerter.",
+          "subtitle": "Un gonflement de la langue ou une difficulté respiratoire soudaine doit alerter.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : gonflement schématique",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Appelle immédiatement le 112, ou demande à quelqu’un de le faire.",
+          "subtitle": "Appelle immédiatement le 112, ou demande à quelqu’un de le faire.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : appel 112",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Si un auto-injecteur d’adrénaline t’a été prescrit, utilise-le sans attendre selon ses instructions.",
+          "subtitle": "Si un auto-injecteur d’adrénaline t’a été prescrit, utilise-le sans attendre selon ses instructions.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : trousse prescrite",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Les dispositifs ne fonctionnent pas tous de la même façon : suis la notice et ta formation.",
+          "subtitle": "Les dispositifs ne fonctionnent pas tous de la même façon : suis la notice et ta formation.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : notice sans marque",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Même si tu te sens mieux après l’injection, une surveillance médicale est indispensable.",
+          "subtitle": "Même si tu te sens mieux après l’injection, une surveillance médicale est indispensable.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : ambulance",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Ne reste pas seul. Suis les instructions de l’opérateur des secours.",
+          "subtitle": "Ne reste pas seul. Suis les instructions de l’opérateur des secours.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : proche rassurant",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Prépare avec ton médecin une trousse d’urgence adaptée à ton allergie.",
+          "subtitle": "Prépare avec ton médecin une trousse d’urgence adaptée à ton allergie.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : consultation",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Apprends à utiliser ton dispositif et montre à tes proches comment t’aider.",
+          "subtitle": "Apprends à utiliser ton dispositif et montre à tes proches comment t’aider.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : stylo d'entraînement",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : logo",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu faisais une réaction allergique grave ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/allergie/traitement-allergie",
+        "social": "Et si tu faisais une réaction allergique grave ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP027",
+      "title": "Et si quelqu’un perdait connaissance mais respirait ?",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/urgence/pathologies/perte-connaissance"
+      ],
+      "verification": {
+        "status": "Contrôle documentaire partiel effectué sur extraits officiels le 27 novembre 2026; gestes complémentaires et relecture clinique à valider avant publication"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si quelqu’un perdait connaissance mais respirait ?",
+          "subtitle": "Et si quelqu’un perdait connaissance mais respirait ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : personne au sol",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Une personne s’effondre devant toi. Vérifie que tu peux l’approcher sans danger.",
+          "subtitle": "Une personne s’effondre devant toi. Vérifie que tu peux l’approcher sans danger.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : environnement sûr",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Parle-lui et vérifie si elle réagit. Appelle les secours si elle reste inconsciente.",
+          "subtitle": "Parle-lui et vérifie si elle réagit. Appelle les secours si elle reste inconsciente.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : proche parle à la victime",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Vérifie si elle respire normalement. Des halètements irréguliers ne sont pas une respiration normale.",
+          "subtitle": "Vérifie si elle respire normalement. Des halètements irréguliers ne sont pas une respiration normale.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : observation respiration",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Compose le 112 et active le haut-parleur pour recevoir les instructions.",
+          "subtitle": "Compose le 112 et active le haut-parleur pour recevoir les instructions.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : appel haut-parleur",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Si elle respire normalement, l’opérateur peut te guider pour la mettre sur le côté.",
+          "subtitle": "Si elle respire normalement, l’opérateur peut te guider pour la mettre sur le côté.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : schéma latéral à valider",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "En cas de traumatisme violent, signale-le avant de déplacer la personne.",
+          "subtitle": "En cas de traumatisme violent, signale-le avant de déplacer la personne.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : pictogramme traumatisme",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Surveille continuellement sa respiration en attendant l’arrivée des secours.",
+          "subtitle": "Surveille continuellement sa respiration en attendant l’arrivée des secours.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : surveillance",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Si sa respiration devient anormale ou cesse, avertis immédiatement l’opérateur et suis ses instructions de réanimation.",
+          "subtitle": "Si sa respiration devient anormale ou cesse, avertis immédiatement l’opérateur et suis ses instructions de réanimation.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : opérateur guide",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Si elle reprend connaissance, rassure-la et indique aux secours la durée du malaise.",
+          "subtitle": "Si elle reprend connaissance, rassure-la et indique aux secours la durée du malaise.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : personne rassurée",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : logo",
+          "animation": "Cadrage dynamique, aucune démonstration improvisée; geste à valider avant animation",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si quelqu’un perdait connaissance mais respirait ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/perte-connaissance",
+        "social": "Et si quelqu’un perdait connaissance mais respirait ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
