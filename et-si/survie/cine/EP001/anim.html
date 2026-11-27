@@ -135,7 +135,7 @@ function building(c,t,o={}){c.fillStyle=lg(c,0,0,0,H,[[0,'#060a14'],[0.6,'#0f1a2
   c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,940,760,0,700,[[0,'rgba(255,220,160,0.28)'],[1,'rgba(255,220,160,0)']]);c.fillRect(0,0,W,H);c.restore();}
 function person(c,x,y,u,col,o={}){const m=o.mirror;const A=o.armN;const near=A?{to:[x+A[4]*u,y+A[5]*u],hand:o.handN||'rest',ang:o.handNa}:{};
   painted(c,f=>{f.save();if(m){f.translate(2*x,0);f.scale(-1,1);}
-  figure(f,x,y,u,{turn:o.turn??0,lean:o.lean||0,look:(o.ex&&o.ex.look)??0.6,ex:o.ex||{eye:0.7,brow:0.4,mouth:o.mouth||0},near,far:{bend:-1},held:o.held},col);f.restore();},
+  figure(f,x,y,u,{turn:o.turn??0,walk:o.walk,legs:o.legs,lean:o.lean||0,look:(o.ex&&o.ex.look)??0.6,ex:o.ex||{eye:0.7,brow:0.4,mouth:o.mouth||0},near,far:{bend:-1},held:o.held},col);f.restore();},
   {dx:o.ldx??1,dy:-0.5,scale:u,col:o.rim||'rgba(255,150,70,1)',k:o.rimk??0.8,shadow:0.6});}
 function phone(c,x,y,a,call,s=1){c.save();c.translate(x,y);c.rotate(a);c.scale(s,s);c.fillStyle='#0d0f12';c.beginPath();c.roundRect(-46,-90,92,180,16);c.fill();c.fillStyle='#1d2a3a';c.beginPath();c.roundRect(-38,-78,76,156,10);c.fill();
   c.font='800 34px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.fillText('112',0,-20);c.fillStyle=PAL.vert;c.beginPath();c.arc(0,36,18*(1+0.15*Math.sin(call*12)),0,TAU);c.fill();c.restore();}
@@ -230,11 +230,11 @@ const SCENES=[
 (c,t,d)=>{const cs=cutsOf(d,[C('quitte',4.0)-0.2,C('ferme',6.0)-0.2]);const [i,lt,ld]=pick(t,cs);
   if(i===0){const sp=ease(seg(t,C('propage',3.0)-0.5,C('propage',3.0)+0.9));const cam=camAt(lt,ld,{x:700,y:980,z:1.45},{x:680,y:960,z:1.3});const s=shake(t,2+4*sp);cam.x+=s.x;cam.y+=s.y;
     const B=world({t:t+30,fire:1,react:1,back:sp,spread:sp,knob:0});show(c,B,cam);grade(c,t);tag(c,'IMPOSSIBLE DE COUVRIR SANS DANGER ?',470,clamp((lt-0.1)/0.3),'sombre',38);tag(c,'LE FEU SE PROPAGE',570,clamp((t-C('propage',3.0))/0.3),'rouge');}
-  else if(i===1){hallway(c,t,{close:0});const k=ease(clamp(lt/ld));person(c,lerp(470,1250,k),1180+Math.sin(lt*9)*8,280,MAN,{lean:0.06,ex:{eye:0.95,brow:0.8,mouth:0.2,look:1},ldx:-1,rimk:1});grade(c,t);tag(c,'QUITTE LA PIÈCE',470,clamp((lt-0.1)/0.3),'vert');}
+  else if(i===1){hallway(c,t,{close:0});const k=ease(clamp(lt/ld));person(c,lerp(470,1250,k),620,170,MAN,{walk:lt*1.7,legs:true,lean:0.06,ex:{eye:0.95,brow:0.8,mouth:0.2,look:1},ldx:-1,rimk:1});grade(c,t);tag(c,'QUITTE LA PIÈCE',470,clamp((lt-0.1)/0.3),'vert');}
   else{hallway(c,t,{close:ease(seg(lt,0.1,0.9))});grade(c,t);tag(c,'FERME LA PORTE',470,clamp((lt-0.1)/0.3),'vert');tag(c,'SI POSSIBLE',570,clamp((lt-0.4)/0.3),'sombre',34);}},
 // 9 — avertir, évacuer, appeler le 112 dehors, ne pas retourner
 (c,t,d)=>{const cs=cutsOf(d,[C('evacue',1.7)-0.2,C('appelle',3.2)-0.2]);const [i,lt,ld]=pick(t,cs);
-  if(i===0){hallway(c,t,{close:1,door2:true,glow:0.8});const k=ease(seg(lt,0.3,1.0));person(c,lerp(1250,830,k),1260,210,WOMAN,{mirror:true,ldx:1,rimk:0.6});person(c,lerp(1300,950,k),1420,150,CHILD,{mirror:true,ldx:1,rimk:0.6});
+  if(i===0){hallway(c,t,{close:1,door2:true,glow:0.8});const k=ease(seg(lt,0.3,1.0));person(c,lerp(1250,830,k),1260,210,WOMAN,{mirror:true,walk:k<1?lt*1.6:null,ldx:1,rimk:0.6});person(c,lerp(1300,950,k),1420,150,CHILD,{mirror:true,ldx:1,rimk:0.6});
     person(c,380,1160,280,MAN,{mouth:0.7,ex:{eye:0.95,brow:0.8,mouth:0.7,look:1},rimk:0.8,armN:[0.72,0.42,1.3,1.2,1.9,0.5],handN:'open',handNa:-1.2});bubble(c,560,640,'AU FEU !',seg(lt,0.1,0.35));grade(c,t);tag(c,'AVERTIS LES OCCUPANTS',470,clamp((lt-0.1)/0.3),'vert');}
   else if(i===1){building(c,t);const k=ease(clamp(lt/ld));const cam={x:540,y:960,z:lerp(1.0,1.06,k)};c.save();camXf(c,cam);
     person(c,lerp(560,330,k),1300,170,MAN,{turn:0.8,ldx:1,rim:'rgba(255,160,90,1)',rimk:0.7});person(c,lerp(640,560,k),1340,150,WOMAN,{turn:0.8,ldx:1,rim:'rgba(255,160,90,1)',rimk:0.6});person(c,lerp(700,700,k),1420,110,CHILD,{turn:0.8,ldx:1,rim:'rgba(255,160,90,1)',rimk:0.6});c.restore();

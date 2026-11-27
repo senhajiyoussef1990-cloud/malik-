@@ -13,16 +13,30 @@ function ik(S, T, a, b, bend = 1){const dx = T[0]-S[0], dy = T[1]-S[1];let d = M
   const E = [S[0]+Math.cos(ang)*a, S[1]+Math.sin(ang)*a];const k = dd/d||1;const W = [S[0]+dx*Math.min(1, k), S[1]+dy*Math.min(1, k)];
   // si la cible est hors de portée, le poignet s'arrête au bout du bras (pas d'étirement)
   const fa = Math.atan2(W[1]-E[1], W[0]-E[0]);return {E, W:[E[0]+Math.cos(fa)*b, E[1]+Math.sin(fa)*b], fa};}
+// main : paume, quatre doigts et pouce. Repère local : +x = prolongement de l'avant-bras, -y = côté du pouce.
 function mitt(c, x, y, ang, u, type, col){const s = u;c.save();c.translate(x, y);c.rotate(ang);
-  const sk = rgb(col.skin, 1.02), skD = rgb(col.skinD, 0.95);c.fillStyle = sk;c.strokeStyle = skD;c.lineWidth = 0.025*s;c.lineJoin = 'round';
-  if(type === 'grip'){c.beginPath();c.ellipse(0.17*s, 0, 0.19*s, 0.15*s, 0, 0, TAU);c.fill();c.stroke();
-    c.beginPath();for(let i = 0;i < 3;i++){c.moveTo(0.26*s, (-0.08+i*0.07)*s);c.lineTo(0.33*s, (-0.08+i*0.07)*s);}c.stroke();
-    c.beginPath();c.ellipse(0.12*s, -0.13*s, 0.1*s, 0.055*s, -0.5, 0, TAU);c.fill();c.stroke();}
-  else if(type === 'open'){c.beginPath();c.ellipse(0.16*s, 0, 0.17*s, 0.15*s, 0, 0, TAU);c.fill();
-    for(let i = 0;i < 4;i++){const a = (-0.33+i*0.22);c.save();c.rotate(a*0.6);c.beginPath();c.roundRect(0.22*s, (-0.13+i*0.075)*s*0.0-0.035*s+(i-1.5)*0.075*s, 0.2*s-Math.abs(i-1.2)*0.03*s, 0.07*s, 0.035*s);c.fill();c.restore();}
-    c.beginPath();c.save();c.rotate(-0.9);c.roundRect(0.08*s, -0.04*s, 0.17*s, 0.075*s, 0.037*s);c.restore();c.fill();}
-  else if(type === 'point'){c.beginPath();c.ellipse(0.16*s, 0, 0.17*s, 0.14*s, 0, 0, TAU);c.fill();c.stroke();c.beginPath();c.roundRect(0.22*s, -0.06*s, 0.24*s, 0.075*s, 0.037*s);c.fill();}
-  else {c.beginPath();c.ellipse(0.16*s, 0.02*s, 0.17*s, 0.13*s, 0.2, 0, TAU);c.fill();c.stroke();}
+  const sk = rgb(col.skin, 1.02), skD = rgb(col.skinD, 0.9);c.lineCap = 'round';c.lineJoin = 'round';
+  const seg2 = (pts, w) => {c.strokeStyle = sk;c.lineWidth = w*s;c.beginPath();c.moveTo(pts[0][0]*s, pts[0][1]*s);for(const q of pts.slice(1))c.lineTo(q[0]*s, q[1]*s);c.stroke();};
+  const outline = (pts, w) => {c.strokeStyle = skD;c.lineWidth = (w+0.016)*s;c.beginPath();c.moveTo(pts[0][0]*s, pts[0][1]*s);for(const q of pts.slice(1))c.lineTo(q[0]*s, q[1]*s);c.stroke();};
+  const finger = (pts, w = 0.052) => {outline(pts, w);seg2(pts, w);};
+  const palm = (len = 0.21, wid = 0.23) => {c.fillStyle = skD;c.beginPath();c.roundRect(-0.02*s, -wid/2*s-0.008*s, (len+0.03)*s, (wid+0.016)*s, 0.07*s);c.fill();
+    c.fillStyle = lg(c, 0, -wid/2*s, 0, wid/2*s, [[0, rgb(col.skin, 1.06)], [1, rgb(col.skin, 0.94)]]);c.beginPath();c.roundRect(-0.012*s, -wid/2*s, (len+0.015)*s, wid*s, 0.065*s);c.fill();};
+  const lanes = [-0.078, -0.026, 0.026, 0.076];
+  if(type === 'open'){
+    palm();const L = [0.16, 0.18, 0.17, 0.13];lanes.forEach((ly, i) => {const a = (i-1.5)*0.12;finger([[0.18, ly], [0.18+Math.cos(a)*L[i]*0.55, ly+Math.sin(a)*L[i]*0.55], [0.18+Math.cos(a)*L[i], ly+Math.sin(a)*L[i]]]);});
+    finger([[0.05, -0.1], [0.12, -0.17], [0.19, -0.2]], 0.06);}
+  else if(type === 'grip'){
+    // poing : doigts repliés (phalanges visibles), pouce par-dessus
+    palm(0.2, 0.23);lanes.forEach(ly => finger([[0.18, ly], [0.27, ly+0.005], [0.25, ly+0.03]], 0.058));
+    c.strokeStyle = skD;c.lineWidth = 0.012*s;lanes.slice(1).forEach(ly => {c.beginPath();c.moveTo(0.2*s, (ly-0.026)*s);c.lineTo(0.28*s, (ly-0.026)*s);c.stroke();});
+    finger([[0.04, -0.11], [0.13, -0.12], [0.22, -0.08]], 0.06);}
+  else if(type === 'point'){
+    palm(0.2, 0.22);lanes.slice(1).forEach(ly => finger([[0.18, ly], [0.26, ly+0.005], [0.24, ly+0.03]], 0.055));
+    finger([[0.18, -0.078], [0.3, -0.08], [0.39, -0.08]], 0.054);finger([[0.04, -0.1], [0.12, -0.13], [0.18, -0.12]], 0.06);}
+  else {
+    // main détendue : doigts légèrement repliés
+    palm(0.2, 0.22);const L = [0.11, 0.12, 0.115, 0.095];lanes.forEach((ly, i) => finger([[0.18, ly], [0.18+L[i]*0.7, ly+0.01], [0.18+L[i], ly+0.05]]));
+    finger([[0.05, -0.1], [0.13, -0.135], [0.19, -0.12]], 0.06);}
   c.restore();}
 // segment effilé (largeur w1 -> w2) avec extrémités arrondies
 function taper(c, A, B, w1, w2){const a = Math.atan2(B[1]-A[1], B[0]-A[0]), nx = -Math.sin(a), ny = Math.cos(a);c.beginPath();
@@ -49,7 +63,8 @@ function armOf(c, S, A, u, col, front, defAng, turn = 0){if(!A)return null;let W
 function vie(x, u, col){const t = (typeof TNOW !== 'undefined' ? TNOW : 0), sd = (col.skin[0]*7 + col.shirt[1]*3) % 97 / 97;
   const br = Math.sin(t*2*Math.PI/3.6 + sd*6);const per = 3.2 + sd*1.6, ph = ((t + sd*per) % per);const blink = ph < 0.12 ? 1 - Math.abs(ph - 0.06)/0.06 : 0;
   return {br, blink, nod: Math.sin(t*0.9 + sd*5)*0.025 + Math.sin(t*2.3 + sd*3)*0.01};}
-function figure(c, x, y, u, p = {}, col = MAN){const V = p.calme === false ? {br:0, blink:0, nod:0} : vie(x, u, col);y += V.br*0.025*u;const lean = (p.lean||0) + V.br*0.006;c.save();
+function figure(c, x, y, u, p = {}, col = MAN){const V = p.calme === false ? {br:0, blink:0, nod:0} : vie(x, u, col);y += V.br*0.025*u;if(p.walk != null){y -= Math.abs(Math.sin(p.walk*Math.PI*2))*0.07*u;const sw = Math.sin(p.walk*Math.PI*2);
+    if(!p.near || (!p.near.to && !p.near.hand))p = {...p, near: {to: [x+(0.42+0.35*sw)*u, y+2.45*u], hand: 'rest'}};if(!p.far || (!p.far.to && !p.far.hand))p = {...p, far: {to: [x+(-0.3-0.35*sw)*u, y+2.4*u], hand: 'rest'}};}const lean = (p.lean||0) + V.br*0.006;c.save();
   // repère du corps (rotation autour du bassin)
   const piv = [x, y+2.6*u];const rot = (q)=>{const dx = q[0]-piv[0], dy = q[1]-piv[1], cs = Math.cos(lean), sn = Math.sin(lean);return [piv[0]+dx*cs-dy*sn, piv[1]+dx*sn+dy*cs];};
   const nk = rot([x, y]), T0 = clamp(p.turn ?? TOURNE), sN = rot([x+lerp(0.4, 0.62, T0)*u, y+lerp(0.4, 0.36, T0)*u]), sF = rot([x-lerp(0.3, 0.62, T0)*u, y+lerp(0.34, 0.36, T0)*u]);
@@ -57,10 +72,13 @@ function figure(c, x, y, u, p = {}, col = MAN){const V = p.calme === false ? {br
   const far = armOf(c, sF, p.far === undefined ? {} : p.far, u, col, false, 0, T0), near = armOf(c, sN, p.near === undefined ? {} : p.near, u, col, true, 0, T0);
   const farFront = p.farFront || T0 > 0.5;
   if(far && !p.defer && !farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
-  if(p.legs){c.save();const ly = y+3.25*u, L = p.legLen ?? 3.1*u;
-    c.fillStyle = rgb(col.pants || [44, 50, 62], 0.85);c.beginPath();c.roundRect(x-0.5*u, ly-0.2*u, 0.5*u, L, 0.18*u);c.fill();
-    c.fillStyle = rgb(col.pants || [44, 50, 62], 1);c.beginPath();c.roundRect(x+0.02*u, ly-0.2*u, 0.52*u, L, 0.18*u);c.fill();
-    c.fillStyle = '#16181c';c.beginPath();c.roundRect(x-0.52*u, ly+L-0.25*u, 0.66*u, 0.28*u, 0.12*u);c.roundRect(x+0.0*u, ly+L-0.25*u, 0.72*u, 0.3*u, 0.12*u);c.fill();c.restore();}
+  if(p.legs){const ly = y+3.25*u, L = p.legLen ?? 3.1*u, A = L*0.52, B = L*0.5, pc = col.pants || [44, 50, 62];
+    const w = p.walk;const leg = (hx, ph, dark) => {
+      let fx = hx, fy = ly+L-0.05*u;if(w != null){fx += Math.sin(ph)*0.55*u;fy -= Math.max(0, -Math.cos(ph))*0.28*u;}
+      const k1 = ik([hx, ly], [fx, fy], A, B, 1), k2 = ik([hx, ly], [fx, fy], A, B, -1);const K = (k1.E[0] >= k2.E[0] ? k1 : k2);
+      c.fillStyle = rgb(pc, dark ? 0.78 : 1);taper(c, [hx, ly], K.E, 0.5*u, 0.42*u);taper(c, K.E, K.W, 0.42*u, 0.34*u);
+      c.fillStyle = dark ? '#101215' : '#16181c';c.save();c.translate(K.W[0], K.W[1]);c.rotate(w != null ? Math.max(0, -Math.cos(ph))*-0.25 : 0);c.beginPath();c.roundRect(-0.22*u, -0.08*u, 0.62*u, 0.26*u, 0.12*u);c.fill();c.restore();};
+    const ph = (w || 0)*Math.PI*2;leg(x-0.2*u, ph+Math.PI, true);leg(x+0.22*u, ph, false);}
   // torse
   c.save();c.translate(piv[0], piv[1]);c.rotate(lean);c.translate(-piv[0], -piv[1]);
   c.fillStyle = T0 > 0.5 ? lg(c, x-0.85*u, 0, x+0.85*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.5, rgb(col.shirt, 1.06)], [1, rgb(col.shirtD, 0.95)]]) : lg(c, x-0.8*u, 0, x+0.8*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.45, rgb(col.shirt, 1.0)], [1, rgb(col.shirt, 1.1)]]);
