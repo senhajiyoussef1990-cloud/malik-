@@ -1,0 +1,249 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s à ajuster à la voix. Validation clinique avant publication.",
+  "episodes": [
+    {
+      "id": "EP039",
+      "title": "Et si tes doigts commençaient à geler ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/gelures",
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Recommandations comparées au texte Ameli retourné par la recherche; revue clinique indépendante requise",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tes doigts commençaient à geler ?",
+          "subtitle": "Et si tes doigts commençaient à geler ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : Accroche hivernale",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "En pleine promenade hivernale, tes doigts blanchissent. Tu sens des picotements, puis presque plus rien.",
+          "subtitle": "En pleine promenade hivernale, tes doigts blanchissent. Tu sens des picotements, puis presque plus rien.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : marche neige",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Ce manque de sensibilité est un avertissement, même en l’absence de douleur. Protège-toi du froid.",
+          "subtitle": "Ce manque de sensibilité est un avertissement, même en l’absence de douleur. Protège-toi du froid.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : doigts pâles",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Une exposition prolongée peut endommager les tissus, parfois profondément.",
+          "subtitle": "Une exposition prolongée peut endommager les tissus, parfois profondément.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : coupe schématique peau",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Si des cloques apparaissent, rends-toi directement aux urgences.",
+          "subtitle": "Si des cloques apparaissent, rends-toi directement aux urgences.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : cloques stylisées",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Pour une atteinte superficielle, retire les bagues avant de réchauffer progressivement tes mains.",
+          "subtitle": "Pour une atteinte superficielle, retire les bagues avant de réchauffer progressivement tes mains.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : retrait bague",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Tu peux les placer sous tes aisselles. Ne les frictionne pas et ne les masse pas.",
+          "subtitle": "Tu peux les placer sous tes aisselles. Ne les frictionne pas et ne les masse pas.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : mains sous aisselles",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Évite le sèche-cheveux et le radiateur soufflant, qui peuvent aggraver les lésions.",
+          "subtitle": "Évite le sèche-cheveux et le radiateur soufflant, qui peuvent aggraver les lésions.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : radiateur barré",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Une fois réchauffées, protège tes mains d’une nouvelle exposition au gel.",
+          "subtitle": "Une fois réchauffées, protège tes mains d’une nouvelle exposition au gel.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : gants secs",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Si les lésions empirent après le réchauffement, consulte en urgence.",
+          "subtitle": "Si les lésions empirent après le réchauffement, consulte en urgence.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : accueil urgences",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : Logo officiel",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tes doigts commençaient à geler ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/gelures",
+        "social": "Et si tes doigts commençaient à geler ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP040",
+      "title": "Et si quelqu’un souffrait d’hypothermie grave ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie",
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Recommandations comparées au texte Ameli retourné par la recherche; revue clinique indépendante requise",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si quelqu’un souffrait d’hypothermie grave ?",
+          "subtitle": "Et si quelqu’un souffrait d’hypothermie grave ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : Accroche hivernale",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Après une longue exposition au froid, une personne devient maladroite, somnolente et parle difficilement.",
+          "subtitle": "Après une longue exposition au froid, une personne devient maladroite, somnolente et parle difficilement.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : randonneur somnolent",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Lorsque le refroidissement devient grave, les tremblements peuvent cesser et la respiration ralentir.",
+          "subtitle": "Lorsque le refroidissement devient grave, les tremblements peuvent cesser et la respiration ralentir.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : schéma refroidissement",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Appelle le 112. Précise le lieu et les symptômes observés.",
+          "subtitle": "Appelle le 112. Précise le lieu et les symptômes observés.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : téléphone 112",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Protège la personne du vent et du froid, en la séparant du sol et en évitant les mouvements brusques.",
+          "subtitle": "Protège la personne du vent et du froid, en la séparant du sol et en évitant les mouvements brusques.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : abri isolé du sol",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Remplace délicatement les habits mouillés par des vêtements secs et chauds.",
+          "subtitle": "Remplace délicatement les habits mouillés par des vêtements secs et chauds.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : vêtements secs",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Enveloppe-la dans une couverture sèche, en protégeant également sa tête.",
+          "subtitle": "Enveloppe-la dans une couverture sèche, en protégeant également sa tête.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : couverture tête protégée",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "N’utilise pas de bouillotte, de couverture chauffante ni de source de chaleur directe.",
+          "subtitle": "N’utilise pas de bouillotte, de couverture chauffante ni de source de chaleur directe.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : bouillotte barrée",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Ne masse pas sa peau. Reste en contact avec les secours pour adapter les gestes à son état.",
+          "subtitle": "Ne masse pas sa peau. Reste en contact avec les secours pour adapter les gestes à son état.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : appel secours",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Attends les indications de l’opérateur et ne raccroche pas avant qu’il te le demande.",
+          "subtitle": "Attends les indications de l’opérateur et ne raccroche pas avant qu’il te le demande.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : secouristes",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Ambiance hivernale discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique : Logo officiel",
+          "animation": "Plans variés, gestes conformes à la narration, aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si quelqu’un souffrait d’hypothermie grave ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie",
+        "social": "Et si quelqu’un souffrait d’hypothermie grave ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
