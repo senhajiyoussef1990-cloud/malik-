@@ -3,35 +3,36 @@
  "id": "EP000",
  "slug": "prototype-poele-feu",
  "voice": [
+  "fr-FR-HenriNeural",
   "fr-FR-RemyMultilingualNeural"
  ],
  "rate": "-2%",
- "duration": 16.467,
+ "duration": 18.9,
  "scenes": [
   {
    "scene": 1,
    "start": 0.0,
-   "dur": 2.6,
+   "dur": 5.0333,
    "voix": "s01.mp3",
-   "voix_dur": 1.896
+   "voix_dur": 4.392
   },
   {
    "scene": 2,
-   "start": 2.6,
+   "start": 5.033,
    "dur": 4.0667,
    "voix": "s02.mp3",
    "voix_dur": 3.408
   },
   {
    "scene": 3,
-   "start": 6.667,
+   "start": 9.1,
    "dur": 4.2,
    "voix": "s03.mp3",
    "voix_dur": 3.552
   },
   {
    "scene": 4,
-   "start": 10.867,
+   "start": 13.3,
    "dur": 5.6,
    "voix": "s04.mp3",
    "voix_dur": 4.08
@@ -39,7 +40,7 @@
  ],
  "captions": [
   {
-   "s": 2.952,
+   "s": 5.385,
    "toks": [
     {
      "w": "Tu",
@@ -62,10 +63,10 @@
      "k": false
     }
    ],
-   "e": 4.712
+   "e": 7.146
   },
   {
-   "s": 4.712,
+   "s": 7.146,
    "toks": [
     {
      "w": "Elle",
@@ -84,10 +85,10 @@
      "k": false
     }
    ],
-   "e": 6.617
+   "e": 9.05
   },
   {
-   "s": 7.006,
+   "s": 9.439,
    "toks": [
     {
      "w": "Si",
@@ -110,10 +111,10 @@
      "k": false
     }
    ],
-   "e": 8.715
+   "e": 11.148
   },
   {
-   "s": 8.715,
+   "s": 11.148,
    "toks": [
     {
      "w": "des",
@@ -132,10 +133,10 @@
      "k": false
     }
    ],
-   "e": 10.817
+   "e": 13.25
   },
   {
-   "s": 11.206,
+   "s": 13.639,
    "toks": [
     {
      "w": "Surtout,",
@@ -158,10 +159,10 @@
      "k": false
     }
    ],
-   "e": 13.362
+   "e": 15.795
   },
   {
-   "s": 13.362,
+   "s": 15.795,
    "toks": [
     {
      "w": "elle",
@@ -180,10 +181,10 @@
      "k": true
     }
    ],
-   "e": 14.305
+   "e": 16.739
   },
   {
-   "s": 14.305,
+   "s": 16.739,
    "toks": [
     {
      "w": "de",
@@ -194,10 +195,11 @@
      "k": true
     }
    ],
-   "e": 16.417
+   "e": 18.85
   }
  ],
  "cues": {
+  "saurais": 2.584,
   "fumer": 2.712,
   "flammes": 2.151,
   "eau": 1.883,
