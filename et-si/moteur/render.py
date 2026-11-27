@@ -25,6 +25,7 @@ def rendre(indices):
         outro = tm['scenes'][-1]['start']
         pg.evaluate(f"setCaptions({json.dumps(tm['captions'])},{outro})")
         pg.evaluate(f"setCues({json.dumps(tm['cues'])})")
+        pg.evaluate(f"if(window.setTitre)setTitre({json.dumps(tm.get('title', ''))})")
         for si in indices:
             s = tm['scenes'][si]
             n = round(s['dur'] * FPS); tmp = parts / f's{si+1:02d}.tmp.mp4'; fin = parts / f's{si+1:02d}.mp4'

@@ -7,6 +7,8 @@ canvas{display:block}
 </style></head>
 <body><canvas id="c"></canvas>
 <script>
+let TITRE='Et si ?';function setTitre(t){if(t)TITRE=t;}
+
 const W=1080,H=1920;
 const cv=document.getElementById('c');cv.width=W;cv.height=H;
 const ctx=cv.getContext('2d');
@@ -117,7 +119,7 @@ function finish(t){
   ctx.globalCompositeOperation='source-over';ctx.globalAlpha=1;
   // watermark
   ctx.font='700 30px M';ctx.fillStyle='rgba(255,255,255,0.55)';ctx.textAlign='left';ctx.textBaseline='alphabetic';
-  ctx.fillText('© Et si ?',60,250);
+  ctx.fillText(TITRE,60,250);
 }
 function txt(s,x,y,size,col='#fff',w=800,align='center',alpha=1,ls=0){
   ctx.save();ctx.globalAlpha*=alpha;ctx.font=`${w} ${size}px M`;ctx.textAlign=align;ctx.textBaseline='middle';

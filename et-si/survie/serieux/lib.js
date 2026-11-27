@@ -1,3 +1,4 @@
+let TITRE='Et si ?';function setTitre(t){if(t)TITRE=t;}
 /* Et si ? — style « sérieux » : bibliothèque de dessin commune.
    Décors éclairés (lumière du feu / lampe), personnages articulés vus de profil avec
    éclairage de contour, textes sobres, sous-titres. Chaque épisode définit SCENES. */
@@ -125,7 +126,7 @@ function kitchen(c,o={}){
 /* ---------- habillage ---------- */
 function post(c,t){c.fillStyle=rg(c,W/2,H*0.46,H*0.25,H*0.8,[[0,'rgba(0,0,0,0)'],[1,'rgba(0,0,0,0.6)']]);c.fillRect(0,0,W,H);tile(c,GRAIN,0.07,'overlay',0,0,W,H,(t*997%540)|0,(t*613%540)|0);}
 function topShade(c,h=760){c.fillStyle=lg(c,0,0,0,h,[[0,'rgba(0,0,0,0.78)'],[1,'rgba(0,0,0,0)']]);c.fillRect(0,0,W,h);}
-function marks(c){c.save();c.font='600 28px M';c.fillStyle='rgba(255,255,255,0.6)';c.textAlign='left';c.textBaseline='alphabetic';c.fillText('ET SI ?',60,200);c.textAlign='right';c.fillText('SIMULATION',W-60,200);
+function marks(c){c.save();c.font='600 28px M';c.fillStyle='rgba(255,255,255,0.6)';c.textAlign='left';c.textBaseline='alphabetic';c.fillText(TITRE,60,200);c.textAlign='right';c.fillText('SIMULATION',W-60,200);
   if(DRAFT){c.font='700 22px M';c.fillStyle='rgba(255,90,70,0.9)';c.fillText('BROUILLON · NON VALIDÉ',W-60,234);}c.restore();}
 function fadeIn(t,t0,d=0.3){return clamp((t-t0)/d);}
 function label(c,s,y,a,kind='red'){if(a<=0)return;const bg={red:'rgba(214,48,36,0.95)',yellow:'rgba(255,200,0,0.95)',green:'rgba(30,150,80,0.95)',dark:'rgba(10,12,16,0.85)'}[kind];const fg=kind==='yellow'?'#111':'#fff';

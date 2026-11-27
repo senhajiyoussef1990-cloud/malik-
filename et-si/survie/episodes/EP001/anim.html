@@ -6,6 +6,8 @@ html,body{margin:0;background:#000}
 </style></head>
 <body><canvas id="c"></canvas>
 <script>
+let TITRE='Et si ?';function setTitre(t){if(t)TITRE=t;}
+
 /* Et si ? — EP001 « Et si ta casserole d'huile prenait feu ? »
    Style : pictogrammes animés type consignes de sécurité. Les gestes montrés sont
    uniquement ceux du kit kits-verification/EP001.json. */
@@ -144,7 +146,7 @@ function finish(t){
   ctx.globalAlpha=0.04;ctx.globalCompositeOperation='overlay';const ox=(t*997%512)|0,oy=(t*613%512)|0;
   for(let y=-oy;y<H;y+=512)for(let x=-ox;x<W;x+=512)ctx.drawImage(grainC,x,y);
   ctx.globalCompositeOperation='source-over';ctx.globalAlpha=1;
-  ctx.font='700 30px M';ctx.fillStyle='rgba(255,255,255,0.6)';ctx.textAlign='left';ctx.textBaseline='alphabetic';ctx.fillText('© Et si ?',60,250);
+  ctx.font='700 30px M';ctx.fillStyle='rgba(255,255,255,0.6)';ctx.textAlign='left';ctx.textBaseline='alphabetic';ctx.fillText(TITRE,60,250);
   ctx.textAlign='right';ctx.fillText('SIMULATION',W-60,250);
   if(DRAFT){ctx.save();ctx.font='800 24px M';ctx.fillStyle='rgba(255,59,59,0.9)';ctx.textAlign='right';ctx.fillText('BROUILLON · NON VALIDÉ',W-60,288);ctx.restore();}
 }

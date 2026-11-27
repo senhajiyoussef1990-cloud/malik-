@@ -161,7 +161,7 @@ def main():
         if 'episodes' in k:
             k = next(e for e in k['episodes'] if e['id'] == a.id)
         kid = k['id'] if str(k['id']).startswith('EP') else 'EP' + k['id']
-        ep = {'id': kid, 'slug': SLUG.get(kid[2:], 'episode'),
+        ep = {'id': kid, 'slug': SLUG.get(kid[2:], 'episode'), 'title': k.get('title', ''),
               'scenes': [{'narration': x['voix']} for x in k['scenes']]}
     else:
         ep = json.load(open(SCENARIOS))['episodes'][a.ep - 1]
@@ -213,7 +213,7 @@ def main():
     if len(VOIX_UTILISEES) > 1:
         raise SystemExit(f'voix mélangées malgré la reprise : {sorted(VOIX_UTILISEES)}')
     json.dump({'episode': a.ep, 'id': ep['id'], 'slug': ep['slug'], 'voice': sorted(VOIX_UTILISEES) or [a.voice], 'rate': a.rate,
-               'duration': round(t, 3), 'scenes': scenes, 'captions': caps, 'cues': cues},
+               'title': ep.get('title') or ep.get('titre', ''), 'duration': round(t, 3), 'scenes': scenes, 'captions': caps, 'cues': cues},
               open(out / 'timing.json', 'w'), ensure_ascii=False, indent=1)
     print('voix utilisée(s) :', sorted(VOIX_UTILISEES))
     print(f"{ep['id']} : {t:.1f} s, {len(caps)} sous-titres, repères {cues}")
