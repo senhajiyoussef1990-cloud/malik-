@@ -31,17 +31,17 @@ jobs:
       - name: Produire les épisodes
         run: |
           D=et-si/survie/serieux
-          grep -v '^#' $D/episodes.txt | while read ID LOT PROFIL; do
-            [ -z "$ID" ] && continue
+          while read ID LOT PROFIL; do
+            case "$ID" in ''|'#'*) continue;; esac
             echo "::group::$ID"
             O=sortie/$ID
-            python et-si/moteur/voix.py --kit et-si/survie/domestique/$LOT --id $ID --cues $D/$ID/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --mini 7.5 --tail 0.9 --maxchars 40
-            python et-si/moteur/render.py --anim $D/$ID/anim.html --out $O
-            python $D/audio.py --out $O --profil $PROFIL
-            python et-si/moteur/assembler.py --out $O
-            ffmpeg -hide_banner -i $O/EP*.mp4 -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2
+            python et-si/moteur/voix.py --kit et-si/survie/domestique/$LOT --id $ID --cues $D/$ID/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --mini 7.5 --tail 0.9 --maxchars 40 < /dev/null
+            python et-si/moteur/render.py --anim $D/$ID/anim.html --out $O < /dev/null
+            python $D/audio.py --out $O --profil $PROFIL < /dev/null
+            python et-si/moteur/assembler.py --out $O < /dev/null
+            ffmpeg -nostdin -hide_banner -i $O/EP*.mp4 -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2
             echo "::endgroup::"
-          done
+          done < $D/episodes.txt
       - name: Publier sur et-si-sorties
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
