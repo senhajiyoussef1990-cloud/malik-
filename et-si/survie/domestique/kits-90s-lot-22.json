@@ -1,0 +1,417 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s à mesurer. Relecture spécialisée obligatoire avant publication.",
+  "episodes": [
+    {
+      "id": "EP081",
+      "title": "Et si une avalanche menaçait ta randonnée ?",
+      "source": "https://www.georisques.gouv.fr/minformer-sur-un-risque/avalanche",
+      "verification": {
+        "status": "Source officielle lue dans cette session; validation de chaque formulation et relecture indépendante requises",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une avalanche menaçait ta randonnée ?",
+          "subtitle": "Et si une avalanche menaçait ta randonnée ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si une avalanche menaçait ta randonnée ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu arrives au pied d’une pente enneigée. Le paysage est magnifique, mais la stabilité de la neige ne peut pas se déduire de sa seule apparence.",
+          "subtitle": "Tu arrives au pied d’une pente enneigée. Le paysage est magnifique, mais la stabilité de la neige ne peut pas se déduire de sa seule apparence.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu arrives au pied d’une pente enneigée. Le paysage est magnifique, mais la stabilité de la neige ne peut pas se déduire de sa seule apparence.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Avant ton départ, consulte le bulletin avalanche du massif et les restrictions locales. Une sortie peut être reportée.",
+          "subtitle": "Avant ton départ, consulte le bulletin avalanche du massif et les restrictions locales. Une sortie peut être reportée.",
+          "prompt_image": "Simulation 3D verticale non graphique : Avant ton départ, consulte le bulletin avalanche du massif et les restrictions locales. Une sortie peut être reportée.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Ne pars pas seul. Communique ton parcours et ton heure de retour à un proche qui ne participe pas à la sortie.",
+          "subtitle": "Ne pars pas seul. Communique ton parcours et ton heure de retour à un proche qui ne participe pas à la sortie.",
+          "prompt_image": "Simulation 3D verticale non graphique : Ne pars pas seul. Communique ton parcours et ton heure de retour à un proche qui ne participe pas à la sortie.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Emporte un détecteur de victimes d’avalanche, une pelle, une sonde et un téléphone. La préparation à leur utilisation mérite une formation pratique.",
+          "subtitle": "Emporte un détecteur de victimes d’avalanche, une pelle, une sonde et un téléphone. La préparation à leur utilisation mérite une formation pratique.",
+          "prompt_image": "Simulation 3D verticale non graphique : Emporte un détecteur de victimes d’avalanche, une pelle, une sonde et un téléphone. La préparation à leur utilisation mérite une formation pratique.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Pendant la randonnée, espace les membres du groupe et évite de stationner sous la trace des autres.",
+          "subtitle": "Pendant la randonnée, espace les membres du groupe et évite de stationner sous la trace des autres.",
+          "prompt_image": "Simulation 3D verticale non graphique : Pendant la randonnée, espace les membres du groupe et évite de stationner sous la trace des autres.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Si une avalanche se déclenche, tente de quitter sa trajectoire par le côté plutôt que de chercher à la distancer en descendant.",
+          "subtitle": "Si une avalanche se déclenche, tente de quitter sa trajectoire par le côté plutôt que de chercher à la distancer en descendant.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si une avalanche se déclenche, tente de quitter sa trajectoire par le côté plutôt que de chercher à la distancer en descendant.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Si tu es témoin, protège-toi et mémorise le dernier endroit où tu as aperçu les victimes. Après la coulée, alerte le 112.",
+          "subtitle": "Si tu es témoin, protège-toi et mémorise le dernier endroit où tu as aperçu les victimes. Après la coulée, alerte le 112.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si tu es témoin, protège-toi et mémorise le dernier endroit où tu as aperçu les victimes. Après la coulée, alerte le 112.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une avalanche menaçait ta randonnée ? #Shorts",
+        "description": "Prévention. Source : https://www.georisques.gouv.fr/minformer-sur-un-risque/avalanche",
+        "social": "Et si une avalanche menaçait ta randonnée ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP082",
+      "title": "Et si une alerte tsunami retentissait sur la plage ?",
+      "source": "https://www.georisques.gouv.fr/DICRIM/34023",
+      "verification": {
+        "status": "Source officielle lue dans cette session; validation de chaque formulation et relecture indépendante requises",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une alerte tsunami retentissait sur la plage ?",
+          "subtitle": "Et si une alerte tsunami retentissait sur la plage ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si une alerte tsunami retentissait sur la plage ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu passes tes vacances au bord de la mer. Une alerte annonce une menace de tsunami. Ne reste pas pour observer les vagues.",
+          "subtitle": "Tu passes tes vacances au bord de la mer. Une alerte annonce une menace de tsunami. Ne reste pas pour observer les vagues.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu passes tes vacances au bord de la mer. Une alerte annonce une menace de tsunami. Ne reste pas pour observer les vagues.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Un tsunami peut résulter d’un mouvement brutal des fonds marins. Plusieurs vagues peuvent atteindre successivement la côte.",
+          "subtitle": "Un tsunami peut résulter d’un mouvement brutal des fonds marins. Plusieurs vagues peuvent atteindre successivement la côte.",
+          "prompt_image": "Simulation 3D verticale non graphique : Un tsunami peut résulter d’un mouvement brutal des fonds marins. Plusieurs vagues peuvent atteindre successivement la côte.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Si tu es sur la plage, rejoins immédiatement les hauteurs à pied. Suis les itinéraires d’évacuation lorsqu’ils sont indiqués.",
+          "subtitle": "Si tu es sur la plage, rejoins immédiatement les hauteurs à pied. Suis les itinéraires d’évacuation lorsqu’ils sont indiqués.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si tu es sur la plage, rejoins immédiatement les hauteurs à pied. Suis les itinéraires d’évacuation lorsqu’ils sont indiqués.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Ne prends pas ta voiture pour cette évacuation. Le déplacement à pied est la consigne prévue dans ce scénario côtier.",
+          "subtitle": "Ne prends pas ta voiture pour cette évacuation. Le déplacement à pied est la consigne prévue dans ce scénario côtier.",
+          "prompt_image": "Simulation 3D verticale non graphique : Ne prends pas ta voiture pour cette évacuation. Le déplacement à pied est la consigne prévue dans ce scénario côtier.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "N’emporte que le nécessaire déjà accessible. Ne transforme pas ton départ en séance de préparation des bagages.",
+          "subtitle": "N’emporte que le nécessaire déjà accessible. Ne transforme pas ton départ en séance de préparation des bagages.",
+          "prompt_image": "Simulation 3D verticale non graphique : N’emporte que le nécessaire déjà accessible. Ne transforme pas ton départ en séance de préparation des bagages.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Écoute les informations officielles et respecte les directives des autorités locales.",
+          "subtitle": "Écoute les informations officielles et respecte les directives des autorités locales.",
+          "prompt_image": "Simulation 3D verticale non graphique : Écoute les informations officielles et respecte les directives des autorités locales.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "La simulation s’arrête dans la zone de sécurité. Ce n’est pas à toi de décider que l’alerte est terminée.",
+          "subtitle": "La simulation s’arrête dans la zone de sécurité. Ce n’est pas à toi de décider que l’alerte est terminée.",
+          "prompt_image": "Simulation 3D verticale non graphique : La simulation s’arrête dans la zone de sécurité. Ce n’est pas à toi de décider que l’alerte est terminée.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une alerte tsunami retentissait sur la plage ? #Shorts",
+        "description": "Prévention. Source : https://www.georisques.gouv.fr/DICRIM/34023",
+        "social": "Et si une alerte tsunami retentissait sur la plage ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP083",
+      "title": "Et si ton enfant disparaissait de ton champ de vision à la piscine ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/canicule-chaleur/chaleur-noyade",
+      "verification": {
+        "status": "Source officielle lue dans cette session; validation de chaque formulation et relecture indépendante requises",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton enfant disparaissait de ton champ de vision à la piscine ?",
+          "subtitle": "Et si ton enfant disparaissait de ton champ de vision à la piscine ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si ton enfant disparaissait de ton champ de vision à la piscine ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu accompagnes ton enfant à la piscine. Une conversation détourne ton regard. C’est précisément cette distraction que la prévention cherche à éviter.",
+          "subtitle": "Tu accompagnes ton enfant à la piscine. Une conversation détourne ton regard. C’est précisément cette distraction que la prévention cherche à éviter.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu accompagnes ton enfant à la piscine. Une conversation détourne ton regard. C’est précisément cette distraction que la prévention cherche à éviter.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "La surveillance doit être continue. Désigne clairement un adulte responsable de l’enfant, sans supposer qu’un autre le surveille.",
+          "subtitle": "La surveillance doit être continue. Désigne clairement un adulte responsable de l’enfant, sans supposer qu’un autre le surveille.",
+          "prompt_image": "Simulation 3D verticale non graphique : La surveillance doit être continue. Désigne clairement un adulte responsable de l’enfant, sans supposer qu’un autre le surveille.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Baigne-toi avec lui et choisis un endroit surveillé. La présence de sauveteurs ne remplace pas ton attention.",
+          "subtitle": "Baigne-toi avec lui et choisis un endroit surveillé. La présence de sauveteurs ne remplace pas ton attention.",
+          "prompt_image": "Simulation 3D verticale non graphique : Baigne-toi avec lui et choisis un endroit surveillé. La présence de sauveteurs ne remplace pas ton attention.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Apprendre à nager dès que possible fait aussi partie des mesures recommandées pour réduire les risques.",
+          "subtitle": "Apprendre à nager dès que possible fait aussi partie des mesures recommandées pour réduire les risques.",
+          "prompt_image": "Simulation 3D verticale non graphique : Apprendre à nager dès que possible fait aussi partie des mesures recommandées pour réduire les risques.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Respecte les restrictions de baignade et les conditions du lieu. Elles peuvent évoluer au cours de la journée.",
+          "subtitle": "Respecte les restrictions de baignade et les conditions du lieu. Elles peuvent évoluer au cours de la journée.",
+          "prompt_image": "Simulation 3D verticale non graphique : Respecte les restrictions de baignade et les conditions du lieu. Elles peuvent évoluer au cours de la journée.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Si une urgence survient, alerte immédiatement les sauveteurs et les secours au 112.",
+          "subtitle": "Si une urgence survient, alerte immédiatement les sauveteurs et les secours au 112.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si une urgence survient, alerte immédiatement les sauveteurs et les secours au 112.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Le meilleur moment pour organiser cette surveillance est avant d’entrer dans l’eau.",
+          "subtitle": "Le meilleur moment pour organiser cette surveillance est avant d’entrer dans l’eau.",
+          "prompt_image": "Simulation 3D verticale non graphique : Le meilleur moment pour organiser cette surveillance est avant d’entrer dans l’eau.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton enfant disparaissait de ton champ de vision à la piscine ? #Shorts",
+        "description": "Prévention. Source : https://www.ameli.fr/assure/sante/themes/canicule-chaleur/chaleur-noyade",
+        "social": "Et si ton enfant disparaissait de ton champ de vision à la piscine ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP084",
+      "title": "Et si tu surestimais tes forces en nageant en mer ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/canicule-chaleur/chaleur-noyade",
+      "verification": {
+        "status": "Source officielle lue dans cette session; validation de chaque formulation et relecture indépendante requises",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu surestimais tes forces en nageant en mer ?",
+          "subtitle": "Et si tu surestimais tes forces en nageant en mer ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si tu surestimais tes forces en nageant en mer ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu te sens en forme et tu envisages une longue baignade. Mais ton envie de nager ne suffit pas pour déterminer si les conditions sont sûres.",
+          "subtitle": "Tu te sens en forme et tu envisages une longue baignade. Mais ton envie de nager ne suffit pas pour déterminer si les conditions sont sûres.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu te sens en forme et tu envisages une longue baignade. Mais ton envie de nager ne suffit pas pour déterminer si les conditions sont sûres.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Avant de te mettre à l’eau, examine les conditions météorologiques et les vagues, ainsi que les consignes affichées.",
+          "subtitle": "Avant de te mettre à l’eau, examine les conditions météorologiques et les vagues, ainsi que les consignes affichées.",
+          "prompt_image": "Simulation 3D verticale non graphique : Avant de te mettre à l’eau, examine les conditions météorologiques et les vagues, ainsi que les consignes affichées.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Choisis une zone surveillée et informe un proche de ton intention de te baigner.",
+          "subtitle": "Choisis une zone surveillée et informe un proche de ton intention de te baigner.",
+          "prompt_image": "Simulation 3D verticale non graphique : Choisis une zone surveillée et informe un proche de ton intention de te baigner.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Adapte ton effort à ton état de santé et à ta condition physique réelle. Il ne s’agit pas de réussir un défi.",
+          "subtitle": "Adapte ton effort à ton état de santé et à ta condition physique réelle. Il ne s’agit pas de réussir un défi.",
+          "prompt_image": "Simulation 3D verticale non graphique : Adapte ton effort à ton état de santé et à ta condition physique réelle. Il ne s’agit pas de réussir un défi.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Évite de boire de l’alcool avant la baignade. Sa consommation augmente le danger associé aux accidents de noyade.",
+          "subtitle": "Évite de boire de l’alcool avant la baignade. Sa consommation augmente le danger associé aux accidents de noyade.",
+          "prompt_image": "Simulation 3D verticale non graphique : Évite de boire de l’alcool avant la baignade. Sa consommation augmente le danger associé aux accidents de noyade.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Si tu souffres d’une maladie pouvant entraîner un malaise, demande à ton médecin comment adapter tes baignades.",
+          "subtitle": "Si tu souffres d’une maladie pouvant entraîner un malaise, demande à ton médecin comment adapter tes baignades.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si tu souffres d’une maladie pouvant entraîner un malaise, demande à ton médecin comment adapter tes baignades.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Renoncer à une baignade lorsque les conditions sont mauvaises est une décision de prévention.",
+          "subtitle": "Renoncer à une baignade lorsque les conditions sont mauvaises est une décision de prévention.",
+          "prompt_image": "Simulation 3D verticale non graphique : Renoncer à une baignade lorsque les conditions sont mauvaises est une décision de prévention.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne ajoutée",
+          "son": "Ambiance discrète, voix prioritaire"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu surestimais tes forces en nageant en mer ? #Shorts",
+        "description": "Prévention. Source : https://www.ameli.fr/assure/sante/themes/canicule-chaleur/chaleur-noyade",
+        "social": "Et si tu surestimais tes forces en nageant en mer ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
