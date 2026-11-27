@@ -1,0 +1,247 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s. Ne pas publier avant validation professionnelle. EP035 bloqué jusqu’au contrôle du refroidissement.",
+  "episodes": [
+    {
+      "id": "EP034",
+      "title": "Et si un serpent te mordait pendant une randonnée ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-serpent",
+      "verification": {
+        "status": "Conseils principaux contrôlés sur le texte officiel",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un serpent te mordait pendant une randonnée ?",
+          "subtitle": "Et si un serpent te mordait pendant une randonnée ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si un serpent te mordait pendant une randonnée ?",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu marches sur un sentier européen lorsqu’un serpent te mord à la cheville.",
+          "subtitle": "Tu marches sur un sentier européen lorsqu’un serpent te mord à la cheville.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu marches sur un sentier européen lorsqu’un serpent te mord à la cheville.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Écarte-toi de l’animal sans essayer de le capturer.",
+          "subtitle": "Écarte-toi de l’animal sans essayer de le capturer.",
+          "prompt_image": "Simulation 3D verticale non graphique : Écarte-toi de l’animal sans essayer de le capturer.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Même si la douleur semble faible, appelle le 112 immédiatement.",
+          "subtitle": "Même si la douleur semble faible, appelle le 112 immédiatement.",
+          "prompt_image": "Simulation 3D verticale non graphique : Même si la douleur semble faible, appelle le 112 immédiatement.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Reste allongé et limite les mouvements du membre atteint.",
+          "subtitle": "Reste allongé et limite les mouvements du membre atteint.",
+          "prompt_image": "Simulation 3D verticale non graphique : Reste allongé et limite les mouvements du membre atteint.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Retire les bijoux et les éléments qui pourraient serrer la zone si elle gonfle.",
+          "subtitle": "Retire les bijoux et les éléments qui pourraient serrer la zone si elle gonfle.",
+          "prompt_image": "Simulation 3D verticale non graphique : Retire les bijoux et les éléments qui pourraient serrer la zone si elle gonfle.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "N’utilise ni garrot ni pansement compressif.",
+          "subtitle": "N’utilise ni garrot ni pansement compressif.",
+          "prompt_image": "Simulation 3D verticale non graphique : N’utilise ni garrot ni pansement compressif.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Ne coupe pas la plaie et ne tente pas d’aspirer le venin.",
+          "subtitle": "Ne coupe pas la plaie et ne tente pas d’aspirer le venin.",
+          "prompt_image": "Simulation 3D verticale non graphique : Ne coupe pas la plaie et ne tente pas d’aspirer le venin.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "N’applique pas de glace sur la morsure.",
+          "subtitle": "N’applique pas de glace sur la morsure.",
+          "prompt_image": "Simulation 3D verticale non graphique : N’applique pas de glace sur la morsure.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Reste avec la victime et suis les instructions des secours jusqu’à leur arrivée.",
+          "subtitle": "Reste avec la victime et suis les instructions des secours jusqu’à leur arrivée.",
+          "prompt_image": "Simulation 3D verticale non graphique : Reste avec la victime et suis les instructions des secours jusqu’à leur arrivée.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un serpent te mordait pendant une randonnée ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-serpent",
+        "social": "Et si un serpent te mordait pendant une randonnée ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP035",
+      "title": "Et si quelqu’un faisait un coup de chaleur devant toi ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/canicule-chaleur/canicule-et-soins-urgents-epuisement-deshydratation-et-coup-de-chaleur",
+      "verification": {
+        "status": "Signes et urgence contrôlés; compléter le protocole de refroidissement avant production",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si quelqu’un faisait un coup de chaleur devant toi ?",
+          "subtitle": "Et si quelqu’un faisait un coup de chaleur devant toi ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si quelqu’un faisait un coup de chaleur devant toi ?",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Pendant une journée très chaude, une personne commence à se comporter bizarrement.",
+          "subtitle": "Pendant une journée très chaude, une personne commence à se comporter bizarrement.",
+          "prompt_image": "Simulation 3D verticale non graphique : Pendant une journée très chaude, une personne commence à se comporter bizarrement.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Des vertiges, des nausées et une confusion peuvent annoncer un coup de chaleur.",
+          "subtitle": "Des vertiges, des nausées et une confusion peuvent annoncer un coup de chaleur.",
+          "prompt_image": "Simulation 3D verticale non graphique : Des vertiges, des nausées et une confusion peuvent annoncer un coup de chaleur.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "La peau peut être chaude, sèche ou encore humide de transpiration.",
+          "subtitle": "La peau peut être chaude, sèche ou encore humide de transpiration.",
+          "prompt_image": "Simulation 3D verticale non graphique : La peau peut être chaude, sèche ou encore humide de transpiration.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Une température corporelle très élevée et des troubles de la conscience sont particulièrement alarmants.",
+          "subtitle": "Une température corporelle très élevée et des troubles de la conscience sont particulièrement alarmants.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une température corporelle très élevée et des troubles de la conscience sont particulièrement alarmants.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Il s’agit d’une urgence médicale. Appelle le 112 sans attendre.",
+          "subtitle": "Il s’agit d’une urgence médicale. Appelle le 112 sans attendre.",
+          "prompt_image": "Simulation 3D verticale non graphique : Il s’agit d’une urgence médicale. Appelle le 112 sans attendre.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Décris les symptômes et les circonstances de l’exposition à la chaleur.",
+          "subtitle": "Décris les symptômes et les circonstances de l’exposition à la chaleur.",
+          "prompt_image": "Simulation 3D verticale non graphique : Décris les symptômes et les circonstances de l’exposition à la chaleur.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Ne confonds pas cette situation avec une simple sensation de soif.",
+          "subtitle": "Ne confonds pas cette situation avec une simple sensation de soif.",
+          "prompt_image": "Simulation 3D verticale non graphique : Ne confonds pas cette situation avec une simple sensation de soif.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Suis immédiatement les consignes de refroidissement données par les secours.",
+          "subtitle": "Suis immédiatement les consignes de refroidissement données par les secours.",
+          "prompt_image": "Simulation 3D verticale non graphique : Suis immédiatement les consignes de refroidissement données par les secours.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Pour prévenir le danger, évite les expositions prolongées aux fortes chaleurs.",
+          "subtitle": "Pour prévenir le danger, évite les expositions prolongées aux fortes chaleurs.",
+          "prompt_image": "Simulation 3D verticale non graphique : Pour prévenir le danger, évite les expositions prolongées aux fortes chaleurs.",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Ambiance extérieure discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Cadrage dynamique, continuité personnage, aucune technique ajoutée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si quelqu’un faisait un coup de chaleur devant toi ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/canicule-chaleur/canicule-et-soins-urgents-epuisement-deshydratation-et-coup-de-chaleur",
+        "social": "Et si quelqu’un faisait un coup de chaleur devant toi ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
