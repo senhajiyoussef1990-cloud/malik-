@@ -1,0 +1,945 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s; narration courte à étoffer uniquement sur sources vérifiées. Respecter les consignes locales; validation spécialisée avant diffusion.",
+  "episodes": [
+    {
+      "id": "EP061",
+      "title": "Et si une tempête frappait ta maison ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/vent-et-tempete",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une tempête frappait ta maison ?",
+          "subtitle": "Et si une tempête frappait ta maison ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si une tempête frappait ta maison ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Le vent se renforce et les meubles du jardin commencent à bouger. Avant la tempête, rentre ou fixe les objets susceptibles de s’envoler.",
+          "subtitle": "Le vent se renforce et les meubles du jardin commencent à bouger. Avant la tempête, rentre ou fixe les objets susceptibles de s’envoler.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Le vent se renforce et les meubles du jardin commencent à bouger. Avant la tempête, rentre ou fixe les objets susceptibles de s’envoler.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Consulte les alertes météo et fais rentrer tes animaux domestiques.",
+          "subtitle": "Consulte les alertes météo et fais rentrer tes animaux domestiques.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Consulte les alertes météo et fais rentrer tes animaux domestiques.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Lorsque la tempête arrive, reste à l’intérieur et ferme les ouvertures de la maison.",
+          "subtitle": "Lorsque la tempête arrive, reste à l’intérieur et ferme les ouvertures de la maison.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Lorsque la tempête arrive, reste à l’intérieur et ferme les ouvertures de la maison.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Si tu dois te déplacer, évite les arbres et les routes recouvertes d’eau.",
+          "subtitle": "Si tu dois te déplacer, évite les arbres et les routes recouvertes d’eau.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si tu dois te déplacer, évite les arbres et les routes recouvertes d’eau.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Après le passage du vent, garde tes distances avec les câbles électriques tombés.",
+          "subtitle": "Après le passage du vent, garde tes distances avec les câbles électriques tombés.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Après le passage du vent, garde tes distances avec les câbles électriques tombés.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "En Belgique, utilise le 1722.be pour une intervention non urgente des pompiers. Si une vie est menacée, appelle le 112.",
+          "subtitle": "En Belgique, utilise le 1722.be pour une intervention non urgente des pompiers. Si une vie est menacée, appelle le 112.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : En Belgique, utilise le 1722.be pour une intervention non urgente des pompiers. Si une vie est menacée, appelle le 112.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une tempête frappait ta maison ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/vent-et-tempete",
+        "social": "Et si une tempête frappait ta maison ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP062",
+      "title": "Et si un orage éclatait pendant ta promenade ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/vent-et-tempete",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un orage éclatait pendant ta promenade ?",
+          "subtitle": "Et si un orage éclatait pendant ta promenade ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si un orage éclatait pendant ta promenade ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Tu aperçois des éclairs au loin pendant une promenade. Les conditions peuvent évoluer rapidement.",
+          "subtitle": "Tu aperçois des éclairs au loin pendant une promenade. Les conditions peuvent évoluer rapidement.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Tu aperçois des éclairs au loin pendant une promenade. Les conditions peuvent évoluer rapidement.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Avant de partir, consulte les alertes météorologiques pour éviter de te retrouver dehors pendant l’orage.",
+          "subtitle": "Avant de partir, consulte les alertes météorologiques pour éviter de te retrouver dehors pendant l’orage.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Avant de partir, consulte les alertes météorologiques pour éviter de te retrouver dehors pendant l’orage.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Cherche un bâtiment où tu peux rester en sécurité.",
+          "subtitle": "Cherche un bâtiment où tu peux rester en sécurité.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Cherche un bâtiment où tu peux rester en sécurité.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Ne choisis jamais un arbre comme refuge contre la foudre.",
+          "subtitle": "Ne choisis jamais un arbre comme refuge contre la foudre.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Ne choisis jamais un arbre comme refuge contre la foudre.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Éloigne-toi des installations métalliques et suis les recommandations officielles.",
+          "subtitle": "Éloigne-toi des installations métalliques et suis les recommandations officielles.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Éloigne-toi des installations métalliques et suis les recommandations officielles.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Attends que le danger soit passé avant de reprendre ta promenade.",
+          "subtitle": "Attends que le danger soit passé avant de reprendre ta promenade.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Attends que le danger soit passé avant de reprendre ta promenade.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un orage éclatait pendant ta promenade ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/vent-et-tempete",
+        "social": "Et si un orage éclatait pendant ta promenade ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP063",
+      "title": "Et si une rivière débordait près de chez toi ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-fluviale-ou-de-riviere",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une rivière débordait près de chez toi ?",
+          "subtitle": "Et si une rivière débordait près de chez toi ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si une rivière débordait près de chez toi ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "La rivière monte après plusieurs jours de pluie. Les quartiers situés en contrebas risquent d’être touchés.",
+          "subtitle": "La rivière monte après plusieurs jours de pluie. Les quartiers situés en contrebas risquent d’être touchés.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : La rivière monte après plusieurs jours de pluie. Les quartiers situés en contrebas risquent d’être touchés.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Avant la crue, identifie les secteurs exposés et protège tes documents importants en hauteur.",
+          "subtitle": "Avant la crue, identifie les secteurs exposés et protège tes documents importants en hauteur.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Avant la crue, identifie les secteurs exposés et protège tes documents importants en hauteur.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Lorsque les eaux montent, réduis tes déplacements et évite les zones dangereuses.",
+          "subtitle": "Lorsque les eaux montent, réduis tes déplacements et évite les zones dangereuses.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Lorsque les eaux montent, réduis tes déplacements et évite les zones dangereuses.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Si cela reste sans danger, déplace les objets précieux vers un niveau plus élevé.",
+          "subtitle": "Si cela reste sans danger, déplace les objets précieux vers un niveau plus élevé.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si cela reste sans danger, déplace les objets précieux vers un niveau plus élevé.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Si les autorités ordonnent une évacuation, respecte leurs instructions.",
+          "subtitle": "Si les autorités ordonnent une évacuation, respecte leurs instructions.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si les autorités ordonnent une évacuation, respecte leurs instructions.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Après la crue, vérifie les recommandations officielles concernant l’eau du robinet.",
+          "subtitle": "Après la crue, vérifie les recommandations officielles concernant l’eau du robinet.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Après la crue, vérifie les recommandations officielles concernant l’eau du robinet.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une rivière débordait près de chez toi ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-fluviale-ou-de-riviere",
+        "social": "Et si une rivière débordait près de chez toi ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP064",
+      "title": "Et si une crue éclair traversait ton quartier ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-pluviale-eaux-de-ruissellement",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une crue éclair traversait ton quartier ?",
+          "subtitle": "Et si une crue éclair traversait ton quartier ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si une crue éclair traversait ton quartier ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Une pluie intense transforme soudain la rue en torrent. Les eaux peuvent transporter des débris.",
+          "subtitle": "Une pluie intense transforme soudain la rue en torrent. Les eaux peuvent transporter des débris.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Une pluie intense transforme soudain la rue en torrent. Les eaux peuvent transporter des débris.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Limite tes déplacements et reste éloigné des zones dangereuses.",
+          "subtitle": "Limite tes déplacements et reste éloigné des zones dangereuses.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Limite tes déplacements et reste éloigné des zones dangereuses.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Ne tente pas de traverser une route submergée en voiture.",
+          "subtitle": "Ne tente pas de traverser une route submergée en voiture.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Ne tente pas de traverser une route submergée en voiture.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Si les secours demandent une évacuation, suis leurs indications.",
+          "subtitle": "Si les secours demandent une évacuation, suis leurs indications.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si les secours demandent une évacuation, suis leurs indications.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "En Belgique, une demande non urgente aux pompiers peut passer par le site 1722.be.",
+          "subtitle": "En Belgique, une demande non urgente aux pompiers peut passer par le site 1722.be.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : En Belgique, une demande non urgente aux pompiers peut passer par le site 1722.be.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Si quelqu’un est en danger de mort, le numéro à composer est le 112.",
+          "subtitle": "Si quelqu’un est en danger de mort, le numéro à composer est le 112.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si quelqu’un est en danger de mort, le numéro à composer est le 112.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une crue éclair traversait ton quartier ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-pluviale-eaux-de-ruissellement",
+        "social": "Et si une crue éclair traversait ton quartier ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP065",
+      "title": "Et si la terre tremblait pendant que tu étais chez toi ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/tremblement-de-terre",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si la terre tremblait pendant que tu étais chez toi ?",
+          "subtitle": "Et si la terre tremblait pendant que tu étais chez toi ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si la terre tremblait pendant que tu étais chez toi ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Les meubles vibrent et les objets commencent à tomber. Protège-toi pendant les secousses.",
+          "subtitle": "Les meubles vibrent et les objets commencent à tomber. Protège-toi pendant les secousses.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Les meubles vibrent et les objets commencent à tomber. Protège-toi pendant les secousses.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Abrite-toi sous une table robuste et maintiens-toi à celle-ci.",
+          "subtitle": "Abrite-toi sous une table robuste et maintiens-toi à celle-ci.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Abrite-toi sous une table robuste et maintiens-toi à celle-ci.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Protège ta tête et ton torse contre les chutes d’objets.",
+          "subtitle": "Protège ta tête et ton torse contre les chutes d’objets.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Protège ta tête et ton torse contre les chutes d’objets.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Si aucun meuble solide n’est disponible, accroupis-toi près d’un mur intérieur, loin des fenêtres.",
+          "subtitle": "Si aucun meuble solide n’est disponible, accroupis-toi près d’un mur intérieur, loin des fenêtres.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si aucun meuble solide n’est disponible, accroupis-toi près d’un mur intérieur, loin des fenêtres.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Après les secousses, attends-toi à de possibles répliques et évite les flammes.",
+          "subtitle": "Après les secousses, attends-toi à de possibles répliques et évite les flammes.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Après les secousses, attends-toi à de possibles répliques et évite les flammes.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Si le bâtiment semble endommagé et dangereux, n’y retourne pas avant une évaluation spécialisée.",
+          "subtitle": "Si le bâtiment semble endommagé et dangereux, n’y retourne pas avant une évaluation spécialisée.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si le bâtiment semble endommagé et dangereux, n’y retourne pas avant une évaluation spécialisée.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si la terre tremblait pendant que tu étais chez toi ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/tremblement-de-terre",
+        "social": "Et si la terre tremblait pendant que tu étais chez toi ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP066",
+      "title": "Et si un séisme te surprenait au volant ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/tremblement-de-terre",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un séisme te surprenait au volant ?",
+          "subtitle": "Et si un séisme te surprenait au volant ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si un séisme te surprenait au volant ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Tu conduis lorsque le sol commence à trembler. Cherche un endroit où arrêter ton véhicule sans danger.",
+          "subtitle": "Tu conduis lorsque le sol commence à trembler. Cherche un endroit où arrêter ton véhicule sans danger.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Tu conduis lorsque le sol commence à trembler. Cherche un endroit où arrêter ton véhicule sans danger.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Évite de bloquer la circulation afin de laisser passer les secours.",
+          "subtitle": "Évite de bloquer la circulation afin de laisser passer les secours.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Évite de bloquer la circulation afin de laisser passer les secours.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Une fois arrêté, demeure dans ton véhicule.",
+          "subtitle": "Une fois arrêté, demeure dans ton véhicule.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Une fois arrêté, demeure dans ton véhicule.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Écoute les informations officielles à la radio pour connaître les consignes.",
+          "subtitle": "Écoute les informations officielles à la radio pour connaître les consignes.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Écoute les informations officielles à la radio pour connaître les consignes.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Si des câbles électriques tombent sur la voiture, ne sors pas.",
+          "subtitle": "Si des câbles électriques tombent sur la voiture, ne sors pas.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si des câbles électriques tombent sur la voiture, ne sors pas.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Dans cette situation, attends l’intervention des services de secours.",
+          "subtitle": "Dans cette situation, attends l’intervention des services de secours.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Dans cette situation, attends l’intervention des services de secours.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un séisme te surprenait au volant ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/tremblement-de-terre",
+        "social": "Et si un séisme te surprenait au volant ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP067",
+      "title": "Et si un nuage de fumée toxique approchait de ton quartier ?",
+      "source": "https://centredecrise.be/fr/que-pouvez-vous-faire/le-bon-reflexe/se-mettre-labri",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un nuage de fumée toxique approchait de ton quartier ?",
+          "subtitle": "Et si un nuage de fumée toxique approchait de ton quartier ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si un nuage de fumée toxique approchait de ton quartier ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Les autorités annoncent un dégagement dangereux de fumée à l’extérieur. Elles te demandent de te mettre à l’abri.",
+          "subtitle": "Les autorités annoncent un dégagement dangereux de fumée à l’extérieur. Elles te demandent de te mettre à l’abri.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Les autorités annoncent un dégagement dangereux de fumée à l’extérieur. Elles te demandent de te mettre à l’abri.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Rejoins rapidement le bâtiment accessible le plus proche.",
+          "subtitle": "Rejoins rapidement le bâtiment accessible le plus proche.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Rejoins rapidement le bâtiment accessible le plus proche.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Ferme les portes et les fenêtres pour limiter l’entrée de l’air extérieur.",
+          "subtitle": "Ferme les portes et les fenêtres pour limiter l’entrée de l’air extérieur.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Ferme les portes et les fenêtres pour limiter l’entrée de l’air extérieur.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Arrête les systèmes de ventilation qui aspirent cet air.",
+          "subtitle": "Arrête les systèmes de ventilation qui aspirent cet air.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Arrête les systèmes de ventilation qui aspirent cet air.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Installe-toi loin des ouvertures dans une pièce centrale.",
+          "subtitle": "Installe-toi loin des ouvertures dans une pièce centrale.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Installe-toi loin des ouvertures dans une pièce centrale.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Reste attentif aux messages des autorités, qui t’indiqueront quand sortir ou évacuer.",
+          "subtitle": "Reste attentif aux messages des autorités, qui t’indiqueront quand sortir ou évacuer.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Reste attentif aux messages des autorités, qui t’indiqueront quand sortir ou évacuer.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un nuage de fumée toxique approchait de ton quartier ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/que-pouvez-vous-faire/le-bon-reflexe/se-mettre-labri",
+        "social": "Et si un nuage de fumée toxique approchait de ton quartier ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP068",
+      "title": "Et si une vague de chaleur rendait ton logement étouffant ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/vague-de-chaleur-canicule",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une vague de chaleur rendait ton logement étouffant ?",
+          "subtitle": "Et si une vague de chaleur rendait ton logement étouffant ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si une vague de chaleur rendait ton logement étouffant ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "La chaleur devient difficile à supporter. Si ton logement reste trop chaud, recherche un lieu plus frais.",
+          "subtitle": "La chaleur devient difficile à supporter. Si ton logement reste trop chaud, recherche un lieu plus frais.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : La chaleur devient difficile à supporter. Si ton logement reste trop chaud, recherche un lieu plus frais.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Bois régulièrement de l’eau sans attendre la soif.",
+          "subtitle": "Bois régulièrement de l’eau sans attendre la soif.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Bois régulièrement de l’eau sans attendre la soif.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Évite les activités physiques intenses durant les heures les plus chaudes.",
+          "subtitle": "Évite les activités physiques intenses durant les heures les plus chaudes.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Évite les activités physiques intenses durant les heures les plus chaudes.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Porte des vêtements légers et rafraîchis régulièrement ton front et ton cou.",
+          "subtitle": "Porte des vêtements légers et rafraîchis régulièrement ton front et ton cou.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Porte des vêtements légers et rafraîchis régulièrement ton front et ton cou.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Si tu dois sortir, privilégie les zones ombragées.",
+          "subtitle": "Si tu dois sortir, privilégie les zones ombragées.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si tu dois sortir, privilégie les zones ombragées.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Emporte de l’eau lorsque tu prévois un long déplacement.",
+          "subtitle": "Emporte de l’eau lorsque tu prévois un long déplacement.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Emporte de l’eau lorsque tu prévois un long déplacement.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une vague de chaleur rendait ton logement étouffant ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/vague-de-chaleur-canicule",
+        "social": "Et si une vague de chaleur rendait ton logement étouffant ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP069",
+      "title": "Et si une submersion marine menaçait ta résidence de vacances ?",
+      "source": "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-cotiere",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une submersion marine menaçait ta résidence de vacances ?",
+          "subtitle": "Et si une submersion marine menaçait ta résidence de vacances ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si une submersion marine menaçait ta résidence de vacances ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Tu séjournes près de la côte et une alerte signale une montée des eaux.",
+          "subtitle": "Tu séjournes près de la côte et une alerte signale une montée des eaux.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Tu séjournes près de la côte et une alerte signale une montée des eaux.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Limite tes déplacements et évite les endroits exposés.",
+          "subtitle": "Limite tes déplacements et évite les endroits exposés.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Limite tes déplacements et évite les endroits exposés.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Si les autorités demandent de quitter le logement, respecte leurs directives.",
+          "subtitle": "Si les autorités demandent de quitter le logement, respecte leurs directives.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si les autorités demandent de quitter le logement, respecte leurs directives.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Prépare des vêtements de rechange et des bottes pour le départ.",
+          "subtitle": "Prépare des vêtements de rechange et des bottes pour le départ.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Prépare des vêtements de rechange et des bottes pour le départ.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Si une personne est menacée, contacte immédiatement le 112.",
+          "subtitle": "Si une personne est menacée, contacte immédiatement le 112.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Si une personne est menacée, contacte immédiatement le 112.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Après l’événement, respecte les consignes locales concernant l’utilisation de l’eau.",
+          "subtitle": "Après l’événement, respecte les consignes locales concernant l’utilisation de l’eau.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Après l’événement, respecte les consignes locales concernant l’utilisation de l’eau.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une submersion marine menaçait ta résidence de vacances ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/inondation-cotiere",
+        "social": "Et si une submersion marine menaçait ta résidence de vacances ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP070",
+      "title": "Et si une urgence t’obligeait à rester chez toi ?",
+      "source": "https://centredecrise.be/fr/que-pouvez-vous-faire/campagne-prets-ensemble/brochure-prets-ensemble",
+      "verification": {
+        "status": "Conseils comparés aux extraits du Centre de crise national consultés le 27 novembre 2026; relecture indépendante non effectuée",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une urgence t’obligeait à rester chez toi ?",
+          "subtitle": "Et si une urgence t’obligeait à rester chez toi ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Et si une urgence t’obligeait à rester chez toi ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Une situation d’urgence perturbe ton quartier. As-tu préparé ce dont tu pourrais avoir besoin ?",
+          "subtitle": "Une situation d’urgence perturbe ton quartier. As-tu préparé ce dont tu pourrais avoir besoin ?",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Une situation d’urgence perturbe ton quartier. As-tu préparé ce dont tu pourrais avoir besoin ?",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Identifie à l’avance les risques autour de chez toi et les canaux officiels d’information.",
+          "subtitle": "Identifie à l’avance les risques autour de chez toi et les canaux officiels d’information.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Identifie à l’avance les risques autour de chez toi et les canaux officiels d’information.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Élabore un plan d’urgence avec les personnes qui vivent avec toi.",
+          "subtitle": "Élabore un plan d’urgence avec les personnes qui vivent avec toi.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Élabore un plan d’urgence avec les personnes qui vivent avec toi.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Prépare un kit contenant notamment une réserve d’eau et de nourriture.",
+          "subtitle": "Prépare un kit contenant notamment une réserve d’eau et de nourriture.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Prépare un kit contenant notamment une réserve d’eau et de nourriture.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Familiarise-toi avec les consignes de mise à l’abri et d’évacuation.",
+          "subtitle": "Familiarise-toi avec les consignes de mise à l’abri et d’évacuation.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Familiarise-toi avec les consignes de mise à l’abri et d’évacuation.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Pense aussi aux proches ou voisins qui pourraient avoir besoin d’assistance.",
+          "subtitle": "Pense aussi aux proches ou voisins qui pourraient avoir besoin d’assistance.",
+          "prompt_image": "Simulation 3D verticale, décor et personnage continus, représentation fidèle et non graphique : Pense aussi aux proches ou voisins qui pourraient avoir besoin d’assistance.",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes, aucune consigne supplémentaire",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une urgence t’obligeait à rester chez toi ? #Shorts",
+        "description": "Prévention. Source officielle : https://centredecrise.be/fr/que-pouvez-vous-faire/campagne-prets-ensemble/brochure-prets-ensemble",
+        "social": "Et si une urgence t’obligeait à rester chez toi ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
