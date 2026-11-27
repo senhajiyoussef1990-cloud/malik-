@@ -19,18 +19,23 @@ jobs:
     timeout-minutes: 120
     env:
       KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY || secrets.KAGGLE_API_KEY || secrets.KAGGLE_SECRET }}
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN || secrets.KAGGLE_TOKEN }}
       PROMPTS: ${{ github.event.inputs.prompts || 'et-si/survie/kaggle/essai-ep001.json' }}
     steps:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
       - name: Vérifier les identifiants Kaggle
         run: |
-          if [ -z "$KAGGLE_USERNAME" ] || [ -z "$KAGGLE_KEY" ]; then
-            echo "::error::Secrets KAGGLE_USERNAME et KAGGLE_KEY absents : Settings > Secrets and variables > Actions"; exit 1; fi
-          pip install -q kaggle && kaggle kernels list --mine --page-size 3
+          echo "nom : ${KAGGLE_USERNAME:+présent} · clé : ${KAGGLE_KEY:+présente} · token : ${KAGGLE_API_TOKEN:+présent}"
+          if [ -z "$KAGGLE_KEY" ] && [ -z "$KAGGLE_API_TOKEN" ]; then
+            echo "::error::Aucune clé Kaggle (KAGGLE_KEY ou KAGGLE_API_TOKEN) dans les secrets"; exit 1; fi
+          [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY
+          [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
+          pip install -q -U kaggle && kaggle --version && kaggle kernels list --mine --page-size 3
       - name: Envoyer le notebook GPU
         run: |
+          [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY; [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
           NOM=$(basename "$PROMPTS" .json); SLUG="etsi-images-$NOM"; echo "SLUG=$SLUG" >> "$GITHUB_ENV"; echo "NOM=$NOM" >> "$GITHUB_ENV"
           mkdir -p k && python3 - <<'PY'
           import json, os
@@ -44,6 +49,7 @@ jobs:
           kaggle kernels push -p k
       - name: Attendre la fin sur Kaggle
         run: |
+          [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY; [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
           for i in $(seq 1 100); do S=$(kaggle kernels status "$KAGGLE_USERNAME/$SLUG" 2>&1 | tail -1); echo "$(date +%H:%M) $S"
             case "$S" in *COMPLETE*|*complete*) break;; *ERROR*|*error*|*CANCEL*) kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p out || true; tail -50 out/*.log 2>/dev/null; exit 1;; esac; sleep 45; done
           kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p out; ls -la out out/images || true
