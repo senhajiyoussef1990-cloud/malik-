@@ -4,6 +4,8 @@
    pose = {lean, look (-1..1), ex:{eye, brow, mouth}, near:{to:[x,y] | rest, hand:'grip'|'open'|'rest'|'point', ang, bend},
            far:{...}, held:fn(c) (objet tenu, dessiné entre le corps et le bras avant)} */
 let STYLE_TETE = 'B';
+// angle par défaut du personnage : 0 = trois-quarts, 1 = de face (pose.turn le remplace)
+let TOURNE = 0;
 function setStyleTete(s){STYLE_TETE = s;}
 const ARM_A = 1.12, ARM_B = 1.02; // longueurs bras / avant-bras (en u)
 function ik(S, T, a, b, bend = 1){const dx = T[0]-S[0], dy = T[1]-S[1];let d = Math.hypot(dx, dy);const dd = clamp(d, Math.abs(a-b)+1e-3, a+b-1e-3);
@@ -35,16 +37,19 @@ function armOf(c, S, A, u, col, front, defAng){if(!A)return null;let W0, bend = 
 function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
   // repère du corps (rotation autour du bassin)
   const piv = [x, y+2.6*u];const rot = (q)=>{const dx = q[0]-piv[0], dy = q[1]-piv[1], cs = Math.cos(lean), sn = Math.sin(lean);return [piv[0]+dx*cs-dy*sn, piv[1]+dx*sn+dy*cs];};
-  const nk = rot([x, y]), sN = rot([x+0.56*u, y+0.34*u]), sF = rot([x-0.52*u, y+0.32*u]);
-  const far = armOf(c, sF, p.far === undefined ? {} : p.far, u, col, false), near = armOf(c, sN, p.near === undefined ? {} : p.near, u, col, true);
-  if(far && !p.defer && !p.farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
+  const nk = rot([x, y]), T0 = clamp(p.turn ?? TOURNE), sN = rot([x+lerp(0.56, 0.66, T0)*u, y+0.34*u]), sF = rot([x-lerp(0.52, 0.66, T0)*u, y+0.33*u]);
+  // de face, les coudes plient vers l'extérieur (sinon les bras se croisent)
+  const flip = A => (A && T0 > 0.5) ? {...A, bend: -(A.bend ?? 1)} : A;
+  const far = armOf(c, sF, flip(p.far === undefined ? {} : p.far), u, col, false), near = armOf(c, sN, flip(p.near === undefined ? {} : p.near), u, col, true);
+  const farFront = p.farFront || T0 > 0.5;
+  if(far && !p.defer && !farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
   if(p.legs){c.save();const ly = y+3.25*u, L = p.legLen ?? 3.1*u;
     c.fillStyle = rgb(col.pants || [44, 50, 62], 0.85);c.beginPath();c.roundRect(x-0.5*u, ly-0.2*u, 0.5*u, L, 0.18*u);c.fill();
     c.fillStyle = rgb(col.pants || [44, 50, 62], 1);c.beginPath();c.roundRect(x+0.02*u, ly-0.2*u, 0.52*u, L, 0.18*u);c.fill();
     c.fillStyle = '#16181c';c.beginPath();c.roundRect(x-0.52*u, ly+L-0.25*u, 0.66*u, 0.28*u, 0.12*u);c.roundRect(x+0.0*u, ly+L-0.25*u, 0.72*u, 0.3*u, 0.12*u);c.fill();c.restore();}
   // torse
   c.save();c.translate(piv[0], piv[1]);c.rotate(lean);c.translate(-piv[0], -piv[1]);
-  c.fillStyle = lg(c, x-0.8*u, 0, x+0.8*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.45, rgb(col.shirt, 1.0)], [1, rgb(col.shirt, 1.1)]]);
+  c.fillStyle = T0 > 0.5 ? lg(c, x-0.85*u, 0, x+0.85*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.5, rgb(col.shirt, 1.06)], [1, rgb(col.shirtD, 0.95)]]) : lg(c, x-0.8*u, 0, x+0.8*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.45, rgb(col.shirt, 1.0)], [1, rgb(col.shirt, 1.1)]]);
   c.beginPath();c.moveTo(x-0.22*u, y);c.bezierCurveTo(x-0.6*u, y+0.02*u, x-0.82*u, y+0.12*u, x-0.82*u, y+0.48*u);c.bezierCurveTo(x-0.82*u, y+1.1*u, x-0.6*u, y+1.7*u, x-0.58*u, y+2.3*u);c.lineTo(x-0.6*u, y+3.4*u);c.lineTo(x+0.64*u, y+3.4*u);
   c.lineTo(x+0.62*u, y+2.3*u);c.bezierCurveTo(x+0.64*u, y+1.7*u, x+0.88*u, y+1.1*u, x+0.86*u, y+0.48*u);c.bezierCurveTo(x+0.86*u, y+0.12*u, x+0.62*u, y+0.02*u, x+0.24*u, y);c.closePath();c.fill();
   c.strokeStyle = 'rgba(0,0,0,0.14)';c.lineWidth = 0.05*u;c.lineCap = 'round';c.beginPath();c.moveTo(x-0.3*u, y+1.2*u);c.quadraticCurveTo(x-0.1*u, y+1.6*u, x-0.32*u, y+2.1*u);c.stroke();
@@ -52,41 +57,48 @@ function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
   c.fillStyle = rgb(col.skinD, 1.05);c.beginPath();c.roundRect(x-0.16*u, y-0.28*u, 0.34*u, 0.38*u, 0.1*u);c.fill();
   c.fillStyle = rgb(col.shirtD, 0.8);c.beginPath();c.ellipse(x+0.02*u, y+0.02*u, 0.24*u, 0.08*u, 0, 0, Math.PI);c.fill();
   c.restore();
-  const hc = rot([x+0.04*u+(p.headDX||0)*u, y-0.72*u]);head2(c, hc[0], hc[1], u, p.ex||{}, p.look??0.6, col, p.tilt||0);
-  if(far && !p.defer && p.farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
+  const hc = rot([x+lerp(0.04, 0.01, clamp(p.turn ?? TOURNE))*u+(p.headDX||0)*u, y-0.72*u]);head2(c, hc[0], hc[1], u, p.ex||{}, p.look??0.6, col, p.tilt||0, p.turn ?? TOURNE);
+  if(far && !p.defer && farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
   if(p.held)p.held(c);
   if(near && !p.defer)limbDraw(c, near.S, near.E, near.W, u, col, true, near.hand, near.hang);
   c.restore();return {near, far, rot, u, col};}
 // bras différés (p.defer) : à dessiner après un autre personnage, par ex. bras autour de la victime
 function drawArm(c, A, u, col, front = true){if(A)limbDraw(c, A.S, A.E, A.W, u, col, front, A.hand, A.hang);}
 // tête : centre (x,y) ; u = hauteur de tête
-function head2(c, x, y, u, ex, look, col, tilt){const eye = ex.eye ?? 0.6, brow = ex.brow ?? 0, mouth = ex.mouth ?? 0, st = STYLE_TETE;
-  c.save();c.translate(x, y);c.rotate(tilt);const s = u*(col.headScale||1.3);
-  // oreille
-  c.fillStyle = rgb(col.skin, 0.92);c.beginPath();c.ellipse(-0.2*s, 0.03*s, 0.07*s, 0.1*s, 0.1, 0, TAU);c.fill();c.fillStyle = rgb(col.skinD, 0.9);c.beginPath();c.ellipse(-0.2*s, 0.03*s, 0.035*s, 0.06*s, 0.1, 0, TAU);c.fill();
-  if(col.longHair){c.fillStyle = col.hair;c.beginPath();c.ellipse(-0.08*s, 0.1*s, 0.36*s, 0.48*s, 0.15, 0, TAU);c.fill();}
-  // visage : ovale de 3/4
-  const face = new Path2D();face.ellipse(0.06*s, 0, 0.34*s, 0.43*s, 0, 0, TAU);face.ellipse(0.16*s, 0.2*s, 0.22*s, 0.2*s, 0, 0, TAU);
-  c.fillStyle = lg(c, -0.3*s, 0, 0.45*s, 0, [[0, rgb(col.skinD, 1.08)], [0.35, rgb(col.skin, 1.0)], [1, rgb(col.skin, 1.06)]]);c.fill(face);
-  if(st === 'A'){c.save();c.clip(face);c.fillStyle = 'rgba(200,110,90,0.18)';c.beginPath();c.ellipse(0.26*s, 0.14*s, 0.09*s, 0.06*s, 0, 0, TAU);c.fill();
-    if(col.beard){c.fillStyle = 'rgba(35,24,18,0.38)';c.beginPath();c.ellipse(0.18*s, 0.32*s, 0.26*s, 0.15*s, 0, 0, TAU);c.fill();}c.restore();}
-  // cheveux
-  c.fillStyle = col.hair;c.beginPath();c.moveTo(-0.26*s, 0.06*s);c.bezierCurveTo(-0.36*s, -0.4*s, 0.1*s, -0.6*s, 0.38*s, -0.24*s);c.bezierCurveTo(0.3*s, -0.26*s, 0.2*s, -0.24*s, 0.12*s, -0.2*s);
-  c.bezierCurveTo(0.0*s, -0.16*s, -0.12*s, -0.12*s, -0.16*s, 0.04*s);c.closePath();c.fill();
+function head2(c, x, y, u, ex, look, col, tilt, turn = 0){const eye = ex.eye ?? 0.6, brow = ex.brow ?? 0, mouth = ex.mouth ?? 0, st = STYLE_TETE;
+  // turn : 0 = trois-quarts (regard vers la droite), 1 = de face
+  c.save();c.translate(x, y);c.rotate(tilt);const s = u*(col.headScale||1.3);const T = clamp(turn), L = (a, b) => lerp(a, b, T);
+  const fx = L(0.06, 0), cx = L(0.24, 0);   // centre du visage, axe des traits
+  // oreilles (une seule de trois-quarts, deux de face)
+  const ear = (ox, a) => {if(a <= 0)return;c.globalAlpha = a;c.fillStyle = rgb(col.skin, 0.92);c.beginPath();c.ellipse(ox*s, 0.03*s, 0.07*s, 0.1*s, 0.1, 0, TAU);c.fill();c.fillStyle = rgb(col.skinD, 0.9);c.beginPath();c.ellipse(ox*s, 0.03*s, 0.035*s, 0.06*s, 0.1, 0, TAU);c.fill();c.globalAlpha = 1;};
+  ear(L(-0.2, -0.34), 1);ear(0.38, seg(T, 0.6, 1));
+  if(col.longHair){c.fillStyle = col.hair;c.beginPath();c.ellipse(L(-0.08, 0)*s, L(0.1, -0.04)*s, L(0.36, 0.44)*s, L(0.48, 0.42)*s, L(0.15, 0), 0, TAU);c.fill();
+    if(T > 0.3){c.globalAlpha = seg(T, 0.3, 0.8);for(const sx of [-1, 1]){c.beginPath();c.roundRect(sx*0.3*s-0.09*s, -0.1*s, 0.18*s, 0.62*s, 0.09*s);c.fill();}c.globalAlpha = 1;}}
+  // visage
+  const face = new Path2D();face.ellipse(fx*s, 0, L(0.34, 0.36)*s, 0.43*s, 0, 0, TAU);face.ellipse(L(0.16, 0)*s, 0.2*s, L(0.22, 0.27)*s, 0.2*s, 0, 0, TAU);
+  c.fillStyle = lg(c, -0.36*s, 0, 0.45*s, 0, [[0, rgb(col.skinD, L(1.08, 1.0))], [0.35, rgb(col.skin, 1.0)], [1, rgb(col.skin, 1.06)]]);c.fill(face);
+  if(st === 'A'){c.save();c.clip(face);c.fillStyle = 'rgba(200,110,90,0.18)';c.beginPath();c.ellipse((cx+0.02)*s, 0.14*s, 0.09*s, 0.06*s, 0, 0, TAU);c.fill();
+    if(col.beard){c.fillStyle = 'rgba(35,24,18,0.38)';c.beginPath();c.ellipse(L(0.18, 0)*s, 0.32*s, 0.26*s, 0.15*s, 0, 0, TAU);c.fill();}c.restore();}
+  // cheveux : mèche de trois-quarts -> calotte symétrique de face
+  c.fillStyle = col.hair;c.beginPath();c.moveTo(L(-0.26, -0.37)*s, 0.06*s);c.bezierCurveTo(L(-0.36, -0.44)*s, -0.4*s, L(0.1, -0.1)*s, -0.6*s, L(0.38, 0.1)*s, L(-0.24, -0.58)*s);
+  if(T > 0.01){c.bezierCurveTo(L(0.38, 0.3)*s, L(-0.24, -0.56)*s, L(0.38, 0.46)*s, L(-0.24, -0.38)*s, L(0.38, 0.37)*s, L(-0.24, 0.06)*s);c.lineTo(L(0.38, 0.3)*s, L(-0.24, -0.14)*s);c.quadraticCurveTo(L(0.3, 0)*s, L(-0.26, -0.3)*s, L(0.12, -0.3)*s, L(-0.2, -0.14)*s);}
+  else{c.bezierCurveTo(0.3*s, -0.26*s, 0.2*s, -0.24*s, 0.12*s, -0.2*s);}
+  c.bezierCurveTo(L(0.0, -0.32)*s, L(-0.16, -0.08)*s, L(-0.12, -0.36)*s, L(-0.12, -0.04)*s, L(-0.16, -0.37)*s, L(0.04, 0.06)*s);c.closePath();c.fill();
   if(st === 'C'){c.restore();return;}
   // yeux
-  const lk = look*0.03*s, eh = (0.035+0.04*eye)*s;const eyeAt = (ex0, w)=>{if(eye < 0.15){c.strokeStyle = '#1b120c';c.lineWidth = 0.02*s;c.lineCap = 'round';c.beginPath();c.ellipse(ex0, -0.02*s, w, 0.02*s, 0, 0.1, Math.PI-0.1);c.stroke();return;}c.fillStyle = '#f4efe9';c.beginPath();c.ellipse(ex0, -0.02*s, w, eh, 0, 0, TAU);c.fill();
+  const lk = look*0.03*s*(1-T*0.6), eh = (0.035+0.04*eye)*s;const eyeAt = (ex0, w)=>{if(eye < 0.15){c.strokeStyle = '#1b120c';c.lineWidth = 0.02*s;c.lineCap = 'round';c.beginPath();c.ellipse(ex0, -0.02*s, w, 0.02*s, 0, 0.1, Math.PI-0.1);c.stroke();return;}c.fillStyle = '#f4efe9';c.beginPath();c.ellipse(ex0, -0.02*s, w, eh, 0, 0, TAU);c.fill();
     c.fillStyle = st === 'B' ? '#1b120c' : col.eye;c.beginPath();c.arc(ex0+lk, -0.02*s, Math.min(w, eh)*0.85, 0, TAU);c.fill();
     if(st === 'A'){c.fillStyle = '#0b0705';c.beginPath();c.arc(ex0+lk, -0.02*s, Math.min(w, eh)*0.4, 0, TAU);c.fill();}
     c.fillStyle = 'rgba(255,255,255,0.9)';c.beginPath();c.arc(ex0+lk+0.012*s, -0.035*s, 0.012*s, 0, TAU);c.fill();
     c.strokeStyle = 'rgba(30,18,12,0.7)';c.lineWidth = 0.014*s;c.beginPath();c.ellipse(ex0, -0.02*s, w, eh, 0, Math.PI*1.1, Math.PI*1.9);c.stroke();};
-  eyeAt(0.13*s, 0.055*s);eyeAt(0.33*s, 0.042*s);
+  const e1 = L(0.13, -0.12), e2 = L(0.33, 0.12);eyeAt(e1*s, 0.055*s);eyeAt(e2*s, L(0.042, 0.055)*s);
   // sourcils
   c.strokeStyle = col.hair;c.lineCap = 'round';c.lineWidth = 0.032*s;const by = -0.12*s-brow*0.04*s;
-  c.beginPath();c.moveTo(0.07*s, by+0.01*s);c.quadraticCurveTo(0.13*s, by-0.03*s-brow*0.01*s, 0.2*s, by);c.stroke();c.beginPath();c.moveTo(0.28*s, by);c.quadraticCurveTo(0.33*s, by-0.025*s, 0.38*s, by+0.005*s);c.stroke();
-  // nez
-  c.strokeStyle = rgb(col.skinD, 0.95);c.lineWidth = 0.02*s;c.beginPath();c.moveTo(0.3*s, 0.02*s);c.quadraticCurveTo(0.4*s, 0.12*s, 0.31*s, 0.15*s);c.stroke();
+  c.beginPath();c.moveTo((e1-0.06)*s, by+0.01*s);c.quadraticCurveTo(e1*s, by-0.03*s-brow*0.01*s, (e1+0.07)*s, by);c.stroke();c.beginPath();c.moveTo((e2-L(0.05, 0.07))*s, by);c.quadraticCurveTo(e2*s, by-0.03*s, (e2+0.06)*s, by+0.005*s);c.stroke();
+  // nez : crochet de trois-quarts, petit nez central de face
+  c.strokeStyle = rgb(col.skinD, 0.95);c.lineWidth = 0.02*s;c.beginPath();c.moveTo(L(0.3, 0.0)*s, 0.02*s);c.quadraticCurveTo(L(0.4, 0.05)*s, 0.12*s, L(0.31, -0.03)*s, 0.15*s);c.stroke();
   // bouche
-  if(mouth > 0.08){c.fillStyle = '#3a1712';c.beginPath();c.ellipse(0.24*s, 0.27*s, 0.07*s, 0.025*s+mouth*0.05*s, 0, 0, TAU);c.fill();}
-  else{c.strokeStyle = 'rgba(90,40,30,0.85)';c.lineWidth = 0.02*s;c.beginPath();c.moveTo(0.17*s, 0.26*s);c.quadraticCurveTo(0.24*s, 0.285*s, 0.31*s, 0.255*s);c.stroke();}
+  const mx = L(0.24, 0);
+  if(mouth > 0.08){c.fillStyle = '#3a1712';c.beginPath();c.ellipse(mx*s, 0.27*s, L(0.07, 0.085)*s, 0.025*s+mouth*0.05*s, 0, 0, TAU);c.fill();}
+  else{c.strokeStyle = 'rgba(90,40,30,0.85)';c.lineWidth = 0.02*s;c.beginPath();c.moveTo((mx-0.075)*s, 0.26*s);c.quadraticCurveTo(mx*s, 0.29*s, (mx+0.075)*s, 0.26*s);c.stroke();}
   c.restore();}
