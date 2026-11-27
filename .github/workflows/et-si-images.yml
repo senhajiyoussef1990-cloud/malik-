@@ -1,0 +1,65 @@
+name: Et si ? — images FLUX
+on:
+  push:
+    branches: [et-si]
+    paths:
+      - 'et-si/survie/images/**'
+      - 'et-si/moteur/images.py'
+      - '.github/workflows/et-si-images.yml'
+  workflow_dispatch:
+    inputs:
+      prompts: { description: "Fichier de prompts", default: "et-si/survie/images/essai-styles.json" }
+permissions:
+  contents: write
+concurrency:
+  group: et-si-images
+  cancel-in-progress: true
+jobs:
+  images:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 300
+    env:
+      PROMPTS: ${{ github.event.inputs.prompts || 'et-si/survie/images/essai-styles.json' }}
+      FLUX_DIR: /home/runner/models/flux
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - name: Cache modèles et binaire
+        uses: actions/cache@v4
+        with:
+          path: |
+            /home/runner/models/flux
+            /home/runner/sdcpp-bin
+          key: flux-schnell-q4-sdcpp-v1
+      - name: Compiler stable-diffusion.cpp
+        run: |
+          if [ ! -x /home/runner/sdcpp-bin/sd-cli ]; then
+            git clone -q --depth 1 --recursive https://github.com/leejet/stable-diffusion.cpp /tmp/sdcpp
+            cmake -S /tmp/sdcpp -B /tmp/sdcpp/build -DCMAKE_BUILD_TYPE=Release
+            cmake --build /tmp/sdcpp/build -j4 --config Release
+            mkdir -p /home/runner/sdcpp-bin
+            B=$(ls /tmp/sdcpp/build/bin/sd-cli /tmp/sdcpp/build/bin/sd 2>/dev/null | head -1)
+            cp "$B" /home/runner/sdcpp-bin/sd-cli
+          fi
+          echo "SD_CLI=/home/runner/sdcpp-bin/sd-cli" >> "$GITHUB_ENV"
+      - name: Télécharger FLUX.1-schnell (GGUF)
+        run: |
+          mkdir -p "$FLUX_DIR"; cd "$FLUX_DIR"
+          get() { f=$1; shift; [ -s "$f" ] && return 0; for u in "$@"; do curl -fsSL --retry 3 -o "$f.part" "$u" && mv "$f.part" "$f" && echo "ok $f" && return 0; done; echo "ÉCHEC $f"; return 1; }
+          get flux1-schnell-Q4_0.gguf https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q4_0.gguf https://huggingface.co/second-state/FLUX.1-schnell-GGUF/resolve/main/flux1-schnell-Q4_0.gguf
+          get ae.safetensors https://huggingface.co/second-state/FLUX.1-schnell-GGUF/resolve/main/ae.safetensors https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors
+          get clip_l.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors https://huggingface.co/second-state/FLUX.1-schnell-GGUF/resolve/main/clip_l.safetensors
+          get t5-v1_1-xxl-encoder-Q4_K_S.gguf https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q4_K_S.gguf
+          ls -la
+      - name: Générer les images
+        run: python3 et-si/moteur/images.py "$PROMPTS" sortie-images
+      - name: Publier sur et-si-sorties
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone -q --depth 1 -b et-si-sorties "$URL" pub
+          NOM=$(basename "$PROMPTS" .json); mkdir -p "pub/images/$NOM"; cp sortie-images/*.png "pub/images/$NOM/"
+          cd pub && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "Images $NOM ${GITHUB_SHA::7}" || exit 0
+          git push -q "$URL" et-si-sorties
