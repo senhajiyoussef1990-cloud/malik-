@@ -43,7 +43,7 @@ def whoosh(sec, up=True):
 # musique de tension : nappe grave + pulsation lente
 x = pad([49.0, 73.4, 98.0, 116.5], D + 0.2); add(x * env(len(x), 1.2, 1.2), 0, 0.10)
 for b in np.arange(S[1], D - 0.5, 0.75): tt = np.arange(int(0.3 * SR)) / SR; add(np.sin(2 * np.pi * 52 * tt) * np.exp(-tt * 14), b, 0.10)
-# signature sonore sur « Saurais-tu quoi faire ? »
+# signature sonore sur « Saurais-tu comment réagir ? »
 sg = S[0] + C.get('saurais', 1.6)
 for i, fq in enumerate([196.0, 293.7, 392.0]):
     tt = np.arange(int(1.8 * SR)) / SR; add(np.sin(2 * np.pi * fq * tt) * np.exp(-tt * 2.2) * env(len(tt), 0.01, 0.2), sg + i * 0.02, 0.10)

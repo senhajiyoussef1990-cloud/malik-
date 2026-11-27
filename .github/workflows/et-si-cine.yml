@@ -28,7 +28,7 @@ jobs:
       - name: Voix, rendu, son, MP4
         run: |
           P=et-si/survie/cine/proto; O=sortie/EP000
-          python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice fr-FR-RemyMultilingualNeural --rate="-2%" --first 4.2 --mini 3.6 --last 5.6 --tail 0.4 --maxchars 34 --tagline "Saurais-tu quoi faire ?" < /dev/null
+          python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice fr-FR-RemyMultilingualNeural --rate="-2%" --first 4.2 --mini 3.6 --last 5.6 --tail 0.4 --maxchars 34 --tagline-shown < /dev/null
           python et-si/moteur/render.py --anim $P/anim.html --out $O < /dev/null
           python $P/audio.py --out $O < /dev/null
           python et-si/moteur/assembler.py --out $O --music -21 < /dev/null

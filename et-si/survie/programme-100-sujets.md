@@ -1,6 +1,6 @@
 # Et si ? — 100 sujets
 
-Ordre éditorial proposé, pas un classement statistique. Chaque vidéo commence par « Et si… » suivi du sujet formulé en question. Outro : « Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi. »
+Ordre éditorial proposé, pas un classement statistique. Chaque vidéo commence par « Et si… » suivi du titre de la vidéo formulé en question, puis « Saurais-tu comment réagir ? » (signature identique dans tous les épisodes, ajoutée par `moteur/voix.py`). Outro : « Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi. »
 
 Vérification des recommandations officielles et validation professionnelle avant animation et publication. Ce fichier est un programme, pas des scénarios validés.
 

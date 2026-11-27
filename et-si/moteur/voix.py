@@ -119,6 +119,8 @@ def caler(texte, mots, t0):
 
 
 MAXC = 22
+# signature de la série, dite au début de chaque épisode juste après « Et si … ? »
+SIGNATURE = 'Saurais-tu comment réagir ?'
 
 def morceaux(us):
     ch, cur = [], []
@@ -147,7 +149,8 @@ def main():
     ap.add_argument('--cues', help='repères d\'animation : [[scène, clé, mot], ...]')
     ap.add_argument('--maxchars', type=int, default=22)
     ap.add_argument('--first', type=float, default=4.0)
-    ap.add_argument('--tagline', default='', help='phrase-signature ajoutée après la question d\'ouverture')
+    ap.add_argument('--tagline', default=SIGNATURE, help='phrase-signature dite après la question d\'ouverture ("" pour aucune)')
+    ap.add_argument('--tagline-shown', action='store_true', help='l\'animation affiche déjà la signature : pas de sous-titre pour elle')
     ap.add_argument('--last', type=float, default=6.5)
     ap.add_argument('--tail', type=float, default=0.45, help='silence après la voix dans chaque scène')
     a = ap.parse_args()
@@ -183,7 +186,7 @@ def main():
                     if mot.lower().strip('.') in w.lower():
                         cues[cle] = round(PAD_AV + ta, 3); break
         if si == 0:  # la question (et la signature) sont déjà à l'écran
-            us = [] if a.tagline else [u for u in us if u['pos'] > texte.find('?')]
+            us = [] if a.tagline_shown else [u for u in us if u['pos'] > texte.find('?')]
         for c in morceaux(us):
             caps.append({'s': c[0]['t'], 'toks': [{'w': u['w'].replace(' ', ' '),
                          'k': re.sub(r"[^\wéèêàâôûùçîï'-]", '', u['w'].lower()).split("'")[-1] in MOTS_CLES

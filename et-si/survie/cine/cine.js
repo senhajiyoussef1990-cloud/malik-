@@ -3,6 +3,8 @@
    plis des vêtements), particules (flammes, fumée, étincelles, vapeur), éclairage dynamique,
    étalonnage, grain, sous-titres. Chaque épisode fournit SHOTS(scène) -> plans. */
 const W=1080,H=1920,TAU=Math.PI*2;
+// signature de la série (même phrase que voix.py : SIGNATURE)
+const SIGNATURE='Saurais-tu comment réagir ?';
 const PAL={noir:'#080B10',nuit:'#101C2C',anth:'#252B33',rouge:'#E53935',vert:'#22C55E',blanc:'#F5F5F5'};
 const cv=document.getElementById('c');cv.width=W;cv.height=H;const ctx=cv.getContext('2d');
 let CUES={},CAPS=[],DRAFT=true;function setCues(c){CUES=c;}function CUE(k,d){return CUES[k]!=null?CUES[k]:d;}function setCaptions(c){CAPS=c;}function setDraft(b){DRAFT=b;}
@@ -212,7 +214,7 @@ function glassOfWater(c,x,y,s=1){c.save();c.translate(x,y);c.scale(s,s);c.fillSt
   c.fillStyle=lg(c,0,-110,0,0,[[0,'rgba(120,180,230,0.55)'],[1,'rgba(80,140,200,0.75)']]);c.beginPath();c.moveTo(-37,-110);c.lineTo(37,-110);c.lineTo(32,-4);c.lineTo(-32,-4);c.closePath();c.fill();c.fillStyle='rgba(255,255,255,0.45)';c.fillRect(-28,-160,6,150);c.restore();}
 
 /* ================= HABILLAGE ================= */
-function marks(c){c.save();c.font='600 26px M';c.fillStyle='rgba(245,245,245,0.62)';c.textAlign='left';c.textBaseline='alphabetic';c.fillText('© ET SI ? — Saurais-tu survivre ?',60,210);
+function marks(c){c.save();c.font='600 26px M';c.fillStyle='rgba(245,245,245,0.62)';c.textAlign='left';c.textBaseline='alphabetic';c.fillText('© ET SI ? — '+SIGNATURE,60,210);
   c.textAlign='right';c.fillText('SIMULATION',W-60,210);if(DRAFT){c.font='700 22px M';c.fillStyle='rgba(229,57,53,0.9)';c.fillText('PROTOTYPE · NON VALIDÉ',W-60,244);}c.restore();}
 function tag(c,s,y,a,kind='rouge',size=40){if(a<=0)return;const bg={rouge:'rgba(229,57,53,0.95)',vert:'rgba(34,197,94,0.95)',sombre:'rgba(8,11,16,0.82)',jaune:'rgba(250,204,21,0.96)'}[kind];c.save();c.globalAlpha=a;let fs=size;c.font=`800 ${fs}px M`;c.letterSpacing='4px';while(c.measureText(s).width>940&&fs>22){fs-=2;c.font=`800 ${fs}px M`;}
   const w=c.measureText(s).width+64,yy=y+(1-eout(a))*14;c.fillStyle=bg;c.fillRect(W/2-w/2,yy-fs*0.9,w,fs*1.8);c.fillStyle=kind==='jaune'?'#14161a':PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText(s,W/2,yy+2);c.restore();}

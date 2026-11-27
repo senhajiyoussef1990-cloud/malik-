@@ -36,7 +36,7 @@ jobs:
           python -m pip install edge-tts playwright numpy scipy
           python -m playwright install --with-deps chromium
       - name: Voix et calage
-        run: python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --first 4.2 --mini 3.6 --last 6.5 --tail 0.4 --maxchars 34 --tagline "Saurais-tu quoi faire ?" < /dev/null
+        run: python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --first 4.2 --mini 3.6 --last 6.5 --tail 0.4 --maxchars 34 --tagline-shown < /dev/null
       - name: Rendu vidéo (en parallèle)
         run: python et-si/moteur/render.py --anim $P/anim.html --out $O --jobs "$(nproc)" < /dev/null
       - name: Son, mixage et MP4 final
