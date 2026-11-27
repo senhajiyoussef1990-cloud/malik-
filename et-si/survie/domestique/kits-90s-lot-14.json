@@ -1,0 +1,329 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s à ajuster à la narration. Vérifier réglementation belge et française. Pas de publication avant relecture spécialisée.",
+  "episodes": [
+    {
+      "id": "EP044",
+      "title": "Et si une pluie torrentielle réduisait ta visibilité ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite",
+        "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf",
+        "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf"
+      ],
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Conseils généraux comparés aux documents officiels retournés par la recherche. Validation spécialiste et contrôle local requis.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une pluie torrentielle réduisait ta visibilité ?",
+          "subtitle": "Et si une pluie torrentielle réduisait ta visibilité ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Pluie sur pare-brise",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Imagine que le ciel s’assombrisse brutalement pendant ton trajet. La chaussée se couvre d’eau et les voitures devant toi deviennent difficiles à distinguer.",
+          "subtitle": "Imagine que le ciel s’assombrisse brutalement pendant ton trajet. La chaussée se couvre d’eau et les voitures devant toi deviennent difficiles à distinguer.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Pluie sur pare-brise",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Sur une route mouillée, les pneus adhèrent moins bien. Tu as besoin de davantage d’espace pour immobiliser ta voiture.",
+          "subtitle": "Sur une route mouillée, les pneus adhèrent moins bien. Tu as besoin de davantage d’espace pour immobiliser ta voiture.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Route humide",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Réduis ta vitesse selon la visibilité et l’état de la route. Une limitation affichée n’est pas une vitesse à atteindre absolument.",
+          "subtitle": "Réduis ta vitesse selon la visibilité et l’état de la route. Une limitation affichée n’est pas une vitesse à atteindre absolument.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Compteur",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Augmente l’espace qui te sépare du véhicule précédent. Tu disposeras ainsi de davantage de temps pour réagir.",
+          "subtitle": "Augmente l’espace qui te sépare du véhicule précédent. Tu disposeras ainsi de davantage de temps pour réagir.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Distance entre véhicules",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Anticipe les ralentissements et évite les changements brusques de direction ou d’allure.",
+          "subtitle": "Anticipe les ralentissements et évite les changements brusques de direction ou d’allure.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Freinage anticipé",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Ne cherche pas à suivre le rythme des autres automobilistes si tu ne vois pas suffisamment loin.",
+          "subtitle": "Ne cherche pas à suivre le rythme des autres automobilistes si tu ne vois pas suffisamment loin.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Trafic lent",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Si les intempéries rendent le trajet trop dangereux, interromps-le dans un endroit autorisé et sûr.",
+          "subtitle": "Si les intempéries rendent le trajet trop dangereux, interromps-le dans un endroit autorisé et sûr.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Aire de repos",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Logo officiel",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une pluie torrentielle réduisait ta visibilité ? #Shorts",
+        "description": "Prévention routière. Sources : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf",
+        "social": "Et si une pluie torrentielle réduisait ta visibilité ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP045",
+      "title": "Et si un brouillard épais masquait la route ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite",
+        "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf",
+        "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf"
+      ],
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Conseils généraux comparés aux documents officiels retournés par la recherche. Validation spécialiste et contrôle local requis.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un brouillard épais masquait la route ?",
+          "subtitle": "Et si un brouillard épais masquait la route ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Nappe de brouillard",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu roules normalement quand une nappe de brouillard engloutit progressivement le paysage.",
+          "subtitle": "Tu roules normalement quand une nappe de brouillard engloutit progressivement le paysage.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Nappe de brouillard",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Ta visibilité diminue. Un obstacle peut apparaître alors que tu disposes de très peu de temps pour réagir.",
+          "subtitle": "Ta visibilité diminue. Un obstacle peut apparaître alors que tu disposes de très peu de temps pour réagir.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Feux arrière lointains",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Ralentis pour adapter ton allure à la distance sur laquelle tu peux réellement voir.",
+          "subtitle": "Ralentis pour adapter ton allure à la distance sur laquelle tu peux réellement voir.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Compteur",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Ne te rapproche pas des feux arrière du véhicule précédent pour essayer de te guider.",
+          "subtitle": "Ne te rapproche pas des feux arrière du véhicule précédent pour essayer de te guider.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Deux voitures espacées",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Ce comportement peut entraîner plusieurs conducteurs à accélérer ensemble malgré le manque de visibilité.",
+          "subtitle": "Ce comportement peut entraîner plusieurs conducteurs à accélérer ensemble malgré le manque de visibilité.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : File de véhicules",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Conserve une marge de sécurité et anticipe les changements de circulation.",
+          "subtitle": "Conserve une marge de sécurité et anticipe les changements de circulation.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Virage invisible",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Si les conditions deviennent trop mauvaises, reporte ton déplacement ou rejoins un lieu de stationnement sûr.",
+          "subtitle": "Si les conditions deviennent trop mauvaises, reporte ton déplacement ou rejoins un lieu de stationnement sûr.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Parking sécurisé",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Logo officiel",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un brouillard épais masquait la route ? #Shorts",
+        "description": "Prévention routière. Sources : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf",
+        "social": "Et si un brouillard épais masquait la route ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP046",
+      "title": "Et si la route devenait verglacée ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite",
+        "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf",
+        "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf"
+      ],
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Conseils généraux comparés aux documents officiels retournés par la recherche. Validation spécialiste et contrôle local requis.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si la route devenait verglacée ?",
+          "subtitle": "Et si la route devenait verglacée ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Route hivernale",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Il fait froid et la route paraît simplement humide. Pourtant, certaines portions peuvent être recouvertes de glace.",
+          "subtitle": "Il fait froid et la route paraît simplement humide. Pourtant, certaines portions peuvent être recouvertes de glace.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Route hivernale",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Les ponts et les endroits ombragés méritent une attention particulière car le verglas peut s’y former.",
+          "subtitle": "Les ponts et les endroits ombragés méritent une attention particulière car le verglas peut s’y former.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Pont ombragé",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Modère ton allure avant d’atteindre ces zones. Le manque d’adhérence augmente le risque de perdre le contrôle.",
+          "subtitle": "Modère ton allure avant d’atteindre ces zones. Le manque d’adhérence augmente le risque de perdre le contrôle.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Compteur",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Laisse davantage de distance avec les autres véhicules pour anticiper leur ralentissement.",
+          "subtitle": "Laisse davantage de distance avec les autres véhicules pour anticiper leur ralentissement.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Voitures espacées",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Évite les mouvements brusques du volant, les accélérations soudaines et les freinages brutaux.",
+          "subtitle": "Évite les mouvements brusques du volant, les accélérations soudaines et les freinages brutaux.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Volant stable",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Prépare tes changements d’allure suffisamment tôt, notamment avant les virages.",
+          "subtitle": "Prépare tes changements d’allure suffisamment tôt, notamment avant les virages.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Approche virage",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Lorsque les conditions sont extrêmes, la décision la plus sûre peut être de reporter le voyage.",
+          "subtitle": "Lorsque les conditions sont extrêmes, la décision la plus sûre peut être de reporter le voyage.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Voiture garée",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Ambiance météo et moteur sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, véhicule identique, circulation à droite : Logo officiel",
+          "animation": "Alterner vue habitacle et extérieure, mouvement continu, sans collision ni geste rajouté.",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si la route devenait verglacée ? #Shorts",
+        "description": "Prévention routière. Sources : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf",
+        "social": "Et si la route devenait verglacée ? #EtSi #SecuriteRoutiere"
+      }
+    }
+  ]
+}
