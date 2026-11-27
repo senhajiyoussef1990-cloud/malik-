@@ -1,0 +1,377 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s à ajuster. Vérifier réglementation belge, relecture spécialisée avant diffusion.",
+  "episodes": [
+    {
+      "id": "EP047",
+      "title": "Et si ta voiture tombait en panne sur l’autoroute ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/reglementation-liee-la-route/autoroute",
+        "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3639-dp_pgscourts_090211-2_cle652132_2.pdf",
+        "https://www.onisr.securite-routiere.gouv.fr/politique-de-securite-routiere/code-de-la-route"
+      ],
+      "verification": {
+        "status": "Extraits officiels consultés; contrôle spécialisé et règles belges à confirmer avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ta voiture tombait en panne sur l’autoroute ?",
+          "subtitle": "Et si ta voiture tombait en panne sur l’autoroute ?",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : habitacle moteur",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Le moteur perd sa puissance alors que tu roules sur une autoroute.",
+          "subtitle": "Le moteur perd sa puissance alors que tu roules sur une autoroute.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : habitacle moteur",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Si tu peux encore avancer, immobilise la voiture hors des voies de circulation, le plus à droite possible.",
+          "subtitle": "Si tu peux encore avancer, immobilise la voiture hors des voies de circulation, le plus à droite possible.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : accotement",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Active les feux de détresse pour signaler le danger aux autres conducteurs.",
+          "subtitle": "Active les feux de détresse pour signaler le danger aux autres conducteurs.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : feux détresse",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Enfile ton gilet réfléchissant avant de quitter la voiture.",
+          "subtitle": "Enfile ton gilet réfléchissant avant de quitter la voiture.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : gilet",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Si la sortie est possible sans danger, utilise les portes opposées au trafic.",
+          "subtitle": "Si la sortie est possible sans danger, utilise les portes opposées au trafic.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : sortie droite",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Mets-toi à l’abri derrière la glissière de sécurité avec tes passagers.",
+          "subtitle": "Mets-toi à l’abri derrière la glissière de sécurité avec tes passagers.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : derrière glissière",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "En France, ne va pas poser le triangle sur l’autoroute.",
+          "subtitle": "En France, ne va pas poser le triangle sur l’autoroute.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : triangle barré France",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Alerte les services compétents depuis un endroit sûr. En cas de danger immédiat, appelle le 112.",
+          "subtitle": "Alerte les services compétents depuis un endroit sûr. En cas de danger immédiat, appelle le 112.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : appel en sécurité",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Avant ton prochain trajet, garde les gilets accessibles dans l’habitacle.",
+          "subtitle": "Avant ton prochain trajet, garde les gilets accessibles dans l’habitacle.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : gilets accessibles",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : logo officiel",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ta voiture tombait en panne sur l’autoroute ? #Shorts",
+        "description": "Prévention routière. Références officielles dans le kit.",
+        "social": "Et si ta voiture tombait en panne sur l’autoroute ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP048",
+      "title": "Et si tu ratais ta sortie sur l’autoroute ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/reglementation-liee-la-route/autoroute",
+        "https://www.securite-routiere.gouv.fr/sites/default/files/2019-01/deplongtrajet_2014_bd.pdf"
+      ],
+      "verification": {
+        "status": "Extraits officiels consultés; contrôle spécialisé et règles belges à confirmer avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu ratais ta sortie sur l’autoroute ?",
+          "subtitle": "Et si tu ratais ta sortie sur l’autoroute ?",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : sortie dépassée",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu aperçois ta sortie trop tard, alors que tu roules sur la voie principale.",
+          "subtitle": "Tu aperçois ta sortie trop tard, alors que tu roules sur la voie principale.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : sortie dépassée",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Sur l’autoroute, revenir en arrière est interdit, même sur la bande d’arrêt d’urgence.",
+          "subtitle": "Sur l’autoroute, revenir en arrière est interdit, même sur la bande d’arrêt d’urgence.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : marche arrière barrée",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Ne fais pas demi-tour, même si tu aperçois une ouverture dans le séparateur central.",
+          "subtitle": "Ne fais pas demi-tour, même si tu aperçois une ouverture dans le séparateur central.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : demi-tour barré",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Il vaut mieux poursuivre ton trajet et recalculer ton itinéraire à la prochaine sortie.",
+          "subtitle": "Il vaut mieux poursuivre ton trajet et recalculer ton itinéraire à la prochaine sortie.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : prochaine sortie",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Lorsque tu approches d’une bifurcation, observe les panneaux suffisamment tôt.",
+          "subtitle": "Lorsque tu approches d’une bifurcation, observe les panneaux suffisamment tôt.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : panneaux",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Place-toi sur la voie correspondant à ta destination avant la séparation des chaussées.",
+          "subtitle": "Place-toi sur la voie correspondant à ta destination avant la séparation des chaussées.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : voie correcte",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Lorsque tu rejoins une autoroute, cède le passage aux véhicules qui y circulent déjà.",
+          "subtitle": "Lorsque tu rejoins une autoroute, cède le passage aux véhicules qui y circulent déjà.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : insertion",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Prépare ton itinéraire avant de prendre la route.",
+          "subtitle": "Prépare ton itinéraire avant de prendre la route.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : itinéraire avant départ",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Quelques kilomètres supplémentaires valent mieux qu’une manœuvre dangereuse.",
+          "subtitle": "Quelques kilomètres supplémentaires valent mieux qu’une manœuvre dangereuse.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : route continue",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : logo officiel",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu ratais ta sortie sur l’autoroute ? #Shorts",
+        "description": "Prévention routière. Références officielles dans le kit.",
+        "social": "Et si tu ratais ta sortie sur l’autoroute ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP049",
+      "title": "Et si tes bagages devenaient dangereux lors d’un freinage ?",
+      "sources": [
+        "https://www.securite-routiere.gouv.fr/sites/default/files/2019-01/deplongtrajet_2014_bd.pdf"
+      ],
+      "verification": {
+        "status": "Extraits officiels consultés; contrôle spécialisé et règles belges à confirmer avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tes bagages devenaient dangereux lors d’un freinage ?",
+          "subtitle": "Et si tes bagages devenaient dangereux lors d’un freinage ?",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : chargement",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu prépares un départ en vacances et la voiture est remplie de bagages.",
+          "subtitle": "Tu prépares un départ en vacances et la voiture est remplie de bagages.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : chargement",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Un objet placé sur la plage arrière peut devenir dangereux lors d’un choc.",
+          "subtitle": "Un objet placé sur la plage arrière peut devenir dangereux lors d’un choc.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : objet plage arrière schéma",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Évite d’y déposer des objets qui gênent aussi la visibilité.",
+          "subtitle": "Évite d’y déposer des objets qui gênent aussi la visibilité.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : plage arrière vide",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Répartis les charges dans le véhicule et place les bagages les plus lourds en bas.",
+          "subtitle": "Répartis les charges dans le véhicule et place les bagages les plus lourds en bas.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : valises lourdes en bas",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Si tu utilises un coffre de toit, respecte les indications du fabricant.",
+          "subtitle": "Si tu utilises un coffre de toit, respecte les indications du fabricant.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : coffre toit",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Fais de même pour un porte-vélos ou une remorque.",
+          "subtitle": "Fais de même pour un porte-vélos ou une remorque.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : porte-vélos",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Avant de partir, contrôle aussi la pression et l’état des pneus.",
+          "subtitle": "Avant de partir, contrôle aussi la pression et l’état des pneus.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : pneu",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Vérifie tes feux et tes essuie-glaces pour préparer le trajet.",
+          "subtitle": "Vérifie tes feux et tes essuie-glaces pour préparer le trajet.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : essuie-glace",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Prendre le temps de préparer sa voiture fait partie de la sécurité du voyage.",
+          "subtitle": "Prendre le temps de préparer sa voiture fait partie de la sécurité du voyage.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : voiture prête",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Ambiance routière discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, circulation à droite, même véhicule : logo officiel",
+          "animation": "Alterner plans et détails, ne pas ajouter de manœuvre",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tes bagages devenaient dangereux lors d’un freinage ? #Shorts",
+        "description": "Prévention routière. Références officielles dans le kit.",
+        "social": "Et si tes bagages devenaient dangereux lors d’un freinage ? #EtSi #SecuriteRoutiere"
+      }
+    }
+  ]
+}
