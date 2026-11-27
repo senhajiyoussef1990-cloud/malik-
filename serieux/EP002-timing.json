@@ -1,0 +1,811 @@
+{
+ "episode": 1,
+ "id": "EP002",
+ "slug": "adulte-etouffement",
+ "voice": [
+  "fr-FR-RemyMultilingualNeural"
+ ],
+ "rate": "+2%",
+ "duration": 79.833,
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "dur": 4.0,
+   "voix": "s01.mp3",
+   "voix_dur": 2.424
+  },
+  {
+   "scene": 2,
+   "start": 4.0,
+   "dur": 7.5,
+   "voix": "s02.mp3",
+   "voix_dur": 4.632
+  },
+  {
+   "scene": 3,
+   "start": 11.5,
+   "dur": 7.5,
+   "voix": "s03.mp3",
+   "voix_dur": 4.32
+  },
+  {
+   "scene": 4,
+   "start": 19.0,
+   "dur": 7.5,
+   "voix": "s04.mp3",
+   "voix_dur": 4.584
+  },
+  {
+   "scene": 5,
+   "start": 26.5,
+   "dur": 7.5,
+   "voix": "s05.mp3",
+   "voix_dur": 3.864
+  },
+  {
+   "scene": 6,
+   "start": 34.0,
+   "dur": 7.5,
+   "voix": "s06.mp3",
+   "voix_dur": 5.592
+  },
+  {
+   "scene": 7,
+   "start": 41.5,
+   "dur": 7.5,
+   "voix": "s07.mp3",
+   "voix_dur": 6.216
+  },
+  {
+   "scene": 8,
+   "start": 49.0,
+   "dur": 7.5,
+   "voix": "s08.mp3",
+   "voix_dur": 4.176
+  },
+  {
+   "scene": 9,
+   "start": 56.5,
+   "dur": 7.5,
+   "voix": "s09.mp3",
+   "voix_dur": 4.488
+  },
+  {
+   "scene": 10,
+   "start": 64.0,
+   "dur": 8.3333,
+   "voix": "s10.mp3",
+   "voix_dur": 7.176
+  },
+  {
+   "scene": 11,
+   "start": 72.333,
+   "dur": 7.5,
+   "voix": "s11.mp3",
+   "voix_dur": 6.36
+  }
+ ],
+ "captions": [
+  {
+   "s": 4.3,
+   "toks": [
+    {
+     "w": "Pendant",
+     "k": false
+    },
+    {
+     "w": "un",
+     "k": false
+    },
+    {
+     "w": "repas,",
+     "k": false
+    },
+    {
+     "w": "un",
+     "k": false
+    },
+    {
+     "w": "adulte",
+     "k": false
+    },
+    {
+     "w": "conscient",
+     "k": false
+    }
+   ],
+   "e": 6.518
+  },
+  {
+   "s": 6.518,
+   "toks": [
+    {
+     "w": "ne",
+     "k": false
+    },
+    {
+     "w": "parvient",
+     "k": false
+    },
+    {
+     "w": "soudain",
+     "k": false
+    },
+    {
+     "w": "plus",
+     "k": false
+    },
+    {
+     "w": "à",
+     "k": false
+    },
+    {
+     "w": "parler",
+     "k": false
+    },
+    {
+     "w": "ni",
+     "k": false
+    }
+   ],
+   "e": 7.989
+  },
+  {
+   "s": 7.989,
+   "toks": [
+    {
+     "w": "à",
+     "k": false
+    },
+    {
+     "w": "tousser.",
+     "k": false
+    }
+   ],
+   "e": 10.588
+  },
+  {
+   "s": 11.824,
+   "toks": [
+    {
+     "w": "Ces",
+     "k": false
+    },
+    {
+     "w": "signes",
+     "k": false
+    },
+    {
+     "w": "indiquent",
+     "k": false
+    },
+    {
+     "w": "une",
+     "k": false
+    },
+    {
+     "w": "obstruction",
+     "k": false
+    }
+   ],
+   "e": 13.453
+  },
+  {
+   "s": 13.453,
+   "toks": [
+    {
+     "w": "grave.",
+     "k": false
+    }
+   ],
+   "e": 14.397
+  },
+  {
+   "s": 14.397,
+   "toks": [
+    {
+     "w": "Il",
+     "k": false
+    },
+    {
+     "w": "faut",
+     "k": false
+    },
+    {
+     "w": "agir",
+     "k": false
+    },
+    {
+     "w": "rapidement.",
+     "k": false
+    }
+   ],
+   "e": 16.997
+  },
+  {
+   "s": 19.3,
+   "toks": [
+    {
+     "w": "Place-toi",
+     "k": false
+    },
+    {
+     "w": "légèrement",
+     "k": false
+    },
+    {
+     "w": "derrière",
+     "k": false
+    },
+    {
+     "w": "lui,",
+     "k": false
+    },
+    {
+     "w": "sur",
+     "k": false
+    }
+   ],
+   "e": 21.285
+  },
+  {
+   "s": 21.285,
+   "toks": [
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "côté,",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "soutiens",
+     "k": false
+    },
+    {
+     "w": "sa",
+     "k": false
+    },
+    {
+     "w": "poitrine.",
+     "k": false
+    }
+   ],
+   "e": 23.885
+  },
+  {
+   "s": 26.836,
+   "toks": [
+    {
+     "w": "Incline-le",
+     "k": false
+    },
+    {
+     "w": "vers",
+     "k": false
+    },
+    {
+     "w": "l’avant",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "donne",
+     "k": false
+    },
+    {
+     "w": "jusqu’à",
+     "k": false
+    }
+   ],
+   "e": 28.748
+  },
+  {
+   "s": 28.748,
+   "toks": [
+    {
+     "w": "cinq",
+     "k": false
+    },
+    {
+     "w": "tapes",
+     "k": false
+    },
+    {
+     "w": "entre",
+     "k": false
+    },
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "omoplates.",
+     "k": false
+    }
+   ],
+   "e": 31.348
+  },
+  {
+   "s": 34.336,
+   "toks": [
+    {
+     "w": "Après",
+     "k": false
+    },
+    {
+     "w": "chaque",
+     "k": false
+    },
+    {
+     "w": "tape,",
+     "k": false
+    },
+    {
+     "w": "vérifie",
+     "k": false
+    }
+   ],
+   "e": 36.039
+  },
+  {
+   "s": 36.039,
+   "toks": [
+    {
+     "w": "si",
+     "k": false
+    },
+    {
+     "w": "l’obstruction",
+     "k": false
+    },
+    {
+     "w": "a",
+     "k": false
+    },
+    {
+     "w": "disparu.",
+     "k": false
+    }
+   ],
+   "e": 37.779
+  },
+  {
+   "s": 37.779,
+   "toks": [
+    {
+     "w": "Arrête",
+     "k": false
+    },
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "gestes",
+     "k": false
+    },
+    {
+     "w": "si",
+     "k": false
+    },
+    {
+     "w": "elle",
+     "k": false
+    },
+    {
+     "w": "est",
+     "k": true
+    },
+    {
+     "w": "levée.",
+     "k": false
+    }
+   ],
+   "e": 40.379
+  },
+  {
+   "s": 41.836,
+   "toks": [
+    {
+     "w": "En",
+     "k": false
+    },
+    {
+     "w": "cas",
+     "k": false
+    },
+    {
+     "w": "d’échec,",
+     "k": false
+    },
+    {
+     "w": "place-toi",
+     "k": false
+    },
+    {
+     "w": "derrière",
+     "k": false
+    },
+    {
+     "w": "lui.",
+     "k": false
+    }
+   ],
+   "e": 44.435
+  },
+  {
+   "s": 44.435,
+   "toks": [
+    {
+     "w": "Positionne",
+     "k": false
+    },
+    {
+     "w": "ton",
+     "k": false
+    },
+    {
+     "w": "poing",
+     "k": false
+    },
+    {
+     "w": "entre",
+     "k": false
+    },
+    {
+     "w": "son",
+     "k": false
+    },
+    {
+     "w": "nombril",
+     "k": false
+    }
+   ],
+   "e": 46.518
+  },
+  {
+   "s": 46.518,
+   "toks": [
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "bas",
+     "k": false
+    },
+    {
+     "w": "du",
+     "k": false
+    },
+    {
+     "w": "sternum.",
+     "k": false
+    }
+   ],
+   "e": 48.95
+  },
+  {
+   "s": 49.336,
+   "toks": [
+    {
+     "w": "Saisis",
+     "k": false
+    },
+    {
+     "w": "ton",
+     "k": false
+    },
+    {
+     "w": "poing",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "exerce",
+     "k": false
+    },
+    {
+     "w": "jusqu’à",
+     "k": false
+    },
+    {
+     "w": "cinq",
+     "k": false
+    }
+   ],
+   "e": 51.591
+  },
+  {
+   "s": 51.591,
+   "toks": [
+    {
+     "w": "poussées",
+     "k": false
+    },
+    {
+     "w": "vers",
+     "k": false
+    },
+    {
+     "w": "l’intérieur",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "haut.",
+     "k": false
+    }
+   ],
+   "e": 54.191
+  },
+  {
+   "s": 56.836,
+   "toks": [
+    {
+     "w": "Alterne",
+     "k": false
+    },
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "deux",
+     "k": false
+    },
+    {
+     "w": "séries",
+     "k": false
+    },
+    {
+     "w": "si",
+     "k": false
+    },
+    {
+     "w": "nécessaire.",
+     "k": false
+    }
+   ],
+   "e": 59.36
+  },
+  {
+   "s": 59.36,
+   "toks": [
+    {
+     "w": "Fais",
+     "k": false
+    },
+    {
+     "w": "alerter",
+     "k": false
+    },
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "secours.",
+     "k": true
+    }
+   ],
+   "e": 61.96
+  },
+  {
+   "s": 64.324,
+   "toks": [
+    {
+     "w": "S’il",
+     "k": false
+    },
+    {
+     "w": "perd",
+     "k": false
+    },
+    {
+     "w": "connaissance,",
+     "k": false
+    },
+    {
+     "w": "accompagne-le",
+     "k": false
+    }
+   ],
+   "e": 66.186
+  },
+  {
+   "s": 66.186,
+   "toks": [
+    {
+     "w": "au",
+     "k": false
+    },
+    {
+     "w": "sol,",
+     "k": false
+    },
+    {
+     "w": "appelle",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "112",
+     "k": true
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "commence",
+     "k": false
+    }
+   ],
+   "e": 68.38
+  },
+  {
+   "s": 68.38,
+   "toks": [
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "réanimation",
+     "k": false
+    },
+    {
+     "w": "en",
+     "k": false
+    },
+    {
+     "w": "suivant",
+     "k": false
+    },
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "consignes",
+     "k": false
+    }
+   ],
+   "e": 70.194
+  },
+  {
+   "s": 70.194,
+   "toks": [
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "l’opérateur.",
+     "k": false
+    }
+   ],
+   "e": 72.283
+  },
+  {
+   "s": 72.669,
+   "toks": [
+    {
+     "w": "Maintenant,",
+     "k": false
+    },
+    {
+     "w": "tu",
+     "k": false
+    },
+    {
+     "w": "sais",
+     "k": false
+    },
+    {
+     "w": "quoi",
+     "k": false
+    },
+    {
+     "w": "faire.",
+     "k": false
+    }
+   ],
+   "e": 74.838
+  },
+  {
+   "s": 74.838,
+   "toks": [
+    {
+     "w": "Mais",
+     "k": false
+    },
+    {
+     "w": "tes",
+     "k": false
+    },
+    {
+     "w": "proches",
+     "k": true
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "savent-ils ?",
+     "k": false
+    }
+   ],
+   "e": 76.603
+  },
+  {
+   "s": 76.603,
+   "toks": [
+    {
+     "w": "Partage",
+     "k": true
+    },
+    {
+     "w": "cette",
+     "k": false
+    },
+    {
+     "w": "vidéo",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "abonne-toi.",
+     "k": true
+    }
+   ],
+   "e": 79.203
+  }
+ ],
+ "cues": {
+  "parler": 3.547,
+  "tousser": 4.037,
+  "agir": 3.179,
+  "soutiens": 3.339,
+  "tapes": 2.505,
+  "arrete": 3.779,
+  "poing": 2.935,
+  "alerter": 3.154,
+  "appelle": 3.032,
+  "reanimation": 4.478,
+  "partage": 4.27,
+  "abonne": 5.618
+ }
+}
