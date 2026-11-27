@@ -1,0 +1,296 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s; narration à étoffer sur sources contrôlées. Validation clinique avant publication.",
+  "episodes": [
+    {
+      "id": "EP075",
+      "title": "Et si ton enfant avalait des baies inconnues ?",
+      "sources": [
+        "https://www.centreantipoisons.be/tox-infos/vergiftiging-door-planten/",
+        "https://www.centreantipoisons.be/quand-appeler/"
+      ],
+      "verification": {
+        "status": "Extraits des sources consultés ce jour. Relecture clinique indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton enfant avalait des baies inconnues ?",
+          "subtitle": "Et si ton enfant avalait des baies inconnues ?",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Et si ton enfant avalait des baies inconnues ?",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Dans le jardin, un enfant découvre de petites baies colorées. Son parent remarque qu’il en a porté à sa bouche.",
+          "subtitle": "Dans le jardin, un enfant découvre de petites baies colorées. Son parent remarque qu’il en a porté à sa bouche.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Dans le jardin, un enfant découvre de petites baies colorées. Son parent remarque qu’il en a porté à sa bouche.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Retire les restes de végétaux présents dans sa bouche. Contacte le Centre Antipoisons pour connaître la conduite adaptée.",
+          "subtitle": "Retire les restes de végétaux présents dans sa bouche. Contacte le Centre Antipoisons pour connaître la conduite adaptée.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Retire les restes de végétaux présents dans sa bouche. Contacte le Centre Antipoisons pour connaître la conduite adaptée.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Essaie de retrouver le nom de la plante. Des photographies de ses feuilles et de ses fruits peuvent aider à l’identifier.",
+          "subtitle": "Essaie de retrouver le nom de la plante. Des photographies de ses feuilles et de ses fruits peuvent aider à l’identifier.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Essaie de retrouver le nom de la plante. Des photographies de ses feuilles et de ses fruits peuvent aider à l’identifier.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "La toxicité varie selon l’espèce et la partie consommée. Ne déduis pas son innocuité de son apparence.",
+          "subtitle": "La toxicité varie selon l’espèce et la partie consommée. Ne déduis pas son innocuité de son apparence.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : La toxicité varie selon l’espèce et la partie consommée. Ne déduis pas son innocuité de son apparence.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "En Belgique, appelle le 070 245 245. En cas de danger vital, appelle le 112.",
+          "subtitle": "En Belgique, appelle le 070 245 245. En cas de danger vital, appelle le 112.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : En Belgique, appelle le 070 245 245. En cas de danger vital, appelle le 112.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Pour prévenir un nouvel accident, conserve les étiquettes de tes plantes et surveille les jeunes enfants dans le jardin.",
+          "subtitle": "Pour prévenir un nouvel accident, conserve les étiquettes de tes plantes et surveille les jeunes enfants dans le jardin.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Pour prévenir un nouvel accident, conserve les étiquettes de tes plantes et surveille les jeunes enfants dans le jardin.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton enfant avalait des baies inconnues ? #Shorts",
+        "description": "Prévention. Source : https://www.centreantipoisons.be/tox-infos/vergiftiging-door-planten/",
+        "social": "Et si ton enfant avalait des baies inconnues ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP076",
+      "title": "Et si ton repas de champignons sauvages te rendait malade ?",
+      "sources": [
+        "https://www.centreantipoisons.be/sites/default/files/imce/Brochure%20CAP_champignons_FR_web.pdf",
+        "https://www.centreantipoisons.be/quand-appeler/"
+      ],
+      "verification": {
+        "status": "Extraits des sources consultés ce jour. Relecture clinique indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton repas de champignons sauvages te rendait malade ?",
+          "subtitle": "Et si ton repas de champignons sauvages te rendait malade ?",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Et si ton repas de champignons sauvages te rendait malade ?",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Après une cueillette en forêt, une famille partage un repas. Plus tard, une personne se sent malade.",
+          "subtitle": "Après une cueillette en forêt, une famille partage un repas. Plus tard, une personne se sent malade.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Après une cueillette en forêt, une famille partage un repas. Plus tard, une personne se sent malade.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "En cas de suspicion d’intoxication, contacte immédiatement un médecin ou le Centre Antipoisons.",
+          "subtitle": "En cas de suspicion d’intoxication, contacte immédiatement un médecin ou le Centre Antipoisons.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : En cas de suspicion d’intoxication, contacte immédiatement un médecin ou le Centre Antipoisons.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Prépare les renseignements utiles : espèces supposées, quantité consommée et endroit de récolte.",
+          "subtitle": "Prépare les renseignements utiles : espèces supposées, quantité consommée et endroit de récolte.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Prépare les renseignements utiles : espèces supposées, quantité consommée et endroit de récolte.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Indique les symptômes et le temps écoulé depuis le repas. Précise si les autres convives sont également malades.",
+          "subtitle": "Indique les symptômes et le temps écoulé depuis le repas. Précise si les autres convives sont également malades.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Indique les symptômes et le temps écoulé depuis le repas. Précise si les autres convives sont également malades.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "En Belgique, le Centre Antipoisons répond au 070 245 245. En cas de danger vital, compose le 112.",
+          "subtitle": "En Belgique, le Centre Antipoisons répond au 070 245 245. En cas de danger vital, compose le 112.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : En Belgique, le Centre Antipoisons répond au 070 245 245. En cas de danger vital, compose le 112.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Ne confonds pas identification visuelle et diagnostic médical. Le montage ne doit jamais servir de guide de reconnaissance des champignons.",
+          "subtitle": "Ne confonds pas identification visuelle et diagnostic médical. Le montage ne doit jamais servir de guide de reconnaissance des champignons.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Ne confonds pas identification visuelle et diagnostic médical. Le montage ne doit jamais servir de guide de reconnaissance des champignons.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton repas de champignons sauvages te rendait malade ? #Shorts",
+        "description": "Prévention. Source : https://www.centreantipoisons.be/sites/default/files/imce/Brochure%20CAP_champignons_FR_web.pdf",
+        "social": "Et si ton repas de champignons sauvages te rendait malade ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP077",
+      "title": "Et si tes doigts restaient collés par une colle instantanée ?",
+      "sources": [
+        "https://www.centreantipoisons.be/tox-infos/en-securite-a-lecole/",
+        "https://www.centreantipoisons.be/quand-appeler/"
+      ],
+      "verification": {
+        "status": "Extraits des sources consultés ce jour. Relecture clinique indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tes doigts restaient collés par une colle instantanée ?",
+          "subtitle": "Et si tes doigts restaient collés par une colle instantanée ?",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Et si tes doigts restaient collés par une colle instantanée ?",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Pendant un bricolage, deux doigts restent collés. La première réaction serait de tirer pour les séparer.",
+          "subtitle": "Pendant un bricolage, deux doigts restent collés. La première réaction serait de tirer pour les séparer.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Pendant un bricolage, deux doigts restent collés. La première réaction serait de tirer pour les séparer.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Ne les écarte pas brutalement. Le Centre Antipoisons recommande un trempage prolongé dans de l’eau tiède additionnée de liquide vaisselle.",
+          "subtitle": "Ne les écarte pas brutalement. Le Centre Antipoisons recommande un trempage prolongé dans de l’eau tiède additionnée de liquide vaisselle.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Ne les écarte pas brutalement. Le Centre Antipoisons recommande un trempage prolongé dans de l’eau tiède additionnée de liquide vaisselle.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Demande un avis spécialisé si tu ne parviens pas à les décoller sans force.",
+          "subtitle": "Demande un avis spécialisé si tu ne parviens pas à les décoller sans force.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Demande un avis spécialisé si tu ne parviens pas à les décoller sans force.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Les résidus superficiels peuvent se détacher spontanément en quelques jours.",
+          "subtitle": "Les résidus superficiels peuvent se détacher spontanément en quelques jours.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Les résidus superficiels peuvent se détacher spontanément en quelques jours.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Attention : le contact de certaines colles instantanées avec le coton peut dégager beaucoup de chaleur et brûler la peau.",
+          "subtitle": "Attention : le contact de certaines colles instantanées avec le coton peut dégager beaucoup de chaleur et brûler la peau.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : Attention : le contact de certaines colles instantanées avec le coton peut dégager beaucoup de chaleur et brûler la peau.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "En cas d’exposition inquiétante, contacte le Centre Antipoisons belge au 070 245 245.",
+          "subtitle": "En cas d’exposition inquiétante, contacte le Centre Antipoisons belge au 070 245 245.",
+          "prompt_image": "3D semi-réaliste, continuité personnage, illustration non graphique : En cas d’exposition inquiétante, contacte le Centre Antipoisons belge au 070 245 245.",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "logo officiel",
+          "animation": "Changer de cadrage toutes les 3 secondes. Aucun geste non validé.",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tes doigts restaient collés par une colle instantanée ? #Shorts",
+        "description": "Prévention. Source : https://www.centreantipoisons.be/tox-infos/en-securite-a-lecole/",
+        "social": "Et si tes doigts restaient collés par une colle instantanée ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
