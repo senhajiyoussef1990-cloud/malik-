@@ -1,0 +1,368 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90 secondes, ajuster voix. Vérifier réglementation locale et faire relire avant diffusion.",
+  "episodes": [
+    {
+      "id": "EP041",
+      "title": "Et si ta voiture restait coincée sur des rails ?",
+      "source": "https://www.securite-routiere.gouv.fr/sites/default/files/2024-10/depliant_les_passages_a_niveaux.pdf",
+      "verification": {
+        "status": "Source officielle consultée; contrôle final des gestes et des règles locales requis",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ta voiture restait coincée sur des rails ?",
+          "subtitle": "Et si ta voiture restait coincée sur des rails ?",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Et si ta voiture restait coincée sur des rails ?",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Un bouchon se forme devant toi alors que tu approches des rails.",
+          "subtitle": "Un bouchon se forme devant toi alors que tu approches des rails.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Un bouchon se forme devant toi alors que tu approches des rails.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Avant de traverser, assure-toi que la sortie est libre.",
+          "subtitle": "Avant de traverser, assure-toi que la sortie est libre.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Avant de traverser, assure-toi que la sortie est libre.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Si les feux rouges clignotent, reste avant le passage.",
+          "subtitle": "Si les feux rouges clignotent, reste avant le passage.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Si les feux rouges clignotent, reste avant le passage.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Si les barrières se referment autour de ta voiture, il faut dégager les rails immédiatement.",
+          "subtitle": "Si les barrières se referment autour de ta voiture, il faut dégager les rails immédiatement.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Si les barrières se referment autour de ta voiture, il faut dégager les rails immédiatement.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Si ton véhicule roule encore, franchis la barrière pour sortir.",
+          "subtitle": "Si ton véhicule roule encore, franchis la barrière pour sortir.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Si ton véhicule roule encore, franchis la barrière pour sortir.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si la voiture ne peut plus avancer, fais sortir tous les occupants et éloignez-vous des voies.",
+          "subtitle": "Si la voiture ne peut plus avancer, fais sortir tous les occupants et éloignez-vous des voies.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Si la voiture ne peut plus avancer, fais sortir tous les occupants et éloignez-vous des voies.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une fois en sécurité, alerte le service ferroviaire grâce au numéro affiché ou au téléphone dédié.",
+          "subtitle": "Une fois en sécurité, alerte le service ferroviaire grâce au numéro affiché ou au téléphone dédié.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Une fois en sécurité, alerte le service ferroviaire grâce au numéro affiché ou au téléphone dédié.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Un train nécessite une distance considérable pour s’arrêter.",
+          "subtitle": "Un train nécessite une distance considérable pour s’arrêter.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Un train nécessite une distance considérable pour s’arrêter.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Même après le passage d’un train, attends la réouverture complète et l’extinction du feu avant de traverser.",
+          "subtitle": "Même après le passage d’un train, attends la réouverture complète et l’extinction du feu avant de traverser.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Même après le passage d’un train, attends la réouverture complète et l’extinction du feu avant de traverser.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ta voiture restait coincée sur des rails ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2024-10/depliant_les_passages_a_niveaux.pdf",
+        "social": "Et si ta voiture restait coincée sur des rails ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP042",
+      "title": "Et si tu commençais à t’endormir au volant ?",
+      "source": "https://modules.securite-routiere.gouv.fr/7engagements/Fatigue/index.html",
+      "verification": {
+        "status": "Source officielle consultée; contrôle final des gestes et des règles locales requis",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu commençais à t’endormir au volant ?",
+          "subtitle": "Et si tu commençais à t’endormir au volant ?",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Et si tu commençais à t’endormir au volant ?",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "La route défile et tes paupières deviennent lourdes.",
+          "subtitle": "La route défile et tes paupières deviennent lourdes.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : La route défile et tes paupières deviennent lourdes.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Les bâillements et les yeux qui picotent annoncent parfois une perte de vigilance.",
+          "subtitle": "Les bâillements et les yeux qui picotent annoncent parfois une perte de vigilance.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Les bâillements et les yeux qui picotent annoncent parfois une perte de vigilance.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Ne cherche pas à terminer ton trajet coûte que coûte.",
+          "subtitle": "Ne cherche pas à terminer ton trajet coûte que coûte.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Ne cherche pas à terminer ton trajet coûte que coûte.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Arrête-toi dans un endroit autorisé et sûr dès les premiers signes.",
+          "subtitle": "Arrête-toi dans un endroit autorisé et sûr dès les premiers signes.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Arrête-toi dans un endroit autorisé et sûr dès les premiers signes.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Accorde-toi au moins vingt minutes de repos.",
+          "subtitle": "Accorde-toi au moins vingt minutes de repos.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Accorde-toi au moins vingt minutes de repos.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si tu restes somnolent, ne reprends pas le volant.",
+          "subtitle": "Si tu restes somnolent, ne reprends pas le volant.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Si tu restes somnolent, ne reprends pas le volant.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Prévois tes pauses avant les longs déplacements.",
+          "subtitle": "Prévois tes pauses avant les longs déplacements.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Prévois tes pauses avant les longs déplacements.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Fais une pause au minimum toutes les deux heures.",
+          "subtitle": "Fais une pause au minimum toutes les deux heures.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Fais une pause au minimum toutes les deux heures.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Anticipe aussi les trajets nocturnes et vérifie la compatibilité de tes médicaments avec la conduite.",
+          "subtitle": "Anticipe aussi les trajets nocturnes et vérifie la compatibilité de tes médicaments avec la conduite.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Anticipe aussi les trajets nocturnes et vérifie la compatibilité de tes médicaments avec la conduite.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu commençais à t’endormir au volant ? #Shorts",
+        "description": "Simulation éducative. Source : https://modules.securite-routiere.gouv.fr/7engagements/Fatigue/index.html",
+        "social": "Et si tu commençais à t’endormir au volant ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP043",
+      "title": "Et si tu arrivais trop vite sur un chantier autoroutier ?",
+      "source": "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite/conduire-sur-routes-specifiques/conduire-aux-abords-des-chantiers",
+      "verification": {
+        "status": "Source officielle consultée; contrôle final des gestes et des règles locales requis",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu arrivais trop vite sur un chantier autoroutier ?",
+          "subtitle": "Et si tu arrivais trop vite sur un chantier autoroutier ?",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Et si tu arrivais trop vite sur un chantier autoroutier ?",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu circules sur une autoroute quand des panneaux annoncent un chantier.",
+          "subtitle": "Tu circules sur une autoroute quand des panneaux annoncent un chantier.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Tu circules sur une autoroute quand des panneaux annoncent un chantier.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Les voies peuvent se rétrécir et les véhicules ralentir.",
+          "subtitle": "Les voies peuvent se rétrécir et les véhicules ralentir.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Les voies peuvent se rétrécir et les véhicules ralentir.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Observe la signalisation temporaire pour comprendre le trajet à suivre.",
+          "subtitle": "Observe la signalisation temporaire pour comprendre le trajet à suivre.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Observe la signalisation temporaire pour comprendre le trajet à suivre.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Réduis ta vitesse suffisamment tôt.",
+          "subtitle": "Réduis ta vitesse suffisamment tôt.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Réduis ta vitesse suffisamment tôt.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Anticipe les changements de voie au lieu d’attendre le dernier moment.",
+          "subtitle": "Anticipe les changements de voie au lieu d’attendre le dernier moment.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Anticipe les changements de voie au lieu d’attendre le dernier moment.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Redouble de vigilance devant les véhicules signalés par des feux clignotants.",
+          "subtitle": "Redouble de vigilance devant les véhicules signalés par des feux clignotants.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Redouble de vigilance devant les véhicules signalés par des feux clignotants.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Laisse suffisamment d’espace avec la voiture qui te précède.",
+          "subtitle": "Laisse suffisamment d’espace avec la voiture qui te précède.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Laisse suffisamment d’espace avec la voiture qui te précède.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Sous la pluie ou dans le brouillard, augmente encore ta vigilance.",
+          "subtitle": "Sous la pluie ou dans le brouillard, augmente encore ta vigilance.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Sous la pluie ou dans le brouillard, augmente encore ta vigilance.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Maintiens une allure adaptée jusqu’à la fin de la zone de travaux.",
+          "subtitle": "Maintiens une allure adaptée jusqu’à la fin de la zone de travaux.",
+          "prompt_image": "Simulation routière 3D semi-réaliste, verticale, sans collision graphique : Maintiens une allure adaptée jusqu’à la fin de la zone de travaux.",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Ambiance routière sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner vue habitacle et vue extérieure, respecter signalisation, aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu arrivais trop vite sur un chantier autoroutier ? #Shorts",
+        "description": "Simulation éducative. Source : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite/conduire-sur-routes-specifiques/conduire-aux-abords-des-chantiers",
+        "social": "Et si tu arrivais trop vite sur un chantier autoroutier ? #EtSi #SecuriteRoutiere"
+      }
+    }
+  ]
+}
