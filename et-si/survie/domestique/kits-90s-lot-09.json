@@ -1,0 +1,359 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90 secondes. Recaler narration et contrôler le rendu avant publication.",
+  "episodes": [
+    {
+      "id": "EP031",
+      "title": "Et si une douleur brutale te traversait le ventre ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/mal-ventre/que-faire-cas-faut-consulter",
+      "verification": "Source consultée directement dans cette étape; relecture professionnelle non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une douleur brutale te traversait le ventre ?",
+          "subtitle": "Et si une douleur brutale te traversait le ventre ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si une douleur brutale te traversait le ventre ?",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu es chez toi quand une douleur très intense apparaît sans prévenir.",
+          "subtitle": "Tu es chez toi quand une douleur très intense apparaît sans prévenir.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu es chez toi quand une douleur très intense apparaît sans prévenir.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Les douleurs abdominales ne sont pas toutes bénignes. Certaines exigent des soins urgents.",
+          "subtitle": "Les douleurs abdominales ne sont pas toutes bénignes. Certaines exigent des soins urgents.",
+          "prompt_image": "Simulation 3D verticale non graphique : Les douleurs abdominales ne sont pas toutes bénignes. Certaines exigent des soins urgents.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Si la douleur est soudaine et intense, appelle le 112.",
+          "subtitle": "Si la douleur est soudaine et intense, appelle le 112.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si la douleur est soudaine et intense, appelle le 112.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Un ventre devenu rigide et douloureux constitue aussi un signal d’urgence.",
+          "subtitle": "Un ventre devenu rigide et douloureux constitue aussi un signal d’urgence.",
+          "prompt_image": "Simulation 3D verticale non graphique : Un ventre devenu rigide et douloureux constitue aussi un signal d’urgence.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Une douleur après une chute violente nécessite également une prise en charge rapide.",
+          "subtitle": "Une douleur après une chute violente nécessite également une prise en charge rapide.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une douleur après une chute violente nécessite également une prise en charge rapide.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si tu as du mal à respirer en plus de la douleur, contacte les secours.",
+          "subtitle": "Si tu as du mal à respirer en plus de la douleur, contacte les secours.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si tu as du mal à respirer en plus de la douleur, contacte les secours.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une douleur inhabituelle pendant une grossesse doit également être évaluée en urgence.",
+          "subtitle": "Une douleur inhabituelle pendant une grossesse doit également être évaluée en urgence.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une douleur inhabituelle pendant une grossesse doit également être évaluée en urgence.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Si la douleur est nouvelle, persistante mais sans signe grave, consulte dans la journée.",
+          "subtitle": "Si la douleur est nouvelle, persistante mais sans signe grave, consulte dans la journée.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si la douleur est nouvelle, persistante mais sans signe grave, consulte dans la journée.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Ne tente pas de déterminer la cause à partir de cette vidéo.",
+          "subtitle": "Ne tente pas de déterminer la cause à partir de cette vidéo.",
+          "prompt_image": "Simulation 3D verticale non graphique : Ne tente pas de déterminer la cause à partir de cette vidéo.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une douleur brutale te traversait le ventre ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/mal-ventre/que-faire-cas-faut-consulter",
+        "social": "Et si une douleur brutale te traversait le ventre ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP032",
+      "title": "Et si tu perdais soudainement l’audition ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/pathologies/surdite-soudaine-que-faire",
+      "verification": "Source consultée directement dans cette étape; relecture professionnelle non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu perdais soudainement l’audition ?",
+          "subtitle": "Et si tu perdais soudainement l’audition ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si tu perdais soudainement l’audition ?",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu te réveilles et les sons semblent soudain étouffés d’un côté.",
+          "subtitle": "Tu te réveilles et les sons semblent soudain étouffés d’un côté.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu te réveilles et les sons semblent soudain étouffés d’un côté.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Une baisse rapide de l’audition peut toucher une oreille ou les deux.",
+          "subtitle": "Une baisse rapide de l’audition peut toucher une oreille ou les deux.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une baisse rapide de l’audition peut toucher une oreille ou les deux.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Elle peut apparaître en moins de vingt-quatre heures.",
+          "subtitle": "Elle peut apparaître en moins de vingt-quatre heures.",
+          "prompt_image": "Simulation 3D verticale non graphique : Elle peut apparaître en moins de vingt-quatre heures.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Des sifflements ou des vertiges peuvent l’accompagner.",
+          "subtitle": "Des sifflements ou des vertiges peuvent l’accompagner.",
+          "prompt_image": "Simulation 3D verticale non graphique : Des sifflements ou des vertiges peuvent l’accompagner.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Parfois, tu as simplement l’impression que ton oreille est bouchée.",
+          "subtitle": "Parfois, tu as simplement l’impression que ton oreille est bouchée.",
+          "prompt_image": "Simulation 3D verticale non graphique : Parfois, tu as simplement l’impression que ton oreille est bouchée.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "N’attends pas que ton audition revienne spontanément.",
+          "subtitle": "N’attends pas que ton audition revienne spontanément.",
+          "prompt_image": "Simulation 3D verticale non graphique : N’attends pas que ton audition revienne spontanément.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Consulte un spécialiste ORL en urgence.",
+          "subtitle": "Consulte un spécialiste ORL en urgence.",
+          "prompt_image": "Simulation 3D verticale non graphique : Consulte un spécialiste ORL en urgence.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Si aucun spécialiste n’est accessible rapidement, rends-toi aux urgences.",
+          "subtitle": "Si aucun spécialiste n’est accessible rapidement, rends-toi aux urgences.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si aucun spécialiste n’est accessible rapidement, rends-toi aux urgences.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Une prise en charge précoce est importante car certaines pertes auditives peuvent devenir définitives.",
+          "subtitle": "Une prise en charge précoce est importante car certaines pertes auditives peuvent devenir définitives.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une prise en charge précoce est importante car certaines pertes auditives peuvent devenir définitives.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu perdais soudainement l’audition ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/surdite-soudaine-que-faire",
+        "social": "Et si tu perdais soudainement l’audition ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP033",
+      "title": "Et si un fragment de verre restait profondément sous ta peau ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/peau",
+      "verification": "Source consultée directement dans cette étape; relecture professionnelle non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un fragment de verre restait profondément sous ta peau ?",
+          "subtitle": "Et si un fragment de verre restait profondément sous ta peau ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si un fragment de verre restait profondément sous ta peau ?",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Un objet se casse et un fragment pénètre dans ta main.",
+          "subtitle": "Un objet se casse et un fragment pénètre dans ta main.",
+          "prompt_image": "Simulation 3D verticale non graphique : Un objet se casse et un fragment pénètre dans ta main.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Un fragment profondément logé nécessite un avis médical.",
+          "subtitle": "Un fragment profondément logé nécessite un avis médical.",
+          "prompt_image": "Simulation 3D verticale non graphique : Un fragment profondément logé nécessite un avis médical.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Un gros éclat peut endommager des structures importantes, comme un tendon ou un nerf.",
+          "subtitle": "Un gros éclat peut endommager des structures importantes, comme un tendon ou un nerf.",
+          "prompt_image": "Simulation 3D verticale non graphique : Un gros éclat peut endommager des structures importantes, comme un tendon ou un nerf.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Une douleur intense ou croissante justifie aussi une consultation.",
+          "subtitle": "Une douleur intense ou croissante justifie aussi une consultation.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une douleur intense ou croissante justifie aussi une consultation.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Un médecin peut utiliser une imagerie pour repérer un fragment difficile à localiser.",
+          "subtitle": "Un médecin peut utiliser une imagerie pour repérer un fragment difficile à localiser.",
+          "prompt_image": "Simulation 3D verticale non graphique : Un médecin peut utiliser une imagerie pour repérer un fragment difficile à localiser.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Même après le retrait, surveille l’apparition d’une infection.",
+          "subtitle": "Même après le retrait, surveille l’apparition d’une infection.",
+          "prompt_image": "Simulation 3D verticale non graphique : Même après le retrait, surveille l’apparition d’une infection.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une rougeur qui progresse, une zone chaude ou un gonflement doivent faire consulter.",
+          "subtitle": "Une rougeur qui progresse, une zone chaude ou un gonflement doivent faire consulter.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une rougeur qui progresse, une zone chaude ou un gonflement doivent faire consulter.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Vérifie également si ta vaccination contre le tétanos est à jour.",
+          "subtitle": "Vérifie également si ta vaccination contre le tétanos est à jour.",
+          "prompt_image": "Simulation 3D verticale non graphique : Vérifie également si ta vaccination contre le tétanos est à jour.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Si elle ne l’est pas, consulte dans les quarante-huit heures.",
+          "subtitle": "Si elle ne l’est pas, consulte dans les quarante-huit heures.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si elle ne l’est pas, consulte dans les quarante-huit heures.",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Cadrages variés, continuité du personnage, aucun geste médical ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un fragment de verre restait profondément sous ta peau ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/corps-etrangers/peau",
+        "social": "Et si un fragment de verre restait profondément sous ta peau ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
