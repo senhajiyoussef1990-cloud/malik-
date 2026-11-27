@@ -1,0 +1,332 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90 secondes, recaler narration. Relecture professionnelle avant publication.",
+  "episodes": [
+    {
+      "id": "EP019",
+      "title": "Et si tu te tordais la cheville ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/entorse-cheville/bons-reflexes-que-faire",
+      "verification": "Source inspectée le 27 novembre 2026; relecture clinique indépendante non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu te tordais la cheville ?",
+          "subtitle": "Et si tu te tordais la cheville ?",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Et si tu te tordais la cheville ?",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 14,
+          "voix": "Tu rates une marche et ton pied tourne brusquement. La douleur te force à t’arrêter.",
+          "subtitle": "Tu rates une marche et ton pied tourne brusquement. La douleur te force à t’arrêter.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Tu rates une marche et ton pied tourne brusquement. La douleur te force à t’arrêter.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 14,
+          "end": 24,
+          "voix": "Ne continue pas ton activité en espérant que la douleur disparaisse. Mets la cheville au repos.",
+          "subtitle": "Ne continue pas ton activité en espérant que la douleur disparaisse. Mets la cheville au repos.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Ne continue pas ton activité en espérant que la douleur disparaisse. Mets la cheville au repos.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 24,
+          "end": 34,
+          "voix": "Applique une poche froide enveloppée dans un tissu pendant environ vingt minutes.",
+          "subtitle": "Applique une poche froide enveloppée dans un tissu pendant environ vingt minutes.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Applique une poche froide enveloppée dans un tissu pendant environ vingt minutes.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 34,
+          "end": 44,
+          "voix": "Le tissu protège ta peau du froid. Ne pose pas la glace directement dessus.",
+          "subtitle": "Le tissu protège ta peau du froid. Ne pose pas la glace directement dessus.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Le tissu protège ta peau du froid. Ne pose pas la glace directement dessus.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 44,
+          "end": 54,
+          "voix": "Une bande de maintien peut aider, mais elle ne doit pas serrer excessivement.",
+          "subtitle": "Une bande de maintien peut aider, mais elle ne doit pas serrer excessivement.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Une bande de maintien peut aider, mais elle ne doit pas serrer excessivement.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 54,
+          "end": 64,
+          "voix": "Surélève la jambe au repos pour limiter le gonflement.",
+          "subtitle": "Surélève la jambe au repos pour limiter le gonflement.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Surélève la jambe au repos pour limiter le gonflement.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 64,
+          "end": 72,
+          "voix": "Une douleur importante, un craquement ou un appui impossible doivent faire consulter dans les vingt-quatre heures.",
+          "subtitle": "Une douleur importante, un craquement ou un appui impossible doivent faire consulter dans les vingt-quatre heures.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Une douleur importante, un craquement ou un appui impossible doivent faire consulter dans les vingt-quatre heures.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 72,
+          "end": 80,
+          "voix": "Même une entorse peut nécessiter un examen et une rééducation. Ne néglige pas une douleur persistante.",
+          "subtitle": "Même une entorse peut nécessiter un examen et une rééducation. Ne néglige pas une douleur persistante.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Même une entorse peut nécessiter un examen et une rééducation. Ne néglige pas une douleur persistante.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu te tordais la cheville ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/entorse-cheville/bons-reflexes-que-faire",
+        "social": "Et si tu te tordais la cheville ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP020",
+      "title": "Et si tu perdais une dent définitive après un choc ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/traumatisme-dentaire",
+      "verification": "Source inspectée le 27 novembre 2026; relecture clinique indépendante non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu perdais une dent définitive après un choc ?",
+          "subtitle": "Et si tu perdais une dent définitive après un choc ?",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Et si tu perdais une dent définitive après un choc ?",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 14,
+          "voix": "Un choc pendant le sport expulse une dent. Contacte immédiatement un dentiste.",
+          "subtitle": "Un choc pendant le sport expulse une dent. Contacte immédiatement un dentiste.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Un choc pendant le sport expulse une dent. Contacte immédiatement un dentiste.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 14,
+          "end": 24,
+          "voix": "Retrouve la dent si possible et prends-la par sa partie visible, jamais par la racine.",
+          "subtitle": "Retrouve la dent si possible et prends-la par sa partie visible, jamais par la racine.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Retrouve la dent si possible et prends-la par sa partie visible, jamais par la racine.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 24,
+          "end": 34,
+          "voix": "Si elle est sale, rince-la brièvement sans frotter.",
+          "subtitle": "Si elle est sale, rince-la brièvement sans frotter.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Si elle est sale, rince-la brièvement sans frotter.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 34,
+          "end": 44,
+          "voix": "Une dent définitive peut parfois être replacée doucement, sans forcer.",
+          "subtitle": "Une dent définitive peut parfois être replacée doucement, sans forcer.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Une dent définitive peut parfois être replacée doucement, sans forcer.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 44,
+          "end": 54,
+          "voix": "Ne replace jamais une dent de lait, ni une dent dont tu ignores le type.",
+          "subtitle": "Ne replace jamais une dent de lait, ni une dent dont tu ignores le type.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Ne replace jamais une dent de lait, ni une dent dont tu ignores le type.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 54,
+          "end": 64,
+          "voix": "Si la remise en place est impossible, conserve la dent dans du lait ou du sérum physiologique.",
+          "subtitle": "Si la remise en place est impossible, conserve la dent dans du lait ou du sérum physiologique.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Si la remise en place est impossible, conserve la dent dans du lait ou du sérum physiologique.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 64,
+          "end": 72,
+          "voix": "Ne la laisse pas sécher et ne la mets pas dans la glace. Pars immédiatement chez le dentiste.",
+          "subtitle": "Ne la laisse pas sécher et ne la mets pas dans la glace. Pars immédiatement chez le dentiste.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Ne la laisse pas sécher et ne la mets pas dans la glace. Pars immédiatement chez le dentiste.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 72,
+          "end": 80,
+          "voix": "Après un choc violent à la tête, une perte de connaissance ou des vomissements, appelle le 112.",
+          "subtitle": "Après un choc violent à la tête, une perte de connaissance ou des vomissements, appelle le 112.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Après un choc violent à la tête, une perte de connaissance ou des vomissements, appelle le 112.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu perdais une dent définitive après un choc ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/traumatisme-dentaire",
+        "social": "Et si tu perdais une dent définitive après un choc ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP021",
+      "title": "Et si ton bébé avait une diarrhée importante ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/gastro-enterite-enfant/que-faire-quand-consulter",
+      "verification": "Source inspectée le 27 novembre 2026; relecture clinique indépendante non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton bébé avait une diarrhée importante ?",
+          "subtitle": "Et si ton bébé avait une diarrhée importante ?",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Et si ton bébé avait une diarrhée importante ?",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 14,
+          "voix": "Chez un bébé de moins de deux ans, une diarrhée aiguë nécessite rapidement un avis médical.",
+          "subtitle": "Chez un bébé de moins de deux ans, une diarrhée aiguë nécessite rapidement un avis médical.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Chez un bébé de moins de deux ans, une diarrhée aiguë nécessite rapidement un avis médical.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 14,
+          "end": 24,
+          "voix": "Le danger principal est la perte d’eau et de sels minéraux.",
+          "subtitle": "Le danger principal est la perte d’eau et de sels minéraux.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Le danger principal est la perte d’eau et de sels minéraux.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 24,
+          "end": 34,
+          "voix": "Utilise une solution de réhydratation orale disponible en pharmacie, préparée selon sa notice.",
+          "subtitle": "Utilise une solution de réhydratation orale disponible en pharmacie, préparée selon sa notice.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Utilise une solution de réhydratation orale disponible en pharmacie, préparée selon sa notice.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 34,
+          "end": 44,
+          "voix": "Propose-la souvent et en petites quantités, notamment si ton bébé vomit.",
+          "subtitle": "Propose-la souvent et en petites quantités, notamment si ton bébé vomit.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Propose-la souvent et en petites quantités, notamment si ton bébé vomit.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 44,
+          "end": 54,
+          "voix": "Poursuis l’allaitement si tu allaites. Demande conseil pour adapter les autres prises alimentaires.",
+          "subtitle": "Poursuis l’allaitement si tu allaites. Demande conseil pour adapter les autres prises alimentaires.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Poursuis l’allaitement si tu allaites. Demande conseil pour adapter les autres prises alimentaires.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 54,
+          "end": 64,
+          "voix": "Surveille les boissons, les selles, les vomissements et le comportement.",
+          "subtitle": "Surveille les boissons, les selles, les vomissements et le comportement.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Surveille les boissons, les selles, les vomissements et le comportement.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 64,
+          "end": 72,
+          "voix": "Un bébé difficile à réveiller, qui ne boit plus ou qui respire vite nécessite une évaluation urgente.",
+          "subtitle": "Un bébé difficile à réveiller, qui ne boit plus ou qui respire vite nécessite une évaluation urgente.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Un bébé difficile à réveiller, qui ne boit plus ou qui respire vite nécessite une évaluation urgente.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 72,
+          "end": 80,
+          "voix": "N’attends pas si son état se dégrade. Appelle le 112 en cas de signes graves.",
+          "subtitle": "N’attends pas si son état se dégrade. Appelle le 112 en cas de signes graves.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : N’attends pas si son état se dégrade. Appelle le 112 en cas de signes graves.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste, illustration non graphique de : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plan dynamique, aucun geste ajouté, contrôle professionnel des gestes",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton bébé avait une diarrhée importante ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/gastro-enterite-enfant/que-faire-quand-consulter",
+        "social": "Et si ton bébé avait une diarrhée importante ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
