@@ -7,7 +7,7 @@
  ],
  "rate": "+8%",
  "title": "Et si ta casserole d’huile prenait feu ?",
- "duration": 70.867,
+ "duration": 73.8,
  "scenes": [
   {
    "scene": 1,
@@ -82,9 +82,9 @@
   {
    "scene": 11,
    "start": 64.4,
-   "dur": 6.4667,
+   "dur": 9.4,
    "voix": "s11.mp3",
-   "voix_dur": 6.024
+   "voix_dur": 6.96
   }
  ],
  "captions": [
@@ -1044,10 +1044,10 @@
      "k": false
     }
    ],
-   "e": 68.446
+   "e": 68.414
   },
   {
-   "s": 68.446,
+   "s": 68.414,
    "toks": [
     {
      "w": "Partage",
@@ -1066,11 +1066,33 @@
      "k": false
     },
     {
-     "w": "abonne-toi.",
+     "w": "abonne-toi",
      "k": true
     }
    ],
-   "e": 70.817
+   "e": 70.208
+  },
+  {
+   "s": 70.208,
+   "toks": [
+    {
+     "w": "pour",
+     "k": false
+    },
+    {
+     "w": "plus",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "conseils.",
+     "k": false
+    }
+   ],
+   "e": 72.808
   }
  ],
  "cues": {
@@ -1099,7 +1121,7 @@
   "eau": 4.799,
   "deplacee": 6.095,
   "proches": 2.646,
-  "partage": 4.046,
-  "abonne": 5.319
+  "partage": 4.014,
+  "abonne": 5.299
  }
 }
