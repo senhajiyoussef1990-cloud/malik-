@@ -1,0 +1,314 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s à mesurer. Vérifier les consignes locales et obtenir une relecture spécialisée avant publication.",
+  "episodes": [
+    {
+      "id": "EP085",
+      "title": "Et si un volcan entrait en éruption pendant tes vacances ?",
+      "source": "https://www.georisques.gouv.fr/minformer-sur-un-risque/eruption-volcanique",
+      "verification": {
+        "status": "Texte officiel consulté dans ce tour; relecture spécialisée indépendante non effectuée",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un volcan entrait en éruption pendant tes vacances ?",
+          "subtitle": "Et si un volcan entrait en éruption pendant tes vacances ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Et si un volcan entrait en éruption pendant tes vacances ?",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu séjournes près d’un volcan. Une annonce officielle signale une éruption et ton premier réflexe pourrait être de sortir pour observer le paysage.",
+          "subtitle": "Tu séjournes près d’un volcan. Une annonce officielle signale une éruption et ton premier réflexe pourrait être de sortir pour observer le paysage.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Tu séjournes près d’un volcan. Une annonce officielle signale une éruption et ton premier réflexe pourrait être de sortir pour observer le paysage.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Mais une éruption peut menacer des zones entières. Les cartes de risques et les plans d’évacuation permettent aux autorités de préparer la protection des habitants.",
+          "subtitle": "Mais une éruption peut menacer des zones entières. Les cartes de risques et les plans d’évacuation permettent aux autorités de préparer la protection des habitants.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Mais une éruption peut menacer des zones entières. Les cartes de risques et les plans d’évacuation permettent aux autorités de préparer la protection des habitants.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Si les autorités ordonnent une évacuation, respecte cette décision. Ne transforme pas ton départ en excursion pour observer le phénomène.",
+          "subtitle": "Si les autorités ordonnent une évacuation, respecte cette décision. Ne transforme pas ton départ en excursion pour observer le phénomène.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Si les autorités ordonnent une évacuation, respecte cette décision. Ne transforme pas ton départ en excursion pour observer le phénomène.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "En l’absence d’ordre d’évacuation, mets-toi à l’abri dans un bâtiment fermé, conformément aux instructions locales.",
+          "subtitle": "En l’absence d’ordre d’évacuation, mets-toi à l’abri dans un bâtiment fermé, conformément aux instructions locales.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : En l’absence d’ordre d’évacuation, mets-toi à l’abri dans un bâtiment fermé, conformément aux instructions locales.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Ferme les fenêtres, les portes et les volets. Continue à écouter les informations officielles à la radio.",
+          "subtitle": "Ferme les fenêtres, les portes et les volets. Continue à écouter les informations officielles à la radio.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Ferme les fenêtres, les portes et les volets. Continue à écouter les informations officielles à la radio.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Après l’événement, éloigne-toi des endroits signalés comme dangereux et respecte les restrictions. Les images spectaculaires de cette simulation ne constituent jamais une invitation à approcher un volcan.",
+          "subtitle": "Après l’événement, éloigne-toi des endroits signalés comme dangereux et respecte les restrictions. Les images spectaculaires de cette simulation ne constituent jamais une invitation à approcher un volcan.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Après l’événement, éloigne-toi des endroits signalés comme dangereux et respecte les restrictions. Les images spectaculaires de cette simulation ne constituent jamais une invitation à approcher un volcan.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Avant même ton départ en vacances, renseigne-toi sur les risques de la région et prépare le matériel d’urgence recommandé.",
+          "subtitle": "Avant même ton départ en vacances, renseigne-toi sur les risques de la région et prépare le matériel d’urgence recommandé.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Avant même ton départ en vacances, renseigne-toi sur les risques de la région et prépare le matériel d’urgence recommandé.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel de la série",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un volcan entrait en éruption pendant tes vacances ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.georisques.gouv.fr/minformer-sur-un-risque/eruption-volcanique",
+        "social": "Et si un volcan entrait en éruption pendant tes vacances ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP086",
+      "title": "Et si un éboulement menaçait ton sentier ?",
+      "source": "https://www.georisques.gouv.fr/DICRIM/04092",
+      "verification": {
+        "status": "Texte officiel consulté dans ce tour; relecture spécialisée indépendante non effectuée",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un éboulement menaçait ton sentier ?",
+          "subtitle": "Et si un éboulement menaçait ton sentier ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Et si un éboulement menaçait ton sentier ?",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu marches au pied d’une pente rocheuse. Des pierres commencent à tomber sur le chemin. Dans cette simulation, le danger se rapproche soudainement.",
+          "subtitle": "Tu marches au pied d’une pente rocheuse. Des pierres commencent à tomber sur le chemin. Dans cette simulation, le danger se rapproche soudainement.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Tu marches au pied d’une pente rocheuse. Des pierres commencent à tomber sur le chemin. Dans cette simulation, le danger se rapproche soudainement.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "En cas d’éboulement à l’extérieur, cherche à quitter la trajectoire des matériaux en te déplaçant sur le côté.",
+          "subtitle": "En cas d’éboulement à l’extérieur, cherche à quitter la trajectoire des matériaux en te déplaçant sur le côté.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : En cas d’éboulement à l’extérieur, cherche à quitter la trajectoire des matériaux en te déplaçant sur le côté.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Ne rebrousse pas chemin vers la zone dangereuse. Cherche un emplacement plus élevé hors de portée des matériaux.",
+          "subtitle": "Ne rebrousse pas chemin vers la zone dangereuse. Cherche un emplacement plus élevé hors de portée des matériaux.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Ne rebrousse pas chemin vers la zone dangereuse. Cherche un emplacement plus élevé hors de portée des matériaux.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Si tu aperçois une construction endommagée, ne pénètre pas à l’intérieur pour chercher un refuge.",
+          "subtitle": "Si tu aperçois une construction endommagée, ne pénètre pas à l’intérieur pour chercher un refuge.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Si tu aperçois une construction endommagée, ne pénètre pas à l’intérieur pour chercher un refuge.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "La situation peut évoluer rapidement. Les autorités peuvent définir un point de rassemblement pour les personnes exposées.",
+          "subtitle": "La situation peut évoluer rapidement. Les autorités peuvent définir un point de rassemblement pour les personnes exposées.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : La situation peut évoluer rapidement. Les autorités peuvent définir un point de rassemblement pour les personnes exposées.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Une fois en sécurité, rejoins le lieu indiqué et suis les instructions officielles plutôt que de retourner observer les dégâts.",
+          "subtitle": "Une fois en sécurité, rejoins le lieu indiqué et suis les instructions officielles plutôt que de retourner observer les dégâts.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Une fois en sécurité, rejoins le lieu indiqué et suis les instructions officielles plutôt que de retourner observer les dégâts.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Avant une randonnée dans un secteur exposé, informe-toi sur les dangers recensés et sur les consignes locales.",
+          "subtitle": "Avant une randonnée dans un secteur exposé, informe-toi sur les dangers recensés et sur les consignes locales.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Avant une randonnée dans un secteur exposé, informe-toi sur les dangers recensés et sur les consignes locales.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel de la série",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un éboulement menaçait ton sentier ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.georisques.gouv.fr/DICRIM/04092",
+        "social": "Et si un éboulement menaçait ton sentier ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP087",
+      "title": "Et si le sol s’effondrait sous ton quartier ?",
+      "source": "https://www.georisques.gouv.fr/DICRIM/04108",
+      "verification": {
+        "status": "Texte officiel consulté dans ce tour; relecture spécialisée indépendante non effectuée",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si le sol s’effondrait sous ton quartier ?",
+          "subtitle": "Et si le sol s’effondrait sous ton quartier ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Et si le sol s’effondrait sous ton quartier ?",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Imagine qu’un affaissement apparaisse près de ton habitation. Les mouvements du sous-sol peuvent prendre plusieurs formes, parfois soudaines.",
+          "subtitle": "Imagine qu’un affaissement apparaisse près de ton habitation. Les mouvements du sous-sol peuvent prendre plusieurs formes, parfois soudaines.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Imagine qu’un affaissement apparaisse près de ton habitation. Les mouvements du sous-sol peuvent prendre plusieurs formes, parfois soudaines.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Certaines cavités souterraines peuvent être à l’origine d’un effondrement. Dans cette simulation, le bâtiment présente les premiers signes de ce phénomène.",
+          "subtitle": "Certaines cavités souterraines peuvent être à l’origine d’un effondrement. Dans cette simulation, le bâtiment présente les premiers signes de ce phénomène.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Certaines cavités souterraines peuvent être à l’origine d’un effondrement. Dans cette simulation, le bâtiment présente les premiers signes de ce phénomène.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Si tu te trouves à l’intérieur d’un bâtiment menacé par un effondrement du sol, évacue dès les premiers signes.",
+          "subtitle": "Si tu te trouves à l’intérieur d’un bâtiment menacé par un effondrement du sol, évacue dès les premiers signes.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Si tu te trouves à l’intérieur d’un bâtiment menacé par un effondrement du sol, évacue dès les premiers signes.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "N’utilise pas l’ascenseur et ne retourne pas dans la construction évacuée.",
+          "subtitle": "N’utilise pas l’ascenseur et ne retourne pas dans la construction évacuée.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : N’utilise pas l’ascenseur et ne retourne pas dans la construction évacuée.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Si tu es déjà dehors, éloigne-toi du secteur dangereux. Ne reste pas au bord du trou pour prendre des photographies.",
+          "subtitle": "Si tu es déjà dehors, éloigne-toi du secteur dangereux. Ne reste pas au bord du trou pour prendre des photographies.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Si tu es déjà dehors, éloigne-toi du secteur dangereux. Ne reste pas au bord du trou pour prendre des photographies.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Rejoins le lieu de regroupement désigné par les autorités et respecte les restrictions imposées.",
+          "subtitle": "Rejoins le lieu de regroupement désigné par les autorités et respecte les restrictions imposées.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Rejoins le lieu de regroupement désigné par les autorités et respecte les restrictions imposées.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Les images de cette vidéo sont fictives. Pour connaître les risques réels de ton quartier, consulte les documents officiels de prévention.",
+          "subtitle": "Les images de cette vidéo sont fictives. Pour connaître les risques réels de ton quartier, consulte les documents officiels de prévention.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, personnages cohérents, sans blessure graphique : Les images de cette vidéo sont fictives. Pour connaître les risques réels de ton quartier, consulte les documents officiels de prévention.",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel de la série",
+          "animation": "Changer de cadrage toutes les trois secondes; ne pas inventer de gestes",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si le sol s’effondrait sous ton quartier ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.georisques.gouv.fr/DICRIM/04108",
+        "social": "Et si le sol s’effondrait sous ton quartier ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
