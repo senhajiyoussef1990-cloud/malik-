@@ -18,7 +18,7 @@ AFFICHAGE = {
     'vingt-quatre heures': '24 heures',
     'huit milliards': '8 milliards',
 }
-SLUG = {'001': 'casserole-huile-feu', '002': 'adulte-etouffement'}
+SLUG = {'000': 'prototype-poele-feu', '001': 'casserole-huile-feu', '002': 'adulte-etouffement'}
 MOTS_CLES = {'feu', 'casserole', 'jamais', 'eau', 'chaleur', 'danger', 'secours', 'dehors', 'porte', 'sors', 'partage', 'proches', 'quitte', 'avertis', 'flammes', 'boule', 'terre', 'tourner', 'équateur', 'est', 'atmosphère', 'vents', 'océans', 'inondations', 'pôles',
              'gravité', 'orbite', 'soleil', 'année', 'rotation', 'scénario', 'seconde', 'prochain', 'épisode',
              'abonne-toi', 'suite', 'lune', 'jupiter', 'dinosaures', 'fourmis', 'casque', 'espace', 'trou', 'noir'}
@@ -146,6 +146,8 @@ def main():
     ap.add_argument('--id', help='épisode à prendre dans un fichier de lot (kits-90s-lot-XX.json)')
     ap.add_argument('--cues', help='repères d\'animation : [[scène, clé, mot], ...]')
     ap.add_argument('--maxchars', type=int, default=22)
+    ap.add_argument('--first', type=float, default=4.0)
+    ap.add_argument('--last', type=float, default=6.5)
     ap.add_argument('--tail', type=float, default=0.45, help='silence après la voix dans chaque scène')
     a = ap.parse_args()
     if a.kit:
@@ -169,7 +171,7 @@ def main():
         f = out / 'voix' / f's{si+1:02d}.mp3'
         mots = simule(texte, f) if a.simulate else dire(texte, a, f)
         dv = duree(f)
-        mini = {0: 4.0, len(ep['scenes']) - 1: 6.5 if a.kit else 5.5}.get(si, a.mini)
+        mini = {0: a.first, len(ep['scenes']) - 1: a.last}.get(si, a.mini)
         d = round(round(max(mini, PAD_AV + dv + PAD_AP) * 30) / 30, 4)
         us, rep = caler(texte, mots, t + PAD_AV)
         for si2, cle, mot in REPERES.get(ep['id'], []):

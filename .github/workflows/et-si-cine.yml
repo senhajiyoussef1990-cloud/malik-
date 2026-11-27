@@ -1,0 +1,45 @@
+name: Et si ? — moteur cinéma (prototype)
+on:
+  push:
+    branches: [et-si]
+    paths:
+      - 'et-si/survie/cine/**'
+      - '.github/workflows/et-si-cine.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: et-si-cine
+  cancel-in-progress: true
+jobs:
+  prototype:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Installer les outils
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+          python -m pip install edge-tts playwright numpy scipy
+          python -m playwright install --with-deps chromium
+      - name: Voix, rendu, son, MP4
+        run: |
+          P=et-si/survie/cine/proto; O=sortie/EP000
+          python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice fr-FR-RemyMultilingualNeural --rate="-2%" --first 2.6 --mini 3.6 --last 5.6 --tail 0.4 --maxchars 34 < /dev/null
+          python et-si/moteur/render.py --anim $P/anim.html --out $O < /dev/null
+          python $P/audio.py --out $O < /dev/null
+          python et-si/moteur/assembler.py --out $O --music -21 < /dev/null
+          ffmpeg -nostdin -hide_banner -i $O/EP000*.mp4 -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2
+      - name: Publier sur et-si-sorties
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone -q --depth 1 -b et-si-sorties "$URL" pub; mkdir -p pub/cine
+          cp sortie/EP000/EP000*.mp4 pub/cine/; cp sortie/EP000/timing.json pub/cine/EP000-timing.json
+          cd pub && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "Prototype cinéma ${GITHUB_SHA::7}" || exit 0
+          git push -q "$URL" et-si-sorties

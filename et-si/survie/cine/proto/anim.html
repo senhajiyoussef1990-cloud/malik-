@@ -1,0 +1,82 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script>
+<script>
+/* PROTOTYPE 15 s — « Et si ta poêle prenait feu ? »
+   4 phrases (voix), 7 plans. Sources : pompiers de Bruxelles (BX1), Québec (prévenir les incendies en cuisine), préfecture de l'Oise. */
+const PAN={x:760,y:1170};
+// le monde : cuisine + personnage + feu ; st = {fire, smoke, stir, react, t}
+function world(st){const B=buf('world',Math.round(W*1.6),H),b=B.getContext('2d');const t=st.t;
+  kitchenBack(b);
+  // personnage (derrière le plan de travail)
+  const u=150,nx=430,ny=840+(st.react||0)*-10;const tip=[PAN.x-30+Math.sin(t*3.2)*55*(st.stir??1)*(1-(st.react||0)),1112];
+  const sa=-0.62-(st.react||0)*0.2;const grip=[tip[0]+Math.sin(sa)*-210,tip[1]-Math.cos(sa)*210];
+  const nb=[nx-(st.react||0)*60,ny];const sh=[0.72,0.42];const wr=[(grip[0]-nb[0])/u-0.25,(grip[1]-nb[1])/u+0.15];const el=[(sh[0]+wr[0])/2+0.1,(sh[1]+wr[1])/2+0.55];
+  const reactArm=st.react||0;const wrF=[lerp(wr[0],1.55,reactArm),lerp(wr[1],1.45,reactArm)],elF=[lerp(el[0],1.0,reactArm),lerp(el[1],1.75,reactArm)];
+  if(!st.noMan)painted(b,f=>{bust(f,nb[0],nb[1],u,{lean:-0.04-0.12*reactArm,headDX:-0.08*reactArm,ex:{eye:0.5+0.5*reactArm,brow:reactArm,mouth:0.35*reactArm,look:0.8},
+      armN:[sh[0],sh[1],elF[0],elF[1],wrF[0],wrF[1]],handN:reactArm>0.5?'open':'grip',handNa:reactArm>0.5?-0.9:0.1,armF:[-0.62,0.5,-0.85,1.9,-0.55,2.9],handF:'rest'});},
+    {dx:st.fire>0.2?1:0.3,dy:-0.6,scale:u,col:st.fire>0.2?'rgba(255,150,70,1)':'rgba(255,220,180,1)',k:st.fire>0.2?0.9:0.4});
+  if(reactArm<0.5&&!st.noMan)spatula(b,tip[0],tip[1],sa);
+  counter(b);knobs(b);fryPan(b,PAN.x,PAN.y,t,{shimmer:st.smoke||0,food:true,stir:st.stir??1});
+  if(reactArm>=0.5){spatula(b,PAN.x+120,1172,1.35);}
+  if(st.glass)glassOfWater(b,1060,1196,1.0);
+  // lumière
+  const L=[lampLight(735,760,0.75),{x:200,y:760,r:700,c:'rgba(120,150,200,0.5)'}];if(st.fire>0)L.push(fireLight(PAN.x,PAN.y-140,0.35+0.75*st.fire,t));
+  relight(b,L,st.fire>0.3?'#2a2b33':'#3a3b44');
+  if(st.smoke)wisps(b,PAN.x,PAN.y-70,240,t,0.3*st.smoke);
+  if(st.fire>0){smoke(b,PAN.x,PAN.y-280,520,700,t,0.45*st.fire);flames(b,PAN.x,PAN.y-62,280,360,t,st.fire);}
+  return B;}
+function show(c,B,cam,blur=0){c.save();camXf(c,cam);if(blur)c.filter=`blur(${blur}px)`;c.drawImage(B,0,0);c.restore();}
+function fg(c,t,par){ // premier plan flou (îlot + bol) : profondeur de champ
+  c.save();c.filter='blur(14px)';c.translate(par,0);c.fillStyle='#1a1d22';c.fillRect(-40,1660,700,400);c.fillStyle=lg(c,0,1640,0,1680,[[0,'#bdb6a8'],[1,'#6f6a60']]);c.fillRect(-40,1640,700,40);
+  c.fillStyle='#e8e2d8';c.beginPath();c.ellipse(220,1640,150,40,0,0,TAU);c.fill();c.fillStyle='#6a8a3a';for(let i=0;i<8;i++){c.beginPath();c.ellipse(170+i*14,1622,16,9,i,0,TAU);c.fill();}c.restore();}
+
+const SCENES=[
+// A — accroche : la poêle en feu, dès la première image
+(c,t,d)=>{const B=world({t:t+6,fire:1,smoke:0,stir:0,react:1});const cam=camAt(t,d,{x:760,y:1060,z:2.5},{x:770,y:1040,z:2.25});const s=shake(t,4);cam.x+=s.x;cam.y+=s.y;
+  show(c,B,cam);grade(c,t);c.fillStyle=lg(c,0,0,0,800,[[0,'rgba(8,11,16,0.85)'],[1,'rgba(8,11,16,0)']]);c.fillRect(0,0,W,800);
+  title(c,'ET SI…',['ta poêle','prenait feu ?'],clamp(t/0.3),300);},
+// B — l'huile chauffe et fume
+(c,t,d)=>{const cut=d*0.5;
+  if(t<cut){const B=world({t,fire:0,smoke:0.4+0.6*(t/cut),stir:1});const cam=camAt(t,cut,{x:640,y:1000,z:1.32},{x:700,y:1000,z:1.38});show(c,B,cam);fg(c,t,-t*30);grade(c,t);}
+  else{const lt=t-cut;const B=world({t,fire:0,smoke:1,stir:0.6});const cam=camAt(lt,d-cut,{x:770,y:1110,z:3.4},{x:780,y:1090,z:3.7});show(c,B,cam);grade(c,t);
+    tag(c,'L’HUILE FUME',470,clamp((t-CUE('fumer',2.4))/0.3),'rouge');}},
+// C — les flammes apparaissent ; réaction
+(c,t,d)=>{const cut=d*0.5;const ig=CUE('flammes',1.4)*0.45;const fi=ease(seg(t,ig,ig+0.7));
+  if(t<cut){const B=world({t:t+3,fire:fi,smoke:1-fi*0.5,stir:1-fi,react:ease(seg(t,ig+0.15,ig+0.6))});const cam=camAt(t,cut,{x:620,y:960,z:1.75},{x:640,y:950,z:1.85});const s=shake(t,fi*5);cam.x+=s.x;cam.y+=s.y;show(c,B,cam);grade(c,t);}
+  else{const lt=t-cut;const B=world({t:t+3,fire:1,smoke:0.5,react:1,noMan:true});
+    show(c,B,{x:520,y:760,z:3.2},10);c.fillStyle='rgba(8,11,16,0.35)';c.fillRect(0,0,W,H);
+    const k=ease(clamp(lt/(d-cut)));const fl=0.85+0.15*Math.sin(t*17)*Math.sin(t*5.1);
+    painted(c,f=>{bust(f,lerp(430,400,k),1120,330,{lean:-0.12,headDX:-0.1,ex:{eye:0.95,brow:0.9,mouth:0.45,look:0.9},armF:null,armN:null});},{dx:1,dy:-0.4,scale:330,col:`rgba(255,${140*fl|0},60,1)`,k:1,shadow:0.7});
+    c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,W,900,0,900,[[0,`rgba(255,120,40,${0.35*fl})`],[1,'rgba(255,120,40,0)']]);c.fillRect(0,0,W,H);c.restore();grade(c,t);}},
+// D — jamais d'eau : explication scientifique
+(c,t,d)=>{const cut=Math.min(1.6,d*0.32);
+  if(t<cut){const B=world({t:t+5,fire:1,smoke:0.4,react:1,glass:true});show(c,B,camAt(t,cut,{x:960,y:1060,z:2.2},{x:980,y:1050,z:2.35}));grade(c,t);
+    const k=seg(t,0.25,0.85);c.save();c.strokeStyle=PAL.rouge;c.lineWidth=26;c.lineCap='round';c.shadowColor='rgba(0,0,0,0.6)';c.shadowBlur=20;const cx=W/2+130,cy=1010,r=260;c.beginPath();c.arc(cx,cy,r,-Math.PI/2,-Math.PI/2+TAU*clamp(k*1.4));c.stroke();
+    if(k>0.6){const q=seg(k,0.6,1);c.beginPath();c.moveTo(cx-r*0.7,cy-r*0.7);c.lineTo(cx-r*0.7+r*1.4*q,cy-r*0.7+r*1.4*q);c.stroke();}c.restore();tag(c,'JAMAIS D’EAU',470,seg(t,0.4,0.7),'rouge',52);}
+  else{const lt=t-cut,dd=d-cut;science(c,lt,dd,t);}},
+];
+// schéma : coupe de la poêle — eau -> vapeur -> projection d'huile enflammée
+function science(c,t,d,T){c.fillStyle=lg(c,0,0,0,H,[[0,PAL.noir],[1,PAL.nuit]]);c.fillRect(0,0,W,H);
+  c.save();c.strokeStyle='rgba(245,245,245,0.06)';c.lineWidth=2;for(let x=0;x<W;x+=60){c.beginPath();c.moveTo(x,0);c.lineTo(x,H);c.stroke();}for(let y=0;y<H;y+=60){c.beginPath();c.moveTo(0,y);c.lineTo(W,y);c.stroke();}c.restore();
+  const cx=W/2,cy=1180,k1=seg(t,0.1,0.9),k2=seg(t,0.9,1.5),k3=seg(t,1.5,d-0.2);
+  const z=1+0.06*eout(t/d);c.save();c.translate(cx,cy);c.scale(z,z);c.translate(-cx,-cy);
+  // poêle en coupe
+  c.strokeStyle='rgba(245,245,245,0.9)';c.lineWidth=7;c.beginPath();c.moveTo(cx-360,cy-150);c.lineTo(cx-320,cy+40);c.lineTo(cx+320,cy+40);c.lineTo(cx+360,cy-150);c.stroke();
+  c.fillStyle=lg(c,0,cy-80,0,cy+34,[[0,'rgba(235,170,60,0.9)'],[1,'rgba(170,100,20,0.95)']]);c.beginPath();c.moveTo(cx-343,cy-80);c.lineTo(cx-326,cy+33);c.lineTo(cx+326,cy+33);c.lineTo(cx+343,cy-80);c.closePath();c.fill();
+  flames(c,cx,cy-82,520,340*(1-k3*0.3),T,1-k3*0.2,7);
+  // goutte d'eau qui tombe puis coule sous l'huile (plus dense)
+  if(k2<1){const y=k1<1?lerp(cy-620,cy-80,ease(k1)):lerp(cy-80,cy+10,ease(k2));c.fillStyle='rgba(110,180,255,0.95)';c.beginPath();c.moveTo(cx,y-50);c.quadraticCurveTo(cx+32,y,cx,y+22);c.quadraticCurveTo(cx-32,y,cx,y-50);c.fill();}
+  // vapeur qui gonfle d'un coup
+  if(k2>0.6){const v=seg(k2,0.6,1)+k3;c.fillStyle=`rgba(235,242,255,${0.85*(1-k3*0.8)})`;for(let i=0;i<14;i++){const a=i/14*TAU;c.beginPath();c.arc(cx+Math.cos(a)*60*v,cy+5+Math.sin(a)*26*v-80*k3,14+30*v,0,TAU);c.fill();}}
+  // projection d'huile enflammée -> boule de feu
+  if(k3>0){c.save();c.globalCompositeOperation='lighter';const r=mulberry(6);for(let i=0;i<110;i++){const a=-Math.PI/2+(r()-0.5)*2.4,sp=280+r()*820;const e=eout(k3);const x=cx+Math.cos(a)*sp*e,y=cy-60+Math.sin(a)*sp*e+260*k3*k3;
+      c.fillStyle=`rgba(255,${110+r()*110|0},40,${0.9*(1-k3*0.4)})`;c.beginPath();c.arc(x,y,5+r()*13,0,TAU);c.fill();}
+    c.filter='blur(46px)';c.fillStyle=`rgba(255,120,30,${0.75*(1-k3*0.3)})`;c.beginPath();c.arc(cx,cy-360,520*eout(k3),0,TAU);c.fill();c.restore();}
+  c.restore();
+  const lab=(s,x,y,a,col=PAL.blanc,al='left')=>{if(a<=0)return;c.save();c.globalAlpha=a;c.font='700 36px M';c.fillStyle=col;c.textAlign=al;c.shadowColor='#000';c.shadowBlur=10;c.fillText(s,x,y);c.restore();};
+  lab('eau',cx+60,cy-520,clamp(t/0.3)*(1-k2));lab('huile en feu',cx+130,cy-200,clamp(t/0.3)*(1-k3),PAL.blanc,'left');lab('l’eau coule au fond…',W/2,cy+130,seg(t,0.9,1.05)*(1-seg(t,1.35,1.5)),PAL.blanc,'center');lab('…et se vaporise d’un coup',W/2,cy+130,seg(t,1.5,1.65),PAL.blanc,'center');
+  c.save();c.globalAlpha=0.9;c.font='800 30px M';c.letterSpacing='8px';c.fillStyle='rgba(245,245,245,0.7)';c.textAlign='center';c.fillText('EXPLICATION',W/2,300);c.restore();
+  tag(c,'BOULE DE FEU',420,clamp(k3*4),'rouge',56);grade(c,T,{vig:0.5});}
+</script></body></html>
