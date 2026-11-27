@@ -1,0 +1,359 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90 s, recaler la voix. Contrôle professionnel avant publication.",
+  "episodes": [
+    {
+      "id": "EP028",
+      "title": "Et si ton taux de sucre chutait brutalement ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/diabete-adulte/diabete-symptomes-evolution/acido-cetose-hypoglycemie-hyperglycemie",
+      "verification": "Source consultée dans cette étape; consignes complémentaires de sécurité et relecture clinique à valider",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton taux de sucre chutait brutalement ?",
+          "subtitle": "Et si ton taux de sucre chutait brutalement ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si ton taux de sucre chutait brutalement ?",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu es diabétique et tu ressens soudain des tremblements.",
+          "subtitle": "Tu es diabétique et tu ressens soudain des tremblements.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu es diabétique et tu ressens soudain des tremblements.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Des palpitations ou une vision floue peuvent aussi évoquer une hypoglycémie.",
+          "subtitle": "Des palpitations ou une vision floue peuvent aussi évoquer une hypoglycémie.",
+          "prompt_image": "Simulation 3D verticale non graphique : Des palpitations ou une vision floue peuvent aussi évoquer une hypoglycémie.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Arrête ton activité et mesure ta glycémie si tu peux.",
+          "subtitle": "Arrête ton activité et mesure ta glycémie si tu peux.",
+          "prompt_image": "Simulation 3D verticale non graphique : Arrête ton activité et mesure ta glycémie si tu peux.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Si elle est inférieure à 70 milligrammes par décilitre, suis ton protocole médical.",
+          "subtitle": "Si elle est inférieure à 70 milligrammes par décilitre, suis ton protocole médical.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si elle est inférieure à 70 milligrammes par décilitre, suis ton protocole médical.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Si tu es conscient et peux avaler normalement, prends quinze grammes de sucre rapide.",
+          "subtitle": "Si tu es conscient et peux avaler normalement, prends quinze grammes de sucre rapide.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si tu es conscient et peux avaler normalement, prends quinze grammes de sucre rapide.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Repose-toi quinze minutes puis mesure à nouveau ta glycémie.",
+          "subtitle": "Repose-toi quinze minutes puis mesure à nouveau ta glycémie.",
+          "prompt_image": "Simulation 3D verticale non graphique : Repose-toi quinze minutes puis mesure à nouveau ta glycémie.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Si elle demeure trop basse, renouvelle le resucrage selon ton protocole.",
+          "subtitle": "Si elle demeure trop basse, renouvelle le resucrage selon ton protocole.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si elle demeure trop basse, renouvelle le resucrage selon ton protocole.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Si une personne perd connaissance, ne lui donne rien par la bouche et appelle le 112.",
+          "subtitle": "Si une personne perd connaissance, ne lui donne rien par la bouche et appelle le 112.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si une personne perd connaissance, ne lui donne rien par la bouche et appelle le 112.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Prépare avec ton médecin un plan adapté à ton traitement.",
+          "subtitle": "Prépare avec ton médecin un plan adapté à ton traitement.",
+          "prompt_image": "Simulation 3D verticale non graphique : Prépare avec ton médecin un plan adapté à ton traitement.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton taux de sucre chutait brutalement ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/diabete-adulte/diabete-symptomes-evolution/acido-cetose-hypoglycemie-hyperglycemie",
+        "social": "Et si ton taux de sucre chutait brutalement ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP029",
+      "title": "Et si tu te déshydratais gravement ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/pathologies/deshydratation",
+      "verification": "Source consultée dans cette étape; consignes complémentaires de sécurité et relecture clinique à valider",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu te déshydratais gravement ?",
+          "subtitle": "Et si tu te déshydratais gravement ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si tu te déshydratais gravement ?",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Après des efforts prolongés, tu ressens une fatigue inhabituelle.",
+          "subtitle": "Après des efforts prolongés, tu ressens une fatigue inhabituelle.",
+          "prompt_image": "Simulation 3D verticale non graphique : Après des efforts prolongés, tu ressens une fatigue inhabituelle.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Ton organisme peut manquer d’eau et de sels minéraux.",
+          "subtitle": "Ton organisme peut manquer d’eau et de sels minéraux.",
+          "prompt_image": "Simulation 3D verticale non graphique : Ton organisme peut manquer d’eau et de sels minéraux.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Des lèvres sèches, des vertiges et des urines rares doivent attirer ton attention.",
+          "subtitle": "Des lèvres sèches, des vertiges et des urines rares doivent attirer ton attention.",
+          "prompt_image": "Simulation 3D verticale non graphique : Des lèvres sèches, des vertiges et des urines rares doivent attirer ton attention.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Si les symptômes sont modérés, repose-toi dans un endroit frais.",
+          "subtitle": "Si les symptômes sont modérés, repose-toi dans un endroit frais.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si les symptômes sont modérés, repose-toi dans un endroit frais.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Rafraîchis ta peau avec un linge humide.",
+          "subtitle": "Rafraîchis ta peau avec un linge humide.",
+          "prompt_image": "Simulation 3D verticale non graphique : Rafraîchis ta peau avec un linge humide.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si tu peux boire normalement, hydrate-toi régulièrement, notamment avec un bouillon salé.",
+          "subtitle": "Si tu peux boire normalement, hydrate-toi régulièrement, notamment avec un bouillon salé.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si tu peux boire normalement, hydrate-toi régulièrement, notamment avec un bouillon salé.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Si tu deviens confus ou très faible, la situation peut être grave.",
+          "subtitle": "Si tu deviens confus ou très faible, la situation peut être grave.",
+          "prompt_image": "Simulation 3D verticale non graphique : Si tu deviens confus ou très faible, la situation peut être grave.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Appelle le 112 en cas de signes graves. Ne force pas une personne inconsciente à boire.",
+          "subtitle": "Appelle le 112 en cas de signes graves. Ne force pas une personne inconsciente à boire.",
+          "prompt_image": "Simulation 3D verticale non graphique : Appelle le 112 en cas de signes graves. Ne force pas une personne inconsciente à boire.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Sois particulièrement vigilant auprès des personnes âgées et des jeunes enfants.",
+          "subtitle": "Sois particulièrement vigilant auprès des personnes âgées et des jeunes enfants.",
+          "prompt_image": "Simulation 3D verticale non graphique : Sois particulièrement vigilant auprès des personnes âgées et des jeunes enfants.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu te déshydratais gravement ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/deshydratation",
+        "social": "Et si tu te déshydratais gravement ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP030",
+      "title": "Et si tu vomissais du sang ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/nausee-vomissement/que-faire-cas-faut-consulter",
+      "verification": "Source consultée dans cette étape; consignes complémentaires de sécurité et relecture clinique à valider",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu vomissais du sang ?",
+          "subtitle": "Et si tu vomissais du sang ?",
+          "prompt_image": "Simulation 3D verticale non graphique : Et si tu vomissais du sang ?",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu viens de vomir et tu remarques du sang. Ce signe exige une réaction rapide.",
+          "subtitle": "Tu viens de vomir et tu remarques du sang. Ce signe exige une réaction rapide.",
+          "prompt_image": "Simulation 3D verticale non graphique : Tu viens de vomir et tu remarques du sang. Ce signe exige une réaction rapide.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Il ne s’agit pas d’une situation à traiter uniquement avec des remèdes maison.",
+          "subtitle": "Il ne s’agit pas d’une situation à traiter uniquement avec des remèdes maison.",
+          "prompt_image": "Simulation 3D verticale non graphique : Il ne s’agit pas d’une situation à traiter uniquement avec des remèdes maison.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Contacte immédiatement le service médical d’urgence en composant le 112.",
+          "subtitle": "Contacte immédiatement le service médical d’urgence en composant le 112.",
+          "prompt_image": "Simulation 3D verticale non graphique : Contacte immédiatement le service médical d’urgence en composant le 112.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Explique que tu as vomi du sang. Décris les autres symptômes éventuels.",
+          "subtitle": "Explique que tu as vomi du sang. Décris les autres symptômes éventuels.",
+          "prompt_image": "Simulation 3D verticale non graphique : Explique que tu as vomi du sang. Décris les autres symptômes éventuels.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Une douleur thoracique associée aux nausées constitue aussi un motif d’urgence.",
+          "subtitle": "Une douleur thoracique associée aux nausées constitue aussi un motif d’urgence.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une douleur thoracique associée aux nausées constitue aussi un motif d’urgence.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Des vomissements après un choc à la tête nécessitent également une aide urgente.",
+          "subtitle": "Des vomissements après un choc à la tête nécessitent également une aide urgente.",
+          "prompt_image": "Simulation 3D verticale non graphique : Des vomissements après un choc à la tête nécessitent également une aide urgente.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Ne cherche pas à établir toi-même un diagnostic à partir d’une vidéo.",
+          "subtitle": "Ne cherche pas à établir toi-même un diagnostic à partir d’une vidéo.",
+          "prompt_image": "Simulation 3D verticale non graphique : Ne cherche pas à établir toi-même un diagnostic à partir d’une vidéo.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Reste en communication avec les secours et suis leurs instructions.",
+          "subtitle": "Reste en communication avec les secours et suis leurs instructions.",
+          "prompt_image": "Simulation 3D verticale non graphique : Reste en communication avec les secours et suis leurs instructions.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Une évaluation médicale rapide permet de déterminer la cause et le traitement nécessaire.",
+          "subtitle": "Une évaluation médicale rapide permet de déterminer la cause et le traitement nécessaire.",
+          "prompt_image": "Simulation 3D verticale non graphique : Une évaluation médicale rapide permet de déterminer la cause et le traitement nécessaire.",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage à mi-plan; aucun geste improvisé",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu vomissais du sang ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/nausee-vomissement/que-faire-cas-faut-consulter",
+        "social": "Et si tu vomissais du sang ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
