@@ -253,7 +253,7 @@ const SCENES=[
   const L=[['Jamais d’eau sur l’huile en feu',PAL.rouge],['Ne déplace pas la casserole',PAL.rouge],['Couvercle par le côté, si sans danger',PAL.vert],['Sinon : sors, ferme, appelle le 112',PAL.vert]];
   L.forEach(([s,col],i)=>{const a=clamp((t-0.3-i*0.18)/0.3);if(a<=0)return;c.save();c.globalAlpha=a;const y=640+i*112;c.fillStyle='rgba(255,255,255,0.06)';c.fillRect(110,y-44,860,88);c.fillStyle=col;c.fillRect(110,y-44,10,88);c.font='700 40px M';c.fillStyle=PAL.blanc;c.textBaseline='middle';c.fillText(s,150,y+2);c.restore();});
   button(c,'PARTAGE',1140,clamp((t-C('partage',4.0))/0.3),false);button(c,'ABONNE-TOI',1270,clamp((t-C('abonne',5.2))/0.3),true);
-  c.save();c.font='600 26px M';c.fillStyle='rgba(245,245,245,0.55)';c.textAlign='center';c.fillText('Simulation éducative · source officielle en description',W/2,1760);c.restore();grade(c,t,{vig:0.45});
+  c.save();c.font='600 26px M';c.fillStyle='rgba(245,245,245,0.55)';c.textAlign='center';c.fillText('Source officielle en description',W/2,1760);c.restore();grade(c,t,{vig:0.45});
   const fo=ease(seg(t,d-1.2,d));if(fo>0){c.fillStyle=`rgba(4,6,10,${fo})`;c.fillRect(0,0,W,H);}},
 ];
 </script></body></html>

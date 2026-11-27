@@ -126,7 +126,7 @@ function kitchen(c,o={}){
 /* ---------- habillage ---------- */
 function post(c,t){c.fillStyle=rg(c,W/2,H*0.46,H*0.25,H*0.8,[[0,'rgba(0,0,0,0)'],[1,'rgba(0,0,0,0.6)']]);c.fillRect(0,0,W,H);tile(c,GRAIN,0.07,'overlay',0,0,W,H,(t*997%540)|0,(t*613%540)|0);}
 function topShade(c,h=760){c.fillStyle=lg(c,0,0,0,h,[[0,'rgba(0,0,0,0.78)'],[1,'rgba(0,0,0,0)']]);c.fillRect(0,0,W,h);}
-function marks(c){c.save();c.font='600 28px M';c.fillStyle='rgba(255,255,255,0.6)';c.textAlign='left';c.textBaseline='alphabetic';c.fillText(TITRE,60,200);c.textAlign='right';c.fillText('SIMULATION',W-60,200);
+function marks(c){c.save();c.font='600 28px M';c.fillStyle='rgba(255,255,255,0.6)';c.textAlign='left';c.textBaseline='alphabetic';c.fillText(TITRE,60,200);c.textAlign='right';c.fillText('',W-60,200);
   if(DRAFT){c.font='700 22px M';c.fillStyle='rgba(255,90,70,0.9)';c.fillText('BROUILLON · NON VALIDÉ',W-60,234);}c.restore();}
 function fadeIn(t,t0,d=0.3){return clamp((t-t0)/d);}
 function label(c,s,y,a,kind='red'){if(a<=0)return;const bg={red:'rgba(214,48,36,0.95)',yellow:'rgba(255,200,0,0.95)',green:'rgba(30,150,80,0.95)',dark:'rgba(10,12,16,0.85)'}[kind];const fg=kind==='yellow'?'#111':'#fff';
@@ -147,7 +147,7 @@ function outro(c,t,d,recap){
     c.font='700 40px M';c.fillStyle='#fff';c.textAlign='left';c.textBaseline='middle';c.fillText(r[0],190,y+2);c.restore();});
   const btn=(s,y,t0,fill)=>{const a=fadeIn(t,t0);if(a<=0)return;c.save();c.globalAlpha=a;c.font='800 44px M';c.letterSpacing='4px';const w=520;c.fillStyle=fill?'#fff':'rgba(0,0,0,0)';c.strokeStyle='#fff';c.lineWidth=4;c.beginPath();c.roundRect(W/2-w/2,y-55,w,110,55);fill?c.fill():c.stroke();c.fillStyle=fill?'#111':'#fff';c.textAlign='center';c.textBaseline='middle';c.fillText(s,W/2,y+3);c.restore();};
   btn('PARTAGE',1150,CUE('partage',d-3),false);btn('ABONNE-TOI',1290,CUE('abonne',d-2),true);
-  c.save();c.font='500 26px M';c.fillStyle='rgba(255,255,255,0.55)';c.textAlign='center';c.globalAlpha=fadeIn(t,1);c.fillText('Simulation éducative · sources officielles en description',W/2,1400);c.restore();}
+  c.save();c.font='500 26px M';c.fillStyle='rgba(255,255,255,0.55)';c.textAlign='center';c.globalAlpha=fadeIn(t,1);c.fillText('Sources officielles en description',W/2,1400);c.restore();}
 
 function render(T,si,lt,dur){ctx.setTransform(1,0,0,1,0,0);ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';ctx.filter='none';ctx.clearRect(0,0,W,H);
   ctx.save();SCENES[si](ctx,lt,dur,T);ctx.restore();

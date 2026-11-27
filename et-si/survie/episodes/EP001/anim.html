@@ -147,7 +147,7 @@ function finish(t){
   for(let y=-oy;y<H;y+=512)for(let x=-ox;x<W;x+=512)ctx.drawImage(grainC,x,y);
   ctx.globalCompositeOperation='source-over';ctx.globalAlpha=1;
   ctx.font='700 30px M';ctx.fillStyle='rgba(255,255,255,0.6)';ctx.textAlign='left';ctx.textBaseline='alphabetic';ctx.fillText(TITRE,60,250);
-  ctx.textAlign='right';ctx.fillText('SIMULATION',W-60,250);
+
   if(DRAFT){ctx.save();ctx.font='800 24px M';ctx.fillStyle='rgba(255,59,59,0.9)';ctx.textAlign='right';ctx.fillText('BROUILLON · NON VALIDÉ',W-60,288);ctx.restore();}
 }
 function steps(cur,a){ // 5 step chips for scene 5
@@ -274,7 +274,7 @@ function s6(t,d){
   // buttons
   const b1=popIn(t,cPa);if(b1.a>0){ctx.save();ctx.translate(W/2,1060);ctx.scale(b1.s,b1.s);ctx.globalAlpha=b1.a;ctx.fillStyle='#fff';ctx.beginPath();ctx.roundRect(-250,-58,500,116,58);ctx.fill();iconShare(-165,-6,1.2);ctx.fillStyle='#0B1A33';ctx.font='900 46px M';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('PARTAGE',35,4);ctx.restore();}
   const b2=popIn(t,cAb);if(b2.a>0){const pul=1+0.05*Math.max(0,Math.sin((t-cAb-0.25)*9))*(t>cAb+0.25?1:0);ctx.save();ctx.translate(W/2,1210);ctx.scale(b2.s*pul,b2.s*pul);ctx.globalAlpha=b2.a;ctx.shadowColor=OR;ctx.shadowBlur=40;ctx.fillStyle=OR;ctx.beginPath();ctx.roundRect(-250,-58,500,116,58);ctx.fill();ctx.shadowBlur=0;iconBell(-170,-4,1);ctx.fillStyle='#0B1A33';ctx.font='900 46px M';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('ABONNE-TOI',40,4);ctx.restore();}
-  txt('Simulation éducative · sources en description',W/2,1330,28,'rgba(255,255,255,0.7)',700,'center',seg(t,0.6,1.0));
+  txt('Sources en description',W/2,1330,28,'rgba(255,255,255,0.7)',700,'center',seg(t,0.6,1.0));
 }
 const SCENES=[s1,s2,s3,s4,s5,s6];
 
