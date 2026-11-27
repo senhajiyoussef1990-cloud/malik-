@@ -5,6 +5,7 @@ on:
     paths:
       - 'et-si/survie/cine/EP001/**'
       - 'et-si/survie/cine/cine.js'
+      - 'et-si/survie/cine/perso.js'
       - 'et-si/moteur/**'
       - '.github/workflows/et-si-cine-ep001.yml'
   workflow_dispatch:
