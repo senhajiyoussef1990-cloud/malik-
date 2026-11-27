@@ -1,0 +1,358 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s. Validation spécialisée avant publication.",
+  "episodes": [
+    {
+      "id": "EP071",
+      "title": "Et si un feu de forêt te surprenait en randonnée ?",
+      "sources": [
+        "https://centredecrise.be/fr/risques-en-belgique/risques-naturels/feu-de-foret"
+      ],
+      "verification": {
+        "status": "Extraits officiels consultés; revue indépendante non effectuée; vérifier les formulations additionnelles avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un feu de forêt te surprenait en randonnée ?",
+          "subtitle": "Et si un feu de forêt te surprenait en randonnée ?",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Et si un feu de forêt te surprenait en randonnée ?",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "Tu aperçois une colonne de fumée au-dessus des arbres. Ce n’est plus le moment de poursuivre ta promenade ni de chercher à filmer le spectacle.",
+          "subtitle": "Tu aperçois une colonne de fumée au-dessus des arbres. Ce n’est plus le moment de poursuivre ta promenade ni de chercher à filmer le spectacle.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Tu aperçois une colonne de fumée au-dessus des arbres. Ce n’est plus le moment de poursuivre ta promenade ni de chercher à filmer le spectacle.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "Éloigne-toi du feu et de la fumée en empruntant les chemins déjà existants. Si possible, avance perpendiculairement au vent.",
+          "subtitle": "Éloigne-toi du feu et de la fumée en empruntant les chemins déjà existants. Si possible, avance perpendiculairement au vent.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Éloigne-toi du feu et de la fumée en empruntant les chemins déjà existants. Si possible, avance perpendiculairement au vent.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Cherche à rejoindre une route publique, un vaste espace pavé ou une zone habitée. Ne retourne pas vers le danger.",
+          "subtitle": "Cherche à rejoindre une route publique, un vaste espace pavé ou une zone habitée. Ne retourne pas vers le danger.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Cherche à rejoindre une route publique, un vaste espace pavé ou une zone habitée. Ne retourne pas vers le danger.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "Appelle le 112 dès que tu peux. Décris les chemins, les parkings ou les autres repères qui permettront aux secours de te localiser.",
+          "subtitle": "Appelle le 112 dès que tu peux. Décris les chemins, les parkings ou les autres repères qui permettront aux secours de te localiser.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Appelle le 112 dès que tu peux. Décris les chemins, les parkings ou les autres repères qui permettront aux secours de te localiser.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Si ton téléphone ne capte plus, continue à évacuer et demande de l’aide aux personnes rencontrées. Ne retourne pas dans la zone sans autorisation.",
+          "subtitle": "Si ton téléphone ne capte plus, continue à évacuer et demande de l’aide aux personnes rencontrées. Ne retourne pas dans la zone sans autorisation.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Si ton téléphone ne capte plus, continue à évacuer et demande de l’aide aux personnes rencontrées. Ne retourne pas dans la zone sans autorisation.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        }
+      ],
+      "production_note": "Combler la plage 65–80 par un rappel visuel sans nouveau conseil; recaler les plans sur la voix, durée non mesurée.",
+      "publication": {
+        "titre": "Et si un feu de forêt te surprenait en randonnée ? #Shorts",
+        "description": "Simulation éducative. Source : https://centredecrise.be/fr/risques-en-belgique/risques-naturels/feu-de-foret",
+        "social": "Et si un feu de forêt te surprenait en randonnée ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP072",
+      "title": "Et si une alerte nucléaire arrivait sur ton téléphone ?",
+      "sources": [
+        "https://centredecrise.be/fr/risques-en-belgique/risques-economiques-et-technologiques/incident-dans-une-centrale-nucleaire",
+        "https://centredecrise.be/fr/que-pouvez-vous-faire/le-bon-reflexe/se-mettre-labri"
+      ],
+      "verification": {
+        "status": "Extraits officiels consultés; revue indépendante non effectuée; vérifier les formulations additionnelles avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une alerte nucléaire arrivait sur ton téléphone ?",
+          "subtitle": "Et si une alerte nucléaire arrivait sur ton téléphone ?",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Et si une alerte nucléaire arrivait sur ton téléphone ?",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "Imagine recevoir une alerte officielle concernant un incident nucléaire. Avant même de réfléchir à un déplacement, cherche à comprendre les instructions des autorités.",
+          "subtitle": "Imagine recevoir une alerte officielle concernant un incident nucléaire. Avant même de réfléchir à un déplacement, cherche à comprendre les instructions des autorités.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Imagine recevoir une alerte officielle concernant un incident nucléaire. Avant même de réfléchir à un déplacement, cherche à comprendre les instructions des autorités.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "La priorité recommandée est de rejoindre un bâtiment et d’y rester. Ne pars pas spontanément en voiture pour quitter la région.",
+          "subtitle": "La priorité recommandée est de rejoindre un bâtiment et d’y rester. Ne pars pas spontanément en voiture pour quitter la région.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : La priorité recommandée est de rejoindre un bâtiment et d’y rester. Ne pars pas spontanément en voiture pour quitter la région.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Ferme les ouvertures et arrête les dispositifs qui introduisent de l’air extérieur, conformément aux consignes de mise à l’abri.",
+          "subtitle": "Ferme les ouvertures et arrête les dispositifs qui introduisent de l’air extérieur, conformément aux consignes de mise à l’abri.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Ferme les ouvertures et arrête les dispositifs qui introduisent de l’air extérieur, conformément aux consignes de mise à l’abri.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "En Belgique, des comprimés d’iode sont disponibles en pharmacie. Mais attention : il ne faut jamais les prendre de sa propre initiative.",
+          "subtitle": "En Belgique, des comprimés d’iode sont disponibles en pharmacie. Mais attention : il ne faut jamais les prendre de sa propre initiative.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : En Belgique, des comprimés d’iode sont disponibles en pharmacie. Mais attention : il ne faut jamais les prendre de sa propre initiative.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Continue à suivre les annonces officielles pour savoir quand sortir. Prépare-toi dès aujourd’hui en consultant les informations sur les zones de planification nucléaire.",
+          "subtitle": "Continue à suivre les annonces officielles pour savoir quand sortir. Prépare-toi dès aujourd’hui en consultant les informations sur les zones de planification nucléaire.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Continue à suivre les annonces officielles pour savoir quand sortir. Prépare-toi dès aujourd’hui en consultant les informations sur les zones de planification nucléaire.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        }
+      ],
+      "production_note": "Combler la plage 65–80 par un rappel visuel sans nouveau conseil; recaler les plans sur la voix, durée non mesurée.",
+      "publication": {
+        "titre": "Et si une alerte nucléaire arrivait sur ton téléphone ? #Shorts",
+        "description": "Simulation éducative. Source : https://centredecrise.be/fr/risques-en-belgique/risques-economiques-et-technologiques/incident-dans-une-centrale-nucleaire",
+        "social": "Et si une alerte nucléaire arrivait sur ton téléphone ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP073",
+      "title": "Et si les autorités te demandaient d’évacuer ton logement ?",
+      "sources": [
+        "https://centredecrise.be/fr/que-pouvez-vous-faire/le-bon-reflexe/evacuer"
+      ],
+      "verification": {
+        "status": "Extraits officiels consultés; revue indépendante non effectuée; vérifier les formulations additionnelles avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si les autorités te demandaient d’évacuer ton logement ?",
+          "subtitle": "Et si les autorités te demandaient d’évacuer ton logement ?",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Et si les autorités te demandaient d’évacuer ton logement ?",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "Une alerte annonce que ton quartier doit être évacué. Dans cette simulation, les autorités te donnent le temps de préparer ton départ.",
+          "subtitle": "Une alerte annonce que ton quartier doit être évacué. Dans cette simulation, les autorités te donnent le temps de préparer ton départ.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Une alerte annonce que ton quartier doit être évacué. Dans cette simulation, les autorités te donnent le temps de préparer ton départ.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "Respecte les indications des secours. Si les circonstances le permettent, vérifie que les appareils comme le fer à repasser sont éteints.",
+          "subtitle": "Respecte les indications des secours. Si les circonstances le permettent, vérifie que les appareils comme le fer à repasser sont éteints.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Respecte les indications des secours. Si les circonstances le permettent, vérifie que les appareils comme le fer à repasser sont éteints.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Le réfrigérateur et le congélateur peuvent rester branchés selon les recommandations du Centre de crise. Ferme les fenêtres et les portes si tu peux le faire sans danger.",
+          "subtitle": "Le réfrigérateur et le congélateur peuvent rester branchés selon les recommandations du Centre de crise. Ferme les fenêtres et les portes si tu peux le faire sans danger.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Le réfrigérateur et le congélateur peuvent rester branchés selon les recommandations du Centre de crise. Ferme les fenêtres et les portes si tu peux le faire sans danger.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "Ne retarde jamais ta sortie pour accomplir ces préparatifs si un danger immédiat menace ta vie. Respecte les instructions opérationnelles.",
+          "subtitle": "Ne retarde jamais ta sortie pour accomplir ces préparatifs si un danger immédiat menace ta vie. Respecte les instructions opérationnelles.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Ne retarde jamais ta sortie pour accomplir ces préparatifs si un danger immédiat menace ta vie. Respecte les instructions opérationnelles.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Une fois parti, n’essaie pas de revenir avant que les autorités aient annoncé que le retour est possible.",
+          "subtitle": "Une fois parti, n’essaie pas de revenir avant que les autorités aient annoncé que le retour est possible.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Une fois parti, n’essaie pas de revenir avant que les autorités aient annoncé que le retour est possible.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        }
+      ],
+      "production_note": "Combler la plage 65–80 par un rappel visuel sans nouveau conseil; recaler les plans sur la voix, durée non mesurée.",
+      "publication": {
+        "titre": "Et si les autorités te demandaient d’évacuer ton logement ? #Shorts",
+        "description": "Simulation éducative. Source : https://centredecrise.be/fr/que-pouvez-vous-faire/le-bon-reflexe/evacuer",
+        "social": "Et si les autorités te demandaient d’évacuer ton logement ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP074",
+      "title": "Et si tu recevais une fausse alerte d’urgence ?",
+      "sources": [
+        "https://centredecrise.be/fr/que-pouvez-vous-faire/informez-vous/be-alert-des-alertes-sur-votre-telephone"
+      ],
+      "verification": {
+        "status": "Extraits officiels consultés; revue indépendante non effectuée; vérifier les formulations additionnelles avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu recevais une fausse alerte d’urgence ?",
+          "subtitle": "Et si tu recevais une fausse alerte d’urgence ?",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Et si tu recevais une fausse alerte d’urgence ?",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "Ton téléphone affiche un message inquiétant qui prétend provenir des autorités belges. Comment reconnaître une véritable alerte BE-Alert ?",
+          "subtitle": "Ton téléphone affiche un message inquiétant qui prétend provenir des autorités belges. Comment reconnaître une véritable alerte BE-Alert ?",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Ton téléphone affiche un message inquiétant qui prétend provenir des autorités belges. Comment reconnaître une véritable alerte BE-Alert ?",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "Les messages d’urgence de ce système commencent par son nom. Les numéros indiqués par le Centre de crise sont le 1789 et le 0477 77 77 55.",
+          "subtitle": "Les messages d’urgence de ce système commencent par son nom. Les numéros indiqués par le Centre de crise sont le 1789 et le 0477 77 77 55.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Les messages d’urgence de ce système commencent par son nom. Les numéros indiqués par le Centre de crise sont le 1789 et le 0477 77 77 55.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Une alerte authentique est gratuite. Elle ne te demandera jamais de communiquer tes coordonnées bancaires.",
+          "subtitle": "Une alerte authentique est gratuite. Elle ne te demandera jamais de communiquer tes coordonnées bancaires.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Une alerte authentique est gratuite. Elle ne te demandera jamais de communiquer tes coordonnées bancaires.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "Consulte également les canaux officiels de ta commune pour obtenir des informations et les instructions de sécurité.",
+          "subtitle": "Consulte également les canaux officiels de ta commune pour obtenir des informations et les instructions de sécurité.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Consulte également les canaux officiels de ta commune pour obtenir des informations et les instructions de sécurité.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Avant une urgence, tu peux enregistrer plusieurs adresses sur le service officiel afin de recevoir aussi les alertes concernant tes proches.",
+          "subtitle": "Avant une urgence, tu peux enregistrer plusieurs adresses sur le service officiel afin de recevoir aussi les alertes concernant tes proches.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Avant une urgence, tu peux enregistrer plusieurs adresses sur le service officiel afin de recevoir aussi les alertes concernant tes proches.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, pas de blessures graphiques, continuité des personnages : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Changer de plan toutes les trois secondes; aucun geste supplémentaire",
+          "son": "Ambiance discrète, narration prioritaire"
+        }
+      ],
+      "production_note": "Combler la plage 65–80 par un rappel visuel sans nouveau conseil; recaler les plans sur la voix, durée non mesurée.",
+      "publication": {
+        "titre": "Et si tu recevais une fausse alerte d’urgence ? #Shorts",
+        "description": "Simulation éducative. Source : https://centredecrise.be/fr/que-pouvez-vous-faire/informez-vous/be-alert-des-alertes-sur-votre-telephone",
+        "social": "Et si tu recevais une fausse alerte d’urgence ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
