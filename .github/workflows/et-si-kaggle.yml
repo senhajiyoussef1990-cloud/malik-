@@ -36,7 +36,7 @@ jobs:
       - name: Envoyer le notebook GPU
         run: |
           [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY; [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
-          NOM=$(basename "$PROMPTS" .json); SLUG="etsi-images-$NOM"; echo "SLUG=$SLUG" >> "$GITHUB_ENV"; echo "NOM=$NOM" >> "$GITHUB_ENV"
+          export NOM=$(basename "$PROMPTS" .json); export SLUG="etsi-images-$NOM"; echo "SLUG=$SLUG" >> "$GITHUB_ENV"; echo "NOM=$NOM" >> "$GITHUB_ENV"
           mkdir -p k && python3 - <<'PY'
           import json, os
           p = open(os.environ['PROMPTS']).read(); json.loads(p)
