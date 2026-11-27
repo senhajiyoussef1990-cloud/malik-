@@ -1,0 +1,799 @@
+{
+  "instructions": "Claude uniquement. Durée indicative 90 secondes. Validation professionnelle et visuelle avant publication.",
+  "episodes": [
+    {
+      "id": "EP013",
+      "title": "Et si une guêpe te piquait ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/piqures-guepes-abeilles-frelons-bourdons",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/piqures-guepes-abeilles-frelons-bourdons"
+      ],
+      "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une guêpe te piquait ?",
+          "subtitle": "Et si une guêpe te piquait ?",
+          "visuel": "Illustration non graphique : Et si une guêpe te piquait ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Et si une guêpe te piquait ?",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Au jardin, une guêpe te pique à la main. Une douleur et un gonflement apparaissent.",
+          "subtitle": "Au jardin, une guêpe te pique à la main. Une douleur et un gonflement apparaissent.",
+          "visuel": "Illustration non graphique : Au jardin, une guêpe te pique à la main. Une douleur et un gonflement apparaissent.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Au jardin, une guêpe te pique à la main. Une douleur et un gonflement apparaissent.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Dans une réaction locale simple, la gêne diminue généralement en quelques heures.",
+          "subtitle": "Dans une réaction locale simple, la gêne diminue généralement en quelques heures.",
+          "visuel": "Illustration non graphique : Dans une réaction locale simple, la gêne diminue généralement en quelques heures.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Dans une réaction locale simple, la gêne diminue généralement en quelques heures.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Enlève tes bagues avant que la main ne gonfle davantage.",
+          "subtitle": "Enlève tes bagues avant que la main ne gonfle davantage.",
+          "visuel": "Illustration non graphique : Enlève tes bagues avant que la main ne gonfle davantage.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Enlève tes bagues avant que la main ne gonfle davantage.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Nettoie la peau au savon et à l’eau, puis utilise un antiseptique.",
+          "subtitle": "Nettoie la peau au savon et à l’eau, puis utilise un antiseptique.",
+          "visuel": "Illustration non graphique : Nettoie la peau au savon et à l’eau, puis utilise un antiseptique.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Nettoie la peau au savon et à l’eau, puis utilise un antiseptique.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Pour apaiser la douleur, applique du froid protégé par un tissu.",
+          "subtitle": "Pour apaiser la douleur, applique du froid protégé par un tissu.",
+          "visuel": "Illustration non graphique : Pour apaiser la douleur, applique du froid protégé par un tissu.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Pour apaiser la douleur, applique du froid protégé par un tissu.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Reste au repos pendant trente minutes et observe l’évolution.",
+          "subtitle": "Reste au repos pendant trente minutes et observe l’évolution.",
+          "visuel": "Illustration non graphique : Reste au repos pendant trente minutes et observe l’évolution.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Reste au repos pendant trente minutes et observe l’évolution.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une difficulté à respirer, un malaise ou une langue gonflée sont des signes d’alerte.",
+          "subtitle": "Une difficulté à respirer, un malaise ou une langue gonflée sont des signes d’alerte.",
+          "visuel": "Illustration non graphique : Une difficulté à respirer, un malaise ou une langue gonflée sont des signes d’alerte.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une difficulté à respirer, un malaise ou une langue gonflée sont des signes d’alerte.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Dans ces situations, ou après de nombreuses piqûres, appelle immédiatement le 112.",
+          "subtitle": "Dans ces situations, ou après de nombreuses piqûres, appelle immédiatement le 112.",
+          "visuel": "Illustration non graphique : Dans ces situations, ou après de nombreuses piqûres, appelle immédiatement le 112.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Dans ces situations, ou après de nombreuses piqûres, appelle immédiatement le 112.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Si la zone reste très douloureuse, rouge et gonflée après vingt-quatre heures, consulte.",
+          "subtitle": "Si la zone reste très douloureuse, rouge et gonflée après vingt-quatre heures, consulte.",
+          "visuel": "Illustration non graphique : Si la zone reste très douloureuse, rouge et gonflée après vingt-quatre heures, consulte.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Si la zone reste très douloureuse, rouge et gonflée après vingt-quatre heures, consulte.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une guêpe te piquait ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/piqures-guepes-abeilles-frelons-bourdons",
+        "social": "Et si une guêpe te piquait ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP014",
+      "title": "Et si un produit chimique éclaboussait ton œil ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil"
+      ],
+      "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un produit chimique éclaboussait ton œil ?",
+          "subtitle": "Et si un produit chimique éclaboussait ton œil ?",
+          "visuel": "Illustration non graphique : Et si un produit chimique éclaboussait ton œil ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Et si un produit chimique éclaboussait ton œil ?",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu nettoies la maison et une éclaboussure atteint ton œil.",
+          "subtitle": "Tu nettoies la maison et une éclaboussure atteint ton œil.",
+          "visuel": "Illustration non graphique : Tu nettoies la maison et une éclaboussure atteint ton œil.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Tu nettoies la maison et une éclaboussure atteint ton œil.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Certains liquides ménagers peuvent provoquer des lésions en quelques minutes.",
+          "subtitle": "Certains liquides ménagers peuvent provoquer des lésions en quelques minutes.",
+          "visuel": "Illustration non graphique : Certains liquides ménagers peuvent provoquer des lésions en quelques minutes.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Certains liquides ménagers peuvent provoquer des lésions en quelques minutes.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Ne frotte pas ton œil. Lave tes mains et retire tes lentilles si tu en portes.",
+          "subtitle": "Ne frotte pas ton œil. Lave tes mains et retire tes lentilles si tu en portes.",
+          "visuel": "Illustration non graphique : Ne frotte pas ton œil. Lave tes mains et retire tes lentilles si tu en portes.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Ne frotte pas ton œil. Lave tes mains et retire tes lentilles si tu en portes.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Commence immédiatement un rinçage abondant et doux à l’eau tiède.",
+          "subtitle": "Commence immédiatement un rinçage abondant et doux à l’eau tiède.",
+          "visuel": "Illustration non graphique : Commence immédiatement un rinçage abondant et doux à l’eau tiède.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Commence immédiatement un rinçage abondant et doux à l’eau tiède.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Maintiens les paupières ouvertes. Demande de l’aide si possible.",
+          "subtitle": "Maintiens les paupières ouvertes. Demande de l’aide si possible.",
+          "visuel": "Illustration non graphique : Maintiens les paupières ouvertes. Demande de l’aide si possible.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Maintiens les paupières ouvertes. Demande de l’aide si possible.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Poursuis le rinçage au moins quinze minutes, en regardant dans différentes directions.",
+          "subtitle": "Poursuis le rinçage au moins quinze minutes, en regardant dans différentes directions.",
+          "visuel": "Illustration non graphique : Poursuis le rinçage au moins quinze minutes, en regardant dans différentes directions.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Poursuis le rinçage au moins quinze minutes, en regardant dans différentes directions.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Ne recouvre pas ton œil avec un bandage.",
+          "subtitle": "Ne recouvre pas ton œil avec un bandage.",
+          "visuel": "Illustration non graphique : Ne recouvre pas ton œil avec un bandage.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Ne recouvre pas ton œil avec un bandage.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Après le rinçage, rends-toi immédiatement aux urgences ophtalmologiques.",
+          "subtitle": "Après le rinçage, rends-toi immédiatement aux urgences ophtalmologiques.",
+          "visuel": "Illustration non graphique : Après le rinçage, rends-toi immédiatement aux urgences ophtalmologiques.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Après le rinçage, rends-toi immédiatement aux urgences ophtalmologiques.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Indique au médecin quel produit a été projeté.",
+          "subtitle": "Indique au médecin quel produit a été projeté.",
+          "visuel": "Illustration non graphique : Indique au médecin quel produit a été projeté.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Indique au médecin quel produit a été projeté.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un produit chimique éclaboussait ton œil ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil",
+        "social": "Et si un produit chimique éclaboussait ton œil ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP015",
+      "title": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ?",
+      "source": "https://www.centreantipoisons.be/tox-infos/tablettes-pour-le-lave-vaisselle/",
+      "sources": [
+        "https://www.centreantipoisons.be/tox-infos/tablettes-pour-le-lave-vaisselle/",
+        "https://www.centreantipoisons.be/quand-appeler/"
+      ],
+      "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ?",
+          "subtitle": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ?",
+          "visuel": "Illustration non graphique : Et si tu recevais une capsule de lave-vaisselle dans la bouche ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Et si tu recevais une capsule de lave-vaisselle dans la bouche ?",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Une capsule de détergent concentré peut être très irritante.",
+          "subtitle": "Une capsule de détergent concentré peut être très irritante.",
+          "visuel": "Illustration non graphique : Une capsule de détergent concentré peut être très irritante.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une capsule de détergent concentré peut être très irritante.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Si un enfant en avale, ne cherche pas à le faire vomir.",
+          "subtitle": "Si un enfant en avale, ne cherche pas à le faire vomir.",
+          "visuel": "Illustration non graphique : Si un enfant en avale, ne cherche pas à le faire vomir.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Si un enfant en avale, ne cherche pas à le faire vomir.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Nettoie soigneusement sa bouche. Pour un tout-petit, utilise un gant humide.",
+          "subtitle": "Nettoie soigneusement sa bouche. Pour un tout-petit, utilise un gant humide.",
+          "visuel": "Illustration non graphique : Nettoie soigneusement sa bouche. Pour un tout-petit, utilise un gant humide.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Nettoie soigneusement sa bouche. Pour un tout-petit, utilise un gant humide.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "S’il est conscient et avale normalement, propose une ou deux petites gorgées d’eau.",
+          "subtitle": "S’il est conscient et avale normalement, propose une ou deux petites gorgées d’eau.",
+          "visuel": "Illustration non graphique : S’il est conscient et avale normalement, propose une ou deux petites gorgées d’eau.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, S’il est conscient et avale normalement, propose une ou deux petites gorgées d’eau.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Contacte un médecin ou le Centre Antipoisons.",
+          "subtitle": "Contacte un médecin ou le Centre Antipoisons.",
+          "visuel": "Illustration non graphique : Contacte un médecin ou le Centre Antipoisons.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Contacte un médecin ou le Centre Antipoisons.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "En Belgique, son numéro est le 070 245 245.",
+          "subtitle": "En Belgique, son numéro est le 070 245 245.",
+          "visuel": "Illustration non graphique : En Belgique, son numéro est le 070 245 245.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, En Belgique, son numéro est le 070 245 245.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Prépare le nom du produit et la quantité éventuellement avalée.",
+          "subtitle": "Prépare le nom du produit et la quantité éventuellement avalée.",
+          "visuel": "Illustration non graphique : Prépare le nom du produit et la quantité éventuellement avalée.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Prépare le nom du produit et la quantité éventuellement avalée.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "En cas de détresse respiratoire, de convulsions ou de perte de connaissance, appelle le 112.",
+          "subtitle": "En cas de détresse respiratoire, de convulsions ou de perte de connaissance, appelle le 112.",
+          "visuel": "Illustration non graphique : En cas de détresse respiratoire, de convulsions ou de perte de connaissance, appelle le 112.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, En cas de détresse respiratoire, de convulsions ou de perte de connaissance, appelle le 112.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Conserve les capsules hors de portée des enfants.",
+          "subtitle": "Conserve les capsules hors de portée des enfants.",
+          "visuel": "Illustration non graphique : Conserve les capsules hors de portée des enfants.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Conserve les capsules hors de portée des enfants.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.centreantipoisons.be/tox-infos/tablettes-pour-le-lave-vaisselle/",
+        "social": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP016",
+      "title": "Et si ton enfant avalait un produit toxique ?",
+      "source": "https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf",
+      "sources": [
+        "https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf",
+        "https://www.centreantipoisons.be/quand-appeler/"
+      ],
+      "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton enfant avalait un produit toxique ?",
+          "subtitle": "Et si ton enfant avalait un produit toxique ?",
+          "visuel": "Illustration non graphique : Et si ton enfant avalait un produit toxique ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Et si ton enfant avalait un produit toxique ?",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Un flacon ouvert, un enfant à proximité : tu suspectes une ingestion accidentelle.",
+          "subtitle": "Un flacon ouvert, un enfant à proximité : tu suspectes une ingestion accidentelle.",
+          "visuel": "Illustration non graphique : Un flacon ouvert, un enfant à proximité : tu suspectes une ingestion accidentelle.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Un flacon ouvert, un enfant à proximité : tu suspectes une ingestion accidentelle.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "N’attends pas de symptômes pour demander un avis spécialisé.",
+          "subtitle": "N’attends pas de symptômes pour demander un avis spécialisé.",
+          "visuel": "Illustration non graphique : N’attends pas de symptômes pour demander un avis spécialisé.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, N’attends pas de symptômes pour demander un avis spécialisé.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Ne provoque pas de vomissement. Cela peut aggraver certaines intoxications.",
+          "subtitle": "Ne provoque pas de vomissement. Cela peut aggraver certaines intoxications.",
+          "visuel": "Illustration non graphique : Ne provoque pas de vomissement. Cela peut aggraver certaines intoxications.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Ne provoque pas de vomissement. Cela peut aggraver certaines intoxications.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Le lait ne neutralise pas les poisons. N’en donne pas comme antidote.",
+          "subtitle": "Le lait ne neutralise pas les poisons. N’en donne pas comme antidote.",
+          "visuel": "Illustration non graphique : Le lait ne neutralise pas les poisons. N’en donne pas comme antidote.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Le lait ne neutralise pas les poisons. N’en donne pas comme antidote.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "En Belgique, contacte le Centre Antipoisons au 070 245 245.",
+          "subtitle": "En Belgique, contacte le Centre Antipoisons au 070 245 245.",
+          "visuel": "Illustration non graphique : En Belgique, contacte le Centre Antipoisons au 070 245 245.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, En Belgique, contacte le Centre Antipoisons au 070 245 245.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Garde l’emballage et la notice à proximité.",
+          "subtitle": "Garde l’emballage et la notice à proximité.",
+          "visuel": "Illustration non graphique : Garde l’emballage et la notice à proximité.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Garde l’emballage et la notice à proximité.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Indique l’âge, le poids de l’enfant, le produit et la quantité possible.",
+          "subtitle": "Indique l’âge, le poids de l’enfant, le produit et la quantité possible.",
+          "visuel": "Illustration non graphique : Indique l’âge, le poids de l’enfant, le produit et la quantité possible.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Indique l’âge, le poids de l’enfant, le produit et la quantité possible.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Décris les symptômes et les circonstances. Suis les instructions reçues.",
+          "subtitle": "Décris les symptômes et les circonstances. Suis les instructions reçues.",
+          "visuel": "Illustration non graphique : Décris les symptômes et les circonstances. Suis les instructions reçues.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Décris les symptômes et les circonstances. Suis les instructions reçues.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Si l’enfant présente des signes graves comme une perte de connaissance, appelle le 112.",
+          "subtitle": "Si l’enfant présente des signes graves comme une perte de connaissance, appelle le 112.",
+          "visuel": "Illustration non graphique : Si l’enfant présente des signes graves comme une perte de connaissance, appelle le 112.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Si l’enfant présente des signes graves comme une perte de connaissance, appelle le 112.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton enfant avalait un produit toxique ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf",
+        "social": "Et si ton enfant avalait un produit toxique ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP017",
+      "title": "Et si un éclat de métal frappait ton œil ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil"
+      ],
+      "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un éclat de métal frappait ton œil ?",
+          "subtitle": "Et si un éclat de métal frappait ton œil ?",
+          "visuel": "Illustration non graphique : Et si un éclat de métal frappait ton œil ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Et si un éclat de métal frappait ton œil ?",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu bricoles et un éclat est projeté violemment vers ton visage.",
+          "subtitle": "Tu bricoles et un éclat est projeté violemment vers ton visage.",
+          "visuel": "Illustration non graphique : Tu bricoles et un éclat est projeté violemment vers ton visage.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Tu bricoles et un éclat est projeté violemment vers ton visage.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Une douleur soudaine ou une vision trouble peuvent signaler une blessure sérieuse.",
+          "subtitle": "Une douleur soudaine ou une vision trouble peuvent signaler une blessure sérieuse.",
+          "visuel": "Illustration non graphique : Une douleur soudaine ou une vision trouble peuvent signaler une blessure sérieuse.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une douleur soudaine ou une vision trouble peuvent signaler une blessure sérieuse.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Un fragment peut pénétrer dans le globe oculaire.",
+          "subtitle": "Un fragment peut pénétrer dans le globe oculaire.",
+          "visuel": "Illustration non graphique : Un fragment peut pénétrer dans le globe oculaire.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Un fragment peut pénétrer dans le globe oculaire.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Cette situation est différente d’un simple cil sous une paupière.",
+          "subtitle": "Cette situation est différente d’un simple cil sous une paupière.",
+          "visuel": "Illustration non graphique : Cette situation est différente d’un simple cil sous une paupière.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Cette situation est différente d’un simple cil sous une paupière.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Ne tente pas d’extraire toi-même un fragment pénétrant.",
+          "subtitle": "Ne tente pas d’extraire toi-même un fragment pénétrant.",
+          "visuel": "Illustration non graphique : Ne tente pas d’extraire toi-même un fragment pénétrant.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Ne tente pas d’extraire toi-même un fragment pénétrant.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Une projection violente exige une consultation ophtalmologique urgente.",
+          "subtitle": "Une projection violente exige une consultation ophtalmologique urgente.",
+          "visuel": "Illustration non graphique : Une projection violente exige une consultation ophtalmologique urgente.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une projection violente exige une consultation ophtalmologique urgente.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une douleur intense ou une vision altérée sont également des motifs d’urgence.",
+          "subtitle": "Une douleur intense ou une vision altérée sont également des motifs d’urgence.",
+          "visuel": "Illustration non graphique : Une douleur intense ou une vision altérée sont également des motifs d’urgence.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une douleur intense ou une vision altérée sont également des motifs d’urgence.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Explique au médecin le type de matériau et les circonstances.",
+          "subtitle": "Explique au médecin le type de matériau et les circonstances.",
+          "visuel": "Illustration non graphique : Explique au médecin le type de matériau et les circonstances.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Explique au médecin le type de matériau et les circonstances.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Des examens et parfois une intervention peuvent être nécessaires.",
+          "subtitle": "Des examens et parfois une intervention peuvent être nécessaires.",
+          "visuel": "Illustration non graphique : Des examens et parfois une intervention peuvent être nécessaires.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Des examens et parfois une intervention peuvent être nécessaires.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un éclat de métal frappait ton œil ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil",
+        "social": "Et si un éclat de métal frappait ton œil ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP018",
+      "title": "Et si tu avais un gros coup de soleil ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/coup-soleil/bons-reflexes-consultation-medicale",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/themes/coup-soleil/bons-reflexes-consultation-medicale"
+      ],
+      "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu avais un gros coup de soleil ?",
+          "subtitle": "Et si tu avais un gros coup de soleil ?",
+          "visuel": "Illustration non graphique : Et si tu avais un gros coup de soleil ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Et si tu avais un gros coup de soleil ?",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Après une journée dehors, ta peau est rouge et douloureuse.",
+          "subtitle": "Après une journée dehors, ta peau est rouge et douloureuse.",
+          "visuel": "Illustration non graphique : Après une journée dehors, ta peau est rouge et douloureuse.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Après une journée dehors, ta peau est rouge et douloureuse.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Arrête immédiatement de t’exposer au soleil.",
+          "subtitle": "Arrête immédiatement de t’exposer au soleil.",
+          "visuel": "Illustration non graphique : Arrête immédiatement de t’exposer au soleil.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Arrête immédiatement de t’exposer au soleil.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Pour une brûlure superficielle peu étendue, rafraîchis la peau avec de l’eau du robinet.",
+          "subtitle": "Pour une brûlure superficielle peu étendue, rafraîchis la peau avec de l’eau du robinet.",
+          "visuel": "Illustration non graphique : Pour une brûlure superficielle peu étendue, rafraîchis la peau avec de l’eau du robinet.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Pour une brûlure superficielle peu étendue, rafraîchis la peau avec de l’eau du robinet.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Une température entre quinze et vingt-cinq degrés est recommandée.",
+          "subtitle": "Une température entre quinze et vingt-cinq degrés est recommandée.",
+          "visuel": "Illustration non graphique : Une température entre quinze et vingt-cinq degrés est recommandée.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une température entre quinze et vingt-cinq degrés est recommandée.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Poursuis environ quinze minutes, jusqu’à ce que la douleur s’apaise.",
+          "subtitle": "Poursuis environ quinze minutes, jusqu’à ce que la douleur s’apaise.",
+          "visuel": "Illustration non graphique : Poursuis environ quinze minutes, jusqu’à ce que la douleur s’apaise.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Poursuis environ quinze minutes, jusqu’à ce que la douleur s’apaise.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si la zone est étendue, un bain tiède plutôt que froid peut aider.",
+          "subtitle": "Si la zone est étendue, un bain tiède plutôt que froid peut aider.",
+          "visuel": "Illustration non graphique : Si la zone est étendue, un bain tiède plutôt que froid peut aider.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Si la zone est étendue, un bain tiède plutôt que froid peut aider.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une brûlure profonde nécessite un examen médical.",
+          "subtitle": "Une brûlure profonde nécessite un examen médical.",
+          "visuel": "Illustration non graphique : Une brûlure profonde nécessite un examen médical.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une brûlure profonde nécessite un examen médical.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Des cloques importantes, une confusion ou un malaise doivent conduire à demander rapidement un avis médical.",
+          "subtitle": "Des cloques importantes, une confusion ou un malaise doivent conduire à demander rapidement un avis médical.",
+          "visuel": "Illustration non graphique : Des cloques importantes, une confusion ou un malaise doivent conduire à demander rapidement un avis médical.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Des cloques importantes, une confusion ou un malaise doivent conduire à demander rapidement un avis médical.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Une rougeur qui augmente, du pus ou des douleurs croissantes peuvent signaler une infection.",
+          "subtitle": "Une rougeur qui augmente, du pus ou des douleurs croissantes peuvent signaler une infection.",
+          "visuel": "Illustration non graphique : Une rougeur qui augmente, du pus ou des douleurs croissantes peuvent signaler une infection.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Une rougeur qui augmente, du pus ou des douleurs croissantes peuvent signaler une infection.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage et décor, Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Caméra dynamique, aucun geste ajouté; contrôler toutes les démonstrations",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu avais un gros coup de soleil ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/coup-soleil/bons-reflexes-consultation-medicale",
+        "social": "Et si tu avais un gros coup de soleil ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
