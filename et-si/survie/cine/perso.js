@@ -61,7 +61,7 @@ function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
 function drawArm(c, A, u, col, front = true){if(A)limbDraw(c, A.S, A.E, A.W, u, col, front, A.hand, A.hang);}
 // tête : centre (x,y) ; u = hauteur de tête
 function head2(c, x, y, u, ex, look, col, tilt){const eye = ex.eye ?? 0.6, brow = ex.brow ?? 0, mouth = ex.mouth ?? 0, st = STYLE_TETE;
-  c.save();c.translate(x, y);c.rotate(tilt);const s = u*1.3;
+  c.save();c.translate(x, y);c.rotate(tilt);const s = u*(col.headScale||1.3);
   // oreille
   c.fillStyle = rgb(col.skin, 0.92);c.beginPath();c.ellipse(-0.2*s, 0.03*s, 0.07*s, 0.1*s, 0.1, 0, TAU);c.fill();c.fillStyle = rgb(col.skinD, 0.9);c.beginPath();c.ellipse(-0.2*s, 0.03*s, 0.035*s, 0.06*s, 0.1, 0, TAU);c.fill();
   if(col.longHair){c.fillStyle = col.hair;c.beginPath();c.ellipse(-0.08*s, 0.1*s, 0.36*s, 0.48*s, 0.15, 0, TAU);c.fill();}

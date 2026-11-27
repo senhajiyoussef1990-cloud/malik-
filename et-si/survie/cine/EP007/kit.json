@@ -1,0 +1,52 @@
+{
+ "id": "EP007",
+ "title": "Et si tu sentais une odeur de gaz chez toi ?",
+ "sources": [
+  "https://www.sibelga.be/fr/pannes-chantiers/odeur-de-gaz"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+ },
+ "publication": {
+  "titre": "Et si tu sentais une odeur de gaz chez toi ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.sibelga.be/fr/pannes-chantiers/odeur-de-gaz",
+  "social": "Et si tu sentais une odeur de gaz chez toi ? #EtSi #Prevention #PremiersSecours"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-02.json (EP007) ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu sentais une odeur de gaz chez toi ?"
+  },
+  {
+   "voix": "Une odeur inhabituelle apparaît dans ta cuisine. Prends immédiatement cette alerte au sérieux."
+  },
+  {
+   "voix": "Le danger vient notamment de la possibilité qu’une étincelle enflamme le gaz."
+  },
+  {
+   "voix": "N’actionne ni interrupteur, ni sonnette, ni appareil électrique."
+  },
+  {
+   "voix": "Ne fume pas et n’utilise ni briquet ni allumette."
+  },
+  {
+   "voix": "Ouvre les portes et fenêtres si cela ne te met pas en danger."
+  },
+  {
+   "voix": "Ferme l’arrivée de gaz seulement si le compteur est accessible sans éclairage supplémentaire."
+  },
+  {
+   "voix": "Quitte rapidement le bâtiment. Préviens les voisins sans utiliser de sonnette."
+  },
+  {
+   "voix": "Une fois hors de la zone où tu sens le gaz, appelle le service d’urgence gaz ou le 112."
+  },
+  {
+   "voix": "En Belgique, le numéro du gestionnaire dépend de ta région. Le 112 est le numéro européen d’urgence."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

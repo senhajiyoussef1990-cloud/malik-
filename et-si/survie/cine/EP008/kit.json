@@ -1,0 +1,52 @@
+{
+ "id": "EP008",
+ "title": "Et si ton enfant avalait une pile bouton ?",
+ "sources": [
+  "https://www.centreantipoisons.be/tox-infos/les-piles-boutons/"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+ },
+ "publication": {
+  "titre": "Et si ton enfant avalait une pile bouton ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.centreantipoisons.be/tox-infos/les-piles-boutons/",
+  "social": "Et si ton enfant avalait une pile bouton ? #EtSi #Prevention #PremiersSecours"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-02.json (EP008) ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton enfant avalait une pile bouton ?"
+  },
+  {
+   "voix": "Tu découvres une télécommande ouverte et une pile manquante. Tu suspectes que ton enfant l’a avalée."
+  },
+  {
+   "voix": "Même s’il semble aller bien, la situation nécessite une évaluation urgente."
+  },
+  {
+   "voix": "Une pile coincée dans l’œsophage peut endommager les tissus très rapidement."
+  },
+  {
+   "voix": "Pars immédiatement aux urgences. N’attends pas l’apparition de symptômes."
+  },
+  {
+   "voix": "Si ton enfant respire difficilement ou présente des signes graves, appelle le 112."
+  },
+  {
+   "voix": "Ne provoque pas de vomissement et ne donne pas de nourriture de ta propre initiative."
+  },
+  {
+   "voix": "Le personnel médical doit localiser la pile rapidement, généralement par radiographie."
+  },
+  {
+   "voix": "Il existe des recommandations particulières concernant le miel, mais elles dépendent de conditions précises. Demande un avis spécialisé sans retarder le trajet."
+  },
+  {
+   "voix": "Range les piles neuves et usagées hors de portée et vérifie les compartiments des jouets."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP004 — « Et si tu étais intoxiqué au monoxyde de carbone ? » — texte : kits-90s-lot-02.json, source centreantipoisons.be */
+['monoxyde','carbone','mal','inconsciente','contaminée','dangereuse','brûle'].forEach(w=>RED_W.add(w));
+['sécurité','aère','112','appelle','indique'].forEach(w=>GREEN_W.add(w));
+ICO.oeil=c=>{c.fillStyle='#f4efe9';c.beginPath();c.ellipse(0,0,80,44,0,0,TAU);c.fill();c.fillStyle='#3a6ea8';c.beginPath();c.arc(0,0,30,0,TAU);c.fill();c.fillStyle='#111';c.beginPath();c.arc(0,0,13,0,TAU);c.fill();};
+ICO.nez=c=>{c.strokeStyle='#e8c0a0';c.lineWidth=14;c.lineCap='round';c.lineJoin='round';c.beginPath();c.moveTo(-10,-80);c.quadraticCurveTo(10,-10,40,30);c.quadraticCurveTo(20,56,-20,40);c.stroke();
+  c.strokeStyle='rgba(200,200,210,0.6)';c.lineWidth=6;for(let i=0;i<3;i++){c.beginPath();c.moveTo(-70+i*10,10+i*20);c.quadraticCurveTo(-50,0+i*20,-36,14+i*20);c.stroke();}};
+ICO.bouclier=c=>{c.fillStyle=PAL.vert;c.beginPath();c.moveTo(0,-90);c.lineTo(76,-60);c.quadraticCurveTo(76,40,0,90);c.quadraticCurveTo(-76,40,-76,-60);c.closePath();c.fill();c.strokeStyle='#fff';c.lineWidth=12;c.beginPath();c.moveTo(-30,0);c.lineTo(-6,26);c.lineTo(36,-24);c.stroke();};
+// brume de monoxyde (invisible en vrai : on la montre en gris translucide)
+function brume(b,T,k,x0=0,x1=WB){if(k<=0)return;b.save();b.globalAlpha=k;smoke(b,(x0+x1)/2,1300,x1-x0,900,T,0.5,7,'150,150,160',30);b.fillStyle=`rgba(140,140,150,${0.18*k})`;b.fillRect(x0,0,x1-x0,H);b.restore();}
+function molecules(c,T,a,x0,y0,w,h){if(a<=0)return;const r=mulberry(9);c.save();c.globalAlpha=a;for(let i=0;i<24;i++){const x=x0+((r()*w+T*30*(0.5+r()))%w),y=y0+r()*h+Math.sin(T*2+i)*16;
+  c.fillStyle='rgba(120,120,130,0.9)';c.beginPath();c.arc(x-8,y,12,0,TAU);c.fill();c.fillStyle='rgba(220,80,70,0.9)';c.beginPath();c.arc(x+9,y,10,0,TAU);c.fill();}
+  c.font='800 30px M';c.fillStyle='rgba(245,245,245,0.85)';c.textAlign='center';c.fillText('CO',x0+w/2,y0-20);c.restore();}
+function chaudiere(b,T,x,y,s=1.3,mauvaise=0){b.save();b.translate(x,y);b.scale(s,s);ICO.chaudiere(b,T);if(mauvaise>0){b.fillStyle=`rgba(255,140,40,${0.5*mauvaise})`;b.beginPath();b.arc(0,40,40,0,TAU);b.fill();}b.restore();}
+function salonCO(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{fenetre:o.fenetre||0});chaudiere(b,T,240,1000,1.4,o.mauvaise||0);return [B,b];}
+function vertige(b,T,x,y,u,k){acteur(b,'heros',x+Math.sin(T*2.2)*6*k,y,u,{lean:Math.sin(T*1.7)*0.05*k,look:0.6,ex:{eye:lerp(0.6,0.25,k),brow:lerp(0,0.8,k),mouth:0.2*k},
+  near:{to:[lerp(x+0.9*u,x+0.55*u,k),lerp(y+1.6*u,y-0.95*u,k)],hand:'open',ang:lerp(-0.6,-2.6,k)},far:{bend:-1}});}
+function allonge(b,who,x,y,u,o={}){painted(b,f=>{f.save();f.translate(x,y);f.rotate(-Math.PI/2);figure(f,0,0,u,{look:0.3,ex:{eye:0.05,brow:0,mouth:0.1},legs:true,near:{to:[0.3*u,2.3*u],hand:'rest'},far:{to:[-0.3*u,2.2*u],bend:-1}},PERSOS[who]);f.restore();},LT(u,o.warm??0.6));}
+function dehors(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'dehors',T);return [B,b];}
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const [B,b]=salonCO(t);vertige(b,t,760,960,200,ease(seg(t,0.1,1.2)));brume(b,t,0.3);ambiance(b,[LAMPE(760,500,1.0),LUNE(240,600),LAMPE(800,900,0.5,900)],'#46464f');accroche(c,t,d,B,camAt(t,d,{x:760,y:960,z:1.35},{x:770,y:940,z:1.48}),['tu étais intoxiqué','au monoxyde de carbone ?']);},
+// 2 — le chauffage tourne, malaise soudain
+(c,t,d)=>{const k=ease(seg(t,C('soudain',2.0)-0.2,C('soudain',2.0)+0.8));const [B,b]=salonCO(t);vertige(b,t,820,960,200,k);brume(b,t,0.18+0.2*k);ambiance(b,[LAMPE(760,500,1.0),LUNE(240,600),LAMPE(800,900,0.5,900)],'#46464f');
+  show(c,B,camAt(t,d,{x:620,y:1060,z:1.1},{x:740,y:1000,z:1.3}),k*3);grade(c,t);tag(c,'LE CHAUFFAGE FONCTIONNE',T1,clamp((t-0.2)/0.3)*(1-k),'sombre');tag(c,'TU TE SENS SOUDAIN MAL',T1,clamp((t-C('soudain',2.0))/0.3),'rouge');},
+// 3 — ni couleur ni odeur
+(c,t,d)=>{planche(c,t,t,[['oeil','non',C('couleur',2.4)-0.3,'aucune couleur'],['nez','non',C('odeur',3.0)-0.3,'aucune odeur']],{kicker:'LE MONOXYDE DE CARBONE',y:860});molecules(c,t,clamp(t/0.5)*0.8,140,1250,800,160);
+  tag(c,'IMPOSSIBLE À DÉTECTER',420,clamp((t-C('detecter',1.6))/0.3),'rouge',46);},
+// 4 — combustion qui se fait mal dans un appareil de chauffage
+(c,t,d)=>{darkBg(c);kicker(c,'D’OÙ VIENT-IL ?',300,1);const k=ease(seg(t,C('brule',1.8)-0.2,C('brule',1.8)+0.8));c.save();c.translate(W/2,900);c.scale(2.4,2.4);ICO.chaudiere(c,t);c.restore();
+  molecules(c,t,k,W/2-300,520,600,200);tag(c,'UN COMBUSTIBLE QUI BRÛLE MAL',420,clamp((t-C('brule',1.8))/0.3),'rouge',42);tag(c,'APPAREIL DE CHAUFFAGE',1250,clamp((t-C('chauffage',3.2))/0.3),'sombre',42);grade(c,t,{vig:0.5});},
+// 5 — ta sécurité d'abord
+(c,t,d)=>{const [B,b]=salonCO(t);const k=ease(seg(t,0.3,1.4));acteur(b,'heros',lerp(900,1150,k),960,200,{lean:-0.05,look:1,ex:{eye:0.9,brow:0.7,mouth:0.2},near:{to:[1150+1.4*200,960+0.6*200],hand:'open',ang:-0.4}},{mirror:true});brume(b,t,0.3,0,900);
+  ambiance(b,[LAMPE(760,500,1.0),LUNE(240,600),LAMPE(800,900,0.5,900)],'#46464f');show(c,B,{x:860,y:1040,z:1.15});grade(c,t);picto(c,'bouclier',W/2,1200,0.9,clamp((t-C('securite',2.4))/0.3),'');tag(c,'PENSE D’ABORD À TA SÉCURITÉ',T1,clamp((t-C('securite',2.4))/0.3),'vert',40);},
+// 6 — ne pas entrer dans une pièce contaminée
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.85});b.save();b.beginPath();b.rect(140,620,300,1080);b.clip();b.fillStyle='rgba(150,150,160,0.5)';b.fillRect(140,620,300,1080);allonge(b,'ami',190,1640,110);smoke(b,290,1200,300,700,t,0.6,3,'160,160,170',16);b.restore();
+  acteur(b,'heros',720,900,210,{look:1,ex:{eye:0.9,brow:0.8,mouth:0.2},near:{to:[720+1.3*210,900+0.9*210],hand:'open',ang:-0.2}},{mirror:true});ambiance(b,[LAMPE(710,240,1,1400)],'#3a3a46');
+  show(c,B,{x:600,y:1100,z:1.1});grade(c,t);const k=clamp((t-C('penetre',0.6))/0.3);c.save();camXf(c,{x:600,y:1100,z:1.1});xMark(c,290,1150,120,k);c.restore();tag(c,'N’ENTRE PAS DANS LA PIÈCE',T1,k,'rouge');tag(c,'MÊME POUR UNE PERSONNE INCONSCIENTE',T2,clamp((t-C('inconsciente',3.2))/0.3),'rouge',34);},
+// 7 — aérer seulement sans danger
+(c,t,d)=>{const k=ease(seg(t,C('aere',0.3),C('aere',0.3)+1.2));const [B,b]=salonCO(t,{fenetre:k});brume(b,t,0.32*(1-0.7*k));acteur(b,'heros',560,930,190,{look:0.8,ex:{eye:0.7,brow:0.3,mouth:0.1},far:{to:[255+330*0.5,600],hand:'open',bend:1}},{mirror:true});
+  ambiance(b,[LAMPE(760,500,1.0),LUNE(240,600),LAMPE(800,900,0.5,900)],'#46464f');show(c,B,{x:520,y:950,z:1.25});grade(c,t);tag(c,'AÈRE : PORTES ET FENÊTRES',T1,clamp((t-C('aere',0.3))/0.3),'vert');tag(c,'SEULEMENT SI C’EST SANS DANGER',T2,clamp((t-C('danger',3.0))/0.3),'jaune',38);},
+// 8 — appeler le 112 en précisant le monoxyde
+(c,t,d)=>{const [B,b]=dehors(t);const ph=seg(t,0.1,0.5);const R=acteur(b,'heros',540,1080,230,{look:0.9,ex:{eye:0.8,brow:0.5,mouth:0.3},near:{to:[540+1.45*230,1080+0.6*230],hand:'grip',ang:-1.3},far:{bend:-1}},{after:(f)=>{if(ph>0.5)phone(f,540+1.45*230+Math.cos(-1.3)*0.34*230,1080+0.6*230+Math.sin(-1.3)*0.34*230,-0.12,t,1.2);}});
+  ambiance(b,[{x:1220,y:760,r:900,c:'rgba(255,220,160,0.7)'},LUNE(400,400),LAMPE(560,820,0.75,1100)],'#4a4f5c');show(c,B,{x:700,y:1100,z:1.05});grade(c,t);tag(c,'APPELLE IMMÉDIATEMENT LE 112',T1,clamp((t-C('appelle',0.2))/0.3),'vert',40);
+  bubble(c,W/2+60,1260,'MONOXYDE DE CARBONE ?',clamp((t-C('suspectes',2.6))/0.3));},
+// 9 — dire si quelqu'un est inconscient
+(c,t,d)=>{const [B,b]=dehors(t);acteur(b,'heros',540,1080,230,{look:0.9,ex:{eye:0.8,brow:0.5,mouth:0.4},near:{to:[540+1.45*230,1080+0.6*230],hand:'grip',ang:-1.3},far:{bend:-1}},{after:(f)=>phone(f,540+1.45*230+Math.cos(-1.3)*0.34*230,1080+0.6*230+Math.sin(-1.3)*0.34*230,-0.12,t,1.2)});
+  ambiance(b,[{x:1220,y:760,r:900,c:'rgba(255,220,160,0.7)'},LUNE(400,400),LAMPE(560,820,0.75,1100)],'#4a4f5c');show(c,B,{x:700,y:1100,z:1.05});grade(c,t);tag(c,'INDIQUE SI QUELQU’UN EST INCONSCIENT',T1,clamp((t-C('indique',0.2))/0.3),'vert',36);
+  bubble(c,W/2+60,1260,'UNE PERSONNE INCONSCIENTE',clamp((t-C('inconscient',1.6))/0.3));},
+// 10 — ne pas retourner dans la zone
+(c,t,d)=>{const [B,b]=dehors(t);acteur(b,'heros',420,1100,200,{look:0.9,ex:{eye:0.8,brow:0.6,mouth:0.1},near:{bend:1},far:{bend:-1}});ambiance(b,[{x:1220,y:760,r:900,c:'rgba(255,220,160,0.7)'},LUNE(400,400),LAMPE(560,820,0.75,1100)],'#4a4f5c');
+  show(c,B,{x:700,y:1100,z:1.05});grade(c,t);const k=seg(t,0.3,1.0);c.save();camXf(c,{x:700,y:1100,z:1.05});dashArrow(c,[[700,1500],[580,1420]],k,PAL.rouge,10);xMark(c,600,1400,80,seg(t,0.9,1.2));c.restore();
+  tag(c,'NE RETOURNE PAS DANS LA ZONE',T1,clamp((t-0.1)/0.3),'rouge');tag(c,'N’INTERVIENS PAS TOI-MÊME',T2,clamp((t-C('intervenir',2.4))/0.3),'rouge',38);},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Invisible et sans odeur',PAL.rouge],['Ta sécurité d’abord',PAL.vert],['N’entre pas dans la pièce contaminée',PAL.rouge],['112 : précise « monoxyde de carbone »',PAL.vert]]),
+];
+</script></body></html>

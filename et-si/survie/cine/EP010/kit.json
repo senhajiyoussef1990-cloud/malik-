@@ -1,0 +1,49 @@
+{
+ "id": "EP010",
+ "title": "Et si tu saignais du nez sans réussir à l’arrêter ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/pathologies/epistaxis-saignement-de-nez"
+ ],
+ "verification": null,
+ "publication": {
+  "titre": "Et si tu saignais du nez sans réussir à l’arrêter ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/epistaxis-saignement-de-nez",
+  "social": "Et si tu saignais du nez sans réussir à l’arrêter ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-01.json (EP010) ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu saignais du nez sans réussir à l’arrêter ?"
+  },
+  {
+   "voix": "Si le saignement est peu abondant et sans traumatisme, assieds-toi."
+  },
+  {
+   "voix": "Penche légèrement la tête en avant et respire par la bouche."
+  },
+  {
+   "voix": "Ne bascule pas la tête en arrière : le sang pourrait couler dans ta gorge."
+  },
+  {
+   "voix": "Pince la partie souple du nez, juste sous l’os."
+  },
+  {
+   "voix": "Maintiens la pression dix minutes sans interruption. Utilise une minuterie."
+  },
+  {
+   "voix": "Si le nez saigne encore, recommence dix minutes."
+  },
+  {
+   "voix": "Consulte si le saignement persiste malgré ces gestes."
+  },
+  {
+   "voix": "En cas de saignement abondant, de malaise ou de traumatisme grave, appelle le 112."
+  },
+  {
+   "voix": "Après un saignement bénin, évite de te moucher pendant douze heures."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

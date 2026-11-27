@@ -1,0 +1,49 @@
+{
+ "id": "EP006",
+ "title": "Et si tu renversais de l’eau bouillante sur ton bras ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau"
+ ],
+ "verification": null,
+ "publication": {
+  "titre": "Et si tu te brûlais avec de l’eau bouillante ? #Shorts",
+  "description": "Simulation éducative Brûlure à l’eau bouillante. Suis les consignes des secours. Source à valider avant publication : https://www.nhs.uk/conditions/Burns-and-scalds/",
+  "social": "Brûlure à l’eau bouillante : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-01.json (EP006) ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu renversais de l’eau bouillante sur ton bras ?"
+  },
+  {
+   "voix": "Éloigne-toi de la source de chaleur. La priorité est de refroidir la peau rapidement."
+  },
+  {
+   "voix": "Utilise de l’eau courante tempérée, autour de vingt degrés."
+  },
+  {
+   "voix": "Continue pendant vingt minutes, tant que la personne ne se refroidit pas."
+  },
+  {
+   "voix": "Ne refroidis que la zone brûlée. Garde le reste du corps au chaud."
+  },
+  {
+   "voix": "N’utilise ni glace ni beurre ni autre remède maison."
+  },
+  {
+   "voix": "Une fois refroidie, protège la brûlure avec un linge propre et sec."
+  },
+  {
+   "voix": "Une brûlure profonde, étendue ou touchant le visage, les mains ou le cou exige une aide urgente. Appelle le 112."
+  },
+  {
+   "voix": "Chez un enfant de moins de cinq ans, appelle les secours pour une brûlure."
+  },
+  {
+   "voix": "Ne laisse pas une vidéo remplacer les instructions des secours."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

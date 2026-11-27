@@ -1,0 +1,52 @@
+{
+ "id": "EP004",
+ "title": "Et si tu étais intoxiqué au monoxyde de carbone ?",
+ "sources": [
+  "https://www.centreantipoisons.be/tox-infos/intoxication-au-co/"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+ },
+ "publication": {
+  "titre": "Et si tu étais intoxiqué au monoxyde de carbone ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.centreantipoisons.be/tox-infos/intoxication-au-co/",
+  "social": "Et si tu étais intoxiqué au monoxyde de carbone ? #EtSi #Prevention #PremiersSecours"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-02.json (EP004) ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu étais intoxiqué au monoxyde de carbone ?"
+  },
+  {
+   "voix": "Le chauffage fonctionne. Pourtant, tu te sens soudain mal, sans comprendre pourquoi."
+  },
+  {
+   "voix": "Le monoxyde de carbone est impossible à détecter par sa couleur ou son odeur."
+  },
+  {
+   "voix": "Il peut se former quand un combustible brûle mal, notamment dans un appareil de chauffage."
+  },
+  {
+   "voix": "Si tu suspectes une intoxication, pense d’abord à ta propre sécurité."
+  },
+  {
+   "voix": "Ne pénètre pas dans une pièce contaminée pour récupérer une personne inconsciente."
+  },
+  {
+   "voix": "Aère seulement si tu peux ouvrir les portes ou fenêtres sans danger."
+  },
+  {
+   "voix": "Appelle immédiatement le 112 et précise que tu suspectes du monoxyde de carbone."
+  },
+  {
+   "voix": "Indique aux secours si quelqu’un est inconscient."
+  },
+  {
+   "voix": "Ne retourne pas dans la zone dangereuse pour intervenir toi-même."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

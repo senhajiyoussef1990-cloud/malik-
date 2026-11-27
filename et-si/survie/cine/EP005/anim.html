@@ -1,0 +1,70 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP005 — « Et si ta maison prenait feu pendant ton sommeil ? » — texte : kits-90s-lot-02.json, source pompiers.fr */
+['fumée','dangereuse','objets','traversant','coûte'].forEach(w=>RED_W.add(w));
+['quitte','ferme','abri','appelle','signale','plan','rassemblement','secours'].forEach(w=>GREEN_W.add(w));
+ICO.sac=c=>{c.fillStyle='#7a5a3a';c.beginPath();c.roundRect(-70,-40,140,110,18);c.fill();c.strokeStyle='#5a3a22';c.lineWidth=12;c.beginPath();c.arc(0,-40,40,Math.PI,0);c.stroke();};
+ICO.ordi=c=>{c.fillStyle='#2a2e36';c.beginPath();c.roundRect(-80,-60,160,100,10);c.fill();c.fillStyle='#5a8ac0';c.fillRect(-68,-48,136,76);c.fillStyle='#9aa0a8';c.fillRect(-96,40,192,16);};
+function fumeeHaut(b,T,k,x0=0,x1=WB){if(k<=0)return;b.fillStyle=lg(b,0,0,0,900,[[0,`rgba(30,30,34,${0.9*k})`],[1,'rgba(30,30,34,0)']]);b.fillRect(x0,0,x1-x0,900);b.save();b.beginPath();b.rect(x0,0,x1-x0,H);b.clip();smoke(b,(x0+x1)/2,500,x1-x0,500,T,0.5*k,8,'40,40,46',20);b.restore();}
+function chambre(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'chambre',T,{alarme:o.alarme,porte:o.porte||0});
+  if(o.fumeePorte){b.save();b.beginPath();b.rect(120,1420,380,90);b.clip();smoke(b,310,1500,300,200,T,0.6*o.fumeePorte,5,'60,60,66',12);b.restore();fumeeHaut(b,T,o.fumeePorte*0.6);}
+  return [B,b];}
+function dormeur(b,T,k){// k : 0 allongé, 1 assis dans le lit
+  if(k<0.5){painted(b,f=>{f.save();f.translate(830,1110);f.rotate(-Math.PI/2+0.1);figure(f,0,0,140,{look:0.2,ex:{eye:0.05+k*1.5,brow:0,mouth:0},near:{to:[0.3*140,2.1*140]},far:{bend:-1}},PERSOS.heros);f.restore();},LT(140,0.5));
+    b.fillStyle='#6a7fa8';b.beginPath();b.roundRect(880,1060,490,150,24);b.fill();}
+  else{acteur(b,'heros',860,840,170,{lean:-0.05,look:0.2,ex:{eye:1,brow:0.9,mouth:0.4},near:{to:[860+1.3*170,840+1.0*170],hand:'open',ang:-0.6}},{mirror:true});b.fillStyle='#6a7fa8';b.beginPath();b.roundRect(760,1110,610,100,24);b.fill();}}
+function immeuble(c,T,o={}){darkBg(c);c.save();c.translate(W/2,880);const fw=700,fh=880;c.strokeStyle='rgba(245,245,245,0.85)';c.lineWidth=6;c.strokeRect(-fw/2,-fh/2,fw,fh);
+  for(let i=1;i<4;i++){c.beginPath();c.moveTo(-fw/2,-fh/2+i*fh/4);c.lineTo(fw/2,-fh/2+i*fh/4);c.stroke();}
+  c.fillStyle='rgba(255,255,255,0.06)';c.fillRect(-90,-fh/2,180,fh);c.strokeRect(-90,-fh/2,180,fh);
+  c.font='700 30px M';c.fillStyle='rgba(245,245,245,0.75)';c.textAlign='center';c.fillText('escalier',0,fh/2+44);c.fillText('logement',-235,fh/2+44);c.fillText('logement',235,fh/2+44);
+  if(o.feu){c.save();c.beginPath();c.rect(-90,-fh/2,180,fh);c.clip();flames(c,0,fh/2-280+0,170,300,T,o.feu,4);smoke(c,0,-100,200,900,T,0.6*o.feu,6,'60,60,66',18);c.restore();}
+  if(o.toi){const y=-fh/2+fh/4+fh/8;c.fillStyle=PAL.etsi;c.beginPath();c.arc(-235,y,22,0,TAU);c.fill();c.font='800 28px M';c.fillStyle=PAL.etsi;c.fillText('toi',-235,y-36);}
+  c.restore();}
+function plan(c,T,t){darkBg(c);c.save();c.translate(W/2,900);c.strokeStyle='rgba(245,245,245,0.85)';c.lineWidth=8;c.strokeRect(-380,-360,760,620);c.beginPath();c.moveTo(-60,-360);c.lineTo(-60,0);c.moveTo(-380,0);c.lineTo(120,0);c.moveTo(120,0);c.lineTo(120,260);c.stroke();
+  c.font='700 28px M';c.fillStyle='rgba(245,245,245,0.7)';c.textAlign='center';c.fillText('chambre',-220,-180);c.fillText('salon',160,-180);c.fillText('cuisine',-130,140);c.fillText('entrée',250,140);
+  c.fillStyle='#1a1e26';c.fillRect(300,250,80,20);c.restore();
+  const k=seg(t,0.3,1.6);c.save();c.translate(W/2,900);dashArrow(c,[[-220,-100],[-100,-40],[20,60],[250,180],[340,330]],k,PAL.vert,10);c.restore();
+  const a=clamp((t-C('rassemblement',3.4))/0.3);if(a>0){c.save();c.translate(W/2+340,1370);c.scale(0.8,0.8);c.globalAlpha=a;ICO.point(c);c.restore();lab(c,'point de rassemblement',W/2+150,1480,a,PAL.vert,'center',34);}grade(c,T,{vig:0.45});}
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const [B,b]=chambre(t,{alarme:true,fumeePorte:0.8});dormeur(b,t,ease(seg(t,0.4,1.0)));ambiance(b,[LUNE(1200,600,1.2),{x:760,y:160,r:500,c:`rgba(255,60,50,${Math.sin(t*12)>0?0.6:0.1})`}],'#424a5e');
+  accroche(c,t,d,B,camAt(t,d,{x:820,y:980,z:1.2},{x:820,y:960,z:1.3}),['ta maison prenait feu','pendant ton sommeil ?']);},
+// 2 — le détecteur sonne
+(c,t,d)=>{const s=ease(seg(t,C('retentit',1.6)-0.1,C('retentit',1.6)+0.6));const [B,b]=chambre(t,{alarme:s>0,fumeePorte:0.4+0.5*seg(t,C('dangereuse',3.4),d)});dormeur(b,t,s);
+  ambiance(b,[LUNE(1200,600,1.2),{x:760,y:160,r:500,c:`rgba(255,60,50,${s>0&&Math.sin(t*12)>0?0.6:0.05})`}],'#424a5e');show(c,B,camAt(t,d,{x:760,y:900,z:1.15},{x:760,y:880,z:1.22}));grade(c,t);
+  tag(c,'LE DÉTECTEUR DE FUMÉE SONNE',T1,clamp((t-C('retentit',1.6))/0.3),'rouge',40);tag(c,'ÇA PEUT DEVENIR DANGEREUX TRÈS VITE',T2,clamp((t-C('dangereuse',3.4))/0.3),'rouge',34);},
+// 3 — ne pas récupérer ses objets
+(c,t,d)=>{planche(c,t,t,[['sac','non',0.2,'sac'],['ordi','non',0.35,'ordinateur'],['telephone','',0.5,'garde juste ton téléphone'.slice(0,0)]].slice(0,2),{kicker:'NE PERDS PAS DE TEMPS',y:860});tag(c,'LAISSE TES OBJETS',1250,clamp((t-C('objets',1.8))/0.3),'rouge',46);},
+// 4 — feu chez toi, sortie praticable : quitter les lieux
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.0,porte2:0.6});b.save();b.beginPath();b.rect(980,620,300,1080);b.clip();b.fillStyle='rgba(255,120,40,0.35)';b.fillRect(980,620,300,1080);flames(b,1130,1700,300,500,t,0.7,3);b.restore();fumeeHaut(b,t,0.5,700,WB);
+  const k=ease(seg(t,C('quitte',2.8)-0.3,d));acteur(b,'heros',lerp(900,300,k),900,200,{lean:0.06,look:1,ex:{eye:0.9,brow:0.7,mouth:0.2}},{mirror:true});ambiance(b,[LAMPE(710,240,0.8,1400),{x:1130,y:1200,r:900,c:'rgba(255,130,50,0.6)'}],'#34343e');
+  show(c,B,{x:700,y:1080,z:1.1});grade(c,t);tag(c,'FEU CHEZ TOI, SORTIE PRATICABLE',T1,clamp((t-C('praticable',1.8))/0.3),'sombre',38);tag(c,'QUITTE LES LIEUX',T2,clamp((t-C('quitte',2.8))/0.3),'vert',44);},
+// 5 — fermer les portes
+(c,t,d)=>{const k1=ease(seg(t,0.3,1.2)),k2=ease(seg(t,C('logement',2.6)-0.3,C('logement',2.6)+0.6));const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.6*(1-k2),porte2:0.6*(1-k1)});
+  if(k1<1){b.save();b.beginPath();b.rect(980+300*(1-0.6*(1-k1)),620,300*0.6*(1-k1),1080);b.clip();b.fillStyle='rgba(255,120,40,0.5)';b.fillRect(980,620,300,1080);b.restore();}fumeeHaut(b,t,0.4,700,WB);
+  acteur(b,'heros',lerp(800,480,k2),900,200,{look:1,ex:{eye:0.8,brow:0.5,mouth:0.1},near:{to:[lerp(980,440,k2),1200],hand:'grip'}},{mirror:k2>0.5});ambiance(b,[LAMPE(710,240,0.8,1400)],'#34343e');
+  show(c,B,{x:700,y:1080,z:1.1});grade(c,t);tag(c,'FERME LA PORTE DE LA PIÈCE EN FEU',T1,clamp((t-0.2)/0.3),'vert',36);tag(c,'PUIS CELLE DU LOGEMENT',T2,clamp((t-C('logement',2.6))/0.3),'vert',40);},
+// 6 — feu dans les parties communes
+(c,t,d)=>{immeuble(c,t,{feu:ease(seg(t,0.3,1.2)),toi:true});kicker(c,'IMMEUBLE',300,1);tag(c,'FEU DANS LES PARTIES COMMUNES',420,clamp((t-C('communes',2.2))/0.3),'rouge',40);tag(c,'LA SITUATION EST DIFFÉRENTE',1400,clamp((t-C('differente',3.6))/0.3),'jaune',40);},
+// 7 — ne pas traverser la fumée
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.8});b.save();b.beginPath();b.rect(140,620,300,1080);b.clip();b.fillStyle='rgba(40,40,46,0.9)';b.fillRect(140,620,300,1080);smoke(b,290,1100,300,900,t,0.8,3,'70,70,78',18);b.restore();
+  acteur(b,'heros',760,900,200,{look:1,ex:{eye:0.9,brow:0.8,mouth:0.2},near:{to:[760+1.3*200,900+1.2*200],hand:'open',ang:-0.4}},{mirror:true});ambiance(b,[LAMPE(710,240,0.8,1400)],'#34343e');
+  show(c,B,{x:600,y:1080,z:1.1});grade(c,t);c.save();camXf(c,{x:600,y:1080,z:1.1});dashArrow(c,[[640,1300],[340,1250]],seg(t,0.3,1.0),PAL.rouge,10);xMark(c,300,1200,110,seg(t,1.0,1.3));c.restore();
+  tag(c,'NE TRAVERSE PAS LA FUMÉE',T1,clamp((t-C('traversant',2.6))/0.3),'rouge');},
+// 8 — rester derrière une porte fermée, appeler les secours
+(c,t,d)=>{const [B,b]=chambre(t,{fumeePorte:0.3});const ph=seg(t,C('appelle',2.6)-0.4,C('appelle',2.6));acteur(b,'heros',860,900,200,{look:0.9,ex:{eye:0.8,brow:0.4,mouth:0.2},near:{to:[860+1.45*200,900+0.6*200],hand:'grip',ang:-1.3}},{after:f=>{if(ph>0.5)phone(f,860+1.45*200+Math.cos(-1.3)*0.34*200,900+0.6*200+Math.sin(-1.3)*0.34*200,-0.12,t,1.1);}});
+  ambiance(b,[LUNE(1200,600,1.2),LAMPE(800,700,0.8,1100)],'#464c5c');show(c,B,{x:700,y:1000,z:1.1});grade(c,t);tag(c,'RESTE DERRIÈRE UNE PORTE FERMÉE',T1,clamp((t-C('abri',1.0))/0.3),'vert',38);tag(c,'APPELLE LES SECOURS',T2,clamp((t-C('appelle',2.6))/0.3),'vert',42);},
+// 9 — se signaler à la fenêtre
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'dehors',t,{});const wx=470+90,wy=720+90;b.fillStyle='#e6c78a';b.fillRect(470,720,180,180);
+  b.save();b.beginPath();b.rect(470,720,180,180);b.clip();acteur(b,'heros',wx-10,wy-20,70,{look:0.5,ex:{eye:0.9,brow:0.6,mouth:0.5},near:{to:[wx+60+Math.sin(t*9)*20,wy-120],hand:'open',ang:-1.5}});b.restore();
+  ambiance(b,[{x:1220,y:760,r:900,c:'rgba(255,220,160,0.7)'},LUNE(400,400),LAMPE(560,800,0.8,700)],'#4a4f5c');show(c,B,camAt(t,d,{x:620,y:960,z:1.4},{x:580,y:880,z:1.9}));grade(c,t);
+  tag(c,'BLOQUÉ ? SIGNALE-TOI À LA FENÊTRE',T1,clamp((t-C('signale',0.3))/0.3),'vert',36);},
+// 10 — plan de sortie et point de rassemblement
+(c,t,d)=>{plan(c,t,t);kicker(c,'À PRÉPARER À L’AVANCE',300,1);tag(c,'UN PLAN DE SORTIE',420,clamp((t-C('plan',1.4))/0.3),'vert',46);tag(c,'UN POINT DE RASSEMBLEMENT',510,clamp((t-C('rassemblement',3.4))/0.3),'vert',40);},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Laisse tes objets',PAL.rouge],['Feu chez toi : sors, ferme les portes',PAL.vert],['Fumée dans l’immeuble : ne la traverse pas',PAL.rouge],['Reste à l’abri et appelle les secours',PAL.vert]]),
+];
+</script></body></html>

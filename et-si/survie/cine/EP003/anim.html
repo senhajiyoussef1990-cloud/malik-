@@ -1,0 +1,66 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP003 — « Et si ton enfant mettait un objet dans son nez ? » — texte : kits-90s-lot-03.json, source ameli.fr */
+['pince','instrument','pile','bouton','brûler','symptômes','saignement','respiratoire'].forEach(w=>RED_W.add(w));
+['consulte','médecin','112','hors','portée','prévenir'].forEach(w=>GREEN_W.add(w));
+// enfant qui met (ou a mis) une perle dans son nez
+function enfantNez(b,T,x,y,u,k,o={}){const hc=[x+0.04*u,y-0.72*u];const nez=[hc[0]+0.5*u,hc[1]+0.14*u];
+  const R=acteur(b,'enfant',x,y,u,{look:0.8,ex:o.ex||{eye:0.7,brow:0.2,mouth:0.1},near:{to:[lerp(x+0.9*u,nez[0]+0.18*u,k),lerp(y+1.4*u,nez[1]+0.12*u,k)],hand:'point',ang:lerp(-0.6,-2.5,k)},far:{bend:-1}});
+  if(o.perle!==false&&k<0.98){const p=[lerp(x+1.05*u,nez[0]+0.02*u,k),lerp(y+1.25*u,nez[1]+0.04*u,k)];b.fillStyle=rg(b,p[0]-4,p[1]-4,2,16,[[0,'#ffd1e8'],[1,'#d0408a']]);b.beginPath();b.arc(p[0],p[1],14,0,TAU);b.fill();}
+  return nez;}
+function salon(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false});
+  // table basse et boîte de perles
+  b.fillStyle='#6a4a32';b.fillRect(300,1380,700,40);b.fillStyle='#5a3d2a';b.fillRect(330,1420,40,140);b.fillRect(930,1420,40,140);
+  b.fillStyle='#e8d0a0';b.beginPath();b.roundRect(760,1320,150,64,10);b.fill();const r=mulberry(3);for(let i=0;i<9;i++){b.fillStyle=['#d0408a','#3c8fd0','#f0c030','#40b070'][i%4];b.beginPath();b.arc(780+r()*110,1334+r()*36,10,0,TAU);b.fill();}
+  return [B,b];}
+// coupe du nez de profil : objet à la position p (0 entrée, 1 profond, 1,4 vers les voies respiratoires)
+function nezCoupe(c,T,p,o={}){c.save();c.translate(W/2+40,960);c.strokeStyle='rgba(245,245,245,0.85)';c.lineWidth=7;c.lineJoin='round';
+  c.beginPath();c.moveTo(-300,-500);c.bezierCurveTo(-120,-560,60,-520,120,-360);c.lineTo(250,-80);c.quadraticCurveTo(270,-20,200,0);c.lineTo(150,10);c.quadraticCurveTo(120,80,170,140);c.lineTo(160,260);c.bezierCurveTo(100,330,-40,330,-120,300);c.stroke();
+  // cavité nasale et passage vers la gorge
+  c.fillStyle='rgba(230,150,140,0.16)';c.strokeStyle='rgba(230,150,140,0.85)';c.lineWidth=5;c.beginPath();c.moveTo(175,-10);c.bezierCurveTo(60,-70,-80,-90,-180,-40);c.bezierCurveTo(-230,0,-240,120,-230,400);c.lineTo(-170,400);c.bezierCurveTo(-180,140,-160,40,-120,20);c.bezierCurveTo(-40,-10,60,10,150,40);c.closePath();c.fill();c.stroke();
+  const path=q=>q<=1?[lerp(165,-60,q),lerp(15,-40,q)+Math.sin(q*Math.PI)*-12]:[lerp(-60,-200,q-1),lerp(-40,260,(q-1)/0.6)];
+  const [bx,by]=path(p);if(o.pile){c.fillStyle=lg(c,bx-26,0,bx+26,0,[[0,'#8a8e94'],[0.5,'#f0f2f4'],[1,'#7a7e84']]);c.beginPath();c.ellipse(bx,by,28,12,0.3,0,TAU);c.fill();
+    if(o.brule){c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,bx,by,4,40+80*o.brule,[[0,`rgba(255,90,40,${0.8*o.brule})`],[1,'rgba(255,60,30,0)']]);c.beginPath();c.arc(bx,by,40+80*o.brule,0,TAU);c.fill();c.restore();}}
+  else{c.fillStyle=rg(c,bx-6,by-6,2,26,[[0,'#ffd1e8'],[1,'#d0408a']]);c.beginPath();c.arc(bx,by,22,0,TAU);c.fill();}
+  if(o.pince){const k=o.pince;c.strokeStyle='#c8ccd2';c.lineWidth=10;c.lineCap='round';c.beginPath();c.moveTo(420,60-20*k);c.lineTo(bx+30,by-6);c.moveTo(420,80+20*k);c.lineTo(bx+30,by+8);c.stroke();}
+  c.restore();}
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const [B,b]=salon(t);enfantNez(b,t,700,1020,170,ease(seg(t,0.2,1.2)));ambiance(b,[LAMPE(760,500,1),LUNE(240,600)]);accroche(c,t,d,B,camAt(t,d,{x:780,y:900,z:1.7},{x:800,y:860,z:1.9}),['ton enfant mettait','un objet dans son nez ?']);},
+// 2 — la perle dans la narine
+(c,t,d)=>{const cut=clamp(C('perle',2.4)-0.3,1.0,d-1);const [B,b]=salon(t);const k=ease(seg(t,cut,cut+0.9));enfantNez(b,t,640,1060,180,k);ambiance(b,[LAMPE(760,500,1),LUNE(240,600)]);
+  show(c,B,t<cut?camAt(t,cut,{x:700,y:1100,z:1.15},{x:720,y:1080,z:1.22}):camAt(t-cut,d-cut,{x:780,y:900,z:1.9},{x:790,y:890,z:2.05}));grade(c,t);
+  tag(c,'UNE PERLE DANS LA NARINE',T1,clamp((t-C('narine',3.6))/0.3),'rouge',38);},
+// 3 — signes : narine bouchée, irritée… ou rien
+(c,t,d)=>{darkBg(c);kicker(c,'LES SIGNES',300,1);nezCoupe(c,t,0.55);tag(c,'NARINE BOUCHÉE',420,clamp((t-C('bouchee',1.4))/0.3),'rouge',44);tag(c,'OU IRRITÉE',510,clamp((t-C('irritee',2.2))/0.3),'rouge',44);
+  tag(c,'PARFOIS, PRESQUE AUCUN SIGNE',1320,clamp((t-C('parfois',3.2))/0.3),'jaune',38);grade(c,t,{vig:0.5});},
+// 4 — pas de pince ni d'instrument
+(c,t,d)=>{planche(c,t,t,[['pince','non',0.3,'pince'],['perle','',0.15,'objet profond']],{kicker:'NE CHERCHE PAS À LE RETIRER',y:880});tag(c,'NI PINCE, NI INSTRUMENT',1250,clamp((t-C('pince',2.8))/0.3),'rouge',42);},
+// 5 — les risques
+(c,t,d)=>{darkBg(c);kicker(c,'LES RISQUES',300,1);const kp=ease(seg(t,C('pousser',1.0)-0.2,C('pousser',1.0)+0.8)),kr=ease(seg(t,C('respiratoires',3.6)-0.3,C('respiratoires',3.6)+0.8));
+  nezCoupe(c,t,0.4+0.6*kp+0.4*kr,{pince:1});tag(c,'POUSSÉ PLUS LOIN',420,clamp((t-C('pousser',1.0))/0.3),'rouge',42);tag(c,'NEZ BLESSÉ',510,clamp((t-C('blesser',2.0))/0.3),'rouge',42);
+  tag(c,'VERS LES VOIES RESPIRATOIRES',1320,clamp((t-C('respiratoires',3.6))/0.3),'rouge',38);grade(c,t,{vig:0.5});},
+// 6 — consulter rapidement
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'hopital',t);acteur(b,'heros',560,900,190,{look:0.9,ex:{eye:0.7,brow:0.3,mouth:0.1},near:{to:[560+1.3*190,900+1.9*190],hand:'grip'}});
+  acteur(b,'enfant',900,1180,140,{look:0.6,ex:{eye:0.7,brow:0.2,mouth:0},far:{to:[900-0.6*140,1180+0.6*140],hand:'grip',bend:-1}});ambiance(b,[LAMPE(760,300,1.1,1600)],'#5a5a64');
+  show(c,B,camAt(t,d,{x:720,y:1080,z:1.15},{x:730,y:1070,z:1.22}));grade(c,t);tag(c,'CONSULTE RAPIDEMENT UN MÉDECIN',T1,clamp((t-C('consulte',0.3))/0.3),'vert',40);},
+// 7 — pile bouton : extraction immédiate
+(c,t,d)=>{planche(c,t,t,[['pile','',0.2,'pile bouton'],['hopital','oui',C('extraction',2.2)-0.2,'extraction immédiate']],{kicker:'ET SI C’EST UNE PILE ?',y:860});tag(c,'URGENCE MÉDICALE',1250,clamp((t-C('immediate',2.8))/0.3),'rouge',46);},
+// 8 — la pile brûle : ne pas attendre
+(c,t,d)=>{darkBg(c);kicker(c,'POURQUOI C’EST URGENT',300,1);nezCoupe(c,t,0.6,{pile:true,brule:ease(seg(t,C('bruler',1.2)-0.2,C('bruler',1.2)+1.4))});
+  tag(c,'ELLE PEUT BRÛLER LES TISSUS',420,clamp((t-C('bruler',1.2))/0.3),'rouge',42);tag(c,'N’ATTENDS PAS DE SYMPTÔMES',1320,clamp((t-C('attends',2.6))/0.3),'rouge',40);grade(c,t,{vig:0.5});},
+// 9 — 112 si respiration difficile ou saignement abondant
+(c,t,d)=>{planche(c,t,t,[['telephone','oui',C('appelle',3.4)-0.3,'112']],{kicker:'SIGNES GRAVES',y:800,s:1.8});tag(c,'RESPIRE DIFFICILEMENT',1180,clamp((t-C('respiratoire',1.4))/0.3),'rouge',40);tag(c,'SAIGNE ABONDAMMENT',1270,clamp((t-C('saignement',2.4))/0.3),'rouge',40);},
+// 10 — prévention : hors de portée
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,0.5,1.8));const box=[lerp(860,700,k),lerp(1340,640,k)];
+  acteur(b,'heros',560,880,190,{look:0.9,ex:{eye:0.6,brow:0,mouth:0},near:{to:[box[0]-30,box[1]+10],hand:'grip',ang:-0.3}});
+  b.fillStyle='#e8d0a0';b.beginPath();b.roundRect(box[0]-70,box[1]-34,150,64,10);b.fill();b.fillStyle='#b8bcc2';b.beginPath();b.ellipse(box[0]+20,box[1]-36,20,8,0,0,TAU);b.fill();
+  acteur(b,'enfant',1000,1160,140,{look:0.5,ex:{eye:0.7,brow:0,mouth:0.2}},{mirror:true});ambiance(b,[LAMPE(760,500,1.1)],'#44444e');
+  show(c,B,camAt(t,d,{x:760,y:1000,z:1.1},{x:760,y:980,z:1.15}));grade(c,t);tag(c,'PRÉVENTION',T1,clamp((t-0.1)/0.3),'sombre');tag(c,'PETITS OBJETS ET PILES HORS DE PORTÉE',T2,clamp((t-C('objets',2.0))/0.3),'vert',34);},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Pas de pince ni d’instrument',PAL.rouge],['Consulte rapidement un médecin',PAL.vert],['Pile bouton : urgence immédiate',PAL.rouge],['Gêne respiratoire, saignement : 112',PAL.vert]]),
+];
+</script></body></html>

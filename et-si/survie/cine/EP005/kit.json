@@ -1,0 +1,52 @@
+{
+ "id": "EP005",
+ "title": "Et si ta maison prenait feu pendant ton sommeil ?",
+ "sources": [
+  "https://www.pompiers.fr/sites/default/files/publications/file/sqv_incendiedom.pdf"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+ },
+ "publication": {
+  "titre": "Et si ta maison prenait feu pendant ton sommeil ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.pompiers.fr/sites/default/files/publications/file/sqv_incendiedom.pdf",
+  "social": "Et si ta maison prenait feu pendant ton sommeil ? #EtSi #Prevention #PremiersSecours"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-02.json (EP005) ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ta maison prenait feu pendant ton sommeil ?"
+  },
+  {
+   "voix": "Tu dors quand le détecteur de fumée retentit. La situation peut devenir dangereuse rapidement."
+  },
+  {
+   "voix": "Ne perds pas de temps à vouloir récupérer tes objets."
+  },
+  {
+   "voix": "Si le feu est chez toi et que la sortie est praticable, quitte les lieux."
+  },
+  {
+   "voix": "Ferme si possible la porte de la pièce en feu puis celle du logement."
+  },
+  {
+   "voix": "Mais si le feu est dans les parties communes de ton immeuble, la situation est différente."
+  },
+  {
+   "voix": "Ne cherche pas à sortir coûte que coûte en traversant la fumée."
+  },
+  {
+   "voix": "Reste à l’abri derrière une porte fermée et appelle les secours."
+  },
+  {
+   "voix": "Signale ta présence depuis une fenêtre si tu es bloqué."
+  },
+  {
+   "voix": "Prépare à l’avance un plan de sortie et un point de rassemblement avec ta famille."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

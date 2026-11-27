@@ -18,7 +18,9 @@ AFFICHAGE = {
     'vingt-quatre heures': '24 heures',
     'huit milliards': '8 milliards',
 }
-SLUG = {'000': 'prototype-poele-feu', '001': 'casserole-huile-feu', '002': 'adulte-etouffement'}
+SLUG = {'000': 'prototype-poele-feu', '001': 'casserole-huile-feu', '002': 'adulte-etouffement', '003': 'enfant-objet-nez',
+        '004': 'monoxyde-carbone', '005': 'feu-pendant-sommeil', '006': 'brulure-eau-bouillante', '007': 'odeur-de-gaz',
+        '008': 'pile-bouton-avalee', '009': 'coupure-profonde', '010': 'saignement-de-nez'}
 MOTS_CLES = {'feu', 'casserole', 'jamais', 'eau', 'chaleur', 'danger', 'secours', 'dehors', 'porte', 'sors', 'partage', 'proches', 'quitte', 'avertis', 'flammes', 'boule', 'terre', 'tourner', 'équateur', 'est', 'atmosphère', 'vents', 'océans', 'inondations', 'pôles',
              'gravité', 'orbite', 'soleil', 'année', 'rotation', 'scénario', 'seconde', 'prochain', 'épisode',
              'abonne-toi', 'suite', 'lune', 'jupiter', 'dinosaures', 'fourmis', 'casque', 'espace', 'trou', 'noir'}
