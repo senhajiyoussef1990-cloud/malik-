@@ -1,0 +1,536 @@
+{
+  "instructions": "Claude uniquement. Ne pas publier avant validation spécialisée. Durée cible non atteinte par les narrations actuelles.",
+  "episodes": [
+    {
+      "id": "EP092",
+      "title": "Et si ton bébé s’endormait sur le canapé ?",
+      "source": "https://www.ameli.fr/assure/sante/bons-gestes/bebe/coucher-bebe",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton bébé s’endormait sur le canapé ?",
+          "prompt_image": "Salon, parent somnolent, transition vers lit bébé vide",
+          "subtitle": "Et si ton bébé s’endormait sur le canapé ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Un canapé n’est pas un couchage adapté au nourrisson, même pour une sieste. Installe-le dans son propre lit, à plat sur le dos, sur un matelas ferme. Ne partage pas le canapé pour dormir avec lui.",
+          "prompt_image": "Salon, parent somnolent, transition vers lit bébé vide",
+          "subtitle": "Un canapé n’est pas un couchage adapté au nourrisson, même pour une sieste. Installe-le dans son propre lit, à plat sur le dos, sur un matelas ferme. Ne partage pas le canapé pour dormir avec lui.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton bébé s’endormait sur le canapé ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/bons-gestes/bebe/coucher-bebe",
+        "social": "Et si ton bébé s’endormait sur le canapé ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP093",
+      "title": "Et si ton bébé régurgitait avant de dormir ?",
+      "source": "https://www.ameli.fr/assure/sante/themes/rgo-nourrisson/que-faire-quand-consulter",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton bébé régurgitait avant de dormir ?",
+          "prompt_image": "Biberon, parent tenant bébé verticalement, lit horizontal",
+          "subtitle": "Et si ton bébé régurgitait avant de dormir ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Après le biberon, garde ton bébé verticalement pendant vingt à trente minutes si possible. Pour dormir, installe-le à plat sur le dos, sans incliner le couchage. Demande conseil au médecin si les régurgitations sont gênantes.",
+          "prompt_image": "Biberon, parent tenant bébé verticalement, lit horizontal",
+          "subtitle": "Après le biberon, garde ton bébé verticalement pendant vingt à trente minutes si possible. Pour dormir, installe-le à plat sur le dos, sans incliner le couchage. Demande conseil au médecin si les régurgitations sont gênantes.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton bébé régurgitait avant de dormir ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/themes/rgo-nourrisson/que-faire-quand-consulter",
+        "social": "Et si ton bébé régurgitait avant de dormir ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP094",
+      "title": "Et si tes vêtements prenaient feu ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tes vêtements prenaient feu ?",
+          "prompt_image": "Simulation extérieure, couverture anti-feu, appel secours",
+          "subtitle": "Et si tes vêtements prenaient feu ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Si les vêtements d’une personne brûlent, empêche-la de courir. Étouffe les flammes avec une couverture anti-feu ou un tissu naturel adapté. Appelle le 112. Ne détache pas les vêtements collés à la peau.",
+          "prompt_image": "Simulation extérieure, couverture anti-feu, appel secours",
+          "subtitle": "Si les vêtements d’une personne brûlent, empêche-la de courir. Étouffe les flammes avec une couverture anti-feu ou un tissu naturel adapté. Appelle le 112. Ne détache pas les vêtements collés à la peau.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tes vêtements prenaient feu ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau",
+        "social": "Et si tes vêtements prenaient feu ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP095",
+      "title": "Et si un barbecue s’embrasait pendant la fête ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un barbecue s’embrasait pendant la fête ?",
+          "prompt_image": "Jardin, barbecue, bouteille restant fermée, groupe éloigné",
+          "subtitle": "Et si un barbecue s’embrasait pendant la fête ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Ne verse jamais de liquide inflammable sur un barbecue pour raviver les braises. En cas d’incendie, éloigne les personnes du danger et appelle le 112.",
+          "prompt_image": "Jardin, barbecue, bouteille restant fermée, groupe éloigné",
+          "subtitle": "Ne verse jamais de liquide inflammable sur un barbecue pour raviver les braises. En cas d’incendie, éloigne les personnes du danger et appelle le 112.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un barbecue s’embrasait pendant la fête ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau",
+        "social": "Et si un barbecue s’embrasait pendant la fête ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP096",
+      "title": "Et si ton téléphone chargeait près de la baignoire ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton téléphone chargeait près de la baignoire ?",
+          "prompt_image": "Salle de bain, téléphone branché montré à distance, charge dans salon",
+          "subtitle": "Et si ton téléphone chargeait près de la baignoire ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Un appareil relié au secteur ne doit pas être utilisé dans le bain ni à proximité de l’eau, même s’il est annoncé résistant à l’eau. Recharge ton téléphone hors des pièces humides.",
+          "prompt_image": "Salle de bain, téléphone branché montré à distance, charge dans salon",
+          "subtitle": "Un appareil relié au secteur ne doit pas être utilisé dans le bain ni à proximité de l’eau, même s’il est annoncé résistant à l’eau. Recharge ton téléphone hors des pièces humides.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton téléphone chargeait près de la baignoire ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+        "social": "Et si ton téléphone chargeait près de la baignoire ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP097",
+      "title": "Et si un câble haute tension tombait près d’un passant ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un câble haute tension tombait près d’un passant ?",
+          "prompt_image": "Rue barrée, câble au sol vu de loin, appel secours",
+          "subtitle": "Et si un câble haute tension tombait près d’un passant ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Reste éloigné de la victime et du câble jusqu’à ce que des professionnels aient coupé l’alimentation. Un arc électrique peut se former sans contact direct. Alerte le 112 et précise le type d’accident.",
+          "prompt_image": "Rue barrée, câble au sol vu de loin, appel secours",
+          "subtitle": "Reste éloigné de la victime et du câble jusqu’à ce que des professionnels aient coupé l’alimentation. Un arc électrique peut se former sans contact direct. Alerte le 112 et précise le type d’accident.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un câble haute tension tombait près d’un passant ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+        "social": "Et si un câble haute tension tombait près d’un passant ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP098",
+      "title": "Et si une rumeur d’évacuation circulait sur ton téléphone ?",
+      "source": "https://centredecrise.be/fr/que-pouvez-vous-faire/informez-vous/linformation-pendant-une-situation-durgence",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une rumeur d’évacuation circulait sur ton téléphone ?",
+          "prompt_image": "Téléphone avec message fictif, radio, site institutionnel",
+          "subtitle": "Et si une rumeur d’évacuation circulait sur ton téléphone ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Consulte les communications de ta commune, du Centre de crise et des services de secours. La radio et la télévision peuvent aussi transmettre leurs consignes. Suis les instructions authentifiées.",
+          "prompt_image": "Téléphone avec message fictif, radio, site institutionnel",
+          "subtitle": "Consulte les communications de ta commune, du Centre de crise et des services de secours. La radio et la télévision peuvent aussi transmettre leurs consignes. Suis les instructions authentifiées.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une rumeur d’évacuation circulait sur ton téléphone ? #Shorts",
+        "description": "Source officielle : https://centredecrise.be/fr/que-pouvez-vous-faire/informez-vous/linformation-pendant-une-situation-durgence",
+        "social": "Et si une rumeur d’évacuation circulait sur ton téléphone ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP099",
+      "title": "Et si une rallonge électrique était abîmée sous ton tapis ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une rallonge électrique était abîmée sous ton tapis ?",
+          "prompt_image": "Tapis, câble illustré en coupe, rangement d’un câble intact",
+          "subtitle": "Et si une rallonge électrique était abîmée sous ton tapis ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "Évite de faire passer des câbles électriques sous les tapis et les portes. Retire du service les rallonges fissurées. Après usage, range les rallonges plutôt que de les laisser branchées.",
+          "prompt_image": "Tapis, câble illustré en coupe, rangement d’un câble intact",
+          "subtitle": "Évite de faire passer des câbles électriques sous les tapis et les portes. Retire du service les rallonges fissurées. Après usage, range les rallonges plutôt que de les laisser branchées.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une rallonge électrique était abîmée sous ton tapis ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+        "social": "Et si une rallonge électrique était abîmée sous ton tapis ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    },
+    {
+      "id": "EP100",
+      "title": "Et si un incendie d’origine électrique éclatait chez toi ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+      "verification": {
+        "status": "Extraits officiels consultés; validation indépendante non obtenue",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un incendie d’origine électrique éclatait chez toi ?",
+          "prompt_image": "Appareil fumant, éloignement, appel 112",
+          "subtitle": "Et si un incendie d’origine électrique éclatait chez toi ?",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 70,
+          "voix": "N’utilise pas d’eau sur un incendie électrique. Appelle le 112. Coupe l’alimentation uniquement si tu peux le faire sans danger. Ne prends aucun risque pour intervenir.",
+          "prompt_image": "Appareil fumant, éloignement, appel 112",
+          "subtitle": "N’utilise pas d’eau sur un incendie électrique. Appelle le 112. Coupe l’alimentation uniquement si tu peux le faire sans danger. Ne prends aucun risque pour intervenir.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "",
+          "prompt_image": "Récapitulatif visuel des consignes déjà énoncées",
+          "subtitle": "",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "3D semi-réaliste, plans variés, aucune action dangereuse ajoutée",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un incendie d’origine électrique éclatait chez toi ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+        "social": "Et si un incendie d’origine électrique éclatait chez toi ? #EtSi #Prevention"
+      },
+      "production_note": "Brouillon court. Étoffer uniquement après vérification des sources, puis chronométrer. Aucun rendu vidéo."
+    }
+  ]
+}
