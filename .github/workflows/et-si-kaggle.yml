@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       prompts: { description: "Fichier de prompts", default: "et-si/survie/kaggle/essai-ep001.json" }
+      recuperer: { description: "Seulement récupérer le dernier résultat (oui/non)", default: "non" }
 permissions:
   contents: write
 concurrency:
@@ -27,6 +28,7 @@ jobs:
         with: { persist-credentials: false }
       - name: Vérifier les identifiants Kaggle
         run: |
+          KU=$(printf '%s' "$KAGGLE_USERNAME" | tr -d '[:space:]'); echo "KAGGLE_USERNAME=$KU" >> "$GITHUB_ENV"; export KAGGLE_USERNAME=$KU
           echo "nom : ${KAGGLE_USERNAME:+présent} · clé : ${KAGGLE_KEY:+présente} · token : ${KAGGLE_API_TOKEN:+présent}"
           if [ -z "$KAGGLE_KEY" ] && [ -z "$KAGGLE_API_TOKEN" ]; then
             echo "::error::Aucune clé Kaggle (KAGGLE_KEY ou KAGGLE_API_TOKEN) dans les secrets"; exit 1; fi
@@ -34,6 +36,8 @@ jobs:
           [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
           pip install -q -U kaggle && kaggle --version && kaggle kernels list --mine --page-size 3
       - name: Envoyer le notebook GPU
+        env:
+          RECUP: ${{ github.event.inputs.recuperer || 'non' }}
         run: |
           [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY; [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
           export NOM=$(basename "$PROMPTS" .json); export SLUG="etsi-images-$NOM"; echo "SLUG=$SLUG" >> "$GITHUB_ENV"; echo "NOM=$NOM" >> "$GITHUB_ENV"
@@ -46,12 +50,12 @@ jobs:
                      "language": "python", "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
                      "dataset_sources": [], "competition_sources": [], "kernel_sources": []}, open('k/kernel-metadata.json', 'w'))
           PY
-          kaggle kernels push -p k
+          if [ "$RECUP" = "oui" ]; then echo "récupération seule"; else kaggle kernels push -p k; fi
       - name: Attendre la fin sur Kaggle
         run: |
           [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY; [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
           for i in $(seq 1 100); do S=$(kaggle kernels status "$KAGGLE_USERNAME/$SLUG" 2>&1 | tail -1); echo "$(date +%H:%M) $S"
-            case "$S" in *COMPLETE*|*complete*) break;; *ERROR*|*error*|*CANCEL*) kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p out || true; tail -50 out/*.log 2>/dev/null; exit 1;; esac; sleep 45; done
+            case "$S" in *"Cannot access"*|*denied*) echo "::error::$S"; exit 1;; *COMPLETE*|*complete*) break;; *ERROR*|*error*|*CANCEL*) kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p out || true; tail -50 out/*.log 2>/dev/null; exit 1;; esac; sleep 45; done
           kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p out; ls -la out out/images || true
       - name: Publier sur et-si-sorties
         env:
