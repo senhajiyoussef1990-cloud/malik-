@@ -1,0 +1,665 @@
+{
+  "instructions": "Claude uniquement. Recaler narration sur 90 secondes, contrôler gestes et sources, ne pas publier avant relecture professionnelle.",
+  "episodes": [
+    {
+      "id": "EP001",
+      "title": "Et si ta casserole d’huile prenait feu ?",
+      "source": "https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires/",
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ta casserole d’huile prenait feu ?",
+          "subtitle": "Et si ta casserole d’huile prenait feu ?",
+          "visuel": "Cuisine, feu localisé",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Cuisine, feu localisé",
+          "animation": "Mouvements naturels, aucun geste ajouté; Cuisine, feu localisé",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu cuisines tranquillement. Soudain, des flammes apparaissent au-dessus de la casserole.",
+          "subtitle": "Tu cuisines tranquillement. Soudain, des flammes apparaissent au-dessus de la casserole.",
+          "visuel": "Cuisine, feu localisé",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Cuisine, feu localisé",
+          "animation": "Mouvements naturels, aucun geste ajouté; Cuisine, feu localisé",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Ton premier réflexe pourrait être de prendre un verre d’eau. Pourtant, ce serait une erreur dangereuse.",
+          "subtitle": "Ton premier réflexe pourrait être de prendre un verre d’eau. Pourtant, ce serait une erreur dangereuse.",
+          "visuel": "Verre immobile, symbole interdit",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Verre immobile, symbole interdit",
+          "animation": "Mouvements naturels, aucun geste ajouté; Verre immobile, symbole interdit",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Au contact de l’huile enflammée, l’eau peut projeter le feu autour de toi.",
+          "subtitle": "Au contact de l’huile enflammée, l’eau peut projeter le feu autour de toi.",
+          "visuel": "Schéma abstrait de propagation, sans démonstration pratique",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Schéma abstrait de propagation, sans démonstration pratique",
+          "animation": "Mouvements naturels, aucun geste ajouté; Schéma abstrait de propagation, sans démonstration pratique",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Ne transporte surtout pas la casserole et ne tente pas de combattre les flammes.",
+          "subtitle": "Ne transporte surtout pas la casserole et ne tente pas de combattre les flammes.",
+          "visuel": "Casserole immobile, personnage recule",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Casserole immobile, personnage recule",
+          "animation": "Mouvements naturels, aucun geste ajouté; Casserole immobile, personnage recule",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Coupe la source de chaleur seulement si tu peux atteindre la commande sans risque.",
+          "subtitle": "Coupe la source de chaleur seulement si tu peux atteindre la commande sans risque.",
+          "visuel": "Commande éloignée du feu, condition écrite",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Commande éloignée du feu, condition écrite",
+          "animation": "Mouvements naturels, aucun geste ajouté; Commande éloignée du feu, condition écrite",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Quitte la cuisine et ferme la porte derrière toi si cela est sûr.",
+          "subtitle": "Quitte la cuisine et ferme la porte derrière toi si cela est sûr.",
+          "visuel": "Personnage sort",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Personnage sort",
+          "animation": "Mouvements naturels, aucun geste ajouté; Personnage sort",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Avertis les autres occupants et quitte le logement.",
+          "subtitle": "Avertis les autres occupants et quitte le logement.",
+          "visuel": "Famille dehors",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Famille dehors",
+          "animation": "Mouvements naturels, aucun geste ajouté; Famille dehors",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Appelle les pompiers depuis un endroit sûr. Dans l’Union européenne, compose le 112.",
+          "subtitle": "Appelle les pompiers depuis un endroit sûr. Dans l’Union européenne, compose le 112.",
+          "visuel": "Téléphone extérieur",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Téléphone extérieur",
+          "animation": "Mouvements naturels, aucun geste ajouté; Téléphone extérieur",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Pour éviter cet accident, ne laisse jamais une cuisson sans surveillance.",
+          "subtitle": "Pour éviter cet accident, ne laisse jamais une cuisson sans surveillance.",
+          "visuel": "Retour préventif, adulte attentif",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Retour préventif, adulte attentif",
+          "animation": "Mouvements naturels, aucun geste ajouté; Retour préventif, adulte attentif",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Logo officiel",
+          "animation": "Mouvements naturels, aucun geste ajouté; Logo officiel",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ta casserole d’huile prenait feu ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires/",
+        "social": "Et si ta casserole d’huile prenait feu ? #EtSi #Prevention #PremiersSecours"
+      }
+    },
+    {
+      "id": "EP004",
+      "title": "Et si tu étais intoxiqué au monoxyde de carbone ?",
+      "source": "https://www.centreantipoisons.be/tox-infos/intoxication-au-co/",
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu étais intoxiqué au monoxyde de carbone ?",
+          "subtitle": "Et si tu étais intoxiqué au monoxyde de carbone ?",
+          "visuel": "Salon chauffé",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Salon chauffé",
+          "animation": "Mouvements naturels, aucun geste ajouté; Salon chauffé",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Le chauffage fonctionne. Pourtant, tu te sens soudain mal, sans comprendre pourquoi.",
+          "subtitle": "Le chauffage fonctionne. Pourtant, tu te sens soudain mal, sans comprendre pourquoi.",
+          "visuel": "Salon chauffé",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Salon chauffé",
+          "animation": "Mouvements naturels, aucun geste ajouté; Salon chauffé",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Le monoxyde de carbone est impossible à détecter par sa couleur ou son odeur.",
+          "subtitle": "Le monoxyde de carbone est impossible à détecter par sa couleur ou son odeur.",
+          "visuel": "Schéma gaz invisible",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Schéma gaz invisible",
+          "animation": "Mouvements naturels, aucun geste ajouté; Schéma gaz invisible",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Il peut se former quand un combustible brûle mal, notamment dans un appareil de chauffage.",
+          "subtitle": "Il peut se former quand un combustible brûle mal, notamment dans un appareil de chauffage.",
+          "visuel": "Schéma appareil, sans manipulation",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Schéma appareil, sans manipulation",
+          "animation": "Mouvements naturels, aucun geste ajouté; Schéma appareil, sans manipulation",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Si tu suspectes une intoxication, pense d’abord à ta propre sécurité.",
+          "subtitle": "Si tu suspectes une intoxication, pense d’abord à ta propre sécurité.",
+          "visuel": "Personnage se dirige vers sortie",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Personnage se dirige vers sortie",
+          "animation": "Mouvements naturels, aucun geste ajouté; Personnage se dirige vers sortie",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Ne pénètre pas dans une pièce contaminée pour récupérer une personne inconsciente.",
+          "subtitle": "Ne pénètre pas dans une pièce contaminée pour récupérer une personne inconsciente.",
+          "visuel": "Porte fermée, symbole interdit",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Porte fermée, symbole interdit",
+          "animation": "Mouvements naturels, aucun geste ajouté; Porte fermée, symbole interdit",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Aère seulement si tu peux ouvrir les portes ou fenêtres sans danger.",
+          "subtitle": "Aère seulement si tu peux ouvrir les portes ou fenêtres sans danger.",
+          "visuel": "Fenêtre accessible sur trajet",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Fenêtre accessible sur trajet",
+          "animation": "Mouvements naturels, aucun geste ajouté; Fenêtre accessible sur trajet",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Appelle immédiatement le 112 et précise que tu suspectes du monoxyde de carbone.",
+          "subtitle": "Appelle immédiatement le 112 et précise que tu suspectes du monoxyde de carbone.",
+          "visuel": "Appel depuis extérieur",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Appel depuis extérieur",
+          "animation": "Mouvements naturels, aucun geste ajouté; Appel depuis extérieur",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Indique aux secours si quelqu’un est inconscient.",
+          "subtitle": "Indique aux secours si quelqu’un est inconscient.",
+          "visuel": "Dialogue opérateur, sans voix additionnelle",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Dialogue opérateur, sans voix additionnelle",
+          "animation": "Mouvements naturels, aucun geste ajouté; Dialogue opérateur, sans voix additionnelle",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Ne retourne pas dans la zone dangereuse pour intervenir toi-même.",
+          "subtitle": "Ne retourne pas dans la zone dangereuse pour intervenir toi-même.",
+          "visuel": "Secours devant maison",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Secours devant maison",
+          "animation": "Mouvements naturels, aucun geste ajouté; Secours devant maison",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Logo officiel",
+          "animation": "Mouvements naturels, aucun geste ajouté; Logo officiel",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu étais intoxiqué au monoxyde de carbone ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.centreantipoisons.be/tox-infos/intoxication-au-co/",
+        "social": "Et si tu étais intoxiqué au monoxyde de carbone ? #EtSi #Prevention #PremiersSecours"
+      }
+    },
+    {
+      "id": "EP005",
+      "title": "Et si ta maison prenait feu pendant ton sommeil ?",
+      "source": "https://www.pompiers.fr/sites/default/files/publications/file/sqv_incendiedom.pdf",
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ta maison prenait feu pendant ton sommeil ?",
+          "subtitle": "Et si ta maison prenait feu pendant ton sommeil ?",
+          "visuel": "Chambre nocturne, alarme",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Chambre nocturne, alarme",
+          "animation": "Mouvements naturels, aucun geste ajouté; Chambre nocturne, alarme",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu dors quand le détecteur de fumée retentit. La situation peut devenir dangereuse rapidement.",
+          "subtitle": "Tu dors quand le détecteur de fumée retentit. La situation peut devenir dangereuse rapidement.",
+          "visuel": "Chambre nocturne, alarme",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Chambre nocturne, alarme",
+          "animation": "Mouvements naturels, aucun geste ajouté; Chambre nocturne, alarme",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Ne perds pas de temps à vouloir récupérer tes objets.",
+          "subtitle": "Ne perds pas de temps à vouloir récupérer tes objets.",
+          "visuel": "Objets laissés sur place",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Objets laissés sur place",
+          "animation": "Mouvements naturels, aucun geste ajouté; Objets laissés sur place",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Si le feu est chez toi et que la sortie est praticable, quitte les lieux.",
+          "subtitle": "Si le feu est chez toi et que la sortie est praticable, quitte les lieux.",
+          "visuel": "Issue dégagée",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Issue dégagée",
+          "animation": "Mouvements naturels, aucun geste ajouté; Issue dégagée",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Ferme si possible la porte de la pièce en feu puis celle du logement.",
+          "subtitle": "Ferme si possible la porte de la pièce en feu puis celle du logement.",
+          "visuel": "Fermeture de porte sur chemin sûr",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Fermeture de porte sur chemin sûr",
+          "animation": "Mouvements naturels, aucun geste ajouté; Fermeture de porte sur chemin sûr",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Mais si le feu est dans les parties communes de ton immeuble, la situation est différente.",
+          "subtitle": "Mais si le feu est dans les parties communes de ton immeuble, la situation est différente.",
+          "visuel": "Coupe immeuble, fumées dans couloir",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Coupe immeuble, fumées dans couloir",
+          "animation": "Mouvements naturels, aucun geste ajouté; Coupe immeuble, fumées dans couloir",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Ne cherche pas à sortir coûte que coûte en traversant la fumée.",
+          "subtitle": "Ne cherche pas à sortir coûte que coûte en traversant la fumée.",
+          "visuel": "Couloir enfumé derrière porte fermée",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Couloir enfumé derrière porte fermée",
+          "animation": "Mouvements naturels, aucun geste ajouté; Couloir enfumé derrière porte fermée",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Reste à l’abri derrière une porte fermée et appelle les secours.",
+          "subtitle": "Reste à l’abri derrière une porte fermée et appelle les secours.",
+          "visuel": "Personnage à l’abri",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Personnage à l’abri",
+          "animation": "Mouvements naturels, aucun geste ajouté; Personnage à l’abri",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Signale ta présence depuis une fenêtre si tu es bloqué.",
+          "subtitle": "Signale ta présence depuis une fenêtre si tu es bloqué.",
+          "visuel": "Fenêtre, téléphone",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Fenêtre, téléphone",
+          "animation": "Mouvements naturels, aucun geste ajouté; Fenêtre, téléphone",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Prépare à l’avance un plan de sortie et un point de rassemblement avec ta famille.",
+          "subtitle": "Prépare à l’avance un plan de sortie et un point de rassemblement avec ta famille.",
+          "visuel": "Plan simple de logement",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Plan simple de logement",
+          "animation": "Mouvements naturels, aucun geste ajouté; Plan simple de logement",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Logo officiel",
+          "animation": "Mouvements naturels, aucun geste ajouté; Logo officiel",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ta maison prenait feu pendant ton sommeil ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.pompiers.fr/sites/default/files/publications/file/sqv_incendiedom.pdf",
+        "social": "Et si ta maison prenait feu pendant ton sommeil ? #EtSi #Prevention #PremiersSecours"
+      }
+    },
+    {
+      "id": "EP007",
+      "title": "Et si tu sentais une odeur de gaz chez toi ?",
+      "source": "https://www.sibelga.be/fr/pannes-chantiers/odeur-de-gaz",
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu sentais une odeur de gaz chez toi ?",
+          "subtitle": "Et si tu sentais une odeur de gaz chez toi ?",
+          "visuel": "Cuisine, personnage inquiet",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Cuisine, personnage inquiet",
+          "animation": "Mouvements naturels, aucun geste ajouté; Cuisine, personnage inquiet",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Une odeur inhabituelle apparaît dans ta cuisine. Prends immédiatement cette alerte au sérieux.",
+          "subtitle": "Une odeur inhabituelle apparaît dans ta cuisine. Prends immédiatement cette alerte au sérieux.",
+          "visuel": "Cuisine, personnage inquiet",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Cuisine, personnage inquiet",
+          "animation": "Mouvements naturels, aucun geste ajouté; Cuisine, personnage inquiet",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Le danger vient notamment de la possibilité qu’une étincelle enflamme le gaz.",
+          "subtitle": "Le danger vient notamment de la possibilité qu’une étincelle enflamme le gaz.",
+          "visuel": "Schéma abstrait sans explosion",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Schéma abstrait sans explosion",
+          "animation": "Mouvements naturels, aucun geste ajouté; Schéma abstrait sans explosion",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "N’actionne ni interrupteur, ni sonnette, ni appareil électrique.",
+          "subtitle": "N’actionne ni interrupteur, ni sonnette, ni appareil électrique.",
+          "visuel": "Interrupteurs barrés",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Interrupteurs barrés",
+          "animation": "Mouvements naturels, aucun geste ajouté; Interrupteurs barrés",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Ne fume pas et n’utilise ni briquet ni allumette.",
+          "subtitle": "Ne fume pas et n’utilise ni briquet ni allumette.",
+          "visuel": "Pictogrammes",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Pictogrammes",
+          "animation": "Mouvements naturels, aucun geste ajouté; Pictogrammes",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Ouvre les portes et fenêtres si cela ne te met pas en danger.",
+          "subtitle": "Ouvre les portes et fenêtres si cela ne te met pas en danger.",
+          "visuel": "Fenêtre accessible",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Fenêtre accessible",
+          "animation": "Mouvements naturels, aucun geste ajouté; Fenêtre accessible",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Ferme l’arrivée de gaz seulement si le compteur est accessible sans éclairage supplémentaire.",
+          "subtitle": "Ferme l’arrivée de gaz seulement si le compteur est accessible sans éclairage supplémentaire.",
+          "visuel": "Compteur, condition écrite",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Compteur, condition écrite",
+          "animation": "Mouvements naturels, aucun geste ajouté; Compteur, condition écrite",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Quitte rapidement le bâtiment. Préviens les voisins sans utiliser de sonnette.",
+          "subtitle": "Quitte rapidement le bâtiment. Préviens les voisins sans utiliser de sonnette.",
+          "visuel": "Sortie par escalier",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Sortie par escalier",
+          "animation": "Mouvements naturels, aucun geste ajouté; Sortie par escalier",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Une fois hors de la zone où tu sens le gaz, appelle le service d’urgence gaz ou le 112.",
+          "subtitle": "Une fois hors de la zone où tu sens le gaz, appelle le service d’urgence gaz ou le 112.",
+          "visuel": "Appel extérieur",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Appel extérieur",
+          "animation": "Mouvements naturels, aucun geste ajouté; Appel extérieur",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "En Belgique, le numéro du gestionnaire dépend de ta région. Le 112 est le numéro européen d’urgence.",
+          "subtitle": "En Belgique, le numéro du gestionnaire dépend de ta région. Le 112 est le numéro européen d’urgence.",
+          "visuel": "Carte texte ajoutée au montage",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Carte texte ajoutée au montage",
+          "animation": "Mouvements naturels, aucun geste ajouté; Carte texte ajoutée au montage",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Logo officiel",
+          "animation": "Mouvements naturels, aucun geste ajouté; Logo officiel",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu sentais une odeur de gaz chez toi ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.sibelga.be/fr/pannes-chantiers/odeur-de-gaz",
+        "social": "Et si tu sentais une odeur de gaz chez toi ? #EtSi #Prevention #PremiersSecours"
+      }
+    },
+    {
+      "id": "EP008",
+      "title": "Et si ton enfant avalait une pile bouton ?",
+      "source": "https://www.centreantipoisons.be/tox-infos/les-piles-boutons/",
+      "verification": {
+        "date": "2026-11-27",
+        "status": "Source officielle consultée; validation professionnelle et contrôle du rendu encore nécessaires"
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton enfant avalait une pile bouton ?",
+          "subtitle": "Et si ton enfant avalait une pile bouton ?",
+          "visuel": "Télécommande ouverte, pile manquante",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Télécommande ouverte, pile manquante",
+          "animation": "Mouvements naturels, aucun geste ajouté; Télécommande ouverte, pile manquante",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu découvres une télécommande ouverte et une pile manquante. Tu suspectes que ton enfant l’a avalée.",
+          "subtitle": "Tu découvres une télécommande ouverte et une pile manquante. Tu suspectes que ton enfant l’a avalée.",
+          "visuel": "Télécommande ouverte, pile manquante",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Télécommande ouverte, pile manquante",
+          "animation": "Mouvements naturels, aucun geste ajouté; Télécommande ouverte, pile manquante",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Même s’il semble aller bien, la situation nécessite une évaluation urgente.",
+          "subtitle": "Même s’il semble aller bien, la situation nécessite une évaluation urgente.",
+          "visuel": "Enfant calme avec parent",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Enfant calme avec parent",
+          "animation": "Mouvements naturels, aucun geste ajouté; Enfant calme avec parent",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Une pile coincée dans l’œsophage peut endommager les tissus très rapidement.",
+          "subtitle": "Une pile coincée dans l’œsophage peut endommager les tissus très rapidement.",
+          "visuel": "Schéma anatomique non graphique",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Schéma anatomique non graphique",
+          "animation": "Mouvements naturels, aucun geste ajouté; Schéma anatomique non graphique",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Pars immédiatement aux urgences. N’attends pas l’apparition de symptômes.",
+          "subtitle": "Pars immédiatement aux urgences. N’attends pas l’apparition de symptômes.",
+          "visuel": "Parent part avec enfant",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Parent part avec enfant",
+          "animation": "Mouvements naturels, aucun geste ajouté; Parent part avec enfant",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Si ton enfant respire difficilement ou présente des signes graves, appelle le 112.",
+          "subtitle": "Si ton enfant respire difficilement ou présente des signes graves, appelle le 112.",
+          "visuel": "Téléphone",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Téléphone",
+          "animation": "Mouvements naturels, aucun geste ajouté; Téléphone",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Ne provoque pas de vomissement et ne donne pas de nourriture de ta propre initiative.",
+          "subtitle": "Ne provoque pas de vomissement et ne donne pas de nourriture de ta propre initiative.",
+          "visuel": "Pictogrammes",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Pictogrammes",
+          "animation": "Mouvements naturels, aucun geste ajouté; Pictogrammes",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Le personnel médical doit localiser la pile rapidement, généralement par radiographie.",
+          "subtitle": "Le personnel médical doit localiser la pile rapidement, généralement par radiographie.",
+          "visuel": "Hôpital, appareil radiographie",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Hôpital, appareil radiographie",
+          "animation": "Mouvements naturels, aucun geste ajouté; Hôpital, appareil radiographie",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Il existe des recommandations particulières concernant le miel, mais elles dépendent de conditions précises. Demande un avis spécialisé sans retarder le trajet.",
+          "subtitle": "Il existe des recommandations particulières concernant le miel, mais elles dépendent de conditions précises. Demande un avis spécialisé sans retarder le trajet.",
+          "visuel": "Carton avis spécialisé",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Carton avis spécialisé",
+          "animation": "Mouvements naturels, aucun geste ajouté; Carton avis spécialisé",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Range les piles neuves et usagées hors de portée et vérifie les compartiments des jouets.",
+          "subtitle": "Range les piles neuves et usagées hors de portée et vérifie les compartiments des jouets.",
+          "visuel": "Rangement fermé",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Rangement fermé",
+          "animation": "Mouvements naturels, aucun geste ajouté; Rangement fermé",
+          "son": "Ambiance du lieu, tension légère, priorité narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, non graphique, même personnage et décor : Logo officiel",
+          "animation": "Mouvements naturels, aucun geste ajouté; Logo officiel",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton enfant avalait une pile bouton ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.centreantipoisons.be/tox-infos/les-piles-boutons/",
+        "social": "Et si ton enfant avalait une pile bouton ? #EtSi #Prevention #PremiersSecours"
+      }
+    }
+  ]
+}
