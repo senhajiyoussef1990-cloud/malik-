@@ -34,11 +34,16 @@ function limbDraw(c, S, E, W, u, col, front, hand, hang){const k = front ? 1 : 0
   c.fillStyle = sk(0.98);taper(c, S, E, 0.36*u, 0.3*u);
   const M = [lerp(S[0], E[0], 0.52), lerp(S[1], E[1], 0.52)];const fa = Math.atan2(E[1]-S[1], E[0]-S[0]);
   c.fillStyle = lg(c, S[0]-Math.sin(fa)*0.25*u, S[1]+Math.cos(fa)*0.25*u, S[0]+Math.sin(fa)*0.25*u, S[1]-Math.cos(fa)*0.25*u, [[0, rgb(col.shirtD, 0.95*k)], [0.55, rgb(col.shirt, 1.04*k)], [1, rgb(col.shirt, 0.92*k)]]);
-  const T = [S[0]-Math.cos(fa)*0.08*u, S[1]-Math.sin(fa)*0.08*u];taper(c, T, M, 0.52*u, 0.42*u);
+  taper(c, S, M, 0.44*u, 0.4*u);
   c.strokeStyle = rgb(col.shirtD, 0.8*k);c.lineWidth = 0.035*u;c.lineCap = 'round';c.beginPath();c.moveTo(M[0]+Math.cos(fa+1.57)*0.2*u, M[1]+Math.sin(fa+1.57)*0.2*u);c.lineTo(M[0]-Math.cos(fa+1.57)*0.2*u, M[1]-Math.sin(fa+1.57)*0.2*u);c.stroke();
   mitt(c, W[0], W[1], hang, u, hand, front ? col : {...col, skin:col.skin.map(v=>v*0.85), skinD:col.skinD});}
-function armOf(c, S, A, u, col, front, defAng){if(!A)return null;let W0, bend = A.bend ?? 1;
-  if(A.to)W0 = A.to; else W0 = [S[0]+(front?0.3:0.05)*u, S[1]+2.05*u];
+// coude naturel : il pointe vers le bas et vers l'arrière (trois-quarts), vers le bas et l'extérieur (de face)
+function armOf(c, S, A, u, col, front, defAng, turn = 0){if(!A)return null;let W0;
+  if(A.to)W0 = A.to; else W0 = [S[0]+lerp(front?0.3:0.05, front?0.12:-0.12, turn)*u, S[1]+2.05*u];
+  let bend = A.bend ?? 1;
+  if(!A.garderCoude){const mx = (S[0]+W0[0])/2, my = (S[1]+W0[1])/2, side = front ? 1 : -1;
+    const sc = b => {const E = ik(S, W0, ARM_A*u, ARM_B*u, b).E;return (E[1]-my) + (turn > 0.5 ? side*(E[0]-mx)*0.9 : (mx-E[0])*0.8);};
+    bend = sc(1) >= sc(-1) ? 1 : -1;}
   const r = ik(S, W0, ARM_A*u, ARM_B*u, bend);const hang = A.ang ?? r.fa;return {S, ...r, hand:A.hand||'rest', hang};}
 // vie au repos : respiration, petits mouvements de tête, clignements (déterministe, propre à chaque personnage)
 function vie(x, u, col){const t = (typeof TNOW !== 'undefined' ? TNOW : 0), sd = (col.skin[0]*7 + col.shirt[1]*3) % 97 / 97;
@@ -47,10 +52,9 @@ function vie(x, u, col){const t = (typeof TNOW !== 'undefined' ? TNOW : 0), sd =
 function figure(c, x, y, u, p = {}, col = MAN){const V = p.calme === false ? {br:0, blink:0, nod:0} : vie(x, u, col);y += V.br*0.025*u;const lean = (p.lean||0) + V.br*0.006;c.save();
   // repère du corps (rotation autour du bassin)
   const piv = [x, y+2.6*u];const rot = (q)=>{const dx = q[0]-piv[0], dy = q[1]-piv[1], cs = Math.cos(lean), sn = Math.sin(lean);return [piv[0]+dx*cs-dy*sn, piv[1]+dx*sn+dy*cs];};
-  const nk = rot([x, y]), T0 = clamp(p.turn ?? TOURNE), sN = rot([x+lerp(0.5, 0.66, T0)*u, y+lerp(0.38, 0.34, T0)*u]), sF = rot([x-lerp(0.34, 0.66, T0)*u, y+lerp(0.3, 0.33, T0)*u]);
+  const nk = rot([x, y]), T0 = clamp(p.turn ?? TOURNE), sN = rot([x+lerp(0.4, 0.62, T0)*u, y+lerp(0.4, 0.36, T0)*u]), sF = rot([x-lerp(0.3, 0.62, T0)*u, y+lerp(0.34, 0.36, T0)*u]);
   // de face, les coudes plient vers l'extérieur (sinon les bras se croisent)
-  const flip = A => (A && T0 > 0.5) ? {...A, bend: -(A.bend ?? 1)} : A;
-  const far = armOf(c, sF, flip(p.far === undefined ? {} : p.far), u, col, false), near = armOf(c, sN, flip(p.near === undefined ? {} : p.near), u, col, true);
+  const far = armOf(c, sF, p.far === undefined ? {} : p.far, u, col, false, 0, T0), near = armOf(c, sN, p.near === undefined ? {} : p.near, u, col, true, 0, T0);
   const farFront = p.farFront || T0 > 0.5;
   if(far && !p.defer && !farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
   if(p.legs){c.save();const ly = y+3.25*u, L = p.legLen ?? 3.1*u;
