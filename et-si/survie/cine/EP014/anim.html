@@ -14,7 +14,7 @@ ICO.souffle=c=>visage(c,c=>{c.fillStyle='#3a1712';c.beginPath();c.ellipse(0,38,1
 ICO.guepe=c=>{c.fillStyle='#f0c020';c.beginPath();c.ellipse(0,0,70,40,0,0,TAU);c.fill();c.fillStyle='#222';for(const x of [-30,0,30])c.fillRect(x-8,-38,16,76);c.fillStyle='rgba(220,235,255,0.8)';c.beginPath();c.ellipse(-10,-50,30,18,-0.4,0,TAU);c.ellipse(20,-50,30,18,0.4,0,TAU);c.fill();};
 ICO.trousse=c=>{c.fillStyle='#d33';c.beginPath();c.roundRect(-90,-60,180,130,20);c.fill();c.fillStyle='#fff';c.fillRect(-14,-40,28,90);c.fillRect(-45,-9,90,28);c.fillStyle='#a22';c.fillRect(-30,-78,60,22);};
 ICO.famille=c=>{for(const [x,s,w] of [[-50,1,'heros'],[50,0.95,'femme'],[0,0.7,'enfant']]){c.save();c.translate(x,w==='enfant'?30:0);c.scale(s,s);c.fillStyle=rgb(PERSOS[w].skin);c.beginPath();c.arc(0,-40,30,0,TAU);c.fill();c.fillStyle=rgb(PERSOS[w].shirt);c.beginPath();c.roundRect(-34,-6,68,80,24);c.fill();c.restore();}};
-function malade(b,T,k,o={}){return acteur(b,'heros',640,880,210,{lean:0.04*k,look:0.6,ex:{eye:lerp(0.7,1,k),brow:0.9*k,mouth:0.6*k},near:o.near||{to:[640+0.42*210,880+0.15*210],hand:'grip',ang:-2.2},far:o.far||{bend:-1}});}
+function malade(b,T,k,o={}){return acteur(b,'heros',640,880,210,{lean:0.04*k,look:0.6,ex:{eye:lerp(0.7,1,k),brow:0.9*k,mouth:0.6*k},near:o.near||{to:[640+0.75*210,880+0.1*210],hand:'grip',ang:-2.6},far:o.far||{bend:-1}});}
 const SCENES=[
 (c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,0.2,1.0));malade(b,t,k);AMB(b);accroche(c,t,d,B,camAt(t,d,{x:700,y:900,z:1.4},{x:710,y:880,z:1.55}),['tu faisais une réaction','allergique grave ?']);},
 (c,t,d)=>planche(c,t,t,[['pomme','',C('repas',0.6)-0.2,'un repas'],['guepe','',C('piqure',1.4)-0.2,'une piqûre']],{kicker:'APRÈS…',y:860}),

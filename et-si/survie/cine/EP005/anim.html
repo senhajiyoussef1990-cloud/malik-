@@ -40,7 +40,7 @@ const SCENES=[
 (c,t,d)=>{planche(c,t,t,[['sac','non',0.2,'sac'],['ordi','non',0.35,'ordinateur'],['telephone','',0.5,'garde juste ton téléphone'.slice(0,0)]].slice(0,2),{kicker:'NE PERDS PAS DE TEMPS',y:860});tag(c,'LAISSE TES OBJETS',1250,clamp((t-C('objets',1.8))/0.3),'rouge',46);},
 // 4 — feu chez toi, sortie praticable : quitter les lieux
 (c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.0,porte2:0.6});b.save();b.beginPath();b.rect(980,620,300,1080);b.clip();b.fillStyle='rgba(255,120,40,0.35)';b.fillRect(980,620,300,1080);flames(b,1130,1700,300,500,t,0.7,3);b.restore();fumeeHaut(b,t,0.5,700,WB);
-  const k=ease(seg(t,C('quitte',2.8)-0.3,d));acteur(b,'heros',lerp(900,300,k),900,200,{lean:0.06,look:1,ex:{eye:0.9,brow:0.7,mouth:0.2}},{mirror:true});ambiance(b,[LAMPE(710,240,0.8,1400),{x:1130,y:1200,r:900,c:'rgba(255,130,50,0.6)'}],'#34343e');
+  const k=ease(seg(t,C('quitte',2.8)-0.3,d));acteur(b,'heros',lerp(900,300,k),900,200,{walk:k<1?t*1.6:null,lean:0.06,look:1,ex:{eye:0.9,brow:0.7,mouth:0.2}},{mirror:true});ambiance(b,[LAMPE(710,240,0.8,1400),{x:1130,y:1200,r:900,c:'rgba(255,130,50,0.6)'}],'#34343e');
   show(c,B,{x:700,y:1080,z:1.1});grade(c,t);tag(c,'FEU CHEZ TOI, SORTIE PRATICABLE',T1,clamp((t-C('praticable',1.8))/0.3),'sombre',38);tag(c,'QUITTE LES LIEUX',T2,clamp((t-C('quitte',2.8))/0.3),'vert',44);},
 // 5 — fermer les portes
 (c,t,d)=>{const k1=ease(seg(t,0.3,1.2)),k2=ease(seg(t,C('logement',2.6)-0.3,C('logement',2.6)+0.6));const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.6*(1-k2),porte2:0.6*(1-k1)});

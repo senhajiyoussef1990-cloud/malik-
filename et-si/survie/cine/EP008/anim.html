@@ -36,8 +36,8 @@ const SCENES=[
 // 4 — la pile abîme l'œsophage très vite
 (c,t,d)=>{darkBg(c);kicker(c,'POURQUOI C’EST URGENT',300,1);oesophage(c,t,seg(t,0.2,d-0.3));tag(c,'COINCÉE DANS L’ŒSOPHAGE',420,clamp((t-C('oesophage',1.4))/0.3),'rouge',42);tag(c,'TISSUS ABÎMÉS TRÈS VITE',510,clamp((t-C('endommager',2.4))/0.3),'rouge',42);grade(c,t,{vig:0.5});},
 // 5 — partir aux urgences sans attendre
-(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.9});const k=ease(seg(t,0.2,d));acteur(b,'heros',lerp(1000,620,k),880,200,{lean:0.05,look:1,ex:{eye:0.8,brow:0.5,mouth:0.1},near:{to:[lerp(1000,620,k)+0.5*200,880+2.0*200],hand:'grip'}},{mirror:true});
-  acteur(b,'enfant',lerp(1120,760,k),1180,130,{look:1,ex:{eye:0.7,brow:0.2,mouth:0},far:{to:[lerp(1120,760,k)-0.2*130,1180+1.0*130],hand:'grip',bend:-1}},{mirror:true});ambiance(b,[LAMPE(710,240,1,1400)],'#40404c');
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.9});const k=ease(seg(t,0.2,d));acteur(b,'heros',lerp(1000,620,k),880,200,{walk:k<1?t*1.6:null,lean:0.05,look:1,ex:{eye:0.8,brow:0.5,mouth:0.1},near:{to:[lerp(1000,620,k)+0.5*200,880+2.0*200],hand:'grip'}},{mirror:true});
+  acteur(b,'enfant',lerp(1120,760,k),1180,130,{walk:k<1?t*2.2:null,look:1,ex:{eye:0.7,brow:0.2,mouth:0},far:{to:[lerp(1120,760,k)-0.2*130,1180+1.0*130],hand:'grip',bend:-1}},{mirror:true});ambiance(b,[LAMPE(710,240,1,1400)],'#40404c');
   show(c,B,{x:760,y:1100,z:1.1});grade(c,t);tag(c,'PARS IMMÉDIATEMENT AUX URGENCES',T1,clamp((t-C('pars',0.1))/0.3),'vert',38);tag(c,'N’ATTENDS PAS DE SYMPTÔMES',T2,clamp((t-C('attends',2.0))/0.3),'rouge',40);},
 // 6 — signes graves : 112
 (c,t,d)=>{planche(c,t,t,[['telephone','oui',C('appelle',2.8)-0.3,'112']],{kicker:'SIGNES GRAVES',y:800,s:1.8});tag(c,'RESPIRE DIFFICILEMENT',1180,clamp((t-C('respire',1.0))/0.3),'rouge',40);tag(c,'SIGNES GRAVES',1270,clamp((t-C('graves',2.2))/0.3),'rouge',40);},

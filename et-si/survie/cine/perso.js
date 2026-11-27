@@ -56,7 +56,7 @@ function armOf(c, S, A, u, col, front, defAng, turn = 0){if(!A)return null;let W
   if(A.to)W0 = A.to; else W0 = [S[0]+lerp(front?0.3:0.05, front?0.12:-0.12, turn)*u, S[1]+2.05*u];
   let bend = A.bend ?? 1;
   if(!A.garderCoude){const mx = (S[0]+W0[0])/2, my = (S[1]+W0[1])/2, side = front ? 1 : -1;
-    const sc = b => {const E = ik(S, W0, ARM_A*u, ARM_B*u, b).E;return (E[1]-my) + (turn > 0.5 ? side*(E[0]-mx)*0.9 : (mx-E[0])*0.8);};
+    const sc = b => {const E = ik(S, W0, ARM_A*u, ARM_B*u, b).E;return (E[1]-my) + (turn > 0.5 ? side*(E[0]-mx)*0.9 : (mx-E[0])*0.25);};
     bend = sc(1) >= sc(-1) ? 1 : -1;}
   const r = ik(S, W0, ARM_A*u, ARM_B*u, bend);const hang = A.ang ?? r.fa;return {S, ...r, hand:A.hand||'rest', hang};}
 // vie au repos : respiration, petits mouvements de tête, clignements (déterministe, propre à chaque personnage)
