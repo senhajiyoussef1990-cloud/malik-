@@ -2,7 +2,9 @@
 import argparse, json, subprocess
 from pathlib import Path
 
-ap = argparse.ArgumentParser(); ap.add_argument('--out', required=True); ap.add_argument('--music', type=float, default=-27); a = ap.parse_args()
+ap = argparse.ArgumentParser(); ap.add_argument('--out', required=True); ap.add_argument('--music', type=float, default=-27)
+ap.add_argument('--duck', action='store_true', help='baisse musique et bruitages quand la voix parle')
+a = ap.parse_args()
 out = Path(a.out); tm = json.load(open(out / 'timing.json'))
 cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-i', str(out / 'video.mp4'), '-i', str(out / 'music_sfx.wav')]
 fl = []
@@ -13,8 +15,10 @@ for i, s in enumerate(tm['scenes']):
 n = len(tm['scenes'])
 fl.append(''.join(f'[v{i}]' for i in range(n)) + f"amix=inputs={n}:normalize=0,apad,atrim=0:{tm['duration']},"
           "highpass=f=70,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-16:TP=-2:LRA=7,"
-          "aformat=channel_layouts=stereo[voix]")
-fl.append(f"[1:a]loudnorm=I={a.music}:TP=-6,volume=1[mus]")
+          "aformat=channel_layouts=stereo" + (",asplit=2[voix][vsc]" if a.duck else "[voix]"))
+fl.append(f"[1:a]loudnorm=I={a.music}:TP=-6,volume=1" + ("[mus0]" if a.duck else "[mus]"))
+if a.duck:
+    fl.append("[mus0][vsc]sidechaincompress=threshold=0.02:ratio=5:attack=15:release=350:makeup=1[mus]")
 fl.append("[voix][mus]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1:LRA=9[a]")
 nom = f"{tm['id']}_{tm['slug']}.mp4"
 cmd += ['-filter_complex', ';'.join(fl), '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k',

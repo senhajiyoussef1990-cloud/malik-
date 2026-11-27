@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       voix: { description: "Voix edge-tts", default: "fr-FR-RemyMultilingualNeural" }
-      debit: { description: "Débit (ex. -2%)", default: "-2%" }
+      debit: { description: "Débit (ex. -2%)", default: "+8%" }
 permissions:
   contents: write
 concurrency:
@@ -25,7 +25,7 @@ jobs:
       P: et-si/survie/cine/EP001
       O: sortie/EP001
       VOIX: ${{ github.event.inputs.voix || 'fr-FR-RemyMultilingualNeural' }}
-      DEBIT: ${{ github.event.inputs.debit || '-2%' }}
+      DEBIT: ${{ github.event.inputs.debit || '+8%' }}
     steps:
       - uses: actions/checkout@v4
         with: { persist-credentials: false }
@@ -37,13 +37,13 @@ jobs:
           python -m pip install edge-tts playwright numpy scipy
           python -m playwright install --with-deps chromium
       - name: Voix et calage
-        run: python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --first 4.2 --mini 3.6 --last 6.5 --tail 0.4 --maxchars 34 --tagline-shown < /dev/null
+        run: python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --first 3.6 --mini 2.8 --last 5.5 --tail 0.2 --maxchars 34 --tagline-shown < /dev/null
       - name: Rendu vidéo (en parallèle)
         run: python et-si/moteur/render.py --anim $P/anim.html --out $O --jobs "$(nproc)" < /dev/null
       - name: Son, mixage et MP4 final
         run: |
           python $P/audio.py --out $O < /dev/null
-          python et-si/moteur/assembler.py --out $O --music -21 < /dev/null
+          python et-si/moteur/assembler.py --out $O --music -28 --duck < /dev/null
           ffmpeg -nostdin -hide_banner -i $O/EP001*.mp4 -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2
       - uses: actions/upload-artifact@v4
         with:
