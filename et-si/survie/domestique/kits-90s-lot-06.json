@@ -1,0 +1,367 @@
+{
+  "instructions": "Claude uniquement. Durées cibles à recaler sur voix. Contrôle professionnel avant publication.",
+  "episodes": [
+    {
+      "id": "EP022",
+      "title": "Et si quelqu’un faisait un AVC devant toi ?",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/urgence/pathologies/avc"
+      ],
+      "verification": "Texte officiel consulté le 27 novembre 2026; relecture clinique indépendante non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si quelqu’un faisait un AVC devant toi ?",
+          "subtitle": "Et si quelqu’un faisait un AVC devant toi ?",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : salon, conversation",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Imagine une conversation ordinaire. Soudain, ton interlocuteur ne trouve plus ses mots et son sourire devient asymétrique.",
+          "subtitle": "Imagine une conversation ordinaire. Soudain, ton interlocuteur ne trouve plus ses mots et son sourire devient asymétrique.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : salon, conversation",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Une faiblesse soudaine du bras ou une difficulté à parler peuvent signaler un AVC. Un seul signe suffit pour agir.",
+          "subtitle": "Une faiblesse soudaine du bras ou une difficulté à parler peuvent signaler un AVC. Un seul signe suffit pour agir.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : visage asymétrique et bras faible, sans caricature",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Appelle immédiatement le 112. N’attends pas de voir si la personne va mieux.",
+          "subtitle": "Appelle immédiatement le 112. N’attends pas de voir si la personne va mieux.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : appel immédiat",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Même si les symptômes disparaissent rapidement, l’urgence demeure.",
+          "subtitle": "Même si les symptômes disparaissent rapidement, l’urgence demeure.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : horloge et symptômes transitoires",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Aide la personne consciente à s’installer confortablement, assise ou allongée.",
+          "subtitle": "Aide la personne consciente à s’installer confortablement, assise ou allongée.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : personne consciente assise",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Retiens l’heure à laquelle les symptômes ont commencé. Ce renseignement peut orienter les soins.",
+          "subtitle": "Retiens l’heure à laquelle les symptômes ont commencé. Ce renseignement peut orienter les soins.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : heure notée",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Ne donne ni nourriture, ni boisson, ni médicament.",
+          "subtitle": "Ne donne ni nourriture, ni boisson, ni médicament.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : verre et médicaments barrés",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Communique l’adresse exacte et les symptômes aux secours. Suis leurs instructions.",
+          "subtitle": "Communique l’adresse exacte et les symptômes aux secours. Suis leurs instructions.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : appel opérateur",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Rassure la personne et reste auprès d’elle en attendant les professionnels.",
+          "subtitle": "Rassure la personne et reste auprès d’elle en attendant les professionnels.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : proche rassurant",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : logo",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si quelqu’un faisait un AVC devant toi ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/avc",
+        "social": "Et si quelqu’un faisait un AVC devant toi ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP023",
+      "title": "Et si tu faisais une crise cardiaque ?",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/themes/infarctus-myocarde/reconnaitre-infarctus-agir"
+      ],
+      "verification": "Texte officiel consulté le 27 novembre 2026; relecture clinique indépendante non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu faisais une crise cardiaque ?",
+          "subtitle": "Et si tu faisais une crise cardiaque ?",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : salon, adulte au repos",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Une douleur inhabituelle serre ta poitrine alors que tu es au repos. Cette situation peut être une urgence.",
+          "subtitle": "Une douleur inhabituelle serre ta poitrine alors que tu es au repos. Cette situation peut être une urgence.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : salon, adulte au repos",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "La douleur peut se propager aux bras, au dos ou à la mâchoire.",
+          "subtitle": "La douleur peut se propager aux bras, au dos ou à la mâchoire.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : schéma zones de douleur",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Des sueurs, des nausées ou un essoufflement peuvent également apparaître.",
+          "subtitle": "Des sueurs, des nausées ou un essoufflement peuvent également apparaître.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : personnage essoufflé",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Mais une crise cardiaque ne provoque pas toujours de douleur caractéristique.",
+          "subtitle": "Mais une crise cardiaque ne provoque pas toujours de douleur caractéristique.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : portrait neutre",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Chez certaines personnes, elle se manifeste surtout par un malaise ou une fatigue inexpliquée.",
+          "subtitle": "Chez certaines personnes, elle se manifeste surtout par un malaise ou une fatigue inexpliquée.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : personnage fatigué",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si tu suspectes un infarctus, compose immédiatement le 112, même si tu hésites.",
+          "subtitle": "Si tu suspectes un infarctus, compose immédiatement le 112, même si tu hésites.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : appel 112",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Décris clairement ce que tu ressens et réponds aux questions de l’opérateur.",
+          "subtitle": "Décris clairement ce que tu ressens et réponds aux questions de l’opérateur.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : conversation téléphonique",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Les secours peuvent organiser une prise en charge médicale rapide.",
+          "subtitle": "Les secours peuvent organiser une prise en charge médicale rapide.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : secours en approche",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Ne banalise pas ces symptômes : plus tôt les soins commencent, plus les chances de limiter les lésions augmentent.",
+          "subtitle": "Ne banalise pas ces symptômes : plus tôt les soins commencent, plus les chances de limiter les lésions augmentent.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : schéma cœur non graphique",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : logo",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu faisais une crise cardiaque ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/infarctus-myocarde/reconnaitre-infarctus-agir",
+        "social": "Et si tu faisais une crise cardiaque ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP024",
+      "title": "Et si ta crise d’asthme devenait grave ?",
+      "sources": [
+        "https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-traitement/asthme-exacerbation",
+        "https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-symptomes-diagnostic/crises-asthme-exacerbation-asthme-aigu-grave",
+        "https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-traitement/le-plan-d-action-personnalise-un-outil-pour-mieux-gerer-son-asthme"
+      ],
+      "verification": "Texte officiel consulté le 27 novembre 2026; relecture clinique indépendante non obtenue",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ta crise d’asthme devenait grave ?",
+          "subtitle": "Et si ta crise d’asthme devenait grave ?",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : adulte dans salon",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu as de l’asthme et tu remarques que ta respiration devient difficile.",
+          "subtitle": "Tu as de l’asthme et tu remarques que ta respiration devient difficile.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : adulte dans salon",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Une toux sèche, une respiration sifflante et une oppression peuvent accompagner une crise.",
+          "subtitle": "Une toux sèche, une respiration sifflante et une oppression peuvent accompagner une crise.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : respiration difficile",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Si tu disposes d’un plan de traitement personnalisé, suis les instructions de ton médecin.",
+          "subtitle": "Si tu disposes d’un plan de traitement personnalisé, suis les instructions de ton médecin.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : plan médical sans données personnelles",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Utilise le traitement de secours qui t’a été prescrit, selon ce plan.",
+          "subtitle": "Utilise le traitement de secours qui t’a été prescrit, selon ce plan.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : inhalateur prescrit sans geste technique",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Une crise qui persiste malgré ton traitement peut nécessiter une intervention médicale.",
+          "subtitle": "Une crise qui persiste malgré ton traitement peut nécessiter une intervention médicale.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : symptômes persistants",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si tu peines fortement à respirer ou à parler, appelle immédiatement le 112.",
+          "subtitle": "Si tu peines fortement à respirer ou à parler, appelle immédiatement le 112.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : appel 112",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Des lèvres bleutées ou une confusion sont également des signes de danger.",
+          "subtitle": "Des lèvres bleutées ou une confusion sont également des signes de danger.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : signes illustrés sobrement",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Ne laisse pas une vidéo te dicter une dose : les traitements et leurs modalités varient.",
+          "subtitle": "Ne laisse pas une vidéo te dicter une dose : les traitements et leurs modalités varient.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : pictogramme ordonnance",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Demande à ton médecin un plan écrit et vérifie régulièrement ta technique d’inhalation.",
+          "subtitle": "Demande à ton médecin un plan écrit et vérifie régulièrement ta technique d’inhalation.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : consultation médicale",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Ambiance discrète, narration prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, personnage et décor continus, sans texte généré : logo",
+          "animation": "Mouvements sobres, changement de cadrage à mi-plan, aucune technique médicale improvisée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ta crise d’asthme devenait grave ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-traitement/asthme-exacerbation",
+        "social": "Et si ta crise d’asthme devenait grave ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
