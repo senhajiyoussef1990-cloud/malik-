@@ -1,0 +1,16 @@
+{
+  "_modele": "SG161222/RealVisXL_V4.0",
+  "_seed": 11, "_steps": 30, "_cfg": 5.0,
+  "_personnage": "a man in his thirties, short dark brown hair, short beard, light grey t-shirt, dark blue jeans",
+  "_negatif": "text, watermark, logo, cartoon, anime, deformed hands, extra fingers, blurry, lowres, gore, injury",
+  "_styles": {
+    "cine": "cinematic still from a documentary safety film, photorealistic, realistic proportions, natural skin texture, volumetric light, shallow depth of field, 35mm, highly detailed, ",
+    "illu": "highly detailed semi-realistic digital painting, editorial safety illustration, realistic proportions, dramatic cinematic lighting, fine textures, serious mood, "
+  },
+  "images": {
+    "01-casserole": "close-up of a frying pan on a modern home gas stove, the oil in the pan has caught fire, tall orange flames rising from the pan, dark kitchen at night lit only by the fire, light smoke, nobody in the frame",
+    "02-recule": "inside a modern home kitchen at night, {perso} stands two meters away from the stove and steps back calmly, looking at a frying pan on fire on the stove, warm orange firelight on his face, full body shot",
+    "03-commande": "close-up of the front control knobs of a kitchen stove, a man's hand turning off a knob, a frying pan on fire on a back burner far from the hand, orange light, shallow depth of field",
+    "04-dehors": "at night on the sidewalk in front of a Belgian brick terraced house, {perso} stands at a safe distance calling emergency services on his smartphone, a woman and a child next to him, one ground floor window glows orange with smoke, street lamps, full body shot"
+  }
+}
