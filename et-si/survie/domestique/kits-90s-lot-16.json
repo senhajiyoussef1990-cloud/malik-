@@ -1,0 +1,635 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s; voix à recaler, enrichir les plans sans ajouter de conseil non vérifié. Relecture spécialisée avant diffusion.",
+  "episodes": [
+    {
+      "id": "EP050",
+      "title": "Et si un SMS te faisait manquer un obstacle ?",
+      "sources": [
+        "https://www.securite-routiere.gouv.fr/sites/default/files/2021-07/dsr_depliant_smartphone_2021.pdf"
+      ],
+      "verification": {
+        "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un SMS te faisait manquer un obstacle ?",
+          "subtitle": "Et si un SMS te faisait manquer un obstacle ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Et si un SMS te faisait manquer un obstacle ?",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Ton téléphone vibre dans la voiture. Devant toi, la circulation ralentit, mais ton regard quitte déjà la chaussée.",
+          "subtitle": "Ton téléphone vibre dans la voiture. Devant toi, la circulation ralentit, mais ton regard quitte déjà la chaussée.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Ton téléphone vibre dans la voiture. Devant toi, la circulation ralentit, mais ton regard quitte déjà la chaussée.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "À cinquante kilomètres par heure, cinq secondes représentent près de soixante-dix mètres parcourus.",
+          "subtitle": "À cinquante kilomètres par heure, cinq secondes représentent près de soixante-dix mètres parcourus.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : À cinquante kilomètres par heure, cinq secondes représentent près de soixante-dix mètres parcourus.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Pendant ce temps, un obstacle peut apparaître sans que tu le remarques.",
+          "subtitle": "Pendant ce temps, un obstacle peut apparaître sans que tu le remarques.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Pendant ce temps, un obstacle peut apparaître sans que tu le remarques.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Même une conversation mains libres peut détourner ton attention.",
+          "subtitle": "Même une conversation mains libres peut détourner ton attention.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Même une conversation mains libres peut détourner ton attention.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Avant de démarrer, active le mode conduite pour limiter les notifications.",
+          "subtitle": "Avant de démarrer, active le mode conduite pour limiter les notifications.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Avant de démarrer, active le mode conduite pour limiter les notifications.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Range ton téléphone hors de portée ou confie-le à un passager.",
+          "subtitle": "Range ton téléphone hors de portée ou confie-le à un passager.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Range ton téléphone hors de portée ou confie-le à un passager.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Pour lire tes messages, attends une pause dans un lieu de stationnement sûr.",
+          "subtitle": "Pour lire tes messages, attends une pause dans un lieu de stationnement sûr.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Pour lire tes messages, attends une pause dans un lieu de stationnement sûr.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un SMS te faisait manquer un obstacle ? #Shorts",
+        "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2021-07/dsr_depliant_smartphone_2021.pdf",
+        "social": "Et si un SMS te faisait manquer un obstacle ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP051",
+      "title": "Et si ton conducteur avait bu ?",
+      "sources": [
+        "https://www.securite-routiere.gouv.fr/sites/default/files/2024-09/depliant_jeune_conducteur.pdf"
+      ],
+      "verification": {
+        "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton conducteur avait bu ?",
+          "subtitle": "Et si ton conducteur avait bu ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Et si ton conducteur avait bu ?",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "La soirée se termine. Ton ami propose de te ramener, mais il a consommé de l’alcool.",
+          "subtitle": "La soirée se termine. Ton ami propose de te ramener, mais il a consommé de l’alcool.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : La soirée se termine. Ton ami propose de te ramener, mais il a consommé de l’alcool.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Même en petite quantité, l’alcool peut altérer les réflexes et la coordination.",
+          "subtitle": "Même en petite quantité, l’alcool peut altérer les réflexes et la coordination.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Même en petite quantité, l’alcool peut altérer les réflexes et la coordination.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Ne monte pas dans sa voiture. Organise un autre retour.",
+          "subtitle": "Ne monte pas dans sa voiture. Organise un autre retour.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Ne monte pas dans sa voiture. Organise un autre retour.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Prévois avant la soirée une personne qui ne boira pas et qui pourra conduire.",
+          "subtitle": "Prévois avant la soirée une personne qui ne boira pas et qui pourra conduire.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Prévois avant la soirée une personne qui ne boira pas et qui pourra conduire.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Si tu as bu toi-même, laisse le volant à une personne sobre.",
+          "subtitle": "Si tu as bu toi-même, laisse le volant à une personne sobre.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Si tu as bu toi-même, laisse le volant à une personne sobre.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Ne laisse pas la pression du groupe décider à ta place.",
+          "subtitle": "Ne laisse pas la pression du groupe décider à ta place.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Ne laisse pas la pression du groupe décider à ta place.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Le trajet retour mérite autant de préparation que la soirée elle-même.",
+          "subtitle": "Le trajet retour mérite autant de préparation que la soirée elle-même.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Le trajet retour mérite autant de préparation que la soirée elle-même.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton conducteur avait bu ? #Shorts",
+        "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2024-09/depliant_jeune_conducteur.pdf",
+        "social": "Et si ton conducteur avait bu ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP052",
+      "title": "Et si la voiture devant toi freinait brutalement ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/dangers-de-la-route/la-vitesse-et-la-conduite"
+      ],
+      "verification": {
+        "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si la voiture devant toi freinait brutalement ?",
+          "subtitle": "Et si la voiture devant toi freinait brutalement ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Et si la voiture devant toi freinait brutalement ?",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu suis une voiture lorsque ses feux de freinage s’allument brusquement.",
+          "subtitle": "Tu suis une voiture lorsque ses feux de freinage s’allument brusquement.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Tu suis une voiture lorsque ses feux de freinage s’allument brusquement.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Avant même de freiner, tu parcours une certaine distance pendant ton temps de réaction.",
+          "subtitle": "Avant même de freiner, tu parcours une certaine distance pendant ton temps de réaction.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Avant même de freiner, tu parcours une certaine distance pendant ton temps de réaction.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "La distance de freinage vient ensuite s’ajouter à cette distance.",
+          "subtitle": "La distance de freinage vient ensuite s’ajouter à cette distance.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : La distance de freinage vient ensuite s’ajouter à cette distance.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Plus tu roules vite, plus la distance nécessaire pour t’arrêter augmente.",
+          "subtitle": "Plus tu roules vite, plus la distance nécessaire pour t’arrêter augmente.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Plus tu roules vite, plus la distance nécessaire pour t’arrêter augmente.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Garde au minimum deux secondes d’écart avec le véhicule précédent.",
+          "subtitle": "Garde au minimum deux secondes d’écart avec le véhicule précédent.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Garde au minimum deux secondes d’écart avec le véhicule précédent.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Adapte aussi ta vitesse à la chaussée et aux conditions météorologiques.",
+          "subtitle": "Adapte aussi ta vitesse à la chaussée et aux conditions météorologiques.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Adapte aussi ta vitesse à la chaussée et aux conditions météorologiques.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Ne colle jamais la voiture devant toi pour gagner du temps.",
+          "subtitle": "Ne colle jamais la voiture devant toi pour gagner du temps.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Ne colle jamais la voiture devant toi pour gagner du temps.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si la voiture devant toi freinait brutalement ? #Shorts",
+        "description": "Prévention routière. Source : https://validation.securite-routiere.gouv.fr/dangers-de-la-route/la-vitesse-et-la-conduite",
+        "social": "Et si la voiture devant toi freinait brutalement ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP053",
+      "title": "Et si tes pneus étaient mal gonflés ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils"
+      ],
+      "verification": {
+        "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tes pneus étaient mal gonflés ?",
+          "subtitle": "Et si tes pneus étaient mal gonflés ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Et si tes pneus étaient mal gonflés ?",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu pars en vacances avec une voiture chargée. As-tu vérifié tes pneus ?",
+          "subtitle": "Tu pars en vacances avec une voiture chargée. As-tu vérifié tes pneus ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Tu pars en vacances avec une voiture chargée. As-tu vérifié tes pneus ?",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Leur entretien contribue directement à la sécurité du trajet.",
+          "subtitle": "Leur entretien contribue directement à la sécurité du trajet.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Leur entretien contribue directement à la sécurité du trajet.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Vérifie régulièrement leur état et leur usure.",
+          "subtitle": "Vérifie régulièrement leur état et leur usure.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Vérifie régulièrement leur état et leur usure.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Consulte les recommandations du constructeur pour connaître la pression adaptée.",
+          "subtitle": "Consulte les recommandations du constructeur pour connaître la pression adaptée.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Consulte les recommandations du constructeur pour connaître la pression adaptée.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Un chargement important peut nécessiter un réglage différent.",
+          "subtitle": "Un chargement important peut nécessiter un réglage différent.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Un chargement important peut nécessiter un réglage différent.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Contrôle ces éléments avant un long déplacement.",
+          "subtitle": "Contrôle ces éléments avant un long déplacement.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Contrôle ces éléments avant un long déplacement.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Un entretien régulier est préférable à une découverte du problème sur la route.",
+          "subtitle": "Un entretien régulier est préférable à une découverte du problème sur la route.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Un entretien régulier est préférable à une découverte du problème sur la route.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tes pneus étaient mal gonflés ? #Shorts",
+        "description": "Prévention routière. Source : https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils",
+        "social": "Et si tes pneus étaient mal gonflés ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP054",
+      "title": "Et si ton bébé voyageait devant un airbag actif ?",
+      "sources": [
+        "https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils"
+      ],
+      "verification": {
+        "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton bébé voyageait devant un airbag actif ?",
+          "subtitle": "Et si ton bébé voyageait devant un airbag actif ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Et si ton bébé voyageait devant un airbag actif ?",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Tu installes un siège dos à la route sur le siège passager avant.",
+          "subtitle": "Tu installes un siège dos à la route sur le siège passager avant.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Tu installes un siège dos à la route sur le siège passager avant.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Un airbag frontal actif peut mettre gravement en danger l’enfant dans cette configuration.",
+          "subtitle": "Un airbag frontal actif peut mettre gravement en danger l’enfant dans cette configuration.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Un airbag frontal actif peut mettre gravement en danger l’enfant dans cette configuration.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Il faut désactiver cet airbag avant d’utiliser un siège dos à la route à cet emplacement.",
+          "subtitle": "Il faut désactiver cet airbag avant d’utiliser un siège dos à la route à cet emplacement.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Il faut désactiver cet airbag avant d’utiliser un siège dos à la route à cet emplacement.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Consulte les notices de la voiture et du siège avant toute installation.",
+          "subtitle": "Consulte les notices de la voiture et du siège avant toute installation.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Consulte les notices de la voiture et du siège avant toute installation.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Fais vérifier le montage si tu as un doute.",
+          "subtitle": "Fais vérifier le montage si tu as un doute.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Fais vérifier le montage si tu as un doute.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "Ne lance pas le trajet si tu ignores si cette configuration est autorisée.",
+          "subtitle": "Ne lance pas le trajet si tu ignores si cette configuration est autorisée.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Ne lance pas le trajet si tu ignores si cette configuration est autorisée.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "L’airbag et le dispositif de retenue doivent être utilisés conformément à leurs instructions.",
+          "subtitle": "L’airbag et le dispositif de retenue doivent être utilisés conformément à leurs instructions.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : L’airbag et le dispositif de retenue doivent être utilisés conformément à leurs instructions.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton bébé voyageait devant un airbag actif ? #Shorts",
+        "description": "Prévention routière. Source : https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils",
+        "social": "Et si ton bébé voyageait devant un airbag actif ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP055",
+      "title": "Et si un passager refusait sa ceinture ?",
+      "sources": [
+        "https://www.securite-routiere.gouv.fr/sites/default/files/2024-09/dsr_guide_bon_conducteur.pdf"
+      ],
+      "verification": {
+        "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un passager refusait sa ceinture ?",
+          "subtitle": "Et si un passager refusait sa ceinture ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Et si un passager refusait sa ceinture ?",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "voix": "Un ami monte derrière toi et refuse de s’attacher pour un trajet très court.",
+          "subtitle": "Un ami monte derrière toi et refuse de s’attacher pour un trajet très court.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Un ami monte derrière toi et refuse de s’attacher pour un trajet très court.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "voix": "Une collision peut survenir même à proximité de chez toi.",
+          "subtitle": "Une collision peut survenir même à proximité de chez toi.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Une collision peut survenir même à proximité de chez toi.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "voix": "Chaque occupant doit disposer de sa propre place et de sa propre ceinture.",
+          "subtitle": "Chaque occupant doit disposer de sa propre place et de sa propre ceinture.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Chaque occupant doit disposer de sa propre place et de sa propre ceinture.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 38,
+          "end": 49,
+          "voix": "Les enfants doivent disposer d’un dispositif adapté à leur morphologie.",
+          "subtitle": "Les enfants doivent disposer d’un dispositif adapté à leur morphologie.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Les enfants doivent disposer d’un dispositif adapté à leur morphologie.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "voix": "Vérifie que tous les passagers sont attachés avant de démarrer.",
+          "subtitle": "Vérifie que tous les passagers sont attachés avant de démarrer.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Vérifie que tous les passagers sont attachés avant de démarrer.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "voix": "La présence d’un airbag ne dispense pas de porter la ceinture.",
+          "subtitle": "La présence d’un airbag ne dispense pas de porter la ceinture.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : La présence d’un airbag ne dispense pas de porter la ceinture.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "voix": "Ne commence pas ton trajet tant que chacun n’est pas correctement installé.",
+          "subtitle": "Ne commence pas ton trajet tant que chacun n’est pas correctement installé.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, même véhicule et personnages : Ne commence pas ton trajet tant que chacun n’est pas correctement installé.",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Ambiance routière discrète, voix prioritaire"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Alterner plan large et détail, aucun geste technique non validé, pas de collision graphique",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un passager refusait sa ceinture ? #Shorts",
+        "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2024-09/dsr_guide_bon_conducteur.pdf",
+        "social": "Et si un passager refusait sa ceinture ? #EtSi #SecuriteRoutiere"
+      }
+    }
+  ]
+}
