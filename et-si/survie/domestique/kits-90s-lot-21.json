@@ -1,0 +1,297 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s à mesurer après synthèse vocale. Validation spécialisée avant publication.",
+  "episodes": [
+    {
+      "id": "EP078",
+      "title": "Et si ton enfant avalait du liquide de cigarette électronique ?",
+      "sources": [
+        "https://www.centreantipoisons.be/tox-infos/cigarette-electronique-et-liquide-de-recharge/",
+        "https://www.centreantipoisons.be/quand-appeler/",
+        "https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf"
+      ],
+      "verification": {
+        "status": "Extraits officiels effectivement lus le 27 novembre 2026; relecture indépendante requise",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton enfant avalait du liquide de cigarette électronique ?",
+          "subtitle": "Et si ton enfant avalait du liquide de cigarette électronique ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Et si ton enfant avalait du liquide de cigarette électronique ?",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Un flacon coloré traîne sur la table. Tu découvres que ton enfant a pu en avaler. Même une petite quantité contenant de la nicotine peut être dangereuse.",
+          "subtitle": "Un flacon coloré traîne sur la table. Tu découvres que ton enfant a pu en avaler. Même une petite quantité contenant de la nicotine peut être dangereuse.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Un flacon coloré traîne sur la table. Tu découvres que ton enfant a pu en avaler. Même une petite quantité contenant de la nicotine peut être dangereuse.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Ne juge pas le danger à son comportement immédiat. La nicotine est rapidement absorbée et peut perturber plusieurs fonctions de l’organisme.",
+          "subtitle": "Ne juge pas le danger à son comportement immédiat. La nicotine est rapidement absorbée et peut perturber plusieurs fonctions de l’organisme.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Ne juge pas le danger à son comportement immédiat. La nicotine est rapidement absorbée et peut perturber plusieurs fonctions de l’organisme.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Si ton enfant est conscient et avale normalement, rince sa bouche et propose quelques gorgées d’eau. Le Centre Antipoisons recommande une prise en charge hospitalière.",
+          "subtitle": "Si ton enfant est conscient et avale normalement, rince sa bouche et propose quelques gorgées d’eau. Le Centre Antipoisons recommande une prise en charge hospitalière.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Si ton enfant est conscient et avale normalement, rince sa bouche et propose quelques gorgées d’eau. Le Centre Antipoisons recommande une prise en charge hospitalière.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Des nausées, des tremblements ou une pâleur peuvent apparaître. N’attends pas ces symptômes pour agir.",
+          "subtitle": "Des nausées, des tremblements ou une pâleur peuvent apparaître. N’attends pas ces symptômes pour agir.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Des nausées, des tremblements ou une pâleur peuvent apparaître. N’attends pas ces symptômes pour agir.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "En présence de convulsions, de difficultés respiratoires graves ou d’une perte de connaissance, appelle immédiatement le 112.",
+          "subtitle": "En présence de convulsions, de difficultés respiratoires graves ou d’une perte de connaissance, appelle immédiatement le 112.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : En présence de convulsions, de difficultés respiratoires graves ou d’une perte de connaissance, appelle immédiatement le 112.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Garde le flacon pour renseigner les professionnels sur le produit. À l’avenir, stocke les recharges hors de portée des enfants, séparément des médicaments.",
+          "subtitle": "Garde le flacon pour renseigner les professionnels sur le produit. À l’avenir, stocke les recharges hors de portée des enfants, séparément des médicaments.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Garde le flacon pour renseigner les professionnels sur le produit. À l’avenir, stocke les recharges hors de portée des enfants, séparément des médicaments.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton enfant avalait du liquide de cigarette électronique ? #Shorts",
+        "description": "Prévention. Source : https://www.centreantipoisons.be/tox-infos/cigarette-electronique-et-liquide-de-recharge/",
+        "social": "Et si ton enfant avalait du liquide de cigarette électronique ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP079",
+      "title": "Et si tu avalais accidentellement une huile essentielle ?",
+      "sources": [
+        "https://www.centreantipoisons.be/tox-infos/huiles-essentielles/",
+        "https://www.centreantipoisons.be/quand-appeler/",
+        "https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf"
+      ],
+      "verification": {
+        "status": "Extraits officiels effectivement lus le 27 novembre 2026; relecture indépendante requise",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu avalais accidentellement une huile essentielle ?",
+          "subtitle": "Et si tu avalais accidentellement une huile essentielle ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Et si tu avalais accidentellement une huile essentielle ?",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Un petit flacon ressemble à celui de ton médicament. Une confusion suffit pour avaler un produit très concentré.",
+          "subtitle": "Un petit flacon ressemble à celui de ton médicament. Une confusion suffit pour avaler un produit très concentré.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Un petit flacon ressemble à celui de ton médicament. Une confusion suffit pour avaler un produit très concentré.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Le caractère naturel des huiles essentielles ne garantit pas leur innocuité. Le risque varie selon le produit et la quantité.",
+          "subtitle": "Le caractère naturel des huiles essentielles ne garantit pas leur innocuité. Le risque varie selon le produit et la quantité.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Le caractère naturel des huiles essentielles ne garantit pas leur innocuité. Le risque varie selon le produit et la quantité.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Contacte immédiatement un médecin ou le Centre Antipoisons belge au 070 245 245. Indique le nom du produit.",
+          "subtitle": "Contacte immédiatement un médecin ou le Centre Antipoisons belge au 070 245 245. Indique le nom du produit.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Contacte immédiatement un médecin ou le Centre Antipoisons belge au 070 245 245. Indique le nom du produit.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Si tu es conscient et peux avaler normalement, rince ta bouche et bois quelques gorgées d’eau.",
+          "subtitle": "Si tu es conscient et peux avaler normalement, rince ta bouche et bois quelques gorgées d’eau.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Si tu es conscient et peux avaler normalement, rince ta bouche et bois quelques gorgées d’eau.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Ne provoque pas de vomissement : le passage du produit vers les poumons peut aggraver la situation. Le lait ne neutralise pas le poison.",
+          "subtitle": "Ne provoque pas de vomissement : le passage du produit vers les poumons peut aggraver la situation. Le lait ne neutralise pas le poison.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Ne provoque pas de vomissement : le passage du produit vers les poumons peut aggraver la situation. Le lait ne neutralise pas le poison.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "En cas de convulsions ou de troubles respiratoires graves, appelle le 112. Range les huiles essentielles séparément des médicaments et hors de portée des enfants.",
+          "subtitle": "En cas de convulsions ou de troubles respiratoires graves, appelle le 112. Range les huiles essentielles séparément des médicaments et hors de portée des enfants.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : En cas de convulsions ou de troubles respiratoires graves, appelle le 112. Range les huiles essentielles séparément des médicaments et hors de portée des enfants.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu avalais accidentellement une huile essentielle ? #Shorts",
+        "description": "Prévention. Source : https://www.centreantipoisons.be/tox-infos/huiles-essentielles/",
+        "social": "Et si tu avalais accidentellement une huile essentielle ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP080",
+      "title": "Et si une panne de courant plongeait ta maison dans le noir ?",
+      "sources": [
+        "https://centredecrise.be/fr/que-pouvez-vous-faire/preparez-un-kit-durgence/un-kit-durgence-la-maison"
+      ],
+      "verification": {
+        "status": "Extraits officiels effectivement lus le 27 novembre 2026; relecture indépendante requise",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une panne de courant plongeait ta maison dans le noir ?",
+          "subtitle": "Et si une panne de courant plongeait ta maison dans le noir ?",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Et si une panne de courant plongeait ta maison dans le noir ?",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "La lumière s’éteint et les appareils s’arrêtent. C’est maintenant que tu apprécieras d’avoir préparé du matériel utilisable sans prise électrique.",
+          "subtitle": "La lumière s’éteint et les appareils s’arrêtent. C’est maintenant que tu apprécieras d’avoir préparé du matériel utilisable sans prise électrique.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : La lumière s’éteint et les appareils s’arrêtent. C’est maintenant que tu apprécieras d’avoir préparé du matériel utilisable sans prise électrique.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Le Centre de crise belge recommande de prévoir une lampe autonome. Un modèle à piles nécessite aussi des piles de réserve.",
+          "subtitle": "Le Centre de crise belge recommande de prévoir une lampe autonome. Un modèle à piles nécessite aussi des piles de réserve.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Le Centre de crise belge recommande de prévoir une lampe autonome. Un modèle à piles nécessite aussi des piles de réserve.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Une radio fonctionnant sans secteur permet de continuer à écouter les informations diffusées par les médias pendant une panne.",
+          "subtitle": "Une radio fonctionnant sans secteur permet de continuer à écouter les informations diffusées par les médias pendant une panne.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Une radio fonctionnant sans secteur permet de continuer à écouter les informations diffusées par les médias pendant une panne.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Prévois des couvertures pour rester au chaud lorsque ton logement se refroidit. Range ce matériel dans un endroit accessible.",
+          "subtitle": "Prévois des couvertures pour rester au chaud lorsque ton logement se refroidit. Range ce matériel dans un endroit accessible.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Prévois des couvertures pour rester au chaud lorsque ton logement se refroidit. Range ce matériel dans un endroit accessible.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Pense aussi aux besoins des enfants et des animaux domestiques. Adapte les réserves à la composition de ton foyer.",
+          "subtitle": "Pense aussi aux besoins des enfants et des animaux domestiques. Adapte les réserves à la composition de ton foyer.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Pense aussi aux besoins des enfants et des animaux domestiques. Adapte les réserves à la composition de ton foyer.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Contrôle régulièrement ton kit et renouvelle les produits périssables. La préparation se fait avant la panne, pas lorsque toute la maison est déjà plongée dans le noir.",
+          "subtitle": "Contrôle régulièrement ton kit et renouvelle les produits périssables. La préparation se fait avant la panne, pas lorsque toute la maison est déjà plongée dans le noir.",
+          "prompt_image": "Simulation 3D semi-réaliste verticale, sans exposition réelle ni blessure graphique : Contrôle régulièrement ton kit et renouvelle les produits périssables. La préparation se fait avant la panne, pas lorsque toute la maison est déjà plongée dans le noir.",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "Logo officiel",
+          "animation": "Changer de cadrage toutes les trois secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une panne de courant plongeait ta maison dans le noir ? #Shorts",
+        "description": "Prévention. Source : https://centredecrise.be/fr/que-pouvez-vous-faire/preparez-un-kit-durgence/un-kit-durgence-la-maison",
+        "social": "Et si une panne de courant plongeait ta maison dans le noir ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
