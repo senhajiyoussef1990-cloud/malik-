@@ -1,0 +1,206 @@
+{
+ "episode": 1,
+ "id": "EP000",
+ "slug": "prototype-poele-feu",
+ "voice": [
+  "fr-FR-RemyMultilingualNeural"
+ ],
+ "rate": "-2%",
+ "duration": 16.467,
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "dur": 2.6,
+   "voix": "s01.mp3",
+   "voix_dur": 1.896
+  },
+  {
+   "scene": 2,
+   "start": 2.6,
+   "dur": 4.0667,
+   "voix": "s02.mp3",
+   "voix_dur": 3.408
+  },
+  {
+   "scene": 3,
+   "start": 6.667,
+   "dur": 4.2,
+   "voix": "s03.mp3",
+   "voix_dur": 3.552
+  },
+  {
+   "scene": 4,
+   "start": 10.867,
+   "dur": 5.6,
+   "voix": "s04.mp3",
+   "voix_dur": 4.08
+  }
+ ],
+ "captions": [
+  {
+   "s": 2.952,
+   "toks": [
+    {
+     "w": "Tu",
+     "k": false
+    },
+    {
+     "w": "fais",
+     "k": false
+    },
+    {
+     "w": "chauffer",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "l’huile.",
+     "k": false
+    }
+   ],
+   "e": 4.712
+  },
+  {
+   "s": 4.712,
+   "toks": [
+    {
+     "w": "Elle",
+     "k": false
+    },
+    {
+     "w": "commence",
+     "k": false
+    },
+    {
+     "w": "à",
+     "k": false
+    },
+    {
+     "w": "fumer…",
+     "k": false
+    }
+   ],
+   "e": 6.617
+  },
+  {
+   "s": 7.006,
+   "toks": [
+    {
+     "w": "Si",
+     "k": false
+    },
+    {
+     "w": "elle",
+     "k": false
+    },
+    {
+     "w": "continue",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "chauffer,",
+     "k": false
+    }
+   ],
+   "e": 8.715
+  },
+  {
+   "s": 8.715,
+   "toks": [
+    {
+     "w": "des",
+     "k": false
+    },
+    {
+     "w": "flammes",
+     "k": true
+    },
+    {
+     "w": "peuvent",
+     "k": false
+    },
+    {
+     "w": "apparaître.",
+     "k": false
+    }
+   ],
+   "e": 10.817
+  },
+  {
+   "s": 11.206,
+   "toks": [
+    {
+     "w": "Surtout,",
+     "k": false
+    },
+    {
+     "w": "ne",
+     "k": false
+    },
+    {
+     "w": "verse",
+     "k": false
+    },
+    {
+     "w": "jamais",
+     "k": true
+    },
+    {
+     "w": "d’eau :",
+     "k": false
+    }
+   ],
+   "e": 13.362
+  },
+  {
+   "s": 13.362,
+   "toks": [
+    {
+     "w": "elle",
+     "k": false
+    },
+    {
+     "w": "provoquerait",
+     "k": false
+    },
+    {
+     "w": "une",
+     "k": false
+    },
+    {
+     "w": "boule",
+     "k": true
+    }
+   ],
+   "e": 14.305
+  },
+  {
+   "s": 14.305,
+   "toks": [
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "feu.",
+     "k": true
+    }
+   ],
+   "e": 16.417
+  }
+ ],
+ "cues": {
+  "fumer": 2.712,
+  "flammes": 2.151,
+  "eau": 1.883,
+  "boule": 3.286
+ }
+}
