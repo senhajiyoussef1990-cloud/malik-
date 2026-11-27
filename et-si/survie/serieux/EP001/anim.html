@@ -1,0 +1,122 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../lib.js"></script>
+<script>
+/* EP001 — Et si ta casserole d'huile prenait feu ? (kit kits-90s-lot-02.json, 11 scènes)
+   Aucun geste ajouté : chaque image illustre uniquement la phrase du kit. */
+const RIM='rgba(255,150,70,0.95)';
+function walk(ph,amp=0.38){const s=Math.sin(ph*TAU);return {legF:[s*amp,Math.max(0,-s)*0.5],legB:[-s*amp,Math.max(0,s)*0.5],armF:[-s*0.3,-s*0.3+0.15],armB:[s*0.3,s*0.3+0.15]};}
+// scène de cuisine éclairée : o = {fire, knobOff, glass, figs:[{s,col}], cam:[z0,z1,cx,cy], lamp}
+function kscene(c,t,d,o){const B=buf(0),b=B.getContext('2d');kitchen(b,o);
+  const masks=(o.figs||[]).map((f,i)=>{groundShadow(b,f.s.x,f.s.y,f.s.h*0.16);return person(b,f.s,f.col,10+i);});
+  const lights=[];if(o.fire>0)lights.push(FIRE_L(840,CT-200,0.45+0.6*o.fire));if(o.lamp)lights.push(LAMP_L(700,250,0.9));
+  applyLight(b,lightmap(lights,o.lamp?'#55565e':'#22262f'));
+  if(o.fire>0){smoke(b,820,CT-380,400,t,16,0.6*o.fire);fire(b,845,CT-128,250,300,t,o.fire);}
+  masks.forEach(M=>rimLight(b,M,o.fire>0?RIM:'rgba(255,230,190,0.6)',9,-3));
+  c.save();if(o.cam)camera(c,t,d,...o.cam);c.drawImage(B,0,0);c.restore();post(c,t);}
+const MAN={x:560,y:1700,h:1000,dir:1};
+
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{kscene(c,t,d,{fire:1,cam:[1.95,1.8,840,CT-150]});topShade(c);
+  headline(c,'ET SI ?',['ta casserole d’huile','prenait feu ?'],fadeIn(t,0.05,0.4),250);},
+// 2 — tu cuisines… soudain des flammes
+(c,t,d)=>{const s0=CUE('soudain',2.2);const fi=ease(seg(t,s0,s0+0.7));
+  const calm=P({torso:0.06,armF:[1.0,1.5],armB:[0.2,0.4]}),startle=P({torso:-0.1,head:-0.15,armF:[0.5,-0.3],armB:[0.3,-0.2]});
+  kscene(c,t,d,{fire:fi,lamp:fi<0.5,figs:[{s:{...MAN,x:lerp(560,500,fi),pose:lerpPose(calm,startle,fi)},col:COL.homme}],cam:[1.12,1.04,700,1100]});},
+// 3 — le réflexe du verre d'eau : erreur
+(c,t,d)=>{const pt=CUE('pourtant',3);kscene(c,t,d,{fire:1,glass:true,figs:[{s:{...MAN,x:230,pose:P({torso:0.02,armF:[0.25,0.3]})},col:COL.homme}],cam:[1.0,1.35,430,1080]});
+  label(c,'LE PREMIER RÉFLEXE ?',430,fadeIn(t,0.3),'dark');label(c,'ERREUR DANGEREUSE',520,fadeIn(t,pt),'red');},
+// 4 — schéma : l'eau projette le feu
+(c,t,d)=>{c.fillStyle=lg(c,0,0,0,H,[[0,'#06080c'],[1,'#10141c']]);c.fillRect(0,0,W,H);
+  const cx=W/2,cy=1150;c.save();c.strokeStyle='rgba(255,255,255,0.85)';c.lineWidth=5;
+  c.beginPath();c.moveTo(cx-330,cy-160);c.lineTo(cx-290,cy+60);c.lineTo(cx+290,cy+60);c.lineTo(cx+330,cy-160);c.stroke();c.restore();
+  c.fillStyle='rgba(214,160,40,0.85)';c.beginPath();c.moveTo(cx-312,cy-70);c.lineTo(cx-294,cy+52);c.lineTo(cx+294,cy+52);c.lineTo(cx+312,cy-70);c.closePath();c.fill();
+  const k1=seg(t,0.4,1.6),k2=seg(t,1.6,2.4),k3=seg(t,2.4,3.4);
+  fire(c,cx,cy-72,520,lerp(260,120,k3*0),t,1-0.0);
+  // goutte d'eau
+  if(k2<1){const y=lerp(cy-520,cy+20,ease(k1));c.fillStyle='rgba(110,180,255,0.95)';c.beginPath();c.moveTo(cx,y-46);c.quadraticCurveTo(cx+30,y,cx,y+20);c.quadraticCurveTo(cx-30,y,cx,y-46);c.fill();}
+  // vapeur
+  if(k2>0){c.fillStyle=`rgba(230,240,255,${0.8*(1-k3)})`;for(let i=0;i<10;i++){const a=i/10*TAU;c.beginPath();c.arc(cx+Math.cos(a)*40*k2,cy+10+Math.sin(a)*20*k2,10+12*k2,0,TAU);c.fill();}}
+  // projection
+  if(k3>0){c.save();c.globalCompositeOperation='lighter';const r=mulberry(6);for(let i=0;i<70;i++){const a=-Math.PI/2+(r()-0.5)*2.6,sp=300+r()*700;const x=cx+Math.cos(a)*sp*ease(k3),y=cy-60+Math.sin(a)*sp*ease(k3)+300*k3*k3;
+      c.fillStyle=`rgba(255,${120+r()*100|0},40,${0.9*(1-k3*0.5)})`;c.beginPath();c.arc(x,y,6+r()*12,0,TAU);c.fill();}
+    c.filter='blur(40px)';c.fillStyle=`rgba(255,120,30,${0.6*(1-k3*0.4)})`;c.beginPath();c.arc(cx,cy-300,380*ease(k3),0,TAU);c.fill();c.restore();}
+  const lab=(s,x,y,a)=>{if(a<=0)return;c.save();c.globalAlpha=a;c.font='600 34px M';c.fillStyle='#fff';c.textAlign='left';c.fillText(s,x,y);c.restore();};
+  lab('eau',cx+60,cy-420,fadeIn(t,0.4)*(1-k2));lab('huile enflammée',cx+330,cy-40,fadeIn(t,0.2));lab('vapeur',cx+80,cy+120,k2*(1-k3));
+  headline(c,null,['L’EAU PROJETTE','LE FEU'],fadeIn(t,2.4),300);post(c,t);},
+// 5 — ne transporte pas, ne combats pas
+(c,t,d)=>{const k=ease(seg(t,0.2,2.2));const w=walk(t*0.9,0.25*(k<1?1:0));
+  kscene(c,t,d,{fire:1,figs:[{s:{...MAN,x:lerp(540,240,k),pose:P({torso:-0.05,head:0,...(k<1?w:{}),armF:[0.25,0.1],armB:[-0.1,0]})},col:COL.homme}],cam:[1.05,1.0,600,1100]});
+  label(c,'NE DÉPLACE PAS LA CASSEROLE',420,fadeIn(t,0.3),'red');label(c,'NE COMBATS PAS LES FLAMMES',510,fadeIn(t,CUE('combattre',3)),'red');},
+// 6 — couper la chaleur si sans risque
+(c,t,d)=>{const B=buf(1),b=B.getContext('2d');kitchen(b,{knobOff:ease(seg(t,CUE('coupe',0.4)+1.2,CUE('coupe',0.4)+2.0))});applyLight(b,lightmap([FIRE_L(840,CT-200,1.05)]));fire(b,845,CT-128,250,300,t,1);
+  c.save();camera(c,t,d,2.7,2.55,780,CT+88);c.filter='blur(1px)';c.drawImage(B,0,0);c.filter='none';c.restore();
+  const a=fadeIn(t,CUE('coupe',0.4)+0.6);if(a>0){c.save();c.globalAlpha=a;c.translate(W/2+26,1240);c.strokeStyle='#fff';c.lineWidth=10;c.lineCap='round';c.shadowColor='rgba(0,0,0,0.8)';c.shadowBlur=14;c.beginPath();c.arc(0,0,120,-2.2,-0.9);c.stroke();const e=-0.9;c.fillStyle='#fff';c.beginPath();c.moveTo(120*Math.cos(e)+26,120*Math.sin(e)+4);c.lineTo(120*Math.cos(e)-16,120*Math.sin(e)-24);c.lineTo(120*Math.cos(e)-6,120*Math.sin(e)+28);c.closePath();c.fill();c.restore();}
+  label(c,'COUPE LA CHALEUR',430,fadeIn(t,0.2),'dark');label(c,'SEULEMENT SI C’EST SANS RISQUE',520,fadeIn(t,CUE('seulement',1.5)),'yellow');post(c,t);},
+// 7 — quitte la cuisine, ferme la porte
+(c,t,d)=>{const B=buf(2),b=B.getContext('2d');const kc=ease(seg(t,CUE('ferme',1.6),CUE('ferme',1.6)+1.0));
+  b.fillStyle=lg(b,0,0,0,1500,[[0,'#4b4740'],[1,'#5e584f']]);b.fillRect(0,0,W,H);b.fillStyle='#3a342c';b.fillRect(0,1150,W,350);b.strokeStyle='rgba(0,0,0,0.3)';b.lineWidth=3;for(let x=0;x<W;x+=180)b.strokeRect(x+20,1180,140,290);
+  b.fillStyle='#2a231d';b.fillRect(0,1500,W,H);for(let i=0;i<12;i++){b.fillStyle=i%2?'#30281f':'#2a231c';b.fillRect(0,1500+i*36,W,36);}
+  b.fillStyle='#1b2d3a';b.fillRect(80,500,200,280);b.strokeStyle='#c8c0b0';b.lineWidth=10;b.strokeRect(80,500,200,280);
+  // embrasure cuisine
+  const dx0=600,dx1=900,dy0=560,dy1=1500;b.fillStyle='#ff8a3a';b.fillRect(dx0,dy0,dx1-dx0,dy1-dy0);fireLayer(b,780,1300,260,380,t,0.7);
+  b.fillStyle='rgba(30,25,25,0.5)';b.fillRect(dx0,dy0,dx1-dx0,200);
+  const dw=lerp(36,dx1-dx0,kc);b.fillStyle=lg(b,dx0,0,dx0+dw,0,[[0,'#6c5a48'],[1,'#7b6752']]);b.fillRect(dx0,dy0,dw,dy1-dy0);if(kc>0.95){b.fillStyle='#d8d0c0';b.beginPath();b.arc(dx1-40,1050,12,0,TAU);b.fill();}
+  b.strokeStyle='#d8d0c0';b.lineWidth=16;b.strokeRect(dx0-8,dy0-8,dx1-dx0+16,dy1-dy0+8);
+  // personnage : sort, se retourne, ferme, s'éloigne
+  const out=ease(seg(t,0,1.4)),away=ease(seg(t,CUE('ferme',1.6)+1.0,d));let s;
+  if(t<1.4)s={x:lerp(780,520,out),y:1700,h:1000,dir:-1,pose:P(walk(t*1.2,0.3))};
+  else if(away<=0)s={x:520,y:1700,h:1000,dir:1,pose:P({armF:[lerp(1.2,1.4,kc),lerp(1.4,1.5,kc)]})};
+  else s={x:lerp(520,200,away),y:1700,h:1000,dir:-1,pose:P(walk(t*1.2,0.3))};
+  groundShadow(b,s.x,s.y,160);const M=person(b,s,COL.homme,10);
+  applyLight(b,lightmap([FIRE_L(750,1000,lerp(0.9,0.12,kc)),LAMP_L(300,300,0.35)],'#2a2e38'));b.fillStyle=`rgba(255,140,50,${0.8*kc})`;b.fillRect(dx0+6,dy1-6,dx1-dx0-12,6);
+  rimLight(b,M,RIM,9,-3);c.save();camera(c,t,d,1.04,1.0,600,1100);c.drawImage(B,0,0);c.restore();post(c,t);
+  label(c,'QUITTE LA CUISINE',420,fadeIn(t,0.2),'dark');label(c,'FERME LA PORTE SI C’EST SÛR',510,fadeIn(t,CUE('ferme',1.6)),'yellow');},
+// 8 — avertis les autres, quitte le logement
+(c,t,d)=>{const B=buf(3),b=B.getContext('2d');const ca=CUE('quitte',2.6);
+  b.fillStyle=lg(b,0,0,0,1500,[[0,'#48443e'],[1,'#5a554c']]);b.fillRect(0,0,W,H);
+  // escalier
+  for(let i=0;i<14;i++){const x=440+i*48,y=1700-i*70;b.fillStyle='#3b3128';b.fillRect(x,y-70,W,70);b.fillStyle='#4a3e33';b.fillRect(x,y-70,W,10);}
+  b.strokeStyle='#2a221b';b.lineWidth=12;b.beginPath();b.moveTo(470,1400);b.lineTo(1100,520);b.stroke();for(let i=0;i<12;i++){b.lineWidth=6;b.beginPath();b.moveTo(500+i*52,1400-i*72);b.lineTo(500+i*52,1400-i*72+240);b.stroke();}
+  // porte d'entrée ouverte
+  b.fillStyle='#0c1626';b.fillRect(60,620,300,1080);b.fillStyle=lg(b,0,620,0,1700,[[0,'#13233c'],[1,'#0a1220']]);b.fillRect(70,630,280,1070);b.fillStyle='#6b4a32';b.fillRect(60,620,46,1080);b.strokeStyle='#d8d0c0';b.lineWidth=14;b.strokeRect(53,613,314,1094);
+  b.fillStyle='#2a231d';b.fillRect(0,1700,W,H);
+  const st=(k)=>[lerp(1000,520,k),lerp(820,1700,k)];
+  const kd=ease(seg(t,0.8,ca+0.4)),ko=ease(seg(t,ca,d));
+  const pw=st(kd),pc=st(clamp(kd-0.18));
+  const masks=[];
+  const man=ko<=0?{x:470,y:1700,h:1000,dir:1,pose:P({torso:-0.05,head:-0.35,armF:[2.2,3.0],armB:[0.1,0.1]})}:{x:lerp(470,180,ko),y:1700,h:1000,dir:-1,pose:P(walk(t,0.3))};
+  const fem={x:ko>0?lerp(pw[0],140,ko):pw[0],y:ko>0?1700:pw[1],h:940,dir:-1,pose:P(walk(t*1.1,0.28))};
+  const kid={x:ko>0?lerp(pc[0],260,ko):pc[0],y:ko>0?1700:pc[1],h:640,dir:-1,pose:P(walk(t*1.3,0.3))};
+  if(t>0.8){masks.push(person(b,fem,COL.femme,11));masks.push(person(b,kid,COL.enfant,12));}
+  masks.push(person(b,man,COL.homme,10));
+  applyLight(b,lightmap([LAMP_L(650,300,0.8),FIRE_L(1100,1500,0.35)],'#2a2e38'));masks.forEach(M=>rimLight(b,M,'rgba(255,200,140,0.7)',8,-3));
+  if(t<ca+0.3){const a=fadeIn(t,0.3)*(1-fadeIn(t,ca+0.1));b.save();b.globalAlpha=a;b.fillStyle='#fff';b.beginPath();b.roundRect(520,640,300,110,30);b.fill();b.fillStyle='#c62a1e';b.font='800 54px M';b.textAlign='center';b.textBaseline='middle';b.fillText('AU FEU !',670,697);b.restore();}
+  c.save();camera(c,t,d,1.0,1.06,500,1300);c.drawImage(B,0,0);c.restore();post(c,t);
+  label(c,'AVERTIS LES AUTRES',420,fadeIn(t,0.2),'dark');label(c,'QUITTE LE LOGEMENT',510,fadeIn(t,ca),'green');},
+// 9 — appelle depuis un endroit sûr : 112
+(c,t,d)=>{const B=buf(4),b=B.getContext('2d');b.fillStyle=lg(b,0,0,0,1100,[[0,'#060a14'],[1,'#1b2438']]);b.fillRect(0,0,W,H);
+  const bricks=(x,y,w,h,seed)=>{b.save();b.beginPath();b.rect(x,y,w,h);b.clip();b.fillStyle='#3a2a22';b.fillRect(x,y,w,h);const r=mulberry(seed);for(let yy=y,row=0;yy<y+h;yy+=22,row++)for(let xx=x-(row%2?30:0);xx<x+w;xx+=62){const v=r();b.fillStyle=`rgb(${120+v*50|0},${55+v*25|0},${40+v*15|0})`;b.fillRect(xx+2,yy+2,58,18);}b.restore();};
+  for(const [hx,seed] of [[-260,2],[180,5],[620,7]]){bricks(hx+10,420,430,920,seed);b.fillStyle='#d8d2c6';b.fillRect(hx,400,450,28);b.fillRect(hx,1320,450,20);
+    for(const [wx,wy] of [[hx+50,520],[hx+250,520],[hx+50,880]]){b.fillStyle='#e9e4da';b.fillRect(wx-10,wy-10,170,250);b.fillStyle='#101828';b.fillRect(wx,wy,150,230);}
+    b.fillStyle='#1c1410';b.fillRect(hx+260,860,120,280);}
+  b.fillStyle=lg(b,0,880,0,1110,[[0,'#ff9a3c'],[1,'#ff5a1a']]);b.fillRect(230,880,150,230);
+  b.fillStyle='#2c2c2f';b.fillRect(0,1340,W,180);b.fillStyle='#8a8a86';b.fillRect(0,1510,W,14);b.fillStyle='#17181b';b.fillRect(0,1524,W,H);
+  b.fillStyle='#1a1a1a';b.fillRect(1040,640,16,880);
+  const k=ease(seg(t,0,1.5));
+  const ms=[person(b,{x:lerp(760,880,k),y:1480,h:560,dir:1,pose:P({armF:[0.6,2.75],armB:[0.05,0.1]})},COL.homme,10),person(b,{x:lerp(680,790,k),y:1480,h:520,dir:1,pose:P({})},COL.femme,11),person(b,{x:lerp(610,710,k),y:1480,h:360,dir:1,pose:P({})},COL.enfant,12)];
+  applyLight(b,lightmap([{x:990,y:660,r:900,c0:'rgba(255,200,130,0.9)'},FIRE_L(300,990,0.5)],'#2b3040'));
+  b.save();b.globalCompositeOperation='lighter';b.filter='blur(40px)';b.fillStyle='rgba(255,110,30,0.7)';b.fillRect(170,820,270,350);b.restore();smoke(b,300,860,140,t,14,0.5,'60,60,66');
+  ms.forEach(M=>rimLight(b,M,'rgba(255,200,130,0.8)',-8,-3));
+  c.save();camera(c,t,d,1.0,1.05,700,1200);c.drawImage(B,0,0);c.restore();post(c,t);
+  const a=fadeIn(t,CUE('112',3));if(a>0){c.save();c.globalAlpha=a;c.fillStyle='rgba(214,48,36,0.95)';c.fillRect(W/2-150,320,300,120);c.font='800 96px M';c.fillStyle='#fff';c.textAlign='center';c.textBaseline='middle';c.fillText('112',W/2,384);c.restore();}
+  label(c,'APPELLE DEPUIS UN ENDROIT SÛR',510,fadeIn(t,0.4),'green');},
+// 10 — prévention : ne jamais laisser une cuisson sans surveillance
+(c,t,d)=>{kscene(c,t,d,{fire:0,lamp:true,figs:[{s:{...MAN,x:540,pose:P({torso:0.05,armF:[0.9,1.3],armB:[0.1,0.2]})},col:COL.homme}],cam:[1.0,1.08,700,1100]});
+  label(c,'PRÉVENTION',420,fadeIn(t,0.2),'dark');label(c,'NE LAISSE JAMAIS UNE CUISSON',510,fadeIn(t,0.6),'green');label(c,'SANS SURVEILLANCE',590,fadeIn(t,0.8),'green');},
+// 11 — outro
+(c,t,d)=>outro(c,t,d,[['Jamais d’eau sur l’huile en feu','x'],['Ne déplace pas la casserole','x'],['Sors, ferme la porte, appelle le 112','v']]),
+];
+</script></body></html>

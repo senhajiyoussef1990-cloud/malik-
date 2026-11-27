@@ -1,0 +1,55 @@
+name: Et si ? — style sérieux (voix + rendu)
+on:
+  push:
+    branches: [et-si]
+    paths:
+      - 'et-si/survie/serieux/**'
+      - '.github/workflows/et-si-serieux.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: et-si-serieux
+  cancel-in-progress: true
+jobs:
+  episodes:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 120
+    env:
+      VOIX: fr-FR-RemyMultilingualNeural
+      DEBIT: "+2%"
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Installer les outils
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+          python -m pip install edge-tts playwright numpy scipy
+          python -m playwright install --with-deps chromium
+      - name: Produire les épisodes
+        run: |
+          D=et-si/survie/serieux
+          grep -v '^#' $D/episodes.txt | while read ID LOT PROFIL; do
+            [ -z "$ID" ] && continue
+            echo "::group::$ID"
+            O=sortie/$ID
+            python et-si/moteur/voix.py --kit et-si/survie/domestique/$LOT --id $ID --cues $D/$ID/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --mini 7.5 --tail 0.9 --maxchars 40
+            python et-si/moteur/render.py --anim $D/$ID/anim.html --out $O
+            python $D/audio.py --out $O --profil $PROFIL
+            python et-si/moteur/assembler.py --out $O
+            ffmpeg -hide_banner -i $O/EP*.mp4 -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2
+            echo "::endgroup::"
+          done
+      - name: Publier sur et-si-sorties
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone -q --depth 1 -b et-si-sorties "$URL" pub
+          mkdir -p pub/serieux
+          for d in sortie/EP*; do cp $d/EP*.mp4 pub/serieux/; cp $d/timing.json pub/serieux/$(basename $d)-timing.json; done
+          cd pub && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "Style sérieux : rendu ${GITHUB_SHA::7}" || exit 0
+          git push -q "$URL" et-si-sorties

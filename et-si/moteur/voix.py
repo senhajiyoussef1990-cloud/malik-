@@ -18,7 +18,7 @@ AFFICHAGE = {
     'vingt-quatre heures': '24 heures',
     'huit milliards': '8 milliards',
 }
-SLUG = {'001': 'casserole-huile-feu'}
+SLUG = {'001': 'casserole-huile-feu', '002': 'adulte-etouffement'}
 MOTS_CLES = {'feu', 'casserole', 'jamais', 'eau', 'chaleur', 'danger', 'secours', 'dehors', 'porte', 'sors', 'partage', 'proches', 'quitte', 'avertis', 'flammes', 'boule', 'terre', 'tourner', 'équateur', 'est', 'atmosphère', 'vents', 'océans', 'inondations', 'pôles',
              'gravité', 'orbite', 'soleil', 'année', 'rotation', 'scénario', 'seconde', 'prochain', 'épisode',
              'abonne-toi', 'suite', 'lune', 'jupiter', 'dinosaures', 'fourmis', 'casque', 'espace', 'trou', 'noir'}
@@ -118,10 +118,12 @@ def caler(texte, mots, t0):
     return us, reperes
 
 
+MAXC = 22
+
 def morceaux(us):
     ch, cur = [], []
     for u in us:
-        if cur and (len(' '.join(x['w'] for x in cur + [u])) > 22 or cur[-1]['w'][-1] in '.?!,…'):
+        if cur and (len(' '.join(x['w'] for x in cur + [u])) > MAXC or cur[-1]['w'][-1] in '.?!…'):
             report = []
             while len(cur) > 1 and cur[-1]['w'].lower() in PETITS:
                 report.insert(0, cur.pop())
@@ -141,16 +143,27 @@ def main():
     ap.add_argument('--simulate', action='store_true')
     ap.add_argument('--kit', help='kit de vérification (format survie)')
     ap.add_argument('--mini', type=float, default=3.2, help='durée minimale d\'une scène')
+    ap.add_argument('--id', help='épisode à prendre dans un fichier de lot (kits-90s-lot-XX.json)')
+    ap.add_argument('--cues', help='repères d\'animation : [[scène, clé, mot], ...]')
+    ap.add_argument('--maxchars', type=int, default=22)
+    ap.add_argument('--tail', type=float, default=0.45, help='silence après la voix dans chaque scène')
     a = ap.parse_args()
     if a.kit:
         k = json.load(open(a.kit))
-        ep = {'id': 'EP' + k['id'], 'slug': SLUG.get(k['id'], 'episode'),
+        if 'episodes' in k:
+            k = next(e for e in k['episodes'] if e['id'] == a.id)
+        kid = k['id'] if str(k['id']).startswith('EP') else 'EP' + k['id']
+        ep = {'id': kid, 'slug': SLUG.get(kid[2:], 'episode'),
               'scenes': [{'narration': x['voix']} for x in k['scenes']]}
     else:
         ep = json.load(open(SCENARIOS))['episodes'][a.ep - 1]
     out = Path(a.out); (out / 'voix').mkdir(parents=True, exist_ok=True)
     scenes, caps, cues, t = [], [], {}, 0.0
-    PAD_AV, PAD_AP = 0.25, 0.45
+    global MAXC
+    MAXC = a.maxchars
+    PAD_AV, PAD_AP = 0.25, a.tail
+    if a.cues:
+        REPERES[ep['id']] = json.load(open(a.cues))
     for si, s in enumerate(ep['scenes']):
         texte = s['narration']
         f = out / 'voix' / f's{si+1:02d}.mp3'

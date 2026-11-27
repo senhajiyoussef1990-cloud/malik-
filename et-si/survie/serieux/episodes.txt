@@ -1,0 +1,3 @@
+# id  lot-de-kits  profil-son
+EP001 kits-90s-lot-02.json feu
+EP002 kits-90s-lot-03.json etouffement
