@@ -28,7 +28,7 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y ffmpeg
           python -m pip install edge-tts
-          python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice fr-FR-RemyMultilingualNeural --rate="+8%" --first 3.6 --mini 2.8 --last 5.5 --tail 0.2 --maxchars 34 --tagline-shown < /dev/null
+          python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice fr-FR-RemyMultilingualNeural --rate="+8%" --first 3.6 --mini 2.8 --last 5.5 --tail 0.2 --end-tail 2.2 --maxchars 34 --tagline-shown < /dev/null
       - name: Publier voix + calage sur et-si-sorties (voix/EP001)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

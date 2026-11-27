@@ -105,5 +105,8 @@ for si in range(1, len(S)): add(whoosh(0.6, False), S[si] - 0.3, 0.08)
 # 10–11 — récapitulatif et fin : petites ponctuations
 for k, dflt in [('eau', 1.0), ('deplacee', 2.2)]: add(tone(523.3, 0.9), S[9] + cue(k, dflt), 0.08)
 for k, dflt in [('partage', 4.0), ('abonne', 5.2)]: add(tone(659.3, 0.9) + tone(987.8, 0.9) * 0.5, S[10] + cue(k, dflt), 0.08)
-mix = np.stack([L, R], 1); t = np.arange(N) / SR; mix *= np.minimum(1, (D - t) / 0.6)[:, None]; mix /= np.max(np.abs(mix)) * 1.12
+# fin douce : accord qui se pose après la dernière phrase, puis fondu long
+fin = S[10] + 0.25 + tm['scenes'][10]['voix_dur']
+for fq, g in [(130.8, 1.0), (196.0, 0.7), (261.6, 0.5), (329.6, 0.35)]: add(tone(fq, D - fin + 0.5, 0.9) * g, fin - 0.1, 0.07)
+mix = np.stack([L, R], 1); t = np.arange(N) / SR; mix *= np.clip((D - t) / 1.8, 0, 1)[:, None] ** 1.5; mix /= np.max(np.abs(mix)) * 1.12
 wavfile.write(f'{a.out}/music_sfx.wav', SR, (mix * 32767).astype(np.int16)); print('son ok')

@@ -8,6 +8,7 @@ ap.add_argument('--anim', required=True)
 ap.add_argument('--out', required=True)
 ap.add_argument('--chrome', default=os.environ.get('CHROME_PATH'))
 ap.add_argument('--jobs', type=int, default=1, help='navigateurs en parallèle')
+ap.add_argument('--only', default='', help='scènes à refaire (ex. 11 ou 3,11) ; les autres parties existantes sont gardées')
 a = ap.parse_args()
 out = Path(a.out); tm = json.load(open(out / 'timing.json')); FPS = 30
 parts = out / 'parts'; parts.mkdir(exist_ok=True)
@@ -43,6 +44,8 @@ def rendre(indices):
 
 # répartition des scènes entre --jobs navigateurs (les plus longues d'abord)
 ordre = sorted(range(len(tm['scenes'])), key=lambda i: -tm['scenes'][i]['dur'])
+if a.only:
+    ordre = [int(x) - 1 for x in a.only.split(',')]
 lots = [[] for _ in range(max(1, ap_jobs))]; charge = [0.0] * len(lots)
 for i in ordre:
     k = charge.index(min(charge)); lots[k].append(i); charge[k] += tm['scenes'][i]['dur']

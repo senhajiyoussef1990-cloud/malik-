@@ -155,6 +155,7 @@ def main():
     ap.add_argument('--tagline-shown', action='store_true', help='l\'animation affiche déjà la signature : pas de sous-titre pour elle')
     ap.add_argument('--last', type=float, default=6.5)
     ap.add_argument('--tail', type=float, default=0.45, help='silence après la voix dans chaque scène')
+    ap.add_argument('--end-tail', type=float, default=None, help='silence après la voix dans la dernière scène (fin plus douce)')
     a = ap.parse_args()
     if a.kit:
         k = json.load(open(a.kit))
@@ -180,7 +181,8 @@ def main():
         mots = simule(texte, f) if a.simulate else dire(texte, a, f)
         dv = duree(f)
         mini = {0: a.first, len(ep['scenes']) - 1: a.last}.get(si, a.mini)
-        d = round(round(max(mini, PAD_AV + dv + PAD_AP) * 30) / 30, 4)
+        ap_ = a.end_tail if (a.end_tail is not None and si == len(ep['scenes']) - 1) else PAD_AP
+        d = round(round(max(mini, PAD_AV + dv + ap_) * 30) / 30, 4)
         us, rep = caler(texte, mots, t + PAD_AV)
         for si2, cle, mot in REPERES.get(ep['id'], []):
             if si2 == si:
