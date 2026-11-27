@@ -34,7 +34,7 @@ function fg(c,t,par){ // premier plan flou (îlot + bol) : profondeur de champ
 
 const SCENES=[
 // A — accroche : la poêle en feu, dès la première image
-(c,t,d)=>{const B=world({t:t+6,fire:1,smoke:0,stir:0,react:1});const cam=camAt(t,d,{x:760,y:1060,z:2.5},{x:770,y:1040,z:2.25});const s=shake(t,4);cam.x+=s.x;cam.y+=s.y;
+(c,t,d)=>{const B=world({t:t+6,fire:1,smoke:0,stir:0,react:1,noMan:true});const cam=camAt(t,d,{x:760,y:1060,z:2.5},{x:770,y:1040,z:2.25});const s=shake(t,4);cam.x+=s.x;cam.y+=s.y;
   show(c,B,cam);grade(c,t);c.fillStyle=lg(c,0,0,0,800,[[0,'rgba(8,11,16,0.85)'],[1,'rgba(8,11,16,0)']]);c.fillRect(0,0,W,800);
   title(c,'ET SI…',['ta poêle','prenait feu ?'],clamp(t/0.3),300);},
 // B — l'huile chauffe et fume

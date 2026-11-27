@@ -40,8 +40,8 @@ function wisps(c,x,y,w,t,a=0.35){ // fumée fine d'huile qui fume
     c.strokeStyle=`rgba(200,200,205,${a*Math.sin(Math.PI*age)})`;c.lineWidth=10+age*18;c.beginPath();for(let k=0;k<=12;k++){const u=k/12;const yy=y-u*420*(0.4+age);const xx=x0+Math.sin(u*5+t*1.5+i)*30*u+(vnoise(i+u*3,t)-0.5)*60*u;k?c.lineTo(xx,yy):c.moveTo(xx,yy);}c.stroke();}c.restore();}
 
 /* ================= LUMIÈRE / CAMÉRA / ÉTALONNAGE ================= */
-function relight(c,lights,amb){const L=buf('lm'),l=L.getContext('2d');l.fillStyle=amb;l.fillRect(0,0,W,H);l.globalCompositeOperation='lighter';
-  for(const o of lights){l.fillStyle=rg(l,o.x,o.y,0,o.r,[[0,o.c],[0.35,o.c2||o.c],[1,'rgba(0,0,0,0)']]);l.fillRect(0,0,W,H);}
+function relight(c,lights,amb){const cw=c.canvas.width,ch=c.canvas.height;const L=buf('lm'+cw,cw,ch),l=L.getContext('2d');l.fillStyle=amb;l.fillRect(0,0,cw,ch);l.globalCompositeOperation='lighter';
+  for(const o of lights){l.fillStyle=rg(l,o.x,o.y,0,o.r,[[0,o.c],[0.35,o.c2||o.c],[1,'rgba(0,0,0,0)']]);l.fillRect(0,0,cw,ch);}
   c.save();c.globalCompositeOperation='multiply';c.drawImage(L,0,0);c.restore();}
 function fireLight(x,y,k,t){const fl=0.85+0.15*Math.sin(t*17)*Math.sin(t*6.3+1);return {x,y,r:1300*k,c:`rgba(255,${150|0},70,${k*fl})`,c2:`rgba(220,90,30,${0.6*k*fl})`};}
 function lampLight(x,y,k){return {x,y,r:1200*k,c:`rgba(255,226,185,${k})`,c2:`rgba(200,170,130,${0.55*k})`};}
@@ -145,16 +145,16 @@ function bust(c,x,y,u,p,col=MAN){const lx=p.lightX??1;c.save();c.translate(x,y);
 
 /* passe de modelé peint : dessine un personnage via fn(ctx) dans un calque, ajoute ombres douces
    (côté opposé à la lumière), lumière de contour, et adoucit le trait. light = {dx,dy (direction vers la lumière), col, k, scale} */
-function painted(c,fn,light){const F=buf('pf'),f=F.getContext('2d');fn(f);const sc=light.scale||100;
-  const M=buf('pm'),m=M.getContext('2d');m.drawImage(F,0,0);m.globalCompositeOperation='source-in';m.fillStyle='#000';m.fillRect(0,0,W,H);
+function painted(c,fn,light){const cw=c.canvas.width,ch=c.canvas.height;const F=buf('pf'+cw,cw,ch),f=F.getContext('2d');fn(f);const sc=light.scale||100;
+  const M=buf('pm'+cw,cw,ch),m=M.getContext('2d');m.drawImage(F,0,0);m.globalCompositeOperation='source-in';m.fillStyle='#000';m.fillRect(0,0,cw,ch);
   // ombre propre : silhouette moins la silhouette décalée vers la lumière, floutée
-  const S=buf('ps'),s2=S.getContext('2d');s2.drawImage(M,0,0);s2.globalCompositeOperation='destination-out';s2.filter=`blur(${sc*0.12}px)`;s2.drawImage(M,light.dx*sc*0.35,light.dy*sc*0.35);
+  const S=buf('ps'+cw,cw,ch),s2=S.getContext('2d');s2.drawImage(M,0,0);s2.globalCompositeOperation='destination-out';s2.filter=`blur(${sc*0.12}px)`;s2.drawImage(M,light.dx*sc*0.35,light.dy*sc*0.35);
   s2.filter='none';f.save();f.globalCompositeOperation='source-atop';f.globalAlpha=light.shadow??0.6;f.filter=`blur(${sc*0.08}px)`;f.drawImage(S,0,0);f.restore();
   // occlusion de bord
-  const O=buf('po'),o=O.getContext('2d');o.fillStyle='#000';o.fillRect(0,0,W,H);o.globalCompositeOperation='destination-out';o.filter=`blur(${sc*0.05}px)`;o.drawImage(M,0,0);
+  const O=buf('po'+cw,cw,ch),o=O.getContext('2d');o.fillStyle='#000';o.fillRect(0,0,cw,ch);o.globalCompositeOperation='destination-out';o.filter=`blur(${sc*0.05}px)`;o.drawImage(M,0,0);
   f.save();f.globalCompositeOperation='source-atop';f.globalAlpha=0.5;f.drawImage(O,0,0);f.restore();
   // lumière de contour
-  const R=buf('pr'),r=R.getContext('2d');r.drawImage(M,0,0);r.globalCompositeOperation='destination-out';r.drawImage(M,-light.dx*sc*0.06,-light.dy*sc*0.06);r.globalCompositeOperation='source-in';r.fillStyle=light.col||'rgba(255,160,80,1)';r.fillRect(0,0,W,H);
+  const R=buf('pr'+cw,cw,ch),r=R.getContext('2d');r.drawImage(M,0,0);r.globalCompositeOperation='destination-out';r.drawImage(M,-light.dx*sc*0.06,-light.dy*sc*0.06);r.globalCompositeOperation='source-in';r.fillStyle=light.col||'rgba(255,160,80,1)';r.fillRect(0,0,cw,ch);
   f.save();f.globalCompositeOperation='source-atop';f.globalAlpha=light.k??0.8;f.filter=`blur(${sc*0.025}px)`;f.drawImage(R,0,0);f.filter='none';f.globalAlpha=(light.k??0.8)*0.6;f.drawImage(R,0,0);f.restore();
   c.save();c.filter=`blur(${light.soft??0.8}px)`;c.drawImage(F,0,0);c.restore();}
 
