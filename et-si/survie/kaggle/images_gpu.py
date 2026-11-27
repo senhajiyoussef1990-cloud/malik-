@@ -1,7 +1,7 @@
 # Notebook Kaggle (GPU) : images réalistes pour « Et si ? » avec SDXL (RealVisXL).
 # Les prompts sont injectés par le workflow GitHub (marqueur ci-dessous).
 import json, os, subprocess, sys, time
-subprocess.run([sys.executable, "-m", "pip", "install", "-q", "diffusers==0.31.0", "transformers", "accelerate", "safetensors"], check=True)
+subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers", "accelerate", "safetensors"], check=True)
 import torch
 from diffusers import StableDiffusionXLPipeline, DPMSolverMultistepScheduler
 P = json.loads(r'''__PROMPTS__''')
