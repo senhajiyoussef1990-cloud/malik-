@@ -1,0 +1,359 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90 s, recaler sur voix naturelle. Ne pas publier avant contrôle professionnel.",
+  "episodes": [
+    {
+      "id": "EP006",
+      "title": "Et si tu renversais de l’eau bouillante sur ton bras ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/brulures-peau",
+      "status": "Source consultée le 2026-11-27; relecture professionnelle et contrôle visuel requis",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu renversais de l’eau bouillante sur ton bras ?",
+          "subtitle": "Et si tu renversais de l’eau bouillante sur ton bras ?",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Éloigne-toi de la source de chaleur. La priorité est de refroidir la peau rapidement.",
+          "subtitle": "Éloigne-toi de la source de chaleur. La priorité est de refroidir la peau rapidement.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Utilise de l’eau courante tempérée, autour de vingt degrés.",
+          "subtitle": "Utilise de l’eau courante tempérée, autour de vingt degrés.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Continue pendant vingt minutes, tant que la personne ne se refroidit pas.",
+          "subtitle": "Continue pendant vingt minutes, tant que la personne ne se refroidit pas.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Ne refroidis que la zone brûlée. Garde le reste du corps au chaud.",
+          "subtitle": "Ne refroidis que la zone brûlée. Garde le reste du corps au chaud.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "N’utilise ni glace ni beurre ni autre remède maison.",
+          "subtitle": "N’utilise ni glace ni beurre ni autre remède maison.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Une fois refroidie, protège la brûlure avec un linge propre et sec.",
+          "subtitle": "Une fois refroidie, protège la brûlure avec un linge propre et sec.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une brûlure profonde, étendue ou touchant le visage, les mains ou le cou exige une aide urgente. Appelle le 112.",
+          "subtitle": "Une brûlure profonde, étendue ou touchant le visage, les mains ou le cou exige une aide urgente. Appelle le 112.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Chez un enfant de moins de cinq ans, appelle les secours pour une brûlure.",
+          "subtitle": "Chez un enfant de moins de cinq ans, appelle les secours pour une brûlure.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Ne laisse pas une vidéo remplacer les instructions des secours.",
+          "subtitle": "Ne laisse pas une vidéo remplacer les instructions des secours.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel et appel au partage",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu te brûlais avec de l’eau bouillante ? #Shorts",
+        "description": "Simulation éducative Brûlure à l’eau bouillante. Suis les consignes des secours. Source à valider avant publication : https://www.nhs.uk/conditions/Burns-and-scalds/",
+        "social": "Brûlure à l’eau bouillante : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP009",
+      "title": "Et si tu te coupais profondément avec un couteau ?",
+      "source": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/hemorragie",
+      "status": "Source consultée le 2026-11-27; relecture professionnelle et contrôle visuel requis",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu te coupais profondément avec un couteau ?",
+          "subtitle": "Et si tu te coupais profondément avec un couteau ?",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Une plaie profonde doit être évaluée rapidement. Si le sang coule abondamment, agis immédiatement.",
+          "subtitle": "Une plaie profonde doit être évaluée rapidement. Si le sang coule abondamment, agis immédiatement.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Pose un linge propre sur la plaie et exerce une pression directe.",
+          "subtitle": "Pose un linge propre sur la plaie et exerce une pression directe.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Si tu aides quelqu’un, protège tes mains si possible, sans retarder la compression.",
+          "subtitle": "Si tu aides quelqu’un, protège tes mains si possible, sans retarder la compression.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Demande à une autre personne d’appeler le 112 si le saignement est important.",
+          "subtitle": "Demande à une autre personne d’appeler le 112 si le saignement est important.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Allonge la victime et maintiens la pression.",
+          "subtitle": "Allonge la victime et maintiens la pression.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Ne soulève pas le linge pour vérifier sans cesse.",
+          "subtitle": "Ne soulève pas le linge pour vérifier sans cesse.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Si le sang continue de couler, augmente la pression et suis les instructions des secours.",
+          "subtitle": "Si le sang continue de couler, augmente la pression et suis les instructions des secours.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Reste auprès de la victime jusqu’à leur arrivée.",
+          "subtitle": "Reste auprès de la victime jusqu’à leur arrivée.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Même si le saignement cesse, une coupure profonde nécessite une consultation urgente.",
+          "subtitle": "Même si le saignement cesse, une coupure profonde nécessite une consultation urgente.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel et appel au partage",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu te coupais profondément avec un couteau ? #Shorts",
+        "description": "Simulation éducative Coupure profonde. Suis les consignes des secours. Source à valider avant publication : https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+        "social": "Coupure profonde : connais-tu les bons réflexes ? #EtSi #Prevention #Survie"
+      }
+    },
+    {
+      "id": "EP010",
+      "title": "Et si tu saignais du nez sans réussir à l’arrêter ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/pathologies/epistaxis-saignement-de-nez",
+      "status": "Source consultée le 2026-11-27; relecture professionnelle et contrôle visuel requis",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu saignais du nez sans réussir à l’arrêter ?",
+          "subtitle": "Et si tu saignais du nez sans réussir à l’arrêter ?",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Si le saignement est peu abondant et sans traumatisme, assieds-toi.",
+          "subtitle": "Si le saignement est peu abondant et sans traumatisme, assieds-toi.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Penche légèrement la tête en avant et respire par la bouche.",
+          "subtitle": "Penche légèrement la tête en avant et respire par la bouche.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Ne bascule pas la tête en arrière : le sang pourrait couler dans ta gorge.",
+          "subtitle": "Ne bascule pas la tête en arrière : le sang pourrait couler dans ta gorge.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Pince la partie souple du nez, juste sous l’os.",
+          "subtitle": "Pince la partie souple du nez, juste sous l’os.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Maintiens la pression dix minutes sans interruption. Utilise une minuterie.",
+          "subtitle": "Maintiens la pression dix minutes sans interruption. Utilise une minuterie.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si le nez saigne encore, recommence dix minutes.",
+          "subtitle": "Si le nez saigne encore, recommence dix minutes.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Consulte si le saignement persiste malgré ces gestes.",
+          "subtitle": "Consulte si le saignement persiste malgré ces gestes.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "En cas de saignement abondant, de malaise ou de traumatisme grave, appelle le 112.",
+          "subtitle": "En cas de saignement abondant, de malaise ou de traumatisme grave, appelle le 112.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Après un saignement bénin, évite de te moucher pendant douze heures.",
+          "subtitle": "Après un saignement bénin, évite de te moucher pendant douze heures.",
+          "visuel": "Illustration non graphique de la narration, aucun geste ajouté",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel et appel au partage",
+          "animation": "Plan dynamique, continuité personnage et décor; minuterie réelle explicitement indiquée si nécessaire",
+          "son": "Ambiance discrète, voix intelligible"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu saignais du nez sans réussir à l’arrêter ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/epistaxis-saignement-de-nez",
+        "social": "Et si tu saignais du nez sans réussir à l’arrêter ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
