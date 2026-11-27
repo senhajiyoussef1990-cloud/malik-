@@ -1,0 +1,341 @@
+{
+  "instructions": "Claude uniquement. Brouillons à enrichir sur sources vérifiées et chronométrer. Pas de publication avant relecture spécialisée.",
+  "episodes": [
+    {
+      "id": "EP088",
+      "title": "Et si une pile bouton se coinçait dans le nez de ton enfant ?",
+      "source": "https://www.centreantipoisons.be/tox-infos/les-piles-boutons/",
+      "verification": {
+        "status": "Conseils appuyés par les extraits officiels consultés; validation indépendante et vérification finale requises",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une pile bouton se coinçait dans le nez de ton enfant ?",
+          "subtitle": "Et si une pile bouton se coinçait dans le nez de ton enfant ?",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Et si une pile bouton se coinçait dans le nez de ton enfant ?",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "Une pile bouton coincée dans le nez est une urgence médicale. Même sans douleur apparente, elle peut provoquer rapidement des brûlures.",
+          "subtitle": "Une pile bouton coincée dans le nez est une urgence médicale. Même sans douleur apparente, elle peut provoquer rapidement des brûlures.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Une pile bouton coincée dans le nez est une urgence médicale. Même sans douleur apparente, elle peut provoquer rapidement des brûlures.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "Rassure ton enfant et demande-lui de respirer par la bouche.",
+          "subtitle": "Rassure ton enfant et demande-lui de respirer par la bouche.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Rassure ton enfant et demande-lui de respirer par la bouche.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Pars immédiatement aux urgences ou appelle le 112.",
+          "subtitle": "Pars immédiatement aux urgences ou appelle le 112.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Pars immédiatement aux urgences ou appelle le 112.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "Précise aux soignants qu’il s’agit d’une pile bouton. Une radiographie peut aider à la localiser avant son retrait.",
+          "subtitle": "Précise aux soignants qu’il s’agit d’une pile bouton. Une radiographie peut aider à la localiser avant son retrait.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Précise aux soignants qu’il s’agit d’une pile bouton. Une radiographie peut aider à la localiser avant son retrait.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Pour prévenir cet accident, garde les piles neuves et usagées hors de portée.",
+          "subtitle": "Pour prévenir cet accident, garde les piles neuves et usagées hors de portée.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Pour prévenir cet accident, garde les piles neuves et usagées hors de portée.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une pile bouton se coinçait dans le nez de ton enfant ? #Shorts",
+        "description": "Source officielle : https://www.centreantipoisons.be/tox-infos/les-piles-boutons/"
+      }
+    },
+    {
+      "id": "EP089",
+      "title": "Et si tu te trompais de dose de médicament ?",
+      "source": "https://www.centreantipoisons.be/tox-infos/administration-sure-des-medicaments/",
+      "verification": {
+        "status": "Conseils appuyés par les extraits officiels consultés; validation indépendante et vérification finale requises",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu te trompais de dose de médicament ?",
+          "subtitle": "Et si tu te trompais de dose de médicament ?",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Et si tu te trompais de dose de médicament ?",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "Une confusion entre deux doses peut arriver, notamment lorsque plusieurs traitements sont utilisés.",
+          "subtitle": "Une confusion entre deux doses peut arriver, notamment lorsque plusieurs traitements sont utilisés.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Une confusion entre deux doses peut arriver, notamment lorsque plusieurs traitements sont utilisés.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "En cas de possible intoxication, contacte immédiatement le Centre Antipoisons belge au 070 245 245.",
+          "subtitle": "En cas de possible intoxication, contacte immédiatement le Centre Antipoisons belge au 070 245 245.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : En cas de possible intoxication, contacte immédiatement le Centre Antipoisons belge au 070 245 245.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Ne te fie pas à l’absence de symptômes. Prépare la notice et le nom du médicament.",
+          "subtitle": "Ne te fie pas à l’absence de symptômes. Prépare la notice et le nom du médicament.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Ne te fie pas à l’absence de symptômes. Prépare la notice et le nom du médicament.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "Les professionnels peuvent déterminer la conduite adaptée à la situation.",
+          "subtitle": "Les professionnels peuvent déterminer la conduite adaptée à la situation.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Les professionnels peuvent déterminer la conduite adaptée à la situation.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Pour éviter une nouvelle erreur, lis la notice et demande conseil à ton pharmacien ou à ton médecin.",
+          "subtitle": "Pour éviter une nouvelle erreur, lis la notice et demande conseil à ton pharmacien ou à ton médecin.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Pour éviter une nouvelle erreur, lis la notice et demande conseil à ton pharmacien ou à ton médecin.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu te trompais de dose de médicament ? #Shorts",
+        "description": "Source officielle : https://www.centreantipoisons.be/tox-infos/administration-sure-des-medicaments/"
+      }
+    },
+    {
+      "id": "EP090",
+      "title": "Et si une personne était frappée par la foudre ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution",
+      "verification": {
+        "status": "Conseils appuyés par les extraits officiels consultés; validation indépendante et vérification finale requises",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une personne était frappée par la foudre ?",
+          "subtitle": "Et si une personne était frappée par la foudre ?",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Et si une personne était frappée par la foudre ?",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "La foudre peut entraîner des lésions internes graves, même lorsque les marques visibles paraissent limitées.",
+          "subtitle": "La foudre peut entraîner des lésions internes graves, même lorsque les marques visibles paraissent limitées.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : La foudre peut entraîner des lésions internes graves, même lorsque les marques visibles paraissent limitées.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "Appelle les secours au 112 depuis un endroit sûr.",
+          "subtitle": "Appelle les secours au 112 depuis un endroit sûr.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Appelle les secours au 112 depuis un endroit sûr.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Indique précisément où se trouve la victime et explique qu’elle a été frappée par la foudre.",
+          "subtitle": "Indique précisément où se trouve la victime et explique qu’elle a été frappée par la foudre.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Indique précisément où se trouve la victime et explique qu’elle a été frappée par la foudre.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "Décris son état de conscience et sa respiration. Suis les instructions du service d’urgence.",
+          "subtitle": "Décris son état de conscience et sa respiration. Suis les instructions du service d’urgence.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Décris son état de conscience et sa respiration. Suis les instructions du service d’urgence.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Ne termine pas l’appel avant que ton interlocuteur ne te le demande.",
+          "subtitle": "Ne termine pas l’appel avant que ton interlocuteur ne te le demande.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Ne termine pas l’appel avant que ton interlocuteur ne te le demande.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une personne était frappée par la foudre ? #Shorts",
+        "description": "Source officielle : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/electrisation-electrocution"
+      }
+    },
+    {
+      "id": "EP091",
+      "title": "Et si une pile alcaline fuyait sur ta peau ?",
+      "source": "https://www.centreantipoisons.be/tox-infos/en-securite-a-lecole/",
+      "verification": {
+        "status": "Conseils appuyés par les extraits officiels consultés; validation indépendante et vérification finale requises",
+        "publication_approved": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une pile alcaline fuyait sur ta peau ?",
+          "subtitle": "Et si une pile alcaline fuyait sur ta peau ?",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Et si une pile alcaline fuyait sur ta peau ?",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 20,
+          "voix": "Tu découvres une pile endommagée dans un appareil et son contenu entre en contact avec ta peau.",
+          "subtitle": "Tu découvres une pile endommagée dans un appareil et son contenu entre en contact avec ta peau.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Tu découvres une pile endommagée dans un appareil et son contenu entre en contact avec ta peau.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 20,
+          "end": 35,
+          "voix": "Le liquide peut provoquer une brûlure.",
+          "subtitle": "Le liquide peut provoquer une brûlure.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Le liquide peut provoquer une brûlure.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 35,
+          "end": 50,
+          "voix": "Rince la zone avec beaucoup d’eau.",
+          "subtitle": "Rince la zone avec beaucoup d’eau.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Rince la zone avec beaucoup d’eau.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "voix": "Vérifie si des signes de brûlure apparaissent et consulte un médecin si c’est le cas.",
+          "subtitle": "Vérifie si des signes de brûlure apparaissent et consulte un médecin si c’est le cas.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Vérifie si des signes de brûlure apparaissent et consulte un médecin si c’est le cas.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "voix": "Pour toute incertitude sur une exposition, appelle le Centre Antipoisons au 070 245 245.",
+          "subtitle": "Pour toute incertitude sur une exposition, appelle le Centre Antipoisons au 070 245 245.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Pour toute incertitude sur une exposition, appelle le Centre Antipoisons au 070 245 245.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, simulation non graphique : Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plans variés, aucun geste supplémentaire",
+          "son": "Ambiance discrète"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une pile alcaline fuyait sur ta peau ? #Shorts",
+        "description": "Source officielle : https://www.centreantipoisons.be/tox-infos/en-securite-a-lecole/"
+      }
+    }
+  ]
+}
