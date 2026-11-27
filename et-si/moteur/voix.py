@@ -147,6 +147,7 @@ def main():
     ap.add_argument('--cues', help='repères d\'animation : [[scène, clé, mot], ...]')
     ap.add_argument('--maxchars', type=int, default=22)
     ap.add_argument('--first', type=float, default=4.0)
+    ap.add_argument('--tagline', default='', help='phrase-signature ajoutée après la question d\'ouverture')
     ap.add_argument('--last', type=float, default=6.5)
     ap.add_argument('--tail', type=float, default=0.45, help='silence après la voix dans chaque scène')
     a = ap.parse_args()
@@ -166,6 +167,8 @@ def main():
     PAD_AV, PAD_AP = 0.25, a.tail
     if a.cues:
         REPERES[ep['id']] = json.load(open(a.cues))
+    if a.tagline and a.tagline.lower() not in ep['scenes'][0]['narration'].lower():
+        ep['scenes'][0]['narration'] = ep['scenes'][0]['narration'].rstrip() + ' ' + a.tagline
     for si, s in enumerate(ep['scenes']):
         texte = s['narration']
         f = out / 'voix' / f's{si+1:02d}.mp3'
@@ -179,8 +182,8 @@ def main():
                 for k, ta, tb, w in rep:
                     if mot.lower().strip('.') in w.lower():
                         cues[cle] = round(PAD_AV + ta, 3); break
-        if si == 0:  # la question est déjà à l'écran : pas de sous-titre pour elle
-            us = [u for u in us if u['pos'] > texte.find('?')]
+        if si == 0:  # la question (et la signature) sont déjà à l'écran
+            us = [] if a.tagline else [u for u in us if u['pos'] > texte.find('?')]
         for c in morceaux(us):
             caps.append({'s': c[0]['t'], 'toks': [{'w': u['w'].replace(' ', ' '),
                          'k': re.sub(r"[^\wéèêàâôûùçîï'-]", '', u['w'].lower()).split("'")[-1] in MOTS_CLES

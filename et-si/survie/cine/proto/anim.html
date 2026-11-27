@@ -36,11 +36,15 @@ function fg(c,t,par){ // premier plan flou (îlot + bol) : profondeur de champ
   c.save();c.filter='blur(14px)';c.translate(par,0);c.fillStyle='#1a1d22';c.fillRect(-40,1660,700,400);c.fillStyle=lg(c,0,1640,0,1680,[[0,'#bdb6a8'],[1,'#6f6a60']]);c.fillRect(-40,1640,700,40);
   c.fillStyle='#e8e2d8';c.beginPath();c.ellipse(220,1640,150,40,0,0,TAU);c.fill();c.fillStyle='#6a8a3a';for(let i=0;i<8;i++){c.beginPath();c.ellipse(170+i*14,1622,16,9,i,0,TAU);c.fill();}c.restore();}
 
+// signature de la série, identique dans chaque épisode
+function signature(c,t,t0){const k=clamp((t-t0)/0.35);if(k<=0)return;c.save();c.globalAlpha=k;const y=720+(1-eout(k))*20;
+  c.fillStyle='rgba(8,11,16,0.78)';c.fillRect(W/2-380,y-58,760,116);c.fillStyle=PAL.rouge;c.fillRect(W/2-380,y-58,10,116);
+  c.font='800 52px M';c.letterSpacing='2px';c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText('Saurais-tu quoi faire ?',W/2+6,y+2);c.restore();}
 const SCENES=[
 // A — accroche : la poêle en feu, dès la première image
 (c,t,d)=>{const B=world({t:t+6,fire:1,smoke:0,stir:0,react:1,noMan:true});const cam=camAt(t,d,{x:760,y:1060,z:2.5},{x:770,y:1040,z:2.25});const s=shake(t,4);cam.x+=s.x;cam.y+=s.y;
   show(c,B,cam);grade(c,t);c.fillStyle=lg(c,0,0,0,800,[[0,'rgba(8,11,16,0.85)'],[1,'rgba(8,11,16,0)']]);c.fillRect(0,0,W,800);
-  title(c,'ET SI…',['ta poêle','prenait feu ?'],clamp(t/0.3),300);},
+  title(c,'ET SI…',['ta poêle','prenait feu ?'],clamp(t/0.3),300);signature(c,t,CUE('saurais',1.6));},
 // B — l'huile chauffe et fume
 (c,t,d)=>{const cut=d*0.5;
   if(t<cut){const B=world({t,fire:0,smoke:0.4+0.6*(t/cut),stir:1});const cam=camAt(t,cut,{x:640,y:1000,z:1.32},{x:700,y:1000,z:1.38});show(c,B,cam);fg(c,t,-t*30);grade(c,t);}
