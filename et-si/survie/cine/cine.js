@@ -129,7 +129,7 @@ function bust(c,x,y,u,p,col=MAN){const lx=p.lightX??1;c.save();c.translate(x,y);
     limb(c,sx,sy,ex_,ey,0.6*u,0.5*u,cylFill(c,sx,sy,ex_,ey,0.5*u,rgb(col.skin,0.95*k),rgb(col.skinD,0.8*k)));
     const mx=lerp(sx,ex_,0.4),my=lerp(sy,ey,0.4);limb(c,sx,sy,mx,my,0.72*u,0.66*u,cylFill(c,sx,sy,mx,my,0.72*u,rgb(col.shirt,1.05*k),rgb(col.shirtD,0.9*k)));
     limb(c,ex_,ey,wx,wy,0.48*u,0.36*u,cylFill(c,ex_,ey,wx,wy,0.48*u,rgb(col.skin,1.0*k),rgb(col.skinD,0.85*k)));
-    hand(c,wx,wy,Math.atan2(wy-ey,wx-ex_)+(ha||0),0.78*u,ht,col,lx);};
+    hand(c,wx,wy,(front&&p.handNabs!=null)?p.handNabs-(p.lean||0):Math.atan2(wy-ey,wx-ex_)+(ha||0),0.78*u,ht,col,lx);};
   if(p.armF)arm(p.armF,false,p.handF,p.handFa);
   // torse (t-shirt) : épaules tombantes, poitrine, taille ; plis doux
   c.fillStyle=lg(c,-u,0,u,0,lx>0?[[0,rgb(col.shirtD,0.85)],[0.55,rgb(col.shirt,1.0)],[1,rgb(col.shirt,1.12)]]:[[0,rgb(col.shirt,1.1)],[0.5,rgb(col.shirt,0.95)],[1,rgb(col.shirtD,0.85)]]);
@@ -141,7 +141,11 @@ function bust(c,x,y,u,p,col=MAN){const lx=p.lightX??1;c.save();c.translate(x,y);
   c.fillStyle=rgb(col.shirtD,0.75);c.beginPath();c.moveTo(-0.24*u,0.02*u);c.quadraticCurveTo(0.05*u,0.2*u,0.32*u,0.04*u);c.quadraticCurveTo(0.05*u,0.1*u,-0.24*u,0.02*u);c.fill();
   c.restore();
   head(c,x+0.08*u+(p.headDX||0)*u,y-0.5*u+(p.headDY||0)*u,1.25*u,{...(p.ex||{}),lightX:lx},col);
-  c.save();c.translate(x,y);c.rotate(p.lean||0);if(p.armN)arm(p.armN,true,p.handN,p.handNa);c.restore();}
+  if(p.held)p.held(c);c.save();c.translate(x,y);c.rotate(p.lean||0);if(p.armN)arm(p.armN,true,p.handN,p.handNa);c.restore();}
+// prise d'objet : renvoie le poignet (en unités du buste) pour que les doigts serrent le point G (monde),
+// la main étant orientée selon l'angle a du manche. À utiliser avec handN:'grip' et handNabs:a.
+function gripWrist(nb,u,lean,G,a){const sz=0.78*u;const wx=G[0]-Math.cos(a)*0.62*sz-(-Math.sin(a))*0.0,wy=G[1]-Math.sin(a)*0.62*sz;const dx=(wx-nb[0])/u,dy=(wy-nb[1])/u;const cs=Math.cos(-lean),sn=Math.sin(-lean);return [dx*cs-dy*sn,dx*sn+dy*cs];}
+function elbowFor(sh,wr,bend=1){const mx=(sh[0]+wr[0])/2,my=(sh[1]+wr[1])/2;const dx=wr[0]-sh[0],dy=wr[1]-sh[1];const L=Math.hypot(dx,dy),need=Math.max(0,(2.6*2.6/4-L*L/4));const h=Math.sqrt(need)*0.5;return [mx-dy/L*h*bend,my+dx/L*h*bend];}
 
 /* passe de modelé peint : dessine un personnage via fn(ctx) dans un calque, ajoute ombres douces
    (côté opposé à la lumière), lumière de contour, et adoucit le trait. light = {dx,dy (direction vers la lumière), col, k, scale} */
@@ -202,7 +206,7 @@ function fryPan(c,x,y,t,o={}){c.save();c.translate(x,y);
   // légumes
   if(o.food){const r=mulberry(5);for(let i=0;i<16;i++){const fx=-110+r()*220+Math.sin(t*2+i)*4*(o.stir||0);c.fillStyle=i%3?'#7a9a3a':'#c86a2a';c.beginPath();c.ellipse(fx,-64+r()*4,10+r()*8,5,r()*3,0,TAU);c.fill();}}
   c.restore();}
-function spatula(c,x,y,ang){c.save();c.translate(x,y);c.rotate(ang);c.fillStyle='#3a2a1e';c.beginPath();c.roundRect(-8,-300,16,260,8);c.fill();c.fillStyle='#1f1f22';c.beginPath();c.roundRect(-34,-44,68,54,8);c.fill();c.restore();}
+function spatula(c,x,y,ang){c.save();c.translate(x,y);c.rotate(ang);c.fillStyle=lg(c,-8,0,8,0,[[0,'#2a1c12'],[0.5,'#5a402a'],[1,'#2a1c12']]);c.beginPath();c.roundRect(-8,-330,16,290,8);c.fill();c.fillStyle='#1f1f22';c.beginPath();c.roundRect(-34,-44,68,54,8);c.fill();c.restore();}
 function glassOfWater(c,x,y,s=1){c.save();c.translate(x,y);c.scale(s,s);c.fillStyle='rgba(190,215,235,0.22)';c.strokeStyle='rgba(235,245,255,0.75)';c.lineWidth=4;c.beginPath();c.moveTo(-40,-170);c.lineTo(40,-170);c.lineTo(32,0);c.lineTo(-32,0);c.closePath();c.fill();c.stroke();
   c.fillStyle=lg(c,0,-110,0,0,[[0,'rgba(120,180,230,0.55)'],[1,'rgba(80,140,200,0.75)']]);c.beginPath();c.moveTo(-37,-110);c.lineTo(37,-110);c.lineTo(32,-4);c.lineTo(-32,-4);c.closePath();c.fill();c.fillStyle='rgba(255,255,255,0.45)';c.fillRect(-28,-160,6,150);c.restore();}
 

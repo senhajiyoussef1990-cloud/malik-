@@ -12,12 +12,16 @@ function world(st){const B=buf('world',Math.round(W*1.6),H),b=B.getContext('2d')
   // personnage (derrière le plan de travail)
   const u=150,nx=430,ny=840+(st.react||0)*-10;const tip=[PAN.x-30+Math.sin(t*3.2)*55*(st.stir??1)*(1-(st.react||0)),1112];
   const sa=-0.62-(st.react||0)*0.2;const grip=[tip[0]+Math.sin(sa)*-210,tip[1]-Math.cos(sa)*210];
-  const nb=[nx-(st.react||0)*60,ny];const sh=[0.72,0.42];const wr=[(grip[0]-nb[0])/u-0.25,(grip[1]-nb[1])/u+0.15];const el=[(sh[0]+wr[0])/2+0.1,(sh[1]+wr[1])/2+0.55];
-  const reactArm=st.react||0;const wrF=[lerp(wr[0],1.55,reactArm),lerp(wr[1],1.45,reactArm)],elF=[lerp(el[0],1.0,reactArm),lerp(el[1],1.75,reactArm)];
-  if(!st.noMan)painted(b,f=>{bust(f,nb[0],nb[1],u,{lean:-0.04-0.12*reactArm,headDX:-0.08*reactArm,ex:{eye:0.5+0.5*reactArm,brow:reactArm,mouth:0.35*reactArm,look:0.8},
-      armN:[sh[0],sh[1],elF[0],elF[1],wrF[0],wrF[1]],handN:reactArm>0.5?'open':'grip',handNa:reactArm>0.5?-0.9:0.1,armF:[-0.62,0.5,-0.85,1.9,-0.55,2.9],handF:'rest'});},
+  const nb=[nx-(st.react||0)*60,ny];const sh=[0.72,0.42];const lean=-0.04-0.12*(st.react||0);const reactArm=st.react||0;
+  // la spatule est tenue : le point de prise G est sur le manche, la main s'y place exactement
+  const G=[tip[0]+Math.sin(sa)*190,tip[1]-Math.cos(sa)*190];const ha=sa-Math.PI/2+Math.PI/2; // main alignée sur le manche
+  const wrG=gripWrist(nb,u,lean,G,sa);const elG=elbowFor(sh,wrG,1);
+  const wrF=[lerp(wrG[0],1.55,reactArm),lerp(wrG[1],1.45,reactArm)],elF=[lerp(elG[0],1.0,reactArm),lerp(elG[1],1.75,reactArm)];
+  const holding=reactArm<0.5&&!st.noMan;
+  if(!st.noMan)painted(b,f=>{bust(f,nb[0],nb[1],u,{lean,headDX:-0.08*reactArm,ex:{eye:0.5+0.5*reactArm,brow:reactArm,mouth:0.35*reactArm,look:0.8},
+      armN:[sh[0],sh[1],elF[0],elF[1],wrF[0],wrF[1]],handN:holding?'grip':'open',handNabs:holding?sa:null,handNa:holding?0:-0.9,armF:[-0.62,0.5,-0.85,1.9,-0.55,2.9],handF:'rest',
+      held:holding?(ff=>spatula(ff,tip[0],tip[1],sa)):null});},
     {dx:st.fire>0.2?1:0.3,dy:-0.6,scale:u,col:st.fire>0.2?'rgba(255,150,70,1)':'rgba(255,220,180,1)',k:st.fire>0.2?0.9:0.4});
-  if(reactArm<0.5&&!st.noMan)spatula(b,tip[0],tip[1],sa);
   counter(b);knobs(b);fryPan(b,PAN.x,PAN.y,t,{shimmer:st.smoke||0,food:true,stir:st.stir??1});
   if(reactArm>=0.5){spatula(b,PAN.x+120,1172,1.35);}
   if(st.glass)glassOfWater(b,1060,1196,1.0);
