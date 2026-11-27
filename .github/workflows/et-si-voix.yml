@@ -1,0 +1,41 @@
+name: Et si ? — voix seule (pour rendu local)
+on:
+  push:
+    branches: [et-si, claude/wonderful-cray-9m38l6]
+    paths:
+      - 'et-si/survie/cine/EP001/kit.json'
+      - 'et-si/moteur/voix.py'
+      - '.github/workflows/et-si-voix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: et-si-voix
+  cancel-in-progress: true
+jobs:
+  voix:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 20
+    env:
+      P: et-si/survie/cine/EP001
+      O: sortie/EP001
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Voix et calage
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+          python -m pip install edge-tts
+          python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice fr-FR-RemyMultilingualNeural --rate="-2%" --first 4.2 --mini 3.6 --last 6.5 --tail 0.4 --maxchars 34 --tagline-shown < /dev/null
+      - name: Publier voix + calage sur et-si-sorties (voix/EP001)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone -q --depth 1 -b et-si-sorties "$URL" pub; rm -rf pub/voix/EP001; mkdir -p pub/voix/EP001
+          cp -r $O/voix $O/timing.json pub/voix/EP001/
+          cd pub && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "EP001 voix ${GITHUB_SHA::7}" || exit 0
+          git push -q "$URL" et-si-sorties
