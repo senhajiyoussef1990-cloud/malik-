@@ -1,0 +1,63 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP006 — « Et si tu renversais de l’eau bouillante sur ton bras ? » — texte : kits-90s-lot-01.json, source ameli.fr */
+['bouillante','glace','beurre','profonde','étendue','visage','mains','cou'].forEach(w=>RED_W.add(w));
+['refroidir','refroidis','courante','tempérée','vingt','linge','propre','112','secours','chaud'].forEach(w=>GREEN_W.add(w));
+ICO.remede=c=>{c.fillStyle='#c9b89a';c.beginPath();c.roundRect(-50,-40,100,110,16);c.fill();c.fillStyle='#8a6a4a';c.fillRect(-56,-64,112,28);c.font='900 64px M';c.fillStyle='#5a4a3a';c.textAlign='center';c.textBaseline='middle';c.fillText('?',0,18);};
+ICO.video=c=>{c.fillStyle='#1a1e26';c.beginPath();c.roundRect(-60,-96,120,192,18);c.fill();c.fillStyle='#d33';c.beginPath();c.roundRect(-44,-50,88,64,10);c.fill();c.fillStyle='#fff';c.beginPath();c.moveTo(-10,-34);c.lineTo(16,-18);c.lineTo(-10,-2);c.closePath();c.fill();};
+ICO.secours=c=>{c.fillStyle='#1a1e26';c.beginPath();c.roundRect(-60,-96,120,192,18);c.fill();c.font='900 44px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.fillText('112',0,-10);c.fillStyle=PAL.vert;c.beginPath();c.arc(0,40,22,0,TAU);c.fill();};
+ICO.moins5=c=>{ICO.enfant(c);c.fillStyle=PAL.rouge;c.beginPath();c.roundRect(10,-100,110,56,14);c.fill();c.font='900 30px M';c.fillStyle='#fff';c.textAlign='center';c.textBaseline='middle';c.fillText('< 5 ANS',65,-71);};
+function bouilloire(b,x,y,ang,s=1){b.save();b.translate(x,y);b.rotate(ang);b.scale(s,s);b.fillStyle=lg(b,-60,0,60,0,[[0,'#8a9098'],[0.5,'#e8ebee'],[1,'#7a8088']]);b.beginPath();b.moveTo(-50,-60);b.lineTo(50,-60);b.lineTo(60,40);b.lineTo(-60,40);b.closePath();b.fill();
+  b.fillStyle='#222';b.beginPath();b.roundRect(-40,-80,80,22,8);b.fill();b.strokeStyle='#222';b.lineWidth=12;b.beginPath();b.arc(-60,-10,34,Math.PI*0.5,Math.PI*1.5);b.stroke();b.fillStyle='#9aa0a8';b.beginPath();b.moveTo(52,-30);b.lineTo(100,-50);b.lineTo(104,-40);b.lineTo(56,-6);b.closePath();b.fill();b.restore();}
+function vapeur(b,T,x,y,a){if(a<=0)return;b.save();b.filter='blur(8px)';for(let i=0;i<8;i++){const r=mulberry(30+i);const ph=(T*0.6+r())%1;b.fillStyle=`rgba(235,240,245,${0.35*a*Math.sin(Math.PI*ph)})`;b.beginPath();b.arc(x+(r()-0.5)*80+Math.sin(T*2+i)*20,y-ph*220,20+ph*40,0,TAU);b.fill();}b.restore();}
+// silhouette de face avec zones colorées : z = {tete, cou, mains, brasD, corps}
+function corps(c,cx,cy,s,z={}){c.save();c.translate(cx,cy);c.scale(s,s);const f=(k,d)=>z[k]||d;const base='rgba(245,245,245,0.18)';
+  c.fillStyle=f('tete',base);c.beginPath();c.arc(0,-300,70,0,TAU);c.fill();c.fillStyle=f('cou',base);c.fillRect(-26,-236,52,44);
+  c.fillStyle=f('corps',base);c.beginPath();c.roundRect(-110,-190,220,330,40);c.fill();c.beginPath();c.roundRect(-100,140,90,300,30);c.roundRect(10,140,90,300,30);c.fill();
+  c.fillStyle=f('brasG',base);c.beginPath();c.roundRect(-170,-180,52,300,26);c.fill();c.fillStyle=f('brasD',base);c.beginPath();c.roundRect(118,-180,52,300,26);c.fill();
+  c.fillStyle=f('mains',base);c.beginPath();c.arc(-144,150,36,0,TAU);c.arc(144,150,36,0,TAU);c.fill();c.restore();}
+function cuisine(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'cuisine',T);return [B,b];}
+function sdb(T,eau){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'sdb',T,{eau,eauY:1010});return [B,b];}
+function brasSousEau(b,T,u=210){acteur(b,'heros',520,800,u,{lean:0.08,look:0.6,ex:{eye:0.6,brow:0.4,mouth:0.1},near:{to:[800,1010],hand:'open',ang:0.05},far:{bend:-1}});
+  b.save();b.globalAlpha=0.6;for(let i=0;i<6;i++){const r=mulberry(i+40);b.fillStyle='rgba(170,215,255,0.8)';b.beginPath();b.arc(820+(r()-0.5)*120,1030+((T*300+r()*80)%80),5,0,TAU);b.fill();}b.restore();}
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const [B,b]=cuisine(t);const k=ease(seg(t,0.2,0.9));acteur(b,'heros',560,840,200,{look:0.7,ex:{eye:0.6+0.4*k,brow:0.9*k,mouth:0.5*k},near:{to:[800,980],hand:'grip',ang:0.2},far:{to:[560+0.4*200,840+1.2*200+(-0.8*200)*k],hand:'open',bend:1}},
+  {after:f=>bouilloire(f,840,960,0.5*k+0.1,0.9)});if(k>0.3){b.fillStyle='rgba(170,215,255,0.7)';b.fillRect(900,950,10,140*k);}vapeur(b,t,700,1000,k);ambiance(b,[LAMPE(735,700,0.9),LUNE(200,700)]);
+  accroche(c,t,d,B,camAt(t,d,{x:720,y:960,z:1.3},{x:730,y:950,z:1.42}),['tu renversais de l’eau','bouillante sur ton bras ?']);},
+// 2 — s'éloigner ; refroidir vite
+(c,t,d)=>{const [B,b]=cuisine(t);const k=ease(seg(t,0.2,1.2));acteur(b,'heros',lerp(560,300,k),860,200,{lean:-0.04,look:0.9,ex:{eye:0.9,brow:0.7,mouth:0.3},near:{to:[lerp(560,300,k)+1.2*200,860+0.9*200],hand:'open',ang:-0.4}},{mirror:true});
+  bouilloire(b,820,1170,0,0.9);vapeur(b,t,860,1100,0.8);ambiance(b,[LAMPE(735,700,0.9),LUNE(200,700)]);show(c,B,{x:600,y:1040,z:1.15});grade(c,t);
+  tag(c,'ÉLOIGNE-TOI DE LA CHALEUR',T1,clamp((t-0.1)/0.3),'vert');tag(c,'REFROIDIS LA PEAU RAPIDEMENT',T2,clamp((t-C('refroidir',2.4))/0.3),'vert',40);},
+// 3 — eau courante tempérée ~20 °C
+(c,t,d)=>{const [B,b]=sdb(t,true);brasSousEau(b,t);ambiance(b,[LAMPE(760,300,1.1,1500)],'#6a6e78');show(c,B,camAt(t,d,{x:700,y:1000,z:1.2},{x:720,y:990,z:1.32}));grade(c,t);
+  tag(c,'EAU COURANTE TEMPÉRÉE',T1,clamp((t-C('courante',0.8))/0.3),'vert');picto(c,'robinet',W/2+300,1220,0.8,clamp((t-C('vingt',2.2))/0.3),'oui');tag(c,'ENVIRON 20 °C',T2,clamp((t-C('vingt',2.2))/0.3),'vert',44);},
+// 4 — pendant 20 minutes
+(c,t,d)=>{const [B,b]=sdb(t,true);brasSousEau(b,t);ambiance(b,[LAMPE(760,300,1.1,1500)],'#6a6e78');show(c,B,{x:720,y:990,z:1.32});grade(c,t);
+  const k=seg(t,0.3,d);c.save();c.translate(W/2+280,1180);c.fillStyle='rgba(8,11,16,0.85)';c.beginPath();c.arc(0,0,120,0,TAU);c.fill();c.strokeStyle=PAL.vert;c.lineWidth=14;c.beginPath();c.arc(0,0,100,-Math.PI/2,-Math.PI/2+TAU*k);c.stroke();
+  c.font='900 54px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText('20',0,-8);c.font='800 26px M';c.fillText('MIN',0,34);c.restore();
+  tag(c,'CONTINUE PENDANT 20 MINUTES',T1,clamp((t-C('continue',0.2))/0.3),'vert');tag(c,'TANT QUE LA PERSONNE NE SE REFROIDIT PAS',T2,clamp((t-C('tant',2.0))/0.3),'jaune',32);},
+// 5 — seulement la zone brûlée, le reste au chaud
+(c,t,d)=>{darkBg(c);kicker(c,'REFROIDIR, MAIS PAS TOUT LE CORPS',300,1);const a=clamp((t-C('chaud',2.4))/0.4);corps(c,W/2,940,1.15,{brasD:'rgba(90,170,255,0.9)',corps:`rgba(255,150,60,${0.18+0.6*a})`,brasG:`rgba(255,150,60,${0.18+0.6*a})`,tete:`rgba(255,150,60,${0.18+0.6*a})`});
+  tag(c,'SEULEMENT LA ZONE BRÛLÉE',420,clamp((t-C('zone',1.0))/0.3),'vert',44);tag(c,'LE RESTE DU CORPS AU CHAUD',1520-160,a,'jaune',40);grade(c,t,{vig:0.5});},
+// 6 — ni glace, ni beurre, ni remède maison
+(c,t,d)=>{planche(c,t,t,[['glace','non',C('glace',0.8)-0.2,'glace'],['beurre','non',C('beurre',1.4)-0.2,'beurre'],['remede','non',C('remede',2.2)-0.2,'remède']],{kicker:'À NE JAMAIS FAIRE',cols:3,s:0.95,y:880});},
+// 7 — protéger avec un linge propre et sec
+(c,t,d)=>{const [B,b]=sdb(t,false);acteur(b,'heros',620,820,210,{look:0.7,ex:{eye:0.6,brow:0.1,mouth:0},near:{to:[900,1060],hand:'open',ang:0.1},far:{to:[900,1000],hand:'grip',bend:1}},
+  {after:f=>{const k=ease(seg(t,C('protege',1.0)-0.2,C('protege',1.0)+0.8));f.save();f.globalAlpha=k;f.fillStyle='#f4f6f8';f.beginPath();f.roundRect(760,1000,160,74,24);f.fill();f.strokeStyle='#c8d0d8';f.lineWidth=4;f.beginPath();f.moveTo(780,1020);f.lineTo(900,1030);f.moveTo(780,1050);f.lineTo(900,1056);f.stroke();f.restore();}});
+  ambiance(b,[LAMPE(760,300,1.1,1500)],'#6a6e78');show(c,B,{x:760,y:1000,z:1.3});grade(c,t);tag(c,'UNE FOIS REFROIDIE',T1,clamp((t-0.1)/0.3),'sombre');tag(c,'UN LINGE PROPRE ET SEC',T2,clamp((t-C('linge',2.2))/0.3),'vert',44);},
+// 8 — brûlure grave : 112
+(c,t,d)=>{darkBg(c);kicker(c,'AIDE URGENTE',300,1);const r='rgba(229,57,53,0.95)';const a1=clamp((t-C('visage',2.6))/0.3);
+  corps(c,W/2-150,960,0.95,{tete:a1>0?r:undefined,cou:clamp((t-C('cou',3.6))/0.3)>0?r:undefined,mains:clamp((t-C('mains',3.2))/0.3)>0?r:undefined});
+  tag(c,'PROFONDE OU ÉTENDUE',420,clamp((t-C('profonde',0.8))/0.3),'rouge',42);picto(c,'secours',W/2+260,960,1.0,clamp((t-C('appelle',5.0))/0.3),'oui');tag(c,'APPELLE LE 112',1300,clamp((t-C('appelle',5.0))/0.3),'vert',48);},
+// 9 — enfant de moins de 5 ans
+(c,t,d)=>{planche(c,t,t,[['moins5','',0.2,'moins de 5 ans'],['secours','oui',C('appelle2',1.8)-0.2,'les secours']],{kicker:'CHEZ UN JEUNE ENFANT',y:860});},
+// 10 — une vidéo ne remplace pas les secours
+(c,t,d)=>{planche(c,t,t,[['video','non',0.3,'une vidéo'],['secours','oui',C('instructions',2.2)-0.2,'les secours']],{kicker:'IMPORTANT',y:860});tag(c,'SUIS LES INSTRUCTIONS DES SECOURS',1250,clamp((t-C('instructions',2.2))/0.3),'vert',38);},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Eau courante ~20 °C pendant 20 min',PAL.vert],['Ni glace, ni beurre, ni remède maison',PAL.rouge],['Puis un linge propre et sec',PAL.vert],['Grave ou enfant < 5 ans : 112',PAL.rouge]]),
+];
+</script></body></html>

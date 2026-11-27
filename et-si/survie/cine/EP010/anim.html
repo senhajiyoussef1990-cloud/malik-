@@ -1,0 +1,56 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP010 — « Et si tu saignais du nez sans réussir à l’arrêter ? » — texte : kits-90s-lot-01.json, source ameli.fr */
+['arrière','gorge','abondant','malaise','traumatisme','persiste'].forEach(w=>RED_W.add(w));
+['assieds-toi','penche','avant','bouche','pince','maintiens','minuterie','recommence','consulte','112'].forEach(w=>GREEN_W.add(w));
+ICO.mouchoir=c=>{c.fillStyle='#f4f6f8';c.beginPath();c.moveTo(-70,-60);c.lineTo(70,-60);c.lineTo(80,60);c.lineTo(-80,60);c.closePath();c.fill();c.strokeStyle='#c8d0d8';c.lineWidth=4;c.beginPath();c.moveTo(-60,-20);c.quadraticCurveTo(0,0,60,-20);c.stroke();
+  c.fillStyle='#d33';c.beginPath();c.roundRect(20,-100,100,50,12);c.fill();c.font='900 30px M';c.fillStyle='#fff';c.textAlign='center';c.textBaseline='middle';c.fillText('12 h',70,-74);};
+ICO.relance=c=>{ICO.minuterie(c);c.strokeStyle=PAL.vert;c.lineWidth=10;c.beginPath();c.arc(0,8,96,-2.4,1.2);c.stroke();c.fillStyle=PAL.vert;c.beginPath();c.moveTo(34,96);c.lineTo(64,70);c.lineTo(70,104);c.closePath();c.fill();};
+const U=230;
+function salon(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false,nuit:false});return [B,b];}
+function goutte(b,T,x,y,a){if(a<=0)return;const ph=(T*0.9)%1;b.fillStyle=`rgba(170,20,20,${0.9*a*(1-ph)})`;b.beginPath();b.ellipse(x,y+ph*60,7,10,0,0,TAU);b.fill();}
+// assis sur une chaise, vu de côté (regarde à droite) ; lean : + en avant
+function assis(b,T,x,y,o={}){const u=o.u||U;b.fillStyle='#5a3d2a';b.fillRect(x-0.9*u,y+2.6*u,1.6*u,0.18*u);b.fillRect(x-0.9*u,y+0.6*u,0.2*u,2.2*u);b.fillRect(x-0.8*u,y+2.7*u,0.14*u,1.6*u);b.fillRect(x+0.55*u,y+2.7*u,0.14*u,1.6*u);
+  const R=acteur(b,'heros',x,y,u,{lean:o.lean||0,look:0.8,ex:o.ex||{eye:0.7,brow:0.2,mouth:o.bouche?0.5:0.1},near:o.near||{to:[x+0.9*u,y+2.3*u],hand:'rest'},far:{to:[x+0.4*u,y+2.4*u],bend:-1}});
+  b.fillStyle=rgb(PERSOS.heros.pants);b.beginPath();b.roundRect(x-0.5*u,y+2.45*u,1.6*u,0.5*u,0.2*u);b.fill();b.beginPath();b.roundRect(x+0.9*u,y+2.6*u,0.45*u,1.8*u,0.2*u);b.fill();
+  return R;}
+function nezDe(R,x,y,u){return R.rot([x+0.49*u,y-0.6*u]);}
+function pince(x,y,u,lean=0.12){return {to:[x+0.98*u,y-0.44*u],hand:'grip',ang:Math.PI-0.15};}
+const AMB=b=>ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#55555e');
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,0.2,0.8));const x=660,y=900;const R=acteur(b,'heros',x,y,U,{look:0.8,ex:{eye:0.8,brow:0.5*k,mouth:0.2},near:{to:[lerp(x+0.9*U,x+0.66*U,k),lerp(y+1.6*U,y-0.44*U,k)],hand:'open',ang:-2.6},far:{bend:-1}});
+  goutte(b,t,x+0.5*U,y-0.46*U,1-k*0.3);AMB(b);accroche(c,t,d,B,camAt(t,d,{x:720,y:880,z:1.45},{x:730,y:860,z:1.6}),['tu saignais du nez','sans réussir à l’arrêter ?']);},
+// 2 — saignement léger, sans traumatisme : s'asseoir
+(c,t,d)=>{const [B,b]=salon(t);assis(b,t,640,820);AMB(b);show(c,B,{x:720,y:1150,z:1.0});grade(c,t);tag(c,'PEU ABONDANT, SANS TRAUMATISME',T1,clamp((t-C('abondant',1.2))/0.3),'jaune',38);tag(c,'ASSIEDS-TOI',T2,clamp((t-C('assieds',2.6))/0.3),'vert',48);},
+// 3 — tête légèrement en avant, respirer par la bouche
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,C('penche',0.2),C('penche',0.2)+0.8));const R=assis(b,t,640,820,{lean:0.14*k,bouche:t>C('bouche',2.4)});AMB(b);show(c,B,{x:760,y:1000,z:1.3});grade(c,t);
+  tag(c,'TÊTE LÉGÈREMENT EN AVANT',T1,clamp((t-C('penche',0.2))/0.3),'vert');tag(c,'RESPIRE PAR LA BOUCHE',T2,clamp((t-C('bouche',2.4))/0.3),'vert',44);},
+// 4 — ne pas basculer la tête en arrière
+(c,t,d)=>{const [B,b]=salon(t);b.save();b.globalAlpha=0.45;assis(b,t,640,820,{lean:-0.28*ease(seg(t,0.2,0.9))});b.restore();AMB(b);show(c,B,{x:760,y:1000,z:1.3});grade(c,t);c.save();camXf(c,{x:760,y:1000,z:1.3});xMark(c,640,560,110,seg(t,0.9,1.2));c.restore();
+  tag(c,'NE BASCULE PAS LA TÊTE EN ARRIÈRE',T1,clamp((t-0.1)/0.3),'rouge',38);tag(c,'LE SANG COULERAIT DANS LA GORGE',T2,clamp((t-C('gorge',3.0))/0.3),'rouge',36);},
+// 5 — pincer la partie souple, sous l'os
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,0.2,0.8));const x=640,y=820;const R=assis(b,t,x,y,{lean:0.14,bouche:true,near:{to:[lerp(x+0.9*U,x+0.98*U,k),lerp(y+2.3*U,y-0.44*U,k)],hand:'grip',ang:lerp(-0.6,Math.PI-0.15,k)}});AMB(b);
+  const cam={x:700,y:620,z:2.1};show(c,B,cam);grade(c,t);const n=nezDe(R,x,y,U);c.save();camXf(c,cam);const a=clamp((t-C('os',2.4))/0.3);c.globalAlpha=a;c.strokeStyle=PAL.etsi;c.lineWidth=5;c.beginPath();c.moveTo(n[0]-6,n[1]-24);c.lineTo(n[0]-60,n[1]-110);c.stroke();
+  c.font='800 26px M';c.fillStyle=PAL.blanc;c.textAlign='right';c.fillText('juste sous l’os',n[0]-64,n[1]-116);c.restore();tag(c,'PINCE LA PARTIE SOUPLE DU NEZ',T1,clamp((t-C('pince',0.2))/0.3),'vert',40);},
+// 6 — 10 minutes sans interruption, minuterie
+(c,t,d)=>{const [B,b]=salon(t);const x=640,y=820;assis(b,t,x,y,{lean:0.14,bouche:true,near:pince(x,y,U)});AMB(b);show(c,B,{x:760,y:1000,z:1.3});grade(c,t);
+  const k=seg(t,0.3,d);c.save();c.translate(W/2+280,1200);c.fillStyle='rgba(8,11,16,0.85)';c.beginPath();c.arc(0,0,120,0,TAU);c.fill();c.strokeStyle=PAL.vert;c.lineWidth=14;c.beginPath();c.arc(0,0,100,-Math.PI/2,-Math.PI/2+TAU*k);c.stroke();
+  c.font='900 54px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText('10',0,-8);c.font='800 26px M';c.fillText('MIN',0,34);c.restore();
+  tag(c,'10 MINUTES SANS INTERRUPTION',T1,clamp((t-C('dix',1.4))/0.3),'vert',40);tag(c,'UTILISE UNE MINUTERIE',T2,clamp((t-C('minuterie',3.2))/0.3),'vert',42);},
+// 7 — si ça saigne encore : recommencer 10 minutes
+(c,t,d)=>planche(c,t,t,[['relance','oui',C('recommence',1.4)-0.2,'encore 10 minutes']],{kicker:'ÇA SAIGNE ENCORE ?',y:820,s:1.8}),
+// 8 — consulter si ça persiste
+(c,t,d)=>planche(c,t,t,[['hopital','oui',C('consulte',0.2)-0.1,'consulte']],{kicker:'SI LE SAIGNEMENT PERSISTE',y:820,s:1.8}),
+// 9 — signes graves : 112
+(c,t,d)=>{planche(c,t,t,[['telephone','oui',C('appelle',3.6)-0.3,'112']],{kicker:'SIGNES GRAVES',y:760,s:1.8});tag(c,'SAIGNEMENT ABONDANT',1120,clamp((t-C('abondant2',1.0))/0.3),'rouge',40);
+  tag(c,'MALAISE',1210,clamp((t-C('malaise',1.8))/0.3),'rouge',40);tag(c,'TRAUMATISME GRAVE',1300,clamp((t-C('traumatisme',2.6))/0.3),'rouge',40);},
+// 10 — après : ne pas se moucher 12 heures
+(c,t,d)=>{planche(c,t,t,[['mouchoir','non',C('moucher',1.8)-0.2,'pas de mouchage']],{kicker:'APRÈS UN SAIGNEMENT BÉNIN',y:820,s:1.8});tag(c,'PENDANT 12 HEURES',1250,clamp((t-C('douze',2.6))/0.3),'jaune',44);},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Assis, tête légèrement en avant',PAL.vert],['Jamais la tête en arrière',PAL.rouge],['Pince 10 minutes, avec une minuterie',PAL.vert],['Abondant, malaise, traumatisme : 112',PAL.rouge]]),
+];
+</script></body></html>

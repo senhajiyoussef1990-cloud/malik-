@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP008 — « Et si ton enfant avalait une pile bouton ? » — texte : kits-90s-lot-02.json, source centreantipoisons.be */
+['pile','manquante','avalée','œsophage','endommager','vomissement','nourriture','graves'].forEach(w=>RED_W.add(w));
+['urgences','urgente','112','radiographie','hors','portée','range','vérifie'].forEach(w=>GREEN_W.add(w));
+ICO.vomir=c=>{c.fillStyle=rgb(PERSOS.enfant.skin);c.beginPath();c.arc(0,0,70,0,TAU);c.fill();c.fillStyle='#3a1712';c.beginPath();c.ellipse(0,30,24,16,0,0,TAU);c.fill();c.fillStyle='#222';c.beginPath();c.arc(-24,-14,8,0,TAU);c.arc(24,-14,8,0,TAU);c.fill();};
+ICO.pomme=c=>{c.fillStyle='#d33a3a';c.beginPath();c.arc(-24,10,52,0,TAU);c.arc(24,10,52,0,TAU);c.fill();c.fillStyle='#6a4a2a';c.fillRect(-4,-60,8,30);c.fillStyle='#4a9a3a';c.beginPath();c.ellipse(20,-50,24,12,-0.5,0,TAU);c.fill();};
+ICO.jouet=c=>{c.fillStyle='#e8a020';c.beginPath();c.roundRect(-80,-50,160,100,20);c.fill();c.fillStyle='#3c8fd0';c.beginPath();c.arc(-40,60,24,0,TAU);c.arc(40,60,24,0,TAU);c.fill();c.strokeStyle='#5a3a10';c.lineWidth=5;c.strokeRect(-30,-30,60,40);c.fillStyle='#5a3a10';c.beginPath();c.arc(0,-10,6,0,TAU);c.fill();};
+ICO.avis=c=>{c.fillStyle='#1a1e26';c.beginPath();c.roundRect(-60,-96,120,192,18);c.fill();c.font='900 70px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText('?',0,-10);c.fillStyle=PAL.vert;c.beginPath();c.arc(0,56,18,0,TAU);c.fill();};
+function telecommande(b,x,y,s,ouverte,T){b.save();b.translate(x,y);b.scale(s,s);b.rotate(-0.3);b.fillStyle='#222';b.beginPath();b.roundRect(-50,-140,100,280,26);b.fill();for(let i=0;i<8;i++){b.fillStyle='#555';b.beginPath();b.arc(-18+(i%2)*36,-100+(i>>1)*36,11,0,TAU);b.fill();}
+  b.fillStyle='#111';b.beginPath();b.arc(0,80,34,0,TAU);b.fill();if(!ouverte){b.fillStyle='#8a8e94';b.beginPath();b.arc(0,80,30,0,TAU);b.fill();}else{b.strokeStyle=PAL.rouge;b.lineWidth=5;b.setLineDash([8,6]);b.beginPath();b.arc(0,80,30,0,TAU);b.stroke();b.setLineDash([]);
+    b.fillStyle='#2a2a2a';b.beginPath();b.roundRect(70,40,90,90,14);b.fill();}b.restore();}
+function salon(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false,nuit:false});b.fillStyle='#6a4a32';b.fillRect(300,1380,700,40);b.fillStyle='#5a3d2a';b.fillRect(330,1420,40,140);b.fillRect(930,1420,40,140);return [B,b];}
+// coupe gorge + œsophage, pile coincée qui abîme les tissus
+function oesophage(c,T,k){c.save();c.translate(W/2-40,1000);c.strokeStyle='rgba(245,245,245,0.85)';c.lineWidth=7;c.lineJoin='round';
+  c.beginPath();c.moveTo(-260,-420);c.bezierCurveTo(-320,-640,40,-760,170,-560);c.lineTo(240,-430);c.lineTo(210,-380);c.lineTo(250,-300);c.lineTo(200,-250);c.lineTo(205,-180);c.bezierCurveTo(200,-120,120,-110,90,-60);c.lineTo(90,380);c.moveTo(-200,380);c.lineTo(-200,-80);c.bezierCurveTo(-200,-220,-280,-300,-260,-420);c.stroke();
+  c.fillStyle='rgba(230,150,120,0.16)';c.strokeStyle='rgba(230,150,120,0.85)';c.lineWidth=5;c.beginPath();c.roundRect(-150,-130,80,520,30);c.fill();c.stroke();c.fillStyle='rgba(120,190,255,0.12)';c.strokeStyle='rgba(120,190,255,0.6)';c.beginPath();c.roundRect(-10,-130,80,520,30);c.fill();c.stroke();
+  const y=lerp(-300,60,ease(clamp(k*1.5)));c.fillStyle=lg(c,-140,0,-80,0,[[0,'#8a8e94'],[0.5,'#f0f2f4'],[1,'#7a7e84']]);c.beginPath();c.ellipse(-110,y,32,12,0,0,TAU);c.fill();
+  const g=seg(k,0.6,1);if(g>0){c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,-110,y,4,40+90*g,[[0,`rgba(255,90,40,${0.85*g})`],[1,'rgba(255,60,30,0)']]);c.beginPath();c.arc(-110,y,40+90*g,0,TAU);c.fill();c.restore();}
+  c.restore();lab(c,'œsophage',W/2-360,1300,clamp(k*3),'#f0b080','left',34);}
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const [B,b]=salon(t);telecommande(b,640,1330,0.8,true,t);acteur(b,'enfant',900,1120,150,{look:0.5,ex:{eye:0.7,brow:0.1,mouth:0.1},near:{to:[900+0.4*150,1120-0.4*150],hand:'grip',ang:-2.2}},{mirror:true});ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#55555e');
+  accroche(c,t,d,B,camAt(t,d,{x:780,y:1100,z:1.3},{x:790,y:1100,z:1.42}),['ton enfant avalait','une pile bouton ?']);},
+// 2 — télécommande ouverte, pile manquante
+(c,t,d)=>{const cut=clamp(C('suspectes',3.0)-0.2,1.2,d-1);const [B,b]=salon(t);telecommande(b,640,1330,0.8,true,t);acteur(b,'enfant',900,1120,150,{look:0.5,ex:{eye:0.7,brow:0.1,mouth:0.1},near:{bend:1},far:{bend:-1}},{mirror:true});
+  ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#55555e');show(c,B,t<cut?{x:660,y:1300,z:2.4}:camAt(t-cut,d-cut,{x:820,y:1100,z:1.4},{x:860,y:1000,z:1.7}));grade(c,t);
+  tag(c,'UNE PILE MANQUE',T1,clamp((t-C('manquante',1.8))/0.3),'rouge',46);tag(c,'TU SUSPECTES QU’IL L’A AVALÉE',T2,clamp((t-C('suspectes',3.0))/0.3),'rouge',38);},
+// 3 — même s'il semble aller bien
+(c,t,d)=>{const [B,b]=salon(t);acteur(b,'enfant',760,1100,160,{look:0.6,ex:{eye:0.7,brow:0,mouth:0},near:{to:[760+1.3*160,1100+1.2*160+Math.sin(t*4)*20],hand:'grip'}});
+  b.save();b.translate(760+1.3*160,1100+1.2*160+Math.sin(t*4)*20+40);b.scale(0.5,0.5);ICO.jouet(b);b.restore();ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#55555e');show(c,B,{x:780,y:1080,z:1.25});grade(c,t);
+  tag(c,'MÊME S’IL SEMBLE ALLER BIEN',T1,clamp((t-0.1)/0.3),'sombre',40);tag(c,'ÉVALUATION URGENTE',T2,clamp((t-C('urgente',2.4))/0.3),'rouge',46);},
+// 4 — la pile abîme l'œsophage très vite
+(c,t,d)=>{darkBg(c);kicker(c,'POURQUOI C’EST URGENT',300,1);oesophage(c,t,seg(t,0.2,d-0.3));tag(c,'COINCÉE DANS L’ŒSOPHAGE',420,clamp((t-C('oesophage',1.4))/0.3),'rouge',42);tag(c,'TISSUS ABÎMÉS TRÈS VITE',510,clamp((t-C('endommager',2.4))/0.3),'rouge',42);grade(c,t,{vig:0.5});},
+// 5 — partir aux urgences sans attendre
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{porte1:0.9});const k=ease(seg(t,0.2,d));acteur(b,'heros',lerp(1000,620,k),880,200,{lean:0.05,look:1,ex:{eye:0.8,brow:0.5,mouth:0.1},near:{to:[lerp(1000,620,k)+0.5*200,880+2.0*200],hand:'grip'}},{mirror:true});
+  acteur(b,'enfant',lerp(1120,760,k),1180,130,{look:1,ex:{eye:0.7,brow:0.2,mouth:0},far:{to:[lerp(1120,760,k)-0.2*130,1180+1.0*130],hand:'grip',bend:-1}},{mirror:true});ambiance(b,[LAMPE(710,240,1,1400)],'#40404c');
+  show(c,B,{x:760,y:1100,z:1.1});grade(c,t);tag(c,'PARS IMMÉDIATEMENT AUX URGENCES',T1,clamp((t-C('pars',0.1))/0.3),'vert',38);tag(c,'N’ATTENDS PAS DE SYMPTÔMES',T2,clamp((t-C('attends',2.0))/0.3),'rouge',40);},
+// 6 — signes graves : 112
+(c,t,d)=>{planche(c,t,t,[['telephone','oui',C('appelle',2.8)-0.3,'112']],{kicker:'SIGNES GRAVES',y:800,s:1.8});tag(c,'RESPIRE DIFFICILEMENT',1180,clamp((t-C('respire',1.0))/0.3),'rouge',40);tag(c,'SIGNES GRAVES',1270,clamp((t-C('graves',2.2))/0.3),'rouge',40);},
+// 7 — ni vomissement provoqué, ni nourriture
+(c,t,d)=>planche(c,t,t,[['vomir','non',C('vomissement',1.0)-0.2,'faire vomir'],['pomme','non',C('nourriture',2.4)-0.2,'donner à manger']],{kicker:'DE TA PROPRE INITIATIVE',y:860}),
+// 8 — à l'hôpital : radiographie
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'hopital',t);b.save();b.translate(520,700);b.scale(1.6,1.6);ICO.radio(b);b.restore();b.fillStyle=lg(b,500,0,540,0,[[0,'#8a8e94'],[0.5,'#fff'],[1,'#7a7e84']]);b.beginPath();b.ellipse(520,670,22,22,0,0,TAU);b.fill();
+  acteur(b,'heros',960,900,190,{look:0.9,ex:{eye:0.7,brow:0.2,mouth:0},near:{bend:1},far:{bend:-1}},{mirror:true});ambiance(b,[LAMPE(760,300,1.1,1600)],'#5a5a64');show(c,B,{x:740,y:1000,z:1.1});grade(c,t);
+  tag(c,'LOCALISER LA PILE RAPIDEMENT',T1,clamp((t-C('localiser',1.4))/0.3),'vert',40);tag(c,'GÉNÉRALEMENT PAR RADIOGRAPHIE',T2,clamp((t-C('radiographie',3.0))/0.3),'vert',38);},
+// 9 — le miel : seulement sur avis spécialisé, sans retarder
+(c,t,d)=>{planche(c,t,t,[['miel','',C('miel',1.6)-0.2,'miel'],['avis','oui',C('avis',5.0)-0.2,'avis spécialisé']],{kicker:'ET LE MIEL ?',y:860});tag(c,'DÉPEND DE CONDITIONS PRÉCISES',420,clamp((t-C('conditions',3.6))/0.3),'jaune',38);
+  tag(c,'SANS RETARDER LE TRAJET',1250,clamp((t-C('retarder',6.0))/0.3),'rouge',42);},
+// 10 — prévention
+(c,t,d)=>{planche(c,t,t,[['pile','oui',0.3,'piles rangées'],['jouet','oui',C('compartiments',3.4)-0.2,'jouets vérifiés']],{kicker:'PRÉVENTION',y:860});tag(c,'NEUVES ET USAGÉES',1250,clamp((t-C('usagees',1.6))/0.3),'vert',42);},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Pile avalée ? Urgences tout de suite',PAL.rouge],['Gêne respiratoire, signes graves : 112',PAL.rouge],['Pas de vomissement ni de nourriture',PAL.rouge],['Piles hors de portée',PAL.vert]]),
+];
+</script></body></html>

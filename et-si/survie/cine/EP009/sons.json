@@ -1,0 +1,1 @@
+[{"s": 0, "a": 0.5, "type": "hit", "g": 0.35}, {"s": 1, "a": "sang", "type": "coeur_bed", "s2": 8, "a2": "reste", "g": 0.07}, {"s": 2, "a": "pression", "type": "thud", "g": 0.2}, {"s": 4, "a": "appeler", "type": "bip", "g": 0.12}, {"s": 6, "a": 1.2, "type": "hit", "g": 0.25}, {"s": 7, "a": "augmente", "type": "thud", "g": 0.15, "n": 2, "gap": 1.0}]

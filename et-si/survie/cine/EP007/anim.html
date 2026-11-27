@@ -1,0 +1,54 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP007 — « Et si tu sentais une odeur de gaz chez toi ? » — texte : kits-90s-lot-02.json, source sibelga.be */
+['gaz','étincelle','interrupteur','sonnette','électrique','fume','briquet','allumette','danger'].forEach(w=>RED_W.add(w));
+['ouvre','ferme','quitte','préviens','appelle','112','européen'].forEach(w=>GREEN_W.add(w));
+ICO.prise=c=>{c.fillStyle='#f2f0ea';c.beginPath();c.roundRect(-70,-70,140,140,20);c.fill();c.fillStyle='#d8d6d0';c.beginPath();c.arc(0,0,48,0,TAU);c.fill();c.fillStyle='#333';c.beginPath();c.arc(-18,0,9,0,TAU);c.arc(18,0,9,0,TAU);c.fill();};
+ICO.cigarette=c=>{c.fillStyle='#f2f0ea';c.fillRect(-90,-14,140,28);c.fillStyle='#d89040';c.fillRect(-90,-14,40,28);c.fillStyle='#ff6a20';c.fillRect(50,-14,16,28);c.strokeStyle='rgba(200,200,210,0.7)';c.lineWidth=5;c.beginPath();c.moveTo(66,-20);c.quadraticCurveTo(90,-50,70,-80);c.stroke();};
+ICO.allumette=c=>{c.save();c.rotate(-0.6);c.fillStyle='#e6c08a';c.fillRect(-8,-60,16,130);c.fillStyle='#c0302a';c.beginPath();c.ellipse(0,-66,14,18,0,0,TAU);c.fill();c.fillStyle='#ffb020';c.beginPath();c.moveTo(0,-120);c.quadraticCurveTo(20,-90,0,-76);c.quadraticCurveTo(-20,-90,0,-120);c.fill();c.restore();};
+ICO.lampe=c=>{c.fillStyle='#333';c.beginPath();c.roundRect(-30,-20,60,100,12);c.fill();c.fillStyle='#555';c.beginPath();c.moveTo(-46,-20);c.lineTo(46,-20);c.lineTo(30,-60);c.lineTo(-30,-60);c.closePath();c.fill();c.fillStyle='rgba(255,240,170,0.6)';c.beginPath();c.moveTo(-30,-60);c.lineTo(30,-60);c.lineTo(70,-120);c.lineTo(-70,-120);c.closePath();c.fill();};
+ICO.europe=c=>{c.fillStyle='#1f4aa8';c.beginPath();c.arc(0,0,100,0,TAU);c.fill();c.fillStyle='#ffd23a';for(let i=0;i<12;i++){const a=i/12*TAU;c.beginPath();c.arc(Math.cos(a)*70,Math.sin(a)*70,8,0,TAU);c.fill();}c.font='900 50px M';c.fillStyle='#fff';c.textAlign='center';c.textBaseline='middle';c.fillText('112',0,2);};
+// ondes de gaz (invisibles en vrai : on les montre en vert pâle)
+function ondes(b,T,x,y,a,w=500){if(a<=0)return;b.save();b.globalAlpha=a;b.strokeStyle='rgba(150,220,150,0.55)';b.lineWidth=8;b.lineCap='round';for(let i=0;i<7;i++){const ph=(T*0.4+i/7)%1;const yy=y-ph*500,xx=x+(i-3)*w/7;
+  b.globalAlpha=a*Math.sin(Math.PI*ph);b.beginPath();for(let k=0;k<=20;k++){const u=k/20;const px=xx+Math.sin(u*6+T*2+i)*24,py=yy-u*120;k?b.lineTo(px,py):b.moveTo(px,py);}b.stroke();}b.restore();}
+function cuisine(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'cuisine',T);return [B,b];}
+function renifle(b,T,x,y,u,k){acteur(b,'heros',x,y,u,{look:0.7,ex:{eye:0.6+0.3*k,brow:0.6*k,mouth:0.1},near:{to:[x+0.8*u,y-0.38*u],hand:'point',ang:-2.4},far:{bend:-1}});}
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const [B,b]=cuisine(t);ondes(b,t,760,1160,0.8);renifle(b,t,480,860,200,ease(seg(t,0.2,1.0)));ambiance(b,[LAMPE(735,700,0.9),LUNE(200,700)]);accroche(c,t,d,B,camAt(t,d,{x:640,y:960,z:1.3},{x:650,y:950,z:1.42}),['tu sentais une odeur','de gaz chez toi ?']);},
+// 2 — odeur inhabituelle : prendre au sérieux
+(c,t,d)=>{const [B,b]=cuisine(t);ondes(b,t,760,1160,0.6+0.3*seg(t,0,d));renifle(b,t,480,860,200,1);ambiance(b,[LAMPE(735,700,0.9),LUNE(200,700)]);show(c,B,camAt(t,d,{x:700,y:1040,z:1.1},{x:680,y:1000,z:1.25}));grade(c,t);
+  tag(c,'UNE ODEUR INHABITUELLE',T1,clamp((t-C('odeur',0.5))/0.3),'rouge');tag(c,'PRENDS L’ALERTE AU SÉRIEUX',T2,clamp((t-C('serieux',3.2))/0.3),'rouge',40);},
+// 3 — l'étincelle
+(c,t,d)=>{darkBg(c);kicker(c,'LE DANGER',300,1);const B=buf('g',W,H),b=B.getContext('2d');ondes(b,t,W/2,1300,0.9,800);c.drawImage(B,0,0);const ts=C('etincelle',2.2);const k=seg(t,ts,ts+0.25);
+  c.save();c.translate(W/2,1000);c.scale(1.6,1.6);ICO.interrupteur(c);c.restore();if(k>0){c.save();c.globalCompositeOperation='lighter';c.strokeStyle=`rgba(255,240,150,${1-k})`;c.lineWidth=6;for(let i=0;i<8;i++){const a=i/8*TAU;c.beginPath();c.moveTo(W/2+Math.cos(a)*30,1000+Math.sin(a)*30);c.lineTo(W/2+Math.cos(a)*(60+120*k),1000+Math.sin(a)*(60+120*k));c.stroke();}
+    const f=seg(t,ts+0.2,ts+1.0);c.fillStyle=`rgba(255,140,40,${0.6*Math.sin(Math.PI*f)})`;c.filter='blur(40px)';c.beginPath();c.arc(W/2,1000,500*f,0,TAU);c.fill();c.restore();}
+  tag(c,'UNE ÉTINCELLE PEUT ENFLAMMER LE GAZ',420,clamp((t-ts)/0.3),'rouge',38);grade(c,t,{vig:0.5});},
+// 4 — ni interrupteur, ni sonnette, ni appareil électrique
+(c,t,d)=>planche(c,t,t,[['interrupteur','non',C('interrupteur',0.8)-0.2,'interrupteur'],['sonnette','non',C('sonnette',1.5)-0.2,'sonnette'],['prise','non',C('appareil',2.2)-0.2,'appareil']],{kicker:'NE TOUCHE À RIEN D’ÉLECTRIQUE',cols:3,s:0.95,y:880}),
+// 5 — ne pas fumer, ni briquet ni allumette
+(c,t,d)=>planche(c,t,t,[['cigarette','non',C('fume',0.6)-0.2,'cigarette'],['briquet','non',C('briquet',1.6)-0.2,'briquet'],['allumette','non',C('allumette',2.3)-0.2,'allumette']],{kicker:'AUCUNE FLAMME',cols:3,s:0.95,y:880}),
+// 6 — ouvrir portes et fenêtres si sans danger
+(c,t,d)=>{const k=ease(seg(t,C('ouvre',0.2),C('ouvre',0.2)+1.2));const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',t,{fenetre:k,radiateur:false});ondes(b,t,255+k*300,1100,0.7*(1-0.5*k));
+  acteur(b,'heros',600,930,190,{look:0.8,ex:{eye:0.7,brow:0.3,mouth:0.1},far:{to:[255+330*0.5,600],hand:'open',bend:1}},{mirror:true});ambiance(b,[LAMPE(760,500,1.0),LUNE(240,600),LAMPE(800,900,0.5,900)],'#46464f');
+  show(c,B,{x:540,y:950,z:1.25});grade(c,t);tag(c,'OUVRE PORTES ET FENÊTRES',T1,clamp((t-C('ouvre',0.2))/0.3),'vert');tag(c,'SI ÇA NE TE MET PAS EN DANGER',T2,clamp((t-C('danger',2.6))/0.3),'jaune',38);},
+// 7 — couper l'arrivée de gaz seulement si accessible sans éclairage
+(c,t,d)=>{planche(c,t,t,[['compteur','oui',C('ferme',0.2)-0.1,'compteur accessible'],['lampe','non',C('eclairage',3.4)-0.2,'sans éclairage']],{kicker:'L’ARRIVÉE DE GAZ',y:860});tag(c,'FERME-LA SEULEMENT SI C’EST ACCESSIBLE',1250,clamp((t-C('seulement',1.4))/0.3),'jaune',34);},
+// 8 — quitter et prévenir sans sonnette
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',t,{});const knock=Math.max(0,Math.sin(t*14))*(t>C('previens',1.6)?1:0);
+  acteur(b,'heros',720,900,210,{look:1,ex:{eye:0.8,brow:0.5,mouth:0.3},near:{to:[1000-knock*20,1100],hand:'grip',ang:0},far:{bend:-1}});ambiance(b,[LAMPE(710,240,1,1400)],'#3e3e4a');show(c,B,{x:800,y:1080,z:1.1});grade(c,t);
+  tag(c,'QUITTE RAPIDEMENT LE BÂTIMENT',T1,clamp((t-C('quitte',0.2))/0.3),'vert');tag(c,'PRÉVIENS LES VOISINS SANS SONNETTE',T2,clamp((t-C('previens',1.6))/0.3),'vert',36);picto(c,'sonnette',W/2+300,1250,0.6,clamp((t-C('sonnette2',2.8))/0.3),'non');},
+// 9 — hors de la zone : urgence gaz ou 112
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'dehors',t,{});acteur(b,'heros',540,1080,230,{look:0.9,ex:{eye:0.8,brow:0.4,mouth:0.3},near:{to:[540+1.45*230,1080+0.6*230],hand:'grip',ang:-1.3},far:{bend:-1}},{after:f=>phone(f,540+1.45*230+Math.cos(-1.3)*0.34*230,1080+0.6*230+Math.sin(-1.3)*0.34*230,-0.12,t,1.2)});
+  ambiance(b,[{x:1220,y:760,r:900,c:'rgba(255,220,160,0.7)'},LUNE(400,400),LAMPE(560,820,0.75,1100)],'#4a4f5c');show(c,B,{x:700,y:1100,z:1.05});grade(c,t);
+  tag(c,'UNE FOIS HORS DE LA ZONE',T1,clamp((t-0.1)/0.3),'sombre');tag(c,'APPELLE L’URGENCE GAZ OU LE 112',T2,clamp((t-C('appelle',2.4))/0.3),'vert',38);},
+// 10 — Belgique : numéro régional ; 112 européen
+(c,t,d)=>{darkBg(c);kicker(c,'EN BELGIQUE',300,1);tag(c,'LE NUMÉRO GAZ DÉPEND DE TA RÉGION',420,clamp((t-C('region',1.8))/0.3),'sombre',38);picto(c,'europe',W/2,920,1.5,clamp((t-C('europeen',3.6))/0.3),'oui');
+  tag(c,'112 : NUMÉRO EUROPÉEN D’URGENCE',1250,clamp((t-C('europeen',3.6))/0.3),'vert',40);grade(c,t,{vig:0.45});},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Rien d’électrique, aucune flamme',PAL.rouge],['Ouvre si c’est sans danger',PAL.vert],['Sors et préviens sans sonnette',PAL.vert],['Dehors : urgence gaz ou 112',PAL.vert]]),
+];
+</script></body></html>

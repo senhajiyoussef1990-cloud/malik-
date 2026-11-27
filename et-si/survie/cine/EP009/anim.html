@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP009 — « Et si tu te coupais profondément avec un couteau ? » — texte : kits-90s-lot-01.json, source croix-rouge.fr */
+['profonde','abondamment','sang','soulève','saignement'].forEach(w=>RED_W.add(w));
+['linge','pression','protège','112','allonge','maintiens','augmente','reste','consultation'].forEach(w=>GREEN_W.add(w));
+ICO.gants=c=>{c.fillStyle='#6ab0e0';c.beginPath();c.roundRect(-46,-20,92,100,20);c.fill();for(let i=0;i<4;i++){c.beginPath();c.roundRect(-44+i*24,-90,20,80,10);c.fill();}c.beginPath();c.ellipse(-60,10,16,34,-0.5,0,TAU);c.fill();};
+ICO.chrono=c=>{ICO.minuterie(c);};
+const PEAU=PERSOS.heros;
+// gros plan : avant-bras et main gauche posés sur le plan de travail, plaie stylisée ; o.linge, o.appui (0..1), o.leve
+function gros(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'cuisine',T,{plaques:false});b.fillStyle='#c9b48a';b.fillRect(200,1150,900,46);
+  const u=330;limbDraw(b,[-300,1500],[150,1260],[640,1120],u,PEAU,true,'open',-0.05);
+  // plaie : trait rouge sombre, quelques gouttes si ça saigne
+  if(!o.linge||o.leve){b.strokeStyle='#8a1a1a';b.lineWidth=10;b.lineCap='round';b.beginPath();b.moveTo(560,1100);b.lineTo(640,1090);b.stroke();
+    if(o.sang){for(let i=0;i<3;i++){const ph=(T*0.8+i/3)%1;b.fillStyle=`rgba(150,20,20,${0.9*(1-ph)})`;b.beginPath();b.arc(600+i*14,1110+ph*70,7,0,TAU);b.fill();}}}
+  if(o.linge){const up=o.leve?Math.sin(Math.PI*clamp(o.leve))*90:0;b.save();b.translate(0,-up);b.fillStyle='#f4f6f8';b.beginPath();b.roundRect(520,1050,170,96,24);b.fill();b.fillStyle='rgba(170,30,30,0.35)';b.beginPath();b.ellipse(600,1105,30,14,0,0,TAU);b.fill();b.restore();
+    const ap=o.appui??1;limbDraw(b,[1500,700],[1150,860],[700+(1-ap)*30,1040-(1-ap)*40-up],u,PEAU,true,'open',2.9);}
+  return [B,b];}
+function auSol(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'cuisine',T,{plaques:false});b.fillStyle='#2a2420';b.fillRect(0,1350,WB,H);
+  const u=170,nx=360,ny=1560;painted(b,f=>{f.save();f.translate(nx,ny);f.rotate(-Math.PI/2);figure(f,0,0,u,{look:0.3,ex:{eye:0.6,brow:0.4,mouth:0.1},legs:true,near:{to:[-0.9*u,1.2*u],hand:'open',ang:3.3},far:{to:[-0.3*u,2.2*u],bend:-1}},PERSOS.ami);f.restore();},LT(u,0.7));
+  const arm=[nx+1.2*u,ny+0.9*u];b.fillStyle='#f4f6f8';b.beginPath();b.roundRect(arm[0]-50,arm[1]-34,100,60,16);b.fill();
+  const sx=arm[0]+0.4*u,sy=ny-2.25*u;painted(b,f=>{f.save();f.translate(2*sx,0);f.scale(-1,1);const mx=x=>2*sx-x;const R=figure(f,sx,sy,u,{lean:0.25,look:0.9,ex:{eye:0.8,brow:0.4,mouth:0.1},defer:true,near:{to:[mx(arm[0]),arm[1]-20],hand:'open',ang:1.6},far:{to:[mx(arm[0])+10,arm[1]-26],hand:'open',ang:1.6,bend:-1}},PERSOS.heros);drawArm(f,R.far,u,PERSOS.heros,false);drawArm(f,R.near,u,PERSOS.heros,true);f.restore();},LT(u));
+  if(o.temoin)acteur(b,'femme',1180,1000,150,{look:1,ex:{eye:0.8,brow:0.5,mouth:0.3},near:{to:[1180+1.45*150,1000+0.6*150],hand:'grip',ang:-1.3}},{mirror:true,after:f=>phone(f,1180+1.45*150+Math.cos(-1.3)*0.34*150,1000+0.6*150+Math.sin(-1.3)*0.34*150,-0.12,T,0.8)});
+  return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(735,700,1.0),LAMPE(500,900,0.5,900),LUNE(200,700)],'#4a4a52');
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'cuisine',t,{plaques:false});b.fillStyle='#c9b48a';b.fillRect(300,1150,700,46);const k=ease(seg(t,0.3,0.8));
+  acteur(b,'heros',520,840,200,{look:0.7,ex:{eye:0.6+0.4*k,brow:0.9*k,mouth:0.5*k},near:{to:[800,1110],hand:'grip',ang:0.1},far:{to:[lerp(720,600,k),lerp(1130,1000,k)],hand:'open',bend:1}},{after:f=>{f.save();f.translate(830,1100);f.rotate(0.1);f.scale(0.9,0.9);ICO.couteau(f);f.restore();}});
+  AMB(b);accroche(c,t,d,B,camAt(t,d,{x:700,y:980,z:1.3},{x:710,y:970,z:1.42}),['tu te coupais profondément','avec un couteau ?']);},
+// 2 — évaluer vite ; si ça saigne beaucoup, agir
+(c,t,d)=>{const [B,b]=gros(t,{sang:t>C('sang',2.4)-0.3});AMB(b);show(c,B,{x:640,y:1110,z:1.5});grade(c,t);tag(c,'PLAIE PROFONDE : À ÉVALUER VITE',T1,clamp((t-0.2)/0.3),'rouge',38);tag(c,'SI ÇA SAIGNE BEAUCOUP : AGIS',T2,clamp((t-C('sang',2.4))/0.3),'rouge',38);},
+// 3 — linge propre + pression directe
+(c,t,d)=>{const ap=ease(seg(t,C('pression',2.0)-0.3,C('pression',2.0)+0.3));const [B,b]=gros(t,{linge:true,appui:ap});AMB(b);show(c,B,{x:660,y:1080,z:1.5});grade(c,t);
+  c.save();camXf(c,{x:660,y:1080,z:1.5});dashArrow(c,[[610,880],[610,1010]],ap,PAL.vert,10);c.restore();tag(c,'UN LINGE PROPRE SUR LA PLAIE',T1,clamp((t-C('linge',0.8))/0.3),'vert',40);tag(c,'APPUIE FORT, DIRECTEMENT',T2,clamp((t-C('pression',2.0))/0.3),'vert',42);},
+// 4 — si tu aides : protège tes mains, sans retarder
+(c,t,d)=>{planche(c,t,t,[['gants','oui',C('protege',1.4)-0.2,'protège tes mains'],['chrono','non',C('retarder',3.0)-0.2,'sans retarder']],{kicker:'SI TU AIDES QUELQU’UN',y:860});tag(c,'SI POSSIBLE',1250,clamp((t-C('possible',2.2))/0.3),'jaune',42);},
+// 5 — faire appeler le 112
+(c,t,d)=>{const [B,b]=auSol(t,{temoin:true});AMB(b);show(c,B,{x:760,y:1200,z:1.05});grade(c,t);tag(c,'FAIS APPELER LE 112',T1,clamp((t-C('appeler',1.4))/0.3),'vert',44);tag(c,'SI LE SAIGNEMENT EST IMPORTANT',T2,clamp((t-C('important',2.8))/0.3),'rouge',36);},
+// 6 — allonger, maintenir la pression
+(c,t,d)=>{const [B,b]=auSol(t,{});AMB(b);show(c,B,camAt(t,d,{x:620,y:1300,z:1.15},{x:640,y:1330,z:1.3}));grade(c,t);tag(c,'ALLONGE LA VICTIME',T1,clamp((t-C('allonge',0.2))/0.3),'vert');tag(c,'MAINTIENS LA PRESSION',T2,clamp((t-C('maintiens',1.4))/0.3),'vert');},
+// 7 — ne pas soulever le linge
+(c,t,d)=>{const lv=seg(t,0.4,1.4);const [B,b]=gros(t,{linge:true,leve:lv});AMB(b);show(c,B,{x:660,y:1080,z:1.5});grade(c,t);c.save();camXf(c,{x:660,y:1080,z:1.5});xMark(c,600,960,80,seg(t,1.2,1.5));c.restore();
+  tag(c,'NE SOULÈVE PAS LE LINGE',T1,clamp((t-C('souleve',0.4))/0.3),'rouge');tag(c,'POUR VÉRIFIER SANS CESSE',T2,clamp((t-C('verifier',1.6))/0.3),'rouge',40);},
+// 8 — ça coule encore : appuyer plus, suivre les secours
+(c,t,d)=>{const ap=0.6+0.4*Math.abs(Math.sin(t*2));const [B,b]=gros(t,{linge:true,appui:ap});AMB(b);show(c,B,{x:660,y:1080,z:1.5});grade(c,t);c.save();camXf(c,{x:660,y:1080,z:1.5});dashArrow(c,[[560,860],[560,1010]],1,PAL.vert,12);dashArrow(c,[[660,860],[660,1010]],1,PAL.vert,12);c.restore();
+  tag(c,'APPUIE ENCORE PLUS FORT',T1,clamp((t-C('augmente',1.6))/0.3),'vert');tag(c,'SUIS LES INSTRUCTIONS DES SECOURS',T2,clamp((t-C('instructions',3.0))/0.3),'vert',36);},
+// 9 — rester auprès de la victime
+(c,t,d)=>{const [B,b]=auSol(t,{});AMB(b);show(c,B,{x:620,y:1300,z:1.15});grade(c,t);tag(c,'RESTE AUPRÈS DE LA VICTIME',T1,clamp((t-C('reste',0.2))/0.3),'vert');tag(c,'JUSQU’À L’ARRIVÉE DES SECOURS',T2,clamp((t-C('arrivee',1.6))/0.3),'vert',38);},
+// 10 — même si ça s'arrête : consulter
+(c,t,d)=>{planche(c,t,t,[['hopital','oui',C('consultation',2.6)-0.2,'consultation urgente']],{kicker:'MÊME SI LE SAIGNEMENT CESSE',y:820,s:1.8});tag(c,'COUPURE PROFONDE',1250,clamp((t-C('coupure',1.6))/0.3),'rouge',44);},
+// 11 — fin
+(c,t,d)=>fin(c,t,d,[['Linge propre + pression directe',PAL.vert],['Saignement important : 112',PAL.rouge],['Allonge et ne soulève pas le linge',PAL.vert],['Coupure profonde : consulte vite',PAL.vert]]),
+];
+</script></body></html>

@@ -103,7 +103,7 @@ function picto(c, name, x, y, s, a, etat = '', T = 0){if(a <= 0)return;c.save();
   c.restore();}
 // planche de pictogrammes : items = [[nom, état, apparition (s), légende]]
 function planche(c, t, T, items, o = {}){darkBg(c);if(o.kicker)kicker(c, o.kicker, 300, clamp(t / 0.3));const n = items.length, cols = Math.min(n, o.cols || (n > 2 ? 2 : n)), rows = Math.ceil(n / cols);
-  items.forEach(([nom, etat, t0, leg], i) => {const col = i % cols, row = Math.floor(i / cols);const x = W / 2 + (col - (cols - 1) / 2) * (cols > 1 ? 450 : 0), y = (o.y || 860) + (row - (rows - 1) / 2) * 430;
+  items.forEach(([nom, etat, t0, leg], i) => {const col = i % cols, row = Math.floor(i / cols);const x = W / 2 + (col - (cols - 1) / 2) * (cols > 2 ? 320 : cols > 1 ? 450 : 0), y = (o.y || 860) + (row - (rows - 1) / 2) * 430;
     const a = clamp((t - (t0 || 0)) / 0.3);picto(c, nom, x, y, o.s || 1.55, a, etat, T);
     if(leg && a > 0){c.save();c.globalAlpha = a;c.font = '800 40px M';c.fillStyle = PAL.blanc;c.textAlign = 'center';c.fillText(leg, x, y + 235);c.restore();}});
   grade(c, T, {vig: 0.45});}
