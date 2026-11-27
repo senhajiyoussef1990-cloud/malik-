@@ -1,0 +1,777 @@
+{
+ "episode": 1,
+ "id": "EP001",
+ "slug": "casserole-huile-feu",
+ "voice": [
+  "fr-FR-RemyMultilingualNeural"
+ ],
+ "rate": "+2%",
+ "duration": 79.0,
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "dur": 4.0,
+   "voix": "s01.mp3",
+   "voix_dur": 2.208
+  },
+  {
+   "scene": 2,
+   "start": 4.0,
+   "dur": 7.5,
+   "voix": "s02.mp3",
+   "voix_dur": 5.136
+  },
+  {
+   "scene": 3,
+   "start": 11.5,
+   "dur": 7.5,
+   "voix": "s03.mp3",
+   "voix_dur": 5.856
+  },
+  {
+   "scene": 4,
+   "start": 19.0,
+   "dur": 7.5,
+   "voix": "s04.mp3",
+   "voix_dur": 3.984
+  },
+  {
+   "scene": 5,
+   "start": 26.5,
+   "dur": 7.5,
+   "voix": "s05.mp3",
+   "voix_dur": 3.96
+  },
+  {
+   "scene": 6,
+   "start": 34.0,
+   "dur": 7.5,
+   "voix": "s06.mp3",
+   "voix_dur": 4.056
+  },
+  {
+   "scene": 7,
+   "start": 41.5,
+   "dur": 7.5,
+   "voix": "s07.mp3",
+   "voix_dur": 3.744
+  },
+  {
+   "scene": 8,
+   "start": 49.0,
+   "dur": 7.5,
+   "voix": "s08.mp3",
+   "voix_dur": 2.952
+  },
+  {
+   "scene": 9,
+   "start": 56.5,
+   "dur": 7.5,
+   "voix": "s09.mp3",
+   "voix_dur": 5.64
+  },
+  {
+   "scene": 10,
+   "start": 64.0,
+   "dur": 7.5,
+   "voix": "s10.mp3",
+   "voix_dur": 4.176
+  },
+  {
+   "scene": 11,
+   "start": 71.5,
+   "dur": 7.5,
+   "voix": "s11.mp3",
+   "voix_dur": 6.36
+  }
+ ],
+ "captions": [
+  {
+   "s": 4.336,
+   "toks": [
+    {
+     "w": "Tu",
+     "k": false
+    },
+    {
+     "w": "cuisines",
+     "k": false
+    },
+    {
+     "w": "tranquillement.",
+     "k": false
+    }
+   ],
+   "e": 6.039
+  },
+  {
+   "s": 6.039,
+   "toks": [
+    {
+     "w": "Soudain,",
+     "k": false
+    },
+    {
+     "w": "des",
+     "k": false
+    },
+    {
+     "w": "flammes",
+     "k": true
+    },
+    {
+     "w": "apparaissent",
+     "k": false
+    }
+   ],
+   "e": 7.828
+  },
+  {
+   "s": 7.828,
+   "toks": [
+    {
+     "w": "au-dessus",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "casserole.",
+     "k": true
+    }
+   ],
+   "e": 10.428
+  },
+  {
+   "s": 11.836,
+   "toks": [
+    {
+     "w": "Ton",
+     "k": false
+    },
+    {
+     "w": "premier",
+     "k": false
+    },
+    {
+     "w": "réflexe",
+     "k": false
+    },
+    {
+     "w": "pourrait",
+     "k": false
+    },
+    {
+     "w": "être",
+     "k": false
+    }
+   ],
+   "e": 13.478
+  },
+  {
+   "s": 13.478,
+   "toks": [
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "prendre",
+     "k": false
+    },
+    {
+     "w": "un",
+     "k": false
+    },
+    {
+     "w": "verre",
+     "k": false
+    },
+    {
+     "w": "d’eau.",
+     "k": false
+    }
+   ],
+   "e": 14.924
+  },
+  {
+   "s": 14.924,
+   "toks": [
+    {
+     "w": "Pourtant,",
+     "k": false
+    },
+    {
+     "w": "ce",
+     "k": false
+    },
+    {
+     "w": "serait",
+     "k": false
+    },
+    {
+     "w": "une",
+     "k": false
+    },
+    {
+     "w": "erreur",
+     "k": false
+    }
+   ],
+   "e": 16.542
+  },
+  {
+   "s": 16.542,
+   "toks": [
+    {
+     "w": "dangereuse.",
+     "k": false
+    }
+   ],
+   "e": 18.95
+  },
+  {
+   "s": 19.336,
+   "toks": [
+    {
+     "w": "Au",
+     "k": false
+    },
+    {
+     "w": "contact",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "l’huile",
+     "k": false
+    },
+    {
+     "w": "enflammée,",
+     "k": false
+    },
+    {
+     "w": "l’eau",
+     "k": false
+    }
+   ],
+   "e": 21.382
+  },
+  {
+   "s": 21.382,
+   "toks": [
+    {
+     "w": "peut",
+     "k": false
+    },
+    {
+     "w": "projeter",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "feu",
+     "k": true
+    },
+    {
+     "w": "autour",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "toi.",
+     "k": false
+    }
+   ],
+   "e": 23.982
+  },
+  {
+   "s": 26.848,
+   "toks": [
+    {
+     "w": "Ne",
+     "k": false
+    },
+    {
+     "w": "transporte",
+     "k": false
+    },
+    {
+     "w": "surtout",
+     "k": false
+    },
+    {
+     "w": "pas",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "casserole",
+     "k": true
+    }
+   ],
+   "e": 28.735
+  },
+  {
+   "s": 28.735,
+   "toks": [
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "ne",
+     "k": false
+    },
+    {
+     "w": "tente",
+     "k": false
+    },
+    {
+     "w": "pas",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "combattre",
+     "k": false
+    }
+   ],
+   "e": 29.752
+  },
+  {
+   "s": 29.752,
+   "toks": [
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "flammes.",
+     "k": true
+    }
+   ],
+   "e": 32.352
+  },
+  {
+   "s": 34.3,
+   "toks": [
+    {
+     "w": "Coupe",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "source",
+     "k": false
+    },
+    {
+     "w": "de",
+     "k": false
+    },
+    {
+     "w": "chaleur",
+     "k": true
+    },
+    {
+     "w": "seulement",
+     "k": false
+    }
+   ],
+   "e": 36.028
+  },
+  {
+   "s": 36.028,
+   "toks": [
+    {
+     "w": "si",
+     "k": false
+    },
+    {
+     "w": "tu",
+     "k": false
+    },
+    {
+     "w": "peux",
+     "k": false
+    },
+    {
+     "w": "atteindre",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "commande",
+     "k": false
+    },
+    {
+     "w": "sans",
+     "k": false
+    }
+   ],
+   "e": 37.45
+  },
+  {
+   "s": 37.45,
+   "toks": [
+    {
+     "w": "risque.",
+     "k": false
+    }
+   ],
+   "e": 40.05
+  },
+  {
+   "s": 41.836,
+   "toks": [
+    {
+     "w": "Quitte",
+     "k": true
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "cuisine",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "ferme",
+     "k": false
+    },
+    {
+     "w": "la",
+     "k": false
+    },
+    {
+     "w": "porte",
+     "k": true
+    }
+   ],
+   "e": 43.551
+  },
+  {
+   "s": 43.551,
+   "toks": [
+    {
+     "w": "derrière",
+     "k": false
+    },
+    {
+     "w": "toi",
+     "k": false
+    },
+    {
+     "w": "si",
+     "k": false
+    },
+    {
+     "w": "cela",
+     "k": false
+    },
+    {
+     "w": "est",
+     "k": true
+    },
+    {
+     "w": "sûr.",
+     "k": false
+    }
+   ],
+   "e": 46.151
+  },
+  {
+   "s": 49.348,
+   "toks": [
+    {
+     "w": "Avertis",
+     "k": true
+    },
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "autres",
+     "k": false
+    },
+    {
+     "w": "occupants",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "quitte",
+     "k": true
+    }
+   ],
+   "e": 51.235
+  },
+  {
+   "s": 51.235,
+   "toks": [
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "logement.",
+     "k": false
+    }
+   ],
+   "e": 53.835
+  },
+  {
+   "s": 56.848,
+   "toks": [
+    {
+     "w": "Appelle",
+     "k": false
+    },
+    {
+     "w": "les",
+     "k": false
+    },
+    {
+     "w": "pompiers",
+     "k": false
+    },
+    {
+     "w": "depuis",
+     "k": false
+    },
+    {
+     "w": "un",
+     "k": false
+    },
+    {
+     "w": "endroit",
+     "k": false
+    }
+   ],
+   "e": 58.404
+  },
+  {
+   "s": 58.404,
+   "toks": [
+    {
+     "w": "sûr.",
+     "k": false
+    }
+   ],
+   "e": 59.348
+  },
+  {
+   "s": 59.348,
+   "toks": [
+    {
+     "w": "Dans",
+     "k": false
+    },
+    {
+     "w": "l’Union",
+     "k": false
+    },
+    {
+     "w": "européenne,",
+     "k": false
+    },
+    {
+     "w": "compose",
+     "k": false
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "112.",
+     "k": true
+    }
+   ],
+   "e": 61.948
+  },
+  {
+   "s": 64.3,
+   "toks": [
+    {
+     "w": "Pour",
+     "k": false
+    },
+    {
+     "w": "éviter",
+     "k": false
+    },
+    {
+     "w": "cet",
+     "k": false
+    },
+    {
+     "w": "accident,",
+     "k": false
+    },
+    {
+     "w": "ne",
+     "k": false
+    },
+    {
+     "w": "laisse",
+     "k": false
+    }
+   ],
+   "e": 66.273
+  },
+  {
+   "s": 66.273,
+   "toks": [
+    {
+     "w": "jamais",
+     "k": true
+    },
+    {
+     "w": "une",
+     "k": false
+    },
+    {
+     "w": "cuisson",
+     "k": false
+    },
+    {
+     "w": "sans",
+     "k": false
+    },
+    {
+     "w": "surveillance.",
+     "k": false
+    }
+   ],
+   "e": 68.873
+  },
+  {
+   "s": 71.836,
+   "toks": [
+    {
+     "w": "Maintenant,",
+     "k": false
+    },
+    {
+     "w": "tu",
+     "k": false
+    },
+    {
+     "w": "sais",
+     "k": false
+    },
+    {
+     "w": "quoi",
+     "k": false
+    },
+    {
+     "w": "faire.",
+     "k": false
+    }
+   ],
+   "e": 74.005
+  },
+  {
+   "s": 74.005,
+   "toks": [
+    {
+     "w": "Mais",
+     "k": false
+    },
+    {
+     "w": "tes",
+     "k": false
+    },
+    {
+     "w": "proches",
+     "k": true
+    },
+    {
+     "w": "le",
+     "k": false
+    },
+    {
+     "w": "savent-ils ?",
+     "k": false
+    }
+   ],
+   "e": 75.77
+  },
+  {
+   "s": 75.77,
+   "toks": [
+    {
+     "w": "Partage",
+     "k": true
+    },
+    {
+     "w": "cette",
+     "k": false
+    },
+    {
+     "w": "vidéo",
+     "k": false
+    },
+    {
+     "w": "et",
+     "k": false
+    },
+    {
+     "w": "abonne-toi.",
+     "k": true
+    }
+   ],
+   "e": 78.37
+  }
+ ],
+ "cues": {
+  "soudain": 2.039,
+  "pourtant": 3.424,
+  "combattre": 2.848,
+  "coupe": 0.3,
+  "seulement": 1.452,
+  "ferme": 1.377,
+  "quitte": 2.002,
+  "112": 4.858,
+  "partage": 4.27,
+  "abonne": 5.618
+ }
+}
