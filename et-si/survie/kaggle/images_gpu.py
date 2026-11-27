@@ -8,7 +8,7 @@ P = json.loads(r'''__PROMPTS__''')
 MODEL = P.get("_modele", "SG161222/RealVisXL_V4.0")
 pipe = StableDiffusionXLPipeline.from_pretrained(MODEL, torch_dtype=torch.float16, variant="fp16", use_safetensors=True)
 pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
-pipe.to("cuda"); pipe.enable_vae_tiling()
+pipe.to("cuda")
 NEG = P.get("_negatif", "")
 os.makedirs("/kaggle/working/images", exist_ok=True)
 for st, style in P["_styles"].items():
