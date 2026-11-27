@@ -7,7 +7,7 @@ const W=1080,H=1920,TAU=Math.PI*2;
 let TITRE='Et si ?';function setTitre(t){if(t)TITRE=t;}
 // signature de la série (même phrase que voix.py : SIGNATURE)
 const SIGNATURE='Saurais-tu comment réagir ?';
-const PAL={noir:'#080B10',nuit:'#101C2C',anth:'#252B33',rouge:'#E53935',vert:'#22C55E',blanc:'#F5F5F5'};
+const PAL={etsi:'#FF9F1C',noir:'#080B10',nuit:'#101C2C',anth:'#252B33',rouge:'#E53935',vert:'#22C55E',blanc:'#F5F5F5'};
 const cv=document.getElementById('c');cv.width=W;cv.height=H;const ctx=cv.getContext('2d');
 let CUES={},CAPS=[],DRAFT=true;function setCues(c){CUES=c;}function CUE(k,d){return CUES[k]!=null?CUES[k]:d;}function setCaptions(c){CAPS=c;}function setDraft(b){DRAFT=b;}
 function mulberry(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
@@ -216,12 +216,12 @@ function glassOfWater(c,x,y,s=1){c.save();c.translate(x,y);c.scale(s,s);c.fillSt
   c.fillStyle=lg(c,0,-110,0,0,[[0,'rgba(120,180,230,0.55)'],[1,'rgba(80,140,200,0.75)']]);c.beginPath();c.moveTo(-37,-110);c.lineTo(37,-110);c.lineTo(32,-4);c.lineTo(-32,-4);c.closePath();c.fill();c.fillStyle='rgba(255,255,255,0.45)';c.fillRect(-28,-160,6,150);c.restore();}
 
 /* ================= HABILLAGE ================= */
-function marks(c){c.save();c.font='600 26px M';c.fillStyle='rgba(245,245,245,0.62)';c.textAlign='left';c.textBaseline='alphabetic';{let fs=26;c.font=`600 ${fs}px M`;while(c.measureText(TITRE).width>640&&fs>18){fs--;c.font=`600 ${fs}px M`;}c.fillText(TITRE,60,210);c.font='600 26px M';}
+function marks(c){c.save();c.font='600 26px M';c.fillStyle='rgba(245,245,245,0.62)';c.textAlign='left';c.textBaseline='alphabetic';{let fs=26;c.font=`600 ${fs}px M`;while(c.measureText(TITRE).width>640&&fs>18){fs--;c.font=`600 ${fs}px M`;}const m=TITRE.match(/^(et si)(.*)$/i);if(m){c.font=c.font.replace('600','800');c.fillStyle=PAL.etsi;c.fillText(m[1],60,210);const w=c.measureText(m[1]).width;c.font=c.font.replace('800','600');c.fillStyle='rgba(245,245,245,0.62)';c.fillText(m[2],60+w,210);}else c.fillText(TITRE,60,210);c.font='600 26px M';}
   c.textAlign='right';c.fillText('SIMULATION',W-60,210);if(DRAFT){c.font='700 22px M';c.fillStyle='rgba(229,57,53,0.9)';c.fillText('PROTOTYPE · NON VALIDÉ',W-60,244);}c.restore();}
 function tag(c,s,y,a,kind='rouge',size=40){if(a<=0)return;const bg={rouge:'rgba(229,57,53,0.95)',vert:'rgba(34,197,94,0.95)',sombre:'rgba(8,11,16,0.82)',jaune:'rgba(250,204,21,0.96)'}[kind];c.save();c.globalAlpha=a;let fs=size;c.font=`800 ${fs}px M`;c.letterSpacing='4px';while(c.measureText(s).width>940&&fs>22){fs-=2;c.font=`800 ${fs}px M`;}
   const w=c.measureText(s).width+64,yy=y+(1-eout(a))*14;c.fillStyle=bg;c.fillRect(W/2-w/2,yy-fs*0.9,w,fs*1.8);c.fillStyle=kind==='jaune'?'#14161a':PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText(s,W/2,yy+2);c.restore();}
-function title(c,kicker,lines,a,y=330,fs=78){if(a<=0)return;c.save();c.globalAlpha=a;c.textAlign='center';c.textBaseline='middle';c.font='800 34px M';c.letterSpacing='12px';c.fillStyle='rgba(245,245,245,0.9)';c.fillText(kicker,W/2+6,y);c.letterSpacing='0px';
-  c.fillStyle=PAL.rouge;c.fillRect(W/2-46,y+36,92,6);c.font=`800 ${fs}px M`;c.fillStyle=PAL.blanc;c.shadowColor='rgba(0,0,0,0.8)';c.shadowBlur=24;lines.forEach((l,i)=>c.fillText(l,W/2,y+135+i*fs*1.18));c.restore();}
+function title(c,kicker,lines,a,y=330,fs=78){if(a<=0)return;c.save();c.globalAlpha=a;c.textAlign='center';c.textBaseline='middle';c.font='900 58px M';c.letterSpacing='10px';c.fillStyle=PAL.etsi;c.shadowColor='rgba(0,0,0,0.75)';c.shadowBlur=18;c.fillText(kicker,W/2+5,y-14);c.shadowBlur=0;c.letterSpacing='0px';
+  c.fillStyle=PAL.rouge;c.fillRect(W/2-46,y+42,92,6);c.font=`800 ${fs}px M`;c.fillStyle=PAL.blanc;c.shadowColor='rgba(0,0,0,0.8)';c.shadowBlur=24;lines.forEach((l,i)=>c.fillText(l,W/2,y+135+i*fs*1.18));c.restore();}
 const RED_W=new Set(['feu','fumer','fumer…','flammes','jamais','eau','boule','danger']),GREEN_W=new Set(['coupe','sors','112','couvercle']);
 function captions(c,T){const cp=CAPS.find(x=>T>=x.s&&T<x.e);if(!cp)return;const k=clamp((T-cp.s)/0.12);c.save();c.globalAlpha=k;c.font='800 60px M';c.textBaseline='middle';c.lineJoin='round';
   const sp=c.measureText(' ').width;const lines=[[]];let lw=0;for(const tk of cp.toks){const w=c.measureText(tk.w).width;if(lw+w>860&&lines[lines.length-1].length){lines.push([]);lw=0;}lines[lines.length-1].push({w:tk.w,width:w});lw+=w+sp;}
