@@ -228,6 +228,7 @@ function captions(c,T){const cp=CAPS.find(x=>T>=x.s&&T<x.e);if(!cp)return;const 
   lines.slice(0,2).forEach((ln,i,arr)=>{const tot=ln.reduce((s,x)=>s+x.width,0)+sp*(ln.length-1);let x=W/2-tot/2;const y=1520+(i-(arr.length-1)/2)*76;
     for(const tk of ln){const bare=tk.w.toLowerCase().replace(/[^a-zàâçéèêëîïôûùüÿ0-9…]/g,'');const col=RED_W.has(bare)?PAL.rouge:GREEN_W.has(bare)?PAL.vert:PAL.blanc;c.textAlign='left';c.lineWidth=12;c.strokeStyle='rgba(0,0,0,0.92)';c.strokeText(tk.w,x,y);c.fillStyle=col;c.fillText(tk.w,x,y);x+=tk.width+sp;}});c.restore();}
 // rendu d'une image : SCENES[si](c, t local, durée, T global)
-function render(T,si,lt,dur){ctx.setTransform(1,0,0,1,0,0);ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';ctx.filter='none';ctx.clearRect(0,0,W,H);
+let TNOW=0;
+function render(T,si,lt,dur){TNOW=T;ctx.setTransform(1,0,0,1,0,0);ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';ctx.filter='none';ctx.clearRect(0,0,W,H);
   ctx.save();SCENES[si](ctx,lt,dur,T);ctx.restore();marks(ctx);captions(ctx,T);return cv.toDataURL('image/jpeg',0.93);}
 window.READY=document.fonts.load('800 74px M').then(()=>document.fonts.load('600 26px M')).then(()=>true);

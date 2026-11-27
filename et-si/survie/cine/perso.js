@@ -40,7 +40,11 @@ function limbDraw(c, S, E, W, u, col, front, hand, hang){const k = front ? 1 : 0
 function armOf(c, S, A, u, col, front, defAng){if(!A)return null;let W0, bend = A.bend ?? 1;
   if(A.to)W0 = A.to; else W0 = [S[0]+(front?0.3:0.05)*u, S[1]+2.05*u];
   const r = ik(S, W0, ARM_A*u, ARM_B*u, bend);const hang = A.ang ?? r.fa;return {S, ...r, hand:A.hand||'rest', hang};}
-function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
+// vie au repos : respiration, petits mouvements de tête, clignements (déterministe, propre à chaque personnage)
+function vie(x, u, col){const t = (typeof TNOW !== 'undefined' ? TNOW : 0), sd = (col.skin[0]*7 + col.shirt[1]*3) % 97 / 97;
+  const br = Math.sin(t*2*Math.PI/3.6 + sd*6);const per = 3.2 + sd*1.6, ph = ((t + sd*per) % per);const blink = ph < 0.12 ? 1 - Math.abs(ph - 0.06)/0.06 : 0;
+  return {br, blink, nod: Math.sin(t*0.9 + sd*5)*0.025 + Math.sin(t*2.3 + sd*3)*0.01};}
+function figure(c, x, y, u, p = {}, col = MAN){const V = p.calme === false ? {br:0, blink:0, nod:0} : vie(x, u, col);y += V.br*0.025*u;const lean = (p.lean||0) + V.br*0.006;c.save();
   // repère du corps (rotation autour du bassin)
   const piv = [x, y+2.6*u];const rot = (q)=>{const dx = q[0]-piv[0], dy = q[1]-piv[1], cs = Math.cos(lean), sn = Math.sin(lean);return [piv[0]+dx*cs-dy*sn, piv[1]+dx*sn+dy*cs];};
   const nk = rot([x, y]), T0 = clamp(p.turn ?? TOURNE), sN = rot([x+lerp(0.5, 0.66, T0)*u, y+lerp(0.38, 0.34, T0)*u]), sF = rot([x-lerp(0.34, 0.66, T0)*u, y+lerp(0.3, 0.33, T0)*u]);
@@ -65,7 +69,7 @@ function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
   c.fillStyle = rgb(col.skinD, 1.05);c.beginPath();c.roundRect(x-0.16*u, y-0.28*u, 0.34*u, 0.38*u, 0.1*u);c.fill();
   c.fillStyle = rgb(col.shirtD, 0.8);c.beginPath();c.ellipse(x+0.02*u, y+0.02*u, 0.24*u, 0.08*u, 0, 0, Math.PI);c.fill();
   c.restore();
-  const hc = rot([x+lerp(0.04, 0.01, clamp(p.turn ?? TOURNE))*u+(p.headDX||0)*u, y-0.72*u]);head2(c, hc[0], hc[1], u, p.ex||{}, p.look??0.6, col, p.tilt||0, p.turn ?? TOURNE);
+  const hc = rot([x+lerp(0.04, 0.01, clamp(p.turn ?? TOURNE))*u+(p.headDX||0)*u, y-0.72*u]);const ex0 = p.ex||{};const exB = V.blink ? {...ex0, eye: Math.min(ex0.eye ?? 0.6, 0.6*(1-V.blink))} : ex0;head2(c, hc[0], hc[1]-V.br*0.012*u, u, exB, p.look??0.6, col, (p.tilt||0) + V.nod, p.turn ?? TOURNE);
   if(far && !p.defer && farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
   if(p.held)p.held(c);
   if(near && !p.defer)limbDraw(c, near.S, near.E, near.W, u, col, true, near.hand, near.hang);
