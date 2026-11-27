@@ -1,0 +1,380 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90 secondes. Ne pas publier avant relecture médicale. Pour EP036 limiter aux situations européennes et vérifier recommandations locales.",
+  "episodes": [
+    {
+      "id": "EP036",
+      "title": "Et si une méduse te piquait pendant une baignade ?",
+      "sources": [
+        "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines",
+        "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures",
+        "https://sante.gouv.fr/prevention-en-sante/preserver-sa-sante/pour-un-ete-sans-soucis/article/pendant-l-ete-gare-aux-piqures-et-aux-morsures",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr"
+      ],
+      "verification": {
+        "status": "Sources institutionnelles consultées; revue médicale indépendante et contrôle de chaque geste avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une méduse te piquait pendant une baignade ?",
+          "subtitle": "Et si une méduse te piquait pendant une baignade ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Accroche plage",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu profites de la mer quand une brûlure soudaine traverse ton bras. Reviens vers le rivage.",
+          "subtitle": "Tu profites de la mer quand une brûlure soudaine traverse ton bras. Reviens vers le rivage.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Sortie mer",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Le contact avec les filaments d’une méduse peut provoquer une douleur très vive et des démangeaisons.",
+          "subtitle": "Le contact avec les filaments d’une méduse peut provoquer une douleur très vive et des démangeaisons.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Douleur bras",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Rince la zone avec de l’eau de mer, sans frictionner la peau.",
+          "subtitle": "Rince la zone avec de l’eau de mer, sans frictionner la peau.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Rinçage eau de mer",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Demande au poste de secours de t’aider à retirer les filaments encore présents avec précaution.",
+          "subtitle": "Demande au poste de secours de t’aider à retirer les filaments encore présents avec précaution.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Sauveteur",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Évite de gratter la zone touchée et n’applique pas d’alcool.",
+          "subtitle": "Évite de gratter la zone touchée et n’applique pas d’alcool.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Pictogramme interdiction",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Observe l’évolution de la réaction. Certaines espèces peuvent provoquer des complications graves.",
+          "subtitle": "Observe l’évolution de la réaction. Certaines espèces peuvent provoquer des complications graves.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Observation",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Si tu as du mal à respirer, demande immédiatement une intervention des secours. Le 112 fonctionne en Europe.",
+          "subtitle": "Si tu as du mal à respirer, demande immédiatement une intervention des secours. Le 112 fonctionne en Europe.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Appel secours",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Même sur le sable, une méduse morte peut encore provoquer une piqûre.",
+          "subtitle": "Même sur le sable, une méduse morte peut encore provoquer une piqûre.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Méduse échouée",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Pour éviter un nouvel accident, renonce à la baignade lorsque les méduses sont nombreuses.",
+          "subtitle": "Pour éviter un nouvel accident, renonce à la baignade lorsque les méduses sont nombreuses.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Drapeau plage",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Logo officiel",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une méduse te piquait pendant une baignade ? #Shorts",
+        "description": "Simulation éducative. Sources : https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures https://sante.gouv.fr/prevention-en-sante/preserver-sa-sante/pour-un-ete-sans-soucis/article/pendant-l-ete-gare-aux-piqures-et-aux-morsures https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr",
+        "social": "Et si une méduse te piquait pendant une baignade ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP037",
+      "title": "Et si tu marchais sur un oursin ?",
+      "sources": [
+        "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines",
+        "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures"
+      ],
+      "verification": {
+        "status": "Sources institutionnelles consultées; revue médicale indépendante et contrôle de chaque geste avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu marchais sur un oursin ?",
+          "subtitle": "Et si tu marchais sur un oursin ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Accroche plage",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu avances pieds nus entre les rochers quand une douleur aiguë te fait retirer ton pied.",
+          "subtitle": "Tu avances pieds nus entre les rochers quand une douleur aiguë te fait retirer ton pied.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Rochers",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Les épines d’un oursin peuvent rester dans la peau et provoquer des douleurs.",
+          "subtitle": "Les épines d’un oursin peuvent rester dans la peau et provoquer des douleurs.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Pied douloureux",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Sors de l’eau pour examiner la zone touchée en sécurité.",
+          "subtitle": "Sors de l’eau pour examiner la zone touchée en sécurité.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Retour plage",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Même si ces piqûres sont généralement bénignes, elles peuvent être suivies d’une infection.",
+          "subtitle": "Même si ces piqûres sont généralement bénignes, elles peuvent être suivies d’une infection.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Schéma épines",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "La Croix-Rouge recommande de retirer les épines accessibles avec une pince à épiler.",
+          "subtitle": "La Croix-Rouge recommande de retirer les épines accessibles avec une pince à épiler.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Pince",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Il faut ensuite désinfecter la zone blessée.",
+          "subtitle": "Il faut ensuite désinfecter la zone blessée.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Désinfection",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Si les symptômes deviennent généraux, une évaluation médicale urgente est nécessaire.",
+          "subtitle": "Si les symptômes deviennent généraux, une évaluation médicale urgente est nécessaire.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Consultation",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Pour te protéger, choisis des chaussures adaptées aux baignades dans les zones rocheuses.",
+          "subtitle": "Pour te protéger, choisis des chaussures adaptées aux baignades dans les zones rocheuses.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Chaussures eau",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Évite de marcher sans protection sur les fonds où vivent les oursins.",
+          "subtitle": "Évite de marcher sans protection sur les fonds où vivent les oursins.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Promenade",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Logo officiel",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu marchais sur un oursin ? #Shorts",
+        "description": "Simulation éducative. Sources : https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures",
+        "social": "Et si tu marchais sur un oursin ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP038",
+      "title": "Et si une vive te piquait le pied ?",
+      "sources": [
+        "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines",
+        "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr"
+      ],
+      "verification": {
+        "status": "Sources institutionnelles consultées; revue médicale indépendante et contrôle de chaque geste avant publication",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une vive te piquait le pied ?",
+          "subtitle": "Et si une vive te piquait le pied ?",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Accroche plage",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Tu marches dans l’eau peu profonde quand une douleur intense surgit sous ton pied.",
+          "subtitle": "Tu marches dans l’eau peu profonde quand une douleur intense surgit sous ton pied.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Plage sable",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "La vive est un poisson qui peut se dissimuler dans le sable. Sa piqûre est particulièrement douloureuse.",
+          "subtitle": "La vive est un poisson qui peut se dissimuler dans le sable. Sa piqûre est particulièrement douloureuse.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Poisson caché",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "La douleur peut être assez forte pour provoquer un malaise. Demande de l’aide aux personnes présentes.",
+          "subtitle": "La douleur peut être assez forte pour provoquer un malaise. Demande de l’aide aux personnes présentes.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Douleur pied",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Rejoins le poste de secours si possible et explique ce qui vient de se passer.",
+          "subtitle": "Rejoins le poste de secours si possible et explique ce qui vient de se passer.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Poste secours",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "La Croix-Rouge recommande de placer la zone touchée dans de l’eau chaude si cela est possible.",
+          "subtitle": "La Croix-Rouge recommande de placer la zone touchée dans de l’eau chaude si cela est possible.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Bassine",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Attention à la température : le traitement ne doit pas provoquer une brûlure supplémentaire.",
+          "subtitle": "Attention à la température : le traitement ne doit pas provoquer une brûlure supplémentaire.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Thermomètre sans chiffre",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "La désinfection de la plaie fait également partie des recommandations.",
+          "subtitle": "La désinfection de la plaie fait également partie des recommandations.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Désinfection",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Consulte rapidement un médecin. En cas de symptômes graves, appelle le 112.",
+          "subtitle": "Consulte rapidement un médecin. En cas de symptômes graves, appelle le 112.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Médecin",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Pour réduire le risque, protège tes pieds lorsque tu marches sur les fonds marins.",
+          "subtitle": "Pour réduire le risque, protège tes pieds lorsque tu marches sur les fonds marins.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Chaussures",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Ambiance marine discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, sans blessure graphique, continuité personnage : Logo officiel",
+          "animation": "Plans variés, gestes soumis à validation, pas de technique improvisée",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une vive te piquait le pied ? #Shorts",
+        "description": "Simulation éducative. Sources : https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr",
+        "social": "Et si une vive te piquait le pied ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
