@@ -34,7 +34,10 @@ jobs:
             echo "::error::Aucune clé Kaggle (KAGGLE_KEY ou KAGGLE_API_TOKEN) dans les secrets"; exit 1; fi
           [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY
           [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
-          pip install -q -U kaggle && kaggle --version && kaggle kernels list --mine --page-size 3
+          pip install -q -U kaggle && kaggle --version
+          OWNER=$(kaggle kernels list --mine --page-size 5 --csv | sed -n '2p' | cut -d, -f1 | cut -d/ -f1)
+          [ -z "$OWNER" ] && OWNER=$KU
+          echo "propriétaire Kaggle : $OWNER"; echo "OWNER=$OWNER" >> "$GITHUB_ENV"
       - name: Envoyer le notebook GPU
         env:
           RECUP: ${{ github.event.inputs.recuperer || 'non' }}
@@ -46,7 +49,7 @@ jobs:
           p = open(os.environ['PROMPTS']).read(); json.loads(p)
           code = open('et-si/survie/kaggle/images_gpu.py').read().replace('__PROMPTS__', p)
           open('k/images.py', 'w').write(code)
-          json.dump({"id": f"{os.environ['KAGGLE_USERNAME']}/{os.environ['SLUG']}", "title": os.environ['SLUG'], "code_file": "images.py",
+          json.dump({"id": f"{os.environ['OWNER']}/{os.environ['SLUG']}", "title": os.environ['SLUG'], "code_file": "images.py",
                      "language": "python", "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
                      "dataset_sources": [], "competition_sources": [], "kernel_sources": []}, open('k/kernel-metadata.json', 'w'))
           PY
@@ -54,9 +57,9 @@ jobs:
       - name: Attendre la fin sur Kaggle
         run: |
           [ -z "$KAGGLE_KEY" ] && unset KAGGLE_KEY; [ -z "$KAGGLE_API_TOKEN" ] && unset KAGGLE_API_TOKEN
-          for i in $(seq 1 100); do S=$(kaggle kernels status "$KAGGLE_USERNAME/$SLUG" 2>&1 | tail -1); echo "$(date +%H:%M) $S"
-            case "$S" in *"Cannot access"*|*denied*) echo "::error::$S"; exit 1;; *COMPLETE*|*complete*) break;; *ERROR*|*error*|*CANCEL*) kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p out || true; tail -50 out/*.log 2>/dev/null; exit 1;; esac; sleep 45; done
-          kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p out; ls -la out out/images || true
+          for i in $(seq 1 100); do S=$(kaggle kernels status "$OWNER/$SLUG" 2>&1 | tail -1); echo "$(date +%H:%M) $S"
+            case "$S" in *"Cannot access"*|*denied*) echo "::error::$S"; exit 1;; *COMPLETE*|*complete*) break;; *ERROR*|*error*|*CANCEL*) kaggle kernels output "$OWNER/$SLUG" -p out || true; tail -50 out/*.log 2>/dev/null; exit 1;; esac; sleep 45; done
+          kaggle kernels output "$OWNER/$SLUG" -p out; ls -la out out/images || true
       - name: Publier sur et-si-sorties
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
