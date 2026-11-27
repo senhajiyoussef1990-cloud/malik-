@@ -23,3 +23,7 @@ Contrôle humain obligatoire avant toute publication.
 - Workflow « Et si ? — EP001 cinéma » : voix edge-tts, rendu parallèle (`render.py --jobs`), MP4 publié dans `et-si-sorties/cine/`.
 
 Publication bloquée tant que la relecture professionnelle n'est pas faite (filigrane « PROTOTYPE · NON VALIDÉ »).
+
+**Voix la plus rapide : Kaggle** (≈ 50 s pour un épisode, une seule voix garantie) :
+`python et-si/moteur/kaggle_voix.py --kit KIT --cues CUES --out DOSSIER -- --voice fr-FR-RemyMultilingualNeural --rate=-2% --tagline-shown …`
+puis `render.py --jobs N`, `audio.py`, `assembler.py` sur la même machine.
