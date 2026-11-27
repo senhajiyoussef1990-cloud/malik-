@@ -37,7 +37,11 @@ function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
   const piv = [x, y+2.6*u];const rot = (q)=>{const dx = q[0]-piv[0], dy = q[1]-piv[1], cs = Math.cos(lean), sn = Math.sin(lean);return [piv[0]+dx*cs-dy*sn, piv[1]+dx*sn+dy*cs];};
   const nk = rot([x, y]), sN = rot([x+0.56*u, y+0.34*u]), sF = rot([x-0.52*u, y+0.32*u]);
   const far = armOf(c, sF, p.far === undefined ? {} : p.far, u, col, false), near = armOf(c, sN, p.near === undefined ? {} : p.near, u, col, true);
-  if(far)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
+  if(far && !p.defer && !p.farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
+  if(p.legs){c.save();const ly = y+3.25*u, L = p.legLen ?? 3.1*u;
+    c.fillStyle = rgb(col.pants || [44, 50, 62], 0.85);c.beginPath();c.roundRect(x-0.5*u, ly-0.2*u, 0.5*u, L, 0.18*u);c.fill();
+    c.fillStyle = rgb(col.pants || [44, 50, 62], 1);c.beginPath();c.roundRect(x+0.02*u, ly-0.2*u, 0.52*u, L, 0.18*u);c.fill();
+    c.fillStyle = '#16181c';c.beginPath();c.roundRect(x-0.52*u, ly+L-0.25*u, 0.66*u, 0.28*u, 0.12*u);c.roundRect(x+0.0*u, ly+L-0.25*u, 0.72*u, 0.3*u, 0.12*u);c.fill();c.restore();}
   // torse
   c.save();c.translate(piv[0], piv[1]);c.rotate(lean);c.translate(-piv[0], -piv[1]);
   c.fillStyle = lg(c, x-0.8*u, 0, x+0.8*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.45, rgb(col.shirt, 1.0)], [1, rgb(col.shirt, 1.1)]]);
@@ -49,9 +53,12 @@ function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
   c.fillStyle = rgb(col.shirtD, 0.8);c.beginPath();c.ellipse(x+0.02*u, y+0.02*u, 0.24*u, 0.08*u, 0, 0, Math.PI);c.fill();
   c.restore();
   const hc = rot([x+0.04*u+(p.headDX||0)*u, y-0.72*u]);head2(c, hc[0], hc[1], u, p.ex||{}, p.look??0.6, col, p.tilt||0);
+  if(far && !p.defer && p.farFront)limbDraw(c, far.S, far.E, far.W, u, col, false, far.hand, far.hang);
   if(p.held)p.held(c);
-  if(near)limbDraw(c, near.S, near.E, near.W, u, col, true, near.hand, near.hang);
-  c.restore();return {near, far};}
+  if(near && !p.defer)limbDraw(c, near.S, near.E, near.W, u, col, true, near.hand, near.hang);
+  c.restore();return {near, far, rot, u, col};}
+// bras différés (p.defer) : à dessiner après un autre personnage, par ex. bras autour de la victime
+function drawArm(c, A, u, col, front = true){if(A)limbDraw(c, A.S, A.E, A.W, u, col, front, A.hand, A.hang);}
 // tête : centre (x,y) ; u = hauteur de tête
 function head2(c, x, y, u, ex, look, col, tilt){const eye = ex.eye ?? 0.6, brow = ex.brow ?? 0, mouth = ex.mouth ?? 0, st = STYLE_TETE;
   c.save();c.translate(x, y);c.rotate(tilt);const s = u*1.3;

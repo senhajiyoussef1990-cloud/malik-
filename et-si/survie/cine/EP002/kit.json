@@ -1,0 +1,60 @@
+{
+ "id": "EP002",
+ "title": "Et si un adulte s’étouffait devant toi ?",
+ "sources": [
+  "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/etouffement"
+ ],
+ "verification": "Source consultée directement le 27 novembre 2026. Relecture professionnelle obligatoire avant publication.",
+ "note": "Texte repris mot pour mot de kits-90s-lot-03.json (EP002) ; fin remplacée par la formule de la série (« … abonne-toi pour plus de conseils »).",
+ "scenes": [
+  {
+   "voix": "Et si un adulte s’étouffait devant toi ?",
+   "visuel": "Illustration non graphique du texte : Et si un adulte s’étouffait devant toi ?"
+  },
+  {
+   "voix": "Pendant un repas, un adulte conscient ne parvient soudain plus à parler ni à tousser.",
+   "visuel": "Illustration non graphique du texte : Pendant un repas, un adulte conscient ne parvient soudain plus à parler ni à tousser."
+  },
+  {
+   "voix": "Ces signes indiquent une obstruction grave. Il faut agir rapidement.",
+   "visuel": "Illustration non graphique du texte : Ces signes indiquent une obstruction grave. Il faut agir rapidement."
+  },
+  {
+   "voix": "Place-toi légèrement derrière lui, sur le côté, et soutiens sa poitrine.",
+   "visuel": "Illustration non graphique du texte : Place-toi légèrement derrière lui, sur le côté, et soutiens sa poitrine."
+  },
+  {
+   "voix": "Incline-le vers l’avant et donne jusqu’à cinq tapes entre les omoplates.",
+   "visuel": "Illustration non graphique du texte : Incline-le vers l’avant et donne jusqu’à cinq tapes entre les omoplates."
+  },
+  {
+   "voix": "Après chaque tape, vérifie si l’obstruction a disparu. Arrête les gestes si elle est levée.",
+   "visuel": "Illustration non graphique du texte : Après chaque tape, vérifie si l’obstruction a disparu. Arrête les gestes si elle est levée."
+  },
+  {
+   "voix": "En cas d’échec, place-toi derrière lui. Positionne ton poing entre son nombril et le bas du sternum.",
+   "visuel": "Illustration non graphique du texte : En cas d’échec, place-toi derrière lui. Positionne ton poing entre son nombril et le bas du sternum."
+  },
+  {
+   "voix": "Saisis ton poing et exerce jusqu’à cinq poussées vers l’intérieur et le haut.",
+   "visuel": "Illustration non graphique du texte : Saisis ton poing et exerce jusqu’à cinq poussées vers l’intérieur et le haut."
+  },
+  {
+   "voix": "Alterne les deux séries si nécessaire. Fais alerter les secours.",
+   "visuel": "Illustration non graphique du texte : Alterne les deux séries si nécessaire. Fais alerter les secours."
+  },
+  {
+   "voix": "S’il perd connaissance, accompagne-le au sol, appelle le 112 et commence la réanimation en suivant les consignes de l’opérateur.",
+   "visuel": "Illustration non graphique du texte : S’il perd connaissance, accompagne-le au sol, appelle le 112 et commence la réanimation en suivant les consignes de l’opérateur."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils.",
+   "visuel": "Logo officiel"
+  }
+ ],
+ "publication": {
+  "titre": "Et si un adulte s’étouffait devant toi ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.croix-rouge.fr/les-gestes-de-premiers-secours/etouffement",
+  "social": "Et si un adulte s’étouffait devant toi ? #EtSi #Prevention"
+ }
+}
