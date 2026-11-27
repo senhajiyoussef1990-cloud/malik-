@@ -24,20 +24,26 @@ function mitt(c, x, y, ang, u, type, col){const s = u;c.save();c.translate(x, y)
   else if(type === 'point'){c.beginPath();c.ellipse(0.16*s, 0, 0.17*s, 0.14*s, 0, 0, TAU);c.fill();c.stroke();c.beginPath();c.roundRect(0.22*s, -0.06*s, 0.24*s, 0.075*s, 0.037*s);c.fill();}
   else {c.beginPath();c.ellipse(0.16*s, 0.02*s, 0.17*s, 0.13*s, 0.2, 0, TAU);c.fill();c.stroke();}
   c.restore();}
-function limbDraw(c, S, E, W, u, col, front, hand, hang){const k = front ? 1 : 0.8;c.lineCap = 'round';c.lineJoin = 'round';
-  // avant-bras puis bras (peau), manche courte par-dessus
-  c.strokeStyle = rgb(col.skin, 0.96*k);c.lineWidth = 0.3*u;c.beginPath();c.moveTo(E[0], E[1]);c.lineTo(W[0], W[1]);c.stroke();
-  c.lineWidth = 0.36*u;c.beginPath();c.moveTo(S[0], S[1]);c.lineTo(E[0], E[1]);c.stroke();
-  const M = [lerp(S[0], E[0], 0.5), lerp(S[1], E[1], 0.5)];c.strokeStyle = rgb(col.shirt, 1.0*k);c.lineWidth = 0.5*u;c.beginPath();c.moveTo(S[0], S[1]);c.lineTo(M[0], M[1]);c.stroke();
-  c.strokeStyle = rgb(col.shirtD, 0.9*k);c.lineWidth = 0.05*u;c.beginPath();const fa = Math.atan2(E[1]-S[1], E[0]-S[0]);c.moveTo(M[0]+Math.cos(fa+1.57)*0.25*u, M[1]+Math.sin(fa+1.57)*0.25*u);c.lineTo(M[0]-Math.cos(fa+1.57)*0.25*u, M[1]-Math.sin(fa+1.57)*0.25*u);c.stroke();
+// segment effilé (largeur w1 -> w2) avec extrémités arrondies
+function taper(c, A, B, w1, w2){const a = Math.atan2(B[1]-A[1], B[0]-A[0]), nx = -Math.sin(a), ny = Math.cos(a);c.beginPath();
+  c.moveTo(A[0]+nx*w1/2, A[1]+ny*w1/2);c.lineTo(B[0]+nx*w2/2, B[1]+ny*w2/2);c.arc(B[0], B[1], w2/2, a+Math.PI/2, a-Math.PI/2, true);c.lineTo(A[0]-nx*w1/2, A[1]-ny*w1/2);c.arc(A[0], A[1], w1/2, a-Math.PI/2, a+Math.PI/2, true);c.closePath();c.fill();}
+function limbDraw(c, S, E, W, u, col, front, hand, hang){const k = front ? 1 : 0.8;
+  // avant-bras (poignet plus fin), bras, puis manche courte en forme d'épaule
+  const sk = (m) => rgb(col.skin, m*k);
+  c.fillStyle = sk(0.96);taper(c, E, W, 0.3*u, 0.23*u);
+  c.fillStyle = sk(0.98);taper(c, S, E, 0.36*u, 0.3*u);
+  const M = [lerp(S[0], E[0], 0.52), lerp(S[1], E[1], 0.52)];const fa = Math.atan2(E[1]-S[1], E[0]-S[0]);
+  c.fillStyle = lg(c, S[0]-Math.sin(fa)*0.25*u, S[1]+Math.cos(fa)*0.25*u, S[0]+Math.sin(fa)*0.25*u, S[1]-Math.cos(fa)*0.25*u, [[0, rgb(col.shirtD, 0.95*k)], [0.55, rgb(col.shirt, 1.04*k)], [1, rgb(col.shirt, 0.92*k)]]);
+  const T = [S[0]-Math.cos(fa)*0.08*u, S[1]-Math.sin(fa)*0.08*u];taper(c, T, M, 0.52*u, 0.42*u);
+  c.strokeStyle = rgb(col.shirtD, 0.8*k);c.lineWidth = 0.035*u;c.lineCap = 'round';c.beginPath();c.moveTo(M[0]+Math.cos(fa+1.57)*0.2*u, M[1]+Math.sin(fa+1.57)*0.2*u);c.lineTo(M[0]-Math.cos(fa+1.57)*0.2*u, M[1]-Math.sin(fa+1.57)*0.2*u);c.stroke();
   mitt(c, W[0], W[1], hang, u, hand, front ? col : {...col, skin:col.skin.map(v=>v*0.85), skinD:col.skinD});}
 function armOf(c, S, A, u, col, front, defAng){if(!A)return null;let W0, bend = A.bend ?? 1;
-  if(A.to)W0 = A.to; else W0 = [S[0]+(front?0.15:-0.1)*u, S[1]+2.2*u];
+  if(A.to)W0 = A.to; else W0 = [S[0]+(front?0.3:0.05)*u, S[1]+2.05*u];
   const r = ik(S, W0, ARM_A*u, ARM_B*u, bend);const hang = A.ang ?? r.fa;return {S, ...r, hand:A.hand||'rest', hang};}
 function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
   // repère du corps (rotation autour du bassin)
   const piv = [x, y+2.6*u];const rot = (q)=>{const dx = q[0]-piv[0], dy = q[1]-piv[1], cs = Math.cos(lean), sn = Math.sin(lean);return [piv[0]+dx*cs-dy*sn, piv[1]+dx*sn+dy*cs];};
-  const nk = rot([x, y]), T0 = clamp(p.turn ?? TOURNE), sN = rot([x+lerp(0.56, 0.66, T0)*u, y+0.34*u]), sF = rot([x-lerp(0.52, 0.66, T0)*u, y+0.33*u]);
+  const nk = rot([x, y]), T0 = clamp(p.turn ?? TOURNE), sN = rot([x+lerp(0.5, 0.66, T0)*u, y+lerp(0.38, 0.34, T0)*u]), sF = rot([x-lerp(0.34, 0.66, T0)*u, y+lerp(0.3, 0.33, T0)*u]);
   // de face, les coudes plient vers l'extérieur (sinon les bras se croisent)
   const flip = A => (A && T0 > 0.5) ? {...A, bend: -(A.bend ?? 1)} : A;
   const far = armOf(c, sF, flip(p.far === undefined ? {} : p.far), u, col, false), near = armOf(c, sN, flip(p.near === undefined ? {} : p.near), u, col, true);
@@ -50,8 +56,10 @@ function figure(c, x, y, u, p = {}, col = MAN){const lean = p.lean||0;c.save();
   // torse
   c.save();c.translate(piv[0], piv[1]);c.rotate(lean);c.translate(-piv[0], -piv[1]);
   c.fillStyle = T0 > 0.5 ? lg(c, x-0.85*u, 0, x+0.85*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.5, rgb(col.shirt, 1.06)], [1, rgb(col.shirtD, 0.95)]]) : lg(c, x-0.8*u, 0, x+0.8*u, 0, [[0, rgb(col.shirtD, 0.95)], [0.45, rgb(col.shirt, 1.0)], [1, rgb(col.shirt, 1.1)]]);
-  c.beginPath();c.moveTo(x-0.22*u, y);c.bezierCurveTo(x-0.6*u, y+0.02*u, x-0.82*u, y+0.12*u, x-0.82*u, y+0.48*u);c.bezierCurveTo(x-0.82*u, y+1.1*u, x-0.6*u, y+1.7*u, x-0.58*u, y+2.3*u);c.lineTo(x-0.6*u, y+3.4*u);c.lineTo(x+0.64*u, y+3.4*u);
-  c.lineTo(x+0.62*u, y+2.3*u);c.bezierCurveTo(x+0.64*u, y+1.7*u, x+0.88*u, y+1.1*u, x+0.86*u, y+0.48*u);c.bezierCurveTo(x+0.86*u, y+0.12*u, x+0.62*u, y+0.02*u, x+0.24*u, y);c.closePath();c.fill();
+  const Q = (a3, f) => lerp(a3, f, T0);c.beginPath();c.moveTo(x-0.22*u, y);
+  c.bezierCurveTo(x-Q(0.5, 0.6)*u, y+0.04*u, x-Q(0.66, 0.82)*u, y+Q(0.16, 0.12)*u, x-Q(0.68, 0.82)*u, y+Q(0.55, 0.48)*u);c.bezierCurveTo(x-Q(0.7, 0.82)*u, y+1.1*u, x-Q(0.56, 0.6)*u, y+1.7*u, x-Q(0.54, 0.58)*u, y+2.3*u);
+  c.lineTo(x-Q(0.56, 0.6)*u, y+3.4*u);c.lineTo(x+Q(0.6, 0.64)*u, y+3.4*u);c.lineTo(x+Q(0.6, 0.62)*u, y+2.3*u);
+  c.bezierCurveTo(x+Q(0.66, 0.64)*u, y+1.7*u, x+Q(0.8, 0.88)*u, y+1.15*u, x+Q(0.74, 0.86)*u, y+Q(0.6, 0.48)*u);c.bezierCurveTo(x+Q(0.7, 0.86)*u, y+Q(0.2, 0.12)*u, x+Q(0.5, 0.62)*u, y+0.04*u, x+0.24*u, y);c.closePath();c.fill();
   c.strokeStyle = 'rgba(0,0,0,0.14)';c.lineWidth = 0.05*u;c.lineCap = 'round';c.beginPath();c.moveTo(x-0.3*u, y+1.2*u);c.quadraticCurveTo(x-0.1*u, y+1.6*u, x-0.32*u, y+2.1*u);c.stroke();
   // cou + col
   c.fillStyle = rgb(col.skinD, 1.05);c.beginPath();c.roundRect(x-0.16*u, y-0.28*u, 0.34*u, 0.38*u, 0.1*u);c.fill();
