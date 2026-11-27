@@ -1,0 +1,475 @@
+{
+  "instructions": "Claude uniquement. Durée cible 90s; narration actuellement courte, enrichir uniquement après vérification documentaire. Validation spécialisée avant publication.",
+  "episodes": [
+    {
+      "id": "EP056",
+      "title": "Et si ton casque de moto avait subi un choc violent ?",
+      "source": "https://www.securite-routiere.gouv.fr/operations/equipezvous/infographie",
+      "verification": {
+        "status": "Conseils comparés aux extraits officiels effectivement retournés le 27 novembre 2026. Relecture spécialisée indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton casque de moto avait subi un choc violent ?",
+          "subtitle": "Et si ton casque de moto avait subi un choc violent ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : casque après chute",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Tu retrouves ton casque après un accident. Même si son apparence te rassure, ne te fie pas uniquement à son aspect.",
+          "subtitle": "Tu retrouves ton casque après un accident. Même si son apparence te rassure, ne te fie pas uniquement à son aspect.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : casque après chute",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "La Sécurité routière recommande son remplacement après un impact violent.",
+          "subtitle": "La Sécurité routière recommande son remplacement après un impact violent.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : extérieur du casque",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Pour ton prochain équipement, choisis un modèle homologué qui correspond à ta morphologie.",
+          "subtitle": "Pour ton prochain équipement, choisis un modèle homologué qui correspond à ta morphologie.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : jugulaire",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Vérifie son ajustement et la fermeture de sa jugulaire avant de partir.",
+          "subtitle": "Vérifie son ajustement et la fermeture de sa jugulaire avant de partir.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : essayage",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Un modèle intégral offre également une protection du bas du visage.",
+          "subtitle": "Un modèle intégral offre également une protection du bas du visage.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : casque intégral",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "La protection commence avant même de démarrer le moteur.",
+          "subtitle": "La protection commence avant même de démarrer le moteur.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : départ équipé",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : logo officiel",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton casque de moto avait subi un choc violent ? #Shorts",
+        "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/operations/equipezvous/infographie",
+        "social": "Et si ton casque de moto avait subi un choc violent ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP057",
+      "title": "Et si tu tombais à moto sans vêtements de protection ?",
+      "source": "https://modules.securite-routiere.gouv.fr/7engagements/Equipement/index.html",
+      "verification": {
+        "status": "Conseils comparés aux extraits officiels effectivement retournés le 27 novembre 2026. Relecture spécialisée indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu tombais à moto sans vêtements de protection ?",
+          "subtitle": "Et si tu tombais à moto sans vêtements de protection ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : motard en tenue légère",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Sur une moto, aucune carrosserie ne sépare directement ton corps de la chaussée.",
+          "subtitle": "Sur une moto, aucune carrosserie ne sépare directement ton corps de la chaussée.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : motard en tenue légère",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "En cas de chute, les vêtements adaptés constituent une barrière contre le contact avec la route.",
+          "subtitle": "En cas de chute, les vêtements adaptés constituent une barrière contre le contact avec la route.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : simulation arrêt sur image",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Prépare un blouson de protection et des gants adaptés à la moto.",
+          "subtitle": "Prépare un blouson de protection et des gants adaptés à la moto.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : blouson",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Complète la tenue par un pantalon conçu pour protéger le conducteur.",
+          "subtitle": "Complète la tenue par un pantalon conçu pour protéger le conducteur.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : pantalon",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Des chaussures protectrices complètent cet équipement.",
+          "subtitle": "Des chaussures protectrices complètent cet équipement.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : bottes",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Pense aussi aux protections supplémentaires, comme un airbag conçu pour les motocyclistes.",
+          "subtitle": "Pense aussi aux protections supplémentaires, comme un airbag conçu pour les motocyclistes.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : tenue complète",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : logo officiel",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu tombais à moto sans vêtements de protection ? #Shorts",
+        "description": "Prévention routière. Source : https://modules.securite-routiere.gouv.fr/7engagements/Equipement/index.html",
+        "social": "Et si tu tombais à moto sans vêtements de protection ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP058",
+      "title": "Et si un automobiliste ne te voyait pas à moto ?",
+      "source": "https://modules.securite-routiere.gouv.fr/jsrt/Moto/Moto.html",
+      "verification": {
+        "status": "Conseils comparés aux extraits officiels effectivement retournés le 27 novembre 2026. Relecture spécialisée indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un automobiliste ne te voyait pas à moto ?",
+          "subtitle": "Et si un automobiliste ne te voyait pas à moto ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : intersection",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Tu approches d’un carrefour sur ta moto. Une voiture s’apprête à tourner.",
+          "subtitle": "Tu approches d’un carrefour sur ta moto. Une voiture s’apprête à tourner.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : intersection",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Ne suppose pas que son conducteur a remarqué ta présence.",
+          "subtitle": "Ne suppose pas que son conducteur a remarqué ta présence.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : vue automobiliste",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Certains automobilistes détectent les deux-roues trop tard, notamment aux intersections.",
+          "subtitle": "Certains automobilistes détectent les deux-roues trop tard, notamment aux intersections.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : moto lointaine",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Choisis des vêtements qui contrastent avec ton environnement.",
+          "subtitle": "Choisis des vêtements qui contrastent avec ton environnement.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : veste visible",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Les éléments réfléchissants améliorent également ta visibilité.",
+          "subtitle": "Les éléments réfléchissants améliorent également ta visibilité.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : réflecteurs",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Anticipe la possibilité que les autres usagers ne t’aient pas aperçu.",
+          "subtitle": "Anticipe la possibilité que les autres usagers ne t’aient pas aperçu.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : approche prudente",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : logo officiel",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un automobiliste ne te voyait pas à moto ? #Shorts",
+        "description": "Prévention routière. Source : https://modules.securite-routiere.gouv.fr/jsrt/Moto/Moto.html",
+        "social": "Et si un automobiliste ne te voyait pas à moto ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP059",
+      "title": "Et si tes pneus de moto étaient trop usés ?",
+      "source": "https://www.securite-routiere.gouv.fr/sites/default/files/2024-05/sr-accroche-guidon-moto-bd.pdf",
+      "verification": {
+        "status": "Conseils comparés aux extraits officiels effectivement retournés le 27 novembre 2026. Relecture spécialisée indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tes pneus de moto étaient trop usés ?",
+          "subtitle": "Et si tes pneus de moto étaient trop usés ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : garage",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "Avant une balade, prends le temps de regarder l’état de ta moto.",
+          "subtitle": "Avant une balade, prends le temps de regarder l’état de ta moto.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : garage",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "L’usure des pneus fait partie des points à vérifier régulièrement.",
+          "subtitle": "L’usure des pneus fait partie des points à vérifier régulièrement.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : pneu avant",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Lorsque les indicateurs d’usure sont atteints, il faut remplacer les pneus.",
+          "subtitle": "Lorsque les indicateurs d’usure sont atteints, il faut remplacer les pneus.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : témoin usure",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Ne concentre pas ton attention uniquement sur la roue avant.",
+          "subtitle": "Ne concentre pas ton attention uniquement sur la roue avant.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : pneu arrière",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Profite de cette inspection pour contrôler le fonctionnement des clignotants et des feux.",
+          "subtitle": "Profite de cette inspection pour contrôler le fonctionnement des clignotants et des feux.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : clignotants",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Un entretien suivi contribue à préserver ta sécurité.",
+          "subtitle": "Un entretien suivi contribue à préserver ta sécurité.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : contrôle moto",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : logo officiel",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tes pneus de moto étaient trop usés ? #Shorts",
+        "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2024-05/sr-accroche-guidon-moto-bd.pdf",
+        "social": "Et si tes pneus de moto étaient trop usés ? #EtSi #SecuriteRoutiere"
+      }
+    },
+    {
+      "id": "EP060",
+      "title": "Et si tu traversais une rue sans être visible la nuit ?",
+      "source": "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite/changement-dheure-voir-et-etre-vu",
+      "verification": {
+        "status": "Conseils comparés aux extraits officiels effectivement retournés le 27 novembre 2026. Relecture spécialisée indépendante non obtenue.",
+        "professional_review": false
+      },
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si tu traversais une rue sans être visible la nuit ?",
+          "subtitle": "Et si tu traversais une rue sans être visible la nuit ?",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : rue sombre",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 5,
+          "end": 17,
+          "voix": "La nuit tombe et tu dois rentrer à pied. Ta silhouette se confond avec le décor.",
+          "subtitle": "La nuit tombe et tu dois rentrer à pied. Ta silhouette se confond avec le décor.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : rue sombre",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "voix": "Lorsque la visibilité diminue, il devient particulièrement important de se faire remarquer.",
+          "subtitle": "Lorsque la visibilité diminue, il devient particulièrement important de se faire remarquer.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : silhouette",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 30,
+          "end": 43,
+          "voix": "Des vêtements clairs peuvent contribuer à te rendre plus visible.",
+          "subtitle": "Des vêtements clairs peuvent contribuer à te rendre plus visible.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : vêtement clair",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 43,
+          "end": 56,
+          "voix": "Des accessoires réfléchissants constituent un complément utile.",
+          "subtitle": "Des accessoires réfléchissants constituent un complément utile.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : accessoire réfléchissant",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 56,
+          "end": 68,
+          "voix": "Même du côté des conducteurs, le manque de visibilité impose davantage de prudence aux passages piétons.",
+          "subtitle": "Même du côté des conducteurs, le manque de visibilité impose davantage de prudence aux passages piétons.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : vue conducteur",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "voix": "Prépare ta tenue en fonction des conditions de ton trajet.",
+          "subtitle": "Prépare ta tenue en fonction des conditions de ton trajet.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : rue éclairée",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Ambiance réaliste sous narration"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "prompt_image": "3D semi-réaliste verticale, continuité personnage, sans blessure graphique : logo officiel",
+          "animation": "Alterner plans et détails toutes les 3 secondes; aucun geste ajouté",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si tu traversais une rue sans être visible la nuit ? #Shorts",
+        "description": "Prévention routière. Source : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite/changement-dheure-voir-et-etre-vu",
+        "social": "Et si tu traversais une rue sans être visible la nuit ? #EtSi #SecuriteRoutiere"
+      }
+    }
+  ]
+}
