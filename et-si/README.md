@@ -14,3 +14,12 @@ Pour changer de voix ou de débit : modifier les valeurs par défaut `VOIX` / `D
 Test hors ligne (voix simulée, silencieuse) : `python moteur/voix.py --ep 1 --out /tmp/ep01 --simulate`.
 
 Contrôle humain obligatoire avant toute publication.
+
+## Moteur cinéma — EP001 « Et si ta casserole d'huile prenait feu ? »
+
+- `survie/cine/EP001/kit.json` — texte repris mot pour mot de `survie/domestique/kits-90s-lot-02.json` (EP001, source zslux.be), 11 scènes.
+- `survie/cine/EP001/anim.html` — 11 scènes, ~25 plans calés sur les mots de la voix (`cues.json`).
+- `survie/cine/EP001/audio.py` — bruitages calés sur les mêmes coupes que l'animation.
+- Workflow « Et si ? — EP001 cinéma » : voix edge-tts, rendu parallèle (`render.py --jobs`), MP4 publié dans `et-si-sorties/cine/`.
+
+Publication bloquée tant que la relecture professionnelle n'est pas faite (filigrane « PROTOTYPE · NON VALIDÉ »).

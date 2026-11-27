@@ -1,0 +1,254 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script>
+<script>
+/* EP001 — « Et si ta casserole d'huile prenait feu ? » — moteur cinéma.
+   Texte : kits-90s-lot-02.json (EP001), repris mot pour mot. Source : https://zslux.be/cpi-cuisine.html
+   11 scènes (une par phrase du kit), plans calés sur les mots de la voix (cues.json). */
+['brûlante','risque','propage','déplace','déplacée','soulève','oxygène'].forEach(w=>RED_W.add(w));
+['couvercle','glisser','glisse','quitte','ferme','surveille','étouffe','refroidissement','extérieur','partage','abonne-toi','plaque','hotte'].forEach(w=>GREEN_W.add(w));
+const POT={x:760,y:1172};
+const WOMAN={skin:[176,120,92],skinD:[110,70,52],hair:'#22160f',beard:null,longHair:true,shirt:[150,70,80],shirtD:[80,36,44],eye:'#3a2418'};
+const CHILD={skin:[214,170,140],skinD:[140,100,80],hair:'#5a3a22',beard:null,shirt:[60,130,110],shirtD:[30,70,60],eye:'#3a2418'};
+const cutsOf=(d,list)=>{const o=[0];for(const x of list)o.push(clamp(Math.max(x,o[o.length-1]+0.7),0,d-0.4));o.push(d);return o;};
+function pick(t,cs){for(let i=0;i<cs.length-1;i++)if(t<cs[i+1])return [i,t-cs[i],cs[i+1]-cs[i]];const n=cs.length-2;return [n,t-cs[n],cs[n+1]-cs[n]];}
+
+/* ---------- accessoires ---------- */
+function saucepan(c,x,y,t,o={}){c.save();c.translate(x,y);
+  // manche (à gauche) : tige inox + poignée noire
+  c.fillStyle=lg(c,0,-128,0,-104,[[0,'#c9ccd0'],[1,'#5d6166']]);c.beginPath();c.moveTo(-112,-122);c.lineTo(-250,-140);c.lineTo(-250,-124);c.lineTo(-112,-104);c.closePath();c.fill();
+  c.fillStyle=lg(c,0,-152,0,-118,[[0,'#3a3c40'],[1,'#0e0f11']]);c.beginPath();c.roundRect(-410,-156,170,30,15);c.fill();c.fillStyle='rgba(255,255,255,0.12)';c.fillRect(-400,-152,150,5);
+  // cuve
+  c.fillStyle=lg(c,-120,0,120,0,[[0,'#3a3e44'],[0.18,'#8f949a'],[0.32,'#5a5f66'],[0.7,'#2c3035'],[1,'#1a1c20']]);c.beginPath();c.moveTo(-118,-132);c.lineTo(118,-132);c.lineTo(110,0);c.quadraticCurveTo(0,8,-110,0);c.closePath();c.fill();
+  c.fillStyle='rgba(255,255,255,0.18)';c.fillRect(-84,-122,10,112);
+  // huile
+  if(!o.covered){c.fillStyle=lg(c,0,-136,0,-118,[[0,'rgba(232,172,62,0.96)'],[1,'rgba(150,92,18,0.96)']]);c.beginPath();c.ellipse(0,-128,112,9,0,0,TAU);c.fill();
+    if(o.shimmer){c.globalCompositeOperation='lighter';for(let i=0;i<10;i++){const xx=-96+((i*47+t*110)%192);c.fillStyle=`rgba(255,240,200,${0.25*o.shimmer*(0.5+0.5*Math.sin(t*9+i))})`;c.beginPath();c.ellipse(xx,-129,12,2.2,0,0,TAU);c.fill();}
+      for(let i=0;i<12;i++){const r=mulberry(i+3);const ph=(t*1.8+r())%1;c.fillStyle=`rgba(255,250,230,${0.5*o.shimmer*(1-ph)})`;c.beginPath();c.arc(-92+r()*184,-130,1.5+ph*4,0,TAU);c.fill();}c.globalCompositeOperation='source-over';}}
+  // bord
+  c.strokeStyle=lg(c,-120,0,120,0,[[0,'#6a6e74'],[0.4,'#e4e6e9'],[1,'#55595e']]);c.lineWidth=7;c.beginPath();c.ellipse(0,-132,119,11,0,Math.PI,TAU);c.stroke();c.lineWidth=5;c.beginPath();c.ellipse(0,-132,119,11,0,0,Math.PI);c.stroke();
+  c.restore();}
+function lid(c,x,y,a=1){if(a<=0)return;c.save();c.globalAlpha=a;c.translate(x,y);
+  c.fillStyle=lg(c,-130,0,130,0,[[0,'#5b6067'],[0.35,'#e9ebee'],[0.55,'#a9aeb4'],[1,'#4a4e54']]);c.beginPath();c.moveTo(-130,0);c.bezierCurveTo(-120,-58,120,-58,130,0);c.ellipse(0,0,130,11,0,0,Math.PI);c.closePath();c.fill();
+  c.strokeStyle='rgba(255,255,255,0.55)';c.lineWidth=3;c.beginPath();c.moveTo(-96,-24);c.bezierCurveTo(-60,-44,-10,-46,20,-44);c.stroke();
+  c.fillStyle='#1b1c1f';c.beginPath();c.roundRect(-26,-62,52,18,8);c.fill();c.fillRect(-7,-48,14,10);c.restore();}
+function arm(c,sh,el,wr,ha,sz,type,col=MAN){limb(c,sh[0],sh[1],el[0],el[1],sz*1.0,sz*0.82,cylFill(c,sh[0],sh[1],el[0],el[1],sz*0.9,rgb(col.shirt,1.05),rgb(col.shirtD,0.85)));
+  limb(c,el[0],el[1],wr[0],wr[1],sz*0.62,sz*0.48,cylFill(c,el[0],el[1],wr[0],wr[1],sz*0.6,rgb(col.skin,1.0),rgb(col.skinD,0.85)));hand(c,wr[0],wr[1],ha,sz,type,col);}
+function knobsAt(c,ang){for(let i=0;i<4;i++)knob(c,580+i*110,1314,28,i===2?ang:-0.9);}
+function wallSwitch(c,on){c.save();c.shadowColor='rgba(0,0,0,0.4)';c.shadowBlur=14;c.fillStyle='#ecebe6';c.beginPath();c.roundRect(418,800,96,170,12);c.fill();c.restore();
+  c.fillStyle='#d9d7d0';c.beginPath();c.roundRect(432,816,68,52,6);c.fill();c.beginPath();c.roundRect(432,880,68,52,6);c.fill();
+  c.fillStyle=on?'#ff8a2a':'#4a4a4a';c.beginPath();c.arc(466,842,6,0,TAU);c.fill();if(on){c.fillStyle='rgba(255,140,40,0.35)';c.beginPath();c.arc(466,842,16,0,TAU);c.fill();}
+  c.font='800 15px M';c.fillStyle='#55534d';c.textAlign='center';c.fillText('HOTTE',466,958);
+  // pictogramme ventilateur
+  c.strokeStyle='#777';c.lineWidth=3;c.beginPath();c.arc(466,906,12,0,TAU);c.stroke();for(let i=0;i<3;i++){const a=i*TAU/3;c.beginPath();c.moveTo(466,906);c.lineTo(466+Math.cos(a)*10,906+Math.sin(a)*10);c.stroke();}}
+function xMark(c,x,y,r,a){if(a<=0)return;c.save();c.globalAlpha=a;c.strokeStyle=PAL.rouge;c.lineWidth=r*0.22;c.lineCap='round';c.shadowColor='rgba(0,0,0,0.6)';c.shadowBlur=18;
+  const k=eout(a);c.beginPath();c.moveTo(x-r*k,y-r*k);c.lineTo(x+r*k,y+r*k);c.moveTo(x+r*k,y-r*k);c.lineTo(x-r*k,y+r*k);c.stroke();c.restore();}
+function dashArrow(c,pts,a,col,w=10){if(a<=0)return;c.save();c.globalAlpha=Math.min(1,a*2);c.strokeStyle=col;c.fillStyle=col;c.lineWidth=w;c.lineCap='round';c.setLineDash([w*2.2,w*1.6]);
+  const n=pts.length-1,k=clamp(a)*n;c.beginPath();c.moveTo(pts[0][0],pts[0][1]);let end=pts[0],prev=pts[0];
+  for(let i=1;i<=n;i++){const q=clamp(k-(i-1));if(q<=0)break;const p=[lerp(pts[i-1][0],pts[i][0],q),lerp(pts[i-1][1],pts[i][1],q)];c.lineTo(p[0],p[1]);prev=pts[i-1];end=p;}
+  c.stroke();c.setLineDash([]);const an=Math.atan2(end[1]-prev[1],end[0]-prev[0]);c.translate(end[0],end[1]);c.rotate(an);c.beginPath();c.moveTo(w*2.6,0);c.lineTo(-w*1.4,-w*2);c.lineTo(-w*1.4,w*2);c.closePath();c.fill();c.restore();}
+function hud(c,x,y,a,k){if(a<=0)return;c.save();c.globalAlpha=a;c.fillStyle='rgba(8,11,16,0.78)';c.beginPath();c.roundRect(x-60,y-230,120,460,24);c.fill();
+  c.fillStyle='rgba(255,255,255,0.12)';c.beginPath();c.roundRect(x-16,y-190,32,330,16);c.fill();const lv=lerp(1,0.12,k);const col=`rgb(${lerp(229,70,k)|0},${lerp(57,150,k)|0},${lerp(53,230,k)|0})`;
+  c.fillStyle=col;c.beginPath();c.roundRect(x-16,y+140-330*lv,32,330*lv,16);c.fill();c.beginPath();c.arc(x,y+160,30,0,TAU);c.fill();
+  c.font='800 24px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.fillText(k<0.95?'CHAUD':'FROID',x,y-200+0);c.restore();}
+
+/* ---------- le monde : cuisine ----------
+   st = {t, fire, smoke, stir, react, noMan, glass, lidDx (null = pas de couvercle sur la casserole), lidOnCounter, ghostMove, ghostLift,
+         spread, knob, hood (1 = allumée), armKnob, armSwitch, armLid, calm} */
+function world(st){const B=buf('world',Math.round(W*1.6),H),b=B.getContext('2d');const t=st.t;const react=st.react||0;
+  kitchenBack(b);if(st.hood===0){b.fillStyle='#16181b';b.fillRect(600,752,80,6);b.fillRect(790,752,80,6);}
+  wallSwitch(b,st.hood!==0);
+  // personnage derrière le plan de travail
+  if(!st.noMan){const u=150,nx=430-react*70-(st.back||0)*120,ny=840-react*10;const stir=(st.stir??1)*(1-react);
+    const tip=[POT.x-20+Math.sin(t*3.0)*48*stir,POT.y-120];const sa=-0.62;const G=[tip[0]+Math.sin(sa)*190,tip[1]-Math.cos(sa)*190];
+    const lean=-0.04-0.12*react;const wrG=gripWrist([nx,ny],u,lean,G,sa);const elG=elbowFor([0.72,0.42],wrG,1);
+    const wrF=[lerp(wrG[0],1.55,react),lerp(wrG[1],1.45,react)],elF=[lerp(elG[0],1.0,react),lerp(elG[1],1.75,react)];const holding=react<0.5;
+    painted(b,f=>{bust(f,nx,ny,u,{lean,headDX:-0.08*react,ex:{eye:0.5+0.5*react,brow:react*0.9,mouth:0.35*react,look:st.calm?0.9:0.8},
+        armN:[0.72,0.42,elF[0],elF[1],wrF[0],wrF[1]],handN:holding?'grip':'open',handNabs:holding?sa:null,handNa:holding?0:-0.9,armF:[-0.62,0.5,-0.85,1.9,-0.55,2.9],handF:'rest',
+        held:holding?(ff=>spatula(ff,tip[0],tip[1],sa)):null});},
+      {dx:st.fire>0.2?1:0.3,dy:-0.6,scale:u,col:st.fire>0.2?'rgba(255,150,70,1)':'rgba(255,220,180,1)',k:st.fire>0.2?0.9:0.4});}
+  counter(b);knobsAt(b,st.knob??-0.9);
+  // casserole, couvercle, feu
+  const ld=st.lidDx;const covered=ld!=null&&ld<4;saucepan(b,POT.x,POT.y,t,{shimmer:st.smoke||0,covered});
+  if(react>=0.5&&!st.noMan)spatula(b,POT.x+150,1180,1.4);
+  if(st.lidOnCounter)lid(b,1120,1196);
+  if(st.glass)glassOfWater(b,1060,1196,1.0);
+  let fx=POT.x,fw=230,fint=st.fire||0,clipX=null;
+  if(ld!=null){const lidL=POT.x+ld-130;const unc=clamp((lidL-(POT.x-112))/224);fint*=Math.pow(unc,0.6);fw=230*Math.max(unc,0.15);fx=(POT.x-112+Math.min(lidL,POT.x+112))/2;clipX=lidL;}
+  const L=[lampLight(735,760,st.hood===0?0.55:0.75),{x:200,y:760,r:700,c:'rgba(120,150,200,0.5)'}];if(fint>0||st.spread)L.push(fireLight(POT.x,POT.y-160,0.35+0.75*Math.max(fint,st.spread||0)+0.5*(st.spread||0),t));
+  relight(b,L,fint>0.3||st.spread?'#2a2b33':'#3a3b44');
+  if(st.smoke)wisps(b,POT.x,POT.y-130,200,t,0.3*st.smoke);
+  const sp=st.spread||0;
+  if(fint>0||sp){b.save();if(clipX!=null){b.beginPath();b.rect(0,0,clipX,H);b.clip();}
+    smoke(b,fx,POT.y-320,480+500*sp,700+400*sp,t,0.45*Math.max(fint,sp));flames(b,fx,POT.y-130,fw+260*sp,360*Math.max(0.4,fint)+620*sp,t,Math.max(fint,sp));b.restore();}
+  if(sp>0){flames(b,735,760,420*sp,300*sp,t+2,sp*0.9,4);b.fillStyle=lg(b,0,0,0,900,[[0,`rgba(20,20,24,${0.85*sp})`],[1,'rgba(20,20,24,0)']]);b.fillRect(0,0,W*1.6,900);smoke(b,760,500,1400,500,t,0.5*sp,8);}
+  if(ld!=null){lid(b,POT.x+ld,POT.y-132);if(covered&&st.leak)wisps(b,POT.x,POT.y-150,240,t,0.25*st.leak);}
+  // fantômes : ce qu'il ne faut PAS faire
+  if(st.ghostMove){const g=st.ghostMove;b.save();b.globalAlpha=0.42*Math.min(1,g*3);saucepan(b,POT.x-250*eout(g),POT.y-40*Math.sin(Math.PI*Math.min(1,g*1.2)),t,{covered:true});lid(b,POT.x-250*eout(g),POT.y-132-40*Math.sin(Math.PI*Math.min(1,g*1.2)));b.restore();}
+  if(st.ghostLift){const g=st.ghostLift,up=eout(g)*160;flames(b,POT.x,POT.y-136,230,320*g,t,0.75*g,5);b.save();b.globalAlpha=0.55;lid(b,POT.x+30*g,POT.y-132-up);b.restore();}
+  // bras qui agissent (personnage hors champ)
+  if(st.armKnob){const k=st.armKnob,wr=[lerp(640,742,k),lerp(1520,1352,k)];arm(b,[300,1950],[480,1640],wr,-0.75,110,'grip');}
+  if(st.armSwitch){const k=st.armSwitch,wr=[lerp(220,372,k),lerp(1150,860,k)];arm(b,[-80,1300],[140,1120],wr,-0.25,110,'open');}
+  if(st.armLid){const kx=POT.x+st.lidDx+58,ky=POT.y-188;const wr=[kx+86,ky+10];arm(b,[wr[0]+420,wr[1]+140],[wr[0]+200,wr[1]+110],wr,Math.PI+0.15,112,'grip');}
+  return B;}
+function show(c,B,cam,blur=0){c.save();camXf(c,cam);if(blur)c.filter=`blur(${blur}px)`;c.drawImage(B,0,0);c.restore();}
+function fg(c,t,par){c.save();c.filter='blur(14px)';c.translate(par,0);c.fillStyle='#1a1d22';c.fillRect(-40,1660,700,400);c.fillStyle=lg(c,0,1640,0,1680,[[0,'#bdb6a8'],[1,'#6f6a60']]);c.fillRect(-40,1640,700,40);
+  c.fillStyle='#e8e2d8';c.beginPath();c.ellipse(220,1640,150,40,0,0,TAU);c.fill();c.fillStyle='#6a8a3a';for(let i=0;i<8;i++){c.beginPath();c.ellipse(170+i*14,1622,16,9,i,0,TAU);c.fill();}c.restore();}
+function topShade(c,h=820){c.fillStyle=lg(c,0,0,0,h,[[0,'rgba(8,11,16,0.85)'],[1,'rgba(8,11,16,0)']]);c.fillRect(0,0,W,h);}
+function signature(c,t,t0){const k=clamp((t-t0)/0.35);if(k<=0)return;c.save();c.globalAlpha=k;const y=720+(1-eout(k))*20;
+  c.fillStyle='rgba(8,11,16,0.78)';c.fillRect(W/2-380,y-58,760,116);c.fillStyle=PAL.rouge;c.fillRect(W/2-380,y-58,10,116);
+  c.font='800 52px M';c.letterSpacing='2px';c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText('Saurais-tu quoi faire ?',W/2+6,y+2);c.restore();}
+function closeMan(c,t,o={}){const fl=0.85+0.15*Math.sin(t*17)*Math.sin(t*5.1);
+  painted(c,f=>{bust(f,o.x??420,o.y??1120,o.u??330,{lean:o.lean??-0.12,headDX:-0.1,ex:{eye:0.95,brow:0.9,mouth:o.mouth??0.45,look:0.9},armF:null,armN:o.armN??null,handN:'open',handNa:-0.9});},{dx:1,dy:-0.4,scale:o.u??330,col:`rgba(255,${140*fl|0},60,1)`,k:1,shadow:0.7});}
+
+/* ---------- couloir, porte, extérieur ---------- */
+function hallway(c,t,o={}){const close=o.close||0,glow=o.glow??1;
+  c.fillStyle=lg(c,0,0,W,0,[[0,'#1a2230'],[0.5,'#243042'],[1,'#151c28']]);c.fillRect(0,0,W,H);c.fillStyle=lg(c,0,1700,0,H,[[0,'#2a2622'],[1,'#141210']]);c.fillRect(0,1700,W,H-1700);
+  c.fillStyle='rgba(255,255,255,0.05)';c.fillRect(0,1690,W,10);
+  // ouverture vers la cuisine en feu
+  const X0=300,X1=740,Y0=520,Y1=1700,fl=0.85+0.15*Math.sin(t*15)*Math.sin(t*4.3);
+  c.fillStyle=lg(c,0,Y0,0,Y1,[[0,`rgba(${70*glow|0},30,20,1)`],[0.5,`rgb(${(120+90*fl)*glow|0},${(50+40*fl)*glow|0},20)`],[1,`rgb(${200*glow|0},${90*glow|0},30)`]]);c.fillRect(X0,Y0,X1-X0,Y1-Y0);
+  c.save();c.beginPath();c.rect(X0,Y0,X1-X0,Y1-Y0);c.clip();smoke(c,520,900,600,600,t,0.7*glow,4,'20,18,18');flames(c,560,1700,500,500,t,0.6*glow,9);c.restore();
+  c.fillStyle='#d8d3c8';c.fillRect(X0-26,Y0-26,26,Y1-Y0+26);c.fillRect(X1,Y0-26,26,Y1-Y0+26);c.fillRect(X0-26,Y0-26,X1-X0+52,26);
+  // porte (charnière à gauche) qui se referme
+  if(close>0){const w=(X1-X0)*eout(close);c.fillStyle=lg(c,X0,0,X0+w,0,[[0,'#9a9184'],[1,'#d4cdc0']]);c.fillRect(X0,Y0,w,Y1-Y0);c.strokeStyle='rgba(0,0,0,0.25)';c.lineWidth=5;c.strokeRect(X0+w*0.1,Y0+60,w*0.8,(Y1-Y0)*0.4);c.strokeRect(X0+w*0.1,Y0+(Y1-Y0)*0.5,w*0.8,(Y1-Y0)*0.42);
+    c.fillStyle='#e9e5dc';c.beginPath();c.arc(X0+w-40,1130,12,0,TAU);c.fill();
+    if(close>0.98){c.fillStyle=`rgba(255,${130*fl|0},40,${0.9*glow})`;c.fillRect(X0+6,Y1-6,X1-X0-12,6);c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,520,Y1,0,300,[[0,`rgba(255,120,40,${0.35*glow*fl})`],[1,'rgba(255,120,40,0)']]);c.fillRect(200,Y1-300,640,400);c.restore();
+      smoke(c,520,Y0-10,420,240,t,0.18,6,'30,30,34',10);}}
+  // lumière du couloir : la cuisine éclaire le couloir quand la porte est ouverte
+  c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,520,1300,0,900,[[0,`rgba(255,120,40,${0.28*glow*(1-close)*fl})`],[1,'rgba(255,120,40,0)']]);c.fillRect(0,0,W,H);c.restore();
+  if(o.door2){c.fillStyle='#0e131c';c.fillRect(880,560,240,1140);c.fillStyle='#cfcabf';c.fillRect(860,540,20,1160);c.fillRect(860,540,260,20);}}
+function building(c,t,o={}){c.fillStyle=lg(c,0,0,0,H,[[0,'#060a14'],[0.6,'#0f1a2c'],[1,'#1a2232']]);c.fillRect(0,0,W,H);const rs=mulberry(12);for(let i=0;i<70;i++){c.fillStyle=`rgba(255,255,255,${rs()*0.5})`;c.fillRect(rs()*W,rs()*500,2,2);}
+  c.fillStyle='#4a2c22';c.fillRect(60,360,960,1240);c.strokeStyle='rgba(0,0,0,0.25)';c.lineWidth=2;for(let y=380;y<1600;y+=26){c.beginPath();c.moveTo(60,y);c.lineTo(1020,y);c.stroke();}
+  const fl=0.8+0.2*Math.sin(t*13)*Math.sin(t*3.7);
+  for(let r=0;r<4;r++)for(let k=0;k<3;k++){const x=130+k*310,y=440+r*280;const fire=(r===1&&k===1);c.fillStyle='#d8d0c2';c.fillRect(x-10,y-10,200,200);
+    c.fillStyle=fire?lg(c,0,y,0,y+180,[[0,'#5a1e0c'],[1,`rgb(255,${150*fl|0},40)`]]):(rs()>0.6?'#e6c78a':'#162236');c.fillRect(x,y,180,180);
+    if(fire){c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,x+90,y+120,0,420,[[0,`rgba(255,130,40,${0.55*fl})`],[1,'rgba(255,130,40,0)']]);c.fillRect(x-400,y-400,980,980);c.restore();smoke(c,x+90,y-60,260,460,t,0.55,5,'30,30,36',16);}}
+  c.fillStyle='#1a1410';c.fillRect(440,1330,200,270);c.fillStyle='#d8d0c2';c.fillRect(420,1310,240,20);
+  c.fillStyle='#232628';c.fillRect(0,1600,W,320);c.fillStyle='#34383b';c.fillRect(0,1600,W,16);
+  // lampadaire
+  c.fillStyle='#22262a';c.fillRect(960,700,14,900);c.fillStyle='#ffe2a8';c.beginPath();c.ellipse(940,700,46,14,0,0,TAU);c.fill();
+  c.save();c.globalCompositeOperation='lighter';c.fillStyle=rg(c,940,760,0,700,[[0,'rgba(255,220,160,0.28)'],[1,'rgba(255,220,160,0)']]);c.fillRect(0,0,W,H);c.restore();}
+function person(c,x,y,u,col,o={}){const m=o.mirror;painted(c,f=>{f.save();if(m){f.translate(2*x,0);f.scale(-1,1);}
+  bust(f,x,y,u,{lean:o.lean||0,ex:o.ex||{eye:0.7,brow:0.4,mouth:o.mouth||0,look:0.6},armF:o.armF??[-0.62,0.5,-0.85,1.9,-0.55,2.9],handF:'rest',armN:o.armN??[0.72,0.42,0.9,1.8,0.7,2.9],handN:o.handN||'rest',handNa:o.handNa,held:o.held},col);f.restore();},
+  {dx:o.ldx??1,dy:-0.5,scale:u,col:o.rim||'rgba(255,150,70,1)',k:o.rimk??0.8,shadow:0.6});}
+function phone(c,x,y,a,call,s=1){c.save();c.translate(x,y);c.rotate(a);c.scale(s,s);c.fillStyle='#0d0f12';c.beginPath();c.roundRect(-46,-90,92,180,16);c.fill();c.fillStyle='#1d2a3a';c.beginPath();c.roundRect(-38,-78,76,156,10);c.fill();
+  c.font='800 34px M';c.fillStyle=PAL.blanc;c.textAlign='center';c.fillText('112',0,-20);c.fillStyle=PAL.vert;c.beginPath();c.arc(0,36,18*(1+0.15*Math.sin(call*12)),0,TAU);c.fill();c.restore();}
+function bubble(c,x,y,s,a){if(a<=0)return;c.save();c.globalAlpha=a;const k=eout(a);c.translate(x,y);c.scale(k,k);c.font='900 52px M';const w=c.measureText(s).width+60;
+  c.fillStyle=PAL.blanc;c.beginPath();c.roundRect(-w/2,-50,w,100,22);c.fill();c.beginPath();c.moveTo(-w/2+40,40);c.lineTo(-w/2+20,90);c.lineTo(-w/2+90,44);c.fill();c.fillStyle=PAL.rouge;c.textAlign='center';c.textBaseline='middle';c.fillText(s,0,4);c.restore();}
+function darkBg(c){c.fillStyle=lg(c,0,0,0,H,[[0,PAL.noir],[1,PAL.nuit]]);c.fillRect(0,0,W,H);c.save();c.strokeStyle='rgba(245,245,245,0.05)';c.lineWidth=2;for(let x=0;x<W;x+=60){c.beginPath();c.moveTo(x,0);c.lineTo(x,H);c.stroke();}for(let y=0;y<H;y+=60){c.beginPath();c.moveTo(0,y);c.lineTo(W,y);c.stroke();}c.restore();}
+function kicker(c,s,y,a){if(a<=0)return;c.save();c.globalAlpha=a;c.font='800 30px M';c.letterSpacing='8px';c.fillStyle='rgba(245,245,245,0.7)';c.textAlign='center';c.fillText(s,W/2,y);c.restore();}
+function card(c,y,a,txt,icon,col){if(a<=0)return;c.save();c.globalAlpha=a;const x=W/2+(1-eout(a))*80;c.fillStyle='rgba(16,24,36,0.92)';c.beginPath();c.roundRect(x-450,y-110,900,220,28);c.fill();c.fillStyle=col;c.fillRect(x-450,y-110,14,220);
+  c.save();c.translate(x-320,y);icon(c);c.restore();c.font='800 48px M';c.fillStyle=PAL.blanc;c.textAlign='left';c.textBaseline='middle';const ls=txt.split('\n');ls.forEach((l,i)=>c.fillText(l,x-190,y+(i-(ls.length-1)/2)*58));c.restore();}
+const icoGlass=c=>{glassOfWater(c,0,80,0.9);c.strokeStyle=PAL.rouge;c.lineWidth=14;c.beginPath();c.arc(0,0,86,0,TAU);c.moveTo(-60,-60);c.lineTo(60,60);c.stroke();};
+const icoPot=c=>{c.save();c.scale(0.5,0.5);saucepan(c,40,80,0,{covered:true});lid(c,40,-52);c.restore();c.strokeStyle=PAL.rouge;c.lineWidth=14;c.beginPath();c.arc(0,0,86,0,TAU);c.moveTo(-60,-60);c.lineTo(60,60);c.stroke();};
+function button(c,s,y,a,fill){if(a<=0)return;c.save();c.globalAlpha=a;const k=0.9+0.1*eout(a);c.translate(W/2,y);c.scale(k,k);c.font='800 44px M';c.letterSpacing='3px';const w=c.measureText(s).width+120;
+  c.fillStyle=fill?PAL.rouge:'rgba(0,0,0,0)';c.strokeStyle=PAL.blanc;c.lineWidth=5;c.beginPath();c.roundRect(-w/2,-50,w,100,50);fill?c.fill():c.stroke();c.fillStyle=PAL.blanc;c.textAlign='center';c.textBaseline='middle';c.fillText(s,0,3);c.restore();}
+
+/* ---------- schémas ---------- */
+function pan2D(c,cx,cy,oil=true){c.strokeStyle='rgba(245,245,245,0.9)';c.lineWidth=7;c.beginPath();c.moveTo(cx-330,cy-230);c.lineTo(cx-300,cy+40);c.lineTo(cx+300,cy+40);c.lineTo(cx+330,cy-230);c.stroke();
+  if(oil){c.fillStyle=lg(c,0,cy-80,0,cy+34,[[0,'rgba(235,170,60,0.9)'],[1,'rgba(170,100,20,0.95)']]);c.beginPath();c.moveTo(cx-318,cy-80);c.lineTo(cx-305,cy+33);c.lineTo(cx+305,cy+33);c.lineTo(cx+318,cy-80);c.closePath();c.fill();}}
+function lab(c,s,x,y,a,col=PAL.blanc,al='left',fs=36){if(a<=0)return;c.save();c.globalAlpha=a;c.font=`700 ${fs}px M`;c.fillStyle=col;c.textAlign=al;c.shadowColor='#000';c.shadowBlur=10;c.fillText(s,x,y);c.restore();}
+// eau -> vapeur -> projection d'huile brûlante (tv : vaporisation, tp : projection, temps locaux)
+function sciWater(c,t,d,T,tv,tp){darkBg(c);const cx=W/2,cy=1180;const k1=seg(t,0.1,tv-0.45),k2=seg(t,tv-0.45,tv),k3=seg(t,tp-0.15,d-0.2);
+  const z=1+0.06*eout(t/d);c.save();c.translate(cx,cy);c.scale(z,z);c.translate(-cx,-cy);pan2D(c,cx,cy);
+  flames(c,cx,cy-82,500,340*(1-k3*0.3),T,1-k3*0.2,7);
+  if(t<tv){const y=k1<1?lerp(cy-640,cy-80,ease(k1)):lerp(cy-80,cy+10,ease(k2));c.fillStyle='rgba(110,180,255,0.95)';c.beginPath();c.moveTo(cx,y-50);c.quadraticCurveTo(cx+32,y,cx,y+22);c.quadraticCurveTo(cx-32,y,cx,y-50);c.fill();}
+  if(t>=tv-0.1){const v=seg(t,tv-0.1,tv+0.4)+k3;c.fillStyle=`rgba(235,242,255,${0.85*(1-k3*0.8)})`;for(let i=0;i<14;i++){const a=i/14*TAU;c.beginPath();c.arc(cx+Math.cos(a)*60*v,cy+5+Math.sin(a)*26*v-80*k3,14+30*v,0,TAU);c.fill();}}
+  if(k3>0){c.save();c.globalCompositeOperation='lighter';const r=mulberry(6);for(let i=0;i<120;i++){const a=-Math.PI/2+(r()-0.5)*2.6,sp=280+r()*820;const e=eout(k3);const x=cx+Math.cos(a)*sp*e,y=cy-60+Math.sin(a)*sp*e+260*k3*k3;
+      c.fillStyle=`rgba(255,${110+r()*110|0},40,${0.9*(1-k3*0.4)})`;c.beginPath();c.arc(x,y,5+r()*13,0,TAU);c.fill();}
+    c.filter='blur(46px)';c.fillStyle=`rgba(255,120,30,${0.7*(1-k3*0.3)})`;c.beginPath();c.arc(cx,cy-360,520*eout(k3),0,TAU);c.fill();c.restore();}
+  c.restore();
+  lab(c,'eau',cx+60,cy-540,clamp(t/0.3)*(1-k2));lab(c,'huile en feu',cx+150,cy-200,clamp(t/0.3)*(1-k3));
+  lab(c,'l’eau coule au fond…',W/2,cy+140,seg(t,tv-0.45,tv-0.3)*(1-seg(t,tv-0.05,tv+0.05)),PAL.blanc,'center');lab(c,'…et se vaporise d’un coup',W/2,cy+140,seg(t,tv,tv+0.15),PAL.blanc,'center');
+  kicker(c,'EXPLICATION',300,1);tag(c,'PROJECTION D’HUILE BRÛLANTE',420,clamp(k3*4),'rouge',50);grade(c,T,{vig:0.5});}
+// couvercle : l'oxygène ne passe plus, le feu s'éteint (te : instant « étouffe »)
+function sciLid(c,t,d,T,te){darkBg(c);const cx=W/2,cy=1180;const kl=ease(seg(t,0.25,1.3)),ke=seg(t,te,te+1.1);pan2D(c,cx,cy);
+  const fi=1-ke;if(fi>0)flames(c,cx,cy-82,500,300*fi+40,T,fi,7);if(ke>0.4)wisps(c,cx,cy-90,300,T,0.35*seg(ke,0.4,1));
+  // molécules d'oxygène
+  const r=mulberry(21);for(let i=0;i<26;i++){const side=i%2?1:-1;const ph=(T*0.35+r())%1;let x=cx+side*(560-ph*520),y=cy-700+r()*520+ph*380;
+    if(kl>=1&&y>cy-300&&Math.abs(x-cx)<360){y=cy-300-(y-(cy-300))*0.6;}const a=Math.sin(Math.PI*ph)*(i<18?1:0.6);
+    c.save();c.globalAlpha=a;c.fillStyle='#5fb4ff';c.beginPath();c.arc(x-9,y,13,0,TAU);c.arc(x+9,y,13,0,TAU);c.fill();c.restore();}
+  lab(c,'oxygène',cx-470,cy-640,clamp(t/0.4),'#8fcaff','left',38);lab(c,'O',cx+330,cy-640,clamp(t/0.4),'#8fcaff','left',38);lab(c,'2',cx+357,cy-628,clamp(t/0.4),'#8fcaff','left',24);
+  // couvercle qui glisse par le côté
+  const lx=lerp(cx+760,cx,kl);c.save();c.strokeStyle='rgba(245,245,245,0.95)';c.lineWidth=9;c.beginPath();c.moveTo(lx-345,cy-232);c.bezierCurveTo(lx-300,cy-330,lx+300,cy-330,lx+345,cy-232);c.stroke();c.fillStyle='rgba(245,245,245,0.95)';c.fillRect(lx-30,cy-322,60,22);c.restore();
+  tag(c,'L’AIR NE PASSE PLUS',420,seg(t,1.2,1.5)*(1-seg(t,te-0.1,te)),'sombre',46);tag(c,'LE FEU S’ÉTOUFFE',420,seg(t,te,te+0.3),'vert',52);
+  kicker(c,'EXPLICATION',300,1);grade(c,T,{vig:0.5});}
+
+const C=(k,d)=>CUE(k,d);
+const SCENES=[
+// 1 — accroche
+(c,t,d)=>{const B=world({t:t+6,fire:1,noMan:true});const cam=camAt(t,d,{x:760,y:1030,z:2.5},{x:770,y:1010,z:2.25});const s=shake(t,4);cam.x+=s.x;cam.y+=s.y;
+  show(c,B,cam);grade(c,t);topShade(c);title(c,'ET SI…',['ta casserole d’huile','prenait feu ?'],clamp(t/0.3),300,70);signature(c,t,C('saurais',1.9));},
+// 2 — l'huile surchauffe et s'enflamme ; aucun risque pour le repas
+(c,t,d)=>{const cs=cutsOf(d,[C('surchauffe',1.3)-0.15,C('enflamme',2.6)-0.1,C('risque',4.2)-0.3]);const [i,lt,ld]=pick(t,cs);
+  if(i===0){const B=world({t,smoke:0.15,stir:1,calm:true});show(c,B,camAt(lt,ld,{x:640,y:1000,z:1.25},{x:690,y:1000,z:1.33}));fg(c,t,-t*30);grade(c,t);}
+  else if(i===1){const B=world({t,smoke:1,stir:0.5});show(c,B,camAt(lt,ld,{x:770,y:1075,z:3.2},{x:780,y:1060,z:3.6}));grade(c,t);tag(c,'L’HUILE SURCHAUFFE',470,clamp((lt-0.15)/0.3),'rouge');}
+  else if(i===2){const fi=ease(seg(lt,0.05,0.6));const B=world({t:t+3,fire:fi,smoke:1-fi*0.5,stir:1-fi,react:ease(seg(lt,0.2,0.7))});const cam=camAt(lt,ld,{x:620,y:960,z:1.75},{x:640,y:950,z:1.85});const s=shake(t,fi*5);cam.x+=s.x;cam.y+=s.y;show(c,B,cam);grade(c,t);}
+  else{const B=world({t:t+3,fire:1,smoke:0.5,react:1,noMan:true});show(c,B,{x:520,y:760,z:3.2},10);c.fillStyle='rgba(8,11,16,0.35)';c.fillRect(0,0,W,H);
+    closeMan(c,t,{x:lerp(430,380,ease(clamp(lt/ld)))});grade(c,t);tag(c,'NE PRENDS AUCUN RISQUE',470,clamp((lt-0.1)/0.3),'rouge');}},
+// 3 — jamais d'eau : explication
+(c,t,d)=>{const tv=C('vaporise',3.0),cut=clamp(tv-1.3,1.3,2.6);
+  if(t<cut){const B=world({t:t+5,fire:1,smoke:0.4,react:1,glass:true});show(c,B,camAt(t,cut,{x:960,y:1060,z:2.2},{x:980,y:1050,z:2.35}));grade(c,t);
+    const k=seg(t,0.25,0.85);c.save();c.strokeStyle=PAL.rouge;c.lineWidth=26;c.lineCap='round';c.shadowColor='rgba(0,0,0,0.6)';c.shadowBlur=20;const cx=W/2+130,cy=1010,r=260;c.beginPath();c.arc(cx,cy,r,-Math.PI/2,-Math.PI/2+TAU*clamp(k*1.4));c.stroke();
+    if(k>0.6){const q=seg(k,0.6,1);c.beginPath();c.moveTo(cx-r*0.7,cy-r*0.7);c.lineTo(cx-r*0.7+r*1.4*q,cy-r*0.7+r*1.4*q);c.stroke();}c.restore();tag(c,'JAMAIS D’EAU',470,seg(t,0.4,0.7),'rouge',52);}
+  else sciWater(c,t-cut,d-cut,t,tv-cut,Math.max(tv-cut+0.6,C('projeter',4.2)-cut));},
+// 4 — feu limité : couper plaque et hotte si accessible sans danger
+(c,t,d)=>{const cs=cutsOf(d,[C('coupe',2.0)-0.25,C('hotte',3.3)-0.3]);const [i,lt,ld]=pick(t,cs);const off=i>=1?ease(seg(i===1?lt:9,0.45,0.9)):0;
+  if(i===0){const B=world({t:t+8,fire:0.75,react:1,back:0.5});show(c,B,camAt(lt,ld,{x:700,y:1060,z:1.55},{x:720,y:1050,z:1.65}));grade(c,t);tag(c,'FEU LIMITÉ À LA CASSEROLE',470,clamp((lt-0.1)/0.3),'sombre');}
+  else if(i===1){const B=world({t:t+8,fire:0.75,noMan:true,knob:lerp(-0.9,0,off),armKnob:ease(seg(lt,0,0.45))});show(c,B,camAt(lt,ld,{x:760,y:1240,z:2.3},{x:780,y:1250,z:2.5}));grade(c,t);tag(c,'COUPE LA PLAQUE',470,clamp((lt-0.1)/0.3),'vert');}
+  else{const h=seg(lt,0.55,0.6);const B=world({t:t+8,fire:0.75,noMan:true,knob:0,hood:h>0.5?0:1,armSwitch:ease(seg(lt,0,0.5))*(1-0.3*seg(lt,0.7,1.2))});show(c,B,camAt(lt,ld,{x:560,y:930,z:2.3},{x:575,y:925,z:2.45}));grade(c,t);tag(c,'ET LA HOTTE',470,clamp((lt-0.1)/0.3),'vert');}
+  tag(c,'SEULEMENT SI C’EST SANS DANGER',570,clamp((t-C('uniquement',4.6))/0.3),'jaune',38);},
+// 5 — couvercle métallique glissé par le côté
+(c,t,d)=>{const cs=cutsOf(d,[C('glisser',4.6)-0.3,C('dessus',7.2)-0.35]);const [i,lt,ld]=pick(t,cs);
+  if(i===0){const B=world({t:t+11,fire:0.8,noMan:true,lidOnCounter:true,knob:0,hood:0});show(c,B,camAt(lt,ld,{x:900,y:1060,z:1.7},{x:930,y:1070,z:1.85}));grade(c,t);
+    const p=0.5+0.5*Math.sin(t*6);c.save();camXf(c,camAt(lt,ld,{x:900,y:1060,z:1.7},{x:930,y:1070,z:1.85}));c.strokeStyle=`rgba(34,197,94,${0.5+0.4*p})`;c.lineWidth=6;c.beginPath();c.ellipse(1120,1170,170+10*p,60+4*p,0,0,TAU);c.stroke();c.restore();
+    tag(c,'UN COUVERCLE MÉTALLIQUE ADAPTÉ',470,clamp((lt-0.1)/0.3),'sombre');}
+  else{const slideEnd=Math.min(ld*0.8,2.4);const k=i===1?ease(seg(lt,0.25,slideEnd)):1;const dx=lerp(300,0,k);const kf=i===2?1-seg(lt,0,1.4):1;
+    const cam=camAt(i===1?lt:ld,ld,{x:840,y:1010,z:2.05},{x:820,y:1000,z:2.2});const B=world({t:t+11,fire:kf,noMan:true,lidDx:dx,armLid:i===1||lt<0.6,knob:0,hood:0,leak:i===2?seg(lt,0.6,1.6):0});show(c,B,cam);grade(c,t);
+    c.save();camXf(c,cam);if(i===1)dashArrow(c,[[POT.x+330,POT.y-120],[POT.x+40,POT.y-120]],seg(lt,0,0.5),PAL.vert,9);
+    if(i===2){const g=seg(lt,0.1,0.9);dashArrow(c,[[POT.x+260,POT.y-170],[POT.x+170,POT.y-320],[POT.x,POT.y-350],[POT.x-130,POT.y-250]],g,PAL.rouge,8);xMark(c,POT.x+20,POT.y-300,60,seg(lt,0.8,1.1));}c.restore();
+    tag(c,i===1?'GLISSE-LE PAR LE CÔTÉ':'JAMAIS AU-DESSUS DES FLAMMES',470,clamp((lt-0.1)/0.3),i===1?'vert':'rouge');}
+  tag(c,'SEULEMENT SI C’EST SANS DANGER',570,clamp((t-C('danger',3.4))/0.3)*(t<cs[2]+0.2?1:1-seg(t,cs[2]+0.2,cs[2]+0.5)),'jaune',38);},
+// 6 — l'oxygène, puis laisser le couvercle jusqu'au refroidissement
+(c,t,d)=>{const cut=clamp(C('laisse',3.8)-0.25,2.2,d-1);
+  if(t<cut)sciLid(c,t,cut,t,Math.min(C('etouffe',2.2),cut-0.8));
+  else{const lt=t-cut,ld=d-cut;const B=world({t:t+20,noMan:true,lidDx:0,knob:0,hood:0,leak:1-seg(lt,0,ld)*0.7});show(c,B,camAt(lt,ld,{x:760,y:1050,z:2.1},{x:760,y:1040,z:2.25}));grade(c,t);
+    hud(c,930,1000,seg(lt,0.3,0.6),ease(seg(lt,0.5,ld-0.2)));tag(c,'LAISSE-LE EN PLACE',470,clamp((lt-0.1)/0.3),'vert');tag(c,'JUSQU’AU REFROIDISSEMENT COMPLET',570,clamp((lt-0.6)/0.3),'sombre',36);}},
+// 7 — ne pas déplacer, ne pas soulever
+(c,t,d)=>{const cut=clamp(C('souleve',2.4)-0.25,1.2,d-1);const i=t<cut?0:1,lt=i?t-cut:t,ld=i?d-cut:cut;
+  const cam=camAt(lt,ld,{x:680,y:1040,z:1.9},{x:690,y:1030,z:2.0});const B=world({t:t+24,noMan:true,lidDx:0,knob:0,hood:0,leak:0.3,ghostMove:i===0?seg(lt,0.2,1.3):0,ghostLift:i===1?seg(lt,0.2,1.2):0});show(c,B,cam);grade(c,t);
+  c.save();camXf(c,cam);if(i===0){dashArrow(c,[[POT.x-60,POT.y-230],[POT.x-300,POT.y-230]],seg(lt,0.1,0.8),PAL.rouge,9);xMark(c,POT.x-250,POT.y-90,90,seg(lt,1.0,1.3));}
+  else{dashArrow(c,[[POT.x+170,POT.y-160],[POT.x+170,POT.y-360]],seg(lt,0.1,0.7),PAL.rouge,9);xMark(c,POT.x,POT.y-260,90,seg(lt,1.0,1.3));}c.restore();
+  tag(c,i===0?'NE DÉPLACE JAMAIS LA CASSEROLE':'NE SOULÈVE PAS LE COUVERCLE',470,clamp((lt-0.1)/0.3),'rouge');},
+// 8 — sinon : quitter la pièce, fermer la porte
+(c,t,d)=>{const cs=cutsOf(d,[C('quitte',4.0)-0.2,C('ferme',6.0)-0.2]);const [i,lt,ld]=pick(t,cs);
+  if(i===0){const sp=ease(seg(t,C('propage',3.0)-0.5,C('propage',3.0)+0.9));const cam=camAt(lt,ld,{x:700,y:980,z:1.45},{x:680,y:960,z:1.3});const s=shake(t,2+4*sp);cam.x+=s.x;cam.y+=s.y;
+    const B=world({t:t+30,fire:1,react:1,back:sp,spread:sp,knob:0});show(c,B,cam);grade(c,t);tag(c,'SINON…',470,clamp((lt-0.1)/0.3),'sombre');tag(c,'LE FEU SE PROPAGE',570,clamp((t-C('propage',3.0))/0.3),'rouge');}
+  else if(i===1){hallway(c,t,{close:0});const k=ease(clamp(lt/ld));person(c,lerp(470,1250,k),1180+Math.sin(lt*9)*8,280,MAN,{lean:0.06,ex:{eye:0.95,brow:0.8,mouth:0.2,look:1},ldx:-1,rimk:1});grade(c,t);tag(c,'QUITTE LA PIÈCE',470,clamp((lt-0.1)/0.3),'vert');}
+  else{hallway(c,t,{close:ease(seg(lt,0.1,0.9))});grade(c,t);tag(c,'FERME LA PORTE',470,clamp((lt-0.1)/0.3),'vert');tag(c,'SI POSSIBLE',570,clamp((lt-0.4)/0.3),'sombre',34);}},
+// 9 — avertir, évacuer, appeler le 112 dehors, ne pas retourner
+(c,t,d)=>{const cs=cutsOf(d,[C('evacue',1.7)-0.2,C('appelle',3.2)-0.2]);const [i,lt,ld]=pick(t,cs);
+  if(i===0){hallway(c,t,{close:1,door2:true,glow:0.8});const k=ease(seg(lt,0.3,1.0));person(c,lerp(1250,830,k),1260,210,WOMAN,{mirror:true,ldx:1,rimk:0.6});person(c,lerp(1300,950,k),1420,150,CHILD,{mirror:true,ldx:1,rimk:0.6});
+    person(c,380,1160,280,MAN,{mouth:0.7,ex:{eye:0.95,brow:0.8,mouth:0.7,look:1},rimk:0.8,armN:[0.72,0.42,1.3,1.2,1.9,0.5],handN:'open',handNa:-1.2});bubble(c,560,640,'AU FEU !',seg(lt,0.1,0.35));grade(c,t);tag(c,'AVERTIS LES OCCUPANTS',470,clamp((lt-0.1)/0.3),'vert');}
+  else if(i===1){building(c,t);const k=ease(clamp(lt/ld));const cam={x:540,y:960,z:lerp(1.0,1.06,k)};c.save();camXf(c,cam);
+    person(c,lerp(560,330,k),1300,170,MAN,{ldx:1,rim:'rgba(255,160,90,1)',rimk:0.7});person(c,lerp(640,560,k),1340,150,WOMAN,{ldx:1,rim:'rgba(255,160,90,1)',rimk:0.6});person(c,lerp(700,700,k),1420,110,CHILD,{ldx:1,rim:'rgba(255,160,90,1)',rimk:0.6});c.restore();
+    grade(c,t);tag(c,'ÉVACUE LE LOGEMENT',470,clamp((lt-0.1)/0.3),'vert');}
+  else{building(c,t);c.save();camXf(c,{x:600,y:1150,z:1.35});person(c,700,1560,150,WOMAN,{ldx:1,rimk:0.5});person(c,820,1650,110,CHILD,{ldx:1,rimk:0.5});c.restore();
+    const ph=seg(lt,0.1,0.5);person(c,330,1260,300,MAN,{ldx:1,rim:'rgba(255,170,100,1)',rimk:0.9,ex:{eye:0.8,brow:0.5,mouth:0.2,look:0.9},armN:[0.72,0.42,lerp(0.9,1.1,ph),lerp(1.8,1.5,ph),lerp(0.7,1.45,ph),lerp(2.9,0.65,ph)],handN:'grip',handNa:-1.3,
+      held:ph>0.6?(f=>phone(f,330+1.45*300+40,1260+0.65*300-140,-0.12,t,1.35)):null});
+    grade(c,t);tag(c,'APPELLE LE 112 DEPUIS L’EXTÉRIEUR',470,clamp((lt-0.1)/0.3),'vert',38);
+    const r=clamp((t-C('retourne',5.4))/0.3);if(r>0){tag(c,'NE RETOURNE PAS À L’INTÉRIEUR',570,r,'rouge',38);}}},
+// 10 — prévention + à retenir
+(c,t,d)=>{const cut=clamp(C('retiens',3.2)-0.2,1.6,d-1.2);
+  if(t<cut){const B=world({t:t+40,stir:1,calm:true,smoke:0,knob:-0.4});show(c,B,camAt(t,cut,{x:600,y:980,z:1.5},{x:620,y:970,z:1.6}));fg(c,t,-t*25);grade(c,t);tag(c,'PRÉVENTION',470,clamp((t-0.1)/0.3),'sombre');tag(c,'SURVEILLE TOUJOURS LA CUISSON',570,clamp((t-0.4)/0.3),'vert',40);}
+  else{const lt=t-cut;darkBg(c);kicker(c,'À RETENIR',420,clamp(lt/0.3));card(c,760,clamp((t-C('eau',cut+1.0)+0.1)/0.35),'JAMAIS D’EAU',icoGlass,PAL.rouge);card(c,1060,clamp((t-C('deplacee',cut+2.2)+0.5)/0.35),'JAMAIS DE CASSEROLE\nDÉPLACÉE',icoPot,PAL.rouge);grade(c,t,{vig:0.45});}},
+// 11 — fin
+(c,t,d)=>{darkBg(c);title(c,'ET SI…',['Tu sais quoi faire.'],clamp(t/0.4),300,72);
+  const L=[['Jamais d’eau sur l’huile en feu',PAL.rouge],['Ne déplace pas la casserole',PAL.rouge],['Couvercle par le côté, si sans danger',PAL.vert],['Sinon : sors, ferme, appelle le 112',PAL.vert]];
+  L.forEach(([s,col],i)=>{const a=clamp((t-0.3-i*0.18)/0.3);if(a<=0)return;c.save();c.globalAlpha=a;const y=640+i*112;c.fillStyle='rgba(255,255,255,0.06)';c.fillRect(110,y-44,860,88);c.fillStyle=col;c.fillRect(110,y-44,10,88);c.font='700 40px M';c.fillStyle=PAL.blanc;c.textBaseline='middle';c.fillText(s,150,y+2);c.restore();});
+  button(c,'PARTAGE',1140,clamp((t-C('partage',4.0))/0.3),false);button(c,'ABONNE-TOI',1270,clamp((t-C('abonne',5.2))/0.3),true);
+  c.save();c.font='600 26px M';c.fillStyle='rgba(245,245,245,0.55)';c.textAlign='center';c.fillText('Simulation éducative · source officielle en description',W/2,1760);c.restore();grade(c,t,{vig:0.45});},
+];
+</script></body></html>

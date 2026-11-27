@@ -1,0 +1,63 @@
+name: Et si ? — EP001 cinéma (casserole d'huile)
+on:
+  push:
+    branches: [et-si, claude/wonderful-cray-9m38l6]
+    paths:
+      - 'et-si/survie/cine/EP001/**'
+      - 'et-si/survie/cine/cine.js'
+      - 'et-si/moteur/**'
+      - '.github/workflows/et-si-cine-ep001.yml'
+  workflow_dispatch:
+    inputs:
+      voix: { description: "Voix edge-tts", default: "fr-FR-RemyMultilingualNeural" }
+      debit: { description: "Débit (ex. -2%)", default: "-2%" }
+permissions:
+  contents: write
+concurrency:
+  group: et-si-cine-ep001
+  cancel-in-progress: true
+jobs:
+  ep001:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 180
+    env:
+      P: et-si/survie/cine/EP001
+      O: sortie/EP001
+      VOIX: ${{ github.event.inputs.voix || 'fr-FR-RemyMultilingualNeural' }}
+      DEBIT: ${{ github.event.inputs.debit || '-2%' }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Installer les outils
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+          python -m pip install edge-tts playwright numpy scipy
+          python -m playwright install --with-deps chromium
+      - name: Voix et calage
+        run: python et-si/moteur/voix.py --kit $P/kit.json --cues $P/cues.json --out $O --voice "$VOIX" --rate="$DEBIT" --first 4.2 --mini 3.6 --last 6.5 --tail 0.4 --maxchars 34 --tagline "Saurais-tu quoi faire ?" < /dev/null
+      - name: Rendu vidéo (en parallèle)
+        run: python et-si/moteur/render.py --anim $P/anim.html --out $O --jobs "$(nproc)" < /dev/null
+      - name: Son, mixage et MP4 final
+        run: |
+          python $P/audio.py --out $O < /dev/null
+          python et-si/moteur/assembler.py --out $O --music -21 < /dev/null
+          ffmpeg -nostdin -hide_banner -i $O/EP001*.mp4 -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: et-si-EP001-cine
+          path: |
+            ${{ env.O }}/EP001*.mp4
+            ${{ env.O }}/timing.json
+          retention-days: 14
+      - name: Publier sur et-si-sorties
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone -q --depth 1 -b et-si-sorties "$URL" pub; mkdir -p pub/cine
+          cp $O/EP001*.mp4 pub/cine/; cp $O/timing.json pub/cine/EP001-timing.json
+          cd pub && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "EP001 cinéma ${GITHUB_SHA::7}" || exit 0
+          git push -q "$URL" et-si-sorties
