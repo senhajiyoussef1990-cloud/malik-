@@ -1,0 +1,521 @@
+{
+  "instructions": "Claude seulement. Durées cibles, recaler sur voix. Vérifier les gestes et obtenir une relecture professionnelle.",
+  "episodes": [
+    {
+      "id": "EP002",
+      "title": "Et si un adulte s’étouffait devant toi ?",
+      "source": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/etouffement",
+      "verification": "Source consultée directement le 27 novembre 2026. Relecture professionnelle obligatoire avant publication.",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un adulte s’étouffait devant toi ?",
+          "subtitle": "Et si un adulte s’étouffait devant toi ?",
+          "visuel": "Illustration non graphique du texte : Et si un adulte s’étouffait devant toi ?",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Et si un adulte s’étouffait devant toi ?",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Pendant un repas, un adulte conscient ne parvient soudain plus à parler ni à tousser.",
+          "subtitle": "Pendant un repas, un adulte conscient ne parvient soudain plus à parler ni à tousser.",
+          "visuel": "Illustration non graphique du texte : Pendant un repas, un adulte conscient ne parvient soudain plus à parler ni à tousser.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Pendant un repas, un adulte conscient ne parvient soudain plus à parler ni à tousser.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Ces signes indiquent une obstruction grave. Il faut agir rapidement.",
+          "subtitle": "Ces signes indiquent une obstruction grave. Il faut agir rapidement.",
+          "visuel": "Illustration non graphique du texte : Ces signes indiquent une obstruction grave. Il faut agir rapidement.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Ces signes indiquent une obstruction grave. Il faut agir rapidement.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Place-toi légèrement derrière lui, sur le côté, et soutiens sa poitrine.",
+          "subtitle": "Place-toi légèrement derrière lui, sur le côté, et soutiens sa poitrine.",
+          "visuel": "Illustration non graphique du texte : Place-toi légèrement derrière lui, sur le côté, et soutiens sa poitrine.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Place-toi légèrement derrière lui, sur le côté, et soutiens sa poitrine.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Incline-le vers l’avant et donne jusqu’à cinq tapes entre les omoplates.",
+          "subtitle": "Incline-le vers l’avant et donne jusqu’à cinq tapes entre les omoplates.",
+          "visuel": "Illustration non graphique du texte : Incline-le vers l’avant et donne jusqu’à cinq tapes entre les omoplates.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Incline-le vers l’avant et donne jusqu’à cinq tapes entre les omoplates.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Après chaque tape, vérifie si l’obstruction a disparu. Arrête les gestes si elle est levée.",
+          "subtitle": "Après chaque tape, vérifie si l’obstruction a disparu. Arrête les gestes si elle est levée.",
+          "visuel": "Illustration non graphique du texte : Après chaque tape, vérifie si l’obstruction a disparu. Arrête les gestes si elle est levée.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Après chaque tape, vérifie si l’obstruction a disparu. Arrête les gestes si elle est levée.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "En cas d’échec, place-toi derrière lui. Positionne ton poing entre son nombril et le bas du sternum.",
+          "subtitle": "En cas d’échec, place-toi derrière lui. Positionne ton poing entre son nombril et le bas du sternum.",
+          "visuel": "Illustration non graphique du texte : En cas d’échec, place-toi derrière lui. Positionne ton poing entre son nombril et le bas du sternum.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; En cas d’échec, place-toi derrière lui. Positionne ton poing entre son nombril et le bas du sternum.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Saisis ton poing et exerce jusqu’à cinq poussées vers l’intérieur et le haut.",
+          "subtitle": "Saisis ton poing et exerce jusqu’à cinq poussées vers l’intérieur et le haut.",
+          "visuel": "Illustration non graphique du texte : Saisis ton poing et exerce jusqu’à cinq poussées vers l’intérieur et le haut.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Saisis ton poing et exerce jusqu’à cinq poussées vers l’intérieur et le haut.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Alterne les deux séries si nécessaire. Fais alerter les secours.",
+          "subtitle": "Alterne les deux séries si nécessaire. Fais alerter les secours.",
+          "visuel": "Illustration non graphique du texte : Alterne les deux séries si nécessaire. Fais alerter les secours.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Alterne les deux séries si nécessaire. Fais alerter les secours.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "S’il perd connaissance, accompagne-le au sol, appelle le 112 et commence la réanimation en suivant les consignes de l’opérateur.",
+          "subtitle": "S’il perd connaissance, accompagne-le au sol, appelle le 112 et commence la réanimation en suivant les consignes de l’opérateur.",
+          "visuel": "Illustration non graphique du texte : S’il perd connaissance, accompagne-le au sol, appelle le 112 et commence la réanimation en suivant les consignes de l’opérateur.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; S’il perd connaissance, accompagne-le au sol, appelle le 112 et commence la réanimation en suivant les consignes de l’opérateur.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un adulte s’étouffait devant toi ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.croix-rouge.fr/les-gestes-de-premiers-secours/etouffement",
+        "social": "Et si un adulte s’étouffait devant toi ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP003",
+      "title": "Et si ton enfant mettait un objet dans son nez ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/nez",
+      "verification": "Source consultée directement le 27 novembre 2026. Relecture professionnelle obligatoire avant publication.",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si ton enfant mettait un objet dans son nez ?",
+          "subtitle": "Et si ton enfant mettait un objet dans son nez ?",
+          "visuel": "Illustration non graphique du texte : Et si ton enfant mettait un objet dans son nez ?",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Et si ton enfant mettait un objet dans son nez ?",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Ton enfant vient de glisser une petite perle dans sa narine.",
+          "subtitle": "Ton enfant vient de glisser une petite perle dans sa narine.",
+          "visuel": "Illustration non graphique du texte : Ton enfant vient de glisser une petite perle dans sa narine.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Ton enfant vient de glisser une petite perle dans sa narine.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Il peut avoir une narine bouchée ou irritée. Parfois, il ne ressent presque rien.",
+          "subtitle": "Il peut avoir une narine bouchée ou irritée. Parfois, il ne ressent presque rien.",
+          "visuel": "Illustration non graphique du texte : Il peut avoir une narine bouchée ou irritée. Parfois, il ne ressent presque rien.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Il peut avoir une narine bouchée ou irritée. Parfois, il ne ressent presque rien.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Ne cherche pas à retirer un objet profond avec une pince ou un autre instrument.",
+          "subtitle": "Ne cherche pas à retirer un objet profond avec une pince ou un autre instrument.",
+          "visuel": "Illustration non graphique du texte : Ne cherche pas à retirer un objet profond avec une pince ou un autre instrument.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Ne cherche pas à retirer un objet profond avec une pince ou un autre instrument.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Tu pourrais le pousser plus loin, blesser le nez ou provoquer son passage vers les voies respiratoires.",
+          "subtitle": "Tu pourrais le pousser plus loin, blesser le nez ou provoquer son passage vers les voies respiratoires.",
+          "visuel": "Illustration non graphique du texte : Tu pourrais le pousser plus loin, blesser le nez ou provoquer son passage vers les voies respiratoires.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Tu pourrais le pousser plus loin, blesser le nez ou provoquer son passage vers les voies respiratoires.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Consulte rapidement un médecin si ton enfant a introduit un objet dans son nez.",
+          "subtitle": "Consulte rapidement un médecin si ton enfant a introduit un objet dans son nez.",
+          "visuel": "Illustration non graphique du texte : Consulte rapidement un médecin si ton enfant a introduit un objet dans son nez.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Consulte rapidement un médecin si ton enfant a introduit un objet dans son nez.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si c’est une pile bouton, la situation exige une extraction médicale immédiate.",
+          "subtitle": "Si c’est une pile bouton, la situation exige une extraction médicale immédiate.",
+          "visuel": "Illustration non graphique du texte : Si c’est une pile bouton, la situation exige une extraction médicale immédiate.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Si c’est une pile bouton, la situation exige une extraction médicale immédiate.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Une pile peut gravement brûler les tissus. N’attends pas de symptômes.",
+          "subtitle": "Une pile peut gravement brûler les tissus. N’attends pas de symptômes.",
+          "visuel": "Illustration non graphique du texte : Une pile peut gravement brûler les tissus. N’attends pas de symptômes.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Une pile peut gravement brûler les tissus. N’attends pas de symptômes.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "En cas de difficulté respiratoire importante ou de saignement abondant, appelle le 112.",
+          "subtitle": "En cas de difficulté respiratoire importante ou de saignement abondant, appelle le 112.",
+          "visuel": "Illustration non graphique du texte : En cas de difficulté respiratoire importante ou de saignement abondant, appelle le 112.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; En cas de difficulté respiratoire importante ou de saignement abondant, appelle le 112.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Pour prévenir cet accident, garde les petits objets et les piles hors de portée.",
+          "subtitle": "Pour prévenir cet accident, garde les petits objets et les piles hors de portée.",
+          "visuel": "Illustration non graphique du texte : Pour prévenir cet accident, garde les petits objets et les piles hors de portée.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Pour prévenir cet accident, garde les petits objets et les piles hors de portée.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si ton enfant mettait un objet dans son nez ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/corps-etrangers/nez",
+        "social": "Et si ton enfant mettait un objet dans son nez ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP011",
+      "title": "Et si un chien te mordait ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-chien-chat",
+      "verification": "Source consultée directement le 27 novembre 2026. Relecture professionnelle obligatoire avant publication.",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si un chien te mordait ?",
+          "subtitle": "Et si un chien te mordait ?",
+          "visuel": "Illustration non graphique du texte : Et si un chien te mordait ?",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Et si un chien te mordait ?",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Même une morsure qui semble petite peut atteindre des tissus plus profonds.",
+          "subtitle": "Même une morsure qui semble petite peut atteindre des tissus plus profonds.",
+          "visuel": "Illustration non graphique du texte : Même une morsure qui semble petite peut atteindre des tissus plus profonds.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Même une morsure qui semble petite peut atteindre des tissus plus profonds.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Pour une plaie qui saigne peu, lave rapidement avec de l’eau et du savon.",
+          "subtitle": "Pour une plaie qui saigne peu, lave rapidement avec de l’eau et du savon.",
+          "visuel": "Illustration non graphique du texte : Pour une plaie qui saigne peu, lave rapidement avec de l’eau et du savon.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Pour une plaie qui saigne peu, lave rapidement avec de l’eau et du savon.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "Rince généreusement, sèche puis protège la plaie avec un pansement stérile.",
+          "subtitle": "Rince généreusement, sèche puis protège la plaie avec un pansement stérile.",
+          "visuel": "Illustration non graphique du texte : Rince généreusement, sèche puis protège la plaie avec un pansement stérile.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Rince généreusement, sèche puis protège la plaie avec un pansement stérile.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Si elle saigne beaucoup, exerce une pression avec un linge propre et appelle le 112.",
+          "subtitle": "Si elle saigne beaucoup, exerce une pression avec un linge propre et appelle le 112.",
+          "visuel": "Illustration non graphique du texte : Si elle saigne beaucoup, exerce une pression avec un linge propre et appelle le 112.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Si elle saigne beaucoup, exerce une pression avec un linge propre et appelle le 112.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Une blessure au visage ou au cou exige aussi une aide urgente.",
+          "subtitle": "Une blessure au visage ou au cou exige aussi une aide urgente.",
+          "visuel": "Illustration non graphique du texte : Une blessure au visage ou au cou exige aussi une aide urgente.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Une blessure au visage ou au cou exige aussi une aide urgente.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Consulte rapidement pour une morsure profonde, à la main ou près d’une articulation.",
+          "subtitle": "Consulte rapidement pour une morsure profonde, à la main ou près d’une articulation.",
+          "visuel": "Illustration non graphique du texte : Consulte rapidement pour une morsure profonde, à la main ou près d’une articulation.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Consulte rapidement pour une morsure profonde, à la main ou près d’une articulation.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Le médecin évaluera notamment les risques de tétanos et de rage.",
+          "subtitle": "Le médecin évaluera notamment les risques de tétanos et de rage.",
+          "visuel": "Illustration non graphique du texte : Le médecin évaluera notamment les risques de tétanos et de rage.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Le médecin évaluera notamment les risques de tétanos et de rage.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Si possible, note les circonstances et identifie l’animal sans te mettre en danger.",
+          "subtitle": "Si possible, note les circonstances et identifie l’animal sans te mettre en danger.",
+          "visuel": "Illustration non graphique du texte : Si possible, note les circonstances et identifie l’animal sans te mettre en danger.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Si possible, note les circonstances et identifie l’animal sans te mettre en danger.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Une rougeur croissante, un gonflement ou de la fièvre nécessitent un avis médical.",
+          "subtitle": "Une rougeur croissante, un gonflement ou de la fièvre nécessitent un avis médical.",
+          "visuel": "Illustration non graphique du texte : Une rougeur croissante, un gonflement ou de la fièvre nécessitent un avis médical.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Une rougeur croissante, un gonflement ou de la fièvre nécessitent un avis médical.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si un chien te mordait ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-chien-chat",
+        "social": "Et si un chien te mordait ? #EtSi #Prevention"
+      }
+    },
+    {
+      "id": "EP012",
+      "title": "Et si une tique s’accrochait à ta peau ?",
+      "source": "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-tique-maladie-de-lyme-que-faire",
+      "verification": "Source consultée directement le 27 novembre 2026. Relecture professionnelle obligatoire avant publication.",
+      "format": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_target": 90
+      },
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5,
+          "voix": "Et si une tique s’accrochait à ta peau ?",
+          "subtitle": "Et si une tique s’accrochait à ta peau ?",
+          "visuel": "Illustration non graphique du texte : Et si une tique s’accrochait à ta peau ?",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Et si une tique s’accrochait à ta peau ?",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 5,
+          "end": 13,
+          "voix": "Après une promenade, tu remarques une petite tique fixée sur ta jambe.",
+          "subtitle": "Après une promenade, tu remarques une petite tique fixée sur ta jambe.",
+          "visuel": "Illustration non graphique du texte : Après une promenade, tu remarques une petite tique fixée sur ta jambe.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Après une promenade, tu remarques une petite tique fixée sur ta jambe.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "voix": "Retire-la rapidement. Certaines tiques peuvent transmettre la maladie de Lyme.",
+          "subtitle": "Retire-la rapidement. Certaines tiques peuvent transmettre la maladie de Lyme.",
+          "visuel": "Illustration non graphique du texte : Retire-la rapidement. Certaines tiques peuvent transmettre la maladie de Lyme.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Retire-la rapidement. Certaines tiques peuvent transmettre la maladie de Lyme.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 21,
+          "end": 29,
+          "voix": "N’applique aucun produit sur la tique avant de la retirer.",
+          "subtitle": "N’applique aucun produit sur la tique avant de la retirer.",
+          "visuel": "Illustration non graphique du texte : N’applique aucun produit sur la tique avant de la retirer.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; N’applique aucun produit sur la tique avant de la retirer.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "voix": "Utilise un tire-tique adapté. Glisse son crochet sous la tique, près de la peau, sans l’écraser.",
+          "subtitle": "Utilise un tire-tique adapté. Glisse son crochet sous la tique, près de la peau, sans l’écraser.",
+          "visuel": "Illustration non graphique du texte : Utilise un tire-tique adapté. Glisse son crochet sous la tique, près de la peau, sans l’écraser.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Utilise un tire-tique adapté. Glisse son crochet sous la tique, près de la peau, sans l’écraser.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "voix": "Avec ce crochet, fais doucement un mouvement de traction et de rotation.",
+          "subtitle": "Avec ce crochet, fais doucement un mouvement de traction et de rotation.",
+          "visuel": "Illustration non graphique du texte : Avec ce crochet, fais doucement un mouvement de traction et de rotation.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Avec ce crochet, fais doucement un mouvement de traction et de rotation.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 45,
+          "end": 53,
+          "voix": "Si une partie reste dans la peau, ne creuse pas. Demande conseil à un professionnel.",
+          "subtitle": "Si une partie reste dans la peau, ne creuse pas. Demande conseil à un professionnel.",
+          "visuel": "Illustration non graphique du texte : Si une partie reste dans la peau, ne creuse pas. Demande conseil à un professionnel.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Si une partie reste dans la peau, ne creuse pas. Demande conseil à un professionnel.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 53,
+          "end": 62,
+          "voix": "Désinfecte ensuite la peau et lave tes mains.",
+          "subtitle": "Désinfecte ensuite la peau et lave tes mains.",
+          "visuel": "Illustration non graphique du texte : Désinfecte ensuite la peau et lave tes mains.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Désinfecte ensuite la peau et lave tes mains.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "voix": "Surveille la zone pendant un mois. Une plaque rouge qui s’étend doit faire consulter.",
+          "subtitle": "Surveille la zone pendant un mois. Une plaque rouge qui s’étend doit faire consulter.",
+          "visuel": "Illustration non graphique du texte : Surveille la zone pendant un mois. Une plaque rouge qui s’étend doit faire consulter.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Surveille la zone pendant un mois. Une plaque rouge qui s’étend doit faire consulter.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 71,
+          "end": 80,
+          "voix": "Consulte également si une fièvre, des douleurs ou une fatigue inexpliquée apparaissent.",
+          "subtitle": "Consulte également si une fièvre, des douleurs ou une fatigue inexpliquée apparaissent.",
+          "visuel": "Illustration non graphique du texte : Consulte également si une fièvre, des douleurs ou une fatigue inexpliquée apparaissent.",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Consulte également si une fièvre, des douleurs ou une fatigue inexpliquée apparaissent.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Ambiance discrète"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "subtitle": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "visuel": "Logo officiel",
+          "prompt_image": "3D semi-réaliste verticale, cohérence des personnages, sans texte généré; Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi.",
+          "animation": "Plan dynamique, aucun geste improvisé; démonstration à valider sur mannequin",
+          "son": "Signature musicale"
+        }
+      ],
+      "publication": {
+        "titre": "Et si une tique s’accrochait à ta peau ? #Shorts",
+        "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-tique-maladie-de-lyme-que-faire",
+        "social": "Et si une tique s’accrochait à ta peau ? #EtSi #Prevention"
+      }
+    }
+  ]
+}
