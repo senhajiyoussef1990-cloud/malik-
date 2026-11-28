@@ -13,16 +13,16 @@ function joueur(b,T,x,y,u,k){const M=[x+0.95*u,y-0.22*u];acteur(b,SPORT,x,y,u,{l
 function dentVole(c,M,a,T){if(a<=0||a>=1)return;const x=M[0]+lerp(30,320,a),y=M[1]-Math.sin(a*Math.PI)*220+a*300;c.save();c.translate(x,y);c.rotate(a*8);c.scale(0.35,0.35);ICO.dent(c);c.restore();}
 const SCENES=[
 (c,t,d)=>{const [B,b]=terrain(t);const k=ease(seg(t,0.4,0.9));const M=joueur(b,t,600,900,190,k);JOUR(b);const cam=camAt(t,d,{x:740,y:1000,z:1.0},{x:740,y:1000,z:1.1});
-  accroche(c,t,d,B,cam,['tu perdais une dent définitive','après un choc ?']);c.save();camXf(c,cam);dentVole(c,M,seg(t,0.4,1.6),t);c.restore();},
+  accroche(c,t,d,B,cam,['tu perdais','une dent définitive','après un choc ?']);c.save();camXf(c,cam);dentVole(c,M,seg(t,0.4,1.6),t);c.restore();},
 (c,t,d)=>{const [B,b]=terrain(t);const M=joueur(b,t,600,900,190,1);JOUR(b);const cam={x:760,y:960,z:1.3};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);dentVole(c,M,seg(t,C('expulse',1.4)-0.2,C('expulse',1.4)+1.0),t);c.restore();
   tag(c,'UN CHOC PENDANT LE SPORT',T1,clamp((t-0.2)/0.3),'rouge',40);tag(c,'CONTACTE IMMÉDIATEMENT UN DENTISTE',T2,clamp((t-C('dentiste',3.4))/0.3),'vert',34);},
 (c,t,d)=>planche(c,t,t,[['couronne','oui',C('visible',2.4)-0.3,'la partie visible'],['racine','non',C('racine',3.6)-0.3,'jamais la racine']],{kicker:'RETROUVE LA DENT ET PRENDS-LA PAR',y:860}),
 (c,t,d)=>{planche(c,t,t,[['robinet','oui',C('rince',1.2)-0.3,'rinçage bref']],{kicker:'ELLE EST SALE ?',y:820,s:1.8});tag(c,'SANS FROTTER',1250,clamp((t-C('rince',1.2)+0.6)/0.3),'rouge',44);},
 (c,t,d)=>{planche(c,t,t,[['dent','oui',C('replacee',1.8)-0.3,'remise en place']],{kicker:'DENT DÉFINITIVE',y:820,s:1.8});tag(c,'DOUCEMENT, SANS FORCER',1250,clamp((t-C('replacee',1.8)+0.4)/0.3),'vert',42);},
 (c,t,d)=>planche(c,t,t,[['bebe','non',C('lait',1.0)-0.3,'dent de lait'],['confusion','non',C('ignores',2.6)-0.3,'type inconnu']],{kicker:'NE REPLACE JAMAIS',y:860}),
-(c,t,d)=>planche(c,t,t,[['verreLait','oui',C('lait',2.4)-0.3,'dans du lait'],['serum','oui',C('serum',3.4)-0.3,'ou du sérum physiologique']],{kicker:'IMPOSSIBLE À REPLACER ? CONSERVE-LA',y:860}),
+(c,t,d)=>planche(c,t,t,[['verreLait','oui',C('lait',2.4)-0.3,'dans du lait'],['serum','oui',C('serum',3.4)-0.3,'sérum physiologique']],{kicker:'IMPOSSIBLE À REPLACER ? CONSERVE-LA',y:860}),
 (c,t,d)=>{planche(c,t,t,[['soleil','non',C('secher',0.8)-0.2,'pas à sec'],['glace','non',C('glace',1.8)-0.2,'pas dans la glace']],{kicker:'ATTENTION',y:860});tag(c,'PARS IMMÉDIATEMENT CHEZ LE DENTISTE',1250,clamp((t-C('pars',2.6))/0.3),'vert',34);},
-(c,t,d)=>{planche(c,t,t,[['choc','',C('tete',1.0)-0.3,'choc violent à la tête'],['bebeKO','',2.0,'perte de connaissance'],['vomir','',3.0,'vomissements']],{kicker:'ET SI',cols:3,s:0.95,y:880});tag(c,'APPELLE LE 112',1250,clamp((t-C('appelle',4.4))/0.3),'vert',46);},
+(c,t,d)=>{planche(c,t,t,[['choc','',C('tete',1.0)-0.3,'choc à la tête'],['bebeKO','',2.0,'inconscience'],['vomir','',3.0,'vomissements']],{kicker:'ET SI',cols:3,s:0.95,y:880});tag(c,'APPELLE LE 112',1250,clamp((t-C('appelle',4.4))/0.3),'vert',46);},
 (c,t,d)=>fin(c,t,d,[['Dentiste immédiatement',PAL.vert],['Par la couronne, jamais la racine',PAL.rouge],['Dans du lait ou du sérum, jamais à sec',PAL.vert],['Choc à la tête, inconscience : 112',PAL.rouge]]),
 ];
 
