@@ -9,10 +9,10 @@
 function allee(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'jardin',T,{fleurs:false});b.fillStyle='#8a8e94';b.fillRect(0,1500,WB,420);voiture(b,820,1460,1.1,'#3c8fd0',{});return [B,b];}
 const JOUR=b=>ambiance(b,[{x:1200,y:200,r:1900,c:'rgba(255,240,210,0.55)'}],'#c8c8cc');
 // habitacle vu de côté : siège passager, siège bébé dos à la route, tableau de bord
-function interieur(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');b.fillStyle=lg(b,0,0,0,H,[[0,'#2a2e36'],[1,'#14161a']]);b.fillRect(0,0,WB,H);
+function interieur(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');b.fillStyle=lg(b,0,0,0,H,[[0,'#4a5260'],[1,'#22262e']]);b.fillRect(0,0,WB,H);
   b.fillStyle='rgba(160,200,230,0.5)';b.beginPath();b.moveTo(900,300);b.quadraticCurveTo(1300,380,1450,900);b.lineTo(1450,300);b.fill();b.fillStyle='#1a1c20';b.beginPath();b.moveTo(1000,900);b.lineTo(1512,820);b.lineTo(1512,1200);b.lineTo(1000,1150);b.fill();
   b.fillStyle='#3a3c42';b.beginPath();b.roundRect(300,700,180,700,40);b.fill();b.beginPath();b.roundRect(300,1300,620,170,40);b.fill();
-  b.save();b.translate(690,1150);b.scale(-1.6,1.6);ICO.siegeBebe(b);b.restore();
+  b.save();b.translate(660,1180);b.scale(-2.6,2.6);ICO.siegeBebe(b);b.restore();
   if(o.airbag){const k=o.airbag;b.save();b.globalAlpha=0.95;b.fillStyle='#f4f4f0';b.beginPath();b.ellipse(1020-120*k,1000,60+160*k,50+150*k,0,0,TAU);b.fill();b.restore();}
   if(o.off){b.save();b.translate(1150,760);b.scale(0.9,0.9);ICO.airbagOff(b);b.restore();}else{b.fillStyle='#e53935';b.font='900 40px M';b.textAlign='center';b.fillText('AIRBAG',1120,1000);}
   return [B,b];}

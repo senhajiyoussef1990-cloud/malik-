@@ -15,11 +15,11 @@ const SCENES=[
 (c,t,d)=>{const k=ease(seg(t,C('freinage',2.0),d));vue(c,t,{devant:lerp(0.45,0.7,k),frein:t>C('freinage',2.0)-0.2,kmh:90});tag(c,'SES FEUX STOP S’ALLUMENT',T1,clamp((t-C('freinage',2.0))/0.3),'rouge',40);},
 (c,t,d)=>{bandeDist(c,t,ease(clamp(t/2.5)),0.35,0,'TEMPS DE RÉACTION');tag(c,'TU AVANCES AVANT MÊME DE FREINER',1250,clamp((t-C('reaction',3.0)+0.6)/0.3),'rouge',34);},
 (c,t,d)=>{bandeDist(c,t,1,0.35,0.45*ease(clamp(t/2)),'PUIS LA DISTANCE DE FREINAGE');},
-(c,t,d)=>{const s=1+0.5*ease(clamp(t/2.5));bandeDist(c,t,1,0.35*s*0.75,0.45*s*s*0.75,'PLUS TU ROULES VITE');tag(c,'PLUS IL FAUT DE DISTANCE',1250,clamp((t-C('vite',1.6))/0.3),'rouge',40);},
+(c,t,d)=>{const s=1+0.5*ease(clamp(t/2.5));bandeDist(c,t,1,0.3*s*0.6,0.4*s*s*0.6,'PLUS TU ROULES VITE');tag(c,'PLUS IL FAUT DE DISTANCE',1250,clamp((t-C('vite',1.6))/0.3),'rouge',40);},
 (c,t,d)=>{vue(c,t,{devant:0.3,kmh:90});tag(c,'AU MOINS 2 SECONDES D’ÉCART',T1,clamp((t-C('deux',1.0))/0.3),'vert',38);c.save();c.font='900 120px M';c.fillStyle=PAL.vert;c.textAlign='center';c.globalAlpha=clamp((t-C('deux',1.0))/0.3);c.fillText('2 s',W/2,1300);c.restore();},
 (c,t,d)=>{vue(c,t,{devant:0.25,pluie:true,kmh:70});tag(c,'ADAPTE TA VITESSE',T1,clamp((t-C('adapte',0.2))/0.3),'vert',42);tag(c,'CHAUSSÉE ET MÉTÉO',T2,clamp((t-C('meteorologiques',2.6))/0.3),'vert',42);},
 (c,t,d)=>{vue(c,t,{devant:0.78,kmh:110});tag(c,'NE COLLE JAMAIS',T1,clamp((t-C('colle',0.4))/0.3),'rouge',46);tag(c,'POUR GAGNER DU TEMPS',T2,clamp((t-1.8)/0.3),'rouge',40);},
-(c,t,d)=>fin(c,t,d,[['Réaction + freinage = distance d’arrêt',PAL.rouge],['Plus vite = beaucoup plus long',PAL.rouge],['Au moins 2 secondes d’écart',PAL.vert],['Pluie : encore plus d’écart',PAL.vert]]),
+(c,t,d)=>fin(c,t,d,[['Réaction + freinage = distance d’arrêt',PAL.rouge],['Plus vite = beaucoup plus long',PAL.rouge],['Au moins 2 secondes d’écart',PAL.vert],['Vitesse adaptée à la météo',PAL.vert]]),
 ];
 
 </script></body></html>
