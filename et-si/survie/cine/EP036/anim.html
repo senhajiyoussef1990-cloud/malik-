@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP036 — « Et si tu vomissais du sang ? » — Texte repris mot pour mot de kits-90s-lot-08.json (EP030), placé en épisode 36 ; fin de la série « … pour plus de conseils ». */
+['sang','remèdes','thoracique','nausées','choc','tête','diagnostic'].forEach(w=>RED_W.add(w));
+['rapide','contacte','112','explique','décris','communication','instructions','évaluation'].forEach(w=>GREEN_W.add(w));
+function sdb(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'sdb',T,{});b.fillStyle='rgba(180,30,30,0.7)';b.beginPath();b.ellipse(770,1030,60,14,0,0,TAU);b.fill();return [B,b];}
+const LUM=b=>ambiance(b,[LAMPE(760,300,1.1),LAMPE(500,1000,0.5,900)],'#70747a');
+function malade(b,T,x,y,u,k,o={}){return acteur(b,'heros',x,y,u,{lean:0.25*k-(o.tel?0.2:0),look:o.tel?0.8:0.95,tilt:0.2*k,ex:o.ex||{eye:1,brow:0.9*k,mouth:0.4*k},near:o.tel?{to:[x+1.45*u,y+0.6*u],hand:'grip',ang:-1.3}:{to:[x+1.6*u,y+1.35*u],hand:'open',ang:0.4},far:o.tel?{bend:-1}:{to:[x+1.2*u,y+1.45*u],hand:'open',bend:-1}},{after:o.tel?f=>phone(f,x+1.45*u+Math.cos(-1.3)*0.34*u,y+0.6*u+Math.sin(-1.3)*0.34*u,-0.12,T,1.0):null});}
+const TEL=(t,ex)=>({tel:true,ex:ex||{eye:0.8,brow:0.6,mouth:0.4+0.2*Math.sin(t*8)}});
+const SCENES=[
+(c,t,d)=>{const [B,b]=sdb(t);malade(b,t,380,820,190,ease(seg(t,0.2,1.0)));LUM(b);accroche(c,t,d,B,camAt(t,d,{x:620,y:960,z:1.1},{x:640,y:960,z:1.2}),['tu vomissais','du sang ?']);},
+(c,t,d)=>{planche(c,t,t,[['sang','',C('sang',1.6)-0.3,'du sang']],{kicker:'APRÈS AVOIR VOMI',y:820,s:1.8});tag(c,'RÉAGIS RAPIDEMENT',1250,clamp((t-C('rapide',3.4))/0.3),'vert',44);},
+(c,t,d)=>{planche(c,t,t,[['remede','non',0.3,'pas de remède maison']],{kicker:'NE TE SOIGNE PAS SEUL',y:820,s:1.8});},
+(c,t,d)=>{const [B,b]=sdb(t);malade(b,t,380,820,190,0.5,TEL(t));LUM(b);show(c,B,{x:620,y:960,z:1.2});grade(c,t);tag(c,'CONTACTE IMMÉDIATEMENT',T1,clamp((t-C('contacte',0.2))/0.3),'vert',42);tag(c,'LE 112',T2,clamp((t-C('appelle',3.0))/0.3),'vert',52);},
+(c,t,d)=>{const [B,b]=sdb(t);malade(b,t,380,820,190,0.5,TEL(t));LUM(b);show(c,B,{x:620,y:960,z:1.2});grade(c,t);bubble(c,W/2+60,1180,'J’AI VOMI DU SANG',clamp((t-C('explique',0.2))/0.3));
+  tag(c,'EXPLIQUE CE QUI SE PASSE',T1,clamp((t-C('explique',0.2))/0.3),'vert',40);tag(c,'DÉCRIS LES AUTRES SYMPTÔMES',T2,clamp((t-C('symptomes',2.4))/0.3),'vert',38);},
+(c,t,d)=>{planche(c,t,t,[['thorax','',C('thoracique',1.2)-0.3,'douleur thoracique'],['vomir','',C('thoracique',1.2)+0.6,'avec nausées']],{kicker:'AUSSI UNE URGENCE',y:860});},
+(c,t,d)=>{planche(c,t,t,[['choc','',C('tete',1.6)-0.3,'choc à la tête'],['vomir','',C('tete',1.6)+0.4,'puis vomissements']],{kicker:'AIDE URGENTE',y:860});},
+(c,t,d)=>{planche(c,t,t,[['video','non',0.3,'pas d’autodiagnostic']],{kicker:'UNE VIDÉO NE SUFFIT PAS',y:820,s:1.8});},
+(c,t,d)=>{const [B,b]=sdb(t);malade(b,t,380,820,190,0.3,TEL(t,{eye:0.8,brow:0.3,mouth:0.15}));LUM(b);show(c,B,{x:620,y:960,z:1.2});grade(c,t);tag(c,'RESTE EN COMMUNICATION',T1,clamp((t-C('communication',1.0))/0.3),'vert',40);tag(c,'SUIS LEURS INSTRUCTIONS',T2,clamp((t-C('instructions',2.6))/0.3),'vert',42);},
+(c,t,d)=>planche(c,t,t,[['hopital','oui',C('evaluation',0.6)-0.2,'évaluation rapide'],['imagerie','oui',C('cause',2.4)-0.3,'cause et traitement']],{kicker:'À L’HÔPITAL',y:860}),
+(c,t,d)=>fin(c,t,d,[['Du sang en vomissant : urgence',PAL.rouge],['Appelle le 112, explique',PAL.vert],['Pas de remède maison, pas d’autodiagnostic',PAL.rouge],['Reste en ligne, suis leurs instructions',PAL.vert]]),
+];
+
+</script></body></html>

@@ -1,0 +1,49 @@
+{
+ "id": "EP034",
+ "title": "Et si ton taux de sucre chutait brutalement ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/diabete-adulte/diabete-symptomes-evolution/acido-cetose-hypoglycemie-hyperglycemie"
+ ],
+ "verification": "Source consultée dans cette étape; consignes complémentaires de sécurité et relecture clinique à valider",
+ "publication": {
+  "titre": "Et si ton taux de sucre chutait brutalement ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/diabete-adulte/diabete-symptomes-evolution/acido-cetose-hypoglycemie-hyperglycemie",
+  "social": "Et si ton taux de sucre chutait brutalement ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-08.json (EP028), placé en épisode 34 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton taux de sucre chutait brutalement ?"
+  },
+  {
+   "voix": "Tu es diabétique et tu ressens soudain des tremblements."
+  },
+  {
+   "voix": "Des palpitations ou une vision floue peuvent aussi évoquer une hypoglycémie."
+  },
+  {
+   "voix": "Arrête ton activité et mesure ta glycémie si tu peux."
+  },
+  {
+   "voix": "Si elle est inférieure à 70 milligrammes par décilitre, suis ton protocole médical."
+  },
+  {
+   "voix": "Si tu es conscient et peux avaler normalement, prends quinze grammes de sucre rapide."
+  },
+  {
+   "voix": "Repose-toi quinze minutes puis mesure à nouveau ta glycémie."
+  },
+  {
+   "voix": "Si elle demeure trop basse, renouvelle le resucrage selon ton protocole."
+  },
+  {
+   "voix": "Si une personne perd connaissance, ne lui donne rien par la bouche et appelle le 112."
+  },
+  {
+   "voix": "Prépare avec ton médecin un plan adapté à ton traitement."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

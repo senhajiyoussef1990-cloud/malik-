@@ -1,0 +1,49 @@
+{
+ "id": "EP025",
+ "title": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ?",
+ "sources": [
+  "https://www.centreantipoisons.be/tox-infos/tablettes-pour-le-lave-vaisselle/"
+ ],
+ "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+ "publication": {
+  "titre": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.centreantipoisons.be/tox-infos/tablettes-pour-le-lave-vaisselle/",
+  "social": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-04.json (EP015), placé en épisode 25 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu recevais une capsule de lave-vaisselle dans la bouche ?"
+  },
+  {
+   "voix": "Une capsule de détergent concentré peut être très irritante."
+  },
+  {
+   "voix": "Si un enfant en avale, ne cherche pas à le faire vomir."
+  },
+  {
+   "voix": "Nettoie soigneusement sa bouche. Pour un tout-petit, utilise un gant humide."
+  },
+  {
+   "voix": "S’il est conscient et avale normalement, propose une ou deux petites gorgées d’eau."
+  },
+  {
+   "voix": "Contacte un médecin ou le Centre Antipoisons."
+  },
+  {
+   "voix": "En Belgique, son numéro est le 070 245 245."
+  },
+  {
+   "voix": "Prépare le nom du produit et la quantité éventuellement avalée."
+  },
+  {
+   "voix": "En cas de détresse respiratoire, de convulsions ou de perte de connaissance, appelle le 112."
+  },
+  {
+   "voix": "Conserve les capsules hors de portée des enfants."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

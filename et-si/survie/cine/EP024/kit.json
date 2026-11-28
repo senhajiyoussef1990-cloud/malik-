@@ -1,0 +1,49 @@
+{
+ "id": "EP024",
+ "title": "Et si un produit chimique éclaboussait ton œil ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil"
+ ],
+ "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+ "publication": {
+  "titre": "Et si un produit chimique éclaboussait ton œil ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil",
+  "social": "Et si un produit chimique éclaboussait ton œil ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-04.json (EP014), placé en épisode 24 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si un produit chimique éclaboussait ton œil ?"
+  },
+  {
+   "voix": "Tu nettoies la maison et une éclaboussure atteint ton œil."
+  },
+  {
+   "voix": "Certains liquides ménagers peuvent provoquer des lésions en quelques minutes."
+  },
+  {
+   "voix": "Ne frotte pas ton œil. Lave tes mains et retire tes lentilles si tu en portes."
+  },
+  {
+   "voix": "Commence immédiatement un rinçage abondant et doux à l’eau tiède."
+  },
+  {
+   "voix": "Maintiens les paupières ouvertes. Demande de l’aide si possible."
+  },
+  {
+   "voix": "Poursuis le rinçage au moins quinze minutes, en regardant dans différentes directions."
+  },
+  {
+   "voix": "Ne recouvre pas ton œil avec un bandage."
+  },
+  {
+   "voix": "Après le rinçage, rends-toi immédiatement aux urgences ophtalmologiques."
+  },
+  {
+   "voix": "Indique au médecin quel produit a été projeté."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

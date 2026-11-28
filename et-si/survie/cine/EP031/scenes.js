@@ -1,0 +1,19 @@
+['diarrhée','danger','perte','vomit','réveiller','vite','dégrade','graves'].forEach(w=>RED_W.add(w));
+['avis','solution','réhydratation','pharmacie','notice','souvent','petites','allaitement','conseil','surveille','112'].forEach(w=>GREEN_W.add(w));
+function chambre(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'chambre',T);return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(760,500,1.2),LAMPE(1200,700,0.6)],'#6a6e7a');
+// parent qui porte le bébé contre lui
+function parent(b,T,x,y,u,k,o={}){const P=[x+0.85*u,y+0.95*u];acteur(b,'femme',x,y,u,{lean:0.04,look:o.look??0.6,tilt:0.15,ex:o.ex||{eye:0.8,brow:0.8*k,mouth:0.2},near:o.near||{to:[P[0]+0.1*u,P[1]+0.25*u],hand:'open',ang:-0.4},far:{to:[P[0]-0.1*u,P[1]-0.25*u],hand:'open',bend:-1}},{after:f=>{f.save();f.translate(P[0],P[1]);f.scale(0.0072*u,0.0072*u);f.rotate(-0.3);ICO[o.ko?'bebeKO':'bebe'](f);f.restore();}});return P;}
+const SCENES=[
+(c,t,d)=>{const [B,b]=chambre(t);const k=ease(seg(t,0.2,1.0));parent(b,t,700,1000,190,k);AMB(b);accroche(c,t,d,B,camAt(t,d,{x:780,y:960,z:1.05},{x:800,y:960,z:1.15}),['ton bébé avait','une diarrhée importante ?']);},
+(c,t,d)=>planche(c,t,t,[['bebe','',0.2,'moins de 2 ans'],['pharmacien','oui',C('avis',3.6)-0.4,'avis médical rapide']],{kicker:'DIARRHÉE AIGUË',y:860}),
+(c,t,d)=>{planche(c,t,t,[['goutte','',0.2,'eau et sels minéraux']],{kicker:'LE DANGER PRINCIPAL',y:820,s:1.8});tag(c,'LA DÉSHYDRATATION',1250,clamp((t-C('eau',1.8))/0.3),'rouge',46);},
+(c,t,d)=>planche(c,t,t,[['sro','oui',C('solution',0.6)-0.2,'réhydratation'],['notice','oui',C('notice',4.2)-0.4,'selon la notice']],{kicker:'EN PHARMACIE',y:860}),
+(c,t,d)=>{planche(c,t,t,[['cuillere','oui',C('petites',1.6)-0.3,'petites quantités'],['horloge','oui',C('souvent',0.6)-0.2,'souvent']],{kicker:'PROPOSE-LA',y:860});tag(c,'SURTOUT S’IL VOMIT',1250,clamp((t-C('vomit',3.4))/0.3),'jaune',42);},
+(c,t,d)=>planche(c,t,t,[['allaitement','oui',C('allaitement',0.4)-0.2,'allaitement'],['pharmacien','oui',C('conseil',2.4)-0.3,'conseil médical']],{kicker:'ALIMENTATION',y:860}),
+(c,t,d)=>planche(c,t,t,[['biberon','',C('boissons',0.8)-0.2,'boissons'],['couche','',C('selles',1.6)-0.2,'selles'],['vomir','',2.4,'vomissements'],['bebe','',C('comportement',3.4)-0.2,'comportement']],{kicker:'SURVEILLE',cols:2,s:0.85,y:720}),
+(c,t,d)=>{planche(c,t,t,[['bebeKO','',C('reveiller',1.0)-0.2,'dur à réveiller'],['biberon','non',C('boit',2.0)-0.2,'ne boit plus'],['poumons','',C('respire',3.0)-0.2,'respire vite']],{kicker:'SIGNES D’ALERTE',cols:3,s:0.95,y:880});tag(c,'ÉVALUATION URGENTE',1250,clamp((t-C('respire',3.0)-0.6)/0.3),'rouge',42);},
+(c,t,d)=>{const [B,b]=chambre(t);const x=700,u=190;parent(b,t,x,860,u,1,{ko:true,near:{to:[x+1.45*u,860+0.6*u],hand:'grip',ang:-1.3},ex:{eye:0.9,brow:0.8,mouth:0.4+0.2*Math.sin(t*8)}});phone(b,x+1.45*u+Math.cos(-1.3)*0.34*u,860+0.6*u+Math.sin(-1.3)*0.34*u,-0.12,t,1.0);AMB(b);
+  show(c,B,{x:840,y:1020,z:1.15});grade(c,t);tag(c,'SON ÉTAT SE DÉGRADE ?',T1,clamp((t-C('degrade',1.0))/0.3),'rouge',40);tag(c,'SIGNES GRAVES : 112',T2,clamp((t-C('appelle',2.4))/0.3),'vert',44);},
+(c,t,d)=>fin(c,t,d,[['Moins de 2 ans : avis médical rapide',PAL.vert],['Solution de réhydratation, souvent, un peu',PAL.vert],['Continue l’allaitement',PAL.vert],['Endormi, ne boit plus, respire vite : 112',PAL.rouge]]),
+];

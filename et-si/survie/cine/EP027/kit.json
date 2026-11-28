@@ -1,0 +1,49 @@
+{
+ "id": "EP027",
+ "title": "Et si un éclat de métal frappait ton œil ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil"
+ ],
+ "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+ "publication": {
+  "titre": "Et si un éclat de métal frappait ton œil ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/corps-etrangers/oeil",
+  "social": "Et si un éclat de métal frappait ton œil ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-04.json (EP017), placé en épisode 27 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si un éclat de métal frappait ton œil ?"
+  },
+  {
+   "voix": "Tu bricoles et un éclat est projeté violemment vers ton visage."
+  },
+  {
+   "voix": "Une douleur soudaine ou une vision trouble peuvent signaler une blessure sérieuse."
+  },
+  {
+   "voix": "Un fragment peut pénétrer dans le globe oculaire."
+  },
+  {
+   "voix": "Cette situation est différente d’un simple cil sous une paupière."
+  },
+  {
+   "voix": "Ne tente pas d’extraire toi-même un fragment pénétrant."
+  },
+  {
+   "voix": "Une projection violente exige une consultation ophtalmologique urgente."
+  },
+  {
+   "voix": "Une douleur intense ou une vision altérée sont également des motifs d’urgence."
+  },
+  {
+   "voix": "Explique au médecin le type de matériau et les circonstances."
+  },
+  {
+   "voix": "Des examens et parfois une intervention peuvent être nécessaires."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

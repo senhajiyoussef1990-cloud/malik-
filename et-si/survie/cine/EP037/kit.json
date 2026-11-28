@@ -1,0 +1,49 @@
+{
+ "id": "EP037",
+ "title": "Et si une douleur brutale te traversait le ventre ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/mal-ventre/que-faire-cas-faut-consulter"
+ ],
+ "verification": "Source consultée directement dans cette étape; relecture professionnelle non obtenue",
+ "publication": {
+  "titre": "Et si une douleur brutale te traversait le ventre ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/mal-ventre/que-faire-cas-faut-consulter",
+  "social": "Et si une douleur brutale te traversait le ventre ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-09.json (EP031), placé en épisode 37 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si une douleur brutale te traversait le ventre ?"
+  },
+  {
+   "voix": "Tu es chez toi quand une douleur très intense apparaît sans prévenir."
+  },
+  {
+   "voix": "Les douleurs abdominales ne sont pas toutes bénignes. Certaines exigent des soins urgents."
+  },
+  {
+   "voix": "Si la douleur est soudaine et intense, appelle le 112."
+  },
+  {
+   "voix": "Un ventre devenu rigide et douloureux constitue aussi un signal d’urgence."
+  },
+  {
+   "voix": "Une douleur après une chute violente nécessite également une prise en charge rapide."
+  },
+  {
+   "voix": "Si tu as du mal à respirer en plus de la douleur, contacte les secours."
+  },
+  {
+   "voix": "Une douleur inhabituelle pendant une grossesse doit également être évaluée en urgence."
+  },
+  {
+   "voix": "Si la douleur est nouvelle, persistante mais sans signe grave, consulte dans la journée."
+  },
+  {
+   "voix": "Ne tente pas de déterminer la cause à partir de cette vidéo."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

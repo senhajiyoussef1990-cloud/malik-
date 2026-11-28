@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP034 — « Et si ton taux de sucre chutait brutalement ? » — Texte repris mot pour mot de kits-90s-lot-08.json (EP028), placé en épisode 34 ; fin de la série « … pour plus de conseils ». */
+['tremblements','palpitations','floue','hypoglycémie','basse','connaissance','rien'].forEach(w=>RED_W.add(w));
+['arrête','mesure','protocole','sucre','rapide','repose-toi','renouvelle','112','plan'].forEach(w=>GREEN_W.add(w));
+function salon(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false});return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#6a6a72');
+function tremble(b,T,x,y,u,k){const s=k*0.06*u,H=[x+0.95*u+Math.sin(T*40)*s,y+0.7*u+Math.cos(T*37)*s];acteur(b,'heros',x,y,u,{lean:0.05,look:0.95,tilt:0.15*k,ex:{eye:lerp(0.8,0.6,k),brow:0.8*k,mouth:0.3*k},near:{to:H,hand:'open',ang:-1.2},far:{bend:-1}});return H;}
+function vibr(c,x,y,a){if(a<=0)return;c.save();c.globalAlpha=a;c.strokeStyle='rgba(255,255,255,0.75)';c.lineWidth=5;for(const s of [-1,1])for(let i=0;i<2;i++){c.beginPath();c.arc(x,y,60+i*24,s>0?-0.5:Math.PI-0.5,s>0?0.5:Math.PI+0.5);c.stroke();}c.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,0.2,1.0));const Hh=tremble(b,t,600,1000,190,k);AMB(b);const cam=camAt(t,d,{x:760,y:960,z:1.05},{x:780,y:960,z:1.15});accroche(c,t,d,B,cam,['ton taux de sucre','chutait brutalement ?']);c.save();camXf(c,cam);vibr(c,Hh[0],Hh[1],k);c.restore();},
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,C('tremblements',2.4)-0.4,C('tremblements',2.4)+0.2));const Hh=tremble(b,t,600,1000,190,k);AMB(b);const cam={x:Hh[0]-80,y:Hh[1]-200,z:1.5};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);vibr(c,Hh[0],Hh[1],k);c.restore();
+  tag(c,'TU ES DIABÉTIQUE',T1,clamp((t-0.2)/0.3),'sombre',42);tag(c,'TREMBLEMENTS SOUDAINS',T2,clamp((t-C('tremblements',2.4))/0.3),'rouge',42);},
+(c,t,d)=>{planche(c,t,t,[['coeur','',C('palpitations',0.6)-0.2,'palpitations'],['oeil','',C('floue',1.6)-0.2,'vision floue']],{kicker:'AUTRES SIGNES',y:860});tag(c,'HYPOGLYCÉMIE ?',1250,clamp((t-C('floue',1.6)-0.8)/0.3),'rouge',46);},
+(c,t,d)=>planche(c,t,t,[['repos','oui',C('arrete',0.2)-0.1,'arrête-toi'],['glucometre','oui',C('mesure',1.6)-0.3,'mesure ta glycémie']],{kicker:'TOUT DE SUITE',y:860}),
+(c,t,d)=>{planche(c,t,t,[['glucometre','',0.2,'glycémie'],['planEcrit','oui',C('protocole',3.6)-0.4,'ton protocole']],{kicker:'SI ELLE EST TROP BASSE',y:860});c.save();c.font='900 72px M';c.fillStyle=PAL.etsi;c.textAlign='center';c.globalAlpha=clamp((t-C('seuil',1.4))/0.3);c.fillText('< 70 mg/dL',W/2,1270);c.restore();},
+(c,t,d)=>{planche(c,t,t,[['sucre','oui',C('sucre',3.4)-0.4,'sucre rapide']],{kicker:'CONSCIENT ET AVALE NORMALEMENT ?',y:820,s:1.8});tag(c,'15 GRAMMES DE SUCRE RAPIDE',1250,clamp((t-C('quinze',3.0))/0.3),'vert',40);},
+(c,t,d)=>planche(c,t,t,[['minuterie','oui',C('repose',0.2)-0.1,'15 min de repos'],['glucometre','oui',C('mesure',2.2)-0.3,'nouvelle mesure']],{kicker:'ENSUITE',y:860}),
+(c,t,d)=>planche(c,t,t,[['sucre','oui',C('renouvelle',1.4)-0.3,'nouveau resucrage'],['planEcrit','oui',C('renouvelle',1.4)+0.6,'selon ton protocole']],{kicker:'TOUJOURS TROP BASSE ?',y:860}),
+(c,t,d)=>{planche(c,t,t,[['allonge','',C('connaissance',1.0)-0.2,'perte de connaissance'],['gorgee','non',C('rien',2.0)-0.2,'rien par la bouche']],{kicker:'SI UNE PERSONNE',y:860});tag(c,'APPELLE LE 112',1250,clamp((t-C('appelle',3.2))/0.3),'vert',46);},
+(c,t,d)=>planche(c,t,t,[['pharmacien','oui',0.2,'avec ton médecin'],['planEcrit','oui',C('plan',1.6)-0.3,'un plan adapté']],{kicker:'PRÉPARE',y:860}),
+(c,t,d)=>fin(c,t,d,[['Tremblements, palpitations : arrête-toi',PAL.rouge],['Mesure, puis 15 g de sucre rapide',PAL.vert],['15 min, nouvelle mesure, ton protocole',PAL.vert],['Inconscient : rien en bouche, 112',PAL.rouge]]),
+];
+
+</script></body></html>

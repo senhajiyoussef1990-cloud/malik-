@@ -1,0 +1,49 @@
+{
+ "id": "EP039",
+ "title": "Et si un fragment de verre restait profondément sous ta peau ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/corps-etrangers/peau"
+ ],
+ "verification": "Source consultée directement dans cette étape; relecture professionnelle non obtenue",
+ "publication": {
+  "titre": "Et si un fragment de verre restait profondément sous ta peau ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/corps-etrangers/peau",
+  "social": "Et si un fragment de verre restait profondément sous ta peau ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-09.json (EP033), placé en épisode 39 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si un fragment de verre restait profondément sous ta peau ?"
+  },
+  {
+   "voix": "Un objet se casse et un fragment pénètre dans ta main."
+  },
+  {
+   "voix": "Un fragment profondément logé nécessite un avis médical."
+  },
+  {
+   "voix": "Un gros éclat peut endommager des structures importantes, comme un tendon ou un nerf."
+  },
+  {
+   "voix": "Une douleur intense ou croissante justifie aussi une consultation."
+  },
+  {
+   "voix": "Un médecin peut utiliser une imagerie pour repérer un fragment difficile à localiser."
+  },
+  {
+   "voix": "Même après le retrait, surveille l’apparition d’une infection."
+  },
+  {
+   "voix": "Une rougeur qui progresse, une zone chaude ou un gonflement doivent faire consulter."
+  },
+  {
+   "voix": "Vérifie également si ta vaccination contre le tétanos est à jour."
+  },
+  {
+   "voix": "Si elle ne l’est pas, consulte dans les quarante-huit heures."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

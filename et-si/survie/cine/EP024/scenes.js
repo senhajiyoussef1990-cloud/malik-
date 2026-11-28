@@ -1,0 +1,28 @@
+['éclaboussure','lésions','frotte','bandage','recouvre'].forEach(w=>RED_W.add(w));
+['lave','lentilles','rinçage','tiède','paupières','aide','quinze','urgences','indique','produit'].forEach(w=>GREEN_W.add(w));
+function sdb(T,eau){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'sdb',T,{eau,eauY:1030});return [B,b];}
+const LUM=b=>ambiance(b,[LAMPE(760,300,1.1),LAMPE(500,1000,0.5,900)],'#7a7e84');
+function spray(b,x,y,s){b.save();b.translate(x,y);b.scale(s,s);b.fillStyle='#3aa0e0';b.beginPath();b.roundRect(-34,-30,68,120,14);b.fill();b.fillStyle='#f4f4f4';b.fillRect(-20,-70,40,42);b.fillRect(14,-70,40,16);b.fillStyle='#fff';b.beginPath();b.roundRect(-24,10,48,50,6);b.fill();b.restore();}
+// main sur l'œil (E = position de l'œil)
+function oeilMal(b,T,x,y,u,k,o={}){const E=[x+0.92*u,y-0.55*u];acteur(b,'heros',x,y,u,{lean:0.08*k,look:0.8,ex:{eye:lerp(0.8,0.2,k),brow:0.9*k,mouth:0.4*k},near:k>0.5?{to:E,hand:'open',ang:-2.4}:{to:[x+1.1*u,y+0.9*u],hand:'grip'},far:o.far||{bend:-1}});if(k<=0.5)spray(b,x+1.15*u,y+0.75*u,0.9);return E;}
+function gicle(c,E,a,T){if(a<=0||a>=1)return;c.save();for(let i=0;i<14;i++){const r=mulberry(i),p=clamp(a*1.6-r()*0.6);const x=lerp(E[0]+260,E[0],p)+r()*30,y=lerp(E[1]+180,E[1],p)+r()*30;c.globalAlpha=1-p*0.6;c.fillStyle='rgba(120,210,255,0.95)';c.beginPath();c.arc(x,y,6+r()*8,0,TAU);c.fill();}c.restore();}
+function oeilAnime(c,cx,cy,s,T,o={}){c.save();c.translate(cx,cy);c.scale(s,s);c.fillStyle='#f4f2ee';c.beginPath();c.moveTo(-200,0);c.quadraticCurveTo(0,-160,200,0);c.quadraticCurveTo(0,160,-200,0);c.fill();c.save();c.clip();
+  const lx=o.look?Math.sin(T*1.7)*90:0,ly=o.look?Math.cos(T*1.1)*40:0;c.fillStyle='#5a7a4a';c.beginPath();c.arc(lx,ly,76,0,TAU);c.fill();c.fillStyle='#111';c.beginPath();c.arc(lx,ly,36,0,TAU);c.fill();c.fillStyle='#fff';c.beginPath();c.arc(lx+20,ly-20,14,0,TAU);c.fill();
+  if(o.eau){c.fillStyle='rgba(140,200,255,0.35)';c.fillRect(-200,-160,400,320);}c.restore();c.strokeStyle='#3a2a22';c.lineWidth=14;c.beginPath();c.moveTo(-200,0);c.quadraticCurveTo(0,-160,200,0);c.quadraticCurveTo(0,160,-200,0);c.stroke();
+  if(o.eau){c.fillStyle='rgba(140,200,255,0.9)';for(let i=0;i<5;i++){const y=((T*300+i*80)%400)-260;c.beginPath();c.arc(-120+i*10,y,10,0,TAU);c.fill();}c.fillStyle='#c8ced4';c.fillRect(-180,-330,140,40);c.fillStyle='rgba(140,200,255,0.9)';c.fillRect(-140,-290,24,150);}c.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=sdb(t,false);const k=ease(seg(t,0.4,1.0));const E=oeilMal(b,t,420,760,200,k);LUM(b);const cam=camAt(t,d,{x:600,y:960,z:1.1},{x:620,y:940,z:1.2});accroche(c,t,d,B,cam,['un produit chimique','éclaboussait ton œil ?']);c.save();camXf(c,cam);gicle(c,E,seg(t,0,0.5),t);c.restore();},
+(c,t,d)=>{const [B,b]=sdb(t,false);const k=ease(seg(t,C('eclab',1.6)-0.1,C('eclab',1.6)+0.4));const E=oeilMal(b,t,420,760,200,k);LUM(b);const cam={x:620,y:800,z:1.35};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);gicle(c,E,seg(t,C('eclab',1.6)-0.6,C('eclab',1.6)+0.1),t);c.restore();
+  tag(c,'EN FAISANT LE MÉNAGE',T1,clamp((t-0.1)/0.3),'sombre',40);tag(c,'UNE ÉCLABOUSSURE DANS L’ŒIL',T2,clamp((t-C('eclab',1.6))/0.3),'rouge',38);},
+(c,t,d)=>{planche(c,t,t,[['flacon','',0.2,'liquides ménagers'],['horloge','',C('minutes',2.6)-0.4,'en quelques minutes']],{kicker:'DES LÉSIONS RAPIDES',y:860});},
+(c,t,d)=>planche(c,t,t,[['oeil','non',C('frotte',0.2)-0.1,'ne frotte pas'],['savon','oui',C('frotte',0.2)+1.0,'mains lavées'],['lentille','oui',C('lentilles',2.4)-0.2,'sans lentilles']],{kicker:'D’ABORD',cols:3,s:0.95,y:880}),
+(c,t,d)=>{darkBg(c);kicker(c,'IMMÉDIATEMENT',300,1);oeilAnime(c,W/2,900,1.6,t,{eau:t>C('rincage',1.6)-0.4});grade(c,t,{vig:0.45});
+  tag(c,'RINÇAGE ABONDANT ET DOUX',1250,clamp((t-C('rincage',1.6))/0.3),'vert',40);tag(c,'À L’EAU TIÈDE',1340,clamp((t-C('tiede',3.0))/0.3),'vert',44);},
+(c,t,d)=>planche(c,t,t,[['oeil','oui',C('paupieres',0.8)-0.3,'paupières ouvertes'],['famille','oui',C('aide',2.6)-0.3,'demande de l’aide']],{kicker:'PENDANT LE RINÇAGE',y:860}),
+(c,t,d)=>{darkBg(c);kicker(c,'AU MOINS 15 MINUTES',300,1);oeilAnime(c,W/2,900,1.6,t,{eau:true,look:t>C('directions',3.0)-0.5});picto(c,'minuterie',W/2+330,620,0.6,clamp((t-C('quinze',1.0))/0.3),'oui');grade(c,t,{vig:0.45});
+  tag(c,'REGARDE DANS DIFFÉRENTES DIRECTIONS',1250,clamp((t-C('directions',3.0))/0.3),'vert',34);},
+(c,t,d)=>{planche(c,t,t,[['bandage','non',0.3,'pas de bandage']],{kicker:'APRÈS LE RINÇAGE',y:820,s:1.8});tag(c,'NE RECOUVRE PAS TON ŒIL',1250,clamp((t-C('bandage',1.4))/0.3),'rouge',40);},
+(c,t,d)=>{planche(c,t,t,[['hopital','oui',C('urgences',2.0)-0.3,'urgences ophtalmologiques']],{kicker:'ENSUITE, SANS ATTENDRE',y:820,s:1.8});tag(c,'RENDS-TOI AUX URGENCES',1250,clamp((t-C('urgences',2.0))/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['flacon','oui',C('produit',1.6)-0.3,'le produit projeté']],{kicker:'AU MÉDECIN',y:820,s:1.8});tag(c,'DIS QUEL PRODUIT C’ÉTAIT',1250,clamp((t-C('produit',1.6))/0.3),'vert',42);},
+(c,t,d)=>fin(c,t,d,[['Ne frotte pas, retire tes lentilles',PAL.rouge],['Rince à l’eau tiède, 15 min minimum',PAL.vert],['Pas de bandage sur l’œil',PAL.rouge],['Urgences ophtalmo + nom du produit',PAL.vert]]),
+];

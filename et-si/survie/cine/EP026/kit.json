@@ -1,0 +1,49 @@
+{
+ "id": "EP026",
+ "title": "Et si ton enfant avalait un produit toxique ?",
+ "sources": [
+  "https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf"
+ ],
+ "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+ "publication": {
+  "titre": "Et si ton enfant avalait un produit toxique ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.centreantipoisons.be/sites/default/files/imce/AGC%20folder%20FR%20DEF.pdf",
+  "social": "Et si ton enfant avalait un produit toxique ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-04.json (EP016), placé en épisode 26 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton enfant avalait un produit toxique ?"
+  },
+  {
+   "voix": "Un flacon ouvert, un enfant à proximité : tu suspectes une ingestion accidentelle."
+  },
+  {
+   "voix": "N’attends pas de symptômes pour demander un avis spécialisé."
+  },
+  {
+   "voix": "Ne provoque pas de vomissement. Cela peut aggraver certaines intoxications."
+  },
+  {
+   "voix": "Le lait ne neutralise pas les poisons. N’en donne pas comme antidote."
+  },
+  {
+   "voix": "En Belgique, contacte le Centre Antipoisons au 070 245 245."
+  },
+  {
+   "voix": "Garde l’emballage et la notice à proximité."
+  },
+  {
+   "voix": "Indique l’âge, le poids de l’enfant, le produit et la quantité possible."
+  },
+  {
+   "voix": "Décris les symptômes et les circonstances. Suis les instructions reçues."
+  },
+  {
+   "voix": "Si l’enfant présente des signes graves comme une perte de connaissance, appelle le 112."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

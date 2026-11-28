@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP029 — « Et si tu te tordais la cheville ? » — Texte repris mot pour mot de kits-90s-lot-05.json (EP019), placé en épisode 29 ; fin de la série « … pour plus de conseils ». */
+['rates','tourne','douleur','craquement','impossible','persistante','glace'].forEach(w=>RED_W.add(w));
+['repos','froide','tissu','bande','surélève','consulter','rééducation'].forEach(w=>GREEN_W.add(w));
+function escalier(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir',T);
+  for(let i=0;i<7;i++){const x=i*150,y=1700-i*120;b.fillStyle=lg(b,0,y,0,y+120,[[0,'#8a6a4a'],[1,'#5a4030']]);b.fillRect(x-400,y,WB,40);b.fillStyle='#3a2a20';b.fillRect(x-400,y+40,WB,80);}
+  b.fillStyle='#c8b8a0';b.fillRect(0,880,WB,16);for(let x=40;x<WB;x+=120)b.fillRect(x,896,12,140);return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(710,200,1.2),LAMPE(400,900,0.6,900)],'#8a8e96');
+// pied tordu : appui sur une marche, main vers la cheville
+function tordu(b,T,x,y,u,k){const A=[x+0.3*u,y+4.9*u];acteur(b,'heros',x,y,u,{lean:0.25*k,look:0.9,tilt:0.2*k,ex:{eye:lerp(0.8,0.3,k),brow:0.95*k,mouth:0.5*k},near:k>0.3?{to:[A[0]+0.25*u,A[1]-1.1*u],hand:'open',ang:1.6}:{},far:{bend:-1}});return A;}
+function douleur(c,x,y,a,T){if(a<=0)return;for(let i=0;i<3;i++){const ph=(T*1.3+i/3)%1;c.strokeStyle=`rgba(229,57,53,${a*(1-ph)})`;c.lineWidth=7;c.beginPath();c.arc(x,y,24+ph*90,0,TAU);c.stroke();}}
+const SCENES=[
+(c,t,d)=>{const [B,b]=escalier(t);const k=ease(seg(t,0.4,1.0));const A=tordu(b,t,560,820,170,k);AMB(b);const cam=camAt(t,d,{x:700,y:1120,z:1.0},{x:700,y:1140,z:1.08});accroche(c,t,d,B,cam,['tu te tordais','la cheville ?']);c.save();camXf(c,cam);douleur(c,A[0],A[1],k,t);c.restore();},
+(c,t,d)=>{const [B,b]=escalier(t);const k=ease(seg(t,C('tourne',1.4)-0.2,C('tourne',1.4)+0.3));const A=tordu(b,t,560,820,170,k);AMB(b);const cam=camAt(t,d,{x:700,y:1060,z:1.0},{x:A[0]+60,y:A[1]-300,z:1.5});show(c,B,cam);grade(c,t);c.save();camXf(c,cam);douleur(c,A[0],A[1],k,t);c.restore();
+  tag(c,'TU RATES UNE MARCHE',T1,clamp((t-C('rates',0.4))/0.3),'sombre',42);tag(c,'LE PIED TOURNE BRUSQUEMENT',T2,clamp((t-C('tourne',1.4))/0.3),'rouge',40);},
+(c,t,d)=>{planche(c,t,t,[['repos','oui',C('repos',3.6)-0.3,'cheville au repos']],{kicker:'NE CONTINUE PAS TON ACTIVITÉ',y:820,s:1.8});tag(c,'LA DOULEUR NE VA PAS « PASSER »',1250,clamp((t-1.0)/0.3),'rouge',36);},
+(c,t,d)=>planche(c,t,t,[['poche','oui',C('froide',1.0)-0.3,'poche froide'],['minuterie','oui',C('vingt',3.0)-0.3,'environ 20 minutes']],{kicker:'APPLIQUE DU FROID',y:860}),
+(c,t,d)=>planche(c,t,t,[['linge','oui',C('tissu',0.4)-0.2,'dans un tissu'],['glace','non',C('glace',2.4)-0.2,'pas directement']],{kicker:'PROTÈGE TA PEAU',y:860}),
+(c,t,d)=>{planche(c,t,t,[['bande','oui',C('bande',0.4)-0.2,'bande de maintien']],{kicker:'ÇA PEUT AIDER',y:820,s:1.8});tag(c,'SANS SERRER EXCESSIVEMENT',1250,clamp((t-C('serrer',2.6))/0.3),'jaune',40);},
+(c,t,d)=>{planche(c,t,t,[['jambeHaut','oui',C('sureleve',0.2)-0.1,'jambe surélevée']],{kicker:'AU REPOS',y:820,s:1.8});tag(c,'LIMITE LE GONFLEMENT',1250,clamp((t-1.8)/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['choc','',0.2,'douleur importante'],['craque','',C('craquement',1.6)-0.2,'craquement'],['cheville','',C('appui',2.6)-0.2,'appui impossible']],{kicker:'SIGNES À SURVEILLER',cols:3,s:0.95,y:880});tag(c,'CONSULTE DANS LES 24 HEURES',1250,clamp((t-C('consulter',3.6))/0.3),'vert',38);},
+(c,t,d)=>{planche(c,t,t,[['imagerie','oui',C('reeducation',2.0)-1.0,'examen'],['cheville','oui',C('reeducation',2.0)-0.3,'rééducation']],{kicker:'MÊME UNE ENTORSE',y:860});tag(c,'NE NÉGLIGE PAS UNE DOULEUR QUI DURE',1250,clamp((t-C('persistante',3.8)+0.3)/0.3),'rouge',34);},
+(c,t,d)=>fin(c,t,d,[['Arrête-toi, cheville au repos',PAL.vert],['Froid dans un tissu, 20 min',PAL.vert],['Jambe surélevée, bande pas trop serrée',PAL.vert],['Craquement ou appui impossible : consulte',PAL.rouge]]),
+];
+
+</script></body></html>

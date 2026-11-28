@@ -1,0 +1,49 @@
+{
+ "id": "EP035",
+ "title": "Et si tu te déshydratais gravement ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/pathologies/deshydratation"
+ ],
+ "verification": "Source consultée dans cette étape; consignes complémentaires de sécurité et relecture clinique à valider",
+ "publication": {
+  "titre": "Et si tu te déshydratais gravement ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/deshydratation",
+  "social": "Et si tu te déshydratais gravement ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-08.json (EP029), placé en épisode 35 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu te déshydratais gravement ?"
+  },
+  {
+   "voix": "Après des efforts prolongés, tu ressens une fatigue inhabituelle."
+  },
+  {
+   "voix": "Ton organisme peut manquer d’eau et de sels minéraux."
+  },
+  {
+   "voix": "Des lèvres sèches, des vertiges et des urines rares doivent attirer ton attention."
+  },
+  {
+   "voix": "Si les symptômes sont modérés, repose-toi dans un endroit frais."
+  },
+  {
+   "voix": "Rafraîchis ta peau avec un linge humide."
+  },
+  {
+   "voix": "Si tu peux boire normalement, hydrate-toi régulièrement, notamment avec un bouillon salé."
+  },
+  {
+   "voix": "Si tu deviens confus ou très faible, la situation peut être grave."
+  },
+  {
+   "voix": "Appelle le 112 en cas de signes graves. Ne force pas une personne inconsciente à boire."
+  },
+  {
+   "voix": "Sois particulièrement vigilant auprès des personnes âgées et des jeunes enfants."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

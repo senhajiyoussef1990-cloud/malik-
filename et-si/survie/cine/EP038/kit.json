@@ -1,0 +1,49 @@
+{
+ "id": "EP038",
+ "title": "Et si tu perdais soudainement l’audition ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/pathologies/surdite-soudaine-que-faire"
+ ],
+ "verification": "Source consultée directement dans cette étape; relecture professionnelle non obtenue",
+ "publication": {
+  "titre": "Et si tu perdais soudainement l’audition ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/pathologies/surdite-soudaine-que-faire",
+  "social": "Et si tu perdais soudainement l’audition ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-09.json (EP032), placé en épisode 38 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu perdais soudainement l’audition ?"
+  },
+  {
+   "voix": "Tu te réveilles et les sons semblent soudain étouffés d’un côté."
+  },
+  {
+   "voix": "Une baisse rapide de l’audition peut toucher une oreille ou les deux."
+  },
+  {
+   "voix": "Elle peut apparaître en moins de vingt-quatre heures."
+  },
+  {
+   "voix": "Des sifflements ou des vertiges peuvent l’accompagner."
+  },
+  {
+   "voix": "Parfois, tu as simplement l’impression que ton oreille est bouchée."
+  },
+  {
+   "voix": "N’attends pas que ton audition revienne spontanément."
+  },
+  {
+   "voix": "Consulte un spécialiste ORL en urgence."
+  },
+  {
+   "voix": "Si aucun spécialiste n’est accessible rapidement, rends-toi aux urgences."
+  },
+  {
+   "voix": "Une prise en charge précoce est importante car certaines pertes auditives peuvent devenir définitives."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

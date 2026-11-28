@@ -1,0 +1,46 @@
+{
+ "id": "EP029",
+ "title": "Et si tu te tordais la cheville ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/entorse-cheville/bons-reflexes-que-faire"
+ ],
+ "verification": "Source inspectée le 27 novembre 2026; relecture clinique indépendante non obtenue",
+ "publication": {
+  "titre": "Et si tu te tordais la cheville ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/entorse-cheville/bons-reflexes-que-faire",
+  "social": "Et si tu te tordais la cheville ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-05.json (EP019), placé en épisode 29 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu te tordais la cheville ?"
+  },
+  {
+   "voix": "Tu rates une marche et ton pied tourne brusquement. La douleur te force à t’arrêter."
+  },
+  {
+   "voix": "Ne continue pas ton activité en espérant que la douleur disparaisse. Mets la cheville au repos."
+  },
+  {
+   "voix": "Applique une poche froide enveloppée dans un tissu pendant environ vingt minutes."
+  },
+  {
+   "voix": "Le tissu protège ta peau du froid. Ne pose pas la glace directement dessus."
+  },
+  {
+   "voix": "Une bande de maintien peut aider, mais elle ne doit pas serrer excessivement."
+  },
+  {
+   "voix": "Surélève la jambe au repos pour limiter le gonflement."
+  },
+  {
+   "voix": "Une douleur importante, un craquement ou un appui impossible doivent faire consulter dans les vingt-quatre heures."
+  },
+  {
+   "voix": "Même une entorse peut nécessiter un examen et une rééducation. Ne néglige pas une douleur persistante."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

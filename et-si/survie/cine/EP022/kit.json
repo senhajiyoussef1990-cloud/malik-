@@ -1,0 +1,49 @@
+{
+ "id": "EP022",
+ "title": "Et si une tique s’accrochait à ta peau ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-tique-maladie-de-lyme-que-faire"
+ ],
+ "verification": "Source consultée directement le 27 novembre 2026. Relecture professionnelle obligatoire avant publication.",
+ "publication": {
+  "titre": "Et si une tique s’accrochait à ta peau ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-tique-maladie-de-lyme-que-faire",
+  "social": "Et si une tique s’accrochait à ta peau ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-03.json (EP012), placé en épisode 22 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si une tique s’accrochait à ta peau ?"
+  },
+  {
+   "voix": "Après une promenade, tu remarques une petite tique fixée sur ta jambe."
+  },
+  {
+   "voix": "Retire-la rapidement. Certaines tiques peuvent transmettre la maladie de Lyme."
+  },
+  {
+   "voix": "N’applique aucun produit sur la tique avant de la retirer."
+  },
+  {
+   "voix": "Utilise un tire-tique adapté. Glisse son crochet sous la tique, près de la peau, sans l’écraser."
+  },
+  {
+   "voix": "Avec ce crochet, fais doucement un mouvement de traction et de rotation."
+  },
+  {
+   "voix": "Si une partie reste dans la peau, ne creuse pas. Demande conseil à un professionnel."
+  },
+  {
+   "voix": "Désinfecte ensuite la peau et lave tes mains."
+  },
+  {
+   "voix": "Surveille la zone pendant un mois. Une plaque rouge qui s’étend doit faire consulter."
+  },
+  {
+   "voix": "Consulte également si une fièvre, des douleurs ou une fatigue inexpliquée apparaissent."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

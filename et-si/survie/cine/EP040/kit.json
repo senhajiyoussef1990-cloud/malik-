@@ -1,0 +1,52 @@
+{
+ "id": "EP040",
+ "title": "Et si un serpent te mordait pendant une randonnée ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-serpent"
+ ],
+ "verification": {
+  "status": "Conseils principaux contrôlés sur le texte officiel",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si un serpent te mordait pendant une randonnée ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-serpent",
+  "social": "Et si un serpent te mordait pendant une randonnée ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-10.json (EP034), placé en épisode 40 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si un serpent te mordait pendant une randonnée ?"
+  },
+  {
+   "voix": "Tu marches sur un sentier européen lorsqu’un serpent te mord à la cheville."
+  },
+  {
+   "voix": "Écarte-toi de l’animal sans essayer de le capturer."
+  },
+  {
+   "voix": "Même si la douleur semble faible, appelle le 112 immédiatement."
+  },
+  {
+   "voix": "Reste allongé et limite les mouvements du membre atteint."
+  },
+  {
+   "voix": "Retire les bijoux et les éléments qui pourraient serrer la zone si elle gonfle."
+  },
+  {
+   "voix": "N’utilise ni garrot ni pansement compressif."
+  },
+  {
+   "voix": "Ne coupe pas la plaie et ne tente pas d’aspirer le venin."
+  },
+  {
+   "voix": "N’applique pas de glace sur la morsure."
+  },
+  {
+   "voix": "Reste avec la victime et suis les instructions des secours jusqu’à leur arrivée."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

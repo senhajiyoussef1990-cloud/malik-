@@ -1,0 +1,46 @@
+{
+ "id": "EP030",
+ "title": "Et si tu perdais une dent définitive après un choc ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/traumatisme-dentaire"
+ ],
+ "verification": "Source inspectée le 27 novembre 2026; relecture clinique indépendante non obtenue",
+ "publication": {
+  "titre": "Et si tu perdais une dent définitive après un choc ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/accidents-domestiques/traumatisme-dentaire",
+  "social": "Et si tu perdais une dent définitive après un choc ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-05.json (EP020), placé en épisode 30 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu perdais une dent définitive après un choc ?"
+  },
+  {
+   "voix": "Un choc pendant le sport expulse une dent. Contacte immédiatement un dentiste."
+  },
+  {
+   "voix": "Retrouve la dent si possible et prends-la par sa partie visible, jamais par la racine."
+  },
+  {
+   "voix": "Si elle est sale, rince-la brièvement sans frotter."
+  },
+  {
+   "voix": "Une dent définitive peut parfois être replacée doucement, sans forcer."
+  },
+  {
+   "voix": "Ne replace jamais une dent de lait, ni une dent dont tu ignores le type."
+  },
+  {
+   "voix": "Si la remise en place est impossible, conserve la dent dans du lait ou du sérum physiologique."
+  },
+  {
+   "voix": "Ne la laisse pas sécher et ne la mets pas dans la glace. Pars immédiatement chez le dentiste."
+  },
+  {
+   "voix": "Après un choc violent à la tête, une perte de connaissance ou des vomissements, appelle le 112."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "EP033",
+ "title": "Et si quelqu’un faisait une crise convulsive devant toi ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/epilepsie/symptomes-diagnostic"
+ ],
+ "verification": {
+  "status": "Contrôle documentaire partiel effectué sur extraits officiels le 27 novembre 2026; gestes complémentaires et relecture clinique à valider avant publication"
+ },
+ "publication": {
+  "titre": "Et si quelqu’un faisait une crise convulsive devant toi ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/epilepsie/symptomes-diagnostic",
+  "social": "Et si quelqu’un faisait une crise convulsive devant toi ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-07.json (EP025), placé en épisode 33 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si quelqu’un faisait une crise convulsive devant toi ?"
+  },
+  {
+   "voix": "Une personne tombe et présente des secousses involontaires. Écarte les meubles et objets dangereux."
+  },
+  {
+   "voix": "Protège sa tête avec un vêtement plié, sans bloquer ses mouvements."
+  },
+  {
+   "voix": "Ne tente pas de retenir ses bras ou ses jambes."
+  },
+  {
+   "voix": "Ne place aucun objet ni aucun doigt dans sa bouche."
+  },
+  {
+   "voix": "Ne lui donne rien à boire pendant la crise."
+  },
+  {
+   "voix": "Note l’heure du début des convulsions et reste auprès de la personne."
+  },
+  {
+   "voix": "Appelle le 112 si la crise dépasse cinq minutes ou recommence sans récupération. En cas de doute, appelle aussi."
+  },
+  {
+   "voix": "Après les secousses, contrôle sa respiration et suis les instructions des secours."
+  },
+  {
+   "voix": "Si elle respire normalement, les secours peuvent te guider pour la placer sur le côté."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

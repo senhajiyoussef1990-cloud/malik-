@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP023 — « Et si une guêpe te piquait ? » — Texte repris mot pour mot de kits-90s-lot-04.json (EP013), placé en épisode 23 ; fin de la série « … pour plus de conseils ». */
+['pique','douleur','gonflement','respirer','malaise','langue','gonflée','alerte','nombreuses'].forEach(w=>RED_W.add(w));
+['bagues','savon','antiseptique','froid','repos','observe','112','consulte'].forEach(w=>GREEN_W.add(w));
+ICO.guepe=c=>{c.fillStyle='#f0c020';c.beginPath();c.ellipse(0,0,70,40,0,0,TAU);c.fill();c.fillStyle='#222';for(const x of [-30,0,30])c.fillRect(x-8,-38,16,76);c.fillStyle='rgba(220,235,255,0.8)';c.beginPath();c.ellipse(-10,-50,30,18,-0.4,0,TAU);c.ellipse(20,-50,30,18,0.4,0,TAU);c.fill();};
+const _vis=(c,f)=>{c.fillStyle=rgb(PERSOS.heros.skin);c.beginPath();c.arc(0,0,72,0,TAU);c.fill();c.fillStyle=PERSOS.heros.hair;c.beginPath();c.arc(0,-24,74,Math.PI,0);c.fill();c.fillStyle='#222';c.beginPath();c.arc(-24,4,7,0,TAU);c.arc(24,4,7,0,TAU);c.fill();f(c);};
+ICO.langue=c=>_vis(c,c=>{c.fillStyle='#3a1712';c.beginPath();c.ellipse(0,36,24,18,0,0,TAU);c.fill();c.fillStyle='#e05a6a';c.beginPath();c.ellipse(0,46,22,16,0,0,TAU);c.fill();c.fillStyle='rgba(229,57,53,0.25)';c.beginPath();c.arc(0,10,76,0,TAU);c.fill();});
+ICO.essaim=c=>{for(const [x,y,s] of [[-60,-40,0.5],[40,-60,0.45],[0,10,0.6],[-40,60,0.4],[70,40,0.5]]){c.save();c.translate(x,y);c.scale(s,s);ICO.guepe(c);c.restore();}};
+function jardin(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'jardin',T);return [B,b];}
+const JOUR=b=>ambiance(b,[{x:1300,y:200,r:1800,c:'rgba(255,240,210,0.65)'}],'#c4c4c8');
+function guepe(c,x,y,s,T){c.save();c.translate(x+Math.sin(T*9)*14,y+Math.cos(T*13)*10);c.scale(s,s);ICO.guepe(c);c.restore();}
+// main droite (côté caméra) tenue devant soi : P = position de la piqûre
+function pique(b,T,x,y,u,k=1){const P=[x+0.85*u,y+1.0*u];acteur(b,'heros',x,y,u,{lean:0.05,look:0.75,ex:{eye:lerp(0.7,1,k),brow:0.9*k,mouth:0.4*k},near:{to:P,hand:'open',ang:-0.3},far:{to:[x+0.65*u,y+1.25*u],hand:'grip',bend:-1}});return P;}
+function enflure(c,x,y,a,T){if(a<=0)return;for(let i=0;i<3;i++){const ph=(T*1.2+i/3)%1;c.strokeStyle=`rgba(229,57,53,${a*(1-ph)})`;c.lineWidth=6;c.beginPath();c.arc(x,y,18+ph*60,0,TAU);c.stroke();}}
+const SCENES=[
+(c,t,d)=>{const [B,b]=jardin(t);const k=ease(seg(t,0.2,0.9));const P=pique(b,t,600,880,190,k);JOUR(b);const cam=camAt(t,d,{x:740,y:1000,z:1.0},{x:740,y:1000,z:1.12});
+  accroche(c,t,d,B,cam,['une guêpe','te piquait ?']);c.save();camXf(c,cam);guepe(c,P[0]+lerp(0,160,k),P[1]-lerp(0,200,k),0.5,t);enflure(c,P[0],P[1],k,t);c.restore();},
+(c,t,d)=>{const [B,b]=jardin(t);const P=pique(b,t,600,880,190,1);JOUR(b);const cam={x:P[0]-60,y:P[1]-120,z:1.5};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);enflure(c,P[0],P[1],1,t);guepe(c,P[0]+200,P[1]-220,0.5,t);c.restore();
+  tag(c,'PIQÛRE À LA MAIN',T1,clamp((t-C('pique',1.0))/0.3),'rouge',42);tag(c,'DOULEUR + GONFLEMENT',T2,clamp((t-C('gonflement',3.4))/0.3),'rouge',40);},
+(c,t,d)=>{planche(c,t,t,[['horloge','oui',C('heures',2.4)-0.3,'quelques heures']],{kicker:'RÉACTION LOCALE SIMPLE',y:820,s:1.8});tag(c,'LA GÊNE DIMINUE GÉNÉRALEMENT',1250,clamp((t-C('heures',2.4)+0.2)/0.3),'vert',38);},
+(c,t,d)=>{planche(c,t,t,[['bague','oui',C('bagues',0.6)-0.2,'enlève tes bagues']],{kicker:'TOUT DE SUITE',y:820,s:1.8});tag(c,'AVANT QUE LA MAIN GONFLE',1250,clamp((t-C('bagues',0.6)-0.8)/0.3),'jaune',40);},
+(c,t,d)=>planche(c,t,t,[['savon','oui',C('savon',1.0)-0.2,'savon + eau'],['antiseptique','oui',C('antiseptique',2.6)-0.2,'antiseptique']],{kicker:'NETTOIE LA PEAU',y:860}),
+(c,t,d)=>{planche(c,t,t,[['poche','oui',C('froid',1.6)-0.3,'froid dans un tissu']],{kicker:'POUR APAISER LA DOULEUR',y:820,s:1.8});tag(c,'JAMAIS LA GLACE DIRECTEMENT',1250,clamp((t-C('froid',1.6)-0.6)/0.3),'jaune',38);},
+(c,t,d)=>{planche(c,t,t,[['repos','oui',C('repos',0.4)-0.2,'au repos'],['minuterie','oui',C('trente',1.6)-0.2,'30 minutes']],{kicker:'RESTE AU CALME',y:860});tag(c,'OBSERVE L’ÉVOLUTION',1250,clamp((t-C('trente',1.6)-0.8)/0.3),'vert',42);},
+(c,t,d)=>planche(c,t,t,[['poumons','',C('respirer',1.0)-0.2,'mal à respirer'],['vertige','',C('malaise',2.0)-0.2,'malaise'],['langue','',C('langue',2.8)-0.2,'langue gonflée']],{kicker:'SIGNES D’ALERTE',cols:3,s:0.95,y:880}),
+(c,t,d)=>{planche(c,t,t,[['essaim','',C('nombreuses',1.4)-0.3,'nombreuses piqûres'],['secours','oui',C('appelle',3.0)-0.3,'112']],{kicker:'DANS CES SITUATIONS',y:860});tag(c,'APPELLE IMMÉDIATEMENT LE 112',1250,clamp((t-C('appelle',3.0))/0.3),'vert',40);},
+(c,t,d)=>{planche(c,t,t,[['infection','',0.3,'douloureux, rouge, gonflé'],['calendrier','',1.4,'après 24 heures']],{kicker:'ÇA NE PASSE PAS ?',y:860});tag(c,'CONSULTE',1250,clamp((t-C('consulte',3.6))/0.3),'vert',46);},
+(c,t,d)=>fin(c,t,d,[['Enlève tes bagues, nettoie la peau',PAL.vert],['Froid dans un tissu, 30 min au repos',PAL.vert],['Respiration, malaise, langue : 112',PAL.rouge],['Toujours gonflé après 24 h : consulte',PAL.rouge]]),
+];
+
+</script></body></html>

@@ -1,0 +1,23 @@
+['rouge','douloureuse','profonde','cloques','confusion','malaise','rougeur','pus','infection','froid'].forEach(w=>RED_W.add(w));
+['arrête','rafraîchis','robinet','quinze','vingt-cinq','tiède','avis','médical'].forEach(w=>GREEN_W.add(w));
+const BRULE={...PERSOS.heros,skin:[214,120,98],skinD:[150,70,58],shirt:[240,240,236],shirtD:[190,190,186]};
+function jardin(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'jardin',T);b.save();b.translate(1250,230);b.scale(1.4,1.4);ICO.soleil(b);b.restore();return [B,b];}
+const SOLEIL=b=>ambiance(b,[{x:1250,y:230,r:2000,c:'rgba(255,230,170,0.75)'}],'#c8c4bc');
+function parasol(b,x,y,s){b.save();b.translate(x,y);b.scale(s,s);ICO.ombre(b);b.restore();}
+function brule(b,T,x,y,u,k,o={}){return acteur(b,BRULE,x,y,u,{lean:0.03,look:o.look??0.8,ex:{eye:0.6,brow:0.7*k,mouth:0.3*k},near:o.near||{to:[x+0.35*u,y+0.45*u],hand:'open',ang:-2.0},far:{bend:-1},walk:o.walk});}
+function chaleur(c,x,y,a,T){if(a<=0)return;c.save();c.globalAlpha=a;c.strokeStyle='rgba(255,140,80,0.8)';c.lineWidth=6;for(let i=0;i<3;i++){const ph=(T*0.8+i/3)%1;c.beginPath();c.moveTo(x-40+i*40,y-ph*80);c.quadraticCurveTo(x-24+i*40,y-30-ph*80,x-40+i*40,y-60-ph*80);c.stroke();}c.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=jardin(t);const k=ease(seg(t,0.2,1.0));brule(b,t,620,900,190,k);SOLEIL(b);const cam=camAt(t,d,{x:740,y:1000,z:1.0},{x:740,y:1000,z:1.1});accroche(c,t,d,B,cam,['tu avais un gros','coup de soleil ?']);c.save();camXf(c,cam);chaleur(c,760,830,k,t);c.restore();},
+(c,t,d)=>{const [B,b]=jardin(t);brule(b,t,620,900,190,1);SOLEIL(b);const cam={x:760,y:960,z:1.45};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);chaleur(c,760,830,1,t);c.restore();
+  tag(c,'APRÈS UNE JOURNÉE DEHORS',T1,clamp((t-0.1)/0.3),'sombre',40);tag(c,'PEAU ROUGE ET DOULOUREUSE',T2,clamp((t-C('rouge',2.4))/0.3),'rouge',40);},
+(c,t,d)=>{const [B,b]=jardin(t);const k=ease(seg(t,0.2,d-0.2));const x=lerp(360,860,k);parasol(b,1080,1150,2.6);brule(b,t,x,900,190,1,{walk:k>0.02&&k<0.98?t*1.7:null,near:{}});SOLEIL(b);
+  show(c,B,{x:800,y:1000,z:1.0});grade(c,t);tag(c,'ARRÊTE IMMÉDIATEMENT',T1,clamp((t-C('arrete',0.1))/0.3),'vert',42);tag(c,'DE T’EXPOSER AU SOLEIL',T2,clamp((t-C('arrete',0.1)-0.6)/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['douche','oui',C('rafraichis',2.6)-0.3,'eau du robinet']],{kicker:'BRÛLURE SUPERFICIELLE, PEU ÉTENDUE',y:820,s:1.8});tag(c,'RAFRAÎCHIS LA PEAU',1250,clamp((t-C('rafraichis',2.6))/0.3),'vert',44);},
+(c,t,d)=>{planche(c,t,t,[['thermo','oui',0.2,'température de l’eau']],{kicker:'RECOMMANDÉ',y:820,s:1.8});c.save();c.font='900 96px M';c.fillStyle=PAL.etsi;c.textAlign='center';c.globalAlpha=clamp((t-C('quinze',1.6))/0.3);c.fillText('15 à 25 °C',W/2,1270);c.restore();},
+(c,t,d)=>{planche(c,t,t,[['minuterie','oui',0.2,'environ 15 minutes']],{kicker:'POURSUIS',y:820,s:1.8});tag(c,'JUSQU’À CE QUE LA DOULEUR S’APAISE',1250,clamp((t-C('apaise',2.4)+0.4)/0.3),'vert',34);},
+(c,t,d)=>planche(c,t,t,[['bain','oui',C('bain',1.2)-0.3,'bain tiède'],['froid','non',C('bain',1.2)+0.6,'pas froid']],{kicker:'ZONE ÉTENDUE ?',y:860}),
+(c,t,d)=>{planche(c,t,t,[['hopital','oui',C('profonde',1.0)-0.2,'examen médical']],{kicker:'BRÛLURE PROFONDE',y:820,s:1.8});},
+(c,t,d)=>{planche(c,t,t,[['cloque','',C('cloques',0.6)-0.2,'grosses cloques'],['confusion','',C('confusion',1.8)-0.2,'confusion'],['vertige','',C('malaise',2.6)-0.2,'malaise']],{kicker:'SIGNES INQUIÉTANTS',cols:3,s:0.95,y:880});tag(c,'AVIS MÉDICAL RAPIDE',1250,clamp((t-C('malaise',2.6)-0.6)/0.3),'vert',44);},
+(c,t,d)=>{planche(c,t,t,[['infection','',C('rougeur',0.6)-0.2,'rougeur, pus, douleur']],{kicker:'LES JOURS SUIVANTS',y:820,s:1.8});tag(c,'INFECTION POSSIBLE : CONSULTE',1250,clamp((t-C('pus',2.2))/0.3),'rouge',38);},
+(c,t,d)=>fin(c,t,d,[['Stop soleil, à l’ombre',PAL.vert],['Eau du robinet 15–25 °C, 15 min',PAL.vert],['Grande zone : bain tiède, pas froid',PAL.vert],['Cloques, confusion, malaise : médecin',PAL.rouge]]),
+];

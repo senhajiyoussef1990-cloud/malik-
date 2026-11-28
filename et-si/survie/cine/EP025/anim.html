@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP025 — « Et si tu recevais une capsule de lave-vaisselle dans la bouche ? » — Texte repris mot pour mot de kits-90s-lot-04.json (EP015), placé en épisode 25 ; fin de la série « … pour plus de conseils ». */
+['irritante','vomir','détresse','convulsions','connaissance'].forEach(w=>RED_W.add(w));
+['nettoie','gant','gorgées','centre','antipoisons','070','245','prépare','112','portée'].forEach(w=>GREEN_W.add(w));
+function cuisine(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'cuisine',T,{plaques:false});
+  b.fillStyle='#d8dce0';b.fillRect(904,1262,292,330);b.fillStyle='#b8bcc0';b.fillRect(904,1592,292,40);b.fillStyle='#c8ccd0';b.beginPath();b.moveTo(904,1592);b.lineTo(1196,1592);b.lineTo(1250,1720);b.lineTo(850,1720);b.closePath();b.fill();
+  b.strokeStyle='#8a8e94';b.lineWidth=6;for(let i=0;i<5;i++){b.beginPath();b.moveTo(880+i*80,1640);b.lineTo(900+i*80,1700);b.stroke();}return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(735,500,1.1),LAMPE(500,900,0.6,900)],'#6a6a72');
+function capsule(b,x,y,s){b.save();b.translate(x,y);b.scale(s,s);ICO.capsule(b);b.restore();}
+function enfant(b,T,x,y,u,k){const M=[x+0.95*u,y-0.25*u];acteur(b,'enfant',x,y,u,{look:0.8,ex:{eye:0.9,brow:0.1,mouth:0.3},near:{to:[lerp(x+1.1*u,M[0],k),lerp(y+0.9*u,M[1],k)],hand:'grip',ang:-1.2},far:{bend:-1}});return [lerp(x+1.15*u,M[0]+0.12*u,k),lerp(y+0.85*u,M[1]-0.05*u,k)];}
+const SCENES=[
+(c,t,d)=>{const [B,b]=cuisine(t);const k=ease(seg(t,0.3,1.2));const H=enfant(b,t,640,1180,120,k);capsule(b,H[0],H[1],0.3);AMB(b);accroche(c,t,d,B,camAt(t,d,{x:600,y:980,z:1.15},{x:620,y:1010,z:1.25}),['tu recevais une capsule','de lave-vaisselle','dans la bouche ?']);},
+(c,t,d)=>{planche(c,t,t,[['capsule','',0.2,'détergent concentré']],{kicker:'UNE CAPSULE DE LAVE-VAISSELLE',y:820,s:1.8});tag(c,'TRÈS IRRITANTE',1250,clamp((t-C('irritante',2.6))/0.3),'rouge',46);},
+(c,t,d)=>{planche(c,t,t,[['vomir','non',0.3,'ne le fais pas vomir']],{kicker:'S’IL EN A AVALÉ',y:820,s:1.8});tag(c,'NE CHERCHE PAS À LE FAIRE VOMIR',1250,clamp((t-C('vomir',1.8))/0.3),'rouge',36);},
+(c,t,d)=>planche(c,t,t,[['bouche','oui',C('bouche',1.0)-0.3,'sa bouche'],['gant','oui',C('gant',3.0)-0.3,'gant humide']],{kicker:'NETTOIE SOIGNEUSEMENT',y:860}),
+(c,t,d)=>{planche(c,t,t,[['gorgee','oui',C('gorgees',3.0)-0.4,'1 ou 2 petites gorgées']],{kicker:'CONSCIENT ET AVALE NORMALEMENT ?',y:820,s:1.8});},
+(c,t,d)=>planche(c,t,t,[['pharmacien','oui',0.2,'un médecin'],['antipoison','oui',C('centre',1.6)-0.3,'Centre Antipoisons']],{kicker:'CONTACTE',y:860}),
+(c,t,d)=>{planche(c,t,t,[['antipoison','oui',0.2,'Centre Antipoisons']],{kicker:'EN BELGIQUE',y:820,s:1.8});c.save();c.font='900 84px M';c.fillStyle=PAL.etsi;c.textAlign='center';c.globalAlpha=clamp((t-C('numero',1.4))/0.3);c.fillText('070 245 245',W/2,1250);c.restore();},
+(c,t,d)=>planche(c,t,t,[['capsule','oui',C('nom',0.8)-0.2,'nom du produit'],['gorgee','oui',C('quantite',2.4)-0.3,'quantité avalée']],{kicker:'PRÉPARE',y:860}),
+(c,t,d)=>{planche(c,t,t,[['poumons','',C('respiratoire',1.4)-0.3,'respiration'],['vertige','',2.4,'convulsions'],['bebeKO','',3.2,'inconscience']],{kicker:'SIGNES GRAVES',cols:3,s:0.95,y:880});tag(c,'APPELLE LE 112',1250,clamp((t-C('appelle',4.6))/0.3),'vert',46);},
+(c,t,d)=>{const [B,b]=cuisine(t);const k=ease(seg(t,0.2,1.2));const P=[lerp(880,1000,k),lerp(1000,560,k)];acteur(b,'heros',640,760,200,{look:0.9,ex:{eye:0.8,brow:0.2,mouth:0.1},near:{to:P,hand:'grip',ang:-1.4},far:{bend:-1}});capsule(b,P[0]+20,P[1]-30,0.45);AMB(b);
+  show(c,B,{x:800,y:900,z:1.1});grade(c,t);tag(c,'RANGE LES CAPSULES EN HAUT',T1,clamp((t-0.4)/0.3),'vert',38);tag(c,'HORS DE PORTÉE DES ENFANTS',T2,clamp((t-C('portee',2.2))/0.3),'vert',38);},
+(c,t,d)=>fin(c,t,d,[['Ne le fais pas vomir',PAL.rouge],['Bouche nettoyée, 1-2 gorgées d’eau',PAL.vert],['Antipoisons : 070 245 245',PAL.vert],['Détresse, convulsions, inconscience : 112',PAL.rouge]]),
+];
+
+</script></body></html>

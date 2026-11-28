@@ -1,0 +1,5 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style></head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+const SCENES=[];window.draw=(names)=>{darkBg(ctx);names.forEach((n,i)=>{const x=135+(i%4)*270,y=150+Math.floor(i/4)*300;picto(ctx,n,x,y,0.9,1,'');ctx.fillStyle='#fff';ctx.font='700 26px M';ctx.textAlign='center';ctx.fillText(n,x,y+140);});return cv.toDataURL('image/jpeg',0.8);};
+</script></body></html>

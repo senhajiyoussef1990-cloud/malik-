@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP033 — « Et si quelqu’un faisait une crise convulsive devant toi ? » — Texte repris mot pour mot de kits-90s-lot-07.json (EP025), placé en épisode 33 ; fin de la série « … pour plus de conseils ». */
+['secousses','involontaires','dangereux','retenir','objet','doigt','boire','dépasse','recommence'].forEach(w=>RED_W.add(w));
+['écarte','protège','vêtement','note','heure','reste','112','respiration','instructions','côté'].forEach(w=>GREEN_W.add(w));
+function salon(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false});b.fillStyle='#3a2e26';b.fillRect(0,1300,WB,H);return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(760,500,1.1),LAMPE(400,1300,0.6,900)],'#5e5e66');
+// personne au sol (u=150) ; sec = intensité des secousses, cote = sur le côté, tete = vêtement sous la tête
+function victime(b,T,o={}){const x=330,y=1500,u=150,s=o.sec||0;painted(b,f=>{f.save();f.translate(x+Math.sin(T*31)*6*s,y+Math.cos(T*27)*5*s);f.rotate(-Math.PI/2);
+  figure(f,0,0,u,{look:0.3,calme:false,ex:{eye:o.cote?0.1:0.05+0.4*s,brow:0,mouth:0.15},legs:true,near:o.cote?{to:[-0.6*u,-0.2*u],hand:'open',ang:3.0}:{to:[0.3*u+Math.sin(T*23)*0.3*u*s,2.3*u],hand:'rest'},far:o.cote?{to:[0.9*u,1.0*u],bend:-1}:{to:[-0.3*u+Math.cos(T*19)*0.3*u*s,2.2*u],bend:-1}},PERSOS.ami);f.restore();},LT(u,0.7));
+  if(o.tete){b.save();b.translate(x-60,y+70);b.scale(0.9,0.6);b.fillStyle='#7a5aa0';b.beginPath();b.roundRect(-90,-30,180,60,24);b.fill();b.restore();}return [x+0.9*u,y-0.1*u];}
+function aidant(b,T,o={}){const x=o.x??930,y=o.y??1130,u=150;return acteur(b,'heros',x,y,u,{lean:o.lean??-0.25,look:1,ex:o.ex||{eye:0.8,brow:0.5,mouth:0.2},near:o.near||{},far:{bend:-1},legs:false,walk:o.walk},{mirror:true,after:o.after});}
+function table(b,x){b.fillStyle='#6a4a32';b.fillRect(x-120,1360,240,22);b.fillRect(x-110,1382,16,120);b.fillRect(x+94,1382,16,120);b.fillStyle='#d8d4cc';b.beginPath();b.arc(x+40,1340,20,0,TAU);b.fill();}
+function souffle(c,x,y,a,T){if(a<=0)return;c.save();c.globalAlpha=a;c.strokeStyle='rgba(150,210,255,0.9)';c.lineWidth=6;c.lineCap='round';const ph=(T*0.8)%1;for(let i=0;i<3;i++){c.beginPath();c.moveTo(x+10+ph*40,y-20+i*20);c.lineTo(x+50+ph*40,y-20+i*20);c.stroke();}c.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=salon(t);table(b,700);victime(b,t,{sec:ease(seg(t,0.2,0.8))});aidant(b,t,{x:1150,lean:0,ex:{eye:1,brow:0.9,mouth:0.5}});AMB(b);accroche(c,t,d,B,camAt(t,d,{x:680,y:1250,z:1.1},{x:680,y:1250,z:1.2}),['quelqu’un faisait','une crise convulsive','devant toi ?']);},
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,C('ecarte',3.2)-0.3,C('ecarte',3.2)+0.8));table(b,lerp(700,1250,k));victime(b,t,{sec:1});aidant(b,t,{x:lerp(1150,1000,k),lean:-0.1});AMB(b);show(c,B,{x:700,y:1250,z:1.1});grade(c,t);
+  tag(c,'SECOUSSES INVOLONTAIRES',T1,clamp((t-C('secousses',1.4))/0.3),'rouge',40);tag(c,'ÉCARTE MEUBLES ET OBJETS DANGEREUX',T2,clamp((t-C('ecarte',3.2))/0.3),'vert',34);},
+(c,t,d)=>{const [B,b]=salon(t);victime(b,t,{sec:1,tete:t>C('protege',0.2)+0.6});aidant(b,t,{});AMB(b);show(c,B,{x:560,y:1350,z:1.4});grade(c,t);
+  tag(c,'PROTÈGE SA TÊTE',T1,clamp((t-C('protege',0.2))/0.3),'vert',44);tag(c,'AVEC UN VÊTEMENT PLIÉ',T2,clamp((t-C('vetement',1.4))/0.3),'vert',40);tag(c,'SANS BLOQUER SES MOUVEMENTS',1250,clamp((t-2.6)/0.3),'jaune',36);},
+(c,t,d)=>{planche(c,t,t,[['retenir','non',0.3,'ne retiens pas']],{kicker:'SES BRAS, SES JAMBES',y:820,s:1.8});tag(c,'NE TENTE PAS DE LES RETENIR',1250,clamp((t-C('retenir',1.0))/0.3),'rouge',38);},
+(c,t,d)=>{planche(c,t,t,[['bouche','non',0.3,'rien dans la bouche']],{kicker:'JAMAIS',y:820,s:1.8});tag(c,'NI OBJET NI DOIGT DANS SA BOUCHE',1250,clamp((t-C('doigt',2.0))/0.3),'rouge',36);},
+(c,t,d)=>{planche(c,t,t,[['gorgee','non',0.3,'rien à boire']],{kicker:'PENDANT LA CRISE',y:820,s:1.8});},
+(c,t,d)=>planche(c,t,t,[['horloge','oui',C('heure',0.6)-0.2,'note l’heure du début'],['famille','oui',C('reste',2.8)-0.3,'reste auprès d’elle']],{kicker:'PENDANT LES CONVULSIONS',y:860}),
+(c,t,d)=>{planche(c,t,t,[['minuterie','',0.3,'plus de 5 minutes'],['sablier','',C('recommence',2.6)-0.3,'recommence sans récupérer']],{kicker:'APPELLE LE 112 SI',y:860});tag(c,'APPELLE LE 112',1250,clamp((t-0.6)/0.3),'vert',44);tag(c,'EN CAS DE DOUTE AUSSI',1340,clamp((t-C('doute',4.8))/0.3),'jaune',40);},
+(c,t,d)=>{const [B,b]=salon(t);const n=victime(b,t,{tete:true});aidant(b,t,{lean:-0.35});AMB(b);const cam={x:520,y:1380,z:1.5};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);souffle(c,n[0]-260,n[1]-60,clamp((t-C('respiration',1.4))/0.3),t);c.restore();
+  tag(c,'APRÈS LES SECOUSSES',T1,clamp((t-0.1)/0.3),'sombre',40);tag(c,'CONTRÔLE SA RESPIRATION',T2,clamp((t-C('respiration',1.4))/0.3),'vert',40);tag(c,'SUIS LES INSTRUCTIONS DES SECOURS',1250,clamp((t-C('instructions',3.4))/0.3),'vert',34);},
+(c,t,d)=>{const [B,b]=salon(t);victime(b,t,{cote:t>C('cote',3.6)-0.3,tete:true});aidant(b,t,{lean:-0.3});AMB(b);show(c,B,{x:640,y:1300,z:1.2});grade(c,t);
+  tag(c,'ELLE RESPIRE NORMALEMENT ?',T1,clamp((t-0.1)/0.3),'vert',40);tag(c,'LES SECOURS TE GUIDENT : SUR LE CÔTÉ',T2,clamp((t-C('cote',3.6))/0.3),'vert',32);},
+(c,t,d)=>fin(c,t,d,[['Écarte les objets, protège sa tête',PAL.vert],['Ne la retiens pas, rien dans la bouche',PAL.rouge],['Note l’heure, reste avec elle',PAL.vert],['Plus de 5 min ou doute : 112',PAL.rouge]]),
+];
+
+</script></body></html>

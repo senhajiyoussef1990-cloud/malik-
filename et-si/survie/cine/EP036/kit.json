@@ -1,0 +1,49 @@
+{
+ "id": "EP036",
+ "title": "Et si tu vomissais du sang ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/nausee-vomissement/que-faire-cas-faut-consulter"
+ ],
+ "verification": "Source consultée dans cette étape; consignes complémentaires de sécurité et relecture clinique à valider",
+ "publication": {
+  "titre": "Et si tu vomissais du sang ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/nausee-vomissement/que-faire-cas-faut-consulter",
+  "social": "Et si tu vomissais du sang ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-08.json (EP030), placé en épisode 36 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu vomissais du sang ?"
+  },
+  {
+   "voix": "Tu viens de vomir et tu remarques du sang. Ce signe exige une réaction rapide."
+  },
+  {
+   "voix": "Il ne s’agit pas d’une situation à traiter uniquement avec des remèdes maison."
+  },
+  {
+   "voix": "Contacte immédiatement le service médical d’urgence en composant le 112."
+  },
+  {
+   "voix": "Explique que tu as vomi du sang. Décris les autres symptômes éventuels."
+  },
+  {
+   "voix": "Une douleur thoracique associée aux nausées constitue aussi un motif d’urgence."
+  },
+  {
+   "voix": "Des vomissements après un choc à la tête nécessitent également une aide urgente."
+  },
+  {
+   "voix": "Ne cherche pas à établir toi-même un diagnostic à partir d’une vidéo."
+  },
+  {
+   "voix": "Reste en communication avec les secours et suis leurs instructions."
+  },
+  {
+   "voix": "Une évaluation médicale rapide permet de déterminer la cause et le traitement nécessaire."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

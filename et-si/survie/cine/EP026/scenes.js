@@ -1,0 +1,23 @@
+['flacon','ingestion','vomissement','aggraver','lait','graves','connaissance'].forEach(w=>RED_W.add(w));
+['avis','centre','antipoisons','070','245','emballage','notice','âge','poids','produit','quantité','décris','suis','112'].forEach(w=>GREEN_W.add(w));
+function salon(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false});return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#5a5a62');
+function flacon(b,x,y,s,a=0){b.save();b.translate(x,y);b.rotate(a);b.scale(s,s);ICO.flacon(b);b.restore();}
+function scene(b,T,k,o={}){flacon(b,1080,1620,0.6,1.4);b.fillStyle='rgba(240,176,32,0.5)';b.beginPath();b.ellipse(1150,1660,70,14,0,0,TAU);b.fill();
+  acteur(b,'enfant',920,1360,95,{look:0.2,ex:{eye:0.9,brow:0,mouth:0.2},near:{to:[920+1.0*95,1360+1.2*95],hand:'grip'},far:{bend:-1}},{mirror:true});
+  const x=o.x??lerp(260,480,k);acteur(b,'heros',x,820,190,{lean:0.08*k,look:0.9,ex:o.ex||{eye:1,brow:0.9*k,mouth:0.5*k},near:o.near||{to:[x+1.1*190,820+0.6*190],hand:'open',ang:-0.6},far:{bend:-1},walk:o.walk});}
+const SCENES=[
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,0.2,1.2));scene(b,t,k,{walk:k>0&&k<1?t*1.6:null});AMB(b);accroche(c,t,d,B,camAt(t,d,{x:740,y:1150,z:1.0},{x:760,y:1180,z:1.1}),['ton enfant avalait','un produit toxique ?']);},
+(c,t,d)=>{const [B,b]=salon(t);scene(b,t,1);AMB(b);show(c,B,camAt(t,d,{x:800,y:1250,z:1.1},{x:980,y:1450,z:1.6}));grade(c,t);
+  tag(c,'UN FLACON OUVERT',T1,clamp((t-C('flacon',0.6))/0.3),'rouge',42);tag(c,'INGESTION ACCIDENTELLE ?',T2,clamp((t-C('ingestion',3.6))/0.3),'rouge',40);},
+(c,t,d)=>planche(c,t,t,[['horloge','non',C('symptomes',1.0)-0.3,'n’attends pas'],['antipoison','oui',C('symptomes',1.0)+0.6,'avis spécialisé']],{kicker:'MÊME SANS SYMPTÔMES',y:860}),
+(c,t,d)=>{planche(c,t,t,[['vomir','non',0.3,'pas de vomissement']],{kicker:'NE LE FAIS PAS VOMIR',y:820,s:1.8});tag(c,'ÇA PEUT AGGRAVER L’INTOXICATION',1250,clamp((t-C('vomissement',1.2)-0.8)/0.3),'rouge',36);},
+(c,t,d)=>{planche(c,t,t,[['lait','non',C('lait',0.4)-0.2,'pas un antidote']],{kicker:'IDÉE REÇUE',y:820,s:1.8});tag(c,'LE LAIT NE NEUTRALISE PAS LE POISON',1250,clamp((t-C('lait',0.4))/0.3),'rouge',34);},
+(c,t,d)=>{planche(c,t,t,[['antipoison','oui',C('centre',1.4)-0.3,'Centre Antipoisons']],{kicker:'EN BELGIQUE',y:820,s:1.8});c.save();c.font='900 84px M';c.fillStyle=PAL.etsi;c.textAlign='center';c.globalAlpha=clamp((t-C('numero',2.6))/0.3);c.fillText('070 245 245',W/2,1250);c.restore();},
+(c,t,d)=>{planche(c,t,t,[['emballage','oui',C('emballage',0.6)-0.2,'emballage + notice']],{kicker:'GARDE À PORTÉE DE MAIN',y:820,s:1.8});},
+(c,t,d)=>planche(c,t,t,[['enfant','oui',C('age',0.6)-0.2,'âge'],['balance','oui',C('poids',1.2)-0.2,'poids'],['flacon','oui',C('produit',2.2)-0.2,'produit'],['gorgee','oui',C('quantite',3.2)-0.2,'quantité']],{kicker:'INDIQUE',cols:2,s:0.85,y:720}),
+(c,t,d)=>{const [B,b]=salon(t);const x=520;scene(b,t,1,{x,ex:{eye:0.8,brow:0.4,mouth:0.4+0.2*Math.sin(t*8)},near:{to:[x+1.45*190,820+0.6*190],hand:'grip',ang:-1.3}});phone(b,x+1.45*190+Math.cos(-1.3)*0.34*190,820+0.6*190+Math.sin(-1.3)*0.34*190,-0.12,t,1.0);AMB(b);
+  show(c,B,{x:800,y:1150,z:1.1});grade(c,t);tag(c,'DÉCRIS SYMPTÔMES ET CIRCONSTANCES',T1,clamp((t-C('decris',0.2))/0.3),'vert',34);tag(c,'SUIS LES INSTRUCTIONS',T2,clamp((t-C('instructions',3.0))/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['bebeKO','',C('graves',1.2)-0.2,'perte de connaissance'],['secours','oui',C('appelle',3.2)-0.3,'112']],{kicker:'SIGNES GRAVES',y:860});tag(c,'APPELLE LE 112',1250,clamp((t-C('appelle',3.2))/0.3),'vert',46);},
+(c,t,d)=>fin(c,t,d,[['N’attends pas les symptômes',PAL.rouge],['Pas de vomissement, pas de lait',PAL.rouge],['Antipoisons : 070 245 245, emballage en main',PAL.vert],['Perte de connaissance : 112',PAL.vert]]),
+];

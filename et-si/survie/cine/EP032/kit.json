@@ -1,0 +1,51 @@
+{
+ "id": "EP032",
+ "title": "Et si ta crise d’asthme devenait grave ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-traitement/asthme-exacerbation",
+  "https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-symptomes-diagnostic/crises-asthme-exacerbation-asthme-aigu-grave",
+  "https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-traitement/le-plan-d-action-personnalise-un-outil-pour-mieux-gerer-son-asthme"
+ ],
+ "verification": "Texte officiel consulté le 27 novembre 2026; relecture clinique indépendante non obtenue",
+ "publication": {
+  "titre": "Et si ta crise d’asthme devenait grave ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/asthme-adulte/asthme-traitement/asthme-exacerbation",
+  "social": "Et si ta crise d’asthme devenait grave ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-06.json (EP024), placé en épisode 32 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ta crise d’asthme devenait grave ?"
+  },
+  {
+   "voix": "Tu as de l’asthme et tu remarques que ta respiration devient difficile."
+  },
+  {
+   "voix": "Une toux sèche, une respiration sifflante et une oppression peuvent accompagner une crise."
+  },
+  {
+   "voix": "Si tu disposes d’un plan de traitement personnalisé, suis les instructions de ton médecin."
+  },
+  {
+   "voix": "Utilise le traitement de secours qui t’a été prescrit, selon ce plan."
+  },
+  {
+   "voix": "Une crise qui persiste malgré ton traitement peut nécessiter une intervention médicale."
+  },
+  {
+   "voix": "Si tu peines fortement à respirer ou à parler, appelle immédiatement le 112."
+  },
+  {
+   "voix": "Des lèvres bleutées ou une confusion sont également des signes de danger."
+  },
+  {
+   "voix": "Ne laisse pas une vidéo te dicter une dose : les traitements et leurs modalités varient."
+  },
+  {
+   "voix": "Demande à ton médecin un plan écrit et vérifie régulièrement ta technique d’inhalation."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

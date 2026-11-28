@@ -1,0 +1,49 @@
+{
+ "id": "EP028",
+ "title": "Et si tu avais un gros coup de soleil ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/coup-soleil/bons-reflexes-consultation-medicale"
+ ],
+ "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+ "publication": {
+  "titre": "Et si tu avais un gros coup de soleil ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/coup-soleil/bons-reflexes-consultation-medicale",
+  "social": "Et si tu avais un gros coup de soleil ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-04.json (EP018), placé en épisode 28 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu avais un gros coup de soleil ?"
+  },
+  {
+   "voix": "Après une journée dehors, ta peau est rouge et douloureuse."
+  },
+  {
+   "voix": "Arrête immédiatement de t’exposer au soleil."
+  },
+  {
+   "voix": "Pour une brûlure superficielle peu étendue, rafraîchis la peau avec de l’eau du robinet."
+  },
+  {
+   "voix": "Une température entre quinze et vingt-cinq degrés est recommandée."
+  },
+  {
+   "voix": "Poursuis environ quinze minutes, jusqu’à ce que la douleur s’apaise."
+  },
+  {
+   "voix": "Si la zone est étendue, un bain tiède plutôt que froid peut aider."
+  },
+  {
+   "voix": "Une brûlure profonde nécessite un examen médical."
+  },
+  {
+   "voix": "Des cloques importantes, une confusion ou un malaise doivent conduire à demander rapidement un avis médical."
+  },
+  {
+   "voix": "Une rougeur qui augmente, du pus ou des douleurs croissantes peuvent signaler une infection."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

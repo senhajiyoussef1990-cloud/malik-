@@ -1,0 +1,49 @@
+{
+ "id": "EP021",
+ "title": "Et si un chien te mordait ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-chien-chat"
+ ],
+ "verification": "Source consultée directement le 27 novembre 2026. Relecture professionnelle obligatoire avant publication.",
+ "publication": {
+  "titre": "Et si un chien te mordait ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/morsure-chien-chat",
+  "social": "Et si un chien te mordait ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-03.json (EP011), placé en épisode 21 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si un chien te mordait ?"
+  },
+  {
+   "voix": "Même une morsure qui semble petite peut atteindre des tissus plus profonds."
+  },
+  {
+   "voix": "Pour une plaie qui saigne peu, lave rapidement avec de l’eau et du savon."
+  },
+  {
+   "voix": "Rince généreusement, sèche puis protège la plaie avec un pansement stérile."
+  },
+  {
+   "voix": "Si elle saigne beaucoup, exerce une pression avec un linge propre et appelle le 112."
+  },
+  {
+   "voix": "Une blessure au visage ou au cou exige aussi une aide urgente."
+  },
+  {
+   "voix": "Consulte rapidement pour une morsure profonde, à la main ou près d’une articulation."
+  },
+  {
+   "voix": "Le médecin évaluera notamment les risques de tétanos et de rage."
+  },
+  {
+   "voix": "Si possible, note les circonstances et identifie l’animal sans te mettre en danger."
+  },
+  {
+   "voix": "Une rougeur croissante, un gonflement ou de la fièvre nécessitent un avis médical."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

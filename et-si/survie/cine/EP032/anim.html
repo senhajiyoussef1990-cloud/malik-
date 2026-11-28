@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP032 — « Et si ta crise d’asthme devenait grave ? » — Texte repris mot pour mot de kits-90s-lot-06.json (EP024), placé en épisode 32 ; fin de la série « … pour plus de conseils ». */
+['difficile','toux','sifflante','oppression','persiste','peines','bleutées','confusion','danger'].forEach(w=>RED_W.add(w));
+['plan','instructions','traitement','secours','112','écrit','inhalation','médecin'].forEach(w=>GREEN_W.add(w));
+function salon(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'salon',T,{radiateur:false});return [B,b];}
+const AMB=b=>ambiance(b,[LAMPE(760,500,1.1),LAMPE(300,600,0.5)],'#6a6a72');
+function essouffle(b,T,x,y,u,k,o={}){const M=[x+0.95*u,y-0.22*u];acteur(b,'heros',x,y,u,{lean:0.08*k,look:0.75,ex:{eye:lerp(0.8,0.5,k),brow:0.9*k,mouth:0.4*k+0.15*k*Math.abs(Math.sin(T*5))},near:o.inhal?{to:[M[0]+0.05*u,M[1]+0.05*u],hand:'grip',ang:-1.8}:{to:[x+0.55*u,y+0.95*u],hand:'open',ang:-2.6},far:{bend:-1}},
+  {after:o.inhal?f=>{f.save();f.translate(M[0]+0.15*u,M[1]);f.rotate(-0.4);f.scale(0.0045*u,0.0045*u);ICO.inhalateur(f);f.restore();}:null});return M;}
+function souffle(c,x,y,a,T){if(a<=0)return;c.save();c.globalAlpha=a;c.strokeStyle='rgba(200,220,255,0.85)';c.lineWidth=6;c.lineCap='round';const ph=(T*1.6)%1;for(let i=0;i<3;i++){c.beginPath();c.moveTo(x+20+ph*50,y-20+i*20);c.quadraticCurveTo(x+40+ph*50,y-30+i*20,x+70+ph*50,y-20+i*20);c.stroke();}c.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=salon(t);const k=ease(seg(t,0.2,1.0));const M=essouffle(b,t,600,1000,190,k);AMB(b);const cam=camAt(t,d,{x:760,y:960,z:1.05},{x:780,y:960,z:1.15});accroche(c,t,d,B,cam,['ta crise d’asthme','devenait grave ?']);c.save();camXf(c,cam);souffle(c,M[0],M[1],k,t);c.restore();},
+(c,t,d)=>{const [B,b]=salon(t);const M=essouffle(b,t,600,1000,190,1);AMB(b);const cam={x:760,y:1000,z:1.3};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);souffle(c,M[0],M[1],1,t);c.restore();
+  tag(c,'TU AS DE L’ASTHME',T1,clamp((t-0.2)/0.3),'sombre',42);tag(c,'TA RESPIRATION DEVIENT DIFFICILE',T2,clamp((t-C('difficile',2.6))/0.3),'rouge',36);},
+(c,t,d)=>planche(c,t,t,[['bouche','',C('toux',0.6)-0.2,'toux sèche'],['sifflement','',C('sifflante',1.6)-0.2,'sifflement'],['thorax','',C('oppression',2.6)-0.2,'oppression']],{kicker:'SIGNES DE CRISE',cols:3,s:0.95,y:880}),
+(c,t,d)=>planche(c,t,t,[['planEcrit','oui',C('plan',1.4)-0.3,'plan personnalisé'],['pharmacien','oui',C('instructions',3.4)-0.3,'consignes du médecin']],{kicker:'TU AS UN PLAN DE TRAITEMENT ?',y:860}),
+(c,t,d)=>{const [B,b]=salon(t);essouffle(b,t,600,1000,190,0.6,{inhal:t>0.6});AMB(b);show(c,B,{x:760,y:1000,z:1.3});grade(c,t);
+  tag(c,'TON TRAITEMENT DE SECOURS PRESCRIT',T1,clamp((t-C('secours',1.4))/0.3),'vert',36);tag(c,'SELON TON PLAN',T2,clamp((t-C('secours',1.4)-1.4)/0.3),'vert',44);},
+(c,t,d)=>{planche(c,t,t,[['inhalateur','',0.2,'traitement pris'],['horloge','',C('persiste',1.0)-0.2,'mais ça persiste']],{kicker:'LA CRISE NE PASSE PAS ?',y:860});tag(c,'INTERVENTION MÉDICALE POSSIBLE',1250,clamp((t-C('intervention',3.2))/0.3),'rouge',36);},
+(c,t,d)=>{planche(c,t,t,[['poumons','',0.2,'peine à respirer'],['bouche','',C('parler',1.8)-0.2,'peine à parler']],{kicker:'GRANDE DIFFICULTÉ',y:860});tag(c,'APPELLE IMMÉDIATEMENT LE 112',1250,clamp((t-C('appelle',2.6))/0.3),'vert',40);},
+(c,t,d)=>{planche(c,t,t,[['levres','',C('bleutees',0.8)-0.2,'lèvres bleutées'],['confusion','',C('confusion',2.0)-0.2,'confusion']],{kicker:'SIGNES DE DANGER',y:860});tag(c,'112',1250,clamp((t-C('confusion',2.0)-0.6)/0.3),'vert',52);},
+(c,t,d)=>{planche(c,t,t,[['video','non',0.3,'pas de dose « vidéo »']],{kicker:'ATTENTION',y:820,s:1.8});tag(c,'LES TRAITEMENTS ET DOSES VARIENT',1250,clamp((t-C('varient',3.4))/0.3),'jaune',36);},
+(c,t,d)=>planche(c,t,t,[['planEcrit','oui',C('ecrit',1.4)-0.3,'plan écrit'],['inhalateur','oui',C('inhalation',3.0)-0.3,'technique vérifiée']],{kicker:'DEMANDE À TON MÉDECIN',y:860}),
+(c,t,d)=>fin(c,t,d,[['Suis ton plan, traitement de secours',PAL.vert],['Ça persiste : avis médical',PAL.rouge],['Peine à parler, lèvres bleues : 112',PAL.rouge],['Plan écrit + technique vérifiée',PAL.vert]]),
+];
+ICO.video=ICO.video||(c=>{c.fillStyle='#1a1e26';c.beginPath();c.roundRect(-70,-110,140,220,20);c.fill();c.fillStyle='#e53935';c.beginPath();c.moveTo(-24,-34);c.lineTo(36,0);c.lineTo(-24,34);c.closePath();c.fill();});
+
+</script></body></html>

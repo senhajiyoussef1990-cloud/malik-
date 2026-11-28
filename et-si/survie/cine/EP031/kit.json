@@ -1,0 +1,46 @@
+{
+ "id": "EP031",
+ "title": "Et si ton bébé avait une diarrhée importante ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/gastro-enterite-enfant/que-faire-quand-consulter"
+ ],
+ "verification": "Source inspectée le 27 novembre 2026; relecture clinique indépendante non obtenue",
+ "publication": {
+  "titre": "Et si ton bébé avait une diarrhée importante ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/gastro-enterite-enfant/que-faire-quand-consulter",
+  "social": "Et si ton bébé avait une diarrhée importante ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-05.json (EP021), placé en épisode 31 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton bébé avait une diarrhée importante ?"
+  },
+  {
+   "voix": "Chez un bébé de moins de deux ans, une diarrhée aiguë nécessite rapidement un avis médical."
+  },
+  {
+   "voix": "Le danger principal est la perte d’eau et de sels minéraux."
+  },
+  {
+   "voix": "Utilise une solution de réhydratation orale disponible en pharmacie, préparée selon sa notice."
+  },
+  {
+   "voix": "Propose-la souvent et en petites quantités, notamment si ton bébé vomit."
+  },
+  {
+   "voix": "Poursuis l’allaitement si tu allaites. Demande conseil pour adapter les autres prises alimentaires."
+  },
+  {
+   "voix": "Surveille les boissons, les selles, les vomissements et le comportement."
+  },
+  {
+   "voix": "Un bébé difficile à réveiller, qui ne boit plus ou qui respire vite nécessite une évaluation urgente."
+  },
+  {
+   "voix": "N’attends pas si son état se dégrade. Appelle le 112 en cas de signes graves."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

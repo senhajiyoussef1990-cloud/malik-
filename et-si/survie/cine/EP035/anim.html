@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP035 — « Et si tu te déshydratais gravement ? » — Texte repris mot pour mot de kits-90s-lot-08.json (EP029), placé en épisode 35 ; fin de la série « … pour plus de conseils ». */
+['fatigue','manquer','sèches','vertiges','rares','confus','faible','grave','inconsciente'].forEach(w=>RED_W.add(w));
+['repose-toi','frais','rafraîchis','linge','hydrate-toi','bouillon','112','vigilant'].forEach(w=>GREEN_W.add(w));
+function sentier(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'sentier',T);b.save();b.translate(1280,200);b.scale(1.2,1.2);ICO.soleil(b);b.restore();return [B,b];}
+const JOUR=b=>ambiance(b,[{x:1280,y:200,r:2000,c:'rgba(255,230,170,0.7)'}],'#c4c0b8');
+function epuise(b,T,x,y,u,k,o={}){return acteur(b,'heros',x,y,u,{lean:0.14*k,look:0.7,tilt:0.2*k,ex:{eye:lerp(0.8,0.35,k),brow:0.6*k,mouth:0.3*k},near:o.near||{to:[x+0.85*u,y-0.75*u],hand:'open',ang:-2.8},far:{bend:-1},walk:o.walk});}
+function sueur(c,x,y,a,T){if(a<=0)return;c.save();c.globalAlpha=a;for(let i=0;i<3;i++){const ph=(T*0.7+i/3)%1;c.fillStyle='rgba(140,200,255,0.9)';c.beginPath();c.arc(x+i*26,y+ph*60,7,0,TAU);c.fill();}c.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=sentier(t);const k=ease(seg(t,0.2,1.2));epuise(b,t,620,1000,190,k,{walk:t<1.2?t*1.2:null});JOUR(b);const cam=camAt(t,d,{x:760,y:960,z:1.05},{x:760,y:960,z:1.15});accroche(c,t,d,B,cam,['tu te déshydratais','gravement ?']);c.save();camXf(c,cam);sueur(c,780,880,k,t);c.restore();},
+(c,t,d)=>{const [B,b]=sentier(t);epuise(b,t,620,1000,190,1);JOUR(b);const cam={x:760,y:960,z:1.3};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);sueur(c,780,880,1,t);c.restore();
+  tag(c,'APRÈS DES EFFORTS PROLONGÉS',T1,clamp((t-0.2)/0.3),'sombre',38);tag(c,'UNE FATIGUE INHABITUELLE',T2,clamp((t-C('fatigue',2.6))/0.3),'rouge',40);},
+(c,t,d)=>{planche(c,t,t,[['goutte','',0.2,'eau et sels minéraux']],{kicker:'TON CORPS PEUT EN MANQUER',y:820,s:1.8});},
+(c,t,d)=>planche(c,t,t,[['levresSeches','',C('levres',0.4)-0.2,'lèvres sèches'],['vertige','',C('vertiges',1.4)-0.2,'vertiges'],['goutte','non',C('urines',2.4)-0.2,'urines rares']],{kicker:'SIGNES À REPÉRER',cols:3,s:0.95,y:880}),
+(c,t,d)=>planche(c,t,t,[['repos','oui',C('frais',2.0)-1.0,'repose-toi'],['ombre','oui',C('frais',2.0)-0.3,'endroit frais']],{kicker:'SYMPTÔMES MODÉRÉS',y:860}),
+(c,t,d)=>{planche(c,t,t,[['linge','oui',C('linge',1.2)-0.3,'linge humide']],{kicker:'RAFRAÎCHIS TA PEAU',y:820,s:1.8});},
+(c,t,d)=>{planche(c,t,t,[['gorgee','oui',0.4,'bois régulièrement'],['bouillon','oui',C('bouillon',3.6)-0.4,'bouillon salé']],{kicker:'TU PEUX BOIRE NORMALEMENT ?',y:860});},
+(c,t,d)=>{planche(c,t,t,[['confusion','',C('confus',0.8)-0.2,'confusion'],['repos','',C('faible',1.6)-0.2,'grande faiblesse']],{kicker:'ATTENTION',y:860});tag(c,'ÇA PEUT ÊTRE GRAVE',1250,clamp((t-C('faible',1.6)-0.4)/0.3),'rouge',44);},
+(c,t,d)=>{planche(c,t,t,[['secours','oui',C('appelle',0.2)-0.1,'signes graves : 112'],['gorgee','non',C('inconsciente',2.6)-0.3,'inconscient : rien à boire']],{kicker:'URGENCE',y:860});},
+(c,t,d)=>{planche(c,t,t,[['personneAgee','oui',C('agees',2.0)-0.3,'âgés et jeunes enfants']],{kicker:'SOIS PARTICULIÈREMENT VIGILANT',y:820,s:1.8});},
+(c,t,d)=>fin(c,t,d,[['Lèvres sèches, vertiges, urines rares',PAL.rouge],['Au frais, peau rafraîchie',PAL.vert],['Bois souvent, bouillon salé',PAL.vert],['Confus, très faible : 112',PAL.rouge]]),
+];
+
+</script></body></html>

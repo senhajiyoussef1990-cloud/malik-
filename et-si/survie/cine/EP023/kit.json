@@ -1,0 +1,49 @@
+{
+ "id": "EP023",
+ "title": "Et si une guêpe te piquait ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/piqures-guepes-abeilles-frelons-bourdons"
+ ],
+ "verification": "Références consultées le 27 novembre 2026; relecture professionnelle nécessaire",
+ "publication": {
+  "titre": "Et si une guêpe te piquait ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/urgence/morsures-griffures-piqures/piqures-guepes-abeilles-frelons-bourdons",
+  "social": "Et si une guêpe te piquait ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-04.json (EP013), placé en épisode 23 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si une guêpe te piquait ?"
+  },
+  {
+   "voix": "Au jardin, une guêpe te pique à la main. Une douleur et un gonflement apparaissent."
+  },
+  {
+   "voix": "Dans une réaction locale simple, la gêne diminue généralement en quelques heures."
+  },
+  {
+   "voix": "Enlève tes bagues avant que la main ne gonfle davantage."
+  },
+  {
+   "voix": "Nettoie la peau au savon et à l’eau, puis utilise un antiseptique."
+  },
+  {
+   "voix": "Pour apaiser la douleur, applique du froid protégé par un tissu."
+  },
+  {
+   "voix": "Reste au repos pendant trente minutes et observe l’évolution."
+  },
+  {
+   "voix": "Une difficulté à respirer, un malaise ou une langue gonflée sont des signes d’alerte."
+  },
+  {
+   "voix": "Dans ces situations, ou après de nombreuses piqûres, appelle immédiatement le 112."
+  },
+  {
+   "voix": "Si la zone reste très douloureuse, rouge et gonflée après vingt-quatre heures, consulte."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}
