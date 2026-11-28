@@ -1,0 +1,46 @@
+{
+ "id": "EP055",
+ "title": "Et si ton conducteur avait bu ?",
+ "sources": [
+  "https://www.securite-routiere.gouv.fr/sites/default/files/2024-09/depliant_jeune_conducteur.pdf"
+ ],
+ "verification": {
+  "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si ton conducteur avait bu ? #Shorts",
+  "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2024-09/depliant_jeune_conducteur.pdf",
+  "social": "Et si ton conducteur avait bu ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-16.json (EP051), placé en épisode 55 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton conducteur avait bu ?"
+  },
+  {
+   "voix": "La soirée se termine. Ton ami propose de te ramener, mais il a consommé de l’alcool."
+  },
+  {
+   "voix": "Même en petite quantité, l’alcool peut altérer les réflexes et la coordination."
+  },
+  {
+   "voix": "Ne monte pas dans sa voiture. Organise un autre retour."
+  },
+  {
+   "voix": "Prévois avant la soirée une personne qui ne boira pas et qui pourra conduire."
+  },
+  {
+   "voix": "Si tu as bu toi-même, laisse le volant à une personne sobre."
+  },
+  {
+   "voix": "Ne laisse pas la pression du groupe décider à ta place."
+  },
+  {
+   "voix": "Le trajet retour mérite autant de préparation que la soirée elle-même."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

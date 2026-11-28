@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP060 — « Et si ton casque de moto avait subi un choc violent ? » — Texte repris mot pour mot de kits-90s-lot-17.json (EP056), placé en épisode 60 ; fin de la série « … pour plus de conseils ». */
+['accident','impact','violent','aspect'].forEach(w=>RED_W.add(w));
+['remplacement','homologué','morphologie','ajustement','jugulaire','intégral','protection'].forEach(w=>GREEN_W.add(w));
+function route(T){const B=buf('w',WB,H),b=B.getContext('2d');autorouteCote(b,T,{});return [B,b];}
+const JOUR=b=>ambiance(b,[{x:1200,y:200,r:1900,c:'rgba(255,240,210,0.55)'}],'#c8c8cc');
+const MOTARD={...PERSOS.heros,shirt:[40,40,46],shirtD:[20,20,24]};
+function motard(b,T,x,y,u,o={}){const P=[x+0.95*u,y+0.9*u];acteur(b,MOTARD,x,y,u,{look:0.95,tilt:0.25,ex:{eye:0.8,brow:0.5,mouth:0.15},near:{to:P,hand:'grip',ang:-0.4},far:{to:[P[0]-0.1*u,P[1]+0.1*u],hand:'grip',bend:-1}},{after:f=>{f.save();f.translate(P[0]+0.25*u,P[1]-0.1*u);f.scale(0.008*u,0.008*u);ICO[o.fele?'casqueFele':'casque'](f);f.restore();}});}
+const SCENES=[
+(c,t,d)=>{const [B,b]=route(t);motard(b,t,700,1000,170,{fele:t>1.2});JOUR(b);accroche(c,t,d,B,camAt(t,d,{x:800,y:1000,z:1.0},{x:840,y:1040,z:1.15}),['ton casque de moto','avait subi','un choc violent ?']);},
+(c,t,d)=>{const [B,b]=route(t);motard(b,t,700,1000,170,{});JOUR(b);show(c,B,camAt(t,d,{x:800,y:1050,z:1.15},{x:880,y:1150,z:1.6}));grade(c,t);tag(c,'APRÈS UN ACCIDENT',T1,clamp((t-C('accident',1.2))/0.3),'rouge',42);tag(c,'IL A L’AIR INTACT…',T2,clamp((t-C('aspect',4.6)-1.0)/0.3),'jaune',42);},
+(c,t,d)=>{planche(c,t,t,[['casqueFele','non',0.3,'ne le réutilise pas']],{kicker:'APRÈS UN IMPACT VIOLENT',y:820,s:1.8});tag(c,'REMPLACE-LE',1250,clamp((t-C('remplacement',2.0))/0.3),'vert',46);},
+(c,t,d)=>planche(c,t,t,[['homologue','oui',C('homologue',2.4)-0.3,'homologué'],['casque','oui',C('morphologie',3.6)-0.3,'à ta taille']],{kicker:'TON PROCHAIN CASQUE',y:860}),
+(c,t,d)=>{planche(c,t,t,[['jugulaire','oui',C('jugulaire',2.0)-0.3,'jugulaire fermée']],{kicker:'AVANT DE PARTIR',y:820,s:1.8});tag(c,'VÉRIFIE L’AJUSTEMENT',1250,clamp((t-C('ajustement',0.8))/0.3),'vert',42);},
+(c,t,d)=>planche(c,t,t,[['casque','oui',C('integral',0.6)-0.2,'casque intégral']],{kicker:'PROTÈGE AUSSI LE BAS DU VISAGE',y:820,s:1.8}),
+(c,t,d)=>{planche(c,t,t,[['jugulaire','oui',0.3,'équipé avant de démarrer']],{kicker:'LA PROTECTION COMMENCE',y:820,s:1.8});},
+(c,t,d)=>fin(c,t,d,[['Choc violent : casque à remplacer',PAL.rouge],['Même s’il a l’air intact',PAL.rouge],['Homologué, à ta taille',PAL.vert],['Jugulaire fermée avant de partir',PAL.vert]]),
+];
+
+</script></body></html>

@@ -1,0 +1,53 @@
+{
+ "id": "EP043",
+ "title": "Et si tu marchais sur un oursin ?",
+ "sources": [
+  "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines",
+  "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures"
+ ],
+ "verification": {
+  "status": "Sources institutionnelles consultées; revue médicale indépendante et contrôle de chaque geste avant publication",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si tu marchais sur un oursin ? #Shorts",
+  "description": "Simulation éducative. Sources : https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures",
+  "social": "Et si tu marchais sur un oursin ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-11.json (EP037), placé en épisode 43 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu marchais sur un oursin ?"
+  },
+  {
+   "voix": "Tu avances pieds nus entre les rochers quand une douleur aiguë te fait retirer ton pied."
+  },
+  {
+   "voix": "Les épines d’un oursin peuvent rester dans la peau et provoquer des douleurs."
+  },
+  {
+   "voix": "Sors de l’eau pour examiner la zone touchée en sécurité."
+  },
+  {
+   "voix": "Même si ces piqûres sont généralement bénignes, elles peuvent être suivies d’une infection."
+  },
+  {
+   "voix": "La Croix-Rouge recommande de retirer les épines accessibles avec une pince à épiler."
+  },
+  {
+   "voix": "Il faut ensuite désinfecter la zone blessée."
+  },
+  {
+   "voix": "Si les symptômes deviennent généraux, une évaluation médicale urgente est nécessaire."
+  },
+  {
+   "voix": "Pour te protéger, choisis des chaussures adaptées aux baignades dans les zones rocheuses."
+  },
+  {
+   "voix": "Évite de marcher sans protection sur les fonds où vivent les oursins."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

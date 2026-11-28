@@ -1,0 +1,49 @@
+{
+ "id": "EP049",
+ "title": "Et si un brouillard épais masquait la route ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite",
+  "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf",
+  "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Conseils généraux comparés aux documents officiels retournés par la recherche. Validation spécialiste et contrôle local requis.",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si un brouillard épais masquait la route ? #Shorts",
+  "description": "Prévention routière. Sources : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf",
+  "social": "Et si un brouillard épais masquait la route ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-14.json (EP045), placé en épisode 49 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si un brouillard épais masquait la route ?"
+  },
+  {
+   "voix": "Tu roules normalement quand une nappe de brouillard engloutit progressivement le paysage."
+  },
+  {
+   "voix": "Ta visibilité diminue. Un obstacle peut apparaître alors que tu disposes de très peu de temps pour réagir."
+  },
+  {
+   "voix": "Ralentis pour adapter ton allure à la distance sur laquelle tu peux réellement voir."
+  },
+  {
+   "voix": "Ne te rapproche pas des feux arrière du véhicule précédent pour essayer de te guider."
+  },
+  {
+   "voix": "Ce comportement peut entraîner plusieurs conducteurs à accélérer ensemble malgré le manque de visibilité."
+  },
+  {
+   "voix": "Conserve une marge de sécurité et anticipe les changements de circulation."
+  },
+  {
+   "voix": "Si les conditions deviennent trop mauvaises, reporte ton déplacement ou rejoins un lieu de stationnement sûr."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

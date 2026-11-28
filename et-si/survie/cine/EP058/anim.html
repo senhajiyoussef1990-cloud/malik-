@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP058 — « Et si ton bébé voyageait devant un airbag actif ? » — Texte repris mot pour mot de kits-90s-lot-16.json (EP054), placé en épisode 58 ; fin de la série « … pour plus de conseils ». */
+['airbag','danger','doute','ignores'].forEach(w=>RED_W.add(w));
+['désactiver','notices','vérifier','instructions'].forEach(w=>GREEN_W.add(w));
+function allee(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'jardin',T,{fleurs:false});b.fillStyle='#8a8e94';b.fillRect(0,1500,WB,420);voiture(b,820,1460,1.1,'#3c8fd0',{});return [B,b];}
+const JOUR=b=>ambiance(b,[{x:1200,y:200,r:1900,c:'rgba(255,240,210,0.55)'}],'#c8c8cc');
+// habitacle vu de côté : siège passager, siège bébé dos à la route, tableau de bord
+function interieur(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');b.fillStyle=lg(b,0,0,0,H,[[0,'#2a2e36'],[1,'#14161a']]);b.fillRect(0,0,WB,H);
+  b.fillStyle='rgba(160,200,230,0.5)';b.beginPath();b.moveTo(900,300);b.quadraticCurveTo(1300,380,1450,900);b.lineTo(1450,300);b.fill();b.fillStyle='#1a1c20';b.beginPath();b.moveTo(1000,900);b.lineTo(1512,820);b.lineTo(1512,1200);b.lineTo(1000,1150);b.fill();
+  b.fillStyle='#3a3c42';b.beginPath();b.roundRect(300,700,180,700,40);b.fill();b.beginPath();b.roundRect(300,1300,620,170,40);b.fill();
+  b.save();b.translate(690,1150);b.scale(-1.6,1.6);ICO.siegeBebe(b);b.restore();
+  if(o.airbag){const k=o.airbag;b.save();b.globalAlpha=0.95;b.fillStyle='#f4f4f0';b.beginPath();b.ellipse(1020-120*k,1000,60+160*k,50+150*k,0,0,TAU);b.fill();b.restore();}
+  if(o.off){b.save();b.translate(1150,760);b.scale(0.9,0.9);ICO.airbagOff(b);b.restore();}else{b.fillStyle='#e53935';b.font='900 40px M';b.textAlign='center';b.fillText('AIRBAG',1120,1000);}
+  return [B,b];}
+const SCENES=[
+(c,t,d)=>{const [B]=interieur(t);accroche(c,t,d,B,camAt(t,d,{x:820,y:1050,z:1.0},{x:840,y:1080,z:1.1}),['ton bébé voyageait','devant un airbag actif ?']);},
+(c,t,d)=>{const [B]=interieur(t);show(c,B,{x:820,y:1100,z:1.1});grade(c,t);tag(c,'SIÈGE DOS À LA ROUTE',T1,clamp((t-C('dos',1.0))/0.3),'sombre',42);tag(c,'SUR LE SIÈGE PASSAGER AVANT',T2,clamp((t-2.2)/0.3),'jaune',38);},
+(c,t,d)=>{const k=ease(seg(t,C('airbag',0.8),C('airbag',0.8)+0.25));const [B]=interieur(t,{airbag:k});const s=shake(t,8*k);show(c,B,{x:820+s.x,y:1100+s.y,z:1.1});grade(c,t);tag(c,'UN AIRBAG FRONTAL ACTIF',T1,clamp((t-C('airbag',0.8))/0.3),'rouge',40);tag(c,'DANGER GRAVE POUR L’ENFANT',T2,clamp((t-C('danger',2.6))/0.3),'rouge',40);},
+(c,t,d)=>{const [B]=interieur(t,{off:t>C('desactiver',0.6)});show(c,B,{x:900,y:1000,z:1.2});grade(c,t);tag(c,'DÉSACTIVE L’AIRBAG',T1,clamp((t-C('desactiver',0.6))/0.3),'vert',44);tag(c,'AVANT D’INSTALLER LE SIÈGE',T2,clamp((t-2.2)/0.3),'vert',40);},
+(c,t,d)=>planche(c,t,t,[['notice','oui',C('notices',0.8)-0.2,'notice de la voiture'],['notice','oui',C('notices',0.8)+0.8,'notice du siège']],{kicker:'AVANT TOUTE INSTALLATION',y:860}),
+(c,t,d)=>{planche(c,t,t,[['loupe','oui',C('verifier',0.4)-0.2,'fais vérifier le montage']],{kicker:'UN DOUTE ?',y:820,s:1.8});},
+(c,t,d)=>{planche(c,t,t,[['siegeBebe','non',0.3,'configuration incertaine']],{kicker:'NE PARS PAS',y:820,s:1.8});tag(c,'SI TU NE SAIS PAS SI C’EST AUTORISÉ',1250,clamp((t-C('ignores',2.0))/0.3),'rouge',34);},
+(c,t,d)=>planche(c,t,t,[['airbagOff','oui',0.2,'airbag'],['siegeBebe','oui',C('instructions',2.6)-0.4,'siège selon notice']],{kicker:'TOUJOURS SELON LES INSTRUCTIONS',y:860}),
+(c,t,d)=>fin(c,t,d,[['Dos à la route + airbag actif : danger',PAL.rouge],['Désactive l’airbag avant',PAL.vert],['Lis les deux notices',PAL.vert],['Un doute : fais vérifier, ne pars pas',PAL.vert]]),
+];
+
+</script></body></html>

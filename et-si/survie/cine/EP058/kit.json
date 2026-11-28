@@ -1,0 +1,46 @@
+{
+ "id": "EP058",
+ "title": "Et si ton bébé voyageait devant un airbag actif ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils"
+ ],
+ "verification": {
+  "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si ton bébé voyageait devant un airbag actif ? #Shorts",
+  "description": "Prévention routière. Source : https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils",
+  "social": "Et si ton bébé voyageait devant un airbag actif ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-16.json (EP054), placé en épisode 58 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton bébé voyageait devant un airbag actif ?"
+  },
+  {
+   "voix": "Tu installes un siège dos à la route sur le siège passager avant."
+  },
+  {
+   "voix": "Un airbag frontal actif peut mettre gravement en danger l’enfant dans cette configuration."
+  },
+  {
+   "voix": "Il faut désactiver cet airbag avant d’utiliser un siège dos à la route à cet emplacement."
+  },
+  {
+   "voix": "Consulte les notices de la voiture et du siège avant toute installation."
+  },
+  {
+   "voix": "Fais vérifier le montage si tu as un doute."
+  },
+  {
+   "voix": "Ne lance pas le trajet si tu ignores si cette configuration est autorisée."
+  },
+  {
+   "voix": "L’airbag et le dispositif de retenue doivent être utilisés conformément à leurs instructions."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

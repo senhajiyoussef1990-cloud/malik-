@@ -1,0 +1,54 @@
+{
+ "id": "EP051",
+ "title": "Et si ta voiture tombait en panne sur l’autoroute ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/reglementation-liee-la-route/autoroute",
+  "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3639-dp_pgscourts_090211-2_cle652132_2.pdf",
+  "https://www.onisr.securite-routiere.gouv.fr/politique-de-securite-routiere/code-de-la-route"
+ ],
+ "verification": {
+  "status": "Extraits officiels consultés; contrôle spécialisé et règles belges à confirmer avant publication",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si ta voiture tombait en panne sur l’autoroute ? #Shorts",
+  "description": "Prévention routière. Références officielles dans le kit.",
+  "social": "Et si ta voiture tombait en panne sur l’autoroute ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-15.json (EP047), placé en épisode 51 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ta voiture tombait en panne sur l’autoroute ?"
+  },
+  {
+   "voix": "Le moteur perd sa puissance alors que tu roules sur une autoroute."
+  },
+  {
+   "voix": "Si tu peux encore avancer, immobilise la voiture hors des voies de circulation, le plus à droite possible."
+  },
+  {
+   "voix": "Active les feux de détresse pour signaler le danger aux autres conducteurs."
+  },
+  {
+   "voix": "Enfile ton gilet réfléchissant avant de quitter la voiture."
+  },
+  {
+   "voix": "Si la sortie est possible sans danger, utilise les portes opposées au trafic."
+  },
+  {
+   "voix": "Mets-toi à l’abri derrière la glissière de sécurité avec tes passagers."
+  },
+  {
+   "voix": "En France, ne va pas poser le triangle sur l’autoroute."
+  },
+  {
+   "voix": "Alerte les services compétents depuis un endroit sûr. En cas de danger immédiat, appelle le 112."
+  },
+  {
+   "voix": "Avant ton prochain trajet, garde les gilets accessibles dans l’habitacle."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+['maladroite','somnolente','difficilement','grave','cesser','ralentir','mouillés','bouillotte','chauffante','masse'].forEach(w=>RED_W.add(w));
+['112','lieu','protège','secs','couverture','contact','opérateur'].forEach(w=>GREEN_W.add(w));
+function hiver(T){const B=buf('w',WB,H),b=B.getContext('2d');neige(b,T);return [B,b];}
+const FROID=b=>ambiance(b,[{x:900,y:300,r:1800,c:'rgba(220,235,255,0.6)'}],'#b8c0cc');
+const ANORAK={...PERSOS.heros,shirt:[60,90,150],shirtD:[30,50,90]};
+function victime(b,T,x,y,u,k){acteur(b,'ami',x,y,u,{lean:0.12*k+Math.sin(T*1.1)*0.05*k,look:0.4,tilt:0.3*k,ex:{eye:lerp(0.8,0.25,k),brow:0,mouth:0.2},near:{to:[x+0.6*u,y+1.6*u],hand:'rest'},far:{bend:-1}});}
+function assise(b,T,o={}){const x=540,y=1560,u=150;painted(b,f=>{f.save();f.translate(x,y);f.rotate(-Math.PI/2);figure(f,0,0,u,{look:0.3,ex:{eye:0.2,brow:0,mouth:0.1},legs:true,near:{to:[0.3*u,2.3*u],hand:'rest'},far:{to:[-0.3*u,2.2*u],bend:-1}},PERSOS.ami);f.restore();},LT(u,0.7));
+  if(o.isole){b.fillStyle='#3a5a8a';b.beginPath();b.roundRect(x-160,y+60,900,40,12);b.fill();}if(o.couv){b.fillStyle='rgba(106,127,168,0.95)';b.beginPath();b.roundRect(x-40,y-90,780,170,60);b.fill();b.strokeStyle='#8aa0c8';b.lineWidth=8;for(let k=0;k<6;k++){b.beginPath();b.moveTo(x+k*120,y-80);b.lineTo(x+k*120+20,y+70);b.stroke();}b.beginPath();b.fillStyle='#6a7fa8';b.arc(x-110,y-10,80,Math.PI*0.6,Math.PI*1.5);b.fill();}}
+function aidant(b,T,o={}){const x=o.x??1080,y=o.y??1060,u=160;return acteur(b,ANORAK,x,y,u,{lean:o.lean??-0.2,look:1,ex:o.ex||{eye:0.8,brow:0.5,mouth:0.2},near:o.near||{},far:{bend:-1},legs:false},{mirror:true,after:o.after});}
+const TEL=(t)=>{const x=1080,y=1060,u=160;return {near:{to:[x+1.45*u,y+0.6*u],hand:'grip',ang:-1.3},after:f=>phone(f,x+1.45*u+Math.cos(-1.3)*0.34*u,y+0.6*u+Math.sin(-1.3)*0.34*u,-0.12,t,1.0),ex:{eye:0.8,brow:0.6,mouth:0.4+0.2*Math.sin(t*8)}};};
+const SCENES=[
+(c,t,d)=>{const [B,b]=hiver(t);victime(b,t,760,1000,180,ease(seg(t,0.2,1.2)));FROID(b);accroche(c,t,d,B,camAt(t,d,{x:820,y:960,z:1.0},{x:820,y:960,z:1.1}),['quelqu’un souffrait','d’hypothermie grave ?']);},
+(c,t,d)=>{const [B,b]=hiver(t);victime(b,t,760,1000,180,1);FROID(b);show(c,B,{x:820,y:960,z:1.2});grade(c,t);
+  tag(c,'MALADROITE, SOMNOLENTE',T1,clamp((t-C('maladroite',2.4))/0.3),'rouge',40);tag(c,'ELLE PARLE DIFFICILEMENT',T2,clamp((t-4.6)/0.3),'rouge',40);},
+(c,t,d)=>planche(c,t,t,[['tremble','non',C('tremblements',2.6)-0.3,'plus de frissons'],['poumons','',C('respiration',3.6)-0.3,'souffle lent']],{kicker:'REFROIDISSEMENT GRAVE',y:860}),
+(c,t,d)=>{const [B,b]=hiver(t);assise(b,t);aidant(b,t,TEL(t));FROID(b);show(c,B,{x:860,y:1300,z:1.15});grade(c,t);tag(c,'APPELLE LE 112',T1,clamp((t-C('appelle',0.2))/0.3),'vert',44);tag(c,'LIEU + SYMPTÔMES',T2,clamp((t-C('lieu',1.6))/0.3),'vert',44);},
+(c,t,d)=>{const [B,b]=hiver(t);assise(b,t,{isole:t>1.6});aidant(b,t,{});FROID(b);show(c,B,{x:860,y:1300,z:1.15});grade(c,t);
+  tag(c,'À L’ABRI DU VENT ET DU FROID',T1,clamp((t-C('vent',1.6))/0.3),'vert',38);tag(c,'ISOLÉE DU SOL, SANS GESTE BRUSQUE',T2,clamp((t-C('sol',3.0))/0.3),'vert',34);},
+(c,t,d)=>planche(c,t,t,[['goutte','non',C('mouilles',1.4)-0.2,'mouillé'],['couverture2','oui',C('secs',2.6)-0.2,'sec et chaud']],{kicker:'DÉLICATEMENT',y:860}),
+(c,t,d)=>{const [B,b]=hiver(t);assise(b,t,{isole:true,couv:t>C('couverture',1.0)-0.2});aidant(b,t,{});FROID(b);show(c,B,{x:860,y:1300,z:1.15});grade(c,t);
+  tag(c,'UNE COUVERTURE SÈCHE',T1,clamp((t-C('couverture',1.0))/0.3),'vert',42);tag(c,'TÊTE COMPRISE',T2,clamp((t-C('tete',2.6))/0.3),'vert',44);},
+(c,t,d)=>planche(c,t,t,[['bouillotte','non',C('bouillotte',1.0)-0.2,'bouillotte'],['chaudiere','non',2.4,'chaleur directe']],{kicker:'N’UTILISE PAS',y:860}),
+(c,t,d)=>{planche(c,t,t,[['retenir','non',C('masse',0.4)-0.2,'pas de massage'],['secours','oui',2.0,'reste en contact']],{kicker:'AVEC LES SECOURS',y:860});},
+(c,t,d)=>{const [B,b]=hiver(t);assise(b,t,{isole:true,couv:true});aidant(b,t,TEL(t));FROID(b);show(c,B,{x:860,y:1300,z:1.15});grade(c,t);tag(c,'SUIS L’OPÉRATEUR',T1,clamp((t-C('raccroche',2.0)+1.2)/0.3),'vert',42);tag(c,'NE RACCROCHE PAS',T2,clamp((t-C('raccroche',2.0))/0.3),'rouge',44);},
+(c,t,d)=>fin(c,t,d,[['Somnolente, ne tremble plus : 112',PAL.rouge],['À l’abri, isolée du sol, sans brusquer',PAL.vert],['Habits secs, couverture, tête couverte',PAL.vert],['Pas de bouillotte, pas de massage',PAL.rouge]]),
+];

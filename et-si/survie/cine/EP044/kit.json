@@ -1,0 +1,54 @@
+{
+ "id": "EP044",
+ "title": "Et si une vive te piquait le pied ?",
+ "sources": [
+  "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines",
+  "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures",
+  "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr"
+ ],
+ "verification": {
+  "status": "Sources institutionnelles consultées; revue médicale indépendante et contrôle de chaque geste avant publication",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si une vive te piquait le pied ? #Shorts",
+  "description": "Simulation éducative. Sources : https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr",
+  "social": "Et si une vive te piquait le pied ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-11.json (EP038), placé en épisode 44 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si une vive te piquait le pied ?"
+  },
+  {
+   "voix": "Tu marches dans l’eau peu profonde quand une douleur intense surgit sous ton pied."
+  },
+  {
+   "voix": "La vive est un poisson qui peut se dissimuler dans le sable. Sa piqûre est particulièrement douloureuse."
+  },
+  {
+   "voix": "La douleur peut être assez forte pour provoquer un malaise. Demande de l’aide aux personnes présentes."
+  },
+  {
+   "voix": "Rejoins le poste de secours si possible et explique ce qui vient de se passer."
+  },
+  {
+   "voix": "La Croix-Rouge recommande de placer la zone touchée dans de l’eau chaude si cela est possible."
+  },
+  {
+   "voix": "Attention à la température : le traitement ne doit pas provoquer une brûlure supplémentaire."
+  },
+  {
+   "voix": "La désinfection de la plaie fait également partie des recommandations."
+  },
+  {
+   "voix": "Consulte rapidement un médecin. En cas de symptômes graves, appelle le 112."
+  },
+  {
+   "voix": "Pour réduire le risque, protège tes pieds lorsque tu marches sur les fonds marins."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

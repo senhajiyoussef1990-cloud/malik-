@@ -1,0 +1,20 @@
+['puissance','triangle','danger'].forEach(w=>RED_W.add(w));
+['droite','détresse','gilet','opposées','glissière','abri','alerte','112','gilets'].forEach(w=>GREEN_W.add(w));
+function bord(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');autorouteCote(b,T,{vitesse:o.v??0});const cx=o.x??900;if(o.trafic)voiture(b,(T*900)%(WB+800)-400,1230,0.7,'#8a8e94',{});voiture(b,cx,o.y??1530,0.85,'#3c8fd0',{warning:o.warn,T});return [B,b];}
+const JOUR=b=>ambiance(b,[{x:1200,y:200,r:1900,c:'rgba(255,240,210,0.55)'}],'#c8c8cc');
+const GILET={...PERSOS.heros,shirt:[216,240,32],shirtD:[150,170,20]};
+const SCENES=[
+(c,t,d)=>{const [B]=vueConducteur(t,{kmh:Math.round(lerp(110,60,seg(t,0.3,d))),devant:0.3,vitesse:lerp(1.6,0.6,seg(t,0.3,d))});accroche(c,t,d,B,camAt(t,d,{x:WB/2,y:H/2,z:1.0},{x:WB/2,y:880,z:1.1}),['ta voiture tombait en panne','sur l’autoroute ?']);},
+(c,t,d)=>{planche(c,t,t,[['moteurPanne','',0.2,'le moteur perd sa puissance']],{kicker:'SUR L’AUTOROUTE',y:820,s:1.8});},
+(c,t,d)=>{const k=ease(seg(t,0.2,d-0.4));const [B,b]=bord(t,{x:lerp(-200,900,k),y:lerp(1330,1530,k),trafic:true});JOUR(b);show(c,B,{x:WB/2,y:1300,z:1.0});grade(c,t);tag(c,'HORS DES VOIES',T1,clamp((t-1.0)/0.3),'vert',44);tag(c,'LE PLUS À DROITE POSSIBLE',T2,clamp((t-C('droite',3.6))/0.3),'vert',40);},
+(c,t,d)=>{const [B,b]=bord(t,{warn:true,trafic:true});JOUR(b);show(c,B,{x:900,y:1350,z:1.25});grade(c,t);tag(c,'FEUX DE DÉTRESSE',T1,clamp((t-C('detresse',1.2))/0.3),'vert',46);},
+(c,t,d)=>planche(c,t,t,[['gilet','oui',C('gilet',0.6)-0.2,'gilet réfléchissant']],{kicker:'AVANT DE SORTIR',y:820,s:1.8}),
+(c,t,d)=>{const k=ease(seg(t,C('opposees',2.4)-0.2,d));const [B,b]=bord(t,{warn:true,trafic:true});acteur(b,GILET,lerp(700,640,k),lerp(1383,1440,k),50,{look:0.2,ex:{eye:0.9,brow:0.5,mouth:0.1}});JOUR(b);show(c,B,{x:900,y:1350,z:1.2});grade(c,t);
+  tag(c,'SORS CÔTÉ OPPOSÉ AU TRAFIC',T1,clamp((t-C('opposees',2.4))/0.3),'vert',38);},
+(c,t,d)=>{const k=ease(seg(t,0.2,d-0.4));const [B,b]=bord(t,{warn:true,trafic:true});for(const [w,dx,s] of [[GILET,0,1],[{...PERSOS.femme,shirt:[216,240,32],shirtD:[150,170,20]},140,0.95]])acteur(b,w,lerp(640,420,k)+dx*0.5,lerp(1440,1555,k),50*s,{look:0.9,walk:k>0&&k<1?t*1.6:null,ex:{eye:0.9,brow:0.3,mouth:0.1}});JOUR(b);show(c,B,{x:800,y:1350,z:1.15});grade(c,t);
+  tag(c,'DERRIÈRE LA GLISSIÈRE',T1,clamp((t-C('glissiere',2.0))/0.3),'vert',42);tag(c,'AVEC TES PASSAGERS',T2,clamp((t-2.8)/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['triangle','non',C('triangle',1.0)-0.2,'pas de triangle']],{kicker:'EN FRANCE, SUR L’AUTOROUTE',y:820,s:1.8});},
+(c,t,d)=>planche(c,t,t,[['glissiere','oui',0.2,'endroit sûr'],['secours','oui',C('appelle',3.6)-0.3,'112 si danger']],{kicker:'ALERTE LES SERVICES COMPÉTENTS',y:860}),
+(c,t,d)=>planche(c,t,t,[['gilet','oui',C('gilets',1.8)-0.3,'gilets dans l’habitacle']],{kicker:'AVANT TON PROCHAIN TRAJET',y:820,s:1.8}),
+(c,t,d)=>fin(c,t,d,[['Bande d’arrêt, le plus à droite',PAL.vert],['Warnings + gilet avant de sortir',PAL.vert],['Derrière la glissière, pas de triangle',PAL.vert],['Danger immédiat : 112',PAL.rouge]]),
+];

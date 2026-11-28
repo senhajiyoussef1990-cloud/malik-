@@ -1,0 +1,16 @@
+['chantier','rétrécir','ralentir','clignotants','pluie','brouillard'].forEach(w=>RED_W.add(w));
+['signalisation','réduis','anticipe','vigilance','espace','allure'].forEach(w=>GREEN_W.add(w));
+function vue(c,t,o,cam){const [B]=vueConducteur(t,o);show(c,B,cam||{x:WB/2,y:H/2,z:1});grade(c,t);return B;}
+const SCENES=[
+(c,t,d)=>{const [B]=vueConducteur(t,{chantier:true,gyro:true,kmh:130,vitesse:2});accroche(c,t,d,B,camAt(t,d,{x:WB/2,y:H/2,z:1.0},{x:WB/2+40,y:900,z:1.12}),['tu arrivais trop vite','sur un chantier','autoroutier ?']);},
+(c,t,d)=>{vue(c,t,{chantier:true,kmh:130,vitesse:2},{x:WB/2+60,y:880,z:1.2});tag(c,'SUR L’AUTOROUTE',T1,clamp((t-0.2)/0.3),'sombre',42);tag(c,'PANNEAUX : CHANTIER',T2,clamp((t-C('chantier',2.6))/0.3),'jaune',42);},
+(c,t,d)=>{const k=seg(t,0.4,d);vue(c,t,{chantier:true,devant:lerp(0.3,0.55,k),frein:t>C('ralentir',2.4)-0.3,kmh:130,vitesse:2});tag(c,'LES VOIES SE RÉTRÉCISSENT',T1,clamp((t-C('retrecir',1.4))/0.3),'rouge',38);tag(c,'LES VÉHICULES RALENTISSENT',T2,clamp((t-C('ralentir',2.4))/0.3),'rouge',38);},
+(c,t,d)=>planche(c,t,t,[['panneauTravaux','oui',0.3,'panneaux temporaires'],['coneChantier','oui',C('signalisation',1.2)+0.4,'trajet balisé']],{kicker:'OBSERVE LA SIGNALISATION',y:860}),
+(c,t,d)=>{const k=ease(seg(t,C('reduis',0.2),d));vue(c,t,{chantier:true,devant:0.45,kmh:Math.round(lerp(130,80,k)),vitesse:lerp(2,1,k)});tag(c,'RÉDUIS TA VITESSE',T1,clamp((t-C('reduis',0.2))/0.3),'vert',44);tag(c,'SUFFISAMMENT TÔT',T2,clamp((t-1.0)/0.3),'vert',44);},
+(c,t,d)=>{vue(c,t,{chantier:true,devant:0.4,devantX:-0.3,kmh:80,volant:-0.15*Math.sin(clamp(t/d)*Math.PI)});tag(c,'ANTICIPE LES CHANGEMENTS DE VOIE',T1,clamp((t-C('anticipe',0.2))/0.3),'vert',36);tag(c,'PAS AU DERNIER MOMENT',T2,clamp((t-1.8)/0.3),'rouge',40);},
+(c,t,d)=>{vue(c,t,{chantier:true,gyro:true,devant:0.35,kmh:80});tag(c,'FEUX CLIGNOTANTS',T1,clamp((t-C('clignotants',2.6))/0.3),'jaune',42);tag(c,'REDOUBLE DE VIGILANCE',T2,clamp((t-0.4)/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['distance','oui',C('espace',1.0)-0.2,'garde tes distances']],{kicker:'LAISSE DE L’ESPACE',y:820,s:1.8});},
+(c,t,d)=>{vue(c,t,{chantier:true,pluie:true,devant:0.35,kmh:70});tag(c,'PLUIE OU BROUILLARD ?',T1,clamp((t-C('pluie',0.6))/0.3),'rouge',42);tag(c,'ENCORE PLUS DE VIGILANCE',T2,clamp((t-2.0)/0.3),'vert',40);},
+(c,t,d)=>{vue(c,t,{chantier:true,devant:0.4,kmh:80});tag(c,'ALLURE ADAPTÉE',T1,clamp((t-C('allure',1.4))/0.3),'vert',44);tag(c,'JUSQU’À LA FIN DES TRAVAUX',T2,clamp((t-2.6)/0.3),'vert',40);},
+(c,t,d)=>fin(c,t,d,[['Lis la signalisation temporaire',PAL.vert],['Ralentis tôt, change de voie tôt',PAL.vert],['Gyrophares : vigilance maximale',PAL.rouge],['Distances et allure jusqu’au bout',PAL.vert]]),
+];

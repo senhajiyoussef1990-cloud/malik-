@@ -1,0 +1,55 @@
+{
+ "id": "EP042",
+ "title": "Et si une méduse te piquait pendant une baignade ?",
+ "sources": [
+  "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines",
+  "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures",
+  "https://sante.gouv.fr/prevention-en-sante/preserver-sa-sante/pour-un-ete-sans-soucis/article/pendant-l-ete-gare-aux-piqures-et-aux-morsures",
+  "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr"
+ ],
+ "verification": {
+  "status": "Sources institutionnelles consultées; revue médicale indépendante et contrôle de chaque geste avant publication",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si une méduse te piquait pendant une baignade ? #Shorts",
+  "description": "Simulation éducative. Sources : https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/fiches-pratiques/risques/les-principaux-risques-sanitaires/envenimations-terrestres-et-marines https://www.croix-rouge.fr/les-gestes-de-premiers-secours/les-piqures-dinsectes-danimaux-marins-ou-morsures https://sante.gouv.fr/prevention-en-sante/preserver-sa-sante/pour-un-ete-sans-soucis/article/pendant-l-ete-gare-aux-piqures-et-aux-morsures https://www.service-public.gouv.fr/particuliers/vosdroits/F33954?lang=fr",
+  "social": "Et si une méduse te piquait pendant une baignade ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-11.json (EP036), placé en épisode 42 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si une méduse te piquait pendant une baignade ?"
+  },
+  {
+   "voix": "Tu profites de la mer quand une brûlure soudaine traverse ton bras. Reviens vers le rivage."
+  },
+  {
+   "voix": "Le contact avec les filaments d’une méduse peut provoquer une douleur très vive et des démangeaisons."
+  },
+  {
+   "voix": "Rince la zone avec de l’eau de mer, sans frictionner la peau."
+  },
+  {
+   "voix": "Demande au poste de secours de t’aider à retirer les filaments encore présents avec précaution."
+  },
+  {
+   "voix": "Évite de gratter la zone touchée et n’applique pas d’alcool."
+  },
+  {
+   "voix": "Observe l’évolution de la réaction. Certaines espèces peuvent provoquer des complications graves."
+  },
+  {
+   "voix": "Si tu as du mal à respirer, demande immédiatement une intervention des secours. Le 112 fonctionne en Europe."
+  },
+  {
+   "voix": "Même sur le sable, une méduse morte peut encore provoquer une piqûre."
+  },
+  {
+   "voix": "Pour éviter un nouvel accident, renonce à la baignade lorsque les méduses sont nombreuses."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

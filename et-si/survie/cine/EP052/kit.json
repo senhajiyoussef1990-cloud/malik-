@@ -1,0 +1,53 @@
+{
+ "id": "EP052",
+ "title": "Et si tu ratais ta sortie sur l’autoroute ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/reglementation-liee-la-route/autoroute",
+  "https://www.securite-routiere.gouv.fr/sites/default/files/2019-01/deplongtrajet_2014_bd.pdf"
+ ],
+ "verification": {
+  "status": "Extraits officiels consultés; contrôle spécialisé et règles belges à confirmer avant publication",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si tu ratais ta sortie sur l’autoroute ? #Shorts",
+  "description": "Prévention routière. Références officielles dans le kit.",
+  "social": "Et si tu ratais ta sortie sur l’autoroute ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-15.json (EP048), placé en épisode 52 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu ratais ta sortie sur l’autoroute ?"
+  },
+  {
+   "voix": "Tu aperçois ta sortie trop tard, alors que tu roules sur la voie principale."
+  },
+  {
+   "voix": "Sur l’autoroute, revenir en arrière est interdit, même sur la bande d’arrêt d’urgence."
+  },
+  {
+   "voix": "Ne fais pas demi-tour, même si tu aperçois une ouverture dans le séparateur central."
+  },
+  {
+   "voix": "Il vaut mieux poursuivre ton trajet et recalculer ton itinéraire à la prochaine sortie."
+  },
+  {
+   "voix": "Lorsque tu approches d’une bifurcation, observe les panneaux suffisamment tôt."
+  },
+  {
+   "voix": "Place-toi sur la voie correspondant à ta destination avant la séparation des chaussées."
+  },
+  {
+   "voix": "Lorsque tu rejoins une autoroute, cède le passage aux véhicules qui y circulent déjà."
+  },
+  {
+   "voix": "Prépare ton itinéraire avant de prendre la route."
+  },
+  {
+   "voix": "Quelques kilomètres supplémentaires valent mieux qu’une manœuvre dangereuse."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

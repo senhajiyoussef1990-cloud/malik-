@@ -1,0 +1,52 @@
+{
+ "id": "EP053",
+ "title": "Et si tes bagages devenaient dangereux lors d’un freinage ?",
+ "sources": [
+  "https://www.securite-routiere.gouv.fr/sites/default/files/2019-01/deplongtrajet_2014_bd.pdf"
+ ],
+ "verification": {
+  "status": "Extraits officiels consultés; contrôle spécialisé et règles belges à confirmer avant publication",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si tes bagages devenaient dangereux lors d’un freinage ? #Shorts",
+  "description": "Prévention routière. Références officielles dans le kit.",
+  "social": "Et si tes bagages devenaient dangereux lors d’un freinage ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-15.json (EP049), placé en épisode 53 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tes bagages devenaient dangereux lors d’un freinage ?"
+  },
+  {
+   "voix": "Tu prépares un départ en vacances et la voiture est remplie de bagages."
+  },
+  {
+   "voix": "Un objet placé sur la plage arrière peut devenir dangereux lors d’un choc."
+  },
+  {
+   "voix": "Évite d’y déposer des objets qui gênent aussi la visibilité."
+  },
+  {
+   "voix": "Répartis les charges dans le véhicule et place les bagages les plus lourds en bas."
+  },
+  {
+   "voix": "Si tu utilises un coffre de toit, respecte les indications du fabricant."
+  },
+  {
+   "voix": "Fais de même pour un porte-vélos ou une remorque."
+  },
+  {
+   "voix": "Avant de partir, contrôle aussi la pression et l’état des pneus."
+  },
+  {
+   "voix": "Vérifie tes feux et tes essuie-glaces pour préparer le trajet."
+  },
+  {
+   "voix": "Prendre le temps de préparer sa voiture fait partie de la sécurité du voyage."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

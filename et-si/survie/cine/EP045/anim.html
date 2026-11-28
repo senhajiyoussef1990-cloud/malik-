@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP045 — « Et si tes doigts commençaient à geler ? » — Texte repris mot pour mot de kits-90s-lot-12.json (EP039), placé en épisode 45 ; fin de la série « … pour plus de conseils ». */
+['blanchissent','picotements','sensibilité','endommager','cloques','frictionne','masse','sèche-cheveux','radiateur','empirent'].forEach(w=>RED_W.add(w));
+['protège-toi','urgences','bagues','réchauffer','aisselles','protège','consulte'].forEach(w=>GREEN_W.add(w));
+function hiver(T){const B=buf('w',WB,H),b=B.getContext('2d');neige(b,T);return [B,b];}
+const FROID=b=>ambiance(b,[{x:900,y:300,r:1800,c:'rgba(220,235,255,0.6)'}],'#b8c0cc');
+const ANORAK={...PERSOS.heros,shirt:[60,90,150],shirtD:[30,50,90]};
+function froidMains(b,T,x,y,u,k,o={}){const P=[x+0.8*u,y+0.8*u];acteur(b,ANORAK,x,y,u,{lean:0.06,look:0.95,tilt:0.15*k,ex:{eye:0.8,brow:0.6*k,mouth:0.2*k},near:o.near||{to:[P[0]+0.1*u,P[1]],hand:'open',ang:-0.6},far:o.far||{to:P,hand:'open',bend:-1},walk:o.walk});return P;}
+function givre(c,x,y,a){if(a<=0)return;c.save();c.globalAlpha=a;c.translate(x,y);c.scale(0.5,0.5);ICO.froid(c);c.restore();}
+const SCENES=[
+(c,t,d)=>{const [B,b]=hiver(t);const k=ease(seg(t,0.3,1.2));const P=froidMains(b,t,760,1000,180,k,{walk:t<1?t*1.2:null});FROID(b);const cam=camAt(t,d,{x:820,y:960,z:1.0},{x:820,y:960,z:1.1});accroche(c,t,d,B,cam,['tes doigts','commençaient à geler ?']);c.save();camXf(c,cam);givre(c,P[0]+60,P[1]-60,k);c.restore();},
+(c,t,d)=>{const [B,b]=hiver(t);const P=froidMains(b,t,760,1000,180,1);FROID(b);const cam={x:P[0]-40,y:P[1]-180,z:1.6};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);givre(c,P[0]+60,P[1]-60,1);c.restore();
+  tag(c,'TES DOIGTS BLANCHISSENT',T1,clamp((t-C('blanchissent',1.6))/0.3),'rouge',40);tag(c,'PICOTEMENTS… PUIS PLUS RIEN',T2,clamp((t-C('picotements',3.0))/0.3),'rouge',38);},
+(c,t,d)=>{planche(c,t,t,[['mainGel','',0.2,'plus de sensibilité']],{kicker:'C’EST UN AVERTISSEMENT',y:820,s:1.8});tag(c,'PROTÈGE-TOI DU FROID',1250,clamp((t-C('protege',3.4))/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['mainGel','',0.2,'tissus abîmés']],{kicker:'EXPOSITION PROLONGÉE',y:820,s:1.8});tag(c,'PARFOIS EN PROFONDEUR',1250,clamp((t-C('tissus',2.4))/0.3),'rouge',40);},
+(c,t,d)=>{planche(c,t,t,[['cloque','',C('cloques',0.6)-0.2,'cloques'],['hopital','oui',C('urgences',2.2)-0.3,'urgences directement']],{kicker:'SI DES CLOQUES APPARAISSENT',y:860});},
+(c,t,d)=>planche(c,t,t,[['bague','oui',C('bagues',1.6)-0.3,'retire les bagues'],['thermo','oui',C('rechauffer',3.0)-0.3,'réchauffe doucement']],{kicker:'ATTEINTE SUPERFICIELLE',y:860}),
+(c,t,d)=>{const [B,b]=hiver(t);const x=760,y=1000,u=180;froidMains(b,t,x,y,u,0.4,{near:{to:[x+0.05*u,y+0.85*u],hand:'open',ang:-2.6},far:{to:[x+0.3*u,y+0.75*u],hand:'open',bend:-1}});FROID(b);show(c,B,{x:820,y:960,z:1.25});grade(c,t);
+  tag(c,'SOUS TES AISSELLES',T1,clamp((t-C('aisselles',1.0))/0.3),'vert',42);tag(c,'NI FRICTION, NI MASSAGE',T2,clamp((t-C('frictionne',2.4))/0.3),'rouge',40);},
+(c,t,d)=>planche(c,t,t,[['secheCheveux','non',C('seche',0.6)-0.2,'sèche-cheveux'],['chaudiere','non',C('radiateur',1.6)-0.2,'radiateur soufflant']],{kicker:'ÉVITE',y:860}),
+(c,t,d)=>{planche(c,t,t,[['gant','oui',C('protege',1.4)-0.3,'protège tes mains']],{kicker:'UNE FOIS RÉCHAUFFÉES',y:820,s:1.8});tag(c,'PAS DE NOUVELLE EXPOSITION AU GEL',1250,clamp((t-2.2)/0.3),'vert',34);},
+(c,t,d)=>{planche(c,t,t,[['mainGel','',0.2,'ça empire'],['hopital','oui',C('consulte',1.8)-0.3,'consulte en urgence']],{kicker:'APRÈS LE RÉCHAUFFEMENT',y:860});},
+(c,t,d)=>fin(c,t,d,[['Doigts blancs, insensibles : alerte',PAL.rouge],['Cloques : urgences directement',PAL.rouge],['Bagues retirées, sous les aisselles',PAL.vert],['Ni friction, ni sèche-cheveux',PAL.rouge]]),
+];
+
+</script></body></html>

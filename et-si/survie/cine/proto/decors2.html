@@ -1,0 +1,6 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style></head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>const SCENES=[];
+const V=[T=>vueConducteur(T,{devant:0.5,frein:true}),T=>vueConducteur(T,{pluie:true,devant:0.35}),T=>vueConducteur(T,{brouillard:0.8,devant:0.4}),T=>vueConducteur(T,{verglas:true,hiver:true,pont:true}),T=>vueConducteur(T,{chantier:true,gyro:true,devant:0.3,tel:'notif'}),
+T=>{const B=buf('w',WB,H),b=B.getContext('2d');plage(b,T,{rochers:true});acteur(b,'heros',700,1000,190,{});return [B,b];},T=>{const B=buf('w',WB,H),b=B.getContext('2d');neige(b,T);acteur(b,'heros',700,1000,190,{});return [B,b];},T=>{const B=buf('w',WB,H),b=B.getContext('2d');autorouteCote(b,T);voiture(b,700,1500,0.9,'#3c8fd0',{warning:true,T});return [B,b];}];
+window.draw=i=>{const [B]=V[i](1.3);ctx.fillStyle='#000';ctx.fillRect(0,0,W,H);show(ctx,B,{x:WB/2,y:H/2,z:1.0});return cv.toDataURL('image/jpeg',0.7);};</script></body></html>

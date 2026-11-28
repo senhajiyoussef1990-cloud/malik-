@@ -1,0 +1,53 @@
+{
+ "id": "EP046",
+ "title": "Et si quelqu’un souffrait d’hypothermie grave ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Recommandations comparées au texte Ameli retourné par la recherche; revue clinique indépendante requise",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si quelqu’un souffrait d’hypothermie grave ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/hypothermie",
+  "social": "Et si quelqu’un souffrait d’hypothermie grave ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-12.json (EP040), placé en épisode 46 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si quelqu’un souffrait d’hypothermie grave ?"
+  },
+  {
+   "voix": "Après une longue exposition au froid, une personne devient maladroite, somnolente et parle difficilement."
+  },
+  {
+   "voix": "Lorsque le refroidissement devient grave, les tremblements peuvent cesser et la respiration ralentir."
+  },
+  {
+   "voix": "Appelle le 112. Précise le lieu et les symptômes observés."
+  },
+  {
+   "voix": "Protège la personne du vent et du froid, en la séparant du sol et en évitant les mouvements brusques."
+  },
+  {
+   "voix": "Remplace délicatement les habits mouillés par des vêtements secs et chauds."
+  },
+  {
+   "voix": "Enveloppe-la dans une couverture sèche, en protégeant également sa tête."
+  },
+  {
+   "voix": "N’utilise pas de bouillotte, de couverture chauffante ni de source de chaleur directe."
+  },
+  {
+   "voix": "Ne masse pas sa peau. Reste en contact avec les secours pour adapter les gestes à son état."
+  },
+  {
+   "voix": "Attends les indications de l’opérateur et ne raccroche pas avant qu’il te le demande."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

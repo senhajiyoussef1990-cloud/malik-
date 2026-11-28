@@ -1,0 +1,49 @@
+{
+ "id": "EP050",
+ "title": "Et si la route devenait verglacée ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite",
+  "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf",
+  "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Conseils généraux comparés aux documents officiels retournés par la recherche. Validation spécialiste et contrôle local requis.",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si la route devenait verglacée ? #Shorts",
+  "description": "Prévention routière. Sources : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf",
+  "social": "Et si la route devenait verglacée ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-14.json (EP046), placé en épisode 50 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si la route devenait verglacée ?"
+  },
+  {
+   "voix": "Il fait froid et la route paraît simplement humide. Pourtant, certaines portions peuvent être recouvertes de glace."
+  },
+  {
+   "voix": "Les ponts et les endroits ombragés méritent une attention particulière car le verglas peut s’y former."
+  },
+  {
+   "voix": "Modère ton allure avant d’atteindre ces zones. Le manque d’adhérence augmente le risque de perdre le contrôle."
+  },
+  {
+   "voix": "Laisse davantage de distance avec les autres véhicules pour anticiper leur ralentissement."
+  },
+  {
+   "voix": "Évite les mouvements brusques du volant, les accélérations soudaines et les freinages brutaux."
+  },
+  {
+   "voix": "Prépare tes changements d’allure suffisamment tôt, notamment avant les virages."
+  },
+  {
+   "voix": "Lorsque les conditions sont extrêmes, la décision la plus sûre peut être de reporter le voyage."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "EP041",
+ "title": "Et si quelqu’un faisait un coup de chaleur devant toi ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/canicule-chaleur/canicule-et-soins-urgents-epuisement-deshydratation-et-coup-de-chaleur"
+ ],
+ "verification": {
+  "status": "Signes et urgence contrôlés; compléter le protocole de refroidissement avant production",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si quelqu’un faisait un coup de chaleur devant toi ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/canicule-chaleur/canicule-et-soins-urgents-epuisement-deshydratation-et-coup-de-chaleur",
+  "social": "Et si quelqu’un faisait un coup de chaleur devant toi ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-10.json (EP035), placé en épisode 41 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si quelqu’un faisait un coup de chaleur devant toi ?"
+  },
+  {
+   "voix": "Pendant une journée très chaude, une personne commence à se comporter bizarrement."
+  },
+  {
+   "voix": "Des vertiges, des nausées et une confusion peuvent annoncer un coup de chaleur."
+  },
+  {
+   "voix": "La peau peut être chaude, sèche ou encore humide de transpiration."
+  },
+  {
+   "voix": "Une température corporelle très élevée et des troubles de la conscience sont particulièrement alarmants."
+  },
+  {
+   "voix": "Il s’agit d’une urgence médicale. Appelle le 112 sans attendre."
+  },
+  {
+   "voix": "Décris les symptômes et les circonstances de l’exposition à la chaleur."
+  },
+  {
+   "voix": "Ne confonds pas cette situation avec une simple sensation de soif."
+  },
+  {
+   "voix": "Suis immédiatement les consignes de refroidissement données par les secours."
+  },
+  {
+   "voix": "Pour prévenir le danger, évite les expositions prolongées aux fortes chaleurs."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

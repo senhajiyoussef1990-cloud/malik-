@@ -1,0 +1,16 @@
+['refuse','collision'].forEach(w=>RED_W.add(w));
+['ceinture','propre','dispositif','attachés','correctement'].forEach(w=>GREEN_W.add(w));
+function interieur(T,o={}){const B=buf('w',WB,H),b=B.getContext('2d');b.fillStyle=lg(b,0,0,0,H,[[0,'#2a2e36'],[1,'#14161a']]);b.fillRect(0,0,WB,H);
+  b.fillStyle='rgba(160,200,230,0.45)';b.beginPath();b.roundRect(200,420,1100,420,40);b.fill();b.fillStyle='#3a3c42';for(const x of [380,1100]){b.beginPath();b.roundRect(x-150,780,300,700,40);b.fill();}b.fillStyle='#2a2c30';b.fillRect(0,1450,WB,470);return [B,b];}
+function passager(b,T,x,y,u,att,who='ami',o={}){acteur(b,who,x,y,u,{look:o.look??0.5,turn:0.7,ex:o.ex||{eye:0.8,brow:0,mouth:0.3},near:o.near||{to:[x+0.6*u,y+1.9*u],hand:'rest'},far:{bend:-1},legs:false});if(att){b.strokeStyle='#1a1a1a';b.lineWidth=0.22*u;b.lineCap='round';b.beginPath();b.moveTo(x-0.6*u,y+0.3*u);b.lineTo(x+0.6*u,y+2.0*u);b.stroke();b.fillStyle='#c8ccd2';b.fillRect(x+0.5*u,y+1.9*u,0.3*u,0.2*u);}}
+const SCENES=[
+(c,t,d)=>{const [B,b]=interieur(t);passager(b,t,1100,1000,170,false,'ami',{ex:{eye:0.8,brow:-0.3,mouth:0.4}});passager(b,t,380,1000,170,true,'heros',{look:0.9});accroche(c,t,d,B,camAt(t,d,{x:760,y:1100,z:1.0},{x:900,y:1100,z:1.1}),['un passager','refusait sa ceinture ?']);},
+(c,t,d)=>{const [B,b]=interieur(t);passager(b,t,1100,1000,170,false,'ami',{ex:{eye:0.8,brow:-0.3,mouth:0.4+0.2*Math.sin(t*7)}});show(c,B,{x:1000,y:1150,z:1.2});grade(c,t);bubble(c,W/2,700,'C’EST JUSTE À CÔTÉ !',clamp((t-1.4)/0.3));tag(c,'IL REFUSE DE S’ATTACHER',T1,clamp((t-C('refuse',1.6))/0.3),'rouge',40);},
+(c,t,d)=>{planche(c,t,t,[['maison','',0.2,'près de chez toi'],['choc','',C('collision',0.8)-0.2,'collision possible']],{kicker:'UN TRAJET COURT N’EST PAS SANS RISQUE',y:860});},
+(c,t,d)=>{const [B,b]=interieur(t);passager(b,t,380,1000,170,true,'heros');passager(b,t,1100,1000,170,true,'femme');show(c,B,{x:760,y:1150,z:1.0});grade(c,t);tag(c,'UNE PLACE, UNE CEINTURE',T1,clamp((t-C('ceinture',2.4)+0.4)/0.3),'vert',42);tag(c,'POUR CHAQUE OCCUPANT',T2,clamp((t-1.0)/0.3),'vert',42);},
+(c,t,d)=>planche(c,t,t,[['siegeEnfant','oui',C('dispositif',1.6)-0.3,'dispositif adapté']],{kicker:'POUR LES ENFANTS',y:820,s:1.8}),
+(c,t,d)=>{const [B,b]=interieur(t);passager(b,t,380,1000,170,true,'heros',{look:1});passager(b,t,1100,1000,170,t>1.4,'ami',{});show(c,B,{x:760,y:1150,z:1.0});grade(c,t);tag(c,'TOUT LE MONDE EST ATTACHÉ ?',T1,clamp((t-C('attaches',2.0)+0.6)/0.3),'vert',40);tag(c,'AVANT DE DÉMARRER',T2,clamp((t-2.4)/0.3),'vert',42);},
+(c,t,d)=>planche(c,t,t,[['airbag','',0.2,'airbag'],['ceinture','oui',C('airbag',1.4)+0.6,'+ ceinture obligatoire']],{kicker:'L’AIRBAG NE REMPLACE PAS',y:860}),
+(c,t,d)=>{planche(c,t,t,[['ceinture','oui',0.3,'chacun bien installé']],{kicker:'PAS DE DÉPART TANT QUE',y:820,s:1.8});},
+(c,t,d)=>fin(c,t,d,[['Même un trajet court',PAL.rouge],['Une place, une ceinture chacun',PAL.vert],['Enfants : dispositif adapté',PAL.vert],['Tout le monde attaché avant de démarrer',PAL.vert]]),
+];

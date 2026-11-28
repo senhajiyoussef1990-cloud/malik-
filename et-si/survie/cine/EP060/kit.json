@@ -1,0 +1,43 @@
+{
+ "id": "EP060",
+ "title": "Et si ton casque de moto avait subi un choc violent ?",
+ "sources": [
+  "https://www.securite-routiere.gouv.fr/operations/equipezvous/infographie"
+ ],
+ "verification": {
+  "status": "Conseils comparés aux extraits officiels effectivement retournés le 27 novembre 2026. Relecture spécialisée indépendante non obtenue.",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si ton casque de moto avait subi un choc violent ? #Shorts",
+  "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/operations/equipezvous/infographie",
+  "social": "Et si ton casque de moto avait subi un choc violent ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-17.json (EP056), placé en épisode 60 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si ton casque de moto avait subi un choc violent ?"
+  },
+  {
+   "voix": "Tu retrouves ton casque après un accident. Même si son apparence te rassure, ne te fie pas uniquement à son aspect."
+  },
+  {
+   "voix": "La Sécurité routière recommande son remplacement après un impact violent."
+  },
+  {
+   "voix": "Pour ton prochain équipement, choisis un modèle homologué qui correspond à ta morphologie."
+  },
+  {
+   "voix": "Vérifie son ajustement et la fermeture de sa jugulaire avant de partir."
+  },
+  {
+   "voix": "Un modèle intégral offre également une protection du bas du visage."
+  },
+  {
+   "voix": "La protection commence avant même de démarrer le moteur."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

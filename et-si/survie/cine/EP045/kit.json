@@ -1,0 +1,53 @@
+{
+ "id": "EP045",
+ "title": "Et si tes doigts commençaient à geler ?",
+ "sources": [
+  "https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/gelures"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Recommandations comparées au texte Ameli retourné par la recherche; revue clinique indépendante requise",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si tes doigts commençaient à geler ? #Shorts",
+  "description": "Simulation éducative. Source : https://www.ameli.fr/assure/sante/themes/froid-pathologies-sante/gelures",
+  "social": "Et si tes doigts commençaient à geler ? #EtSi #Prevention"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-12.json (EP039), placé en épisode 45 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tes doigts commençaient à geler ?"
+  },
+  {
+   "voix": "En pleine promenade hivernale, tes doigts blanchissent. Tu sens des picotements, puis presque plus rien."
+  },
+  {
+   "voix": "Ce manque de sensibilité est un avertissement, même en l’absence de douleur. Protège-toi du froid."
+  },
+  {
+   "voix": "Une exposition prolongée peut endommager les tissus, parfois profondément."
+  },
+  {
+   "voix": "Si des cloques apparaissent, rends-toi directement aux urgences."
+  },
+  {
+   "voix": "Pour une atteinte superficielle, retire les bagues avant de réchauffer progressivement tes mains."
+  },
+  {
+   "voix": "Tu peux les placer sous tes aisselles. Ne les frictionne pas et ne les masse pas."
+  },
+  {
+   "voix": "Évite le sèche-cheveux et le radiateur soufflant, qui peuvent aggraver les lésions."
+  },
+  {
+   "voix": "Une fois réchauffées, protège tes mains d’une nouvelle exposition au gel."
+  },
+  {
+   "voix": "Si les lésions empirent après le réchauffement, consulte en urgence."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

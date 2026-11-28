@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP044 — « Et si une vive te piquait le pied ? » — Texte repris mot pour mot de kits-90s-lot-11.json (EP038), placé en épisode 44 ; fin de la série « … pour plus de conseils ». */
+['douleur','douloureuse','malaise','brûlure','graves'].forEach(w=>RED_W.add(w));
+['aide','poste','chaude','désinfection','consulte','112','protège'].forEach(w=>GREEN_W.add(w));
+function mer(T){const B=buf('w',WB,H),b=B.getContext('2d');plage(b,T,{});return [B,b];}
+const JOUR=b=>ambiance(b,[{x:1200,y:200,r:1900,c:'rgba(255,240,210,0.6)'}],'#c8c8cc');
+const BAIN={...PERSOS.ami,shirt:[230,120,40],shirtD:[160,70,20]};
+function pique(b,T,x,y,u,k,o={}){acteur(b,BAIN,x,y,u,{lean:0.18*k,look:0.95,tilt:0.25*k,ex:{eye:lerp(0.8,0.2,k),brow:0.95*k,mouth:0.6*k},near:k>0.4?{to:[x+0.5*u,y+2.6*u],hand:'open',ang:1.6}:{},far:{bend:-1},walk:o.walk});return [x+0.3*u,y+5.5*u];}
+function aie(c,x,y,a,T){if(a<=0)return;for(let i=0;i<3;i++){const ph=(T*1.4+i/3)%1;c.strokeStyle=`rgba(229,57,53,${a*(1-ph)})`;c.lineWidth=7;c.beginPath();c.arc(x,y,24+ph*90,0,TAU);c.stroke();}}
+const SCENES=[
+(c,t,d)=>{const [B,b]=mer(t);const k=ease(seg(t,0.5,1.0));const A=pique(b,t,760,1000,170,k,{walk:t<0.6?t*1.5:null});JOUR(b);const cam=camAt(t,d,{x:800,y:960,z:1.0},{x:800,y:980,z:1.08});accroche(c,t,d,B,cam,['une vive','te piquait le pied ?']);c.save();camXf(c,cam);aie(c,A[0],A[1],k,t);c.restore();},
+(c,t,d)=>{const [B,b]=mer(t);const k=ease(seg(t,C('douleur',2.6)-0.4,C('douleur',2.6)+0.2));const A=pique(b,t,760,1000,170,k,{walk:k<0.1?t*1.5:null});JOUR(b);const cam=camAt(t,d,{x:800,y:960,z:1.0},{x:A[0]+40,y:A[1]-260,z:1.5});show(c,B,cam);grade(c,t);c.save();camXf(c,cam);aie(c,A[0],A[1],k,t);c.restore();
+  tag(c,'DANS L’EAU PEU PROFONDE',T1,clamp((t-0.2)/0.3),'sombre',40);tag(c,'UNE DOULEUR INTENSE SOUS LE PIED',T2,clamp((t-C('douleur',2.6))/0.3),'rouge',36);},
+(c,t,d)=>{planche(c,t,t,[['vive','',0.2,'la vive']],{kicker:'CACHÉE DANS LE SABLE',y:820,s:1.8});tag(c,'PIQÛRE TRÈS DOULOUREUSE',1250,clamp((t-C('douloureuse',4.4)+0.4)/0.3),'rouge',40);},
+(c,t,d)=>{const [B,b]=mer(t);pique(b,t,700,1000,170,0.8);acteur(b,'heros',1060,1000,170,{look:1,ex:{eye:0.9,brow:0.6,mouth:0.3},near:{to:[1060+1.1*170,1000+0.6*170],hand:'open',ang:-0.4},far:{bend:-1}},{mirror:true});JOUR(b);show(c,B,{x:880,y:960,z:1.08});grade(c,t);
+  tag(c,'RISQUE DE MALAISE',T1,clamp((t-C('malaise',1.6))/0.3),'rouge',42);tag(c,'DEMANDE DE L’AIDE',T2,clamp((t-C('aide',3.2))/0.3),'vert',44);},
+(c,t,d)=>{const [B,b]=mer(t);pique(b,t,980,1000,170,0.6);acteur(b,{...PERSOS.femme,shirt:[220,60,60],shirtD:[150,30,30]},1240,1000,170,{look:0.9,ex:{eye:0.8,brow:0.3,mouth:0.3},near:{to:[1240+1.0*170,1000+0.8*170],hand:'open'},far:{bend:-1}},{mirror:true});JOUR(b);show(c,B,{x:1060,y:960,z:1.1});grade(c,t);
+  tag(c,'REJOINS LE POSTE DE SECOURS',T1,clamp((t-C('poste',0.8))/0.3),'vert',38);tag(c,'EXPLIQUE CE QUI S’EST PASSÉ',T2,clamp((t-2.4)/0.3),'vert',38);},
+(c,t,d)=>{planche(c,t,t,[['bassine','oui',C('chaude',3.0)-0.4,'eau chaude']],{kicker:'SI POSSIBLE',y:820,s:1.8});tag(c,'RECOMMANDATION CROIX-ROUGE',1250,clamp((t-0.6)/0.3),'sombre',38);},
+(c,t,d)=>{planche(c,t,t,[['thermo','',0.2,'pas trop chaude']],{kicker:'ATTENTION À LA TEMPÉRATURE',y:820,s:1.8});tag(c,'NE TE BRÛLE PAS EN PLUS',1250,clamp((t-C('brulure',2.4))/0.3),'rouge',40);},
+(c,t,d)=>planche(c,t,t,[['antiseptique','oui',C('desinfection',0.4)-0.2,'désinfecte la plaie']],{kicker:'ENSUITE',y:820,s:1.8}),
+(c,t,d)=>{planche(c,t,t,[['pharmacien','oui',C('consulte',0.2)-0.1,'consulte vite'],['secours','oui',C('appelle',2.4)-0.3,'graves : 112']],{kicker:'MÉDECIN',y:860});},
+(c,t,d)=>planche(c,t,t,[['sandales','oui',C('protege',1.6)-0.3,'protège tes pieds']],{kicker:'POUR RÉDUIRE LE RISQUE',y:820,s:1.8}),
+(c,t,d)=>fin(c,t,d,[['Douleur intense : demande de l’aide',PAL.rouge],['Poste de secours, explique',PAL.vert],['Eau chaude sans te brûler, désinfecte',PAL.vert],['Consulte vite ; signes graves : 112',PAL.vert]]),
+];
+
+</script></body></html>

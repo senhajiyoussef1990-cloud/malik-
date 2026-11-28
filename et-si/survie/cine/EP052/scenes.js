@@ -1,0 +1,17 @@
+['tard','interdit','demi-tour','dangereuse'].forEach(w=>RED_W.add(w));
+['poursuivre','recalculer','panneaux','voie','cède','itinéraire','kilomètres'].forEach(w=>GREEN_W.add(w));
+function vueS(t,o={},k=0.5){const [B,b]=vueConducteur(t,{kmh:110,...o,mains:true});if(o.panneau!=null){const z=o.panneau,y=VY-90+z*60,x=VX+140+z*260,s=0.5+z*1.3;b.save();b.translate(x,y);b.scale(s,s);ICO.sortie(b);b.restore();b.fillStyle='#8a8e94';b.fillRect(x-6*s,y+70*s,12*s,200*s);habitacle(b,t,{kmh:o.kmh??110,volant:o.volant});}return [B,b];}
+function vue(c,t,o,cam){const [B]=vueS(t,o);show(c,B,cam||{x:WB/2,y:H/2,z:1});grade(c,t);}
+const SCENES=[
+(c,t,d)=>{const [B]=vueS(t,{panneau:clamp(t/d)*0.9,devant:0.3});accroche(c,t,d,B,camAt(t,d,{x:WB/2,y:H/2,z:1.0},{x:WB/2,y:880,z:1.1}),['tu ratais ta sortie','sur l’autoroute ?']);},
+(c,t,d)=>{vue(c,t,{panneau:clamp(0.6+t/d*0.4),devant:0.3});tag(c,'TA SORTIE… TROP TARD',T1,clamp((t-C('sortie',1.0))/0.3),'rouge',42);},
+(c,t,d)=>{planche(c,t,t,[['demiTour','non',0.3,'pas de marche arrière']],{kicker:'SUR L’AUTOROUTE, C’EST INTERDIT',y:820,s:1.8});tag(c,'MÊME SUR LA BANDE D’ARRÊT D’URGENCE',1250,clamp((t-2.4)/0.3),'rouge',34);},
+(c,t,d)=>{planche(c,t,t,[['demiTour','non',C('demitour',1.0)-0.2,'pas de demi-tour']],{kicker:'JAMAIS',y:820,s:1.8});tag(c,'MÊME PAR UNE OUVERTURE AU CENTRE',1250,clamp((t-2.2)/0.3),'rouge',34);},
+(c,t,d)=>{planche(c,t,t,[['sortie','oui',0.2,'prochaine sortie'],['gps','oui',C('recalculer',2.4)-0.3,'recalcule l’itinéraire']],{kicker:'POURSUIS TON TRAJET',y:860});},
+(c,t,d)=>{vue(c,t,{panneau:clamp(0.2+t/d*0.6),devant:0.3});tag(c,'OBSERVE LES PANNEAUX TÔT',T1,clamp((t-C('panneaux',2.4))/0.3),'vert',40);},
+(c,t,d)=>{vue(c,t,{devant:0.3,devantX:-0.35,volant:0.12*Math.sin(clamp(t/d)*Math.PI)});tag(c,'PLACE-TOI SUR LA BONNE VOIE',T1,clamp((t-C('voie',0.6))/0.3),'vert',38);tag(c,'AVANT LA SÉPARATION',T2,clamp((t-2.2)/0.3),'vert',42);},
+(c,t,d)=>{planche(c,t,t,[['triangle','oui',C('cede',1.6)-0.3,'cède le passage']],{kicker:'EN REJOIGNANT L’AUTOROUTE',y:820,s:1.8});tag(c,'AUX VÉHICULES DÉJÀ PRÉSENTS',1250,clamp((t-2.6)/0.3),'vert',38);},
+(c,t,d)=>planche(c,t,t,[['gps','oui',C('itineraire',0.8)-0.2,'prépare ton itinéraire']],{kicker:'AVANT DE PARTIR',y:820,s:1.8}),
+(c,t,d)=>planche(c,t,t,[['sortie','oui',0.2,'+ quelques km'],['demiTour','non',C('kilometres',1.4)+0.4,'danger']],{kicker:'MIEUX VAUT',y:860}),
+(c,t,d)=>fin(c,t,d,[['Sortie ratée : continue',PAL.vert],['Ni marche arrière, ni demi-tour',PAL.rouge],['Panneaux tôt, bonne voie tôt',PAL.vert],['Itinéraire préparé avant de partir',PAL.vert]]),
+];

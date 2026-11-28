@@ -1,0 +1,46 @@
+{
+ "id": "EP056",
+ "title": "Et si la voiture devant toi freinait brutalement ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/dangers-de-la-route/la-vitesse-et-la-conduite"
+ ],
+ "verification": {
+  "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si la voiture devant toi freinait brutalement ? #Shorts",
+  "description": "Prévention routière. Source : https://validation.securite-routiere.gouv.fr/dangers-de-la-route/la-vitesse-et-la-conduite",
+  "social": "Et si la voiture devant toi freinait brutalement ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-16.json (EP052), placé en épisode 56 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si la voiture devant toi freinait brutalement ?"
+  },
+  {
+   "voix": "Tu suis une voiture lorsque ses feux de freinage s’allument brusquement."
+  },
+  {
+   "voix": "Avant même de freiner, tu parcours une certaine distance pendant ton temps de réaction."
+  },
+  {
+   "voix": "La distance de freinage vient ensuite s’ajouter à cette distance."
+  },
+  {
+   "voix": "Plus tu roules vite, plus la distance nécessaire pour t’arrêter augmente."
+  },
+  {
+   "voix": "Garde au minimum deux secondes d’écart avec le véhicule précédent."
+  },
+  {
+   "voix": "Adapte aussi ta vitesse à la chaussée et aux conditions météorologiques."
+  },
+  {
+   "voix": "Ne colle jamais la voiture devant toi pour gagner du temps."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "EP047",
+ "title": "Et si tu arrivais trop vite sur un chantier autoroutier ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite/conduire-sur-routes-specifiques/conduire-aux-abords-des-chantiers"
+ ],
+ "verification": {
+  "status": "Source officielle consultée; contrôle final des gestes et des règles locales requis",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si tu arrivais trop vite sur un chantier autoroutier ? #Shorts",
+  "description": "Simulation éducative. Source : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite/conduire-sur-routes-specifiques/conduire-aux-abords-des-chantiers",
+  "social": "Et si tu arrivais trop vite sur un chantier autoroutier ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-13.json (EP043), placé en épisode 47 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tu arrivais trop vite sur un chantier autoroutier ?"
+  },
+  {
+   "voix": "Tu circules sur une autoroute quand des panneaux annoncent un chantier."
+  },
+  {
+   "voix": "Les voies peuvent se rétrécir et les véhicules ralentir."
+  },
+  {
+   "voix": "Observe la signalisation temporaire pour comprendre le trajet à suivre."
+  },
+  {
+   "voix": "Réduis ta vitesse suffisamment tôt."
+  },
+  {
+   "voix": "Anticipe les changements de voie au lieu d’attendre le dernier moment."
+  },
+  {
+   "voix": "Redouble de vigilance devant les véhicules signalés par des feux clignotants."
+  },
+  {
+   "voix": "Laisse suffisamment d’espace avec la voiture qui te précède."
+  },
+  {
+   "voix": "Sous la pluie ou dans le brouillard, augmente encore ta vigilance."
+  },
+  {
+   "voix": "Maintiens une allure adaptée jusqu’à la fin de la zone de travaux."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

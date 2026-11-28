@@ -1,0 +1,49 @@
+{
+ "id": "EP048",
+ "title": "Et si une pluie torrentielle réduisait ta visibilité ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite",
+  "https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf",
+  "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf"
+ ],
+ "verification": {
+  "date": "2026-11-27",
+  "status": "Conseils généraux comparés aux documents officiels retournés par la recherche. Validation spécialiste et contrôle local requis.",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si une pluie torrentielle réduisait ta visibilité ? #Shorts",
+  "description": "Prévention routière. Sources : https://validation.securite-routiere.gouv.fr/chaque-situation-sa-conduite https://www.securite-routiere.gouv.fr/sites/default/files/press-kits/3702-dp_20_12_2004_3dossierdepresse_2.pdf https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2023-10/Bilan%202022%20de%20la%20s%C3%A9curit%C3%A9%20routi%C3%A8re%20version%20site%20internet.pdf",
+  "social": "Et si une pluie torrentielle réduisait ta visibilité ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-14.json (EP044), placé en épisode 48 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si une pluie torrentielle réduisait ta visibilité ?"
+  },
+  {
+   "voix": "Imagine que le ciel s’assombrisse brutalement pendant ton trajet. La chaussée se couvre d’eau et les voitures devant toi deviennent difficiles à distinguer."
+  },
+  {
+   "voix": "Sur une route mouillée, les pneus adhèrent moins bien. Tu as besoin de davantage d’espace pour immobiliser ta voiture."
+  },
+  {
+   "voix": "Réduis ta vitesse selon la visibilité et l’état de la route. Une limitation affichée n’est pas une vitesse à atteindre absolument."
+  },
+  {
+   "voix": "Augmente l’espace qui te sépare du véhicule précédent. Tu disposeras ainsi de davantage de temps pour réagir."
+  },
+  {
+   "voix": "Anticipe les ralentissements et évite les changements brusques de direction ou d’allure."
+  },
+  {
+   "voix": "Ne cherche pas à suivre le rythme des autres automobilistes si tu ne vois pas suffisamment loin."
+  },
+  {
+   "voix": "Si les intempéries rendent le trajet trop dangereux, interromps-le dans un endroit autorisé et sûr."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

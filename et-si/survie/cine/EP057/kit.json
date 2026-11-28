@@ -1,0 +1,46 @@
+{
+ "id": "EP057",
+ "title": "Et si tes pneus étaient mal gonflés ?",
+ "sources": [
+  "https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils"
+ ],
+ "verification": {
+  "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si tes pneus étaient mal gonflés ? #Shorts",
+  "description": "Prévention routière. Source : https://validation.securite-routiere.gouv.fr/chacun-son-mode-de-deplacement/dangers-de-la-route-en-voiture/equipement-de-la-voiture/conseils",
+  "social": "Et si tes pneus étaient mal gonflés ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-16.json (EP053), placé en épisode 57 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si tes pneus étaient mal gonflés ?"
+  },
+  {
+   "voix": "Tu pars en vacances avec une voiture chargée. As-tu vérifié tes pneus ?"
+  },
+  {
+   "voix": "Leur entretien contribue directement à la sécurité du trajet."
+  },
+  {
+   "voix": "Vérifie régulièrement leur état et leur usure."
+  },
+  {
+   "voix": "Consulte les recommandations du constructeur pour connaître la pression adaptée."
+  },
+  {
+   "voix": "Un chargement important peut nécessiter un réglage différent."
+  },
+  {
+   "voix": "Contrôle ces éléments avant un long déplacement."
+  },
+  {
+   "voix": "Un entretien régulier est préférable à une découverte du problème sur la route."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

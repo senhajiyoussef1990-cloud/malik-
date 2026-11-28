@@ -1,0 +1,46 @@
+{
+ "id": "EP054",
+ "title": "Et si un SMS te faisait manquer un obstacle ?",
+ "sources": [
+  "https://www.securite-routiere.gouv.fr/sites/default/files/2021-07/dsr_depliant_smartphone_2021.pdf"
+ ],
+ "verification": {
+  "status": "Extraits officiels retrouvés et comparés; validation indépendante non obtenue; contrôler les détails techniques et règles locales avant diffusion",
+  "professional_review": false
+ },
+ "publication": {
+  "titre": "Et si un SMS te faisait manquer un obstacle ? #Shorts",
+  "description": "Prévention routière. Source : https://www.securite-routiere.gouv.fr/sites/default/files/2021-07/dsr_depliant_smartphone_2021.pdf",
+  "social": "Et si un SMS te faisait manquer un obstacle ? #EtSi #SecuriteRoutiere"
+ },
+ "note": "Texte repris mot pour mot de kits-90s-lot-16.json (EP050), placé en épisode 54 ; fin de la série « … pour plus de conseils ».",
+ "scenes": [
+  {
+   "voix": "Et si un SMS te faisait manquer un obstacle ?"
+  },
+  {
+   "voix": "Ton téléphone vibre dans la voiture. Devant toi, la circulation ralentit, mais ton regard quitte déjà la chaussée."
+  },
+  {
+   "voix": "À cinquante kilomètres par heure, cinq secondes représentent près de soixante-dix mètres parcourus."
+  },
+  {
+   "voix": "Pendant ce temps, un obstacle peut apparaître sans que tu le remarques."
+  },
+  {
+   "voix": "Même une conversation mains libres peut détourner ton attention."
+  },
+  {
+   "voix": "Avant de démarrer, active le mode conduite pour limiter les notifications."
+  },
+  {
+   "voix": "Range ton téléphone hors de portée ou confie-le à un passager."
+  },
+  {
+   "voix": "Pour lire tes messages, attends une pause dans un lieu de stationnement sûr."
+  },
+  {
+   "voix": "Maintenant, tu sais quoi faire. Mais tes proches le savent-ils ? Partage cette vidéo et abonne-toi pour plus de conseils."
+  }
+ ]
+}

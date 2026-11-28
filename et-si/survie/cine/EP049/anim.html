@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>@font-face{font-family:M;src:url("../../../moteur/fonts/Montserrat[wght].ttf");font-weight:100 900}html,body{margin:0;background:#000}</style>
+</head><body><canvas id="c"></canvas>
+<script src="../cine.js"></script><script src="../perso.js"></script><script src="../commun.js"></script><script src="../decors.js"></script>
+<script>
+/* EP049 — « Et si un brouillard épais masquait la route ? » — Texte repris mot pour mot de kits-90s-lot-14.json (EP045), placé en épisode 49 ; fin de la série « … pour plus de conseils ». */
+['brouillard','obstacle','accélérer'].forEach(w=>RED_W.add(w));
+['ralentis','marge','anticipe','reporte','sûr'].forEach(w=>GREEN_W.add(w));
+function vue(c,t,o,cam){const [B]=vueConducteur(t,o);show(c,B,cam||{x:WB/2,y:H/2,z:1});grade(c,t);}
+const SCENES=[
+(c,t,d)=>{const k=seg(t,0,d);const [B]=vueConducteur(t,{brouillard:lerp(0.2,0.85,k),devant:0.4,kmh:90});accroche(c,t,d,B,camAt(t,d,{x:WB/2,y:H/2,z:1.0},{x:WB/2,y:880,z:1.1}),['un brouillard épais','masquait la route ?']);},
+(c,t,d)=>{const k=seg(t,0,d);vue(c,t,{brouillard:lerp(0.3,0.9,k),kmh:90});tag(c,'UNE NAPPE DE BROUILLARD',T1,clamp((t-C('brouillard',1.6))/0.3),'sombre',42);tag(c,'LE PAYSAGE DISPARAÎT',T2,clamp((t-3.0)/0.3),'rouge',42);},
+(c,t,d)=>{const k=ease(seg(t,C('obstacle',2.2)-0.3,C('obstacle',2.2)+0.5));vue(c,t,{brouillard:0.9,devant:lerp(0.15,0.55,k),frein:true,kmh:90});tag(c,'VISIBILITÉ RÉDUITE',T1,clamp((t-0.2)/0.3),'rouge',42);tag(c,'TRÈS PEU DE TEMPS POUR RÉAGIR',T2,clamp((t-C('obstacle',2.2))/0.3),'rouge',36);},
+(c,t,d)=>{const k=ease(seg(t,0.2,2.0));vue(c,t,{brouillard:0.85,kmh:Math.round(lerp(90,50,k)),vitesse:lerp(1.2,0.6,k)});tag(c,'RALENTIS',T1,clamp((t-C('ralentis',0.2))/0.3),'vert',48);tag(c,'SELON CE QUE TU VOIS RÉELLEMENT',T2,clamp((t-1.6)/0.3),'vert',36);},
+(c,t,d)=>{vue(c,t,{brouillard:0.8,devant:0.62,kmh:50});tag(c,'NE TE COLLE PAS À SES FEUX',T1,clamp((t-C('feux',2.2))/0.3),'rouge',40);},
+(c,t,d)=>planche(c,t,t,[['brouillardIco','',0.2,'brouillard'],['vertige','',C('accelerer',2.6)-0.4,'tout le monde accélère']],{kicker:'UN PIÈGE COLLECTIF',y:860}),
+(c,t,d)=>{vue(c,t,{brouillard:0.8,devant:0.3,kmh:50});tag(c,'GARDE UNE MARGE DE SÉCURITÉ',T1,clamp((t-C('marge',1.0))/0.3),'vert',38);tag(c,'ANTICIPE',T2,clamp((t-2.4)/0.3),'vert',46);},
+(c,t,d)=>planche(c,t,t,[['calendrier','oui',C('reporte',1.8)-0.3,'reporte le trajet'],['parking','oui',C('reporte',1.8)+0.8,'stationnement sûr']],{kicker:'CONDITIONS TROP MAUVAISES ?',y:860}),
+(c,t,d)=>fin(c,t,d,[['Ralentis selon la distance visible',PAL.vert],['Ne suis pas les feux de devant',PAL.rouge],['Garde une marge de sécurité',PAL.vert],['Trop mauvais : reporte ou arrête-toi',PAL.vert]]),
+];
+
+</script></body></html>
