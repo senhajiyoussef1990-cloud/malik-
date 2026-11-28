@@ -24,8 +24,8 @@ const SCENES=[
 (c,t,d)=>{planche(c,t,t,[['retenir','non',0.3,'ne retiens pas']],{kicker:'SES BRAS, SES JAMBES',y:820,s:1.8});tag(c,'NE TENTE PAS DE LES RETENIR',1250,clamp((t-C('retenir',1.0))/0.3),'rouge',38);},
 (c,t,d)=>{planche(c,t,t,[['bouche','non',0.3,'rien dans la bouche']],{kicker:'JAMAIS',y:820,s:1.8});tag(c,'NI OBJET NI DOIGT DANS SA BOUCHE',1250,clamp((t-C('doigt',2.0))/0.3),'rouge',36);},
 (c,t,d)=>{planche(c,t,t,[['gorgee','non',0.3,'rien à boire']],{kicker:'PENDANT LA CRISE',y:820,s:1.8});},
-(c,t,d)=>planche(c,t,t,[['horloge','oui',C('heure',0.6)-0.2,'note l’heure du début'],['famille','oui',C('reste',2.8)-0.3,'reste auprès d’elle']],{kicker:'PENDANT LES CONVULSIONS',y:860}),
-(c,t,d)=>{planche(c,t,t,[['minuterie','',0.3,'plus de 5 minutes'],['sablier','',C('recommence',2.6)-0.3,'recommence sans récupérer']],{kicker:'APPELLE LE 112 SI',y:860});tag(c,'APPELLE LE 112',1250,clamp((t-0.6)/0.3),'vert',44);tag(c,'EN CAS DE DOUTE AUSSI',1340,clamp((t-C('doute',4.8))/0.3),'jaune',40);},
+(c,t,d)=>planche(c,t,t,[['horloge','oui',C('heure',0.6)-0.2,'note l’heure'],['famille','oui',C('reste',2.8)-0.3,'reste près d’elle']],{kicker:'PENDANT LES CONVULSIONS',y:860}),
+(c,t,d)=>{planche(c,t,t,[['minuterie','',0.3,'plus de 5 min'],['sablier','',C('recommence',2.6)-0.3,'elle recommence']],{kicker:'APPELLE LE 112 SI',y:860});tag(c,'APPELLE LE 112',1250,clamp((t-0.6)/0.3),'vert',44);tag(c,'EN CAS DE DOUTE AUSSI',1340,clamp((t-C('doute',4.8))/0.3),'jaune',40);},
 (c,t,d)=>{const [B,b]=salon(t);const n=victime(b,t,{tete:true});aidant(b,t,{lean:-0.35});AMB(b);const cam={x:520,y:1380,z:1.5};show(c,B,cam);grade(c,t);c.save();camXf(c,cam);souffle(c,n[0]-260,n[1]-60,clamp((t-C('respiration',1.4))/0.3),t);c.restore();
   tag(c,'APRÈS LES SECOUSSES',T1,clamp((t-0.1)/0.3),'sombre',40);tag(c,'CONTRÔLE SA RESPIRATION',T2,clamp((t-C('respiration',1.4))/0.3),'vert',40);tag(c,'SUIS LES INSTRUCTIONS DES SECOURS',1250,clamp((t-C('instructions',3.4))/0.3),'vert',34);},
 (c,t,d)=>{const [B,b]=salon(t);victime(b,t,{cote:t>C('cote',3.6)-0.3,tete:true});aidant(b,t,{lean:-0.3});AMB(b);show(c,B,{x:640,y:1300,z:1.2});grade(c,t);
