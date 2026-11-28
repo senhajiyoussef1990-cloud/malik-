@@ -11,7 +11,7 @@ function escalier(T){const B=buf('w',WB,H),b=B.getContext('2d');decor(b,'couloir
   b.fillStyle='#c8b8a0';b.fillRect(0,880,WB,16);for(let x=40;x<WB;x+=120)b.fillRect(x,896,12,140);return [B,b];}
 const AMB=b=>ambiance(b,[LAMPE(710,200,1.2),LAMPE(400,900,0.6,900)],'#8a8e96');
 // pied tordu : appui sur une marche, main vers la cheville
-function tordu(b,T,x,y,u,k){const A=[x+0.3*u,y+4.9*u];acteur(b,'heros',x,y,u,{lean:0.25*k,look:0.9,tilt:0.2*k,ex:{eye:lerp(0.8,0.3,k),brow:0.95*k,mouth:0.5*k},near:k>0.3?{to:[A[0]+0.25*u,A[1]-1.1*u],hand:'open',ang:1.6}:{},far:{bend:-1}});return A;}
+function tordu(b,T,x,y,u,k){const A=[x+0.3*u,y+5.5*u];acteur(b,'heros',x,y,u,{lean:0.25*k,look:0.9,tilt:0.2*k,ex:{eye:lerp(0.8,0.3,k),brow:0.95*k,mouth:0.5*k},near:k>0.3?{to:[A[0]+0.25*u,A[1]-1.1*u],hand:'open',ang:1.6}:{},far:{bend:-1}});return A;}
 function douleur(c,x,y,a,T){if(a<=0)return;for(let i=0;i<3;i++){const ph=(T*1.3+i/3)%1;c.strokeStyle=`rgba(229,57,53,${a*(1-ph)})`;c.lineWidth=7;c.beginPath();c.arc(x,y,24+ph*90,0,TAU);c.stroke();}}
 const SCENES=[
 (c,t,d)=>{const [B,b]=escalier(t);const k=ease(seg(t,0.4,1.0));const A=tordu(b,t,560,820,170,k);AMB(b);const cam=camAt(t,d,{x:700,y:1120,z:1.0},{x:700,y:1140,z:1.08});accroche(c,t,d,B,cam,['tu te tordais','la cheville ?']);c.save();camXf(c,cam);douleur(c,A[0],A[1],k,t);c.restore();},
