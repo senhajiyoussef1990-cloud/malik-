@@ -11,7 +11,7 @@ const AMB=b=>ambiance(b,[LAMPE(760,500,1.2),LAMPE(1200,700,0.6)],'#6a6e7a');
 // parent qui porte le bébé contre lui
 function parent(b,T,x,y,u,k,o={}){const P=[x+0.85*u,y+0.95*u];acteur(b,'femme',x,y,u,{lean:0.04,look:o.look??0.6,tilt:0.15,ex:o.ex||{eye:0.8,brow:0.8*k,mouth:0.2},near:o.near||{to:[P[0]+0.1*u,P[1]+0.25*u],hand:'open',ang:-0.4},far:{to:[P[0]-0.1*u,P[1]-0.25*u],hand:'open',bend:-1}},{after:f=>{f.save();f.translate(P[0],P[1]);f.scale(0.0072*u,0.0072*u);f.rotate(-0.3);ICO[o.ko?'bebeKO':'bebe'](f);f.restore();}});return P;}
 const SCENES=[
-(c,t,d)=>{const [B,b]=chambre(t);const k=ease(seg(t,0.2,1.0));parent(b,t,700,860,190,k);AMB(b);accroche(c,t,d,B,camAt(t,d,{x:740,y:1000,z:1.05},{x:740,y:990,z:1.15}),['ton bébé avait','une diarrhée importante ?']);},
+(c,t,d)=>{const [B,b]=chambre(t);const k=ease(seg(t,0.2,1.0));parent(b,t,700,1000,190,k);AMB(b);accroche(c,t,d,B,camAt(t,d,{x:780,y:960,z:1.05},{x:800,y:960,z:1.15}),['ton bébé avait','une diarrhée importante ?']);},
 (c,t,d)=>planche(c,t,t,[['bebe','',0.2,'moins de 2 ans'],['pharmacien','oui',C('avis',3.6)-0.4,'avis médical rapide']],{kicker:'DIARRHÉE AIGUË',y:860}),
 (c,t,d)=>{planche(c,t,t,[['goutte','',0.2,'eau et sels minéraux']],{kicker:'LE DANGER PRINCIPAL',y:820,s:1.8});tag(c,'LA DÉSHYDRATATION',1250,clamp((t-C('eau',1.8))/0.3),'rouge',46);},
 (c,t,d)=>planche(c,t,t,[['sro','oui',C('solution',0.6)-0.2,'réhydratation'],['notice','oui',C('notice',4.2)-0.4,'selon la notice']],{kicker:'EN PHARMACIE',y:860}),
