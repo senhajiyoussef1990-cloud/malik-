@@ -12,9 +12,9 @@ function serpent(b,x,y,s,T,mord=0){b.save();b.translate(x,y);b.scale(-s,s);b.rot
 function randonneur(b,T,x,y,u,k,o={}){return acteur(b,'heros',x,y,u,{lean:-0.12*k,look:o.look??0.95,tilt:0.2*k,ex:{eye:lerp(0.8,1,k),brow:0.9*k,mouth:0.5*k},near:o.near||{to:[x+0.9*u,y+0.4*u],hand:'open',ang:-0.8},far:{bend:-1},walk:o.walk},o.mirror?{mirror:true}:{});}
 const SCENES=[
 (c,t,d)=>{const [B,b]=sentier(t);const k=ease(seg(t,0.4,0.9));serpent(b,1040,1700,0.9,t,k);randonneur(b,t,760,1000,190,k);JOUR(b);accroche(c,t,d,B,camAt(t,d,{x:820,y:960,z:1.0},{x:840,y:980,z:1.1}),['un serpent te mordait','pendant une randonnée ?']);},
-(c,t,d)=>{const [B,b]=sentier(t);const k=ease(seg(t,C('mord',2.6)-0.3,C('mord',2.6)+0.2));serpent(b,1040,1700,0.9,t,k);randonneur(b,t,760,1000,190,k);JOUR(b);show(c,B,camAt(t,d,{x:820,y:1100,z:1.0},{x:900,y:1450,z:1.5}));grade(c,t);
+(c,t,d)=>{const [B,b]=sentier(t);const k=ease(seg(t,C('mord',2.6)-0.3,C('mord',2.6)+0.2));serpent(b,1040,1700,0.9,t,k);randonneur(b,t,760,1000,190,k);JOUR(b);show(c,B,camAt(t,d,{x:820,y:960,z:1.0},{x:900,y:1280,z:1.5}));grade(c,t);
   tag(c,'SUR UN SENTIER EUROPÉEN',T1,clamp((t-0.2)/0.3),'sombre',40);tag(c,'UNE MORSURE À LA CHEVILLE',T2,clamp((t-C('mord',2.6))/0.3),'rouge',40);},
-(c,t,d)=>{const [B,b]=sentier(t);const k=ease(seg(t,0.2,d-0.3));serpent(b,1040,1700,0.9,t,0);randonneur(b,t,lerp(760,380,k),1000,190,0.6,{walk:k>0.02&&k<0.98?t*1.6:null,look:0.9,mirror:true});JOUR(b);show(c,B,{x:760,y:1060,z:1.0});grade(c,t);
+(c,t,d)=>{const [B,b]=sentier(t);const k=ease(seg(t,0.2,d-0.3));serpent(b,1040,1700,0.9,t,0);randonneur(b,t,lerp(760,380,k),1000,190,0.6,{walk:k>0.02&&k<0.98?t*1.6:null,look:0.9,mirror:true});JOUR(b);show(c,B,{x:760,y:960,z:1.0});grade(c,t);
   tag(c,'ÉCARTE-TOI DE L’ANIMAL',T1,clamp((t-C('ecarte',0.2))/0.3),'vert',42);tag(c,'N’ESSAIE PAS DE LE CAPTURER',T2,clamp((t-C('capturer',1.8))/0.3),'rouge',38);},
 (c,t,d)=>{planche(c,t,t,[['serpent','',0.2,'douleur faible ?'],['secours','oui',C('appelle',2.4)-0.3,'112']],{kicker:'MÊME SI ÇA FAIT PEU MAL',y:860});tag(c,'APPELLE LE 112 IMMÉDIATEMENT',1250,clamp((t-C('appelle',2.4))/0.3),'vert',38);},
 (c,t,d)=>{planche(c,t,t,[['allonge','oui',C('allonge',0.6)-0.2,'reste allongé']],{kicker:'EN ATTENDANT',y:820,s:1.8});tag(c,'LIMITE LES MOUVEMENTS DU MEMBRE',1250,clamp((t-C('limite',1.6))/0.3),'vert',36);},

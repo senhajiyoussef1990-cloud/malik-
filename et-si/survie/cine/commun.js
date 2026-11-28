@@ -8,7 +8,9 @@ function dashArrow(c,pts,a,col,w=10){if(a<=0)return;c.save();c.globalAlpha=Math.
   const n=pts.length-1,k=clamp(a)*n;c.beginPath();c.moveTo(pts[0][0],pts[0][1]);let end=pts[0],prev=pts[0];
   for(let i=1;i<=n;i++){const q=clamp(k-(i-1));if(q<=0)break;const p=[lerp(pts[i-1][0],pts[i][0],q),lerp(pts[i-1][1],pts[i][1],q)];c.lineTo(p[0],p[1]);prev=pts[i-1];end=p;}
   c.stroke();c.setLineDash([]);const an=Math.atan2(end[1]-prev[1],end[0]-prev[0]);c.translate(end[0],end[1]);c.rotate(an);c.beginPath();c.moveTo(w*2.6,0);c.lineTo(-w*1.4,-w*2);c.lineTo(-w*1.4,w*2);c.closePath();c.fill();c.restore();}
-function show(c,B,cam,blur=0){c.save();camXf(c,cam);if(blur)c.filter=`blur(${blur}px)`;c.drawImage(B,0,0);c.restore();}
+// la caméra ne sort jamais du décor (pas de bande noire) ; corrige l'objet cam sur place pour que les surimpressions suivent
+let CAM_CLAMP=0;function clampCam(cam,w,h){if(!cam)return cam;const z0=cam.z||1,x0=cam.x??W/2,y0=cam.y??H/2;const z=Math.max(z0,W/w,H/h),hw=W/2/z,hh=H/2/z;cam.z=z;cam.x=clamp(x0,hw,w-hw);cam.y=clamp(y0,hh,h-hh);if(Math.abs(cam.x-x0)+Math.abs(cam.y-y0)+Math.abs(z-z0)>1)CAM_CLAMP++;return cam;}
+function show(c,B,cam,blur=0){if(cam&&!cam.r)clampCam(cam,B.width,B.height);c.save();camXf(c,cam);if(blur)c.filter=`blur(${blur}px)`;c.drawImage(B,0,0);c.restore();}
 function topShade(c,h=820){c.fillStyle=lg(c,0,0,0,h,[[0,'rgba(8,11,16,0.85)'],[1,'rgba(8,11,16,0)']]);c.fillRect(0,0,W,h);}
 function signature(c,t,t0){const k=clamp((t-t0)/0.35);if(k<=0)return;c.save();c.globalAlpha=k;const y=720+(1-eout(k))*20;
   c.fillStyle='rgba(8,11,16,0.78)';c.fillRect(W/2-460,y-58,920,116);c.fillStyle=PAL.rouge;c.fillRect(W/2-460,y-58,10,116);
